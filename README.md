@@ -1,2 +1,5 @@
-# vco
-Victory Conditions Overhaul 2 for Total War: Warhammer 3
+# Victory Conditions Overhaul
+
+Victory Conditions Overhaul for Total War: Warhammer 3. 
+
+Work in progress...
