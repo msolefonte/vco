@@ -1,0 +1,5 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/vco_effects.loc		
+effects_description_vco_campaign_victory_dummy	Campaign Victory	true
+effects_description_vco_effect_public_order_cathay_unified	{{tr:public_order_effect}}: %+n (per region in Cathay)	true
+effects_description_vco_effect_province_growth_cathay_unified	Growth: %+n (per region in Cathay)	true

@@ -1,0 +1,10 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/vco_effect_bundles.loc		
+effect_bundles_localised_description_vco_campaign_victory_dummy	Completing a route will count as a campaign victory and will trigger the achievements. Do not worry, you still will be able to keep playing to complete the other routes or go for a world domination!	true
+effect_bundles_localised_title_vco_campaign_victory_dummy	Campaign Victory	true
+effect_bundles_localised_description_vco_victory_payload_iron_into_gold	PLACEHOLDER	true
+effect_bundles_localised_title_vco_victory_payload_iron_into_gold	Global Trade	true
+effect_bundles_localised_description_vco_victory_payload_in_harmony	PLACEHOLDER	true
+effect_bundles_localised_title_vco_victory_payload_in_harmony	Empire of the Celestial Dragon	true
+effect_bundles_localised_description_vco_victory_payload_dont_thread_on_ming	PLACEHOLDER	true
+effect_bundles_localised_title_vco_victory_payload_dont_thread_on_ming	Safe Roads	true
