@@ -4,3 +4,5 @@ vco_campaign_victory_dummy	Campaign Victory	PLACEHOLDER	hunter_effect_icons_loya
 vco_victory_payload_iron_into_gold	Global Trade	PLACEHOLDER	diplomacy.png	faction	1	true	false	true
 vco_victory_payload_in_harmony	Empire of the Celestial Dragon	PLACEHOLDER	public_order_happy.png	faction	1	true	false	true
 vco_victory_payload_dont_thread_on_ming	Safe Roads	PLACEHOLDER	trade_agreement.png	faction	1	true	false	true
+vco_victory_payload_cool_and_aloof	Unreachable	PLACEHOLDER	defence.png	faction	1	true	false	true
+vco_victory_payload_the_northern_expedition	Bringer of Light and Hope	PLACEHOLDER	replenishment.png	faction	1	true	false	true

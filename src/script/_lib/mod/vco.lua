@@ -6,25 +6,25 @@ local config = {
 -- GENERIC --
 
 function vco:get_config(config_key)
-  out("[wolfy][vco] Getting config for key " .. config_key);
+  --out("[wolfy][vco] Getting config for key " .. config_key);
   local config_value = config[config_key];
 
-  if get_mct then
-    local mct = get_mct();
-    if mct ~= nil then
-      out("[wolfy][vco] Reading value from MCT");
-      local mod_cfg = mct:get_mod_by_key("wolfy_vco");
-      local opt_key = mod_cfg:get_option_by_key(config_key);
+  --if get_mct then
+  --  local mct = get_mct();
+  --  if mct ~= nil then
+  --    out("[wolfy][vco] Reading value from MCT");
+  --    local mod_cfg = mct:get_mod_by_key("wolfy_vco");
+  --    local opt_key = mod_cfg:get_option_by_key(config_key);
+  --
+  --    if not opt_key then
+  --      out("[wolfy][vco] ERROR Reading value from MCT: Config key not valid");
+  --    else
+  --      config_value = opt_key:get_finalized_setting();
+  --    end
+  --  end
+  --end
 
-      if not opt_key then
-        out("[wolfy][vco] ERROR Reading value from MCT: Config key not valid");
-      else
-        config_value = opt_key:get_finalized_value()
-      end
-    end
-  end
-
-  out("[wolfy][vco] Config value read: " .. config_key .. " -> " .. tostring(config_value));
+  --out("[wolfy][vco] Config value read: " .. config_key .. " -> " .. tostring(config_value));
   return config_value;
 end
 
@@ -61,12 +61,12 @@ function vco:trigger_faction_missions(mod_name, faction_key)
 end
 
 function vco:trigger_custom_missions(mod_name)
-    if cm:is_new_game() then
+    --if cm:is_new_game() then
         self:log("Triggering custom missions (mod: " .. mod_name .. ")");
         for _, faction_key in ipairs(cm:get_human_factions()) do
             self:trigger_faction_missions(mod_name, faction_key);
         end
-    end
+    --end
 end
 
 function vco:trigger_mission_for_current_faction(mission)

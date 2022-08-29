@@ -2,54 +2,7 @@ local missions = {
 	[[
  		mission
 		{
-			victory_type vco_victory_type_alternative_1_iron_into_gold;
-			key wh_main_long_victory;
-			issuer CLAN_ELDERS;
-			primary_objectives_and_payload
-			{
-				objective
-				{
-					type HAVE_AT_LEAST_X_MONEY;
-					total 500048;
-				}
-
-				objective
-				{
-					override_text mission_text_text_vco_cth_the_western_provinces_caravans_0;
-					type SCRIPTED;
-					script_key vco_cth_the_western_provinces_caravans;
-				}
-
-				objective
-				{
-					override_text mission_text_text_vco_cth_the_western_provinces_goods_0;
-					type SCRIPTED;
-					script_key vco_cth_the_western_provinces_goods;
-				}
-
-				payload
-				{
-					effect_bundle
-					{
-						bundle_key vco_victory_payload_iron_into_gold;
-						turns 0;
-					}
-
-					effect_bundle
-					{
-						bundle_key vco_campaign_victory_dummy;
-						turns 0;
-					}
-
-					game_victory;
-				}
-			}
-		}
-	]],
-	[[
- 		mission
-		{
-			victory_type vco_victory_type_alternative_2_in_harmony;
+			victory_type vco_victory_type_alternative_1_in_harmony;
 			key wh_main_long_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
@@ -110,33 +63,96 @@ local missions = {
 	[[
  		mission
 		{
-			victory_type vco_victory_type_alternative_3_dont_thread_on_ming;
+			victory_type vco_victory_type_alternative_2_cool_and_aloof;
 			key wh_main_long_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
 				objective
 				{
-					override_text mission_text_text_vco_cth_unify_ivory_road;
+					override_text mission_text_text_vco_cth_unify_great_bastion;
 					type CONTROL_N_PROVINCES_INCLUDING;
-					total 1;
+					total 3;
 
-					province wh3_main_combi_province_ivory_road;
-					province wh3_main_combi_province_the_maw;
+					province wh3_main_combi_province_central_great_bastion;
+					province wh3_main_combi_province_eastern_great_bastion;
+					province wh3_main_combi_province_western_great_bastion;
 				}
 
 				objective
 				{
 					type DESTROY_FACTION;
 
-					faction wh3_main_ogr_goldtooth;
-					faction wh3_main_ogr_sons_of_the_mountain;
-					faction wh3_main_ogr_crossed_clubs;
-					faction wh3_main_ogr_lazarghs;
+					faction wh3_main_cth_dissenter_lords_of_jinshen;
+					faction wh3_main_cth_rebel_lords_of_nan_yang;
+					faction wh_dlc03_bst_jagged_horn;
+					faction wh2_main_skv_clan_eshin;
+					faction wh3_main_grn_dimned_sun;
+					faction wh2_dlc11_def_the_blessed_dread;
+					faction wh3_dlc21_cst_dead_flag_fleet;
 
-					faction wh3_main_vmp_caravan_of_blue_roses;
+					confederation_valid;
+				}
 
-					faction wh3_main_skv_clan_treecherik;
+				objective
+				{
+					type CONSTRUCT_N_OF_A_BUILDING;
+					faction wh3_main_cth_the_northern_provinces;
+					total 1;
+
+					building_level wh3_main_special_the_ninth_wall;
+				}
+
+				payload
+				{
+					effect_bundle
+					{
+						bundle_key vco_victory_payload_cool_and_aloof;
+						turns 0;
+					}
+
+					effect_bundle
+					{
+						bundle_key vco_campaign_victory_dummy;
+						turns 0;
+					}
+
+					game_victory;
+				}
+			}
+		}
+	]],
+	[[
+		mission
+ 		{
+			victory_type vco_victory_type_alternative_3_the_northern_expedition;
+			key wh_main_long_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+
+				objective
+				{
+					override_text mission_text_text_vco_cth_the_northern_expedition;
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 1;
+
+					region wh3_main_combi_region_the_writhing_fortress;
+				}
+
+				objective
+				{
+					type DESTROY_FACTION;
+
+					faction wh3_dlc20_chs_vilitch;
+					faction wh3_dlc20_nor_yusak;
+					faction wh3_main_chs_khazag;
+					faction wh3_main_ogr_fleshgreeders;
+					faction wh3_dlc20_chs_kholek;
+					faction wh3_dlc20_nor_dolgan;
+					faction wh3_main_nur_maggoth_kin;
+					faction wh3_dlc20_nor_kul;
+					faction wh3_main_sla_exquisite_pain;
 
 					confederation_valid;
 				}
@@ -145,7 +161,7 @@ local missions = {
 				{
 					effect_bundle
 					{
-						bundle_key vco_victory_payload_dont_thread_on_ming;
+						bundle_key vco_victory_payload_the_northern_expedition;
 						turns 0;
 					}
 
