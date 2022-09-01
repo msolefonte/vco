@@ -96,7 +96,7 @@ local missions = {
 
 				objective
 				{
-					type CONSTRUCT_N_OF_A_BUILDING;
+					type CONSTRUCT_N_BUILDINGS_INCLUDING;
 					faction wh3_main_cth_the_northern_provinces;
 					total 1;
 
