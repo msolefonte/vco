@@ -1,5 +1,3 @@
 effect	icon	priority	icon_negative	category	is_positive_value_good
 #effects_tables;0;db/effects_tables/vco					
 vco_campaign_victory_dummy	hunter_effect_icons_loyalty_green.png	1	hunter_effect_icons_loyalty_green.png	campaign	true
-vco_effect_province_growth_cathay_unified	growth.png	101	growth.png	campaign	true
-vco_effect_public_order_cathay_unified	public_order.png	102	public_order.png	campaign	true

@@ -9,7 +9,7 @@
     Lands of Tian Li, The Great Canal and Serpent Estuary
   * The Great Bastion must remain under your control:
     * Central Great Bastion, Eastern Great Bastion and Western Great Bastion
-  * **Payload**: _Empire of the Celestial Dragon_: Growth +60 (per region in Cathay), Control +4 (per region in Cathay)
+  * **Payload**: _Empire of the Celestial Dragon_: Growth +60, Control +4, Unlock army ability: "Ancestral Warriors"
 * **Route II - Cool and Aloof**
   * The Great Bastion must remain under your control:
     * Central Great Bastion, Eastern Great Bastion and Western Great Bastion
@@ -18,7 +18,7 @@
     and Dead Flag Fleet
   * Construct 1 of each of the following buildings:
     * The Ninth Wall (Nan-Gau)
-  * **Payload**: _Unreachable_: Enemy leadership: -16 (per region in Cathay), Melee defence: +6 when defending 
+  * **Payload**: _Unreachable_: Barrier hit points: +600 when defending settlements, Melee defence: +6 when defending 
 * **Route III - The Northern Expedition**
   * Your sister Shen-Zoo, Dragon of Light, was last seen venturing beyond the mountains of Norsca, in The Writhing 
     Fortress. Organize an expedition, conquer the fortress and bring her back.

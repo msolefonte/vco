@@ -2,7 +2,7 @@ key	localised_title	localised_description	ui_icon	bundle_target	priority	is_glob
 #effect_bundles_tables;4;db/effect_bundles_tables/vco								
 vco_campaign_victory_dummy	Campaign Victory	Completing a route will count as a campaign victory and will trigger the achievements. Do not worry, you still will be able to keep playing to complete the other routes or go for a world domination!\\n	hunter_effect_icons_loyalty_green.png	faction	1	false	false	true
 vco_victory_payload_iron_into_gold	Global Trade	Diplomats from the west brave the Ivory Road to kneel before the Dragon Emperor and pledge their nations to his cause.\\n	diplomacy.png	faction	1	true	false	true
-vco_victory_payload_in_harmony	Empire of the Celestial Dragon	With the daemons kept at bay, the land thrives and the people are content.\\n	public_order_happy.png	faction	1	true	false	true
+vco_victory_payload_in_harmony	Empire of the Celestial Dragon	With the daemons kept at bay, the land thrives and the people are content.\\n	trait_cathay.png	faction	1	true	false	true
 vco_victory_payload_dont_thread_on_ming	Safe Roads	Across Cathay the merchants rejoice, for the trade routes are secure and wealth flows into the nation.\\n	trade_agreement.png	faction	1	true	false	true
-vco_victory_payload_cool_and_aloof	Unreachable	From the highest tower in the City of Smoke the Supreme Patriarch safeguards the nation.\\n	defence.png	faction	1	true	false	true
+vco_victory_payload_cool_and_aloof	Unreachable	From the highest tower in the City of Smoke the Supreme Patriarch safeguards the nation.\\n	siege_defence.png	faction	1	true	false	true
 vco_victory_payload_the_northern_expedition	Bringer of Light and Hope	With Shen-Zoo safely returned, light shines on the Celestial Empire once more. The people rejoice and the shadows are banished.\\n	replenishment.png	faction	1	true	false	true
