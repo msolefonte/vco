@@ -1,6 +1,7 @@
 local vco = {};
 local config = {
 	campaign_immortal_empires_enabled = true,
+	default_campaigns_disabled = false,
 	logging_enabled = false
 };
 
@@ -41,19 +42,21 @@ function vco:log(str)
 	end
 end
 
--- VICTORY CONDITIONS OVERHAUL --
+-- CAMPAIGN --
 
-function vco:complete_mission(faction_name, script_key)
-	cm:complete_scripted_mission_objective(faction_name, "wh_main_long_victory", script_key, true);
+function vco:disable_default_campaigns()
+	config["default_campaigns_disabled"] = true;
 end
 
-function vco:set_mission_text(script_key, text_key)
-	cm:set_scripted_mission_text("wh_main_long_victory", script_key, "mission_text_text_" .. text_key);
+function vco:are_default_campaigns_disabled()
+	return config["default_campaigns_disabled"];
 end
 
 function vco:is_multiplayer_campaign()
 		return #cm:get_human_factions() > 1;
 end
+
+-- ROUTES --
 
 function vco:trigger_faction_missions(mod_name, faction_key)
 	local campaign_name = cm:get_campaign_name();
@@ -84,9 +87,22 @@ end
 
 function vco:trigger_mission_for_current_faction(mission)
 	if cm:is_new_game() then
-		local faction_key = cm:get_local_faction_name();
-		cm:trigger_custom_mission_from_string(faction_key, mission);
+		for _, faction_key in ipairs(cm:get_human_factions()) do
+			cm:trigger_custom_mission_from_string(faction_key, mission);
+		end
 	end
 end
+
+-- OBJECTIVES --
+
+function vco:complete_mission(faction_name, script_key)
+	cm:complete_scripted_mission_objective(faction_name, "wh_main_long_victory", script_key, true);
+end
+
+function vco:set_mission_text(script_key, text_key)
+	cm:set_scripted_mission_text("wh_main_long_victory", script_key, "mission_text_text_" .. text_key);
+end
+
+-- EXPORT --
 
 core:add_static_object("vco", vco);

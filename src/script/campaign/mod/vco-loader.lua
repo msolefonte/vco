@@ -3,8 +3,10 @@ local vco = core:get_static_object("vco");
 -- LOADER --
 
 local function load_campaigns()
-	if vco:get_config("campaign_immortal_empires_enabled") then
-		vco:trigger_custom_missions("vco-ie");
+	if not vco:are_default_campaigns_disabled() then
+		if vco:get_config("campaign_immortal_empires_enabled") then
+			vco:trigger_custom_missions("vco-ie");
+		end
 	end
 end
 
