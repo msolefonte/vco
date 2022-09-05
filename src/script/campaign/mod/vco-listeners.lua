@@ -130,6 +130,19 @@ function add_listeners()
 		end,
 		true
 	);
+
+	vco:log("- Completing dummies");
+	core:add_listener(
+		"vco_dummy_missions_check",
+		"FactionTurnStart",
+		function(context)
+			return context:faction():is_human();
+		end,
+		function(context)
+			vco:complete_mission(context:faction():name(), "vco_dummy");
+		end,
+		true
+	);
 end
 
 -- MAIN --

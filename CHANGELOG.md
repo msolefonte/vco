@@ -349,3 +349,7 @@ occasions, now it will be viable to play tall/defensively, without any requisite
 - Added custom tailored payloads after completing a route
 - Added an integration with Legendary Lore
 - Added native support for multiplayer
+
+## [5.0.0-beta.2] - TBA
+
+- Rewards renamed 
