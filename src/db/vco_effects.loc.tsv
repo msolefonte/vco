@@ -1,4 +1,4 @@
 key	text	tooltip
 #Loc PackedFile;1;text/db/vco_effects.loc		
 effects_description_vco_campaign_victory_dummy	Campaign Victory	true
-effects_description_vco_cursed_artifact_notidoc	Cursed Artifact of No'Tidoc	true
+effects_description_vco_emp_cursed_artifact_notidoc	Cursed Artifact of No'Tidoc	true

@@ -38,7 +38,7 @@ local missions = {
 				{
 					effect_bundle
 					{
-						bundle_key vco_victory_payload_champions_of_the_empire;
+						bundle_key vco_victory_payload_emp_champions_of_the_empire;
 						turns 0;
 					}
 
@@ -157,7 +157,7 @@ local missions = {
 				{
 					effect_bundle
 					{
-						bundle_key vco_victory_payload_big_game_hunter;
+						bundle_key vco_victory_payload_emp_big_game_hunter;
 						turns 0;
 					}
 

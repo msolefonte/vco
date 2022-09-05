@@ -45,7 +45,7 @@ local missions = {
 				{
 					effect_bundle
 					{
-						bundle_key vco_victory_payload_in_harmony;
+						bundle_key vco_victory_payload_cth_in_harmony;
 						turns 0;
 					}
 
@@ -107,7 +107,7 @@ local missions = {
 				{
 					effect_bundle
 					{
-						bundle_key vco_victory_payload_cool_and_aloof;
+						bundle_key vco_victory_payload_cth_cool_and_aloof;
 						turns 0;
 					}
 
@@ -161,7 +161,7 @@ local missions = {
 				{
 					effect_bundle
 					{
-						bundle_key vco_victory_payload_the_northern_expedition;
+						bundle_key vco_victory_payload_cth_the_northern_expedition;
 						turns 0;
 					}
 

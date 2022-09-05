@@ -1,3 +1,3 @@
 effect	bonus_value_id	unit_ability
 #effect_bonus_value_unit_ability_junctions_tables;0;db/effect_bonus_value_unit_ability_junctions_tables/vco		
-vco_cursed_artifact_notidoc	enable	wh2_main_unit_passive_primal_instincts
+vco_emp_cursed_artifact_notidoc	enable	wh2_main_unit_passive_primal_instincts

@@ -31,7 +31,7 @@ local missions = {
 				{
 					effect_bundle
 					{
-						bundle_key vco_victory_payload_iron_into_gold;
+						bundle_key vco_victory_payload_cth_iron_into_gold;
 						turns 0;
 					}
 
@@ -92,7 +92,7 @@ local missions = {
 				{
 					effect_bundle
 					{
-						bundle_key vco_victory_payload_in_harmony;
+						bundle_key vco_victory_payload_cth_in_harmony;
 						turns 0;
 					}
 
@@ -145,7 +145,7 @@ local missions = {
 				{
 					effect_bundle
 					{
-						bundle_key vco_victory_payload_dont_thread_on_ming;
+						bundle_key vco_victory_payload_cth_dont_thread_on_ming;
 						turns 0;
 					}
 
