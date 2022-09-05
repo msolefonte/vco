@@ -2,8 +2,8 @@ local missions = {
 	[[
  		mission
 		{
-			victory_type vco_victory_type_alternative_1_champions_of_the_empire;
-			key wh_main_long_victory;
+			victory_type vco_victory_type_emp_the_1_champions_of_the_empire;
+			key wh_main_short_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -56,8 +56,8 @@ local missions = {
 	[[
  		mission
 		{
-			victory_type vco_victory_type_alternative_2_the_huntsmarshals_expedition;
-			key wh_main_long_victory;
+			victory_type vco_victory_type_emp_the_2_the_huntsmarshals_expedition;
+			key wh_main_short_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -92,7 +92,7 @@ local missions = {
 				{
 					effect_bundle
 					{
-						bundle_key vco_victory_payload_cool_and_aloof;
+						bundle_key vco_victory_payload_emp_cursed_artifact_notidoc;
 						turns 0;
 					}
 
@@ -118,8 +118,8 @@ local missions = {
 	[[
 		mission
  		{
-			victory_type vco_victory_type_alternative_3_it_is_round;
-			key wh_main_long_victory;
+			victory_type vco_victory_type_emp_the_3_it_is_round;
+			key wh_main_short_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{

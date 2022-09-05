@@ -3,7 +3,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_alternative_1_iron_into_gold;
-			key wh_main_long_victory;
+			key wh_main_short_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -50,7 +50,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_alternative_2_in_harmony;
-			key wh_main_long_victory;
+			key wh_main_short_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -111,7 +111,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_alternative_3_dont_thread_on_ming;
-			key wh_main_long_victory;
+			key wh_main_short_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{

@@ -352,4 +352,9 @@ occasions, now it will be viable to play tall/defensively, without any requisite
 
 ## [5.0.0-beta.2] - TBA
 
-- Rewards renamed 
+- Added new routes for Markus Wulfhart: The Huntsmarshal's Expedition
+- Added new routes for Alberic de Bordeleaux: Bordeleaux Errant
+- All routes have been turned into Short Victories to prevent triggering Endgame Scenarios
+- Payloads renamed into Rewards for better readability
+- Technical
+  - Now effects and effects bonus include a race identifier in the key

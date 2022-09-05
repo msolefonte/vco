@@ -1,39 +1,5 @@
 # Empire
 
-## Karl Franz: Reikland
-
-* **Route I - Empire of Men:**
-  * Conquer, ally with or assimilate all provinces of the Empire
-    * Reikland, The Wasteland, Middenland, Hochland, The Misty Hills, Nordland, Ostland, Talabecland, Stirland, 
-    Mootland, Averland, Wissenland, Solland, Northern Sylvania, Southern Sylvania, Ostermark
-  * The forts TBD
-    * Axe Bite Pass, Gisoreux Gap, Winter's Teeth Pass
-  * **Reward**: 
-    * _Empire of Men_: Growth +60, Control +4, Income from Settlement buildings: +50%
-* **Route II - TBD:**
-  * TBD
-  * **Reward**: 
-    * _TBD_: TBD
-* **Route III - TBD:**
-  * TBD
-  * **Reward**: 
-    * _TBD_: TBD
-
-## Balthasar Gelt: The Golden Order
-
-* **Route I - TBD:**
-  * TBD
-  * **Reward**: 
-    * _TBD_: TBD
-* **Route II - TBD:**
-  * TBD
-  * **Reward**: 
-    * _TBD_: TBD
-* **Route III - TBD:**
-  * TBD
-  * **Reward**: 
-    * _TBD_: TBD
-
 ## Markus Wulfhart: The Huntsmarshal's Expedition
 
 * **Route I - Champions of the Empire:**
@@ -61,18 +27,3 @@
   * **Reward**: 
      * _Big Game Hunter_: Bonus vs Large: +6 when fighting against Lizardmen
      * Acclaim: +20
-
-## Volkmar the Grim: Cult of Sigmar
-
-* **Route I - TBD:**
-  * TBD
-  * **Reward**: 
-    * _TBD_: TBD
-* **Route II - TBD:**
-  * TBD
-  * **Reward**: 
-    * _TBD_: TBD
-* **Route III - TBD:**
-  * TBD
-  * **Reward**: 
-    * _TBD_: TBD

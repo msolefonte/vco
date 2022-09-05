@@ -2,3 +2,7 @@ effect	icon	priority	icon_negative	category	is_positive_value_good
 #effects_tables;0;db/effects_tables/vco					
 vco_campaign_victory_dummy	hunter_effect_icons_loyalty_green.png	1	hunter_effect_icons_loyalty_green.png	campaign	true
 vco_emp_cursed_artifact_notidoc	dlc12_plaque_stage_3.png	101	dlc12_plaque_stage_3.png	campaign	true
+vco_brt_alberic_vow_melee_attack	melee_character.png	101	melee_character.png	campaign	true
+vco_brt_alberic_vow_melee_damage	weapon_damage_character.png	101	weapon_damage_character.png	campaign	true
+vco_brt_alberic_vow_melee_damage_ap	armour_piercing_character.png	101	armour_piercing_character.png	campaign	true
+vco_brt_alberic_vow_resistance_physical	resistance_physical.png	101	resistance_physical.png	campaign	true

@@ -2,8 +2,8 @@ local missions = {
 	[[
  		mission
 		{
-			victory_type vco_victory_type_alternative_1_iron_into_gold;
-			key wh_main_long_victory;
+			victory_type vco_victory_type_brt_bdx_1_alberic_grail_quest;
+			key wh_main_short_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -13,7 +13,7 @@ local missions = {
 					type CONTROL_N_PROVINCES_INCLUDING;
 					total 1;
 
-					province SACRED_POOLS;
+					province wh3_main_combi_province_the_sacred_pools;
 				}
 
 				objective
@@ -27,7 +27,7 @@ local missions = {
 				{
 					type DESTROY_FACTION;
 
-					faction SACRED_POOLS;
+					faction wh2_dlc16_lzd_wardens_of_the_living_pools;
 
 					confederation_valid;
 				}
@@ -36,8 +36,16 @@ local missions = {
 				{
 					effect_bundle
 					{
-						bundle_key vco_victory_payload_blessed_by_the_lady;
+						bundle_key vco_victory_payload_brt_blessed_by_the_lady;
 						turns 0;
+					}
+
+					faction_pooled_resource_transaction
+					{
+						resource brt_chivalry;
+						factor vco;
+						amount 2000;
+						context absolute;
 					}
 
 					effect_bundle
@@ -54,50 +62,27 @@ local missions = {
 	[[
  		mission
 		{
-			victory_type vco_victory_type_alternative_2_in_harmony;
-			key wh_main_long_victory;
+			victory_type vco_victory_type_brt_bdx_2_no_ocean_for_dead_men;
+			key wh_main_short_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
 				objective
 				{
-					override_text mission_text_text_vco_cth_unify_grand_cathay;
-					type CONTROL_N_PROVINCES_INCLUDING;
-					total 15;
+					type DESTROY_FACTION;
 
-					province wh3_main_combi_province_gunpowder_road;
-					province wh3_main_combi_province_lands_of_stone_and_steel;
-					province wh3_main_combi_province_imperial_road;
-					province wh3_main_combi_province_plains_of_xen;
-					province wh3_main_combi_province_forests_of_the_moon;
-					province wh3_main_combi_province_warpstone_desert;
-					province wh3_main_combi_province_wastelands_of_jinshen;
-					province wh3_main_combi_province_celestial_riverlands;
-					province wh3_main_combi_province_celestial_lake;
-					province wh3_main_combi_province_jade_river_delta;
-					province wh3_main_combi_province_nongchang_basin;
-					province wh3_main_combi_province_mount_li;
-					province wh3_main_combi_province_broken_lands_of_tian_li;
-					province wh3_main_combi_province_the_great_canal;
-					province wh3_main_combi_province_serpent_estuary;
-				}
+					faction wh2_dlc11_cst_vampire_coast;
+					faction wh2_dlc11_cst_noctilus;
+					faction wh2_dlc11_cst_pirates_of_sartosa;
 
-				objective
-				{
-					override_text mission_text_text_vco_cth_unify_great_bastion;
-					type CONTROL_N_PROVINCES_INCLUDING;
-					total 3;
-
-					province wh3_main_combi_province_central_great_bastion;
-					province wh3_main_combi_province_eastern_great_bastion;
-					province wh3_main_combi_province_western_great_bastion;
+					confederation_valid;
 				}
 
 				payload
 				{
 					effect_bundle
 					{
-						bundle_key vco_victory_payload_in_harmony;
+						bundle_key vco_victory_payload_brt_the_sea_gods_wrath;
 						turns 0;
 					}
 
@@ -115,42 +100,45 @@ local missions = {
 	[[
  		mission
 		{
-			victory_type vco_victory_type_alternative_3_dont_thread_on_ming;
-			key wh_main_long_victory;
+			victory_type vco_victory_type_brt_bdx_3_home_sweet_home;
+			key wh_main_short_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
 				objective
 				{
-					override_text mission_text_text_vco_cth_unify_ivory_road;
+					override_text mission_text_text_vco_brt_home_sweet_home;
 					type CONTROL_N_PROVINCES_INCLUDING;
 					total 1;
 
-					province wh3_main_combi_province_ivory_road;
-					province wh3_main_combi_province_the_maw;
+					province wh3_main_combi_province_river_brienne;
 				}
 
 				objective
 				{
 					type DESTROY_FACTION;
 
-					faction wh3_main_ogr_goldtooth;
-					faction wh3_main_ogr_sons_of_the_mountain;
-					faction wh3_main_ogr_crossed_clubs;
-					faction wh3_main_ogr_lazarghs;
+					faction wh_main_vmp_mousillon;
 
-					faction wh3_main_vmp_caravan_of_blue_roses;
-
-					faction wh3_main_skv_clan_treecherik;
+					faction wh2_dlc15_grn_broken_axe;
 
 					confederation_valid;
+				}
+
+				objective
+				{
+					type CONSTRUCT_N_BUILDINGS_INCLUDING;
+					faction wh_main_brt_bordeleaux;
+					total 1;
+
+					building_level wh2_dlc12_special_bordeleaux_manann_shrine_1;
 				}
 
 				payload
 				{
 					effect_bundle
 					{
-						bundle_key vco_victory_payload_dont_thread_on_ming;
+						bundle_key vco_victory_payload_brt_bordeleaux_reclaimed;
 						turns 0;
 					}
 

@@ -68,7 +68,7 @@ function vco:trigger_faction_missions(mod_name, faction_key)
 			if mission and mission ~= "" then
 				if self:is_multiplayer_campaign() then
 					self:log("Campaign is multiplayer")
-					mission = mission:gsub("wh_main_long_victory", "wh3_main_mp_victory");
+					mission = mission:gsub("wh_main_short_victory", "wh3_main_mp_victory");
 				end
 				cm:trigger_custom_mission_from_string(faction_key, mission);
 			end
@@ -96,11 +96,11 @@ end
 -- OBJECTIVES --
 
 function vco:complete_mission(faction_name, script_key)
-	cm:complete_scripted_mission_objective(faction_name, "wh_main_long_victory", script_key, true);
+	cm:complete_scripted_mission_objective(faction_name, "wh_main_short_victory", script_key, true);
 end
 
 function vco:set_mission_text(script_key, text_key)
-	cm:set_scripted_mission_text("wh_main_long_victory", script_key, "mission_text_text_" .. text_key);
+	cm:set_scripted_mission_text("wh_main_short_victory", script_key, "mission_text_text_" .. text_key);
 end
 
 -- EXPORT --

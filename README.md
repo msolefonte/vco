@@ -90,7 +90,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_alternative_2_threat_elimination;
-			key wh_main_long_victory;
+			key wh_main_short_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
