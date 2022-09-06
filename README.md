@@ -60,6 +60,7 @@ The content of that script has to be the following one:
 ```lua
 local vco = core:get_static_object("vco");
 
+vco:disable_default_campaigns();
 cm:add_first_tick_callback(function() vco:trigger_custom_missions("<your-mod-name>") end);
 ```
 
@@ -89,7 +90,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_alternative_2_threat_elimination;
-			key wh_main_long_victory;
+			key wh_main_short_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{

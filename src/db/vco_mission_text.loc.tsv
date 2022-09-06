@@ -267,3 +267,11 @@ mission_text_text_vco_ogr_the_maw_that_walks_97	Meat for the Cauldron! Offer a t
 mission_text_text_vco_ogr_the_maw_that_walks_98	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 98%)	true
 mission_text_text_vco_ogr_the_maw_that_walks_99	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 99%)	true
 mission_text_text_vco_ogr_the_maw_that_walks	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].	true
+mission_text_text_vco_emp_champions_of_the_empire	Conquer the coast of Lustria. At least six port settlements must be under your control:	true
+mission_text_text_vco_emp_the_huntsmarshals_expedition	Your explorers have told you about an ancient artifact broken in pieces and hidden by the Lizardmen. Destroy those who are protecting it and claim it for the Empire.	true
+mission_text_text_vco_emp_the_huntsmarshals_expedition_artifacts	Locate the artifacts by sacking or razing the temples where they are hidden.	true
+mission_text_text_vco_emp_it_is_round	The expedition doesn't have to stop here. Follow the Sea Lanes to reach The Jade Sea and build four ports in the Cathayan coast.	true
+mission_text_text_vco_emp_it_is_round_nakai	An old enemy lies hidden close to the Jungles of Chi'an. Ensure he doesn't run away this time.	true
+mission_text_text_vco_brt_sacred_pools	Seek out the Lady of the Lake in the heart of Lustria. Occupy the following region:	true
+mission_text_text_vco_brt_alberic_vow	Complete the Grail Vow with Alberic de Bordeleaux.	true
+mission_text_text_vco_brt_home_sweet_home	Return home to your ancestral castle and drive out the foes who have been terrorising the peasants in your absence:	true

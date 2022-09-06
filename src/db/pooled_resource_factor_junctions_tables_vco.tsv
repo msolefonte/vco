@@ -1,0 +1,4 @@
+resource	factor	unique_id	minimum	maximum	specific_faction_set
+#pooled_resource_factor_junctions_tables;2;db/pooled_resource_factor_junctions_tables/vco					
+emp_progress	vco	wh2_dlc13_resource_factor_vco	0	2147483647	
+brt_chivalry	vco	chivalry_vco	-2147483647	2147483647

@@ -3,7 +3,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_alternative_1_in_harmony;
-			key wh_main_long_victory;
+			key wh_main_short_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -45,7 +45,7 @@ local missions = {
 				{
 					effect_bundle
 					{
-						bundle_key vco_victory_payload_in_harmony;
+						bundle_key vco_victory_payload_cth_in_harmony;
 						turns 0;
 					}
 
@@ -64,7 +64,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_alternative_2_cool_and_aloof;
-			key wh_main_long_victory;
+			key wh_main_short_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -107,7 +107,7 @@ local missions = {
 				{
 					effect_bundle
 					{
-						bundle_key vco_victory_payload_cool_and_aloof;
+						bundle_key vco_victory_payload_cth_cool_and_aloof;
 						turns 0;
 					}
 
@@ -126,7 +126,7 @@ local missions = {
 		mission
  		{
 			victory_type vco_victory_type_alternative_3_the_northern_expedition;
-			key wh_main_long_victory;
+			key wh_main_short_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -161,7 +161,7 @@ local missions = {
 				{
 					effect_bundle
 					{
-						bundle_key vco_victory_payload_the_northern_expedition;
+						bundle_key vco_victory_payload_cth_the_northern_expedition;
 						turns 0;
 					}
 

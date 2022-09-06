@@ -349,3 +349,12 @@ occasions, now it will be viable to play tall/defensively, without any requisite
 - Added custom tailored payloads after completing a route
 - Added an integration with Legendary Lore
 - Added native support for multiplayer
+
+## [5.0.0-beta.2] The Hunter and the Knight - 06.09.2022
+
+- Added new routes for Markus Wulfhart: The Huntsmarshal's Expedition
+- Added new routes for Alberic de Bordeleaux: Bordeleaux Errant
+- All routes have been turned into Short Victories to prevent triggering Endgame Scenarios
+- Payloads renamed into Rewards for better readability
+- Technical
+  - Now effects and effects bonus include a race identifier in the key

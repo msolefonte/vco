@@ -21,6 +21,12 @@ end
 
 -- CHECKS --
 
+local function check_vco_brt_bordeleaux_alberic_vow(character)
+	if character:character_subtype("wh_dlc07_brt_alberic") then
+		vco:complete_mission("wh_main_brt_bordeleaux", "vco_brt_alberic_vow");
+	end
+end
+
 local function check_vco_cth_the_western_provinces_caravans(faction_key)
 	local REQUIRED_NUM_CARAVANS_COMPLETED_VICTORY = 9;
 	local num_caravans_completed = cm:get_saved_value("caravans_completed_" .. faction_key) or 0;
@@ -39,7 +45,7 @@ local function check_vco_cth_the_western_provinces_goods(faction_key)
 	local total_goods_moved = cm:get_saved_value("caravan_goods_moved_" .. faction_key) or 0;
 
 	if total_goods_moved < REQUIRED_TOTAL_GOODS_MOVED_VICTORY then
-		percentage_completed = math.floor(total_goods_moved / REQUIRED_TOTAL_GOODS_MOVED_VICTORY * 100)
+		local percentage_completed = math.floor(total_goods_moved / REQUIRED_TOTAL_GOODS_MOVED_VICTORY * 100)
 		vco:set_mission_text("vco_cth_the_western_provinces_goods",
 												 "vco_cth_the_western_provinces_goods_" .. percentage_completed);
 	else
@@ -66,7 +72,7 @@ local function check_vco_ogre_kingdoms_the_maw_that_walks(context)
 	local total_meat_offered = context:factor_spent();
 
 	if total_meat_offered < REQUIRED_MEAT_OFFERED_VICTORY then
-		percentage_completed = math.floor(total_meat_offered / REQUIRED_MEAT_OFFERED_VICTORY * 100)
+		local percentage_completed = math.floor(total_meat_offered / REQUIRED_MEAT_OFFERED_VICTORY * 100)
 		vco:set_mission_text("vco_ogr_the_maw_that_walks", "vco_ogr_the_maw_that_walks_" .. percentage_completed);
 	else
 		vco:set_mission_text("vco_ogr_the_maw_that_walks", "vco_ogr_the_maw_that_walks");
@@ -78,6 +84,20 @@ end
 
 function add_listeners()
 	vco:log("Adding listeners");
+
+	vco:log("- Bretonnia listeners");
+	core:add_listener(
+		"vco_brt_alberic_vow_check",
+		"ScriptEventBretonniaGrailVowCompleted",
+		function(context)
+			local faction = context:character():faction();
+			return faction:is_human() and faction:name() == "wh_main_brt_bordeleaux";
+		end,
+		function(context)
+			check_vco_brt_bordeleaux_alberic_vow(context:character());
+		end,
+		true
+	);
 
 	vco:log("- Cathay listeners");
 	core:add_listener(
@@ -127,6 +147,19 @@ function add_listeners()
 		end,
 		function(context)
 			check_vco_ogre_kingdoms_the_maw_that_walks(context);
+		end,
+		true
+	);
+
+	vco:log("- Completing dummies");
+	core:add_listener(
+		"vco_dummy_missions_check",
+		"FactionTurnStart",
+		function(context)
+			return context:faction():is_human();
+		end,
+		function(context)
+			vco:complete_mission(context:faction():name(), "vco_dummy");
 		end,
 		true
 	);

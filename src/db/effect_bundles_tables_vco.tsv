@@ -1,8 +1,14 @@
 key	localised_title	localised_description	ui_icon	bundle_target	priority	is_global_effect	show_in_3d_space	owner_only
 #effect_bundles_tables;4;db/effect_bundles_tables/vco								
 vco_campaign_victory_dummy	Campaign Victory	Completing a route will count as a campaign victory and will trigger the achievements. Do not worry, you still will be able to keep playing to complete the other routes or go for a world domination!\\n	hunter_effect_icons_loyalty_green.png	faction	1	false	false	true
-vco_victory_payload_iron_into_gold	Global Trade	Diplomats from the west brave the Ivory Road to kneel before the Dragon Emperor and pledge their nations to his cause.\\n	diplomacy.png	faction	1	true	false	true
-vco_victory_payload_in_harmony	Empire of the Celestial Dragon	With the daemons kept at bay, the land thrives and the people are content.\\n	trait_cathay.png	faction	1	true	false	true
-vco_victory_payload_dont_thread_on_ming	Safe Roads	Across Cathay the merchants rejoice, for the trade routes are secure and wealth flows into the nation.\\n	trade_agreement.png	faction	1	true	false	true
-vco_victory_payload_cool_and_aloof	Unreachable	From the highest tower in the City of Smoke the Supreme Patriarch safeguards the nation.\\n	siege_defence.png	faction	1	true	false	true
-vco_victory_payload_the_northern_expedition	Bringer of Light and Hope	With Shen-Zoo safely returned, light shines on the Celestial Empire once more. The people rejoice and the shadows are banished.\\n	replenishment.png	faction	1	true	false	true
+vco_victory_payload_cth_iron_into_gold	Global Trade	Diplomats from the west brave the Ivory Road to kneel before the Dragon Emperor and pledge their nations to his cause.\\n	diplomacy.png	faction	1	true	false	true
+vco_victory_payload_cth_in_harmony	Empire of the Celestial Dragon	With the daemons kept at bay, the land thrives and the people are content.\\n	trait_cathay.png	faction	1	true	false	true
+vco_victory_payload_cth_dont_thread_on_ming	Safe Roads	Across Cathay the merchants rejoice, for the trade routes are secure and wealth flows into the nation.\\n	trade_agreement.png	faction	1	true	false	true
+vco_victory_payload_cth_cool_and_aloof	Unreachable	From the highest tower in the City of Smoke the Supreme Matriarch safeguards the nation.\\n	siege_defence.png	faction	1	true	false	true
+vco_victory_payload_cth_the_northern_expedition	Bringer of Light and Hope	With Shen-Zoo safely returned, light shines on the Celestial Empire once more. The people rejoice and the shadows are banished.\\n	replenishment.png	faction	1	true	false	true
+vco_victory_payload_emp_champions_of_the_empire	Champions of the Empire	Arise, Huntsmarshal. You need not kneel in my presence; you have earned that right. Your expedition has brought honour and glory to the Empire in its hour of greatest need. Your brother would be proud.	captain.png	faction	1	true	false	true
+vco_victory_payload_emp_cursed_artifact_notidoc	Cursed Artifact of No'Tidoc	This ancient artifact glows with an eldritch light, filling one's mind with a bestial fury.	dlc12_plaque_stage_3.png	faction	1	true	false	true
+vco_victory_payload_emp_big_game_hunter	Big Game Hunter	Nakai didn't wander far enough. His head now takes pride of place in the Huntmarshal's trophy room.	hunter.png	faction	1	true	false	true
+vco_victory_payload_brt_blessed_by_the_lady	Blessed by The Lady	Alberic has supped from the grail, becoming a god amongst men.	vow_grail_positive.png	faction	1	true	false	true
+vco_victory_payload_brt_the_sea_gods_wrath	The Sea God's Wrath	The scurge of undeath has been banished from the waves. Manann is pleased.	pirate_crew.png	faction	1	true	false	true
+vco_victory_payload_brt_bordeleaux_reclaimed	Bordeleaux Reclaimed	The peasants are safe. Have them return to their labours, for idle hands are the daemon's playthings.	peasant.png	faction	1	true	false	true
