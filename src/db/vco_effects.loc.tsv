@@ -2,7 +2,7 @@ key	text	tooltip
 #Loc PackedFile;1;text/db/vco_effects.loc		
 effects_description_vco_campaign_victory_dummy	Campaign Victory	true
 effects_description_vco_emp_cursed_artifact_notidoc	Cursed Artifact of No'Tidoc	true
-effects_description_vco_brt_alberic_vow_melee_attack	Melee attack: %+n% for Alberic de Bordeleaux	true
-effects_description_vco_brt_alberic_vow_melee_damage	Weapon strength: %+n% for Alberic de Bordeleaux	true
+effects_description_vco_brt_alberic_vow_melee_attack	Melee attack: %+n for Alberic de Bordeleaux	true
+effects_description_vco_brt_alberic_vow_melee_damage	Weapon strength: %+n for Alberic de Bordeleaux	true
 effects_description_vco_brt_alberic_vow_melee_damage_ap	Armour-piercing weapon damage: %+n for Alberic de Bordeleaux	true
 effects_description_vco_brt_alberic_vow_resistance_physical	Physical resistance: %n% for Alberic de Bordeleaux	true

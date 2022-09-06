@@ -350,7 +350,7 @@ occasions, now it will be viable to play tall/defensively, without any requisite
 - Added an integration with Legendary Lore
 - Added native support for multiplayer
 
-## [5.0.0-beta.2] - TBA
+## [5.0.0-beta.2] The Hunter and the Knight - 06.09.2022
 
 - Added new routes for Markus Wulfhart: The Huntsmarshal's Expedition
 - Added new routes for Alberic de Bordeleaux: Bordeleaux Errant
