@@ -11,7 +11,7 @@
     * Central Great Bastion, Eastern Great Bastion and Western Great Bastion
   * **Reward**: 
     * _Empire of the Celestial Dragon_: Growth +60, Control +4, Unlock army ability: "Ancestral Warriors"
-* **Route II - Cool and Aloof**
+* **Route II - Cold and Aloof**
   * The Great Bastion must remain under your control:
     * Central Great Bastion, Eastern Great Bastion and Western Great Bastion
   * Destroy the following factions:

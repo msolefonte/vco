@@ -6,3 +6,8 @@ vco_brt_alberic_vow_melee_attack	melee_character.png	101	melee_character.png	cam
 vco_brt_alberic_vow_melee_damage	weapon_damage_character.png	101	weapon_damage_character.png	campaign	true
 vco_brt_alberic_vow_melee_damage_ap	armour_piercing_character.png	101	armour_piercing_character.png	campaign	true
 vco_brt_alberic_vow_resistance_physical	resistance_physical.png	101	resistance_physical.png	campaign	true
+vco_def_cul_magic_power_reserve_capacity	magic_campaign.png	101	magic_campaign.png	campaign	true
+vco_def_cul_miscast_base_chance	magic.png	101	magic.png	campaign	true
+vco_def_cul_targeting_range	magic_character.png	101	magic_character.png	campaign	true
+vco_def_cul_ward_save	resistance_ward_save.png	101	resistance_ward_save.png	campaign	true
+vco_def_cul_missile_resistance	resistance_missile.png	101	resistance_missile.png	campaign	true

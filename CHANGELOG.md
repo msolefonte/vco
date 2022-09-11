@@ -358,3 +358,10 @@ occasions, now it will be viable to play tall/defensively, without any requisite
 - Payloads renamed into Rewards for better readability
 - Technical
   - Now effects and effects bonus include a race identifier in the key
+
+## [5.0.0-beta.3] TBA - TBA
+
+- Added new routes for Lord Mazdamundi: Hexoatl
+- Added new routes for Morathi: Cult of Pleasure
+- Changed Bordeleaux Errant's Alberic's Grail Quest route: now it also requires defeating Itza
+- Improved descriptions and fixed typos
