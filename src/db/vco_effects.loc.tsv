@@ -6,7 +6,6 @@ effects_description_vco_brt_alberic_vow_melee_attack	Melee attack: %+n for Alber
 effects_description_vco_brt_alberic_vow_melee_damage	Weapon strength: %+n for Alberic de Bordeleaux	true
 effects_description_vco_brt_alberic_vow_melee_damage_ap	Armour-piercing weapon damage: %+n for Alberic de Bordeleaux	true
 effects_description_vco_brt_alberic_vow_resistance_physical	Physical resistance: %n% for Alberic de Bordeleaux	true
-effects_description_vco_def_mortahi_magic_power_reserve_capacity	Winds of Magic power reserve capacity: %+n for Morathi	true
 effects_description_vco_def_morathi_miscast_base_chance	Miscast base chance: %-n% for Morathi	true
 effects_description_vco_def_morathi_targeting_range	Spell targeting range: %+n% for Morathi	true
 effects_description_vco_def_morathi_ward_save	Ward save: %+n% for Morathi	true

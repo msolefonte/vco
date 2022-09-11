@@ -367,3 +367,5 @@ occasions, now it will be viable to play tall/defensively, without any requisite
 - Changed Bordeleaux Errant's Alberic's Grail Quest route: now it also requires defeating Itza
 - Fixed a bug that prevented new Victory Conditions from loading in the Objectives panel
 - Improved descriptions and fixed typos
+
+TODO WHAT DO WITH WINDS OF MAGIC
