@@ -4,5 +4,5 @@ vco_brt_alberic	wh_dlc07_brt_cha_alberic_bordeleaux_0				false
 vco_brt_alberic	wh_dlc07_brt_cha_alberic_bordeleaux_1				false
 vco_brt_alberic	wh_dlc07_brt_cha_alberic_bordeleaux_2				false
 vco_brt_alberic	wh_dlc07_brt_cha_alberic_bordeleaux_3				false
-vco_def_cul	wh2_main_def_cha_morathi_0				false
-vco_def_cul	wh2_main_def_cha_morathi_1				false
+vco_def_morathi	wh2_main_def_cha_morathi_0				false
+vco_def_morathi	wh2_main_def_cha_morathi_1				false

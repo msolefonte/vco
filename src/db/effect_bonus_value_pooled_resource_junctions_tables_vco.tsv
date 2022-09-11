@@ -1,0 +1,3 @@
+effect	bonus_value_id	pooled_resource
+#effect_bonus_value_pooled_resource_junctions_tables;0;db/effect_bonus_value_pooled_resource_junctions_tables/vco
+vco_def_cul_magic_power_reserve_capacity	maximum_mod	wh3_main_winds_of_magic
