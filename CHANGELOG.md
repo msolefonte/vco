@@ -359,7 +359,7 @@ occasions, now it will be viable to play tall/defensively, without any requisite
 - Technical
   - Now effects and effects bonus include a race identifier in the key
 
-## [5.0.0-beta.3] TBA - TBA
+## [5.0.0-beta.3] Plunder in the Jungle - 12.09.2022
 
 - Added new routes for Lord Mazdamundi: Hexoatl
 - Added new routes for Morathi: Cult of Pleasure
@@ -367,5 +367,3 @@ occasions, now it will be viable to play tall/defensively, without any requisite
 - Changed Bordeleaux Errant's Alberic's Grail Quest route: now it also requires defeating Itza
 - Fixed a bug that prevented new Victory Conditions from loading in the Objectives panel
 - Improved descriptions and fixed typos
-
-TODO WHAT DO WITH WINDS OF MAGIC
