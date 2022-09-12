@@ -130,7 +130,6 @@ local missions = {
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
-
 				objective
 				{
 					override_text mission_text_text_vco_cth_the_northern_expedition;

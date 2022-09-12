@@ -28,6 +28,7 @@ local missions = {
 					type DESTROY_FACTION;
 
 					faction wh2_dlc16_lzd_wardens_of_the_living_pools;
+					faction wh2_main_lzd_itza;
 
 					confederation_valid;
 				}

@@ -80,9 +80,33 @@ local function check_vco_ogre_kingdoms_the_maw_that_walks(context)
 	end
 end
 
+-- PAYLOADS --
+
+local function vco_def_cop_disable_slaanesh_units()
+	cm:add_event_restricted_unit_record_for_faction(
+		"wh3_main_sla_mon_fiends_of_slaanesh_0",
+		"wh2_main_def_cult_of_pleasure"
+	);
+	cm:add_event_restricted_unit_record_for_faction(
+		"wh3_main_sla_mon_keeper_of_secrets_0",
+		"wh2_main_def_cult_of_pleasure"
+	);
+end
+
+local function vco_def_cop_enable_slaanesh_units()
+	cm:remove_event_restricted_unit_record_for_faction(
+		"wh3_main_sla_mon_fiends_of_slaanesh_0",
+		"wh2_main_def_cult_of_pleasure"
+	);
+	cm:remove_event_restricted_unit_record_for_faction(
+		"wh3_main_sla_mon_keeper_of_secrets_0",
+		"wh2_main_def_cult_of_pleasure"
+	);
+end
+
 -- LISTENERS --
 
-function add_listeners()
+local function add_listeners()
 	vco:log("Adding listeners");
 
 	vco:log("- Bretonnia listeners");
@@ -137,7 +161,30 @@ function add_listeners()
 		true
 	);
 
-	vco:log("- Ogre Kindoms listeners");
+	vco:log("- Dark Elves listeners");
+	core:add_listener(
+		"vco_def_cop_first_turn_start",
+		"FactionTurnStart",
+		function(context)
+			return cm:model():turn_number() == 1 and context:faction():is_human() and
+				context:faction():name() == "wh2_main_def_cult_of_pleasure";
+		end,
+		vco_def_cop_disable_slaanesh_units,
+		true
+	);
+
+	core:add_listener(
+		"vco_def_cop_route_2_completed",
+		"MissionSucceeded",
+		function(context)
+			return context:faction():name() == "wh2_main_def_cult_of_pleasure"
+				and context:mission():mission_issuer_record_key() == "MUFFIN_MAN";
+		end,
+		vco_def_cop_enable_slaanesh_units,
+		true
+	)
+
+	vco:log("- Ogre Kingdoms listeners");
 	core:add_listener(
 		"vco_ogr_meat_checks",
 		"ScriptEventTrackedPooledResourceChanged",
@@ -167,7 +214,7 @@ end
 
 -- MAIN --
 
-function main()
+local function main()
 	cm:add_first_tick_callback(add_listeners);
 end
 

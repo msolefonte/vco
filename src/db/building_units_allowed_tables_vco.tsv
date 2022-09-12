@@ -1,0 +1,4 @@
+building	unit	xp	conditions	key	faction	enabled
+#building_units_allowed_tables;4;db/building_units_allowed_tables/vco						
+wh2_main_def_pleasure_cult_5	wh3_main_sla_mon_fiends_of_slaanesh_0	0	0	852189347		false
+wh2_main_def_pleasure_cult_5	wh3_main_sla_mon_keeper_of_secrets_0	0	0	834926571		false

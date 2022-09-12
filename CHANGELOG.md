@@ -358,3 +358,12 @@ occasions, now it will be viable to play tall/defensively, without any requisite
 - Payloads renamed into Rewards for better readability
 - Technical
   - Now effects and effects bonus include a race identifier in the key
+
+## [5.0.0-beta.3] Plunder in the Jungle - 12.09.2022
+
+- Added new routes for Lord Mazdamundi: Hexoatl
+- Added new routes for Morathi: Cult of Pleasure
+- Now VCO-ready factions are displayed as Recommended First Campaigns in the campaign selector
+- Changed Bordeleaux Errant's Alberic's Grail Quest route: now it also requires defeating Itza
+- Fixed a bug that prevented new Victory Conditions from loading in the Objectives panel
+- Improved descriptions and fixed typos

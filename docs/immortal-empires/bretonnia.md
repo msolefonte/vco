@@ -7,7 +7,7 @@
     * Sacred Pools
   * Complete the Grail Vow with Alberic de Bordeleaux.
   * Destroy faction: 
-    * Wardens of the Living Pools
+    * Itza, Wardens of the Living Pools
   * **Reward:** 
     * _Blessed by the Lady_: Melee attack: +12, Melee damage: +100, Armor penetration: +250 and Physical 
     Resistance: +10% for Alberic de Bordeleaux

@@ -1,3 +1,4 @@
 key	use_unit_exp_level_range	min_unit_exp_level_inclusive	max_unit_exp_level_inclusive	special_category
 #unit_sets_tables;2;db/unit_sets_tables/vco				
 vco_brt_alberic	false	-1	-1	
+vco_def_morathi	false	-1	-1	
