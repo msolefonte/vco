@@ -27,6 +27,11 @@ local function is_faction_vassal_or_destroyed(player_faction, target_faction_key
 	return false;
 end
 
+local function is_faction_under_your_control(player_faction, target_faction_key, consider_military_allies)
+	return is_faction_vassal_or_destroyed(player_faction, target_faction_key, consider_military_allies) or
+		is_faction_military_ally_or_destroyed(player_faction, target_faction_key);
+end
+
 local function count_regions_with_highest_corruption(corruption_key)
 	local regions_count = 0;
 
