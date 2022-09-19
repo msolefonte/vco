@@ -25,8 +25,8 @@
   * Destroy faction: 
     * Grimgor's 'Ardboyz
   * **Reward**: 
-    * _Hell on Wheels_: _+20 Speed, +20 Charge Bonus for Greasus
-    * _Blood-forged Gut-plate_: +20 Armour, +5 Ward Save for Greasus
+    * _Hell on Wheels_: Speed: +35% and Charge Bonus: +20 for Greasus
+    * _Blood-forged Gut-plate_: Armour: +20 and Ward Save: +5 for Greasus
 
 * **Route III - Drakecrush**
   * Maintaining strong ties with the Cathayans will ensure their wealth continues to flow into the Hoardmaster's 
