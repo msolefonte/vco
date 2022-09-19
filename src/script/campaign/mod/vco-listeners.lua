@@ -2,6 +2,31 @@ local vco = core:get_static_object("vco");
 
 -- COMMON --
 
+local function is_faction_military_ally_or_destroyed(player_faction, target_faction_key)
+	local target_faction = cm:get_faction(target_faction_key);
+	return target_faction and (target_faction:is_dead() or target_faction:military_allies_with(player_faction));
+end
+
+local function is_faction_vassal_or_destroyed(player_faction, target_faction_key, consider_military_allies)
+	local target_faction = cm:get_faction(target_faction_key);
+	if target_faction then
+		if target_faction:is_dead() or target_faction:is_vassal_of(player_faction) then
+			return true;
+		end
+
+		if consider_military_allies then
+			local player_faction_military_allies = player_faction:factions_military_allies_with();
+			for i = 0, player_faction_military_allies:num_items() - 1 do
+				if target_faction:is_vassal_of(player_faction_military_allies:item_at(i)) then
+					return true;
+				end
+			end
+		end
+	end
+
+	return false;
+end
+
 local function count_regions_with_highest_corruption(corruption_key)
 	local regions_count = 0;
 
@@ -54,6 +79,7 @@ local function check_vco_cth_the_western_provinces_goods(faction_key)
 	end
 end
 
+ -- TODO RENAME AFTER UNIFICATION
 local function check_vco_daemons_of_chaos_the_great_game(faction_key, corruption_key)
 	local REQUIRED_CORRUPTED_REGIONS_VICTORY = 100;
 	local corrupted_regions = count_regions_with_highest_corruption(corruption_key);
@@ -67,6 +93,21 @@ local function check_vco_daemons_of_chaos_the_great_game(faction_key, corruption
 	end
 end
 
+local function check_vco_ogr_goldtooth_gross_income(target_faction)
+	local REQUIRED_CORRUPTED_REGIONS_VICTORY = 25000;
+	local current_income = target_faction:income();
+
+	if current_income < REQUIRED_CORRUPTED_REGIONS_VICTORY then
+		local percentage_completed = math.floor(current_income / REQUIRED_CORRUPTED_REGIONS_VICTORY * 100)
+		vco:set_mission_text("vco_ogr_gre_1_rich_walk",
+												 "vco_ogr_gre_1_rich_walk_" .. percentage_completed);
+	else
+		vco:set_mission_text("vco_ogr_gre_1_rich_walk", "vco_ogr_gre_1_rich_walk");
+		vco:complete_mission("wh3_main_ogr_goldtooth", "vco_ogr_gre_1_rich_walk");
+	end
+end
+
+ -- TODO RENAME AFTER UNIFICATION
 local function check_vco_ogre_kingdoms_the_maw_that_walks(context)
 	local REQUIRED_MEAT_OFFERED_VICTORY = 200;
 	local total_meat_offered = context:factor_spent();
@@ -185,6 +226,18 @@ local function add_listeners()
 	)
 
 	vco:log("- Ogre Kingdoms listeners");
+	core:add_listener(
+		"vco_ogr_goldtooth_faction_turn_start",
+		"FactionTurnStart",
+		function(context)
+			return context:faction():is_human() and context:faction():name() == "wh3_main_ogr_goldtooth";
+		end,
+		function(context)
+			check_vco_ogr_goldtooth_gross_income(context:faction());
+		end,
+		true
+	);
+
 	core:add_listener(
 		"vco_ogr_meat_checks",
 		"ScriptEventTrackedPooledResourceChanged",

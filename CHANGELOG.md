@@ -367,3 +367,8 @@ occasions, now it will be viable to play tall/defensively, without any requisite
 - Changed Bordeleaux Errant's Alberic's Grail Quest route: now it also requires defeating Itza
 - Fixed a bug that prevented new Victory Conditions from loading in the Objectives panel
 - Improved descriptions and fixed typos
+
+## [5.0.0-beta.4] TBA - TBA
+
+- Added new routes for Grimgor Ironhide: Grimgor's 'Ardboyz
+- Added new routes for Greasus Goldtooth: Goldtooth Tribe
