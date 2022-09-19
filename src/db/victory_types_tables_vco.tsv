@@ -102,3 +102,6 @@ vco_victory_type_def_cul_3_return_of_the_queen	2	0	long	long
 vco_victory_type_skv_mdr_1_PLACEHOLDER	0	0	long	long
 vco_victory_type_skv_mdr_2_the_vermintide_comes	1	0	long	long
 vco_victory_type_skv_mdr_3_harvest_chaos_specimens	2	0	long	long
+vco_victory_type_ksl_ort_1_there_can_only_be_one	0	0	long	long
+vco_victory_type_ksl_ort_2_the_last_bastion	1	0	long	long
+vco_victory_type_ksl_ort_3_wololo	2	0	long	long

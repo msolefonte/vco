@@ -20,6 +20,12 @@ vco_victory_payload_def_cul_2_hell_hath_no_fury_1	With the tear in reality now f
 vco_victory_payload_def_cul_2_hell_hath_no_fury_2	This jewel was originally gifted to Morathi by Aenarion, before it was stolen by Anar. It cloaks the wearer in shadow.	The Stone of Midnight	faction	1	mannslieb_solar_eclipse.png	true	false	true
 vco_victory_payload_def_cul_3_return_of_the_queen_1	From Ghrond's pinnacle, Sorceresses of the Dark Convent manipulate the Winds of Magic in Morathi's favour.	Ghrond Reclaimed	faction	1	magic.png	true	false	true
 vco_victory_payload_def_cul_3_return_of_the_queen_2	The Hag Queen deliberately withholds the deepest secrets of the Cauldrons of Blood, thus chaining the Witch Elves to her will.	Hellebron Humbled	faction	1	death_hag.png	true	false	true
-vco_victory_payload_skv_mdr_1_PLACEHOLDER_1	PLACEHOLDER		faction	1		true	false	true
-vco_victory_payload_skv_mdr_2_the_vermintide_comes_1	PLACEHOLDER		faction	1		true	false	true
-vco_victory_payload_skv_mdr_3_harvest_chaos_specimens_1	PLACEHOLDER		faction	1		true	false	true
+vco_victory_payload_skv_mdr_1_PLACEHOLDER_1	PLACEHOLDER	PLACEHOLDER	faction	1		true	false	true
+vco_victory_payload_skv_mdr_2_the_vermintide_comes_1	PLACEHOLDER	PLACEHOLDER	faction	1		true	false	true
+vco_victory_payload_skv_mdr_3_harvest_chaos_specimens_1	PLACEHOLDER	PLACEHOLDER	faction	1		true	false	true
+vco_victory_payload_ksl_ort_1_there_can_only_be_one_1	PLACEHOLDER	PLACEHOLDER	faction	1		true	false	true
+vco_victory_payload_ksl_ort_2_the_last_bastion_1	PLACEHOLDER	PLACEHOLDER	faction	1		true	false	true
+vco_victory_payload_ksl_ort_3_wololo_1	You follow a great man, but he is just a man. Follow the bear, and you will know true strength.	The Scourge of Altdorf	faction	1		true	false	true
+vco_victory_payload_ksl_ort_3_wololo_2	The followers of Handirch now see that the one true path to salvation lies through the renunciation of all wealth, preferably to the Patriarchs of the Great Orthodoxy.	The Conversion of Marienburg	faction	1		true	false	true
+vco_victory_payload_ksl_ort_3_wololo_3	The wolf and the bear must stand together to brave the coming storm. The Great Orthodoxy will ensure such a union perseveres.	The Syncretism of Middenheim	faction	1		true	false	true
+vco_victory_payload_ksl_ort_3_wololo_4	Rejoice, peasants. The fires of Dazh have exposed your masters for what they truly were. Feed the flames, and your salvation will be ensured.	The Cleansing of Drakenhof	faction	1		true	false	true
