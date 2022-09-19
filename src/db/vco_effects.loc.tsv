@@ -10,9 +10,4 @@ effects_description_vco_def_morathi_miscast_base_chance	Miscast base chance: %-n
 effects_description_vco_def_morathi_targeting_range	Spell targeting range: %+n% for Morathi	true
 effects_description_vco_def_morathi_ward_save	Ward save: %+n% for Morathi	true
 effects_description_vco_def_morathi_missile_resistance	Missile resistance: %+n% for Morathi	true
-effects_description_vco_def_morathi_slaanesh_unlock_dummy	Unlocks new Slaanesh units: Fiends and Keepers of Secrets	true
-effects_description_vco_grn_black_orcs_frostbite	Enables frostbite attacks for Black Orcs	true
-effects_description_vco_ogr_greasus_speed	Speed: %+n for Greasus Goldtooth	true
-effects_description_vco_ogr_greasus_charge_bonus	Charge Bonus: %+n for Greasus Goldtooth	true
-effects_description_vco_ogr_greasus_armour	Armour: %+n for Greasus Goldtooth	true
-effects_description_vco_ogr_greasus_ward_save	Ward save: %+n% for Greasus Goldtooth	true
+effects_description_vco_def_morathi_slaanesh_unlock_dummy	Unlock new Slaanesh units: Fiends and Keepers of Secrets	true

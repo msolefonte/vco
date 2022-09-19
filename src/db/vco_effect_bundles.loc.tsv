@@ -1,6 +1,6 @@
 key	text	tooltip
 #Loc PackedFile;1;text/db/vco_effect_bundles.loc		
-effect_bundles_localised_description_vco_campaign_victory_dummy	Completing a route will count as a campaign victory and will trigger the victory achievements. Do not worry, you will still be able to keep playing to complete the other routes or go for world domination!	true
+effect_bundles_localised_description_vco_campaign_victory_dummy	Completing a route will count as a campaign victory and will trigger the victory achievements. Do not worry, you still will be able to keep playing to complete the other routes or go for a world domination!	true
 effect_bundles_localised_title_vco_campaign_victory_dummy	Campaign Victory	true
 effect_bundles_localised_description_vco_victory_payload_cth_iron_into_gold	Diplomats from the west brave the Ivory Road to kneel before the Dragon Emperor and pledge their nation to his cause.	true
 effect_bundles_localised_title_vco_victory_payload_cth_iron_into_gold	Global Trade	true
@@ -39,22 +39,10 @@ effect_bundles_localised_title_vco_victory_payload_def_cul_2_hell_hath_no_fury_2
 effect_bundles_localised_description_vco_victory_payload_def_cul_3_return_of_the_queen_1	From Ghrond's pinnacle, Sorceresses of the Dark Convent manipulate the Winds of Magic in Morathi's favour.	true
 effect_bundles_localised_title_vco_victory_payload_def_cul_3_return_of_the_queen_1	Ghrond Reclaimed	true
 effect_bundles_localised_description_vco_victory_payload_def_cul_3_return_of_the_queen_2	The Hag Queen deliberately withholds the deepest secrets of the Cauldrons of Blood, thus chaining the Witch Elves to her will.	true
+effect_bundles_localised_title_vco_victory_payload_skv_mdr_1_PLACEHOLDER_1	PLACEHOLDER	true
+effect_bundles_localised_description_vco_victory_payload_skv_mdr_1_PLACEHOLDER_1	PLACEHOLDER	true
 effect_bundles_localised_title_vco_victory_payload_def_cul_3_return_of_the_queen_2	Hellebron Humbled	true
-effect_bundles_localised_title_vco_victory_payload_grn_gri_1_boss_east	Da Great Maw's Avatar	true
-effect_bundles_localised_description_vco_victory_payload_grn_gri_1_boss_east	After clubbing Greasus to death with his own sceptre and banishing Kholek from the mountains, the Ogres saw Grimgor as a living avatar of the Great Maw and pledged their allegiance.	true
-effect_bundles_localised_title_vco_victory_payload_grn_gri_2_burn_badlands	Slavesmiths	true
-effect_bundles_localised_description_vco_victory_payload_grn_gri_2_burn_badlands	The Dawi-Zharr have reaped what they have sown. They are now slaves to Grimgor, doomed to labour at their forges to produce arms and armour for his ever-growing Waaagh!	true
-effect_bundles_localised_title_vco_victory_payload_grn_gri_3_unfinished_business_1	Stunty Bake	true
-effect_bundles_localised_description_vco_victory_payload_grn_gri_3_unfinished_business_1	“Dis way, ladz! I 'eard Ironhide's 'aving anuver big stunty bake!”	true
-effect_bundles_localised_title_vco_victory_payload_grn_gri_3_unfinished_business_2	Mushroom-Addled Ice Witch	true
-effect_bundles_localised_description_vco_victory_payload_grn_gri_3_unfinished_business_2	“Dat's right 'umie, get ma choppa nice 'n frosty.”	true
-effect_bundles_localised_title_vco_victory_payload_grn_gri_3_unfinished_business_3	Pointy Fing	true
-effect_bundles_localised_description_vco_victory_payload_grn_gri_3_unfinished_business_3	"Wot's dis do?"	true
-effect_bundles_localised_title_vco_victory_payload_ogr_gre_1_rich_walk	Hoardmaster	true
-effect_bundles_localised_description_vco_victory_payload_ogr_gre_1_rich_walk	Greasus' wealth is now so obscene that even the lowliest Gnoblar in his tribe is bedecked in finery that would beggar a noble. All vie to join the Goldtooths and share in their wealth, and even the great nations of the world are enticed by the Hoardmaster's lucrative offers.	true
-effect_bundles_localised_title_vco_victory_payload_ogr_gre_2_overtyrants_reign_1	Hell on Wheels	true
-effect_bundles_localised_description_vco_victory_payload_ogr_gre_2_overtyrants_reign_1	In recognition of Greasus' indisputable dominion over these lands, the Black Dwarfs of Zhar-Naggrund have gifted him with a powerful daemon engine to strap to the back of his cart. In return, they merely ask that he look the other way when the occasional Cathayan caravan goes missing...	true
-effect_bundles_localised_title_vco_victory_payload_ogr_gre_2_overtyrants_reign_2	Blood-forged Gut-plate	true
-effect_bundles_localised_description_vco_victory_payload_ogr_gre_2_overtyrants_reign_2	Grimgor's armour was forged in the blood of Dwarf Runepriests, thus granting it potent defensive properties. As it was far too small for Greasus' magnificent bulk, it was melted down and reforged into a gut-plate of terrific proportions.	true
-effect_bundles_localised_title_vco_victory_payload_ogr_gre_3_drakecrush	Subservient Cathayans	true
-effect_bundles_localised_description_vco_victory_payload_ogr_gre_3_drakecrush	The Cathayans have now accepted their place at the Overtyrant's feet. Caravans journey to his Great Hall laden with gold, gemstones and exotic meats, hoping to barter for safe passage across the Ivory Road. Each season, their profit margins grow smaller.	true
+effect_bundles_localised_title_vco_victory_payload_skv_mdr_2_the_vermintide_comes_1	PLACEHOLDER	true
+effect_bundles_localised_description_vco_victory_payload_skv_mdr_2_the_vermintide_comes_1	PLACEHOLDER	true
+effect_bundles_localised_title_vco_victory_payload_skv_mdr_3_harvest_chaos_specimens_1	PLACEHOLDER	true
+effect_bundles_localised_description_vco_victory_payload_skv_mdr_3_harvest_chaos_specimens_1	PLACEHOLDER	true
