@@ -146,7 +146,7 @@ local missions = {
 
 					region wh3_main_combi_region_ghrond;
 				}
-
+            
 				objective
 				{
 					type CONSTRUCT_N_BUILDINGS_INCLUDING;
@@ -155,7 +155,7 @@ local missions = {
 
 					building_level wh2_main_special_ghrond_convent_of_sorcery_2;
 				}
-
+      
 				objective
 				{
 					override_text mission_text_text_vco_def_cul_3_return_of_the_queen_2;

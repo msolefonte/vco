@@ -37,7 +37,7 @@ local missions = {
 
 				objective
 				{
-					type CONSTRUCT_N_BUILDINGS_INCLUDING;
+          type CONSTRUCT_N_BUILDINGS_INCLUDING;
 					faction wh2_main_lzd_hexoatl;
 					total 2;
 
@@ -95,7 +95,7 @@ local missions = {
 
 					region wh3_main_combi_region_ancient_city_of_quintex;
 				}
-
+            
 				objective
 				{
 					type CONSTRUCT_N_BUILDINGS_INCLUDING;
@@ -149,7 +149,7 @@ local missions = {
 
 					confederation_valid;
 				}
-
+            
 				objective
 				{
 					type CONTROL_N_REGIONS_INCLUDING;
