@@ -356,7 +356,7 @@ occasions, now it will be viable to play tall/defensively, without any requisite
 - Added new routes for Alberic de Bordeleaux: Bordeleaux Errant
 - All routes have been turned into Short Victories to prevent triggering Endgame Scenarios
 - Payloads renamed into Rewards for better readability
-- Technical
+- Technical:
   - Now effects and effects bonus include a race identifier in the key
 
 ## [5.0.0-beta.3] Plunder in the Jungle - 12.09.2022
@@ -372,3 +372,6 @@ occasions, now it will be viable to play tall/defensively, without any requisite
 
 - Added new routes for Grimgor Ironhide: Grimgor's 'Ardboyz
 - Added new routes for Greasus Goldtooth: Goldtooth Tribe
+- Technical: 
+  - Added new common functions for VCO listeners: `is_faction_military_ally_or_destroyed()`, 
+  `is_faction_vassal_or_destroyed()` and `is_faction_under_your_control()`
