@@ -86,7 +86,7 @@ Now, inside of each `missions.lua`, you have to export a list of missions, which
 
 ```lua
 local missions = {
-    [[
+	[[
  		mission
 		{
 			victory_type vco_victory_type_alternative_2_threat_elimination;
@@ -105,14 +105,14 @@ local missions = {
 				}
 
 				objective
-                {
-                    type DESTROY_FACTION;
+				{
+					type DESTROY_FACTION;
 
-                    faction wh_main_vmp_vampire_counts;
-                    faction wh_main_vmp_schwartzhafen;
+					faction wh_main_vmp_vampire_counts;
+					faction wh_main_vmp_schwartzhafen;
 
-                    confederation_valid;
-                }
+					confederation_valid;
+				}
 
 				payload
 				{
@@ -120,7 +120,7 @@ local missions = {
 				}
 			}
 		}
-    ]]
+	]]
 };
 
 return missions;
@@ -146,7 +146,8 @@ Feel free to add issues or to create pull requests. Help is always welcome.
 ## Authors
 
 * **Marc Solé Fonte**: *Initial work* - [msolefonte](https://github.com/msolefonte)
-* **Oh_Man[TFE]** - *Added new routes and introduced new lore blocks*: [Oh_Man[TFE]](https://steamcommunity.com/profiles/76561197972445688/)
+* **Oh_Man[TFE]**: *Added new routes and introduced new lore blocks* - [Oh_Man[TFE]](https://steamcommunity.com/profiles/76561197972445688/)
+* **Vindico**: *Added new routes* - [MichaelBrown08](https://github.com/MichaelBrown08)
 
 ## License
 
