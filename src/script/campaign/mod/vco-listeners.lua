@@ -51,12 +51,6 @@ end
 
 -- CHECKS --
 
-local function check_skv_mdr_number_upgrades_purchased(faction_key)
-    -- Where do these saved values come from? Only four listed in wh2_dlc16_flesh_lab.
-	vco:out(faction_key)
-    local num_upgrades_unlocked = cm:get_saved_value("upgrades_unlocked" .. faction_key) or 0;
-end
-
 local function check_vco_brt_bordeleaux_alberic_vow(character)
 	if character:character_subtype("wh_dlc07_brt_alberic") then
 		vco:complete_mission("wh_main_brt_bordeleaux", "vco_brt_alberic_vow");
@@ -118,6 +112,12 @@ local function check_vco_ogr_goldtooth_gross_income(target_faction)
 	end
 end
 
+local function check_vco_skv_mdr_number_upgrades_purchased(faction_key)
+	-- Where do these saved values come from? Only four listed in wh2_dlc16_flesh_lab.
+	vco:out(faction_key)
+	local num_upgrades_unlocked = cm:get_saved_value("upgrades_unlocked" .. faction_key) or 0;
+end
+
  -- TODO RENAME AFTER UNIFICATION
 local function check_vco_ogre_kingdoms_the_maw_that_walks(context)
 	local REQUIRED_MEAT_OFFERED_VICTORY = 200;
@@ -160,23 +160,6 @@ end
 
 local function add_listeners()
 	vco:log("Adding listeners");
-
-	vco:log("- Moulder listeners");
-    core:add_listener(
-        "vco_skv_moulder_upgrade_count_check",
-        "UnitTrained",
-        function(context)
-            vco:log("inside mdr listener conditional check")
-            local faction = context:unit():faction()
-            return faction:name() == "wh2_main_skv_clan_moulder" and faction:is_human()
-        end,
-        function(context)
-            vco:log("inside mdr listener execution")
-            local faction = context:unit():faction()
-            local upgrades_unlocked = check_skv_mdr_number_upgrades_purchased(faction)
-        end,
-        true
-    );
 
 	vco:log("- Bretonnia listeners");
 	core:add_listener(
@@ -275,6 +258,22 @@ local function add_listeners()
 		end,
 		function(context)
 			check_vco_ogre_kingdoms_the_maw_that_walks(context);
+		end,
+		true
+	);
+
+	vco:log("- Skaven listeners");
+	core:add_listener(
+		"vco_skv_moulder_upgrade_count_check",
+		"UnitTrained",
+		function(context)
+			vco:log("inside mdr listener conditional check")
+			local faction = context:unit():faction()
+			return faction:name() == "wh2_main_skv_clan_moulder" and faction:is_human()
+		end,
+		function(context)
+			vco:log("inside mdr listener execution")
+			check_vco_skv_mdr_number_upgrades_purchased(context:unit():faction())
 		end,
 		true
 	);

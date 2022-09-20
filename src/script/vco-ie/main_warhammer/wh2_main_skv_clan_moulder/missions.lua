@@ -62,22 +62,22 @@ local missions = {
 					type DESTROY_FACTION;
 
 					faction wh3_main_ksl_the_ice_court;
-          faction wh3_main_ksl_the_great_orthodoxy;
+					faction wh3_main_ksl_the_great_orthodoxy;
 				}
-            
-                objective
-                {
-                    type RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_INCLUDING;
-                    total 4;
-                
-                    region wh3_main_combi_region_altdorf;
-                    region wh3_main_combi_region_kislev;
-                    region wh3_main_combi_region_middenheim;
-                    region wh3_main_combi_region_brass_keep;
-                    region wh3_main_combi_region_gryphon_wood;
-                    region wh3_main_combi_region_castle_drakenhof;
-                    region wh3_main_combi_region_karak_kadrin;
-                }
+			
+				objective
+				{
+					type RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_INCLUDING;
+					total 4;
+				
+					region wh3_main_combi_region_altdorf;
+					region wh3_main_combi_region_kislev;
+					region wh3_main_combi_region_middenheim;
+					region wh3_main_combi_region_brass_keep;
+					region wh3_main_combi_region_gryphon_wood;
+					region wh3_main_combi_region_castle_drakenhof;
+					region wh3_main_combi_region_karak_kadrin;
+				}
 
 				payload
 				{
@@ -118,6 +118,8 @@ local missions = {
 					type DESTROY_FACTION;
 
 					faction wh_dlc08_nor_wintertooth;
+
+					confederation_valid;
 				}
 
 				payload
