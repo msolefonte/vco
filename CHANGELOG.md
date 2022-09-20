@@ -368,7 +368,7 @@ occasions, now it will be viable to play tall/defensively, without any requisite
 - Fixed a bug that prevented new Victory Conditions from loading in the Objectives panel
 - Improved descriptions and fixed typos
 
-## [5.0.0-beta.4] TBA - TBA
+## [5.0.0-beta.4] The Fat and the Furious - 20.09.2022
 
 - Added new routes for Grimgor Ironhide: Grimgor's 'Ardboyz
 - Added new routes for Greasus Goldtooth: Goldtooth Tribe
