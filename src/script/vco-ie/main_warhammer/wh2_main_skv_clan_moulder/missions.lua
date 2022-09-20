@@ -62,7 +62,7 @@ local missions = {
 					type DESTROY_FACTION;
 
 					faction wh3_main_ksl_the_ice_court;
-                    faction wh3_main_ksl_the_great_orthodoxy;
+          faction wh3_main_ksl_the_great_orthodoxy;
 				}
             
                 objective
@@ -118,8 +118,6 @@ local missions = {
 					type DESTROY_FACTION;
 
 					faction wh_dlc08_nor_wintertooth;
-
-					confederation_valid;
 				}
 
 				payload
