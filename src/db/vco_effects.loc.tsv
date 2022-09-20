@@ -1,13 +1,13 @@
 key	text	tooltip
 #Loc PackedFile;1;text/db/vco_effects.loc		
-effects_description_vco_campaign_victory_dummy	Campaign Victory	true
-effects_description_vco_emp_cursed_artifact_notidoc	Cursed Artifact of No'Tidoq	true
 effects_description_vco_brt_alberic_vow_melee_attack	Melee attack: %+n for Alberic de Bordeleaux	true
 effects_description_vco_brt_alberic_vow_melee_damage	Weapon strength: %+n for Alberic de Bordeleaux	true
 effects_description_vco_brt_alberic_vow_melee_damage_ap	Armour-piercing weapon damage: %+n for Alberic de Bordeleaux	true
 effects_description_vco_brt_alberic_vow_resistance_physical	Physical resistance: %n% for Alberic de Bordeleaux	true
+effects_description_vco_campaign_victory_dummy	Campaign Victory	true
 effects_description_vco_def_morathi_miscast_base_chance	Miscast base chance: %-n% for Morathi	true
-effects_description_vco_def_morathi_targeting_range	Spell targeting range: %+n% for Morathi	true
-effects_description_vco_def_morathi_ward_save	Ward save: %+n% for Morathi	true
 effects_description_vco_def_morathi_missile_resistance	Missile resistance: %+n% for Morathi	true
 effects_description_vco_def_morathi_slaanesh_unlock_dummy	Unlock new Slaanesh units: Fiends and Keepers of Secrets	true
+effects_description_vco_def_morathi_targeting_range	Spell targeting range: %+n% for Morathi	true
+effects_description_vco_def_morathi_ward_save	Ward save: %+n% for Morathi	true
+effects_description_vco_emp_cursed_artifact_notidoc	Cursed Artifact of No'Tidoq	true

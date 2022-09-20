@@ -1,8 +1,8 @@
-unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+unit_set	unit_record	unit_caste	unit_category	unit_class	exclude
 #unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/vco					
-			wh_dlc07_brt_cha_alberic_bordeleaux_0	vco_brt_alberic	false
-			wh_dlc07_brt_cha_alberic_bordeleaux_1	vco_brt_alberic	false
-			wh_dlc07_brt_cha_alberic_bordeleaux_2	vco_brt_alberic	false
-			wh_dlc07_brt_cha_alberic_bordeleaux_3	vco_brt_alberic	false
-			wh2_main_def_cha_morathi_0	vco_def_morathi	false
-			wh2_main_def_cha_morathi_1	vco_def_morathi	false
+vco_brt_alberic	wh_dlc07_brt_cha_alberic_bordeleaux_0				false
+vco_brt_alberic	wh_dlc07_brt_cha_alberic_bordeleaux_1				false
+vco_brt_alberic	wh_dlc07_brt_cha_alberic_bordeleaux_2				false
+vco_brt_alberic	wh_dlc07_brt_cha_alberic_bordeleaux_3				false
+vco_def_morathi	wh2_main_def_cha_morathi_0				false
+vco_def_morathi	wh2_main_def_cha_morathi_1				false

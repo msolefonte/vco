@@ -1,31 +1,31 @@
-key	localised_description	localised_title	bundle_target	priority	ui_icon	is_global_effect	show_in_3d_space	owner_only
+key	localised_title	localised_description	ui_icon	bundle_target	priority	is_global_effect	show_in_3d_space	owner_only
 #effect_bundles_tables;4;db/effect_bundles_tables/vco								
-vco_campaign_victory_dummy	Completing a route will count as a campaign victory and will trigger the achievements. Do not worry, you still will be able to keep playing to complete the other routes or go for a world domination!	Campaign Victory	faction	1	hunter_effect_icons_loyalty_green.png	false	false	true
-vco_victory_payload_cth_iron_into_gold	Diplomats from the west brave the Ivory Road to kneel before the Dragon Emperor and pledge their nations to his cause.	Global Trade	faction	1	diplomacy.png	true	false	true
-vco_victory_payload_cth_in_harmony	With the daemons kept at bay, the land thrives and the people are content.	Empire of the Celestial Dragon	faction	1	trait_cathay.png	true	false	true
-vco_victory_payload_cth_dont_thread_on_ming	Across Cathay the merchants rejoice, for the trade routes are secure and wealth flows into the nation.	Safe Roads	faction	1	trade_agreement.png	true	false	true
-vco_victory_payload_cth_cool_and_aloof	From the highest tower in the City of Smoke the Supreme Matriarch safeguards the nation.	Unreachable	faction	1	siege_defence.png	true	false	true
-vco_victory_payload_cth_the_northern_expedition	With Shen-Zoo safely returned, light shines on the Celestial Empire once more. The people rejoice and the shadows are banished.	Bringer of Light and Hope	faction	1	replenishment.png	true	false	true
-vco_victory_payload_emp_champions_of_the_empire	Arise, Huntsmarshal. You need not kneel in my presence; you have earned that right. Your expedition has brought honour and glory to the Empire in its hour of greatest need. Your brother would be proud.	Champions of the Empire	faction	1	captain.png	true	false	true
-vco_victory_payload_emp_cursed_artifact_notidoc	This ancient artifact glows with an eldritch light, filling one's mind with a bestial fury.	Cursed Artifact of No'Tidoq	faction	1	dlc12_plaque_stage_3.png	true	false	true
-vco_victory_payload_emp_big_game_hunter	Nakai didn't wander far enough. His head now takes pride of place in the Huntmarshal's trophy room.	Big Game Hunter	faction	1	hunter.png	true	false	true
-vco_victory_payload_brt_blessed_by_the_lady	Alberic has supped from the grail, becoming a god amongst men.	Blessed by The Lady	faction	1	vow_grail_positive.png	true	false	true
-vco_victory_payload_brt_the_sea_gods_wrath	The scurge of undeath has been banished from the waves. Manann is pleased.	The Sea God's Wrath	faction	1	pirate_crew.png	true	false	true
-vco_victory_payload_brt_bordeleaux_reclaimed	The peasants are safe. Have them return to their labours, for idle hands are the daemon's playthings.	Bordeleaux Reclaimed	faction	1	peasant.png	true	false	true
-vco_victory_payload_lzd_hex_1_solar_city	The interlopers have been purged. The Skink artisans and Kroxigor labourers can continue their work unabated.	The Age of Awakening	faction	1	construction.png	true	false	true
-vco_victory_payload_lzd_hex_2_begone_thot	The Hag Queen and her cruel consorts have met their end, their souls now the playthings of the Ancient Enemy for all eternity. The arcane artifacts contained within Quintex are now at your disposal.	Saviour of Quintex	faction	1	slann_mage_priest.png	true	false	true
-vco_victory_payload_lzd_hex_3_purging_warmbloods	The Geomantic Web thrums with power, the spawning pools thrash with new life - all is as the Old Ones foretold.	Lustria Resurgent	faction	1	vortex_lzd_3.png	true	false	true
-vco_victory_payload_def_cul_1_stellar_pyramids_of_khaine	The Winds of Magic surge with newfound strength as the ancient Slann's still-beating heart is crushed in your grip. Khaine's bloodlust is sated... for now.	A Mighty Offering	faction	1	dlc10_death_night.png	true	false	true
-vco_victory_payload_def_cul_2_hell_hath_no_fury_1	With the tear in reality now free to grow unchecked, legions of the Dark Prince's daemons pour through the breach.	Portal to the Dreaming Wood	faction	1	disciple_army.png	true	false	true
-vco_victory_payload_def_cul_2_hell_hath_no_fury_2	This jewel was originally gifted to Morathi by Aenarion, before it was stolen by Anar. It cloaks the wearer in shadow.	The Stone of Midnight	faction	1	mannslieb_solar_eclipse.png	true	false	true
-vco_victory_payload_def_cul_3_return_of_the_queen_1	From Ghrond's pinnacle, Sorceresses of the Dark Convent manipulate the Winds of Magic in Morathi's favour.	Ghrond Reclaimed	faction	1	magic.png	true	false	true
-vco_victory_payload_def_cul_3_return_of_the_queen_2	The Hag Queen deliberately withholds the deepest secrets of the Cauldrons of Blood, thus chaining the Witch Elves to her will.	Hellebron Humbled	faction	1	death_hag.png	true	false	true
-vco_victory_payload_skv_mdr_1_PLACEHOLDER_1	PLACEHOLDER	PLACEHOLDER	faction	1		true	false	true
-vco_victory_payload_skv_mdr_2_the_vermintide_comes_1	PLACEHOLDER	PLACEHOLDER	faction	1		true	false	true
-vco_victory_payload_skv_mdr_3_harvest_chaos_specimens_1	PLACEHOLDER	PLACEHOLDER	faction	1		true	false	true
-vco_victory_payload_ksl_ort_1_there_can_only_be_one_1	PLACEHOLDER	PLACEHOLDER	faction	1		true	false	true
-vco_victory_payload_ksl_ort_2_the_last_bastion_1	PLACEHOLDER	PLACEHOLDER	faction	1		true	false	true
-vco_victory_payload_ksl_ort_3_wololo_1	You follow a great man, but he is just a man. Follow the bear, and you will know true strength.	The Scourge of Altdorf	faction	1		true	false	true
-vco_victory_payload_ksl_ort_3_wololo_2	The followers of Handirch now see that the one true path to salvation lies through the renunciation of all wealth, preferably to the Patriarchs of the Great Orthodoxy.	The Conversion of Marienburg	faction	1		true	false	true
-vco_victory_payload_ksl_ort_3_wololo_3	The wolf and the bear must stand together to brave the coming storm. The Great Orthodoxy will ensure such a union perseveres.	The Syncretism of Middenheim	faction	1		true	false	true
-vco_victory_payload_ksl_ort_3_wololo_4	Rejoice, peasants. The fires of Dazh have exposed your masters for what they truly were. Feed the flames, and your salvation will be ensured.	The Cleansing of Drakenhof	faction	1		true	false	true
+vco_campaign_victory_dummy	Campaign Victory	Completing a route will count as a campaign victory and will trigger the achievements. Do not worry, you still will be able to keep playing to complete the other routes or go for a world domination!	hunter_effect_icons_loyalty_green.png	faction	1	false	false	true
+vco_victory_payload_brt_blessed_by_the_lady	Blessed by The Lady	Alberic has supped from the grail, becoming a god amongst men.	vow_grail_positive.png	faction	1	true	false	true
+vco_victory_payload_brt_bordeleaux_reclaimed	Bordeleaux Reclaimed	The peasants are safe. Have them return to their labours, for idle hands are the daemon's playthings.	peasant.png	faction	1	true	false	true
+vco_victory_payload_brt_the_sea_gods_wrath	The Sea God's Wrath	The scurge of undeath has been banished from the waves. Manann is pleased.	pirate_crew.png	faction	1	true	false	true
+vco_victory_payload_cth_cool_and_aloof	Unreachable	From the highest tower in the City of Smoke the Supreme Matriarch safeguards the nation.	siege_defence.png	faction	1	true	false	true
+vco_victory_payload_cth_dont_thread_on_ming	Safe Roads	Across Cathay the merchants rejoice, for the trade routes are secure and wealth flows into the nation.	trade_agreement.png	faction	1	true	false	true
+vco_victory_payload_cth_in_harmony	Empire of the Celestial Dragon	With the daemons kept at bay, the land thrives and the people are content.	trait_cathay.png	faction	1	true	false	true
+vco_victory_payload_cth_iron_into_gold	Global Trade	Diplomats from the west brave the Ivory Road to kneel before the Dragon Emperor and pledge their nations to his cause.	diplomacy.png	faction	1	true	false	true
+vco_victory_payload_cth_the_northern_expedition	Bringer of Light and Hope	With Shen-Zoo safely returned, light shines on the Celestial Empire once more. The people rejoice and the shadows are banished.	replenishment.png	faction	1	true	false	true
+vco_victory_payload_def_cul_1_stellar_pyramids_of_khaine	A Mighty Offering	The Winds of Magic surge with newfound strength as the ancient Slann's still-beating heart is crushed in your grip. Khaine's bloodlust is sated... for now.	dlc10_death_night.png	faction	1	true	false	true
+vco_victory_payload_def_cul_2_hell_hath_no_fury_1	Portal to the Dreaming Wood	With the tear in reality now free to grow unchecked, legions of the Dark Prince's daemons pour through the breach.	disciple_army.png	faction	1	true	false	true
+vco_victory_payload_def_cul_2_hell_hath_no_fury_2	The Stone of Midnight	This jewel was originally gifted to Morathi by Aenarion, before it was stolen by Anar. It cloaks the wearer in shadow.	mannslieb_solar_eclipse.png	faction	1	true	false	true
+vco_victory_payload_def_cul_3_return_of_the_queen_1	Ghrond Reclaimed	From Ghrond's pinnacle, Sorceresses of the Dark Convent manipulate the Winds of Magic in Morathi's favour.	magic.png	faction	1	true	false	true
+vco_victory_payload_def_cul_3_return_of_the_queen_2	Hellebron Humbled	The Hag Queen deliberately withholds the deepest secrets of the Cauldrons of Blood, thus chaining the Witch Elves to her will.	death_hag.png	faction	1	true	false	true
+vco_victory_payload_emp_big_game_hunter	Big Game Hunter	Nakai didn't wander far enough. His head now takes pride of place in the Huntmarshal's trophy room.	hunter.png	faction	1	true	false	true
+vco_victory_payload_emp_champions_of_the_empire	Champions of the Empire	Arise, Huntsmarshal. You need not kneel in my presence; you have earned that right. Your expedition has brought honour and glory to the Empire in its hour of greatest need. Your brother would be proud.	captain.png	faction	1	true	false	true
+vco_victory_payload_emp_cursed_artifact_notidoc	Cursed Artifact of No'Tidoq	This ancient artifact glows with an eldritch light, filling one's mind with a bestial fury.	dlc12_plaque_stage_3.png	faction	1	true	false	true
+vco_victory_payload_ksl_ort_1_there_can_only_be_one_1	PLACEHOLDER	PLACEHOLDER		faction	1	true	false	true
+vco_victory_payload_ksl_ort_2_the_last_bastion_1	PLACEHOLDER	PLACEHOLDER		faction	1	true	false	true
+vco_victory_payload_ksl_ort_3_wololo_1	The Scourge of Altdorf	You follow a great man, but he is just a man. Follow the bear, and you will know true strength.		faction	1	true	false	true
+vco_victory_payload_ksl_ort_3_wololo_2	The Conversion of Marienburg	The followers of Handirch now see that the one true path to salvation lies through the renunciation of all wealth, preferably to the Patriarchs of the Great Orthodoxy.		faction	1	true	false	true
+vco_victory_payload_ksl_ort_3_wololo_3	The Syncretism of Middenheim	The wolf and the bear must stand together to brave the coming storm. The Great Orthodoxy will ensure such a union perseveres.		faction	1	true	false	true
+vco_victory_payload_ksl_ort_3_wololo_4	The Cleansing of Drakenhof	Rejoice, peasants. The fires of Dazh have exposed your masters for what they truly were. Feed the flames, and your salvation will be ensured.		faction	1	true	false	true
+vco_victory_payload_lzd_hex_1_solar_city	The Age of Awakening	The interlopers have been purged. The Skink artisans and Kroxigor labourers can continue their work unabated.	construction.png	faction	1	true	false	true
+vco_victory_payload_lzd_hex_2_begone_thot	Saviour of Quintex	The Hag Queen and her cruel consorts have met their end, their souls now the playthings of the Ancient Enemy for all eternity. The arcane artifacts contained within Quintex are now at your disposal.	slann_mage_priest.png	faction	1	true	false	true
+vco_victory_payload_lzd_hex_3_purging_warmbloods	Lustria Resurgent	The Geomantic Web thrums with power, the spawning pools thrash with new life - all is as the Old Ones foretold.	vortex_lzd_3.png	faction	1	true	false	true
+vco_victory_payload_skv_mdr_1_PLACEHOLDER_1	PLACEHOLDER	PLACEHOLDER		faction	1	true	false	true
+vco_victory_payload_skv_mdr_2_the_vermintide_comes_1	PLACEHOLDER	PLACEHOLDER		faction	1	true	false	true
+vco_victory_payload_skv_mdr_3_harvest_chaos_specimens_1	PLACEHOLDER	PLACEHOLDER		faction	1	true	false	true
