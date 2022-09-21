@@ -122,6 +122,8 @@ local missions = {
 					faction wh_main_emp_empire;
 					faction wh_main_emp_marienburg;
 					faction wh_main_emp_middenland;
+				
+					confederation_valid;
 				}
 
 				payload
