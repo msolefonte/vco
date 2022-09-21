@@ -105,3 +105,6 @@ vco_victory_type_grn_gri_3_unfinished_business	2	0	long	long
 vco_victory_type_ogr_gre_1_rich_walk	0	0	long	long
 vco_victory_type_ogr_gre_2_overtyrants_reign	1	0	long	long
 vco_victory_type_ogr_gre_3_drakecrush	2	0	long	long
+vco_victory_type_skv_mdr_1_yes_yes_prepare_for_war	0	0	long	long
+vco_victory_type_skv_mdr_2_the_vermintide_comes	1	0	long	long
+vco_victory_type_skv_mdr_3_harvest_chaos_specimens	2	0	long	long

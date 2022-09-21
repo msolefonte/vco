@@ -2,14 +2,14 @@ local missions = {
 	[[
  		mission
 		{
-			victory_type vco_victory_type_skv_mdr_1_PLACEHOLDER;
+			victory_type vco_victory_type_skv_mdr_1_yes_yes_prepare_for_war;
 			key wh_main_short_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
 				objective
 				{
-					override_text mission_text_text_vco_skv_mdr_1_PLACEHOLDER_1;
+					override_text mission_text_text_vco_skv_mdr_1_yes_yes_prepare_for_war_1;
 					type SCRIPTED;
 					script_key vco_dummy;
 				}
@@ -27,7 +27,7 @@ local missions = {
 				{
 					effect_bundle
 					{
-						bundle_key vco_victory_payload_skv_mdr_1_PLACEHOLDER_1;
+						bundle_key vco_victory_payload_skv_mdr_1_yes_yes_prepare_for_war_1;
 						turns 0;
 					}
 
@@ -118,6 +118,10 @@ local missions = {
 					type DESTROY_FACTION;
 
 					faction wh_dlc08_nor_wintertooth;
+					faction wh3_dlc20_chs_azazel;
+					faction wh2_main_def_hag_graef;
+					faction wh3_main_ksl_ursun_revivalists;
+					faction wh3_main_dae_daemon_prince;
 
 					confederation_valid;
 				}
