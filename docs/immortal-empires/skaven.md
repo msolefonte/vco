@@ -1,29 +1,25 @@
-# Empire
+## Throt the Unclean - Clan Moulder
 
-## Markus Wulfhart: The Huntsmarshal's Expedition
+* **Route I - Yes-yes, prepare for war!**
+  * **Throt is busy deep down in Hell Pit, ever strengthening his mutant armies. Soon enough his hordes will surge forth from the pit, and they shall be fearsome.**
+  * Unlock all Infantry Augments and Monster Augments
+  * Build landmark: Depths of the Pit
+    * **War Footing**: Research rate +50%, Growth Juice per turn +40
+    * **Throt's mutant armies are ready and the Vermintide awaits. Hell Pit has geared up for war!**
 
-* **Route I - Champions of the Empire:**
-  * At the start of your turn, have at least 100 Acclaim.
-  * Conquer the coast of Lustria. At least six port settlements must be under your control:
-    * The High Sentinel, Temple of Kara, Bregonne, Pox Marsh, The Awakening, The Blood Swamps, Fuming Serpent,
-    The Star Tower, Altar of the Horned Rat, Chupayotl, Mangrove Coast and Citadel of Dusk
-  * **Reward**: 
-    * _Champions of the Empire_: Diplomacy with The Empire: +60, Income from trade tariffs: +60%
-* **Route II - The Huntsmarshal's Expedition:**
-  * Your explorers have told you about an ancient artifact broken in pieces and hidden by the Lizardmen. Destroy those
-  who are protecting it and claim it for the Empire.
-    * Itza
-  * Locate the artifacts by sacking or razing the temples where they are hidden:
-    * Chamber of Visions, Itza, Oyxl
-  * **Reward**: 
-    * _Cursed Artifact of No'Tidoc_: Ability "Primal Instincts" for all characters
-    * Acclaim: +20
-* **Route III - It is round!:**
-  * The expedition doesn't have to stop here. Follow the Sea Lanes to reach The Jade Sea and build four ports in the
-  Cathayan coast: 
-    * Haichai, Beichai, Chimai, Fu-Chow, Li Zhu, Dai Cheng
-  * An old enemy lies hidden close to the Jungles of Chi'an. Ensure he doesn't run away this time.
-    * Spirits of the Jungle
-  * **Reward**: 
-     * _Big Game Hunter_: Bonus vs Large: +6 when fighting against Lizardmen
-     * Acclaim: +20
+* **Route II - The Vermintide Comes**
+  * **All manner of Throt's modified creations have been loosed upon the world, thundering towards Kislev and the South on feet most foul. The Vermintide can't be stopped now, no-never!**
+  * Destroy factions: 
+    * The Ice Court, The Great Orthodoxy
+  * Occupy/Raze at least 4 settlements:
+    * Kislev, Altdorf, Middenheim, Brass Keep, Gryphon Wood, Castle Drakenhof, Karak Kadrin
+    * **More food, stronger beast!**: Food generated: X per turn, recruit rank +X for mutants
+**The skavenslaves of Hell Pit are shoveling ever greater amounts of food - anything they can find that's even slightly edible - down the beast's throats, and the world will tremble at the size of the gluttonous monsters!**
+
+* **Route III - Harvest Chaos Specimens (tbd)**
+  * Oh yes-yes, warped flesh, tainted-foul and beautiful it is! I need it, what experiments I could do... Greater than ever before, Throt would be!
+  * Destroy/ally factions: The Ecstatic Legions, Wintertooth, Hag Graef, Ursun Revivalists, Legion of Chaos, Warhost of the Apocalypse
+    * **Tainted-Foul Flesh**: Mutagens per turn X, weapon strength +10% for mutants or casualty replenishment 10% for mutants
+**The finest chaos-tainted flesh specimens have made their way to Throt's Flesh Lab and his mutant creations are increasingly chaos-infused, and increasingly dangerous!**
+
+Have updated some PLACEHOLDER text with suggestions and will add to tables.
