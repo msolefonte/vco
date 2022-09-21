@@ -117,12 +117,11 @@ local missions = {
 				objective
 				{
 					type DESTROY_FACTION;
-					total 4;
+					total 3;
 
 					faction wh_main_emp_empire;
 					faction wh_main_emp_marienburg;
 					faction wh_main_emp_middenland;
-					faction wh_main_vmp_schwartzhafen;
 				}
 
 				payload
