@@ -37,7 +37,7 @@ local missions = {
 				{
 					effect_bundle
 					{
-						bundle_key vco_victory_payload_ksl_ort_1_there_can_only_be_one_1;
+						bundle_key vco_victory_payload_ksl_ort_1_there_can_only_be_one;
 						turns 0;
 					}
 
@@ -81,7 +81,7 @@ local missions = {
 				{
 					effect_bundle
 					{
-						bundle_key vco_victory_payload_ksl_ort_2_the_last_bastion_1;
+						bundle_key vco_victory_payload_ksl_ort_2_the_last_bastion;
 						turns 0;
 					}
 
