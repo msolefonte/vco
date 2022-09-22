@@ -2,14 +2,14 @@ local missions = {
 	[[
  		mission
 		{
-			victory_type vco_victory_type_skv_mdr_1_yes_yes_prepare_for_war;
+			victory_type vco_victory_type_skv_mdr_1_yes_yes_prepare_the_lab;
 			key wh_main_short_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
 				objective
 				{
-					override_text mission_text_text_vco_skv_mdr_1_yes_yes_prepare_for_war_1;
+					override_text mission_text_text_vco_skv_mdr_1_yes_yes_prepare_the_lab;
 					type SCRIPTED;
 					script_key vco_dummy;
 				}
@@ -27,7 +27,7 @@ local missions = {
 				{
 					effect_bundle
 					{
-						bundle_key vco_victory_payload_skv_mdr_1_yes_yes_prepare_for_war_1;
+						bundle_key vco_victory_payload_skv_mdr_1_yes_yes_prepare_the_lab;
 						turns 0;
 					}
 
@@ -52,7 +52,7 @@ local missions = {
 			{
 				objective
 				{
-					override_text mission_text_text_vco_skv_mdr_2_the_vermintide_comes_1;
+					override_text mission_text_text_vco_skv_mdr_2_the_vermintide_comes;
 					type SCRIPTED;
 					script_key vco_dummy;
 				}
@@ -83,7 +83,7 @@ local missions = {
 				{
 					effect_bundle
 					{
-						bundle_key vco_victory_payload_skv_mdr_2_the_vermintide_comes_1;
+						bundle_key vco_victory_payload_skv_mdr_2_the_vermintide_comes;
 						turns 0;
 					}
 
@@ -108,7 +108,7 @@ local missions = {
 			{
 				objective
 				{
-					override_text mission_text_text_vco_skv_mdr_3_harvest_chaos_specimens_1;
+					override_text mission_text_text_vco_skv_mdr_3_harvest_chaos_specimens;
 					type SCRIPTED;
 					script_key vco_dummy;
 				}
@@ -130,7 +130,7 @@ local missions = {
 				{
 					effect_bundle
 					{
-						bundle_key vco_victory_payload_skv_mdr_3_harvest_chaos_specimens_1;
+						bundle_key vco_victory_payload_skv_mdr_3_harvest_chaos_specimens;
 						turns 0;
 					}
 
