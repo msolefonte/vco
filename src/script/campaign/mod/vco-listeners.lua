@@ -267,13 +267,13 @@ local function add_listeners()
 		"vco_skv_moulder_upgrade_count_check",
 		"UnitTrained",
 		function(context)
-			vco:log("inside mdr listener conditional check")
-			local faction = context:unit():faction()
-			return faction:name() == "wh2_main_skv_clan_moulder" and faction:is_human()
+			vco:log("inside mdr listener conditional check");
+			local faction = context:unit():faction();
+			return faction:name() == "wh2_main_skv_clan_moulder" and faction:is_human();
 		end,
 		function(context)
-			vco:log("inside mdr listener execution")
-			check_vco_skv_mdr_number_upgrades_purchased(context:unit():faction())
+			vco:log("inside mdr listener execution");
+			check_vco_skv_mdr_number_upgrades_purchased(context:unit():faction());
 		end,
 		true
 	);
