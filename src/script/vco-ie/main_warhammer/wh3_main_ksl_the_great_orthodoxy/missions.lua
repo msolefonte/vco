@@ -14,6 +14,14 @@ local missions = {
 					type SCRIPTED;
 					script_key vco_dummy;
 				}
+
+				objective
+				{
+					type HAVE_AT_LEAST_X_OF_A_POOLED_RESOURCE;
+					total 600;
+					
+					pooled_resource wh3_main_ksl_followers;
+				}
 			
 				objective
 				{
