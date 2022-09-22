@@ -101,7 +101,7 @@ local missions = {
 		{
 			victory_type vco_victory_type_ksl_ort_3_wololo;
 			key wh_main_short_victory;
-			issuer CLAN_ELDERS;
+			issuer MUFFIN_MAN;
 			primary_objectives_and_payload
 			{
 				objective
