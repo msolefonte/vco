@@ -112,10 +112,22 @@ local function check_vco_ogr_goldtooth_gross_income(target_faction)
 	end
 end
 
-local function check_vco_skv_mdr_number_upgrades_purchased(faction_key)
-	-- Where do these saved values come from? Only four listed in wh2_dlc16_flesh_lab.
-	vco:out(faction_key)
-	local num_upgrades_unlocked = cm:get_saved_value("upgrades_unlocked" .. faction_key) or 0;
+local function check_vco_skv_mdr_all_augments_unlocked(effect)
+	local REQUIRED_EFFECT_TAILS = {"inf_aug_13", "inf_aug_14", "mon_aug_13", "mon_aug_14"};
+
+	for _, effect_tail in ipairs(REQUIRED_EFFECT_TAILS) do
+		if effect:record_key() == "wh2_dlc16_throt_flesh_lab_" .. effect_tail then
+			cm:set_saved_value("vco_skv_mdr_" .. effect_tail .. "_unlocked", true);
+		end
+	end
+
+	for _, effect_tail in ipairs(REQUIRED_EFFECT_TAILS) do
+		if not cm:get_saved_value("vco_skv_mdr_" .. effect_tail .. "_unlocked") then
+			return;
+		end
+	end
+
+	vco:complete_mission("wh2_main_skv_clan_moulder", "vco_skv_mld_augments");
 end
 
  -- TODO RENAME AFTER UNIFICATION
@@ -264,16 +276,14 @@ local function add_listeners()
 
 	vco:log("- Skaven listeners");
 	core:add_listener(
-		"vco_skv_moulder_upgrade_count_check",
-		"UnitTrained",
+		"vco_skv_moulder_effect_purchased",
+		"UnitEffectPurchased",
 		function(context)
-			vco:log("inside mdr listener conditional check");
 			local faction = context:unit():faction();
-			return faction:name() == "wh2_main_skv_clan_moulder" and faction:is_human();
+			return faction:is_human() and faction:name() == "wh2_main_skv_clan_moulder";
 		end,
 		function(context)
-			vco:log("inside mdr listener execution");
-			check_vco_skv_mdr_number_upgrades_purchased(context:unit():faction());
+			check_vco_skv_mdr_all_augments_unlocked(context:effect());
 		end,
 		true
 	);
