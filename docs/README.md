@@ -9,3 +9,4 @@
 * [Lizardmen](immortal-empires/lizardmen.md)
 * [Ogre Kingdoms](immortal-empires/ogre-kingdoms.md)
 * [The Empire](immortal-empires/the-empire.md)
+* [Skaven](immortal-empires/skaven.md)

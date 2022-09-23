@@ -4,3 +4,6 @@ emp_progress	vco	wh2_dlc13_resource_factor_vco	0	2147483647
 brt_chivalry	vco	chivalry_vco	-2147483647	2147483647	
 grn_salvage	vco	vco_grn_salvage	-2147483647	2147483647	
 grn_waaagh	vco	vco_grn_waaagh	-2147483647	2147483647	
+skaven_food	vco	vco_skv_food	0	2147483647	
+skv_growth_vat	vco	vco_skv_growth_vat	0	2147483647	
+skv_mutagen	vco	vco_skv_mutagen	0	2147483647	
