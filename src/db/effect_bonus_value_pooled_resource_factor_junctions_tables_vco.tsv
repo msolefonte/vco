@@ -4,3 +4,4 @@ vco_grn_per_turn_salvage_gain	base_amount	vco_grn_salvage
 vco_grn_per_turn_waaagh	base_amount	vco_grn_waaagh
 vco_skv_food	base_amount	vco_skv_food
 vco_skv_per_turn_growth_vat	base_amount	vco_skv_growth_vat
+vco_skv_per_turn_mutagen	base_amount	vco_skv_mutagen

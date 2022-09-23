@@ -25,4 +25,4 @@
   * Destroy factions: 
     * Kraka Drak and Goromadny Tribe 
   * **Reward:**
-    * _Tainted-Foul Flesh_: Mutagens: +26 per turn, Weapon strength: +13% for all Growth Vat units
+    * _Tainted-Foul Flesh_: Mutagens: +26 per turn, Weapon strength: +13% for all Clan Moulder units
