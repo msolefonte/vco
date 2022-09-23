@@ -11,7 +11,7 @@ local missions = {
 				{
 					override_text mission_text_text_vco_skv_mdr_1_yes_yes_prepare_the_lab;
 					type SCRIPTED;
-					script_key vco_dummy;
+					script_key vco_skv_mld_augments;
 				}
 
 				objective
