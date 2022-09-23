@@ -19,3 +19,7 @@ vco_ogr_greasus_charge_bonus	charge_character.png	101	charge_character.png	campa
 vco_ogr_greasus_armour	armour_character.png	101	armour_character.png	campaign	true
 vco_ogr_greasus_ward_save	resistance_ward_save.png	101	resistance_ward_save.png	campaign	true
 vco_ksl_ort_flagellant_unlock_dummy	wh_dlc04_unit_passive_flagellant_deathblow.png	101	wh_dlc04_unit_passive_flagellant_deathblow.png	campaign	true
+vco_skv_food	pooled_resource_food.png	3	pooled_resource_food.png	campaign	true
+vco_skv_per_turn_growth_vat	growth_juice.png	1	growth_juice.png	campaign	true
+vco_skv_per_turn_mutagen	mutagen.png	101	mutagen.png	campaign	true
+vco_skv_clan_moulder_strength	weapon_damage.png	461	weapon_damage.png	campaign	true
