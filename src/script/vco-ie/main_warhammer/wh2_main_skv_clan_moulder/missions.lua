@@ -101,27 +101,27 @@ local missions = {
 	[[
  		mission
 		{
-			victory_type vco_victory_type_skv_mdr_3_harvest_chaos_specimens;
+			victory_type vco_victory_type_skv_mdr_3_the_frozen_dead;
 			key wh_main_short_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
 				objective
 				{
-					override_text mission_text_text_vco_skv_mdr_3_harvest_chaos_specimens;
-					type SCRIPTED;
-					script_key vco_dummy;
+					override_text mission_text_text_vco_skv_mdr_3_the_frozen_dead;
+					type CONTROL_N_PROVINCES_INCLUDING;
+					total 2;
+
+					province wh3_main_combi_province_gianthome_mountains;
+					province wh3_main_combi_province_goromadny_mountains;
 				}
 
 				objective
 				{
 					type DESTROY_FACTION;
 
-					faction wh_dlc08_nor_wintertooth;
-					faction wh3_dlc20_chs_azazel;
-					faction wh2_main_def_hag_graef;
-					faction wh3_main_ksl_ursun_revivalists;
-					faction wh3_main_dae_daemon_prince;
+					faction wh_main_dwf_kraka_drak;
+					faction wh_dlc08_nor_goromadny_tribe;
 
 					confederation_valid;
 				}
@@ -130,7 +130,7 @@ local missions = {
 				{
 					effect_bundle
 					{
-						bundle_key vco_victory_payload_skv_mdr_3_harvest_chaos_specimens;
+						bundle_key vco_victory_payload_skv_mdr_3_the_frozen_dead;
 						turns 0;
 					}
 
