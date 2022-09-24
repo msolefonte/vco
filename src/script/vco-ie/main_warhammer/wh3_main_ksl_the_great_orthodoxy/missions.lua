@@ -11,8 +11,12 @@ local missions = {
 				objective
 				{
 					override_text mission_text_text_vco_ksl_ort_1_there_can_only_be_one;
-					type SCRIPTED;
-					script_key vco_dummy;
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 3;
+
+					region wh3_main_combi_region_erengrad;
+					region wh3_main_combi_region_praag;
+					region wh3_main_combi_region_kislev;
 				}
 
 				objective
@@ -21,16 +25,6 @@ local missions = {
 					total 600;
 					
 					pooled_resource wh3_main_ksl_followers;
-				}
-			
-				objective
-				{
-					type CONTROL_N_REGIONS_INCLUDING;
-					total 3;
-				
-					region wh3_main_combi_region_erengrad;
-					region wh3_main_combi_region_praag;
-					region wh3_main_combi_region_kislev;
 				}
 
 				payload
@@ -75,6 +69,8 @@ local missions = {
 					faction wh3_dlc20_chs_azazel;
 					faction wh_dlc08_nor_wintertooth;
 					faction wh_dlc08_nor_norsca;
+
+					confederation_valid;
 				}
 
 				payload
@@ -107,8 +103,13 @@ local missions = {
 				objective
 				{
 					override_text mission_text_text_vco_ksl_ort_3_wololo;
-					type SCRIPTED;
-					script_key vco_dummy;
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 4;
+
+					region wh3_main_combi_region_altdorf;
+					region wh3_main_combi_region_marienburg;
+					region wh3_main_combi_region_middenheim;
+					region wh3_main_combi_region_castle_drakenhof;
 				}
 			
 				objective
@@ -122,24 +123,13 @@ local missions = {
 			
 				objective
 				{
-					type CONTROL_N_REGIONS_INCLUDING;
-					total 4;
-
-					region wh3_main_combi_region_altdorf;
-					region wh3_main_combi_region_marienburg;
-					region wh3_main_combi_region_middenheim;
-					region wh3_main_combi_region_castle_drakenhof;
-				}
-			
-				objective
-				{
 					type DESTROY_FACTION;
-					total 3;
 
 					faction wh_main_emp_empire;
 					faction wh_main_emp_marienburg;
 					faction wh_main_emp_middenland;
-				
+					faction wh_main_vmp_schwartzhafen;
+
 					confederation_valid;
 				}
 
