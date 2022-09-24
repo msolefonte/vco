@@ -168,16 +168,16 @@ local function vco_def_cop_enable_slaanesh_units()
 	);
 end
 
-local function vco_ksl_ort_disable_flagellant()
+local function vco_ksl_ort_disable_luminark()
 	cm:add_event_restricted_unit_record_for_faction(
-		"wh_dlc04_emp_inf_flagellants_0",
+		"wh_main_emp_veh_luminark_of_hysh_0",
 		"wh3_main_ksl_the_great_orthodoxy"
 	);
 end
 
-local function vco_ksl_ort_enable_flagellant()
+local function vco_ksl_ort_enable_luminark()
 	cm:remove_event_restricted_unit_record_for_faction(
-		"wh_dlc04_emp_inf_flagellants_0",
+		"wh_main_emp_veh_luminark_of_hysh_0",
 		"wh3_main_ksl_the_great_orthodoxy"
 	);
 end
@@ -270,7 +270,7 @@ local function add_listeners()
 			return cm:model():turn_number() == 1 and context:faction():is_human() and
 				context:faction():name() == "wh3_main_ksl_the_great_orthodoxy";
 		end,
-		vco_ksl_ort_disable_flagellant,
+		vco_ksl_ort_disable_luminark,
 		true
 	);
 
@@ -281,7 +281,7 @@ local function add_listeners()
 			return context:faction():name() == "wh3_main_ksl_the_great_orthodoxy"
 				and context:mission():mission_issuer_record_key() == "MUFFIN_MAN";
 		end,
-		vco_ksl_ort_enable_flagellant,
+		vco_ksl_ort_enable_luminark,
 		true
 	)
 

@@ -25,7 +25,7 @@
   * Destroy factions:
     * Reikland, Marienburg, Middenheim, Sylvania
   * **Reward:**
-    * _The Scourge of Altdorf_: Unlocks Flagellants
+    * _The Scourge of Altdorf_: Unlocks Luminark of Hysh
     * _The Conversion of Marienburg_: Income from ports: +30%
     * _The Syncretism of Middenheim_: +6 Melee defence when under siege
     * _The Cleansing of Drakenhof_: Corruption: -2
