@@ -3,19 +3,18 @@
 ## Kostaltyn: The Great Orthodoxy
 
 * **Route I - There Can Only Be One**
-  * PLACEHOLDER:
+  * We are weak alone, and stronger together. Unite under my banner, support me, and I will give you my strength.
     * Erengrad, Praag, Kislev
   * Have at least 600 Supporters
   * **Reward:**
-    * _PLACEHOLDER_: Ice Court training cost + duration -X
+    * Right and Just Leadership: Public Order +4, Growth +60
 
 * **Route II - The Last Bastion**
-  * PLACEHOLDER
+  * Kostaltyn stands with unshakeable faith against the great Northern hordes of rats, raiders, and foul Chaos alike.
   * Destroy factions:
     * Clan Moulder, Azazel, Throgg, Wulfrik
   * **Reward:**
-    * _PLACEHOLDER_: Melee defence +X% when under siege, campaign movement range: +X% for enemy armies starting their turn in your regions
-_Reward flavour text:_ 
+    * Defender of the North: Barrier hitpoints +600 when under siege, campaign movement range: +X% for enemy armies starting their turn in your regions
 
 * **Route III - Wololo!**
   * The Old World is rife with corruption, blasphemy, and the worship of lesser gods. Tear down the Temple of Sigmar, 
