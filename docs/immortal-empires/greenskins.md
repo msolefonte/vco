@@ -9,7 +9,7 @@
     * Heralds of the Tempest, Goldtooth
   * Raze settlement:
     * Great Hall of Greasus
-  * **Reward**:
+  * **Reward:**
     * _Da Great Maw's Avatar_: Income from all buildings: +10%, Diplomatic relations: +40 with Ogre Kingdoms, Allegiance 
     points gained: +100% for alliances with Ogre Kingdoms
 
@@ -20,7 +20,7 @@
   * Occupy at least 5 provinces:
     * Zorn Uzkul, The Plain of Zharr, The Blasted Wastes, The Wolf Lands, The Howling Wastes, The Desolation of Azgorh, 
     The Plain of Bones
-  * **Reward**: 
+  * **Reward:**
     * _No One's Slave_: Scrap +20 per turn, Armour +10 for Black Orc units (factionwide), Armour-piercing weapon damage: 
     +10 for Black Orc units (factionwide)
 
@@ -45,7 +45,7 @@
     * Hell Pit
   * Destroy faction: 
     * Clan Moulder
-  * **Reward**: 
+  * **Reward:**
     * _Stunty Bake_: Reputation +2
     * _Mushroom-Addled Ice Witch_: (Frostbite effect for Black Orcs)
     * _Pointy Fing_: Hitpoints: +10% (all characters)

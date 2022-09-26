@@ -9,7 +9,7 @@ local missions = {
 			{
 				objective
 				{
-					override_text mission_text_text_vco_brt_sacred_pools;
+					override_text mission_text_text_vco_brt_bdx_1_sacred_pools;
 					type CONTROL_N_PROVINCES_INCLUDING;
 					total 1;
 
@@ -18,7 +18,7 @@ local missions = {
 
 				objective
 				{
-					override_text mission_text_text_vco_brt_alberic_vow;
+					override_text mission_text_text_vco_brt_bdx_1_alberic_vow;
 					type SCRIPTED;
 					script_key vco_brt_alberic_vow;
 				}
@@ -70,6 +70,13 @@ local missions = {
 			{
 				objective
 				{
+					override_text mission_text_text_vco_brt_bdx_2_no_ocean_for_dead_men;
+					type SCRIPTED;
+					script_key vco_dummy;
+				}
+
+				objective
+				{
 					type DESTROY_FACTION;
 
 					faction wh2_dlc11_cst_vampire_coast;
@@ -108,7 +115,7 @@ local missions = {
 			{
 				objective
 				{
-					override_text mission_text_text_vco_brt_home_sweet_home;
+					override_text mission_text_text_vco_brt_bdx_3_home_sweet_home;
 					type CONTROL_N_PROVINCES_INCLUDING;
 					total 1;
 
