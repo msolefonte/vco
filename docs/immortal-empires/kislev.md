@@ -3,14 +3,14 @@
 ## Kostaltyn: The Great Orthodoxy
 
 * **Route I - There Can Only Be One**
-  * We are weak alone, and stronger together. Unite under my banner, support me, and I will give you my strength.
+  * We are weak alone and stronger together. Unite under my banner, support me, and I will give you my strength.
     * Erengrad, Praag, Kislev
   * Have at least 600 Supporters
   * **Reward:**
     * Right and Just Leadership: Public Order: +4, Growth: +60, Motherland cost modifier: -25%
 
 * **Route II - The Last Bastion**
-  * Kostaltyn stands with unshakeable faith against the great Northern hordes of rats, raiders, and foul Chaos alike.
+  * Kostaltyn stands with unshakeable faith against the great northern hordes of rats, raiders, and foul Chaos alike.
   * Destroy factions:
     * Clan Moulder, Azazel, Throgg, Wulfrik
   * **Reward:**
