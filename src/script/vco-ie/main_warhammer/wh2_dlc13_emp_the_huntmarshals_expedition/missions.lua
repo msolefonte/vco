@@ -16,7 +16,7 @@ local missions = {
 
 				objective
 				{
-					override_text mission_text_text_vco_emp_champions_of_the_empire;
+					override_text mission_text_text_vco_emp_the_1_champions_of_the_empire;
 					type CONTROL_N_REGIONS_FROM;
 					total 6;
 
@@ -63,7 +63,7 @@ local missions = {
 			{
 				objective
 				{
-					override_text mission_text_text_vco_emp_the_huntsmarshals_expedition;
+					override_text mission_text_text_vco_emp_the_2_the_huntsmarshals_expedition;
 					type SCRIPTED;
 					script_key vco_dummy;
 				}
@@ -79,7 +79,7 @@ local missions = {
 
 				objective
 				{
-					override_text mission_text_text_vco_emp_the_huntsmarshals_expedition_artifacts;
+					override_text mission_text_text_vco_emp_the_2_the_huntsmarshals_expedition_artifacts;
 					type RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_INCLUDING;
 					total 2;
 
@@ -92,7 +92,7 @@ local missions = {
 				{
 					effect_bundle
 					{
-						bundle_key vco_victory_payload_emp_cursed_artifact_notidoc;
+						bundle_key vco_victory_payload_emp_cursed_artifact_notidoq;
 						turns 0;
 					}
 
@@ -125,7 +125,7 @@ local missions = {
 			{
 				objective
 				{
-					override_text mission_text_text_vco_emp_it_is_round;
+					override_text mission_text_text_vco_emp_the_3_it_is_round;
 					type CONTROL_N_REGIONS_INCLUDING;
 					total 4;
 
@@ -139,7 +139,7 @@ local missions = {
 
 				objective
 				{
-					override_text mission_text_text_vco_emp_it_is_round_nakai;
+					override_text mission_text_text_vco_emp_the_3_it_is_round_nakai;
 					type SCRIPTED;
 					script_key vco_dummy;
 				}

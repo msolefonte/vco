@@ -6,7 +6,7 @@
   * Seek out the Lady of the Lake in the heart of Lustria. Occupy the following region:
     * Sacred Pools
   * Complete the Grail Vow with Alberic de Bordeleaux.
-  * Destroy faction: 
+  * Destroy factions: 
     * Itza, Wardens of the Living Pools
   * **Reward:** 
     * _Blessed by the Lady_: Melee attack: +12, Melee damage: +100, Armor penetration: +250 and Physical 
@@ -14,7 +14,9 @@
     * Chivalry: +2000
 
 **Route II - No Ocean for Dead Men**
-  * Destroy factions: 
+  * "Manann is our blessing, our patron, the one that brings food to our table. He's also the one that drags our foes to
+  the bottom of his watery home, the bringer of storms and crushing waves. He is the Sea and he is eternal."
+  * Destroy factions:
     * The Awakened, The Dreadfleet and Sartosa
   * **Reward:** 
     * _The Sea God's Wrath_: Leadership: +12 when fighting at sea, Income from ports: +30%, Passive ability: 

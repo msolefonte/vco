@@ -11,7 +11,7 @@
     * Mint (Gold Resource)
   * Construct 1 building:
     * Big Gem Mine (Diamond Resource)
-  * **Reward**: 
+  * **Reward:**
     * _Hoardmaster_: +30 Diplomacy all factions, Global recruitment capacity +2
 
 * **Route II - Overtyrant's Reign**
@@ -24,7 +24,7 @@
   East". The Sceptre of Titans will disabuse him of this notion.
   * Destroy faction: 
     * Grimgor's 'Ardboyz
-  * **Reward**: 
+  * **Reward:**
     * _Hell on Wheels_: Speed: +35% and Charge Bonus: +20 for Greasus
     * _Blood-forged Gut-plate_: Armour: +20 and Ward Save: +5 for Greasus
 
@@ -37,6 +37,6 @@
   * Occupy settlement:
     * Great Hall of Greasus
   * Build landmark in Great Hall of Greasus: Goldtooth's Toll Gate
-  * **Reward**: 
+  * **Reward:**
     * _Subservient Cathayans_: Camp limit +2, Income from trade: +20% for every ally, Magic item drop chance increased 
     by an additional 20% (factionwide)

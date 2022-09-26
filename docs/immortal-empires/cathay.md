@@ -9,7 +9,7 @@
     Lands of Tian Li, The Great Canal and Serpent Estuary
   * The Great Bastion must remain under your control:
     * Central Great Bastion, Eastern Great Bastion and Western Great Bastion
-  * **Reward**: 
+  * **Reward:**
     * _Empire of the Celestial Dragon_: Growth +60, Control +4, Unlock army ability: "Ancestral Warriors"
 * **Route II - Cold and Aloof**
   * The Great Bastion must remain under your control:
@@ -19,7 +19,7 @@
     and Dead Flag Fleet
   * Construct 1 of each of the following buildings:
     * The Ninth Wall (Nan-Gau)
-  * **Reward**: 
+  * **Reward:**
     * _Unreachable_: Barrier hit points: +600 when defending settlements, Melee defence: +6 when defending 
 * **Route III - The Northern Expedition**
   * Your sister Shen-Zoo, Dragon of Light, was last seen venturing beyond the mountains of Norsca, in The Writhing 
@@ -28,7 +28,7 @@
   * Destroy the following factions:
     * Puppets of Misrule, Yusak, Khazag, Fleshgreeders, Heralds of the Tempest, Dolgan, Maggoth Kin, Kul 
     and Exquisite Pain
-  * **Reward**: 
+  * **Reward:**
     * _Bringer of Light and Hope_: Casualty replenishment rate: +15%, Corruption: -8 (per region in Cathay)
 
 ## Zhao Ming: The Western Provinces

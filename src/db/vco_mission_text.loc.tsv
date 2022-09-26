@@ -267,15 +267,15 @@ mission_text_text_vco_ogr_the_maw_that_walks_97	Meat for the Cauldron! Offer a t
 mission_text_text_vco_ogr_the_maw_that_walks_98	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 98%)	true
 mission_text_text_vco_ogr_the_maw_that_walks_99	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 99%)	true
 mission_text_text_vco_ogr_the_maw_that_walks	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].	true
-mission_text_text_vco_emp_champions_of_the_empire	Conquer the coast of Lustria. At least six [[url:#]]port settlements[[/url]] must be under your control either directly or via military allies and vassals:	true
-mission_text_text_vco_emp_the_huntsmarshals_expedition	Your explorers have told you about an ancient artifact broken in pieces and hidden by the Lizardmen. Destroy those who are protecting it and claim it for the Empire.	true
-mission_text_text_vco_emp_the_huntsmarshals_expedition_artifacts	Locate the artifacts by sacking or razing the temples where they are hidden.	true
-mission_text_text_vco_emp_it_is_round	The expedition doesn't have to stop here. Follow the [[url:#]]Sea Lanes[[/url]] to reach [[url:#]]The Jade Sea[[/url]] and build four [[url:#]]port settlements[[/url]] on the Cathayan coast.	true
-mission_text_text_vco_emp_it_is_round_nakai	An old enemy lies hidden close to the [[url:#]]Jungles of Chi'an[[/url]]. Ensure he doesn't run away this time.	true
-mission_text_text_vco_brt_sacred_pools	Seek out the [[url:#]]Lady of the Lake[[/url]] in the heart of Lustria. Occupy the following region:	true
-mission_text_text_vco_brt_alberic_vow	Complete the [[url:#]]Grail Vow[[/url]] with [[url:#]]Alberic de Bordeleaux[[/url]].	true
-mission_text_text_vco_brt_home_sweet_home	Return home to your ancestral castle and drive out the foes who have been terrorising the peasants in your absence:	true
+mission_text_text_vco_emp_the_1_champions_of_the_empire	Conquer the coast of Lustria. At least six [[url:#]]port settlements[[/url]] must be under your control either directly or via military allies and vassals:	true
+mission_text_text_vco_emp_the_2_the_huntsmarshals_expedition	Your explorers have told you about an ancient artifact broken in pieces and hidden by the Lizardmen. Destroy those who are protecting it and claim it for the Empire.	true
+mission_text_text_vco_emp_the_2_the_huntsmarshals_expedition_artifacts	Locate the artifacts by sacking or razing the temples where they are hidden.	true
+mission_text_text_vco_emp_the_3_it_is_round	The expedition doesn't have to stop here. Follow the [[url:#]]Sea Lanes[[/url]] to reach [[url:#]]The Jade Sea[[/url]] and build four [[url:#]]port settlements[[/url]] on the Cathayan coast.	true
+mission_text_text_vco_emp_the_3_it_is_round_nakai	An old enemy lies hidden close to the [[url:#]]Jungles of Chi'an[[/url]]. Ensure he doesn't run away this time.	true
+mission_text_text_vco_brt_bdx_1_sacred_pools	Seek out the [[url:#]]Lady of the Lake[[/url]] in the heart of Lustria. Occupy the following region:	true
+mission_text_text_vco_brt_bdx_1_alberic_vow	Complete the [[url:#]]Grail Vow[[/url]] with [[url:#]]Alberic de Bordeleaux[[/url]].	true
 mission_text_text_vco_brt_bdx_2_no_ocean_for_dead_men	"Manann is our blessing, our patron, the one that brings food to our table. He’s also the one that drags our foes to the bottom of his watery home, the bringer of storms and crushing waves. He is the Sea and he is eternal."	true
+mission_text_text_vco_brt_bdx_3_home_sweet_home	Return home to your ancestral castle and drive out the foes who have been terrorising the peasants in your absence:	true
 mission_text_text_vco_lzd_hex_1_solar_city	"Woe to the warm-bloods who trespass against us. Feed them to the beasts of the jungle and leave their bones to bleach upon the golden shores of our land. Let them see that it is folly to intrude upon the Isthmus."	true
 mission_text_text_vco_lzd_hex_1_begone_thot	A servant of the Ancient Enemy defiles the sacred site of [[url:#]]Quintex[[/url]], causing an unacceptable deviation in the Great Plan. Correct the error.	true
 mission_text_text_vco_lzd_hex_3_purging_warmbloods	The Lizardmen must accomplish the first of the Old Ones' decrees - the extermination of those races not part of the Great Plan. Mazdamundi believes it is pointless to divine the next stages until the first is complete; to do so would only invite further error.	true

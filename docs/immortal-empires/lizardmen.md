@@ -33,7 +33,8 @@
   only invite further error.
   * Destroy factions: 
     * The Huntsmarshal's Expedition, Bordeleaux Errant, The Awakened
-  * Control settlements: 
+  * If Lustria is to endure, the Geomantic Web linking Hexoatl and Itza must be re-established. Seek an alliance with 
+  the Great White Lizard or else seize the First City directly. 
     * Itza
   * **Reward:** 
     * _Lustria Resurgent_, Casualty replenishment rate: +10%, Recruit rank: +2 (all units), Hero and Lord recruit 
