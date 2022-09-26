@@ -111,3 +111,6 @@ vco_victory_type_ksl_ort_3_wololo	2	0	long	long
 vco_victory_type_skv_mdr_1_yes_yes_prepare_the_lab	0	0	long	long
 vco_victory_type_skv_mdr_2_the_vermintide_comes	1	0	long	long
 vco_victory_type_skv_mdr_3_the_frozen_dead	2	0	long	long
+vco_victory_type_cst_sar_1_captain_of_the_swordfysh	0	0	long	long
+vco_victory_type_cst_sar_2_daughter_of_manann	1	0	long	long
+vco_victory_type_cst_sar_3_dead_man_s_vengeance	2	0	long	long
