@@ -152,6 +152,7 @@ local missions = {
 
 				objective
 				{
+					override_text mission_text_text_vco_lzd_hex_3_purging_warmbloods_2;
 					type CONTROL_N_REGIONS_INCLUDING;
 					total 1;
 

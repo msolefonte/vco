@@ -112,6 +112,24 @@ local function check_vco_ogr_goldtooth_gross_income(target_faction)
 	end
 end
 
+local function check_vco_skv_mdr_all_augments_unlocked(effect)
+	local REQUIRED_EFFECT_TAILS = {"inf_aug_13", "inf_aug_14", "mon_aug_13", "mon_aug_14"};
+
+	for _, effect_tail in ipairs(REQUIRED_EFFECT_TAILS) do
+		if effect:record_key() == "wh2_dlc16_throt_flesh_lab_" .. effect_tail then
+			cm:set_saved_value("vco_skv_mdr_" .. effect_tail .. "_unlocked", true);
+		end
+	end
+
+	for _, effect_tail in ipairs(REQUIRED_EFFECT_TAILS) do
+		if not cm:get_saved_value("vco_skv_mdr_" .. effect_tail .. "_unlocked") then
+			return;
+		end
+	end
+
+	vco:complete_mission("wh2_main_skv_clan_moulder", "vco_skv_mld_augments");
+end
+
  -- TODO RENAME AFTER UNIFICATION
 local function check_vco_ogre_kingdoms_the_maw_that_walks(context)
 	local REQUIRED_MEAT_OFFERED_VICTORY = 200;
@@ -147,6 +165,20 @@ local function vco_def_cop_enable_slaanesh_units()
 	cm:remove_event_restricted_unit_record_for_faction(
 		"wh3_main_sla_mon_keeper_of_secrets_0",
 		"wh2_main_def_cult_of_pleasure"
+	);
+end
+
+local function vco_ksl_ort_disable_luminark()
+	cm:add_event_restricted_unit_record_for_faction(
+		"wh_main_emp_veh_luminark_of_hysh_0",
+		"wh3_main_ksl_the_great_orthodoxy"
+	);
+end
+
+local function vco_ksl_ort_enable_luminark()
+	cm:remove_event_restricted_unit_record_for_faction(
+		"wh_main_emp_veh_luminark_of_hysh_0",
+		"wh3_main_ksl_the_great_orthodoxy"
 	);
 end
 
@@ -229,6 +261,29 @@ local function add_listeners()
 		vco_def_cop_enable_slaanesh_units,
 		true
 	)
+	
+	vco:log("- Kislev listeners");
+	core:add_listener(
+		"vco_ksl_ort_first_turn_start",
+		"FactionTurnStart",
+		function(context)
+			return cm:model():turn_number() == 1 and context:faction():is_human() and
+				context:faction():name() == "wh3_main_ksl_the_great_orthodoxy";
+		end,
+		vco_ksl_ort_disable_luminark,
+		true
+	);
+
+	core:add_listener(
+		"vco_ksl_ort_route_3_completed",
+		"MissionSucceeded",
+		function(context)
+			return context:faction():name() == "wh3_main_ksl_the_great_orthodoxy"
+				and context:mission():mission_issuer_record_key() == "MUFFIN_MAN";
+		end,
+		vco_ksl_ort_enable_luminark,
+		true
+	)
 
 	vco:log("- Ogre Kingdoms listeners");
 	core:add_listener(
@@ -252,6 +307,20 @@ local function add_listeners()
 		end,
 		function(context)
 			check_vco_ogre_kingdoms_the_maw_that_walks(context);
+		end,
+		true
+	);
+
+	vco:log("- Skaven listeners");
+	core:add_listener(
+		"vco_skv_moulder_effect_purchased",
+		"UnitEffectPurchased",
+		function(context)
+			local faction = context:unit():faction();
+			return faction:is_human() and faction:name() == "wh2_main_skv_clan_moulder";
+		end,
+		function(context)
+			check_vco_skv_mdr_all_augments_unlocked(context:effect());
 		end,
 		true
 	);

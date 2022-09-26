@@ -1,7 +1,7 @@
 key	text	tooltip
 #Loc PackedFile;1;text/db/vco_effects.loc		
 effects_description_vco_campaign_victory_dummy	Campaign Victory	true
-effects_description_vco_emp_cursed_artifact_notidoc	Cursed Artifact of No'Tidoq	true
+effects_description_vco_emp_cursed_artifact_notidoq	Passive ability: "Primal Instincts"	true
 effects_description_vco_brt_alberic_vow_melee_attack	Melee attack: %+n for Alberic de Bordeleaux	true
 effects_description_vco_brt_alberic_vow_melee_damage	Weapon strength: %+n for Alberic de Bordeleaux	true
 effects_description_vco_brt_alberic_vow_melee_damage_ap	Armour-piercing weapon damage: %+n for Alberic de Bordeleaux	true
@@ -18,3 +18,8 @@ effects_description_vco_ogr_greasus_speed	Speed: %+n% for Greasus Goldtooth	true
 effects_description_vco_ogr_greasus_charge_bonus	Charge Bonus: %+n for Greasus Goldtooth	true
 effects_description_vco_ogr_greasus_armour	Armour: %+n for Greasus Goldtooth	true
 effects_description_vco_ogr_greasus_ward_save	Ward save: %+n% for Greasus Goldtooth	true
+effects_description_vco_ksl_ort_luminark_unlock_dummy	Unlock new unit: Luminark of Hysh	true
+effects_description_vco_skv_food	Food generated: %n	true
+effects_description_vco_skv_per_turn_growth_vat	Growth Juice: %+n per turn	true
+effects_description_vco_skv_per_turn_mutagen	Mutagen income per turn: %+n	true
+effects_description_vco_skv_clan_moulder_strength	Weapon strength: %+n% for all Clan Moulder units	true
