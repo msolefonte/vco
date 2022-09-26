@@ -382,3 +382,5 @@ occasions, now it will be viable to play tall/defensively, without any requisite
 - Added new routes for Kostaltyn: The Great Orthodoxy
 - Fixed a bug with The Huntsmarshal's Expedition second route reward
 - Improved descriptions and fixed typos
+
+## [5.0.0-beta.6] The Restless Dunes - TBA
