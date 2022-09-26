@@ -16,7 +16,7 @@
   * Locate the artifacts by sacking or razing the temples where they are hidden:
     * Chamber of Visions, Itza, Oyxl
   * **Reward:**
-    * _Cursed Artifact of No'Tidoq_: Ability "Primal Instincts" for all characters
+    * _Cursed Artifact of No'Tidoq_: Passive ability: "Primal Instincts" for all characters
     * Acclaim: +20
 * **Route III - It is round!:**
   * The expedition doesn't have to stop here. Follow the Sea Lanes to reach The Jade Sea and build four ports in the
