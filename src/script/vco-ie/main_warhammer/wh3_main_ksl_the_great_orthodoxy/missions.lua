@@ -114,10 +114,11 @@ local missions = {
 			
 				objective
 				{
-					type CONSTRUCT_N_OF_A_BUILDING;
+					type CONSTRUCT_N_BUILDINGS_FROM;
 					faction wh3_main_ksl_the_great_orthodoxy;
 					total 6;
 				
+					building_level wh3_main_ksl_city_temple_3;
 					building_level wh3_main_ksl_city_temple_4;
 				}
 			
