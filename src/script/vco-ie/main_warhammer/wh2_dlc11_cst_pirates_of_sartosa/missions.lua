@@ -112,24 +112,22 @@ local missions = {
 					type SCRIPTED;
 					script_key vco_dummy;
 				}
-
-				objective
-				{
-					type CONTROL_N_PROVINCES_INCLUDING;
-					total 2;
-
-					province wh3_main_combi_province_gianthome_mountains;
-					province wh3_main_combi_province_goromadny_mountains;
-				}
-
+			
 				objective
 				{
 					type DESTROY_FACTION;
 
-					faction wh_main_dwf_kraka_drak;
-					faction wh_dlc08_nor_goromadny_tribe;
+					faction wh2_dlc11_cst_noctilus;
 
 					confederation_valid;
+				}
+
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 1;
+
+					region wh3_main_combi_region_the_galleons_graveyard;
 				}
 
 				payload
