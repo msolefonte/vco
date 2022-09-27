@@ -23,3 +23,6 @@ effects_description_vco_skv_food	Food generated: %n	true
 effects_description_vco_skv_per_turn_growth_vat	Growth Juice: %+n per turn	true
 effects_description_vco_skv_per_turn_mutagen	Mutagen income per turn: %+n	true
 effects_description_vco_skv_clan_moulder_strength	Weapon strength: %+n% for all Clan Moulder units	true
+effects_description_vco_cst_zombie_deckhands_missile_strength	Missile strength: %+n% for all Zombie Deckhand units	true
+effects_description_vco_cst_necrofex_colossus_upkeep_reduction	Upkeep Reduction: %-n% for Necrofex Colossus	true
+effects_description_vco_cst_necrofex_colossus_recruitment_time_reduction	Recruitment Time Reduction: %-n for Necrofex Colossus	true

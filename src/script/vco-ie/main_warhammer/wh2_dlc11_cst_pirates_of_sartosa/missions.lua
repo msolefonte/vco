@@ -80,6 +80,14 @@ local missions = {
 
 				payload
 				{
+					faction_pooled_resource_transaction
+					{
+						resource cst_infamy;
+						factor vco;
+						amount 2500;
+						context absolute;
+					}
+
 					effect_bundle
 					{
 						bundle_key vco_victory_payload_cst_sar_2_daughter_of_manann;
@@ -132,6 +140,14 @@ local missions = {
 
 				payload
 				{
+					faction_pooled_resource_transaction
+					{
+						resource cst_infamy;
+						factor vco;
+						amount 2500;
+						context absolute;
+					}
+
 					effect_bundle
 					{
 						bundle_key vco_victory_payload_cst_sar_3_dead_man_s_vengeance_1;
