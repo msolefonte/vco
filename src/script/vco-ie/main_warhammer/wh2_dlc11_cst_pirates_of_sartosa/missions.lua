@@ -90,7 +90,13 @@ local missions = {
 
 					effect_bundle
 					{
-						bundle_key vco_victory_payload_cst_sar_2_daughter_of_manann;
+						bundle_key vco_victory_payload_cst_sar_2_daughter_of_manann_1;
+						turns 0;
+					}
+				
+					effect_bundle
+					{
+						bundle_key vco_victory_payload_cst_sar_2_daughter_of_manann_2;
 						turns 0;
 					}
 

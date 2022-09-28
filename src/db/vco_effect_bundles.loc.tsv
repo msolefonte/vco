@@ -78,8 +78,10 @@ effect_bundles_localised_title_vco_victory_payload_skv_mdr_3_the_frozen_dead	The
 effect_bundles_localised_description_vco_victory_payload_skv_mdr_3_the_frozen_dead	The finest norse flesh has made its way to the lab. Now Throt's mutant creations are increasingly powerful, and equally dangerous!	true
 effect_bundles_localised_title_vco_victory_payload_cst_sar_1_captain_of_the_swordfysh	The Pirate Queen	true
 effect_bundles_localised_description_vco_victory_payload_cst_sar_1_captain_of_the_swordfysh	Do you know what she, the queen of the pirates, did when the treasure she always looked for was placed in front of her very eyes? She laughed.	true
-effect_bundles_localised_title_vco_victory_payload_cst_sar_2_daughter_of_manann	Lady Of The Seas	true
-effect_bundles_localised_description_vco_victory_payload_cst_sar_2_daughter_of_manann	Manann is said to be mighty, called the Summoner of Storms and Master of Maelstroms.... But no-one ever said he pays the crew's wages. Sacking cities does that.	true
+effect_bundles_localised_title_vco_victory_payload_cst_sar_2_daughter_of_manann_1	Lady Of The Seas	true
+effect_bundles_localised_title_vco_victory_payload_cst_sar_2_daughter_of_manann_2	Manann's Favoured	true
+effect_bundles_localised_description_vco_victory_payload_cst_sar_2_daughter_of_manann_1	Manann is said to be mighty, called the Summoner of Storms and Master of Maelstroms.... But no-one ever said he pays the crew's wages. Sacking cities does that.	true
+effect_bundles_localised_description_vco_victory_payload_cst_sar_2_daughter_of_manann_2	Many a victim has died at sea, their corpses sinking gracefully to the sea bed. Manann is all too happy to raise those corpses as fodder for those he favours.	true
 effect_bundles_localised_title_vco_victory_payload_cst_sar_3_dead_man_s_vengeance_1	Sank The Bloody Reaver	true
 effect_bundles_localised_description_vco_victory_payload_cst_sar_3_dead_man_s_vengeance_1	Rest in peace, Roth. The deed is done. 	true
 effect_bundles_localised_title_vco_victory_payload_cst_sar_3_dead_man_s_vengeance_2	Master Of The Colossi	true
