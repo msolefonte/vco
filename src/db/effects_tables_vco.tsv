@@ -26,3 +26,4 @@ vco_skv_clan_moulder_strength	weapon_damage.png	461	weapon_damage.png	campaign	t
 vco_cst_zombie_deckhands_missile_strength	military.png	101	military.png	campaign	true
 vco_cst_necrofex_colossus_upkeep_reduction	military.png	101	military.png	campaign	true
 vco_cst_necrofex_colossus_recruitment_time_reduction	military.png	101	military.png	campaign	true
+vco_cst_rotting_units_upkeep_reduction	military.png	101	military.png	campaign	true
