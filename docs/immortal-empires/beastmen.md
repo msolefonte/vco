@@ -2,32 +2,49 @@
 
 ## Taurox the Brass Bull: Slaughterhorn Tribe
 
-**Route I - Alberic's Grail Quest**
-  * Seek out the Lady of the Lake in the heart of Lustria. Occupy the following region:
-    * Sacred Pools
-  * Complete the Grail Vow with Alberic de Bordeleaux.
-  * Destroy factions: 
-    * Itza, Wardens of the Living Pools
-  * **Reward:** 
-    * _Blessed by the Lady_: Melee attack: +12, Melee damage: +100, Armor penetration: +250 and Physical 
-    Resistance: +10% for Alberic de Bordeleaux
-    * Chivalry: +2000
+**Ideas**
 
-**Route II - No Ocean for Dead Men**
-  * "Manann is our blessing, our patron, the one that brings food to our table. He's also the one that drags our foes to
-  the bottom of his watery home, the bringer of storms and crushing waves. He is the Sea and he is eternal."
-  * Destroy factions:
-    * The Awakened, The Dreadfleet and Sartosa
-  * **Reward:** 
-    * _The Sea God's Wrath_: Leadership: +12 when fighting at sea, Income from ports: +30%, Passive ability: 
-    "Regeneration" when fighting at sea (all characters), 
+  * Objectives
+    * There are champions in the cold North who claim the strength of their arm is unmatched.
+      Show them what true strength is. Tear off their arms.
+      * Destroy factions: Malekith, Valkia
 
-**Route III - Home Sweet Home**
-  * Return home to your ancestral castle and drive out the foes who have been terrorising the peasants in your absence:
-    * Bordeleaux
-  * Destroy factions: 
-    * Mousillon and Broken Axe Greenskins
-  * Construct the Shrine of Manann in Bordeleaux
+    * The Chaos Gods will see his foes smote upon ruined lands, and they will see in him greater ruination
+      yet. His fury is endless, but the world is not.
+      * Accumulate N Marks of Ruination
+    * The world will know of Taurox the Brass Bull. His name will inspire dread in all those who hear it.
+      Civilisations will underestimate the Bull and they will fall under his hooves.
+      * Accumulate N Dread
+
+  * Rewards
+    * Great Beasts - Taurox and his beasts grew mighty indeed, tearing across vast lands and 
+      razing all in their way. The weaker beasts quickly failed out of the horde, forgotten or dead. 
+      Only the strongest beasts can thrive in such a ferocious environment.
+      * Bonuses for Minotaurs
+    * Greater Monsters - Even beasts of fury and strength can't hope to be favoured over
+      great and foul monstrosities.
+      * Bonuses for Razorgore/Manticore/Jabberslythe, Giant/Ghorgon/Cygor
+
+**Route I - title1*
+  * objective1
+  * objective2
+  * objectiveN
   * **Reward:** 
-    * _Bordeleaux Reclaimed_: Peasant economy: +10 peasants available to the faction, Diplomatic relations with 
-    Bretonnia: +40, Tradable resources produced: +30%
+    * reward1: 
+    * rewardN:
+
+**Route II - title2*
+  * objective1
+  * objective2
+  * objectiveN
+  * **Reward:** 
+    * reward1: 
+    * rewardN:
+
+**Route III - title3*
+  * objective1
+  * objective2
+  * objectiveN
+  * **Reward:** 
+    * reward1: 
+    * rewardN:
