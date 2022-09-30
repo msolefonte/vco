@@ -72,21 +72,10 @@ local missions = {
 			
 				objective
 				{
-					type RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_INCLUDING;
+					type RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_OF_SUBCULTURE;
 					total 8;
 				
-					region wh3_main_combi_region_myrmidens;
-					region wh3_main_combi_region_bordeleaux;
-					region wh3_main_combi_region_lyonesse;
-					region wh3_main_combi_region_erengrad;
-					region wh3_main_combi_region_marienburg;
-					region wh3_main_combi_region_altdorf;
-					region wh3_main_combi_region_lothern;
-					region wh3_main_combi_region_the_awakening;
-					region wh3_main_combi_region_citadel_of_dusk;
-					region wh3_main_combi_region_the_twisted_glade;
-					region wh3_main_combi_region_naggarond;
-					region wh3_main_combi_region_fortress_of_the_damned;
+					subculture wh_dlc08_sc_nor_norsca;
 				}
 
 				payload
