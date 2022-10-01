@@ -1,6 +1,6 @@
 # Vampire Counts
 
-## Mannfred von Carstein: Drakenhof Conclave
+## Mannfred von Carstein: The Drakenhof Conclave
 
 * **Route I - The Restless Dunes**
   * The shifting sands of Nehekhara hide many long lost tombs filled with powerful magical artifacts that Mannfred desires. They also hide many foes who would see him undone. They will find only death and an unlife of eternal servitude in these dunes.
