@@ -37,7 +37,7 @@ The Ice Queen's ruinous leadership will lead Kislev astray no longer. The Mother
 devotion.png
 
 ROUTE 2 REWARD:
-The Supreme Patriarch knows without a shadow of a doubt that the only thing that stands between his people and annihilation is faith. A bright reflection of the dark sorcerers and champions of Chaos, he sees the land around him and Ursun as what he must protect and serve.
+The Supreme Patriarch knows without a shadow of a doubt that the only thing that stands between his people and annihilation is faith. A bright reflection of the agents of darkness, he sees the land and its people as what he must protect and serve.
 
 Ice Court Defectors
 Where Katarin failed, Kostaltyn succeeded. Recognising the true power of the Great Orthodoxy, several Ice Witches have deserted their queen and joined their strength to Kostaltyn's, wreathing his warriors in frozen armour and battering invaders with ceaseless blizzards. The Supreme Patriarch yearns to have the heathens executed on cleansing pyres, but stays his hand, for now...
