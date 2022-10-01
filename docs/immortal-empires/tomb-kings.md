@@ -9,14 +9,16 @@
   * Destroy faction:
     * Khemri
   * **Reward**:
-    * _Thy Will Be Done_: Recruitment rank +4, Unit capacity: %+4\nTomb Guard\nTomb Guard (Halberds)\nSkeleton Chariot\nSkeleton Archer Chariot
+    * _Thy Will Be Done_:
+     * Recruitment rank +4
+     * Unit capacity: +4 Tomb Guard, Tomb Guard (Halberds), Skeleton Chariot, Skeleton Archer Chariot
 
 * **Route II - Cursed to Serve**
   * The vampires did not drink from the Elixir of Life as Arkhan did, but from a lesser, corrupted version that cursed them with unlife. They are forever bound to the will of Nagash, and as his foremost servant, Arkhan can command them just as easily.
   * Occupy at least 4 settlements:
     * Galleon's Graveyard, The Awakening, Lahmia, Castle Drakenhof, Silver Pinnacle, Blackstone Post, Haunted Forest
   * **Reward**:
-    * _Know Your Place_: Vampire Count and Vampire Coast allegiance +100%, Vampiric corruption +5 (factionwide), Vampiric corruption adjacent provinces +5 (factionwide)
+    * _Know Your Place_: Vampire Count and Vampire Coast allegiance +100%, Vampiric corruption +4, Vampiric corruption adjacent provinces +6
 
 * **Route III - Faithful Servant**
   * The portents are troubled. Daemons roam the earth. Ancient empires crumble before the coming of Chaos. Preparations must be made for the Great Necromancer's return.
@@ -24,4 +26,4 @@
     * Black Tower of Arkhan, Black Pyramid, Nagashizzar
   * Collect all Books of Nagash
   * **Reward**:
-    * _Mortarch of Sacrament_: Army capacity +3, Lord + hero recruit rank +5, Rite cooldown reduction -25%
+    * _Mortarch of Sacrament_: Army capacity +3, Lord + hero recruit rank +5
