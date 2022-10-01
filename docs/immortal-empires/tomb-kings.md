@@ -18,7 +18,10 @@
   * Occupy at least 4 settlements:
     * Galleon's Graveyard, The Awakening, Lahmia, Castle Drakenhof, Silver Pinnacle, Blackstone Post, Haunted Forest
   * **Reward**:
-    * _Know Your Place_: Vampire Count and Vampire Coast allegiance +100%, Vampiric corruption +4, Vampiric corruption adjacent provinces +6
+    * _Know Your Place_: 
+     * Vampire Count and Vampire Coast allegiance +100%
+     * Vampiric corruption +4
+     * Vampiric corruption adjacent provinces +6
 
 * **Route III - Faithful Servant**
   * The portents are troubled. Daemons roam the earth. Ancient empires crumble before the coming of Chaos. Preparations must be made for the Great Necromancer's return.
@@ -26,4 +29,6 @@
     * Black Tower of Arkhan, Black Pyramid, Nagashizzar
   * Collect all Books of Nagash
   * **Reward**:
-    * _Mortarch of Sacrament_: Army capacity +3, Lord + hero recruit rank +5
+    * _Mortarch of Sacrament_:
+     * Army capacity +3
+     * Lord + hero recruit rank +5
