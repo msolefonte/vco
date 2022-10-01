@@ -7,14 +7,14 @@
     * Erengrad, Praag, Kislev
   * Have at least 600 Supporters
   * **Reward:**
-    * Right and Just Leadership: Public Order: +4, Growth: +60, Motherland cost modifier: -25%
+    * Dethroned: Public Order: +4, Growth: +60, Motherland cost modifier: -25%
 
 * **Route II - The Last Bastion**
   * Kostaltyn stands with unshakeable faith against the great northern hordes of rats, raiders, and foul Chaos alike.
   * Destroy factions:
     * Clan Moulder, Azazel, Throgg, Wulfrik
   * **Reward:**
-    * Defender of the North: Barrier hitpoints +600 when under siege, Campaign movement range: -20% for enemy armies 
+    * Ice Court Defectors: Barrier hitpoints +600 when under siege, Campaign movement range: -20% for enemy armies 
     starting their turn in your regions
 
 * **Route III - Wololo!**
