@@ -16,7 +16,7 @@
 
 
 
-## NOTES BELOW
+## DETAILED NOTES BELOW
 
 Changed following subfactions' reward icons with better choices:
 Greasus
