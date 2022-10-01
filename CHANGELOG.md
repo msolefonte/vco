@@ -383,6 +383,7 @@ occasions, now it will be viable to play tall/defensively, without any requisite
 - Fixed a bug with The Huntsmarshal's Expedition second route reward
 - Improved descriptions and fixed typos
 
-## [5.0.0-beta.6] TBA - TBA
+## [5.0.0-beta.6] The Restless Dunes - TBA
 
+- Now flavour is displayed in white colour and does not include a bullet point check
 - Improved flavour, replaced icons and fixed typos
