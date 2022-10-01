@@ -375,7 +375,7 @@ occasions, now it will be viable to play tall/defensively, without any requisite
 - Technical: 
   - Added new common functions for VCO listeners: `is_faction_military_ally_or_destroyed()`, 
   `is_faction_vassal_or_destroyed()` and `is_faction_under_your_control()`
-
+ 
 ## [5.0.0-beta.5] War in the North - 26.09.2022
 
 - Added new routes for Throt the Unclean: Clan Moulder
