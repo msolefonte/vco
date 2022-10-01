@@ -9,7 +9,7 @@
   * Control provinces:
     * Shifting Sands, Land of the Dervishes, The Cracked Land, Land of the Dead, Coast of Araby, Land of Assassins, Great Desert of Araby
   * **Reward**:
-    * _The Ossified Monolith_: Campaign movement range: +10% for all armies, Diplomatic relations: +20 with Vampire Counts
+    * _The Ossified Monolith_: Campaign movement range: +25% for all armies, Diplomatic relations: +20 with Vampire Counts, The Dead Rise Again: +10% chance for destroyed units to be restored after battle, The Dead Rise Again: +10% hit points for destroyed units after battle
 
 * **Route II - Reclaiming the Throne**
   * The time has come to return to Sylvania and reclaim the von Carstein's ancestral citadel: Castle Drakenhof. In his private chambers in the uppermost tower Mannfred can continue to study the Books of Nagash he has found thus far. But first, Vlad and Isabella must be convinced to recognise his supremacy, or else be staked through the heart and left out for dawn's light to take them.
@@ -20,7 +20,7 @@
   * Construct landmark:
     * Malovelent Museum
   * **Reward**:
-    * _Return of the Count_: Blood Kiss: +3, Weapon Strength: +20 when fighting against The Empire and Kislev
+    * _Return of the Count_: Blood Kiss: +3, Weapon Strength: +5 when fighting against Humans, Leadership: +5 when fighting against Humans
 
 * **Route III - Death Comes For All**
   * Mannfred means to marshal every last vestige of the Great Necromancer's power and launch an unholy assault upon the Empire. The reign of the Midnight Aristocracy is nigh...
