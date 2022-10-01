@@ -37,36 +37,3 @@ _Reward flavour text:_ "This land is my home, my birthright. The wind and rain a
 _Reward flavour text:_ "Nagash was a fool, too weak to see his dreams realised. I will build an empire of death atop his broken legacy."
     * _The Dread Emperor_: Weapon strength +20%, Ward save +20% for Mannfred
 _Reward flavour text:_ From Nuln to Nordland, all pay the blood tithe and live only to serve the von Carsteins.
-
-__________________________________________________
-
-# Tomb Kings
-
-## ARKHAN: Followers of Nagash
-
-* **Route I - Thy Kingdom Come**
-  * Arkhan has feigned obedience to Settra for long enough. The time has come to march out and retake the ancient lands of his master, the Great Necromancer Nagash.
-  * Occupy at least 6 provinces:
-    * Land of Assassins, Coast of Araby, Great Desert of Araby, The Cracked Land, Great Mortis Delta, Land of the Dead, Shifting Sands, Land of the Dervishes
-  * Destroy faction:
-    * Khemri
-  * **Reward**:
-    * _Thy Will Be Done_: Recruitment rank +4, Unit capacity +5 for Tomb Guard, Tomb Guard (Halberds), Ushabti, Ushabti (Great Bow), +1 for Bone Giants, Warsphinxes, Hierotitans and Necrosphinxes
-_Reward flavour text:_ Arkhan journeys across the dunes, enslaving Tomb Kings from every dynasty and binding their legions to his will. Those who resist are destroyed utterly - their powdered bones lost to the sands of time forevermore.
-
-* **Route II - Born to Serve**
-  * The vampires did not drink from the Elixir of Life as Arkhan did, but from a lesser, corrupted version that cursed them with unlife. They are forever bound to the will of Nagash, and as his foremost servant, Arkhan can command them just as easily.
-  * Occupy at least 4 settlements:
-    * Galleon's Graveyard, The Awakening, Lahmia, Castle Drakenhof, Silver Pinnacle, Blackstone Post, Haunted Forest
-  * **Reward**:
-    * _Know Your Place_: Vampire Count and Vampire Coast allegiance +100%, Vampiric corruption adjacent provinces +5 (factionwide)
-_Reward flavour text:_ These bloodthirsty creatures will make fine foot soldiers in the wars to come.
-
-* **Route III - Faithful Servant**
-  * The portents are troubled. Daemons roam the earth. Ancient empires crumble before the coming of Chaos. Preparations must be made for the Great Necromancer's return.
-  * Occupy settlements:
-    * Black Tower of Arkhan, Black Pyramid, Nagashizzar
-  * Collect all Books of Nagash
-  * **Reward**:
-    * _Mortarch of Sacrament_: Army capacity +3, Lord + hero recruit rank +5, Rite cooldown reduction -25%
-_Reward flavour text:_ Foremost of the Dark Lords, Arkhan heralds in a new age of death and despair.
