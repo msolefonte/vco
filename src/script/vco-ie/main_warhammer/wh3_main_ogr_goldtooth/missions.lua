@@ -132,7 +132,7 @@ local missions = {
 
 				objective
 				{
-                    override_text mission_text_text_vco_ogr_gre_3_at_least_5_settlements;
+					override_text mission_text_text_vco_ogr_gre_3_at_least_5_settlements;
 					type CONTROL_N_REGIONS_INCLUDING;
 					total 5;
 
