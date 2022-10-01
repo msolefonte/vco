@@ -384,3 +384,5 @@ occasions, now it will be viable to play tall/defensively, without any requisite
 - Improved descriptions and fixed typos
 
 ## [5.0.0-beta.6] The Restless Dunes - TBA
+
+- Added new routes for Mannfred von Carstein
