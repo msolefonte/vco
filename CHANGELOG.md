@@ -385,4 +385,4 @@ occasions, now it will be viable to play tall/defensively, without any requisite
 
 ## [5.0.0-beta.6] The Restless Dunes - TBA
 
-- Added new routes for Mannfred von Carstein
+- Added new routes for Mannfred von Carstein: The Drakenhof Conclave
