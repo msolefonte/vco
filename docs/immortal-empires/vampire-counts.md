@@ -9,7 +9,6 @@
   * Control provinces:
     * Shifting Sands, Land of the Dervishes, The Cracked Land, Land of the Dead, Coast of Araby, Land of Assassins, Great Desert of Araby
   * **Reward**:
-    * _The Ossified Portal_: Creates a dilemma
     * _The Ossified Monolith_: Campaign movement range: +10% for all armies, Diplomatic relations: +20 with Vampire Counts
 
 * **Route II - Reclaiming the Throne**
