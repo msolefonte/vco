@@ -60,7 +60,7 @@ local missions = {
 
 				objective
 				{
-                    override_text mission_text_text_vco_ogr_gre_2_at_least_6_provinces;
+					override_text mission_text_text_vco_ogr_gre_2_at_least_6_provinces;
 					type CONTROL_N_PROVINCES_INCLUDING;
 					total 6;
 
