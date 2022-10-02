@@ -3,7 +3,6 @@
 ## Skarbrand: Exiles of Khorne
 
 **Ideas**
-
   * Thoughts
     * Skarbrand has garbage economy and high recruitment costs/upkeep.
       * Changing these in any small way is probably a waste of time?
@@ -13,37 +12,33 @@
     * Khorne's initial war is a ruse. Top Knotz are far too spread out, as are most of the desert factions. We should direct the players at Dwarves in route 1. Eight Peaks? Mors?
     * Quest is important and should be incentivised as part of a route.
     * Skarbrand has very little unit variety early game. Can we make it easier to broaden his armies?
-
-  * Objectives
-    * The verminous rats breed tens of thousands of slaves to fill their mines and dig their tunnels. Find them, send their skulls to Khorne.
-      * Destroy faction: Clan Mors 
-    * The ratmen's skulls pile high, but there is something missing. Slaughter and Carnage call to you, their need for blood has grown.
-      * Complete quest.
-	*
-
-  * Rewards
-    * 
-	*
+    * Several bonuses/techs/skills relate to hating Slaneshi factions. Should we have that form part of a route?
+    * Blood Hosts are a large part of Skarbrand's gameplay and they're only really sacking and razing. We should definitely keep a sack/raze route.
 
 **Route I - Blood for the Blood God*
-  * Blood-based objective
-  * Destroy the following factions: Mannfred, Khalida, Kroq-Gar
-  * Raze Lahmia
+  * There must be more slaughter, more death, and more blood. There must be more armies under Skarbrand's banner.
+    * Own 60 units.
+  * These blades sow death and destruction upon all, but they are not enough. Slaughter & Carnage await your grasp, and the blood of your foes.
+    * Complete Mission: Slaughter & Carnage
   * **Reward:** 
-    * reward1: 
-    * rewardN:
+    * The Reaping: Skarbrand's forces sweep across the land at pace, staining the lands with blood.
+      * +8% movement range (all characters)
+    * The Recovery: The servants of Khorne shrug off their wounds, for Khorne does not care from whom the blood spills.
+      * +4% replenishment (all armies)
 
 **Route II - Skulls for the Skull Throne*
-  * Amass 8888 skulls
-  * Destroy Khemri, Arkhan
+  * Earn 8888 skulls (not including starting skulls, not including spent skulls)
+  * Thousands of Skaven slaves. Regiments of Imperial conscripts. Cults of filthy Slaaneshi devotees. Send their skulls to Khorne.
+    * Destroy 1 faction: Clan Mors, Clan Rictus, Clan Skryre
+    * Destroy 1 faction: Reikland, The Golden Order, Cult of Sigmar
+    * Destroy 1 faction: The Ecstatic Legion, Seekers of Slaanesh
   * **Reward:** 
-    * reward1: 
-    * rewardN:
+    * The Throne Grows: X 
 
-**Route III - Bottomless Rage*
+**Route III - Unending Rage*
+  * Reach Level 40 with Skarbrand
+  * Raze N settlements
   * Spread Khorne corruption in X regions
-  * Destroy factions Queek Wurrzag Eltharion
-  * Raze Black Crag
   * **Reward:** 
-    * reward1: 
-    * rewardN:
+    * A Devasted World for Khorne: X
+    * A Devasting Reward for Skarbrand: X
