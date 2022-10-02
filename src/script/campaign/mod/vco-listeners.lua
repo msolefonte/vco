@@ -27,6 +27,10 @@ local function is_faction_vassal_or_destroyed(player_faction, target_faction_key
 	return false;
 end
 
+local function is_character_level_x(character, level)
+  return true;
+end
+
 local function is_faction_under_your_control(player_faction, target_faction_key, consider_military_allies)
 	return is_faction_vassal_or_destroyed(player_faction, target_faction_key, consider_military_allies) or
 		is_faction_military_ally_or_destroyed(player_faction, target_faction_key);
@@ -284,6 +288,22 @@ local function add_listeners()
 		vco_ksl_ort_enable_luminark,
 		true
 	)
+
+	vco:log("- Khorne listeners");
+	core:add_listener(
+		"vco_kho_skarbrand_level_check",
+		"CharacterRankUp",
+		function(context)
+			local faction = context:faction();
+			return faction:is_human() and faction:name() == "wh3_main_kho_exiles_of_khorne"
+		end,
+		function(context)
+			-- TODO: replace this with check using is_character_level_x(context:character())
+			check_vco_brt_bordeleaux_alberic_vow(context:character());
+		end,
+		true
+	);
+
 
 	vco:log("- Ogre Kingdoms listeners");
 	core:add_listener(
