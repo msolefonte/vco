@@ -2,6 +2,28 @@ local vco = core:get_static_object("vco");
 
 -- COMMON --
 
+local function earned_x_pooled_resource(resource, amount)
+  return true
+end
+
+-- local function check_vco_skv_mdr_all_augments_unlocked(effect)
+-- 	local REQUIRED_EFFECT_TAILS = {"inf_aug_13", "inf_aug_14", "mon_aug_13", "mon_aug_14"};
+--
+-- 	for _, effect_tail in ipairs(REQUIRED_EFFECT_TAILS) do
+-- 		if effect:record_key() == "wh2_dlc16_throt_flesh_lab_" .. effect_tail then
+-- 			cm:set_saved_value("vco_skv_mdr_" .. effect_tail .. "_unlocked", true);
+-- 		end
+-- 	end
+--
+-- 	for _, effect_tail in ipairs(REQUIRED_EFFECT_TAILS) do
+-- 		if not cm:get_saved_value("vco_skv_mdr_" .. effect_tail .. "_unlocked") then
+-- 			return;
+-- 		end
+-- 	end
+--
+-- 	vco:complete_mission("wh2_main_skv_clan_moulder", "vco_skv_mld_augments");
+-- end
+
 local function is_faction_military_ally_or_destroyed(player_faction, target_faction_key)
 	local target_faction = cm:get_faction(target_faction_key);
 	return target_faction and (target_faction:is_dead() or target_faction:military_allies_with(player_faction));
@@ -261,7 +283,21 @@ local function add_listeners()
 		vco_def_cop_enable_slaanesh_units,
 		true
 	)
-	
+
+	vco:log("- Khorne listeners")
+	core:add_listener(
+	  "vco_kho_exi_earned_skulls",
+	  "PooledResourceChanged",
+	  function(context)
+	    return context:faction():is_human() and context:faction():name() == "wh3_main_kho_exiles_of_khorne"
+	  end,
+	  function(context)
+	    -- TODO: figure out what to pass as first param from chadvandy. Is the factor the key or the factor itself?
+	    earned_x_pooled_resource(context:faction():name(), context:amount());
+	  end,
+	  true
+	)
+
 	vco:log("- Kislev listeners");
 	core:add_listener(
 		"vco_ksl_ort_first_turn_start",
