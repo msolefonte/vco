@@ -2,6 +2,10 @@ local vco = core:get_static_object("vco");
 
 -- COMMON --
 
+local function is_character_level_x(character, level)
+  return character:rank() >= level
+end
+
 local function is_faction_military_ally_or_destroyed(player_faction, target_faction_key)
 	local target_faction = cm:get_faction(target_faction_key);
 	return target_faction and (target_faction:is_dead() or target_faction:military_allies_with(player_faction));
@@ -25,10 +29,6 @@ local function is_faction_vassal_or_destroyed(player_faction, target_faction_key
 	end
 
 	return false;
-end
-
-local function is_character_level_x(character, level)
-  return character:rank() >= level
 end
 
 local function is_faction_under_your_control(player_faction, target_faction_key, consider_military_allies)
