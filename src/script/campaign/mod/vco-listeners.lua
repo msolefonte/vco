@@ -6,6 +6,7 @@ local function earned_x_pooled_resource(resource, amount)
   return true
 end
 
+-- WILL REMOVE ONCE DONE, USING THIS AS AN EXAMPLE FOR CM:get/set
 -- local function check_vco_skv_mdr_all_augments_unlocked(effect)
 -- 	local REQUIRED_EFFECT_TAILS = {"inf_aug_13", "inf_aug_14", "mon_aug_13", "mon_aug_14"};
 --
