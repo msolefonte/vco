@@ -22,7 +22,7 @@
     * Complete Mission: Slaughter & Carnage
   * **Reward:** 
     * The Reaping: Skarbrand's forces sweep across the land at pace, staining the lands with blood.
-      * +8% movement range (all characters)
+      * Passive "Hellblade" for all Bloodletters and Bloodthirsters
     * The Recovery: The servants of Khorne shrug off their wounds, for Khorne does not care from whom the blood spills.
       * +4% replenishment (all armies)
 
