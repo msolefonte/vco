@@ -2,12 +2,13 @@ local vco = core:get_static_object("vco");
 
 -- COMMON --
 
+-- POOLED RESOURCES --
+
 local function faction_earned_x_pooled_resource(resource, amount)
   local amount_of_resource_earned = cm:get_saved_value("vco_pooled_resource_earned" .. resource) or 0;
-  local amount_of_resource_earned_updated = amount_of_resource_earned;
+  local amount_of_resource_earned_updated = amount_of_resource_earned + amount;
 
-  if amount >= 0 then
-    amount_of_resource_earned_updated = amount_of_resource_earned + amount;
+  if amount > 0 then
     cm:set_saved_value("vco_pooled_resource_earned" .. resource, amount_of_resource_earned_updated)
     return true
   end
@@ -25,24 +26,7 @@ local function has_faction_earned_x_pooled_resource_in_total(resource, amount)
   return false
 end
 
--- WILL REMOVE ONCE DONE, USING THIS AS AN EXAMPLE FOR CM:get/set
--- local function check_vco_skv_mdr_all_augments_unlocked(effect)
--- 	local REQUIRED_EFFECT_TAILS = {"inf_aug_13", "inf_aug_14", "mon_aug_13", "mon_aug_14"};
---
--- 	for _, effect_tail in ipairs(REQUIRED_EFFECT_TAILS) do
--- 		if effect:record_key() == "wh2_dlc16_throt_flesh_lab_" .. effect_tail then
--- 			cm:set_saved_value("vco_skv_mdr_" .. effect_tail .. "_unlocked", true);
--- 		end
--- 	end
---
--- 	for _, effect_tail in ipairs(REQUIRED_EFFECT_TAILS) do
--- 		if not cm:get_saved_value("vco_skv_mdr_" .. effect_tail .. "_unlocked") then
--- 			return;
--- 		end
--- 	end
---
--- 	vco:complete_mission("wh2_main_skv_clan_moulder", "vco_skv_mld_augments");
--- end
+-- DIPLOMACY -- 
 
 local function is_faction_military_ally_or_destroyed(player_faction, target_faction_key)
 	local target_faction = cm:get_faction(target_faction_key);
@@ -73,6 +57,8 @@ local function is_faction_under_your_control(player_faction, target_faction_key,
 	return is_faction_vassal_or_destroyed(player_faction, target_faction_key, consider_military_allies) or
 		is_faction_military_ally_or_destroyed(player_faction, target_faction_key);
 end
+
+-- CORRUPTION --
 
 local function count_regions_with_highest_corruption(corruption_key)
 	local regions_count = 0;
