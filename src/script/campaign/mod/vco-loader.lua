@@ -28,40 +28,6 @@ local function add_fix_objectives_panel_bug_listener()
 	);
 end
 
-local function recolor_and_resize_dummy_missions()
-	local objectives_vc_uic = find_uicomponent(core:get_ui_root(), "objectives_screen", "subpanel_victory_conditions");
-	local objectives_list_uic = find_uicomponent(objectives_vc_uic, "list_holder", "listview", "list_clip", "list_box");
-	if objectives_list_uic ~= false then
-		for i = 0, objectives_list_uic:ChildCount() - 1 do
-			local condition_uic = UIComponent(objectives_list_uic:Find(i))
-			if condition_uic:Id() == 'condition' then
-				local dy_condition_uic = find_uicomponent(condition_uic, "dy_condition")
-				if string.sub(dy_condition_uic:GetStateText(), 1, 7) == "<dummy>" then
-					local position_x, position_y = dy_condition_uic:Position();
-					dy_condition_uic:SetState('active');
-					dy_condition_uic:SetCanResizeWidth(true);
-					dy_condition_uic:MoveTo(position_x - 16, position_y);
-					dy_condition_uic:SetStateText(dy_condition_uic:GetStateText():sub(8));
-					dy_condition_uic:Resize(616, dy_condition_uic:Height());
-					find_uicomponent(condition_uic, "bullet_point"):SetVisible(false);
-				end
-			end
-		end
-	end
-end
-
-local function recolor_and_resize_dummy_missions_listener()
-	core:add_listener(
-		"vco_objectives_panel_route_clicked",
-		"ComponentLClickUp",
-		function(context)
-			return string.sub(context.string, 1, 17) == "vco_victory_type_";
-		end,
-		recolor_and_resize_dummy_missions,
-		true
-	);
-end
-
 -- LOADER --
 
 local function load_campaigns()
@@ -77,7 +43,6 @@ end
 local function main()
 	cm:add_first_tick_callback(load_campaigns);
 	add_fix_objectives_panel_bug_listener();
-	recolor_and_resize_dummy_missions_listener();
 end
 
 main();
