@@ -382,3 +382,7 @@ occasions, now it will be viable to play tall/defensively, without any requisite
 - Added new routes for Kostaltyn: The Great Orthodoxy
 - Fixed a bug with The Huntsmarshal's Expedition second route reward
 - Improved descriptions and fixed typos
+
+## [5.0.0-beta.5.HOTFIX-1] - 03.10.2022
+
+- Fixed a bug that caused The Great Orthodoxy's Route III to be unachievable
