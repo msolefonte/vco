@@ -130,7 +130,7 @@ local function check_vco_kho_exiles_of_khorne_skulls_earned()
   local earned_8888_skulls = has_faction_earned_gte_x_pooled_resource("wh3_main_kho_exiles_of_khorne", "wh3_main_kho_skulls", 8888);
 
   if earned_8888_skulls then
-		vco:complete_mission("wh3_main_kho_exiles_of_khorne", "vco_kho_exiles_of_khorne_skulls_earned");
+    vco:complete_mission("wh3_main_kho_exiles_of_khorne", "vco_kho_exiles_of_khorne_skulls_earned");
   end
 end
 
