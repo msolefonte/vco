@@ -2,8 +2,8 @@ local vco = core:get_static_object("vco");
 
 -- COMMON --
 
-local function is_character_rank_x(character, rank)
-  return character:rank() >= rank
+local function is_character_gte_rank_x(character, target_rank)
+  return character:rank() >= target_rank
 end
 
 local function is_faction_military_ally_or_destroyed(player_faction, target_faction_key)
@@ -103,7 +103,7 @@ local function check_vco_daemons_of_chaos_the_great_game(faction_key, corruption
 end
 
 local function check_vco_kho_exiles_of_khorne_skarbrand_rank_40(character)
-  local skarbrand_rank_gte_40 = is_character_rank_x(character, 40);
+  local skarbrand_rank_gte_40 = is_character_gte_rank_x(character, 40);
 
   if skarbrand_rank_gte_40 then
     vco:complete_mission("wh3_main_kho_exiles_of_khorne", "vco_kho_exiles_of_khorne_skarbrand_rank")
