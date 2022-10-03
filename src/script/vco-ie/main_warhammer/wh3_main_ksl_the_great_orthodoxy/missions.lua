@@ -118,7 +118,7 @@ local missions = {
 					faction wh3_main_ksl_the_great_orthodoxy;
 					total 6;
 				
-					building_level wh3_main_ksl_city_gold_3;
+					building_level wh3_main_ksl_gold_3;
 				}
 			
 				objective
