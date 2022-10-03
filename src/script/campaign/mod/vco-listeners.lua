@@ -2,8 +2,8 @@ local vco = core:get_static_object("vco");
 
 -- COMMON --
 
-local function is_character_rank_x(character, level)
-  return character:rank() >= level
+local function is_character_rank_x(character, rank)
+  return character:rank() >= rank
 end
 
 local function is_faction_military_ally_or_destroyed(player_faction, target_faction_key)
@@ -299,7 +299,7 @@ local function add_listeners()
 
 	vco:log("- Khorne listeners");
 	core:add_listener(
-		"vco_kho_skarbrand_level_40_check",
+		"vco_kho_skarbrand_rank_40_check",
 		"CharacterRankUp",
 		function(context)
 			return context:faction():is_human() and context:character():unit_key() == "wh3_main_kho_skarbrand";
