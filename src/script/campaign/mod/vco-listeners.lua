@@ -2,7 +2,7 @@ local vco = core:get_static_object("vco");
 
 -- COMMON --
 
-local function is_character_level_x(character, level)
+local function is_character_rank_x(character, level)
   return character:rank() >= level
 end
 
@@ -100,6 +100,14 @@ local function check_vco_daemons_of_chaos_the_great_game(faction_key, corruption
 		vco:set_mission_text("vco_" .. faction_key .. "_the_great_game", "vco_the_great_game_completed");
 		vco:complete_mission(faction_key, "vco_" .. faction_key .. "_the_great_game");
 	end
+end
+
+local function check_vco_kho_exiles_of_khorne_skarbrand_rank_40(character)
+  local skarbrand_rank_gte_40 = is_character_rank_x(character, 40);
+
+  if skarbrand_rank_gte_40 then
+    vco:complete_mission("wh3_main_kho_exiles_of_khorne", "vco_kho_exiles_of_khorne_skarbrand_rank")
+  end
 end
 
 local function check_vco_ogr_goldtooth_gross_income(target_faction)
@@ -294,12 +302,12 @@ local function add_listeners()
 		"vco_kho_skarbrand_level_40_check",
 		"CharacterRankUp",
 		function(context)
-			return context:faction():is_human() and context:character():unit_key() == "wh3_main_kho_skarbrand"
+			return context:faction():is_human() and context:character():unit_key() == "wh3_main_kho_skarbrand";
 		end,
 		function(context)
-			is_character_level_x(context:character(), 40);
+			check_vco_kho_exiles_of_khorne_skarbrand_rank_40(context:character())
 		end,
-		true
+		false
 	);
 
 
