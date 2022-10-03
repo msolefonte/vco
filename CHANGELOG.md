@@ -390,3 +390,7 @@ occasions, now it will be viable to play tall/defensively, without any requisite
 ## [5.0.0-beta.5.HOTFIX-2] - 03.10.2022
 
 - I forgot to update the pack file :D
+
+## [5.0.0-beta.5.HOTFIX-3] - 03.10.2022
+
+- Dense today, aren't we? 
