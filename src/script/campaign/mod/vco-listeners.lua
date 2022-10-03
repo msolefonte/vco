@@ -2,8 +2,27 @@ local vco = core:get_static_object("vco");
 
 -- COMMON --
 
-local function earned_x_pooled_resource(resource, amount)
-  return true
+local function faction_earned_x_pooled_resource(resource, amount)
+  local amount_of_resource_earned = cm:get_saved_value("vco_pooled_resource_earned" .. resource) or 0;
+  local amount_of_resource_earned_updated = amount_of_resource_earned;
+
+  if amount >= 0 then
+    amount_of_resource_earned_updated = amount_of_resource_earned + amount;
+    cm:set_saved_value("vco_pooled_resource_earned" .. resource, amount_of_resource_earned_updated)
+    return true
+  end
+
+  return false
+end
+
+local function has_faction_earned_x_pooled_resource_in_total(resource, amount)
+  local amount_of_resource_earned_in_total = cm:get_saved_value("vco_pooled_resource_earned" .. resource);
+
+  if amount_of_resource_earned_in_total >= amount then
+    return true
+  end
+
+  return false
 end
 
 -- WILL REMOVE ONCE DONE, USING THIS AS AN EXAMPLE FOR CM:get/set
@@ -293,8 +312,7 @@ local function add_listeners()
 	    return context:faction():is_human() and context:faction():name() == "wh3_main_kho_exiles_of_khorne"
 	  end,
 	  function(context)
-	    -- TODO: figure out what to pass as first param from chadvandy. Is the factor the key or the factor itself?
-	    earned_x_pooled_resource(context:faction():name(), context:amount());
+	    faction_earned_x_pooled_resource(context:resource():key(), context:amount());
 	  end,
 	  true
 	)
