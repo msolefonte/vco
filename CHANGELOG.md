@@ -386,3 +386,7 @@ occasions, now it will be viable to play tall/defensively, without any requisite
 ## [5.0.0-beta.5.HOTFIX-1] - 03.10.2022
 
 - Fixed a bug that caused The Great Orthodoxy's Route III to be unachievable
+
+## [5.0.0-beta.5.HOTFIX-2] - 03.10.2022
+
+- I forgot to update the pack file :D
