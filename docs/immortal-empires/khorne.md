@@ -27,7 +27,7 @@
       * +4% replenishment (all armies)
 
 **Route II - Skulls for the Skull Throne*
-  * Earn 8888 skulls (not including starting skulls, not including spent skulls)
+  * Earn 8888 skulls (script_key: `vco_kho_exiles_of_khorne_skulls_earned`)
   * Thousands of Skaven slaves. Regiments of Imperial conscripts. Cults of filthy Slaaneshi devotees. Send their skulls to Khorne.
     * Destroy 1 faction: Clan Mors, Clan Rictus, Clan Skryre
     * Destroy 1 faction: Reikland, The Golden Order, Cult of Sigmar
@@ -36,7 +36,7 @@
     * The Throne Grows: X 
 
 **Route III - Unending Rage*
-  * Reach Level 40 with Skarbrand
+  * Reach Level 40 with Skarbrand (script_key: `vco_kho_exiles_of_khorne_skarbrand_rank`)
   * Raze N settlements
   * Spread Khorne corruption in X regions
   * **Reward:** 
