@@ -4,26 +4,23 @@ local vco = core:get_static_object("vco");
 
 -- POOLED RESOURCES --
 
-local function faction_earned_x_pooled_resource(faction, resource, amount)
-  local amount_of_resource_earned = cm:get_saved_value("vco_pooled_resource_earned_" .. faction .. "_" .. resource) or 0;
-  local amount_of_resource_earned_updated = amount_of_resource_earned + amount;
+local function update_faction_pooled_resource_earnings(faction, pooled_resource_key, amount)
+  local amount_of_resource_earned = cm:get_saved_value("vco_pooled_resource_earned_" .. faction .. "_" .. pooled_resource_key) or 0;
 
   if amount > 0 then
-    cm:set_saved_value("vco_pooled_resource_earned_" .. faction .. "_" .. resource, amount_of_resource_earned_updated);
+    cm:set_saved_value(
+      "vco_pooled_resource_earned_" .. faction .. "_" .. pooled_resource_key,
+      amount_of_resource_earned + amount
+    );
     return true
   end
 
   return false
 end
 
-local function has_faction_earned_gte_x_pooled_resource(faction, resource, total)
-  local total_amount_of_resource_earned = cm:get_saved_value("vco_pooled_resource_earned_" .. faction .. "_" .. resource);
-
-  if total_amount_of_resource_earned >= total then
-    return true
-  end
-
-  return false
+local function has_faction_earned_gte_x_pooled_resource(faction, pooled_resource_key, target_amount)
+  local total_amount_of_resource_earned = cm:get_saved_value("vco_pooled_resource_earned_" .. faction .. "_" .. pooled_resource_key);
+  return total_amount_of_resource_earned >= target_amount;
 end
 
 -- DIPLOMACY -- 
@@ -307,7 +304,7 @@ local function add_listeners()
 	      and context:resource():key() == "wh3_main_kho_skulls"
 	  end,
 	  function(context)
-	    faction_earned_x_pooled_resource(context:faction():name(), context:resource():key(), context:amount());
+	    update_faction_pooled_resource_earnings(context:faction():name(), context:resource():key(), context:amount());
 	  end,
 	  true
 	)
