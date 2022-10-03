@@ -4,22 +4,22 @@ local vco = core:get_static_object("vco");
 
 -- POOLED RESOURCES --
 
-local function faction_earned_x_pooled_resource(resource, amount)
-  local amount_of_resource_earned = cm:get_saved_value("vco_pooled_resource_earned" .. resource) or 0;
+local function faction_earned_x_pooled_resource(faction, resource, amount)
+  local amount_of_resource_earned = cm:get_saved_value("vco_pooled_resource_earned_" .. faction .. "_" .. resource) or 0;
   local amount_of_resource_earned_updated = amount_of_resource_earned + amount;
 
   if amount > 0 then
-    cm:set_saved_value("vco_pooled_resource_earned" .. resource, amount_of_resource_earned_updated)
+    cm:set_saved_value("vco_pooled_resource_earned_" .. faction .. "_" .. resource, amount_of_resource_earned_updated);
     return true
   end
 
   return false
 end
 
-local function has_faction_earned_x_pooled_resource_in_total(resource, amount)
-  local amount_of_resource_earned_in_total = cm:get_saved_value("vco_pooled_resource_earned" .. resource);
+local function has_faction_earned_gte_x_pooled_resource(faction, resource, total)
+  local total_amount_of_resource_earned = cm:get_saved_value("vco_pooled_resource_earned_" .. faction .. "_" .. resource);
 
-  if amount_of_resource_earned_in_total >= amount then
+  if total_amount_of_resource_earned >= total then
     return true
   end
 
@@ -124,6 +124,14 @@ local function check_vco_daemons_of_chaos_the_great_game(faction_key, corruption
 		vco:set_mission_text("vco_" .. faction_key .. "_the_great_game", "vco_the_great_game_completed");
 		vco:complete_mission(faction_key, "vco_" .. faction_key .. "_the_great_game");
 	end
+end
+
+local function check_vco_kho_exiles_of_khorne_skulls_earned()
+  local earned_8888_skulls = has_faction_earned_gte_x_pooled_resource("wh3_main_kho_exiles_of_khorne", "wh3_main_kho_skulls", 8888);
+
+  if earned_8888_skulls then
+		vco:complete_mission("wh3_main_kho_exiles_of_khorne", "vco_kho_exiles_of_khorne_skulls_earned");
+  end
 end
 
 local function check_vco_ogr_goldtooth_gross_income(target_faction)
@@ -296,10 +304,22 @@ local function add_listeners()
 	  "PooledResourceChanged",
 	  function(context)
 	    return context:faction():is_human() and context:faction():name() == "wh3_main_kho_exiles_of_khorne"
+	      and context:resource():key() == "wh3_main_kho_skulls"
 	  end,
 	  function(context)
-	    faction_earned_x_pooled_resource(context:resource():key(), context:amount());
+	    faction_earned_x_pooled_resource(context:faction():name(), context:resource():key(), context:amount());
 	  end,
+	  true
+	)
+
+	core:add_listener(
+	  "vco_kho_exi_earned_skulls_objective",
+	  "PooledResourceChanged",
+	  function(context)
+	    return context:faction():is_human() and context:faction():name() == "wh3_main_kho_exiles_of_khorne"
+	      and context:resource():key() == "wh3_main_kho_skulls"
+	  end,
+	  check_vco_kho_exiles_of_khorne_skulls_earned,
 	  true
 	)
 
