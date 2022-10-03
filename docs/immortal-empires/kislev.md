@@ -22,7 +22,7 @@
   disperse the Cult of Ulric, beggar the followers of Handrich! Ursun, Tor, Dazh, Salyak – these are the true gods who 
   will guide the realms of men out of chaos, no others!
     * Altdorf, Marienburg, Middenheim, Castle Drakenhof
-  * Build 6 Churches
+  * Build 6 Orthodoxy Churches
   * Destroy factions:
     * Reikland, Marienburg, Middenheim, Sylvania
   * **Reward:**
