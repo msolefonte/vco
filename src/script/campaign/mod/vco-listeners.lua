@@ -3,7 +3,7 @@ local vco = core:get_static_object("vco");
 -- COMMON --
 
 local function is_character_gte_rank_x(character, target_rank)
-  return character:rank() >= target_rank
+  return character:rank() >= target_rank;
 end
 
 local function is_faction_military_ally_or_destroyed(player_faction, target_faction_key)
