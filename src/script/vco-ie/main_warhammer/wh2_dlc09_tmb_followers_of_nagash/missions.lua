@@ -74,7 +74,7 @@ local missions = {
 
 				objective
 				{
-                    override_text mission_text_text_vco_tmb_ark_2_born_to_serve_region_overwrite;
+					override_text mission_text_text_vco_tmb_ark_2_born_to_serve_region_overwrite;
 					type CONTROL_N_REGIONS_INCLUDING;
 					total 4;
 
