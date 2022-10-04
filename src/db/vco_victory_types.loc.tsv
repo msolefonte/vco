@@ -109,3 +109,6 @@ victory_types_display_name_vco_victory_type_ksl_ort_3_wololo	Route III - Wololo!
 victory_types_display_name_vco_victory_type_skv_mdr_1_yes_yes_prepare_the_lab	Route I - Yes-yes, prepare The Lab!	true
 victory_types_display_name_vco_victory_type_skv_mdr_2_the_vermintide_comes	Route II - The Vermintide Comes	true
 victory_types_display_name_vco_victory_type_skv_mdr_3_the_frozen_dead	Route III - The Frozen Dead	true
+victory_types_display_name_vco_victory_type_cst_sar_1_captain_of_the_swordfysh	Route I - Captain of the Swordfysh	true
+victory_types_display_name_vco_victory_type_cst_sar_2_daughter_of_manann	Route II - Daughter of Manann	true
+victory_types_display_name_vco_victory_type_cst_sar_3_dead_man_s_vengeance	Route III - Dead Man's Vengeance	true
