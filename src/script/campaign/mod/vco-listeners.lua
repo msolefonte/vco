@@ -322,7 +322,7 @@ local function add_listeners()
 	  "PooledResourceChanged",
 	  function(context)
 		return context:faction():is_human() and context:faction():name() == "wh3_main_kho_exiles_of_khorne"
-		  and context:resource():key() == "wh3_main_kho_skulls"
+		  and context:resource():key() == "wh3_main_kho_skulls";
 	  end,
 	  check_vco_kho_exiles_of_khorne_skulls_earned,
 	  true
