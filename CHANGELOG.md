@@ -394,3 +394,7 @@ occasions, now it will be viable to play tall/defensively, without any requisite
 ## [5.0.0-beta.5.HOTFIX-3] - 03.10.2022
 
 - Dense today, aren't we? 
+
+## [5.0.0-beta.5.HOTFIX-4] - 04.10.2022
+
+- Fixed a bug in Ogre/Greenskin/Skaven objectives that required N settlements captured from a list of >N using `INCLUDING` instead of `FROM`
