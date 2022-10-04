@@ -4,15 +4,13 @@ local vco = core:get_static_object("vco");
 
 -- POOLED RESOURCES --
 
-local function update_faction_pooled_resource_earnings(faction, pooled_resource_key, amount)
-  local amount_of_resource_earned = cm:get_saved_value("vco_pooled_resource_earned_" .. faction .. "_" .. pooled_resource_key) or 0;
-
+local function update_faction_pooled_resource_earnings(faction_name, pooled_resource_key, amount)
   if amount > 0 then
-    cm:set_saved_value(
-      "vco_pooled_resource_earned_" .. faction .. "_" .. pooled_resource_key,
-      amount_of_resource_earned + amount
-    );
-    return true
+	local current_amount_of_resource_earned = cm:get_saved_value("vco_pooled_resource_earned_" .. faction_name .. "_" .. pooled_resource_key) or 0;
+	cm:set_saved_value(
+	  "vco_pooled_resource_earned_" .. faction_name .. "_" .. pooled_resource_key,
+	  current_amount_of_resource_earned + amount
+	);
   end
 
   return false
@@ -127,7 +125,7 @@ local function check_vco_kho_exiles_of_khorne_skulls_earned()
   local earned_8888_skulls = has_faction_earned_gte_x_pooled_resource("wh3_main_kho_exiles_of_khorne", "wh3_main_kho_skulls", 8888);
 
   if earned_8888_skulls then
-    vco:complete_mission("wh3_main_kho_exiles_of_khorne", "vco_kho_exiles_of_khorne_skulls_earned");
+	vco:complete_mission("wh3_main_kho_exiles_of_khorne", "vco_kho_exiles_of_khorne_skulls_earned");
   end
 end
 
@@ -300,11 +298,11 @@ local function add_listeners()
 	  "vco_kho_exi_earned_skulls",
 	  "PooledResourceChanged",
 	  function(context)
-	    return context:faction():is_human() and context:faction():name() == "wh3_main_kho_exiles_of_khorne"
-	      and context:resource():key() == "wh3_main_kho_skulls"
+		return context:faction():is_human() and context:faction():name() == "wh3_main_kho_exiles_of_khorne"
+		  and context:resource():key() == "wh3_main_kho_skulls"
 	  end,
 	  function(context)
-	    update_faction_pooled_resource_earnings(context:faction():name(), context:resource():key(), context:amount());
+		update_faction_pooled_resource_earnings(context:faction():name(), context:resource():key(), context:amount());
 	  end,
 	  true
 	)
@@ -313,8 +311,8 @@ local function add_listeners()
 	  "vco_kho_exi_earned_skulls_objective",
 	  "PooledResourceChanged",
 	  function(context)
-	    return context:faction():is_human() and context:faction():name() == "wh3_main_kho_exiles_of_khorne"
-	      and context:resource():key() == "wh3_main_kho_skulls"
+		return context:faction():is_human() and context:faction():name() == "wh3_main_kho_exiles_of_khorne"
+		  and context:resource():key() == "wh3_main_kho_skulls"
 	  end,
 	  check_vco_kho_exiles_of_khorne_skulls_earned,
 	  true
