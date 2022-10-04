@@ -383,6 +383,19 @@ occasions, now it will be viable to play tall/defensively, without any requisite
 - Fixed a bug with The Huntsmarshal's Expedition second route reward
 - Improved descriptions and fixed typos
 
+## [5.0.0-beta.5.HOTFIX-1] - 03.10.2022
+
+- Fixed a bug that caused The Great Orthodoxy's Route III to be unachievable
+
+## [5.0.0-beta.5.HOTFIX-2] - 03.10.2022
+
+- I forgot to update the pack file :D
+
+## [5.0.0-beta.5.HOTFIX-3] - 03.10.2022
+
+- Dense today, aren't we?
+
 ## [5.0.0-beta.6] The Restless Dunes - TBA
 
 - Added new routes for Arkhan the Black: Followers of Nagash
+- Now flavour is displayed in white colour and does not include a bullet point check
