@@ -5,9 +5,10 @@
 * **Route I - The Great Game**
   * Though Slaanesh is presently the least of the four great Ruinous Powers, his brothers secretly fear him, for he feeds on humanity's darkest urges, a source of power that they cannot hope to match. Let the lands of Ulthuan be submerged beneath a writhing, twitching blanket of sin.
   * Achieve the highest corruption in a minimum of 100 regions
-  * Occupy provinces: Caledor, Tiranoc, Nagarythe, Chrace, Cothique, Northern Yvresse, Southern Yvresse, Eataine, Ellyrion, Avelorn, Saphery.
+  * Occupy provinces: 
+    * Caledor, Tiranoc, Nagarythe, Chrace, Cothique, Northern Yvresse, Southern Yvresse, Eataine, Ellyrion, Avelorn and Saphery
   * **Reward**:
-    * _Slaanesh Ascendant_: Allegiance points gained for all factions: +25%, tribute from vassals +100%, Devotees per turn +40
+    * _Slaanesh Ascendant_: Allegiance points: +25% with all factions, Tribute from vassals: +100%, Devotees: +40 per turn
 Alternatives: could also buff things like the Gift of Slaanesh itself, which currently gives +5 devotees and +3 seductive influence per turn PER character's faction, so I stayed away from it because it's harder to control balance-wise
 _Reward flavour text:_ The Dark Prince's power waxes so strongly that it can no longer be contained within the Realms of Chaos. Storms howl outwards from the polar gates, driving his servants onwards to commit countless unspeakable acts in his name.
 
@@ -24,9 +25,9 @@ _Reward flavour text:_ Decadance leads to dalliance. Dalliance leads to debauche
   * Vassalise 6 factions
   * The Arch-Temptor has been thwarted by Aenarion and his hated descendants more times than he would care to admit. The time has come to visit upon them the most exquisite of agonies. Only after they beg for death will their souls be relinquished to the Dark Prince.
   * Destroy factions:
-    * Eatine, Order of Loremasters, Naggaroth
+    * Eatine, Order of Loremasters and Naggaroth
   * **Reward**:
-    * _Aenarion's Blood_: Attribute: Leadership +10 when fighting against Elves (factionwide), Weapon strength +10% (N'Kari)
+    * _Aenarion's Blood_: Attribute: Leadership: +10 when fighting against Elves, Weapon strength: +10% for N'Kari
 _Reward flavour text:_ Aenarion's line has ended. Vengeance never tasted so sweet...
-    * _All The World's A Stage_: Recruit rank: %+3 for Daemonettes of Slaanesh and Exalted Daemonettes of Slaanesh units, Weapon strength: %+5% for Daemonettes of Slaanesh, Exalted Daemonettes of Slaanesh, Chaos Warriors of Slaanesh and Marauders of Slaanesh units
+    * _All The World's A Stage_: Recruit rank: +3 for Daemonettes of Slaanesh and Exalted Daemonettes of Slaanesh, Weapon strength: +5% for Daemonettes of Slaanesh, Exalted Daemonettes of Slaanesh, Chaos Warriors of Slaanesh and Marauders of Slaanesh units
 _Reward flavour text:_  And all the men and women merely playthings for the Daemonettes.
