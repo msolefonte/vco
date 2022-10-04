@@ -309,10 +309,10 @@ local function add_listeners()
 	  "PooledResourceChanged",
 	  function(context)
 		return context:faction():is_human() and context:faction():name() == "wh3_main_kho_exiles_of_khorne"
-		  and context:resource():key() == "wh3_main_kho_skulls"
+		  and context:resource():key() == "wh3_main_kho_skulls";
 	  end,
 	  function(context)
-		update_faction_pooled_resource_earnings(context:faction():name(), context:resource():key(), context:amount());
+		  update_faction_pooled_resource_earnings(context:faction():name(), context:resource():key(), context:amount());
 	  end,
 	  true
 	)
