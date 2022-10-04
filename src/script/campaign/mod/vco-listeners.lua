@@ -12,8 +12,6 @@ local function update_faction_pooled_resource_earnings(faction_name, pooled_reso
 	  current_amount_of_resource_earned + amount
 	);
   end
-
-  return false
 end
 
 local function has_faction_earned_gte_x_pooled_resource(faction, pooled_resource_key, target_amount)
