@@ -39,8 +39,11 @@
 
 **Route III - Unending Rage*
   * Reach Level 40 with Skarbrand (script_key: `vco_kho_exiles_of_khorne_skarbrand_rank`)
-  * Raze N settlements
-  * Spread Khorne corruption in X regions
+  * Raze 40 settlements
+  * Spread Khorne corruption in 40 regions
   * **Reward:** 
-    * Devasted World: X
-    * Devasting Reward: X
+    * Devasted World: The world is in flames, broken and crumbling. Khorne may look upon his exiled Bloodthirster with pride.
+      * X
+    * Devastating Reward: Skarbrand may once again walk among the Hunting Fields and the Cracked Lands of the Blood God's Domain. Demons flock to his armies in fervorous admiration.
+      * 25% recruitment cost reduction for Bloodletters, Flesh Hounds of Khorne, Chaos Furies (Khorne), Exalted Bloodletters, Bloodcrushers, Bloodthirsters
+      * 10% upkeep reduction for Bloodletters, Flesh Hounds of Khorne, Chaos Furies (Khorne), Exalted Bloodletters, Bloodcrushers, Bloodthirsters
