@@ -23,6 +23,10 @@ end
 
 -- DIPLOMACY -- 
 
+local function is_character_rank_greater_or_equal_than(character, target_rank)
+	return character:rank() >= target_rank;
+end
+
 local function is_faction_military_ally_or_destroyed(player_faction, target_faction_key)
 	local target_faction = cm:get_faction(target_faction_key);
 	return target_faction and (target_faction:is_dead() or target_faction:military_allies_with(player_faction));
@@ -86,7 +90,7 @@ local function check_vco_cth_the_western_provinces_caravans(faction_key)
 
 	if num_caravans_completed < REQUIRED_NUM_CARAVANS_COMPLETED_VICTORY then
 		vco:set_mission_text("vco_cth_the_western_provinces_caravans",
-										 		 "vco_cth_the_western_provinces_caravans_" .. num_caravans_completed);
+		"vco_cth_the_western_provinces_caravans_" .. num_caravans_completed);
 	else
 		vco:set_mission_text("vco_cth_the_western_provinces_caravans", "vco_cth_the_western_provinces_caravans");
 		vco:complete_mission("wh3_main_cth_the_western_provinces", "vco_cth_the_western_provinces_caravans");
@@ -100,7 +104,7 @@ local function check_vco_cth_the_western_provinces_goods(faction_key)
 	if total_goods_moved < REQUIRED_TOTAL_GOODS_MOVED_VICTORY then
 		local percentage_completed = math.floor(total_goods_moved / REQUIRED_TOTAL_GOODS_MOVED_VICTORY * 100)
 		vco:set_mission_text("vco_cth_the_western_provinces_goods",
-												 "vco_cth_the_western_provinces_goods_" .. percentage_completed);
+		"vco_cth_the_western_provinces_goods_" .. percentage_completed);
 	else
 		vco:set_mission_text("vco_cth_the_western_provinces_goods", "vco_cth_the_western_provinces_goods");
 		vco:complete_mission("wh3_main_cth_the_western_provinces", "vco_cth_the_western_provinces_goods");
@@ -114,7 +118,7 @@ local function check_vco_daemons_of_chaos_the_great_game(faction_key, corruption
 
 	if corrupted_regions < REQUIRED_CORRUPTED_REGIONS_VICTORY then
 		vco:set_mission_text("vco_" .. faction_key .. "_the_great_game",
-												 "vco_the_great_game_completed_" .. corrupted_regions);
+		"vco_the_great_game_completed_" .. corrupted_regions);
 	else
 		vco:set_mission_text("vco_" .. faction_key .. "_the_great_game", "vco_the_great_game_completed");
 		vco:complete_mission(faction_key, "vco_" .. faction_key .. "_the_great_game");
@@ -122,11 +126,19 @@ local function check_vco_daemons_of_chaos_the_great_game(faction_key, corruption
 end
 
 local function check_vco_kho_exiles_of_khorne_skulls_earned()
-  local earned_8888_skulls = has_faction_earned_gte_x_pooled_resource("wh3_main_kho_exiles_of_khorne", "wh3_main_kho_skulls", 8888);
+  local EARNED_8888_SKULLS = has_faction_earned_gte_x_pooled_resource("wh3_main_kho_exiles_of_khorne", "wh3_main_kho_skulls", 8888);
 
-  if earned_8888_skulls then
-	vco:complete_mission("wh3_main_kho_exiles_of_khorne", "vco_kho_exiles_of_khorne_skulls_earned");
+  if EARNED_8888_SKULLS then
+	  vco:complete_mission("wh3_main_kho_exiles_of_khorne", "vco_kho_exiles_of_khorne_skulls_earned");
   end
+end
+
+local function check_vco_kho_exiles_of_khorne_skarbrand_rank_40(character)
+	local REQUIRED_SKARBRAND_LEVEL = 40;
+
+	if is_character_rank_greater_or_equal_than(character, REQUIRED_SKARBRAND_LEVEL) then
+		vco:complete_mission("wh3_main_kho_exiles_of_khorne", "vco_kho_exiles_of_khorne_skarbrand_rank");
+	end
 end
 
 local function check_vco_ogr_goldtooth_gross_income(target_faction)
@@ -136,7 +148,7 @@ local function check_vco_ogr_goldtooth_gross_income(target_faction)
 	if current_income < REQUIRED_CORRUPTED_REGIONS_VICTORY then
 		local percentage_completed = math.floor(current_income / REQUIRED_CORRUPTED_REGIONS_VICTORY * 100)
 		vco:set_mission_text("vco_ogr_gre_1_rich_walk",
-												 "vco_ogr_gre_1_rich_walk_" .. percentage_completed);
+		"vco_ogr_gre_1_rich_walk_" .. percentage_completed);
 	else
 		vco:set_mission_text("vco_ogr_gre_1_rich_walk", "vco_ogr_gre_1_rich_walk");
 		vco:complete_mission("wh3_main_ogr_goldtooth", "vco_ogr_gre_1_rich_walk");
@@ -317,6 +329,18 @@ local function add_listeners()
 	  check_vco_kho_exiles_of_khorne_skulls_earned,
 	  true
 	)
+
+  core:add_listener(
+		"vco_kho_skarbrand_rank_40_check",
+		"CharacterRankUp",
+		function(context)
+			return context:faction():is_human() and context:character():unit_key() == "wh3_main_kho_skarbrand";
+		end,
+		function(context)
+			check_vco_kho_exiles_of_khorne_skarbrand_rank_40(context:character());
+		end,
+		false
+	);
 
 	vco:log("- Kislev listeners");
 	core:add_listener(
