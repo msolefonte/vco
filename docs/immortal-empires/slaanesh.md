@@ -1,4 +1,4 @@
-# Slaanesh - IMMORTAL EMPIRES
+# Slaanesh 
 
 ## N'Kari - The Arch-Temptor
 
