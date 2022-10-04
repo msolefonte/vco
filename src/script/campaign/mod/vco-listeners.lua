@@ -2,6 +2,25 @@ local vco = core:get_static_object("vco");
 
 -- COMMON --
 
+-- POOLED RESOURCES --
+
+local function update_faction_pooled_resource_earnings(faction_name, pooled_resource_key, amount)
+  if amount > 0 then
+	local current_amount_of_resource_earned = cm:get_saved_value("vco_pooled_resource_earned_" .. faction_name .. "_" .. pooled_resource_key) or 0;
+	cm:set_saved_value(
+	  "vco_pooled_resource_earned_" .. faction_name .. "_" .. pooled_resource_key,
+	  current_amount_of_resource_earned + amount
+	);
+  end
+end
+
+local function has_faction_earned_gte_x_pooled_resource(faction, pooled_resource_key, target_amount)
+  local total_amount_of_resource_earned = cm:get_saved_value("vco_pooled_resource_earned_" .. faction .. "_" .. pooled_resource_key);
+  return total_amount_of_resource_earned >= target_amount;
+end
+
+-- DIPLOMACY -- 
+
 local function is_character_rank_greater_or_equal_than(character, target_rank)
 	return character:rank() >= target_rank;
 end
@@ -35,6 +54,8 @@ local function is_faction_under_your_control(player_faction, target_faction_key,
 	return is_faction_vassal_or_destroyed(player_faction, target_faction_key, consider_military_allies) or
 		is_faction_military_ally_or_destroyed(player_faction, target_faction_key);
 end
+
+-- CORRUPTION --
 
 local function count_regions_with_highest_corruption(corruption_key)
 	local regions_count = 0;
@@ -100,6 +121,14 @@ local function check_vco_daemons_of_chaos_the_great_game(faction_key, corruption
 		vco:set_mission_text("vco_" .. faction_key .. "_the_great_game", "vco_the_great_game_completed");
 		vco:complete_mission(faction_key, "vco_" .. faction_key .. "_the_great_game");
 	end
+end
+
+local function check_vco_kho_exiles_of_khorne_skulls_earned()
+  local EARNED_8888_SKULLS = has_faction_earned_gte_x_pooled_resource("wh3_main_kho_exiles_of_khorne", "wh3_main_kho_skulls", 8888);
+
+  if EARNED_8888_SKULLS then
+	  vco:complete_mission("wh3_main_kho_exiles_of_khorne", "vco_kho_exiles_of_khorne_skulls_earned");
+  end
 end
 
 local function check_vco_kho_exiles_of_khorne_skarbrand_rank_40(character)
@@ -273,7 +302,44 @@ local function add_listeners()
 		vco_def_cop_enable_slaanesh_units,
 		true
 	)
-	
+
+	vco:log("- Khorne listeners")
+	core:add_listener(
+	  "vco_kho_exi_earned_skulls",
+	  "PooledResourceChanged",
+	  function(context)
+		return context:faction():is_human() and context:faction():name() == "wh3_main_kho_exiles_of_khorne"
+		  and context:resource():key() == "wh3_main_kho_skulls";
+	  end,
+	  function(context)
+		  update_faction_pooled_resource_earnings(context:faction():name(), context:resource():key(), context:amount());
+	  end,
+	  true
+	)
+
+	core:add_listener(
+	  "vco_kho_exi_earned_skulls_objective",
+	  "PooledResourceChanged",
+	  function(context)
+		return context:faction():is_human() and context:faction():name() == "wh3_main_kho_exiles_of_khorne"
+		  and context:resource():key() == "wh3_main_kho_skulls";
+	  end,
+	  check_vco_kho_exiles_of_khorne_skulls_earned,
+	  true
+	)
+
+  core:add_listener(
+		"vco_kho_skarbrand_rank_40_check",
+		"CharacterRankUp",
+		function(context)
+			return context:faction():is_human() and context:character():unit_key() == "wh3_main_kho_skarbrand";
+		end,
+		function(context)
+			check_vco_kho_exiles_of_khorne_skarbrand_rank_40(context:character());
+		end,
+		false
+	);
+
 	vco:log("- Kislev listeners");
 	core:add_listener(
 		"vco_ksl_ort_first_turn_start",
@@ -296,20 +362,6 @@ local function add_listeners()
 		vco_ksl_ort_enable_luminark,
 		true
 	)
-
-	vco:log("- Khorne listeners");
-	core:add_listener(
-		"vco_kho_skarbrand_rank_40_check",
-		"CharacterRankUp",
-		function(context)
-			return context:faction():is_human() and context:character():unit_key() == "wh3_main_kho_skarbrand";
-		end,
-		function(context)
-			check_vco_kho_exiles_of_khorne_skarbrand_rank_40(context:character());
-		end,
-		false
-	);
-
 
 	vco:log("- Ogre Kingdoms listeners");
 	core:add_listener(
