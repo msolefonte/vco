@@ -69,7 +69,7 @@ local missions = {
 
 				objective
 				{
-					type CONTROL_N_PROVINCES_INCLUDING;
+					type CONTROL_N_PROVINCES_FROM;
 					total 5;
 
 					province wh3_main_combi_province_zorn_uzkul;
