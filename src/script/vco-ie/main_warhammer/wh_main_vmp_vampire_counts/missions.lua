@@ -29,7 +29,7 @@ local missions = {
 				objective
 				{
 					type CONTROL_N_PROVINCES_INCLUDING;
-					total 5;
+					total 7;
 
 					override_text mission_text_text_vco_vmp_man_1_restless_dunes_province_override;
 					province wh3_main_combi_province_shifting_sands;
