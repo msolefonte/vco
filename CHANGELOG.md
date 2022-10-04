@@ -395,7 +395,7 @@ occasions, now it will be viable to play tall/defensively, without any requisite
 
 - Dense today, aren't we? 
 
-## [5.0.0-beta.7] <release_name> - <release_date>
+## [5.0.0-beta.7] Tales from the East Blue - <release_date>
 
 - Added new generic script to check total earnings for a given pooled resource
 - Added new generic script to check a given character has reached or passed a given rank
