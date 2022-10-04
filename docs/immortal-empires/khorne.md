@@ -18,27 +18,29 @@
 **Route I - Blood for the Blood God*
   * There must be more slaughter, more death, and more blood. There must be more armies under Skarbrand's banner.
     * Own 60 units.
-  * These blades sow death and destruction upon all, but they are not enough. Slaughter & Carnage await your grasp, and the blood of your foes.
+  * These blades you hold sow death and destruction upon all, but they are not enough. Slaughter & Carnage await your grasp and the blood of your foes.
     * Complete Mission: Slaughter & Carnage
   * **Reward:** 
     * The Reaping: Skarbrand's forces sweep across the land at pace, staining the lands with blood.
       * Passive "Hellblade" for all Bloodletters and Bloodthirsters
-    * The Recovery: The servants of Khorne shrug off their wounds, for Khorne does not care from whom the blood spills.
+    * The Recovery: Khorne's servants shrug off their wounds, for he does not care from whom the blood spills.
       * +4% replenishment (all armies)
 
 **Route II - Skulls for the Skull Throne*
   * Earn 8888 skulls (script_key: `vco_kho_exiles_of_khorne_skulls_earned`)
-  * Thousands of Skaven slaves. Regiments of Imperial conscripts. Cults of filthy Slaaneshi devotees. Send their skulls to Khorne.
+  * Thousands of Skaven slaves. Legions of Imperial conscripts. Cults of filthy Slaaneshi devotees. Send their skulls to Khorne.
     * Destroy 1 faction: Clan Mors, Clan Rictus, Clan Skryre
     * Destroy 1 faction: Reikland, The Golden Order, Cult of Sigmar
     * Destroy 1 faction: The Ecstatic Legion, Seekers of Slaanesh
   * **Reward:** 
-    * The Throne Grows: X 
+    * The Throne Grows: 
+      * Skulls earned from battle +15% (effect_key: `wh3_main_effect_kho_post_battle_skull_income`)
+      * X
 
 **Route III - Unending Rage*
   * Reach Level 40 with Skarbrand (script_key: `vco_kho_exiles_of_khorne_skarbrand_rank`)
   * Raze N settlements
   * Spread Khorne corruption in X regions
   * **Reward:** 
-    * A Devasted World for Khorne: X
-    * A Devasting Reward for Skarbrand: X
+    * Devasted World: X
+    * Devasting Reward: X
