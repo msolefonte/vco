@@ -9,6 +9,12 @@
   * **Reward**:
 	* _Seafang Empowered_: 
 	  *Campaign movement range +30% (factionwide) 
+	* _Faithful Vassal_:
+	  * Unlocks daemonic unit + exalted version for the God you reach level 3 allegiance with first
+	    * Crow: Nurgle (Plaguebearers)
+	    * Eagle: Tzeentch (Pink Horrors)
+	    * Hound: Khorne (Bloodletters)
+	    * Serpent: Slaanesh (Daemonettes)
 
 * **Route II - The World Walker**
   * After a drunken boast made in sight of the Dark Gods, Wulfrik was cursed to forever wander the earth and seek out the fiercest challengers and most monstrous creatures and slay them in single combat.
