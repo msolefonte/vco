@@ -27,7 +27,7 @@ local missions = {
 				objective
 				{
 					type CONTROL_N_PROVINCES_INCLUDING;
-					total 5;
+					total 7;
 
 					province wh3_main_combi_province_shifting_sands;
 					province wh3_main_combi_province_land_of_the_dervishes;

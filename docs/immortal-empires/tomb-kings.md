@@ -15,7 +15,7 @@
 
 * **Route II - Cursed to Serve**
   * The vampires did not drink from the Elixir of Life as Arkhan did, but from a lesser, corrupted version that cursed them with unlife. They are forever bound to the will of Nagash, and as his foremost servant, Arkhan can command them just as easily.
-  * Occupy at least 4 settlements:
+  * Occupy the following provinces:
     * Galleon's Graveyard, The Awakening, Lahmia, Castle Drakenhof, Silver Pinnacle, Blackstone Post and Haunted Forest
   * **Reward**:
     * _Know Your Place_: 
