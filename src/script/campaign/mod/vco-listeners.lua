@@ -130,6 +130,24 @@ local function check_vco_skv_mdr_all_augments_unlocked(effect)
 	vco:complete_mission("wh2_main_skv_clan_moulder", "vco_skv_mld_augments");
 end
 
+local function check_vco_tmb_ark_all_books_collected(mission)
+  local REQUIRED_MISSION_KEY_TAILS = {"1", "2", "3", "4", "5", "6", "7", "8"};
+
+  for _, mission_key_tail in ipairs(REQUIRED_MISSION_KEY_TAILS) do
+  	if mission:mission_record_key() == "wh2_dlc09_books_of_nagash_" .. mission_key_tail then
+  		cm:set_saved_value("vco_tmb_ark_book_" .. mission_key_tail .. "_collected", true);
+  	end
+  end
+
+  for _, mission_key_tail in ipairs(REQUIRED_MISSION_KEY_TAILS) do
+  	if not cm:get_saved_value("vco_tmb_ark_book_" .. mission_key_tail .. "_collected") then
+  		return;
+  	end
+  end
+
+  vco:complete_mission("wh2_dlc09_followers_of_nagash", "vco_tmb_ark_books")
+end
+
  -- TODO RENAME AFTER UNIFICATION
 local function check_vco_ogre_kingdoms_the_maw_that_walks(context)
 	local REQUIRED_MEAT_OFFERED_VICTORY = 200;
@@ -323,6 +341,19 @@ local function add_listeners()
 			check_vco_skv_mdr_all_augments_unlocked(context:effect());
 		end,
 		true
+	);
+
+	vco:log("- Tomb Kings listeners");
+	core:add_listeners(
+	  "vco_tmb_arkhan_book_collected",
+	  "MissionSucceeded",
+	  function(context)
+	  	return context:faction():name() == "wh2_dlc09_followers_of_nagash" and context:faction():is_human();
+	  end,
+	  function(context)
+	  	check_vco_tmb_ark_all_books_collected(context:mission());
+	  end,
+	  true
 	);
 
 	vco:log("- Completing dummies");

@@ -135,7 +135,7 @@ local missions = {
 				{
 					override_text mission_text_text_vco_tmb_ark_3_faithful_servant_nagash_books;
 					type SCRIPTED;
-					script_key vco_dummy;
+					script_key vco_tmb_ark_books;
 				}
 
 				payload
