@@ -344,7 +344,7 @@ local function add_listeners()
 	);
 
 	vco:log("- Tomb Kings listeners");
-	core:add_listeners(
+	core:add_listener(
 	  "vco_tmb_arkhan_book_collected",
 	  "MissionSucceeded",
 	  function(context)
