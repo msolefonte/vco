@@ -16,7 +16,7 @@
 **Route II - Skulls for the Skull Throne*
   * Earn 8888 skulls (script_key: `vco_kho_exiles_of_khorne_skulls_earned`)
   * 
-    * Destroy 1 faction: Clan Mors, Clan Rictus, Clan Skryre
+    * 
   * **Reward:** 
     * The Throne Grows: No death is wasted, no unbroken skull left behind. Khorne will sit upon them all.
       * Skulls earned from battle +50% (effect_key: `wh3_main_effect_kho_post_battle_skull_income`)
