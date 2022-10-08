@@ -51,3 +51,8 @@
   * **Reward:** 
     * reward1: 
     * rewardN:
+
+Reward idea: spread khorne corruption
+Taurox now counts as a Khorne unit for the purposes of Khorne corruption, which means that he’ll be even stronger in certain regions. Khorne corruption empowers all Khornate forces with more melee attack, weapon strength, and charge bonus. It afflicts non-Khorne factions with less melee defence.
+
+Objective idea: collecting all Marks of Ruination unlocks the Final Battle. Winning Final Battle could be a route or part of a route.
