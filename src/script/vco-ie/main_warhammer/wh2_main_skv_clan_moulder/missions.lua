@@ -67,7 +67,7 @@ local missions = {
 			
 				objective
 				{
-					type RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_INCLUDING;
+					type CONTROL_N_REGIONS_FROM;
 					total 4;
 				
 					region wh3_main_combi_region_altdorf;
