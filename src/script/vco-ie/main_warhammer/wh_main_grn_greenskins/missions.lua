@@ -69,16 +69,10 @@ local missions = {
 
 				objective
 				{
-					type CONTROL_N_PROVINCES_INCLUDING;
+					type CONTROL_N_REGIONS_FROM;
 					total 5;
 
-					province wh3_main_combi_province_zorn_uzkul;
-					province wh3_main_combi_province_the_plain_of_zharr;
-					province wh3_main_combi_province_the_blasted_wastes;
-					province wh3_main_combi_province_the_wolf_lands;
-					province wh3_main_combi_province_the_howling_wastes;
-					province wh3_main_combi_province_the_desolation_of_azgorh;
-					province wh3_main_combi_province_the_plain_of_bones;
+					region ;
 				}
 
 				payload
