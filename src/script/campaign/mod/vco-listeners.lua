@@ -132,6 +132,8 @@ end
 
 local function check_vco_tmb_ark_all_books_collected(mission)
   local REQUIRED_MISSION_KEY_TAILS = {"1", "2", "3", "4", "5", "6", "7", "8"};
+  vco:log("TMB | ARK | MissionSucceeded | Check");
+  vco:log(mission);
 
   for _, mission_key_tail in ipairs(REQUIRED_MISSION_KEY_TAILS) do
   	if mission:mission_record_key() == "wh2_dlc09_books_of_nagash_" .. mission_key_tail then
@@ -348,9 +350,11 @@ local function add_listeners()
 	  "vco_tmb_arkhan_book_collected",
 	  "MissionSucceeded",
 	  function(context)
+		vco:log("TMB | ARK | Listener | Evaluating");
 	  	return context:faction():name() == "wh2_dlc09_followers_of_nagash" and context:faction():is_human();
 	  end,
 	  function(context)
+		vco:log("TMB | ARK | Listener | Executing");
 	  	check_vco_tmb_ark_all_books_collected(context:mission());
 	  end,
 	  true
