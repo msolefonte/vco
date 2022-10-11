@@ -67,6 +67,7 @@ local missions = {
 			
 				objective
 				{
+					override_text mission_text_text_vco_skv_mdr_2_the_vermintide_comes_override;
 					type CONTROL_N_REGIONS_FROM;
 					total 4;
 				
