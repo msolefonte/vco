@@ -126,7 +126,7 @@ local missions = {
 
 				objective
 				{
-					type CONTROL_N_REGIONS_FROM;
+					type RAZE_OR_OWN_SETTLEMENTS;
 					total 1;
 
 					region wh3_main_combi_region_karak_kadrin;
@@ -150,7 +150,7 @@ local missions = {
 
 				objective
 				{
-					type CONTROL_N_REGIONS_FROM;
+					type RAZE_OR_OWN_SETTLEMENTS;
 					total 1;
 
 					region wh3_main_combi_region_kislev;
@@ -174,7 +174,7 @@ local missions = {
 
 				objective
 				{
-					type CONTROL_N_REGIONS_FROM;
+					type RAZE_OR_OWN_SETTLEMENTS;
 					total 1;
 
 					region wh3_main_combi_region_hell_pit;
