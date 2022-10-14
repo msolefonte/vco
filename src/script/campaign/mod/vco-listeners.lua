@@ -351,7 +351,7 @@ local function add_listeners()
 	  "MissionSucceeded",
 	  function(context)
 	  	vco:log("TMB | ARK | Listener | Evaluating");
-	  	return context:faction():name() == "wh2_dlc09_followers_of_nagash" and context:faction():is_human();
+	  	return context:faction():name() == "wh2_dlc09_tmb_followers_of_nagash" and context:faction():is_human();
 	  end,
 	  function(context)
 	  	vco:log("TMB | ARK | Listener | Executing");
