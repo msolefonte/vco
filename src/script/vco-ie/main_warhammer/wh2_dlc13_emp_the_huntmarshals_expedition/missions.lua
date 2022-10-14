@@ -17,7 +17,7 @@ local missions = {
 				objective
 				{
 					override_text mission_text_text_vco_emp_the_1_champions_of_the_empire;
-					type CONTROL_N_REGIONS_FROM;
+					type RAZE_OR_OWN_SETTLEMENTS;
 					total 6;
 
 					region wh3_main_combi_region_the_high_sentinel;
@@ -80,7 +80,7 @@ local missions = {
 				objective
 				{
 					override_text mission_text_text_vco_emp_the_2_the_huntsmarshals_expedition_artifacts;
-					type CONTROL_N_REGIONS_FROM;
+					type RAZE_OR_OWN_SETTLEMENTS;
 					total 2;
 
 					region wh3_main_combi_region_chamber_of_visions;
