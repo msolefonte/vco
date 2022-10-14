@@ -16,7 +16,7 @@ local missions = {
 
 				objective
 				{
-					type RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_INCLUDING;
+					type CONTROL_N_REGIONS_FROM;
 					total 1;
 
 					region wh3_main_combi_region_great_hall_of_greasus;
@@ -126,7 +126,7 @@ local missions = {
 
 				objective
 				{
-					type RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_INCLUDING;
+					type CONTROL_N_REGIONS_FROM;
 					total 1;
 
 					region wh3_main_combi_region_karak_kadrin;
@@ -150,7 +150,7 @@ local missions = {
 
 				objective
 				{
-					type RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_INCLUDING;
+					type CONTROL_N_REGIONS_FROM;
 					total 1;
 
 					region wh3_main_combi_region_kislev;
@@ -174,7 +174,7 @@ local missions = {
 
 				objective
 				{
-					type RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_INCLUDING;
+					type CONTROL_N_REGIONS_FROM;
 					total 1;
 
 					region wh3_main_combi_region_hell_pit;
