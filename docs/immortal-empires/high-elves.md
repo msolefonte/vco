@@ -25,7 +25,7 @@ icon_ritual_currency_hef_bundle.png
 _Reward flavour text:_ With the Witch King's demise, revolts have broken out across Naggaroth. Thousands of slaves and druchii defectors flee the Black Cities, and some even flock to your banner.
 dlc10_assassination_targets.png
     * _The Everchild_: Influence per turn: +10, Corruption -2
-_Reward flavour text:_ Ostensibly the progeny of the Everqueen and the Phoenix King, some whisper that the pedigree of Aliathra is less than certain...
+_Reward flavour text:_ Ostensibly the progeny of the Everqueen and the Phoenix King, some whisper that Aliathra's pedigree is... less than certain.
 dlc10_power_of_nature.png
 
 * **Route III - The Fate of the Soul**
