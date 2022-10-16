@@ -17,14 +17,14 @@ local missions = {
 				objective
 				{
 					type HAVE_AT_LEAST_X_OF_A_POOLED_RESOURCE;
-					total 20000;
+					total 15000;
 					pooled_resource cst_infamy;
 				}
 			
 				objective
 				{
 					type EARN_X_AMOUNT_FROM_RAIDING;
-					total 15000;
+					total 7500;
 				}
 			
 				payload
