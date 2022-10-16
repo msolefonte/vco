@@ -1,0 +1,4 @@
+id	dilemma_key	option_key	value	target
+#cdir_events_dilemma_option_junctions_tables;1;db/cdir_events_dilemma_option_junctions_tables/vco				
+2053270998	vco_tmb_ark_dilemma_ossified_portal	CND_MISSION_SUCCEEDED	vco_victory_type_vmp_man_1_restless_dunes	default
+2053270997	vco_tmb_ark_dilemma_ossified_portal	VAR_CHANCE	100	default

@@ -1,0 +1,3 @@
+key	localised_title	localised_description	ui_image	generate	prioritized	event_category	sound_popup_override	sound_click_override	override_icon	is_large_dilemma
+#dilemmas_tables;3;db/dilemmas_tables/vco										
+vco_tmb_ark_dilemma_ossified_portal	The Ossified Portal	Built from the fused remains of a dozen conquered Tomb Kings, this portal allows passage back to your homelands in Sylvania.	politics	true	false	Event	UI_CAM_EVENT_Dilemma			false
