@@ -27,3 +27,5 @@ vco_cst_zombie_deckhands_missile_strength	ranged_damage.png	101	ranged_damage.pn
 vco_cst_necrofex_colossus_upkeep_reduction	variable_upkeep.png	101	variable_upkeep.png	campaign	true
 vco_cst_necrofex_colossus_recruitment_time_reduction	army.png	101	army.png	campaign	true
 vco_cst_rotting_units_upkeep_reduction	variable_upkeep.png	101	variable_upkeep.png	campaign	true
+vco_cst_deck_gunners_reload	accuracy.png	0	accuracy.png	campaign	true
+vco_cst_deck_gunners_ammo	ammo.png	0	ammo.png	campaign	true
