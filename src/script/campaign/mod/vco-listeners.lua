@@ -133,11 +133,11 @@ end
 local function check_vco_tmb_ark_all_books_collected(mission)
   local REQUIRED_MISSION_KEY_TAILS = {"1", "2", "3", "4", "5", "6", "7", "8"};
   vco:log("TMB | ARK | MissionSucceeded | Check");
-  vco:log(mission);
 
   for _, mission_key_tail in ipairs(REQUIRED_MISSION_KEY_TAILS) do
   	if mission:mission_record_key() == "wh2_dlc09_books_of_nagash_" .. mission_key_tail then
   		cm:set_saved_value("vco_tmb_ark_book_" .. mission_key_tail .. "_collected", true);
+  		vco:log("TMB | ARK | ValueSaved | " .. mission_key_tail)
   	end
   end
 
