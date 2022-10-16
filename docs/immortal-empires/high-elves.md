@@ -7,7 +7,7 @@
   * Destroy factions:
     * Seducers of Slaanesh, The Dreadfleet, Broken Axe, The Drowned
   * **Reward**:
-    * _The Best Defence is a Good Offence_: Income from Ports: +50%, +10 Leadership (factionwide) 
+    * _Ulthun Secure_: Income from Ports: +50%, +10 Leadership (factionwide) 
 _Reward flavour text:_ Not since the Age of Colonisation have the Elves known such prosperity.
 icon_ritual_currency_hef_bundle.png
 
