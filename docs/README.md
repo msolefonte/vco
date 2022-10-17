@@ -8,6 +8,7 @@
 * [Greenskins](immortal-empires/greenskins.md)
 * [Kislev](immortal-empires/kislev.md)
 * [Lizardmen](immortal-empires/lizardmen.md)
+* [Norsca](immortal-empires/norsca.md)
 * [Ogre Kingdoms](immortal-empires/ogre-kingdoms.md)
 * [The Empire](immortal-empires/the-empire.md)
 * [Skaven](immortal-empires/skaven.md)
