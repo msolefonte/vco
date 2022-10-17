@@ -398,5 +398,6 @@ occasions, now it will be viable to play tall/defensively, without any requisite
 ## [5.0.0-beta.6] The Restless Dunes - TBA
 
 - Added new routes for Mannfred von Carstein: The Drakenhof Conclave
-- Now flavour is displayed in white colour and does not include a bullet point check
-- Fixed Grimgor and Goldtooth objectives to control a number of provinces
+- Changed how flavour is displayed: now the text colour is white and there is no bullet point check
+- Fixed Grimgor's Ardboyz, Clan Moulder and Goldtooth objectives to control a set number of provinces
+- Improved flavour, replaced icons and fixed typos

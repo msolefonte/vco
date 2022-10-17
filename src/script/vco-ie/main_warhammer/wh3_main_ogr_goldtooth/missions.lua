@@ -54,6 +54,13 @@ local missions = {
 				objective
 				{
 					override_text mission_text_text_vco_ogr_gre_2_overtyrants_reign_1;
+					type SCRIPTED;
+					script_key vco_dummy;
+				}
+
+				objective
+				{
+					override_text mission_text_text_vco_ogr_gre_2_at_least_6_provinces;
 					type CONTROL_N_PROVINCES_INCLUDING;
 					total 8;
 
@@ -119,6 +126,13 @@ local missions = {
 				objective
 				{
 					override_text mission_text_text_vco_ogr_gre_3_drakecrush;
+					type SCRIPTED;
+					script_key vco_dummy;
+				}
+
+				objective
+				{
+					override_text mission_text_text_vco_ogr_gre_3_at_least_5_settlements;
 					type CONTROL_N_REGIONS_INCLUDING;
 					total 5;
 
@@ -129,14 +143,6 @@ local missions = {
 					region wh3_main_combi_region_nan_gau;
 					region wh3_main_combi_region_fu_hung;
 					region wh3_main_combi_region_shi_long;
-				}
-
-				objective
-				{
-					type CONTROL_N_REGIONS_INCLUDING;
-					total 1;
-
-					region wh3_main_combi_region_great_hall_of_greasus;
 				}
 
 				objective
