@@ -399,3 +399,4 @@ occasions, now it will be viable to play tall/defensively, without any requisite
 
 - Added new routes for Mannfred von Carstein: The Drakenhof Conclave
 - Now flavour is displayed in white colour and does not include a bullet point check
+- Fixed Markus and Grimgor raze objectives to be raze or occupy, resolving the issue where a settlement is razed by AI causing route abandonment.
