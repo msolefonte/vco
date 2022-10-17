@@ -19,7 +19,7 @@
 * **Route II - The World Walker**
   * After a drunken boast made in sight of the Dark Gods, Wulfrik was cursed to forever wander the earth and seek out the fiercest challengers and most monstrous creatures and slay them in single combat.
   * Occupy at least 5 of the following settlements:
-	* Couronne, Miragliano, Karaz-a-Karak, Altdorf, Castle Drakenhof, Black Crag, Kislev, Naggarond, Lothern, Hexoatl, Skavenblight, Khemri, The Awakening
+	* Couronne, Miragliano, Karaz-a-Karak, Altdorf, Castle Drakenhof, Black Crag, Kislev, Naggarond, Lothern, Hexoatl, Skavenblight, Khemri, The Awakening, Wei-Jin, Zhar-Naggrund
   * **Reward**:
 	* _The Eternal Challenger_: 
 	  *Enemy leadership -10% for enemies near characters
