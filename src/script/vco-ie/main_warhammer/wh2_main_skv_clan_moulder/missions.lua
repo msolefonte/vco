@@ -67,7 +67,8 @@ local missions = {
 			
 				objective
 				{
-					type RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_INCLUDING;
+					override_text mission_text_text_vco_skv_mdr_2_the_vermintide_comes_override;
+					type CONTROL_N_REGIONS_FROM;
 					total 4;
 				
 					region wh3_main_combi_region_altdorf;
