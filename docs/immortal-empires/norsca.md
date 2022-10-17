@@ -7,8 +7,8 @@
   * Attain level 3 allegiance with a Chaos God.
    * Defeat all of the Challengers sent against you.
   * **Reward**:
-	* _Seafang Empowered_: 
-	  *Campaign movement range +30% (factionwide) 
+	* _The Winds Roar_: 
+	  * Campaign movement range: +100% after razing a port settlement
 	* _Faithful Vassal_:
 	  * Unlocks daemonic unit + exalted version for the God you reach level 3 allegiance with first
 	    * Crow: Nurgle (Plaguebearers)
