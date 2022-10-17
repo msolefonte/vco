@@ -403,5 +403,5 @@ occasions, now it will be viable to play tall/defensively, without any requisite
 - Changed Clan Moulder's 3rd route: Now controlling the Mountains of Hel and destroying Wintertooth are also required
 - Fixed Grimgor's Ardboyz, Clan Moulder and Goldtooth Tribe objectives based on controlling a set number of provinces
 - Fixed Goldtooth Tribe's third route objective based on controlling a set of regions
-- Fixed Markus and Grimgor raze objectives to be raze or occupy, resolving the issue where a settlement is razed by AI causing route abandonment.
+- Fixed Grimgor's Ardboyz and The Huntsmarshal's Expedition objectives based on razing settlements
 - Improved flavour, replaced icons and fixed typos
