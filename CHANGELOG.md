@@ -400,3 +400,4 @@ occasions, now it will be viable to play tall/defensively, without any requisite
 - Added new routes for Mannfred von Carstein: The Drakenhof Conclave
 - Now flavour is displayed in white colour and does not include a bullet point check
 - Updated Clan Moulder Route III: Now controlling the Mountains of Hel and destroying Wintertooth are also required.
+- Improved flavour, replaced icons and fixed typos
