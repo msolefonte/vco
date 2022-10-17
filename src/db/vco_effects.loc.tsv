@@ -23,3 +23,5 @@ effects_description_vco_skv_food	Food generated: %n	true
 effects_description_vco_skv_per_turn_growth_vat	Growth Juice: %+n per turn	true
 effects_description_vco_skv_per_turn_mutagen	Mutagen income per turn: %+n	true
 effects_description_vco_skv_clan_moulder_strength	Weapon strength: %+n% for all Clan Moulder units	true
+effects_description_vco_vmp_mannfred_weapon_strength	Weapon strength: %+n% for Mannfred von Carstein	true
+effects_description_vco_vmp_mannfred_ward_save	Ward save: %+n% for Mannfred von Carstein	true

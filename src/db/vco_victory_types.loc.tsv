@@ -109,3 +109,6 @@ victory_types_display_name_vco_victory_type_ksl_ort_3_wololo	Route III - Wololo!
 victory_types_display_name_vco_victory_type_skv_mdr_1_yes_yes_prepare_the_lab	Route I - Yes-yes, prepare The Lab!	true
 victory_types_display_name_vco_victory_type_skv_mdr_2_the_vermintide_comes	Route II - The Vermintide Comes	true
 victory_types_display_name_vco_victory_type_skv_mdr_3_the_frozen_dead	Route III - The Frozen Dead	true
+victory_types_display_name_vco_victory_type_vmp_man_1_restless_dunes	Route I - The Restless Dunes	true
+victory_types_display_name_vco_victory_type_vmp_man_2_reclaim_throne	Route II - Reclaiming the Throne	true
+victory_types_display_name_vco_victory_type_vmp_man_3_death_comes_for_all	Route III - Death Comes For All	true
