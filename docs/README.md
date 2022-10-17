@@ -11,3 +11,4 @@
 * [Ogre Kingdoms](immortal-empires/ogre-kingdoms.md)
 * [The Empire](immortal-empires/the-empire.md)
 * [Skaven](immortal-empires/skaven.md)
+* [Vampire Counts](immortal-empires/vampire-counts.md)

@@ -8,15 +8,9 @@ local missions = {
 			primary_objectives_and_payload
 			{
 
-				objective
-				{
-					override_text mission_text_text_vco_ksl_ort_1_there_can_only_be_one;
-					type SCRIPTED;
-					script_key vco_dummy;
-				}
-
 				objective
 				{
+					override_text mission_text_text_vco_ksl_ort_1_there_can_only_be_one;
 					type CONTROL_N_REGIONS_INCLUDING;
 					total 3;
 
@@ -109,12 +103,6 @@ local missions = {
 				objective
 				{
 					override_text mission_text_text_vco_ksl_ort_3_wololo;
-					type SCRIPTED;
-					script_key vco_dummy;
-				}
-
-				objective
-				{
 					type CONTROL_N_REGIONS_INCLUDING;
 					total 4;
 
@@ -130,8 +118,7 @@ local missions = {
 					faction wh3_main_ksl_the_great_orthodoxy;
 					total 6;
 				
-					building_level wh3_main_ksl_city_temple_3;
-					building_level wh3_main_ksl_city_temple_4;
+					building_level wh3_main_ksl_gold_3;
 				}
 			
 				objective
