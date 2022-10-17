@@ -2,6 +2,7 @@
 
 ## Vanilla races
 
+* [Beastmen](immortal-empires/beastmen.md)
 * [Bretonnia](immortal-empires/bretonnia.md)
 * [Dark Elves](immortal-empires/dark-elves.md)
 * [Grand Cathay](immortal-empires/cathay.md)
