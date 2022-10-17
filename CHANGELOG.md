@@ -398,6 +398,8 @@ occasions, now it will be viable to play tall/defensively, without any requisite
 ## [5.0.0-beta.6] The Restless Dunes - TBA
 
 - Added new routes for Mannfred von Carstein: The Drakenhof Conclave
-- Now flavour is displayed in white colour and does not include a bullet point check
-- Goldtooth's third route objective to control regions has been fixed.
+- Changed how flavour is displayed: now the text colour is white and there is no bullet point check
+- Changed Clan Moulder's third route: Now controlling the Mountains of Hel and destroying Wintertooth are also required
+- Fixed Grimgor's Ardboyz, Clan Moulder and Goldtooth Tribe objectives based on controlling a set number of provinces
+- Fixed Goldtooth Tribe's third route objective based on controlling a set of regions
 - Improved flavour, replaced icons and fixed typos

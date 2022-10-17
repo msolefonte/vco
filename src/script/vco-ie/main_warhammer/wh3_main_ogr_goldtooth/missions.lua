@@ -62,7 +62,7 @@ local missions = {
 				{
 					override_text mission_text_text_vco_ogr_gre_2_at_least_6_provinces;
 					type CONTROL_N_PROVINCES_INCLUDING;
-					total 6;
+					total 8;
 
 					province wh3_main_combi_province_path_to_the_east;
 					province wh3_main_combi_province_gash_kadrak;
