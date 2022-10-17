@@ -24,7 +24,7 @@ _Reward flavour text:_ From Naggaroth to Lustria, all are prey, hunted for sport
 * **Route III - The Heart of the Dark**
   * The exact location of this place is never spoken of, but the Bray-Shamans claim that all beastpaths ultimately lead toward it. At its centre is the mightiest herdstone in the whole of the world, resonating with a malignant power that Taurox swears will be his to harness.
   * At the start of your turn, have at least 500 Marks of Ruination
-  * Win the following battle: The Fall of Man <- can we change this to Heart of the Dark, or out of scope? (as in change the battle that unlocks at the end of the game)
+  * Win the following battle: The Fall of Man
   * **Reward**:
     * _Rites of Ruin_: Unit capacity: +5 Ghorgon, Unit capacity: +5 Jabberslythe, Unit capacity: +3 Minotaurs, Minotaurs (Shields), Minotaurs (Great Weapons)
 _Reward flavour text:_ The Slaughterhorn tribe enact hideous rites at the Heart of the Dark, feeding thousands of captives into a gaping, gnashing maw at the very foundation of the herdstone. Men suffer evil dreams. Priests are plagued with temptation. Every beast feels a primal urge to kill and destroy, and the Cloven Ones march to war.
