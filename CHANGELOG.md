@@ -398,4 +398,5 @@ occasions, now it will be viable to play tall/defensively, without any requisite
 ## [5.0.0-beta.6] The Restless Dunes - TBA
 
 - Added new routes for Arkhan the Black: Followers of Nagash
+- Added new routes for Mannfred von Carstein: The Drakenhof Conclave
 - Now flavour is displayed in white colour and does not include a bullet point check
