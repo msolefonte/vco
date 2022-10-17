@@ -399,5 +399,6 @@ occasions, now it will be viable to play tall/defensively, without any requisite
 
 - Added new routes for Mannfred von Carstein: The Drakenhof Conclave
 - Changed how flavour is displayed: now the text colour is white and there is no bullet point check
-- Fixed Grimgor's Ardboyz, Clan Moulder and Goldtooth objectives to control a set number of provinces
+- Changed Clan Moulder's third route: Now controlling the Mountains of Hel and destroying Wintertooth are also required
+- Fixed Grimgor's Ardboyz, Clan Moulder and Goldtooth objectives based on controlling a set number of provinces
 - Improved flavour, replaced icons and fixed typos
