@@ -1,4 +1,6 @@
-## N'Kari - Seducers of Slaanesh
+# Slaanesh
+
+## N'Kari: Seducers of Slaanesh
 
 * **Route I - The Great Game**
   * Though Slaanesh is presently the least of the four great Ruinous Powers, his brothers secretly fear him, for he feeds on humanity's darkest urges, a source of power that they cannot hope to match. Let the lands of Ulthuan be submerged beneath a writhing, twitching blanket of sin.
