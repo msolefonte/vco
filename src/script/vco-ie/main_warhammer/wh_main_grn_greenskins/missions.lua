@@ -69,8 +69,9 @@ local missions = {
 
 				objective
 				{
+					override_text mission_text_text_vco_grn_gri_2_at_least_5_provinces;
 					type CONTROL_N_PROVINCES_INCLUDING;
-					total 5;
+					total 7;
 
 					province wh3_main_combi_province_zorn_uzkul;
 					province wh3_main_combi_province_the_plain_of_zharr;

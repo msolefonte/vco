@@ -145,7 +145,7 @@ local function check_vco_tmb_ark_all_books_collected(mission)
   	end
   end
 
-  vco:complete_mission("wh2_dlc09_tmb_followers_of_nagash", "vco_tmb_ark_books")
+  vco:complete_mission("wh2_dlc09_tmb_followers_of_nagash", "vco_tmb_ark_books");
 end
 
  -- TODO RENAME AFTER UNIFICATION
