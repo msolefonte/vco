@@ -34,7 +34,7 @@ dlc10_power_of_nature.png
   * Occupy settlements:
     * Shrine of Khaine, The Oak of Ages, Karaz-a-Karak
   * Occupy at least 2 of the following settlements either directly or diplomatically:
-    * Forest of Gloom, Gryphon Wood, The Haunted Forest, The Sacred Pools
+    * Forest of Gloom, Gryphon Wood, Laurelorn Forest, Oreon's Camp
   * Occupy at least 2 of the following settlements either directly or diplomatically:
     * Karak Kadrin, Black Crag, Karak Eight Peaks, Karak Zorn
   * **Reward**:
