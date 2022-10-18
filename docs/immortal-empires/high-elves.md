@@ -31,7 +31,7 @@ dlc10_power_of_nature.png
 
 * **Route III - The Fate of the Soul**
   * The fate of Tyrion's soul teeters on a blade-edge. Will he succumb to Aenarion's curse and salve his people's wounded pride with the blood of old enemies, or will he put aside those grievances and reforge old alliances to stand together against the forces of Chaos?
-  * Occupy settlements:
+  * Occupy all of the following settlements either directly or diplomatically:
     * Shrine of Khaine, The Oak of Ages, Karaz-a-Karak
   * Occupy at least 2 of the following settlements either directly or diplomatically:
     * Forest of Gloom, Gryphon Wood, Laurelorn Forest, Oreon's Camp
