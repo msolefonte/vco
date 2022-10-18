@@ -348,11 +348,9 @@ local function add_listeners()
 	  "vco_tmb_arkhan_book_collected",
 	  "MissionSucceeded",
 	  function(context)
-	  	vco:log("TMB | ARK | Listener | Evaluating");
 	  	return context:faction():name() == "wh2_dlc09_tmb_followers_of_nagash" and context:faction():is_human();
 	  end,
 	  function(context)
-	  	vco:log("TMB | ARK | Listener | Executing");
 	  	vco:log(context:mission():mission_record_key());
 	  	check_vco_tmb_ark_all_books_collected(context:mission());
 	  end,
