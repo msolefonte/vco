@@ -397,6 +397,7 @@ occasions, now it will be viable to play tall/defensively, without any requisite
 
 ## [5.0.0-beta.6] The Restless Dunes - TBA
 
+- Added new routes for Arkhan the Black: Followers of Nagash
 - Added new routes for Mannfred von Carstein: The Drakenhof Conclave
 - Changed how flavour is displayed: now the text colour is white and there is no bullet point check
 - Changed Clan Moulder's 2nd route: Now required settlements have to be occupyied instead of sacked
