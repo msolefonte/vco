@@ -13,7 +13,7 @@ _Reward flavour text:_ Not since the Age of Colonisation have the Elves known su
 icon_ritual_currency_hef_bundle.png
 
 * **Route II - All's Fair in Love and War**
-  * Malekith's ruinous ambitions have brought death and destruction to Ulthuan for centuries. Elf has fought against elf for far too long. The civil war must end.
+  * Malekith's ruinous ambitions have brought death and destruction to Ulthuan for centuries. Elf has fought against elf for far too long. This civil war must end.
   * Destroy factions: 
     * Naggarond
   * Tyrion concerns himself only with the twin duties of protecting Ulthuan and its Everqueen, the beloved Alarielle. However, the latter is seen less as a duty than it is a calling of the heart - it is common knowledge that Tyrion is Alarielle's consort, and has been for many years.
