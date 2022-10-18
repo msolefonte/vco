@@ -49,6 +49,22 @@ local function count_regions_with_highest_corruption(corruption_key)
 	return regions_count;
 end
 
+local function check_vco_specified_books_collected(books_required, mission)
+  for _, book_number in ipairs(books_required) do
+  	if mission:mission_record_key() == "wh2_dlc09_books_of_nagash_" .. book_number then
+  		cm:set_saved_value("vco_tmb_ark_book_" .. book_number .. "_collected", true);
+  	end
+  end
+
+  for _, book_number in ipairs(books_required) do
+  	if not cm:get_saved_value("vco_tmb_ark_book_" .. book_number .. "_collected") then
+  		return;
+  	end
+  end
+
+	return true;
+end
+
 -- CHECKS --
 
 local function check_vco_brt_bordeleaux_alberic_vow(character)
@@ -131,22 +147,27 @@ local function check_vco_skv_mdr_all_augments_unlocked(effect)
 end
 
 local function check_vco_tmb_ark_all_books_collected(mission)
-  local REQUIRED_MISSION_KEY_TAILS = {"1", "2", "3", "4", "5", "6", "7", "8"};
+  local REQUIRED_BOOKS = {"1", "2", "3", "4", "5", "6", "7", "8"};
+  local required_books_collected = check_vco_specified_books_collected(REQUIRED_BOOKS, mission);
 
-  for _, mission_key_tail in ipairs(REQUIRED_MISSION_KEY_TAILS) do
-  	if mission:mission_record_key() == "wh2_dlc09_books_of_nagash_" .. mission_key_tail then
-  		cm:set_saved_value("vco_tmb_ark_book_" .. mission_key_tail .. "_collected", true);
-  	end
-  end
-
-  for _, mission_key_tail in ipairs(REQUIRED_MISSION_KEY_TAILS) do
-  	if not cm:get_saved_value("vco_tmb_ark_book_" .. mission_key_tail .. "_collected") then
-  		return;
-  	end
+  if not required_books_collected then
+  	return;
   end
 
   vco:complete_mission("wh2_dlc09_tmb_followers_of_nagash", "vco_tmb_ark_books");
 end
+
+local function check_vco_vmp_man_all_books_collected(mission)
+  local REQUIRED_BOOKS = {"1", "2", "3", "4", "5", "6", "7", "8", "9"};
+  local required_books_collected = check_vco_specified_books_collected(REQUIRED_BOOKS, mission);
+
+  if not required_books_collected then
+  	return;
+  end
+
+  vco:complete_mission("wh_main_vmp_vampire_counts", "vco_vmp_man_books");
+end
+
 
  -- TODO RENAME AFTER UNIFICATION
 local function check_vco_ogre_kingdoms_the_maw_that_walks(context)
@@ -356,6 +377,21 @@ local function add_listeners()
 	  end,
 	  true
 	);
+
+  vco:log("- Vampire Counts listeners");
+	core:add_listener(
+	  "vco_vmp_mannfred_book_collected",
+	  "MissionSucceeded",
+	  function(context)
+	  	return context:faction():name() == "wh_main_vmp_vampire_counts" and context:faction():is_human();
+	  end,
+	  function(context)
+	  	vco:log(context:mission():mission_record_key());
+	  	check_vco_vmp_man_all_books_collected(context:mission());
+	  end,
+	  true
+	);
+
 
 	vco:log("- Completing dummies");
 	core:add_listener(
