@@ -6,8 +6,9 @@
   * Prince Tyrion is the Defender of Ulthuan and the protector of its people, a heavy burden entrusted to him by the Phoenix King Finubar. Among the Dark Elves of Naggaroth he is known as the Reaper, to the Goblins of Red-Axe Pass he is Orcbane, and to the north the Norse know him as Mankiller. For two centuries he has stood between the Elves of Ulthuan and their many foes as an unbreakable shield against the darkness.
   * Destroy factions:
     * Seducers of Slaanesh, The Dreadfleet, Broken Axe, The Drowned
+  * Occupy provinces: Caledor, Tiranoc, Nagarythe, Chrace, Cothique, Northern Yvresse, Southern Yvresse, Eataine, Ellyrion, Avelorn, Saphery
   * **Reward**:
-    * _Ulthun Secure_: Income from Ports: +50%, +10 Leadership (factionwide) 
+    * _The Age of Sanctuary_: Control: +4, Growth: 60, Income from Ports: +50%
 _Reward flavour text:_ Not since the Age of Colonisation have the Elves known such prosperity.
 icon_ritual_currency_hef_bundle.png
 
@@ -21,7 +22,7 @@ icon_ritual_currency_hef_bundle.png
   * Build Landmark:
     * Court of the Phoenix King
   * **Reward**: 
-    * _Dawn of a New Age_: All remaining Dark Elf factions suffer -10 control, Recruitment duration: -1 turn for all units (minimum 1), Recruit rank: +3 for all units
+    * _Dawn of a New Age_: All remaining Dark Elf factions suffer -10 control, +10 Leadership when fighting against Dark Elves (factionwide), Recruit rank: +2 for all units
 _Reward flavour text:_ With the Witch King's demise, revolts have broken out across Naggaroth. Thousands of slaves and druchii defectors flee the Black Cities, and some even flock to your banner.
 dlc10_assassination_targets.png
     * _The Everchild_: Influence per turn: +10, Corruption -2
@@ -29,13 +30,17 @@ _Reward flavour text:_ Ostensibly the progeny of the Everqueen and the Phoenix K
 dlc10_power_of_nature.png
 
 * **Route III - The Fate of the Soul**
-  * The fate of Tyrion's soul teeters on a blade-edge. Will he succumb to Aenarion's curse and salve his people's wounded pride with the blood of old enemies, or will he put aside these grievances and reforge old alliances that will stand together against the forces of Chaos?
+  * The fate of Tyrion's soul teeters on a blade-edge. Will he succumb to Aenarion's curse and salve his people's wounded pride with the blood of old enemies, or will he put aside those grievances and reforge old alliances to stand together against the forces of Chaos?
   * Occupy settlements:
-    * Shrine of Khaine, Karaz-a-Karak, The Oak of Ages
+    * Shrine of Khaine, The Oak of Ages, Karaz-a-Karak
+  * Occupy at least 2 of the following settlements either directly or diplomatically:
+    * Forest of Gloom, Gryphon Wood, The Haunted Forest, The Sacred Pools
+  * Occupy at least 2 of the following settlements either directly or diplomatically:
+    * Karak Kadrin, Black Crag, Karak Eight Peaks, Karak Zorn
   * **Reward**:
-    * _Reunification_: All Wood Elf Legendary Lords become vassals. +100% tribute from vassals.
-_Reward flavour text:_ After centuries of isolation, the Asrai now answer to the Phoenix Court.
+    * _Reunification_: All Wood Elf factions (excluding Wargrove of Woe and Spirits of Shanlin) become vassals, diplomatic relations with Wood Elves +60
+_Reward flavour text:_ After centuries of isolation, the Asrai now answer to Phoenix King and the Elves of Ulthuan.
 worldroots_health.png
-    * _The Original Phoenix Crown_: All Dwarf Legendary Lords become vassals. +100% Allegiance points gained for all races.
+    * _The Original Phoenix Crown_: Tribute from vassals: +50%, Income from trade: +10% for every ally.
 _Reward flavour text:_ Tyrion has reclaimed the original Phoenix Crown, which was once stolen by the Dwarf King Gotrek Starbreaker at the Battle of the Three Towers. This aching wound to High Elf pride can finally heal.
 intrigue.png
