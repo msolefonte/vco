@@ -399,3 +399,4 @@ occasions, now it will be viable to play tall/defensively, without any requisite
 
 - Added new generic script to check total earnings for a given pooled resource
 - Added new generic script to check a given character has reached or passed a given rank
+- Added new routes for Aranessa Saltspite: Pirates of Sartosa
