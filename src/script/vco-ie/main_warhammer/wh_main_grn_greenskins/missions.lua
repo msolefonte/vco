@@ -16,8 +16,7 @@ local missions = {
 
 				objective
 				{
-					type RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_INCLUDING;
-					total 1;
+					type RAZE_OR_OWN_SETTLEMENTS;
 
 					region wh3_main_combi_region_great_hall_of_greasus;
 				}
@@ -69,8 +68,9 @@ local missions = {
 
 				objective
 				{
+					override_text mission_text_text_vco_grn_gri_2_at_least_5_provinces;
 					type CONTROL_N_PROVINCES_INCLUDING;
-					total 5;
+					total 7;
 
 					province wh3_main_combi_province_zorn_uzkul;
 					province wh3_main_combi_province_the_plain_of_zharr;
@@ -126,8 +126,7 @@ local missions = {
 
 				objective
 				{
-					type RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_INCLUDING;
-					total 1;
+					type RAZE_OR_OWN_SETTLEMENTS;
 
 					region wh3_main_combi_region_karak_kadrin;
 				}
@@ -150,8 +149,7 @@ local missions = {
 
 				objective
 				{
-					type RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_INCLUDING;
-					total 1;
+					type RAZE_OR_OWN_SETTLEMENTS;
 
 					region wh3_main_combi_region_kislev;
 				}
@@ -174,8 +172,7 @@ local missions = {
 
 				objective
 				{
-					type RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_INCLUDING;
-					total 1;
+					type RAZE_OR_OWN_SETTLEMENTS;
 
 					region wh3_main_combi_region_hell_pit;
 				}

@@ -58,24 +58,30 @@ effect_bundles_localised_title_vco_victory_payload_ogr_gre_2_overtyrants_reign_2
 effect_bundles_localised_description_vco_victory_payload_ogr_gre_2_overtyrants_reign_2	Grimgor's armour was forged in the blood of Dwarf Runepriests, thus granting it potent defensive properties. As it was far too small for Greasus' magnificent bulk, it was melted down and reforged into a gut-plate of terrific proportions.	true
 effect_bundles_localised_title_vco_victory_payload_ogr_gre_3_drakecrush	Subservient Cathayans	true
 effect_bundles_localised_description_vco_victory_payload_ogr_gre_3_drakecrush	The Cathayans have now accepted their place at the Overtyrant's feet. Caravans journey to his Great Hall laden with gold, gemstones and exotic meats, hoping to barter for safe passage across the Ivory Road. Each season, their profit margins grow smaller.	true
-effect_bundles_localised_title_vco_victory_payload_ksl_ort_1_there_can_only_be_one	Right and Just Leadership	true
-effect_bundles_localised_description_vco_victory_payload_ksl_ort_1_there_can_only_be_one	The Kislevites begin to unite under Kostaltyn's leadership.	true
-effect_bundles_localised_title_vco_victory_payload_ksl_ort_2_the_last_bastion	Defender of the North	true
-effect_bundles_localised_description_vco_victory_payload_ksl_ort_2_the_last_bastion	Cold hands and colder hearts defend Kislev from the northern hordes.	true
+effect_bundles_localised_title_vco_victory_payload_ksl_ort_1_there_can_only_be_one	Dethroned	true
+effect_bundles_localised_description_vco_victory_payload_ksl_ort_1_there_can_only_be_one	The Ice Queen's ruinous leadership will lead Kislev astray no longer. The Motherland is stronger for it.	true
+effect_bundles_localised_title_vco_victory_payload_ksl_ort_2_the_last_bastion	Ice Court Defectors	true
+effect_bundles_localised_description_vco_victory_payload_ksl_ort_2_the_last_bastion	Where Katarin failed, Kostaltyn succeeded. Recognising the true power of the Great Orthodoxy, several Ice Witches have deserted their queen and joined their strength to Kostaltyn's, wreathing his warriors in frozen armour and battering invaders with ceaseless blizzards. The Supreme Patriarch yearns to have the heathens executed on cleansing pyres, but stays his hand, for now...	true
 effect_bundles_localised_title_vco_victory_payload_ksl_ort_3_wololo_1	The Scourge of Altdorf	true
 effect_bundles_localised_description_vco_victory_payload_ksl_ort_3_wololo_1	You follow a great man, but he is just a man. Follow the bear, and you will know true strength.	true
 effect_bundles_localised_title_vco_victory_payload_ksl_ort_3_wololo_2	The Conversion of Marienburg	true
-effect_bundles_localised_description_vco_victory_payload_ksl_ort_3_wololo_2	The followers of Handirch now see that the one true path to salvation lies through the renunciation of all wealth, preferably to the Patriarchs of the Great Orthodoxy.	true
+effect_bundles_localised_description_vco_victory_payload_ksl_ort_3_wololo_2	The followers of Handrich now see that the one true path to salvation lies through the renunciation of all wealth, preferably to the Patriarchs of the Great Orthodoxy.	true
 effect_bundles_localised_title_vco_victory_payload_ksl_ort_3_wololo_3	The Syncretism of Middenheim	true
 effect_bundles_localised_description_vco_victory_payload_ksl_ort_3_wololo_3	The wolf and the bear must stand together to brave the coming storm. The Great Orthodoxy will ensure such a union perseveres.	true
 effect_bundles_localised_title_vco_victory_payload_ksl_ort_3_wololo_4	The Cleansing of Drakenhof	true
 effect_bundles_localised_description_vco_victory_payload_ksl_ort_3_wololo_4	Rejoice, peasants. The fires of Dazh have exposed your masters for what they truly were. Feed the flames, and your salvation will be ensured.	true
-effect_bundles_localised_title_vco_victory_payload_skv_mdr_1_yes_yes_prepare_the_lab	Stitched up!	true
-effect_bundles_localised_description_vco_victory_payload_skv_mdr_1_yes_yes_prepare_the_lab	Throt's mutant armies are brewing... The Flesh Lab stitches and fixes ever faster!	true
-effect_bundles_localised_title_vco_victory_payload_skv_mdr_2_the_vermintide_comes	More Food, Stronger Beast!	true
-effect_bundles_localised_description_vco_victory_payload_skv_mdr_2_the_vermintide_comes	The skavenslaves of Hell Pit are shoveling ever greater amounts of food - anything they can find that's even slightly edible - down the beast's throats, and the world will tremble at the size of the gluttonous monsters!	true
+effect_bundles_localised_title_vco_victory_payload_skv_mdr_1_yes_yes_prepare_the_lab	Stitched Up!	true
+effect_bundles_localised_description_vco_victory_payload_skv_mdr_1_yes_yes_prepare_the_lab	Cross-breeding all manner of creatures and utilising the mutating effects of warpstone, Throt is ever seeking to create more destructive creatures to set on his enemies and trade with other clans.	true
+effect_bundles_localised_title_vco_victory_payload_skv_mdr_2_the_vermintide_comes	A Cornucopia of Flesh	true
+effect_bundles_localised_description_vco_victory_payload_skv_mdr_2_the_vermintide_comes	Winding lines of corpse-wagons journey towards Hell Pit, ensuring Throt's gluttonous creations have a constant supply of flesh to sate their ravenous appetites.	true
 effect_bundles_localised_title_vco_victory_payload_skv_mdr_3_the_frozen_dead	The Frozen Dead	true
-effect_bundles_localised_description_vco_victory_payload_skv_mdr_3_the_frozen_dead	The finest norse flesh has made its way to the lab. Now Throt's mutant creations are increasingly powerful, and equally dangerous!	true
+effect_bundles_localised_description_vco_victory_payload_skv_mdr_3_the_frozen_dead	These frozen corpses will make for excellent sources of mutagen with which to bolster the ferocity of the Master Mutator's creations.	true
+effect_bundles_localised_title_vco_victory_payload_tmb_ark_1_thy_kingdom_come	Thy Will Be Done	true
+effect_bundles_localised_description_vco_victory_payload_tmb_ark_1_thy_kingdom_come	Arkhan journeys across the dunes, enslaving Tomb Kings from every dynasty and binding their legions to his will. Those who resist are destroyed utterly - their powdered bones lost to the sands of time forevermore.	true
+effect_bundles_localised_title_vco_victory_payload_tmb_ark_2_born_to_serve	Know Your Place	true
+effect_bundles_localised_description_vco_victory_payload_tmb_ark_2_born_to_serve	These bloodthirsty creatures will make fine foot soldiers in the wars to come. Let their blight curse the lands.	true
+effect_bundles_localised_title_vco_victory_payload_tmb_ark_3_faithful_servant	Mortarch of Sacrament	true
+effect_bundles_localised_description_vco_victory_payload_tmb_ark_3_faithful_servant	Foremost of the Dark Lords, Arkhan heralds in a new age of death and despair.	true
 effect_bundles_localised_title_vco_victory_payload_vmp_man_1_restless_dunes	The Ossified Monolith	true
 effect_bundles_localised_description_vco_victory_payload_vmp_man_1_restless_dunes	Built from the fused remains of a dozen conquered Tomb Kings, this monolith throbs with unholy power.	true
 effect_bundles_localised_title_vco_victory_payload_vmp_man_2_reclaim_throne	Return of the Count	true
