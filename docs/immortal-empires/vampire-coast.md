@@ -6,7 +6,7 @@
   * Accrue 15000 Infamy.
   * Earn 7500 from Raiding.
   * **Reward:**
-    * _The Pirate Queen: Income from Pirate Coves +25%, Movement range after winning a battle +25%
+    * _The Pirate Queen_: Income from Pirate Coves +25%, Movement range after winning a battle +25%
 * **Route II - Daughter of Manann**
   * Raze or Sack 8 settlements belonging to Norscan factions.
   * Build the Dragon Tooth Lighthouse landmark in Sartosa. 
