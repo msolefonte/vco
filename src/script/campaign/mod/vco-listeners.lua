@@ -189,10 +189,10 @@ local function trigger_vco_vmp_mannfred_dilemma()
 end
 
 local function trigger_vco_vmp_mannfred_dilemma_choice_made(choice)
-	if choice == 1 then
+	if choice == 0 then
 		cm:teleport_to(cm:char_lookup_str(cm:get_faction("wh_main_vmp_vampire_counts"):faction_leader()), 666, 580);
-	elseif choice == 2 then
-		local TURNS_DELAY = 1; -- TODO REVERT TO 10
+	elseif choice == 1 then
+		local TURNS_DELAY = 10;
 		local TARGET_TURN_NUMBER = cm:turn_number() + TURNS_DELAY;
 
 		core:add_listener(
