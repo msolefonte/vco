@@ -1,5 +1,5 @@
 id	dilemma_key	choice_key	payload_key	value	target_key
 #cdir_events_dilemma_payloads_tables;0;db/cdir_events_dilemma_payloads_tables/vco					
-18711186159	vco_tmb_ark_dilemma_ossified_portal	FIRST	EFFECT_BUNDLE	KEY[wh2_dlc09_payload_dilemma_liche_priest_first];DURATION[10]	default
-18711186160	vco_tmb_ark_dilemma_ossified_portal	SECOND	EFFECT_BUNDLE	KEY[wh2_dlc09_payload_dilemma_liche_priest_first];DURATION[10]	default
-18711186161	vco_tmb_ark_dilemma_ossified_portal	THIRD	EFFECT_BUNDLE	KEY[wh2_dlc09_payload_dilemma_liche_priest_first];DURATION[10]	default
+64184351813	vco_vmp_mannfred_dilemma_ossified_portal	FIRST	TEXT_DISPLAY	LOOKUP[dummy_do_nothing]	default
+34169461385	vco_vmp_mannfred_dilemma_ossified_portal	SECOND	TEXT_DISPLAY	LOOKUP[dummy_do_nothing]	default
+58496446513	vco_vmp_mannfred_dilemma_ossified_portal	THIRD	TEXT_DISPLAY	LOOKUP[dummy_do_nothing]	default

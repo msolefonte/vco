@@ -4,7 +4,7 @@ local missions = {
 		{
 			victory_type vco_victory_type_vmp_man_1_restless_dunes;
 			key wh_main_short_victory;
-			issuer CLAN_ELDERS;
+			issuer MUFFIN_MAN;
 			primary_objectives_and_payload
 			{
 				objective

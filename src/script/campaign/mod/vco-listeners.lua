@@ -182,6 +182,32 @@ local function vco_ksl_ort_enable_luminark()
 	);
 end
 
+-- TRIGGERS --
+
+local function trigger_vco_vmp_mannfred_dilemma()
+	cm:trigger_dilemma("wh_main_vmp_vampire_counts", "vco_vmp_mannfred_dilemma_ossified_portal");
+end
+
+local function trigger_vco_vmp_mannfred_dilemma_choice_made(choice)
+	if choice == 1 then
+		cm:teleport_to(cm:char_lookup_str(cm:get_faction("wh_main_vmp_vampire_counts"):faction_leader()), 666, 580);
+	elseif choice == 2 then
+		local TURNS_DELAY = 1; -- TODO REVERT TO 10
+		local TARGET_TURN_NUMBER = cm:turn_number() + TURNS_DELAY;
+
+		core:add_listener(
+			"vco_vmp_mannfred_dilemma_trigger_delay",
+			"FactionTurnStart",
+			function(context)
+				return context:faction():is_human() and context:faction():name() == "wh_main_vmp_vampire_counts" and
+					cm:turn_number() == TARGET_TURN_NUMBER;
+			end,
+			trigger_vco_vmp_mannfred_dilemma,
+			false
+		);
+	end
+end
+
 -- LISTENERS --
 
 local function add_listeners()
@@ -283,7 +309,7 @@ local function add_listeners()
 		end,
 		vco_ksl_ort_enable_luminark,
 		true
-	)
+	);
 
 	vco:log("- Ogre Kingdoms listeners");
 	core:add_listener(
@@ -321,6 +347,30 @@ local function add_listeners()
 		end,
 		function(context)
 			check_vco_skv_mdr_all_augments_unlocked(context:effect());
+		end,
+		true
+	);
+
+	vco:log("- Vampire Counts listeners");
+	core:add_listener(
+		"vco_vmp_mannfred_3_completed",
+		"MissionSucceeded",
+		function(context)
+			return context:faction():name() == "wh_main_vmp_vampire_counts"
+				and context:mission():mission_issuer_record_key() == "MUFFIN_MAN";
+		end,
+		trigger_vco_vmp_mannfred_dilemma,
+		true
+	)
+
+	core:add_listener(
+		"vco_vmp_mannfred_dilemma_choice_made",
+		"DilemmaChoiceMadeEvent",
+		function(context)
+			return context:dilemma() == "vco_vmp_mannfred_dilemma_ossified_portal";
+		end,
+		function(context)
+			trigger_vco_vmp_mannfred_dilemma_choice_made(context:choice());
 		end,
 		true
 	);
