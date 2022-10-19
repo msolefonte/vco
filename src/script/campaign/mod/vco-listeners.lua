@@ -2,6 +2,48 @@ local vco = core:get_static_object("vco");
 
 -- COMMON --
 
+-- LOCKS & UNLOCKS --
+-- TODO: add summons/ror to these
+local function vco_nor_wul_enable_units(pooled_resource)
+  if pooled_resource == "nor_progress_hound" then
+    cm:remove_event_restricted_unit_record_for_faction(
+		  "wh3_main_kho_inf_bloodletters_0",
+		  "wh_dlc08_nor_norsca"
+	  );
+	  cm:remove_event_restricted_unit_record_for_faction(
+		  "wh3_main_kho_inf_bloodletters_1",
+		  "wh_dlc08_nor_norsca"
+	  );
+	elseif pooled_resource == "nor_progress_crow" then
+    cm:remove_event_restricted_unit_record_for_faction(
+		  "wh3_main_nur_inf_plaguebearers_0",
+		  "wh_dlc08_nor_norsca"
+	  );
+	  cm:remove_event_restricted_unit_record_for_faction(
+		  "wh3_main_nur_inf_plaguebearers_1",
+		  "wh_dlc08_nor_norsca"
+	  );
+  elseif pooled_resource == "nor_progress_eagle" then
+    cm:remove_event_restricted_unit_record_for_faction(
+		  "wh3_main_tze_inf_pin_horrors_0",
+		  "wh_dlc08_nor_norsca"
+	  );
+	  cm:remove_event_restricted_unit_record_for_faction(
+		  "wh3_main_tze_inf_pin_horrors_1",
+		  "wh_dlc08_nor_norsca"
+	  );
+  elseif pooled_resource == "nor_progress_serpent" then
+    cm:remove_event_restricted_unit_record_for_faction(
+		  "wh3_main_sla_inf_daemonette_0",
+		  "wh_dlc08_nor_norsca"
+	  );
+	  cm:remove_event_restricted_unit_record_for_faction(
+		  "wh3_main_sla_inf_daemonette_1",
+		  "wh_dlc08_nor_norsca"
+	  );
+  end
+end
+
 -- POOLED RESOURCES --
 
 local function update_faction_pooled_resource_earnings(faction_name, pooled_resource_key, amount)
@@ -137,6 +179,18 @@ local function check_vco_kho_exiles_of_khorne_skarbrand_rank_40(character)
 	if is_character_rank_greater_or_equal_than(character, REQUIRED_SKARBRAND_LEVEL) then
 		vco:complete_mission("wh3_main_kho_exiles_of_khorne", "vco_kho_exiles_of_khorne_skarbrand_rank");
 	end
+end
+
+local function check_vco_nor_wulfrik_chaos_allegiance_levels(pooled_resource)
+  local FINISHED_ONE_GOD_ALREADY = cm:get_saved_value("vco_nor_wul_aligned_to_god") or false;
+
+  if FINISHED_ONE_GOD_ALREADY then
+    return;
+  end
+
+  vco_nor_wul_enable_units(pooled_resource);
+  vco:complete_mission("wh_dlc08_nor_norsca", "vco_nor_wul_1_ragnarok");
+  cm:set_saved_value("vco_nor_wul_aligned_to_god", true);
 end
 
 local function check_vco_ogr_goldtooth_gross_income(target_faction)
@@ -361,7 +415,21 @@ local function add_listeners()
 		end,
 		vco_ksl_ort_enable_luminark,
 		true
-	)
+	);
+
+	vco:log("- Norsca listeners");
+	core:add_listener(
+	  "vco_nor_wulfrik_chaos_allegiance_gained",
+	  "PooledResourceChanged",
+	  function(context)
+			return context:faction():is_human() and context:faction():name() == "wh_dlc08_nor_norsca"
+			and context:resource():value() == 100;
+		end,
+		function(context)
+		  check_vco_nor_wulfrik_chaos_allegiance_levels(context:resource():key());
+		end,
+		true
+	);
 
 	vco:log("- Ogre Kingdoms listeners");
 	core:add_listener(
