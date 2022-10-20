@@ -21,5 +21,4 @@
     * The Galleon's Graveyard
   * **Reward:**
      * _Sank The Bloody Reaver_: Bonus vs Large: +6 when fighting against Lizardmen
-     * _Master Of The Colossi_:
-	 * Infamy: +2500
+     * Infamy: +2500
