@@ -75,7 +75,7 @@ local missions = {
 				objective
 				{
 					override_text mission_text_text_vco_tmb_ark_2_born_to_serve_region_overwrite;
-					type CONTROL_N_REGIONS_INCLUDING;
+					type CONTROL_N_REGIONS_FROM;
 					total 4;
 
 					region wh3_main_combi_region_the_galleons_graveyard;
@@ -84,7 +84,7 @@ local missions = {
 					region wh3_main_combi_region_castle_drakenhof;
 					region wh3_main_combi_region_silver_pinnacle;
 					region wh3_main_combi_region_blackstone_post;
-					region wh3_main_combi_region_the_haunted_forest;                
+					region wh3_main_combi_region_the_haunted_forest;
 				}
 
 				payload
@@ -126,9 +126,9 @@ local missions = {
 					type CONTROL_N_REGIONS_INCLUDING;
 					total 3;
 
+					region wh3_main_combi_region_black_tower_of_arkhan;
 					region wh3_main_combi_region_black_pyramid_of_nagash;
 					region wh3_main_combi_region_nagashizzar;
-					region wh3_main_combi_region_altdorf;
 				}
 
 				objective

@@ -19,7 +19,7 @@
     * Galleon's Graveyard, The Awakening, Lahmia, Castle Drakenhof, Silver Pinnacle, Blackstone Post and Haunted Forest
   * **Reward**:
     * _Know Your Place_: 
-     * Allegiance points: +100% with Vampire Counts and Vampire Coast
+     * Allegiance points gained: %100% for alliances with Vampire Coast and Vampire Counts
      * Vampiric corruption: +6
      * Vampiric corruption: +4 to adjacent provinces
 
