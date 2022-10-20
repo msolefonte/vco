@@ -31,7 +31,6 @@ local missions = {
 					type CONTROL_N_PROVINCES_INCLUDING;
 					total 7;
 
-					override_text mission_text_text_vco_vmp_man_1_restless_dunes_province_override;
 					province wh3_main_combi_province_shifting_sands;
 					province wh3_main_combi_province_land_of_the_dervishes;
 					province wh3_main_combi_province_the_cracked_land;
@@ -159,7 +158,7 @@ local missions = {
 				{
 					override_text mission_text_text_vco_vmp_man_3_death_comes_for_all_nagash_books;
 					type SCRIPTED;
-					script_key vco_dummy;
+					script_key vco_vmp_man_books;
 				}
 
 				payload
