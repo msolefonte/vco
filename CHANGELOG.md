@@ -397,6 +397,6 @@ occasions, now it will be viable to play tall/defensively, without any requisite
 
 ## [5.0.0-beta.7] Tales from the East Blue - <release_date>
 
+- Added new routes for Aranessa Saltspite: Pirates of Sartosa
 - Added new generic script to check total earnings for a given pooled resource
 - Added new generic script to check a given character has reached or passed a given rank
-- Added new routes for Aranessa Saltspite: Pirates of Sartosa
