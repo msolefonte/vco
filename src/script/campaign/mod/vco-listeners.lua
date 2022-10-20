@@ -49,15 +49,15 @@ local function count_regions_with_highest_corruption(corruption_key)
 	return regions_count;
 end
 
-local function check_vco_specified_books_collected(books_required, mission)
+local function check_vco_specified_books_collected(books_required, mission, faction_name)
   for _, book_number in ipairs(books_required) do
   	if mission:mission_record_key() == "wh2_dlc09_books_of_nagash_" .. book_number then
-  		cm:set_saved_value("vco_tmb_ark_book_" .. book_number .. "_collected", true);
+  		cm:set_saved_value("vco_" .. faction_name .. "_book_" .. book_number .. "_collected", true);
   	end
   end
 
   for _, book_number in ipairs(books_required) do
-  	if not cm:get_saved_value("vco_tmb_ark_book_" .. book_number .. "_collected") then
+  	if not cm:get_saved_value("vco_" .. faction_name .. "_book_" .. book_number .. "_collected") then
   		return;
   	end
   end
@@ -157,9 +157,9 @@ local function check_vco_tmb_ark_all_books_collected(mission)
   vco:complete_mission("wh2_dlc09_tmb_followers_of_nagash", "vco_tmb_ark_books");
 end
 
-local function check_vco_vmp_man_all_books_collected(mission)
+local function check_vco_vmp_man_all_books_collected(mission, faction_name)
   local REQUIRED_BOOKS = {"1", "2", "3", "4", "5", "6", "7", "8", "9"};
-  local required_books_collected = check_vco_specified_books_collected(REQUIRED_BOOKS, mission);
+  local required_books_collected = check_vco_specified_books_collected(REQUIRED_BOOKS, mission, faction_name);
 
   if not required_books_collected then
   	return;
@@ -372,8 +372,7 @@ local function add_listeners()
 	  	return context:faction():name() == "wh2_dlc09_tmb_followers_of_nagash" and context:faction():is_human();
 	  end,
 	  function(context)
-	  	vco:log(context:mission():mission_record_key());
-	  	check_vco_tmb_ark_all_books_collected(context:mission());
+	  	check_vco_tmb_ark_all_books_collected(context:mission(), context:faction():name());
 	  end,
 	  true
 	);
@@ -386,8 +385,7 @@ local function add_listeners()
 	  	return context:faction():name() == "wh_main_vmp_vampire_counts" and context:faction():is_human();
 	  end,
 	  function(context)
-	  	vco:log(context:mission():mission_record_key());
-	  	check_vco_vmp_man_all_books_collected(context:mission());
+	  	check_vco_vmp_man_all_books_collected(context:mission(), context:faction():name());
 	  end,
 	  true
 	);
