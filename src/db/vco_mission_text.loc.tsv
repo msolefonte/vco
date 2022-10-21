@@ -1,5 +1,15 @@
 key	text	tooltip
-#Loc PackedFile;1;text/db/vco_mission_text.loc		
+#Loc PackedFile;1;text/db/vco_mission_text.loc
+mission_text_text_vco_common_nagash_books_collected_0	Collect all the [[url:#]]Books of Nagash[[/url]].\\n(Current: 0) 	true
+mission_text_text_vco_common_nagash_books_collected_1	Collect all the [[url:#]]Books of Nagash[[/url]].\\n(Current: 1) 	true
+mission_text_text_vco_common_nagash_books_collected_2	Collect all the [[url:#]]Books of Nagash[[/url]].\\n(Current: 2) 	true
+mission_text_text_vco_common_nagash_books_collected_3	Collect all the [[url:#]]Books of Nagash[[/url]].\\n(Current: 3) 	true
+mission_text_text_vco_common_nagash_books_collected_4	Collect all the [[url:#]]Books of Nagash[[/url]].\\n(Current: 4) 	true
+mission_text_text_vco_common_nagash_books_collected_5	Collect all the [[url:#]]Books of Nagash[[/url]].\\n(Current: 5) 	true
+mission_text_text_vco_common_nagash_books_collected_6	Collect all the [[url:#]]Books of Nagash[[/url]].\\n(Current: 6) 	true
+mission_text_text_vco_common_nagash_books_collected_7	Collect all the [[url:#]]Books of Nagash[[/url]].\\n(Current: 7) 	true
+mission_text_text_vco_common_nagash_books_collected_8	Collect all the [[url:#]]Books of Nagash[[/url]].\\n(Current: 8) 	true
+mission_text_text_vco_common_nagash_books_collected	Collect all the [[url:#]]Books of Nagash[[/url]]. 	true
 mission_text_text_vco_the_great_game_completed_0	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 0)	true
 mission_text_text_vco_the_great_game_completed_1	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 1)	true
 mission_text_text_vco_the_great_game_completed_2	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 2)	true
@@ -407,8 +417,6 @@ mission_text_text_vco_tmb_ark_1_thy_kingdom_come	<dummy>Arkhan has feigned obedi
 mission_text_text_vco_tmb_ark_2_born_to_serve	<dummy>The vampires did not drink from the Elixir of Life as Arkhan did, but from a lesser, corrupted version that cursed them with unlife. They are forever bound to the will of Nagash, and as his foremost servant, Arkhan can command them just as easily.	true
 mission_text_text_vco_tmb_ark_2_born_to_serve_region_overwrite	Control at least 4 of the following regions either by direct ownership or through [[img:icon_vassal]][[/img]]vassals and [[img:icon_military_alliance]][[/img]]military allies:	true
 mission_text_text_vco_tmb_ark_3_faithful_servant	<dummy>The portents are troubled. Daemons roam the earth. Ancient empires crumble before the coming of Chaos. Preparations must be made for the Great Necromancer's return.	true
-mission_text_text_vco_tmb_ark_3_faithful_servant_nagash_books	Collect all the [[url:#]]Books of Nagash[[/url]] 	true
 mission_text_text_vco_vmp_man_1_restless_dunes	<dummy>The shifting sands of Nehekhara hide many long lost tombs filled with powerful magical artifacts that Mannfred desires. They also hide many foes who would see him undone. They will find only death and an unlife of eternal servitude in these dunes.	true
 mission_text_text_vco_vmp_man_2_reclaim_throne	<dummy>The time has come to return to Sylvania and reclaim the von Carstein's ancestral citadel: Castle Drakenhof. In his private chambers in the uppermost tower Mannfred can continue to study the Books of Nagash he has found thus far. But first, Vlad and Isabella must be convinced to recognise his supremacy, or else be staked through the heart and left out for dawn's light to take them.	true
 mission_text_text_vco_vmp_man_3_death_comes_for_all	<dummy>Mannfred means to marshal every last vestige of the Great Necromancer's power and launch an unholy assault upon the Empire. The reign of the Midnight Aristocracy is nigh...	true
-mission_text_text_vco_vmp_man_3_death_comes_for_all_nagash_books	Collect all the [[url:#]]Books of Nagash[[/url]] 	true
