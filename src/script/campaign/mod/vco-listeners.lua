@@ -49,20 +49,20 @@ local function count_regions_with_highest_corruption(corruption_key)
 	return regions_count;
 end
 
-local function check_vco_specified_books_collected(books_required, mission, faction_name)
-  for _, book_number in ipairs(books_required) do
-  	if mission:mission_record_key() == "wh2_dlc09_books_of_nagash_" .. book_number then
-  		cm:set_saved_value("vco_" .. faction_name .. "_book_" .. book_number .. "_collected", true);
-  	end
-  end
+local function add_collected_book_of_nagash(book_number, faction_id)
+	cm:set_saved_value("vco_" .. faction_id .. "_book_" .. book_number .. "_collected", true);
+end
 
-  for _, book_number in ipairs(books_required) do
-  	if not cm:get_saved_value("vco_" .. faction_name .. "_book_" .. book_number .. "_collected") then
-  		return;
-  	end
-  end
+local function count_collected_books_of_nagash(faction_id)
+	local count_collected_books = 0;
 
-	return true;
+	for book_number=1, 9 do
+		if cm:get_saved_value("vco_" .. faction_id .. "_book_" .. book_number .. "_collected") then
+			count_collected_books = count_collected_books + 1;
+		end
+	end
+
+	return count_collected_books;
 end
 
 -- CHECKS --
@@ -146,26 +146,26 @@ local function check_vco_skv_mdr_all_augments_unlocked(effect)
 	vco:complete_mission("wh2_main_skv_clan_moulder", "vco_skv_mld_augments");
 end
 
-local function check_vco_tmb_ark_all_books_collected(mission)
-  local REQUIRED_BOOKS = {"1", "2", "3", "4", "5", "6", "7", "8"};
-  local required_books_collected = check_vco_specified_books_collected(REQUIRED_BOOKS, mission);
+local function check_generic_collected_nagash_books(mission, faction_id)
+	local book_number = string.sub(mission:mission_record_key(), -1);
+	add_collected_book_of_nagash(book_number, faction_id);
 
-  if not required_books_collected then
-  	return;
-  end
-
-  vco:complete_mission("wh2_dlc09_tmb_followers_of_nagash", "vco_tmb_ark_books");
+	local count_books = count_collected_books_of_nagash(faction_id);
+	if count_books < 9 then
+		vco:set_mission_text("vco_" .. faction_id.. "_nagash_books", "vco_common_nagash_books_collected_" .. count_books);
+	else
+		vco:set_mission_text("vco_" .. faction_id .. "_nagash_books", "vco_common_nagash_books_collected");
+		vco:complete_mission(faction_id, "vco_" .. faction_id .. "_nagash_books");
+	end
 end
 
-local function check_vco_vmp_man_all_books_collected(mission, faction_name)
-  local REQUIRED_BOOKS = {"1", "2", "3", "4", "5", "6", "7", "8", "9"};
-  local required_books_collected = check_vco_specified_books_collected(REQUIRED_BOOKS, mission, faction_name);
+local function check_vco_tmb_ark_collected_books(mission)
+	add_collected_book_of_nagash(9, "tmb_ark");
+	check_generic_collected_nagash_books(mission, "tmb_ark");
+end
 
-  if not required_books_collected then
-  	return;
-  end
-
-  vco:complete_mission("wh_main_vmp_vampire_counts", "vco_vmp_man_books");
+local function check_vco_vmp_man_collected_books(mission)
+	check_generic_collected_nagash_books(mission, "vmp_man");
 end
 
 
@@ -300,7 +300,7 @@ local function add_listeners()
 		vco_def_cop_enable_slaanesh_units,
 		true
 	)
-	
+
 	vco:log("- Kislev listeners");
 	core:add_listener(
 		"vco_ksl_ort_first_turn_start",
@@ -366,26 +366,28 @@ local function add_listeners()
 
 	vco:log("- Tomb Kings listeners");
 	core:add_listener(
-	  "vco_tmb_arkhan_book_collected",
+	  "vco_tmb_ark_book_collected",
 	  "MissionSucceeded",
 	  function(context)
-	  	return context:faction():name() == "wh2_dlc09_tmb_followers_of_nagash" and context:faction():is_human();
+	  	return context:faction():is_human() and context:faction():name() == "wh2_dlc09_tmb_followers_of_nagash" and
+				context:mission():mission_record_key():find("^wh2_dlc09_books_of_nagash_");
 	  end,
 	  function(context)
-	  	check_vco_tmb_ark_all_books_collected(context:mission(), context:faction():name());
+	  	check_vco_tmb_ark_collected_books(context:mission());
 	  end,
 	  true
 	);
 
   vco:log("- Vampire Counts listeners");
 	core:add_listener(
-	  "vco_vmp_mannfred_book_collected",
+	  "vco_vmp_man_book_collected",
 	  "MissionSucceeded",
 	  function(context)
-	  	return context:faction():name() == "wh_main_vmp_vampire_counts" and context:faction():is_human();
+	  	return context:faction():is_human() and context:faction():name() == "wh_main_vmp_vampire_counts" and
+				context:mission():mission_record_key():find("^wh2_dlc09_books_of_nagash_");
 	  end,
 	  function(context)
-	  	check_vco_vmp_man_all_books_collected(context:mission(), context:faction():name());
+	  	check_vco_vmp_man_collected_books(context:mission());
 	  end,
 	  true
 	);

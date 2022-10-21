@@ -157,9 +157,9 @@ local missions = {
 
 				objective
 				{
-					override_text mission_text_text_vco_vmp_man_3_death_comes_for_all_nagash_books;
+					override_text mission_text_text_vco_common_nagash_books_collected_0;
 					type SCRIPTED;
-					script_key vco_dummy;
+					script_key vco_vmp_man_nagash_books;
 				}
 
 				payload

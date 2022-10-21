@@ -133,9 +133,9 @@ local missions = {
 
 				objective
 				{
-					override_text mission_text_text_vco_tmb_ark_3_faithful_servant_nagash_books;
+					override_text mission_text_text_vco_common_nagash_books_collected_1;
 					type SCRIPTED;
-					script_key vco_tmb_ark_books;
+					script_key vco_tmb_ark_nagash_books;
 				}
 
 				payload
