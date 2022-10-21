@@ -4,7 +4,7 @@ local missions = {
 		{
 			victory_type vco_victory_type_vmp_man_1_restless_dunes;
 			key wh_main_short_victory;
-			issuer CLAN_ELDERS;
+			issuer MUFFIN_MAN;
 			primary_objectives_and_payload
 			{
 				objective
@@ -31,7 +31,6 @@ local missions = {
 					type CONTROL_N_PROVINCES_INCLUDING;
 					total 7;
 
-					override_text mission_text_text_vco_vmp_man_1_restless_dunes_province_override;
 					province wh3_main_combi_province_shifting_sands;
 					province wh3_main_combi_province_land_of_the_dervishes;
 					province wh3_main_combi_province_the_cracked_land;

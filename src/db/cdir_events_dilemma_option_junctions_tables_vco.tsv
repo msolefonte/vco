@@ -1,0 +1,4 @@
+id	dilemma_key	option_key	value	target
+#cdir_events_dilemma_option_junctions_tables;1;db/cdir_events_dilemma_option_junctions_tables/vco				
+6123877552	vco_vmp_mannfred_dilemma_ossified_portal	GEN_TARGET_NONE		default
+6234370997	vco_vmp_mannfred_dilemma_ossified_portal	VAR_CHANCE	100	default
