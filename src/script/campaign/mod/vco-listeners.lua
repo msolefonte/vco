@@ -2,45 +2,57 @@ local vco = core:get_static_object("vco");
 
 -- COMMON --
 
--- LOCKS & UNLOCKS --
--- TODO: add summons/ror to these
+-- LOCKS & UNLOCKS -- 
+local function lock_units_for_faction(units, faction_key)
+  for unit in units do
+	cm:add_event_restricted_unit_record_for_faction(unit, faction_key)
+  end
+end
+
+local function unlock_units_for_faction(units, faction_key)
+  for unit in units do
+	cm:remove_event_restricted_unit_record_for_faction(unit, faction_key)
+  end
+end
+
+local function vco_nor_wul_disable_units()
+  local FACTION_KEY = "wh_dlc08_nor_norsca";
+
+  local UNITS = {
+	"wh3_main_kho_inf_bloodletters_0",
+	"wh3_main_kho_inf_bloodletters_1",
+	"wh3_main_nur_inf_plaguebearers_0",
+	"wh3_main_nur_inf_plaguebearers_1",
+	"wh3_main_tze_inf_pink_horrors_0",
+	"wh3_main_tze_inf_pink_horrors_1",
+	"wh3_main_sla_inf_daemonette_0",
+	"wh3_main_sla_inf_daemonette_1",
+  }
+
+  for unit in UNITS do
+	lock_units_for_faction(unit, FACTION_KEY);
+  end
+end
+
 local function vco_nor_wul_enable_units(pooled_resource)
+  local FACTION_KEY = "wh_dlc08_nor_norsca";
+
   if pooled_resource == "nor_progress_hound" then
-    cm:remove_event_restricted_unit_record_for_faction(
-		  "wh3_main_kho_inf_bloodletters_0",
-		  "wh_dlc08_nor_norsca"
-	  );
-	  cm:remove_event_restricted_unit_record_for_faction(
-		  "wh3_main_kho_inf_bloodletters_1",
-		  "wh_dlc08_nor_norsca"
-	  );
-	elseif pooled_resource == "nor_progress_crow" then
-    cm:remove_event_restricted_unit_record_for_faction(
-		  "wh3_main_nur_inf_plaguebearers_0",
-		  "wh_dlc08_nor_norsca"
-	  );
-	  cm:remove_event_restricted_unit_record_for_faction(
-		  "wh3_main_nur_inf_plaguebearers_1",
-		  "wh_dlc08_nor_norsca"
-	  );
+	unlock_units_for_faction(
+	  {"wh3_main_kho_inf_bloodletters_0", "wh3_main_kho_inf_bloodletters_1"}, FACTION_KEY
+	)
+  elseif pooled_resource == "nor_progress_crow" then
+	unlock_units_for_faction(
+	  {"wh3_main_nur_inf_plaguebearers_0", "wh3_main_nur_inf_plaguebearers_1"}, FACTION_KEY
+	)
   elseif pooled_resource == "nor_progress_eagle" then
-    cm:remove_event_restricted_unit_record_for_faction(
-		  "wh3_main_tze_inf_pin_horrors_0",
-		  "wh_dlc08_nor_norsca"
-	  );
-	  cm:remove_event_restricted_unit_record_for_faction(
-		  "wh3_main_tze_inf_pin_horrors_1",
-		  "wh_dlc08_nor_norsca"
-	  );
+	unlock_units_for_faction(
+	  {"wh3_main_tze_inf_pink_horrors_0", "wh3_main_tze_inf_pink_horrors_1"}, FACTION_KEY
+	)
   elseif pooled_resource == "nor_progress_serpent" then
-    cm:remove_event_restricted_unit_record_for_faction(
-		  "wh3_main_sla_inf_daemonette_0",
-		  "wh_dlc08_nor_norsca"
-	  );
-	  cm:remove_event_restricted_unit_record_for_faction(
-		  "wh3_main_sla_inf_daemonette_1",
-		  "wh_dlc08_nor_norsca"
-	  );
+	unlock_units_for_faction(
+	  {"wh3_main_sla_inf_daemonette_0", "wh3_main_sla_inf_daemonette_1"}, FACTION_KEY
+	)
   end
 end
 
@@ -185,7 +197,7 @@ local function check_vco_nor_wulfrik_chaos_allegiance_levels(pooled_resource)
   local FINISHED_ONE_GOD_ALREADY = cm:get_saved_value("vco_nor_wul_aligned_to_god") or false;
 
   if FINISHED_ONE_GOD_ALREADY then
-    return;
+	return;
   end
 
   vco_nor_wul_enable_units(pooled_resource);
@@ -418,6 +430,17 @@ local function add_listeners()
 	);
 
 	vco:log("- Norsca listeners");
+	core:add_listener(
+		"vco_nor_wulfrik_disable_chaos_units",
+		"FactionTurnStart",
+		function(context)
+			return cm:model():turn_number() == 1 and context:faction():is_human() and
+				context:faction():name() == "wh_dlc08_nor_norsca";
+		end,
+		vco_nor_wul_disable_units,
+		true
+	);
+
 	core:add_listener(
 	  "vco_nor_wulfrik_chaos_allegiance_gained",
 	  "PooledResourceChanged",
