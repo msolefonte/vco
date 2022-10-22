@@ -7,6 +7,7 @@ local missions = {
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
+			 
 				objective
 				{
 					override_text mission_text_text_vco_nor_wul_1_ragnarok;
@@ -16,11 +17,16 @@ local missions = {
 
 				objective
 				{
-					type CONSTRUCT_N_BUILDINGS_INCLUDING;
-					faction wh2_main_skv_clan_moulder;
-					total 1;
+					override_text mission_text_text_mis_activity_attain_chaos_god_favour;
+					type SCRIPTED;
+					script_key vco_nor_wul_chaos_allegiance;
+				}
 
-					building_level wh2_main_special_hellpit_pits;
+				objective
+				{
+					override_text mission_text_text_mis_activity_defeat_chaos_gods_challengers;
+					type SCRIPTED;
+					script_key defeat_chaos_gods_challengers;
 				}
 
 				payload
@@ -36,13 +42,13 @@ local missions = {
 						bundle_key vco_victory_payload_nor_wul_1_ragnarok_2;
 						turns 0;
 					}
-
+				
 					effect_bundle
 					{
 						bundle_key vco_campaign_victory_dummy;
 						turns 0;
 					}
-
+				
 					game_victory;
 				}
 			}

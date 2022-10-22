@@ -430,18 +430,7 @@ local function add_listeners()
 	);
 
 	vco:log("- Norsca listeners");
-	core:add_listener(
-		"vco_nor_wulfrik_disable_chaos_units",
-		"FactionTurnStart",
-		function(context)
-			return cm:model():turn_number() == 1 and context:faction():is_human() and
-				context:faction():name() == "wh_dlc08_nor_norsca";
-		end,
-		vco_nor_wul_disable_units,
-		true
-	);
-
-	core:add_listener(
+    core:add_listener(
 	  "vco_nor_wulfrik_chaos_allegiance_gained",
 	  "PooledResourceChanged",
 	  function(context)
@@ -453,6 +442,33 @@ local function add_listeners()
 		end,
 		true
 	);
+    
+	core:add_listener(
+		"vco_nor_wulfrik_disable_chaos_units",
+		"FactionTurnStart",
+		function(context)
+			return cm:model():turn_number() == 1 and context:faction():is_human() and
+				context:faction():name() == "wh_dlc08_nor_norsca";
+		end,
+		vco_nor_wul_disable_units,
+		true
+	);
+    
+    core:add_listener(
+	"vco_nor_wulfrik_movement_range_post_raze_port",
+	"CharacterRazedSettlement",
+	function(context)
+        local port_settlement = context:garrison_residence():settlement_interface():port_slot() or false;
+        return context:character():faction():is_human() and context:character():faction():name() == "wh_dlc08_nor_norsca" 
+        and port_settlement;
+	end,
+	function(context)
+		local character = context:character();
+        -- TODO: I replaced movement to replenish with 100, test this properly
+		cm:replenish_action_points(cm:char_lookup_str(character), (character:action_points_remaining_percent() + 100) / 100);
+	end,
+	true
+    );
 
 	vco:log("- Ogre Kingdoms listeners");
 	core:add_listener(
