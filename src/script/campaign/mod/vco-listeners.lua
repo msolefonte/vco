@@ -201,7 +201,7 @@ local function check_vco_nor_wulfrik_chaos_allegiance_levels(pooled_resource)
   end
 
   vco_nor_wul_enable_units(pooled_resource);
-  vco:complete_mission("wh_dlc08_nor_norsca", "vco_nor_wul_1_ragnarok");
+  vco:complete_mission("wh_dlc08_nor_norsca", "vco_nor_wul_chaos_allegiance");
   cm:set_saved_value("vco_nor_wul_aligned_to_god", true);
 end
 
