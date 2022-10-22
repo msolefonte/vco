@@ -454,6 +454,7 @@ local function add_listeners()
 		true
 	);
 	
+	-- TODO: This is probably not finished?
 	core:add_listener(
 	"vco_nor_wulfrik_movement_range_post_raze_port",
 	"CharacterRazedSettlement",
@@ -463,9 +464,11 @@ local function add_listeners()
 		and port_settlement;
 	end,
 	function(context)
-		local character = context:character();
 		-- TODO: I replaced movement to replenish with 100, test this properly
-		cm:replenish_action_points(cm:char_lookup_str(character), (character:action_points_remaining_percent() + 100) / 100);
+		cm:replenish_action_points(
+			cm:char_lookup_str(context:character()), 
+			(context:character():action_points_remaining_percent() + 100) / 100
+		);
 	end,
 	true
 	);
