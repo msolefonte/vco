@@ -454,23 +454,24 @@ local function add_listeners()
 		true
 	);
 	
-	-- TODO: This is probably not finished?
 	core:add_listener(
-	"vco_nor_wulfrik_movement_range_post_raze_port",
-	"CharacterRazedSettlement",
-	function(context)
-		local port_settlement = context:garrison_residence():settlement_interface():port_slot() or false;
-		return context:character():faction():is_human() and context:character():faction():name() == "wh_dlc08_nor_norsca" 
-		and port_settlement;
-	end,
-	function(context)
-		-- TODO: I replaced movement to replenish with 100, test this properly
-		cm:replenish_action_points(
-			cm:char_lookup_str(context:character()), 
-			(context:character():action_points_remaining_percent() + 100) / 100
-		);
-	end,
-	true
+		"vco_nor_wulfrik_movement_range_post_raze_port",
+		"CharacterRazedSettlement",
+		function(context)
+			local port_settlement = context:garrison_residence():settlement_interface():port_slot() or false;
+			local faction = context:character():faction();
+			return faction:is_human() and faction:name() == "wh_dlc08_nor_norsca" and port_settlement;
+		end,
+		function(context)
+			-- TODO: I replaced movement to replenish with 100
+			--       We might want this to be *2 which doubles remaining action points?
+			--       Much discussion and testing to be had here
+			cm:replenish_action_points(
+				cm:char_lookup_str(context:character()), 
+				(context:character():action_points_remaining_percent() + 100) / 100
+			);
+		end,
+		true
 	);
 
 	vco:log("- Ogre Kingdoms listeners");
