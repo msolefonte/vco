@@ -395,7 +395,7 @@ occasions, now it will be viable to play tall/defensively, without any requisite
 
 - Dense today, aren't we?
 
-## [5.0.0-beta.6] The Restless Dunes - TBA
+## [5.0.0-beta.6] The Restless Dunes - 23.10.2022
 
 - Added new routes for Arkhan the Black: Followers of Nagash
 - Added new routes for Mannfred von Carstein: The Drakenhof Conclave
