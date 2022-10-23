@@ -53,7 +53,7 @@ function vco:are_default_campaigns_disabled()
 end
 
 function vco:is_multiplayer_campaign()
-	return #cm:get_human_factions() > 1;
+		return #cm:get_human_factions() > 1;
 end
 
 -- ROUTES --

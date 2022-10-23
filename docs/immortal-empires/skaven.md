@@ -21,8 +21,8 @@
   * Norscan bodies are perfect for experiments... They're warped, tainted-foul, and with beautiful flesh! What marvelous
   experiments it could power. Destroy the Norse dwarfs and corrupted man-things, occupy their frozen lands and use their 
   corpses to grow the most powerful mutagens:
-    * Gianthome Mountains, Goromadny Mountains and Mountains of Hel
+    * Gianthome Mountains and Goromadny Mountains
   * Destroy factions: 
-    * Kraka Drak, Goromadny Tribe and Wintertooth
+    * Kraka Drak and Goromadny Tribe 
   * **Reward:**
     * _Tainted-Foul Flesh_: Mutagens: +26 per turn, Weapon strength: +13% for all Clan Moulder units

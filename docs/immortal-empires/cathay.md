@@ -23,7 +23,7 @@
     * _Unreachable_: Barrier hit points: +600 when defending settlements, Melee defence: +6 when defending 
 * **Route III - The Northern Expedition**
   * Your sister Shen-Zoo, Dragon of Light, was last seen venturing beyond the mountains of Norsca, in The Writhing 
-    Fortress. Organise an expedition, conquer the fortress and bring her back.
+    Fortress. Organize an expedition, conquer the fortress and bring her back.
     * The Writhing Fortress
   * Destroy the following factions:
     * Puppets of Misrule, Yusak, Khazag, Fleshgreeders, Heralds of the Tempest, Dolgan, Maggoth Kin, Kul 

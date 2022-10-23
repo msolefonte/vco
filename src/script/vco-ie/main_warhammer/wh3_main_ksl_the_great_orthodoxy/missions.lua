@@ -103,12 +103,6 @@ local missions = {
 				objective
 				{
 					override_text mission_text_text_vco_ksl_ort_3_wololo;
-					type SCRIPTED;
-					script_key vco_dummy;
-				}
-
-				objective
-				{
 					type CONTROL_N_REGIONS_INCLUDING;
 					total 4;
 
