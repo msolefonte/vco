@@ -121,19 +121,18 @@ local missions = {
 			{
 				objective
 				{
-					override_text mission_text_text_vco_nor_wul_3_wheres_my_palico;
+					override_text mission_text_text_vco_nor_wul_3_wheres_my_palico_1;
 					type SCRIPTED;
-					script_key vco_dummy;
+					script_key vco_nor_wul_monster_hunts;
 				}
 
 				objective
 				{
-					type DESTROY_FACTION;
+					override_text mission_text_text_vco_nor_wul_3_wheres_my_palico_2;
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 1;
 
-					faction wh_main_dwf_kraka_drak;
-					faction wh_dlc08_nor_goromadny_tribe;
-
-					confederation_valid;
+					region wh3_main_combi_region_skeggi;
 				}
 
 				payload
