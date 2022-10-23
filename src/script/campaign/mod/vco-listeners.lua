@@ -205,6 +205,38 @@ local function check_vco_nor_wulfrik_chaos_allegiance_levels(pooled_resource)
   cm:set_saved_value("vco_nor_wul_aligned_to_god", true);
 end
 
+local function check_vco_nor_wulf_six_monster_hunts_completed(mission_record_key)
+	local MONSTER_HUNTS_COMPLETED = cm:get_saved_value("vco_nor_wul_monster_hunts_succeeded") or 0;
+
+	local MONSTER_HUNT_FINAL_BATTLES = {
+		"wh_dlc08_qb_nor_monster_hunt_0",
+		"wh_dlc08_qb_nor_monster_hunt_1",
+		"wh_dlc08_qb_nor_monster_hunt_2",
+		"wh_dlc08_qb_nor_monster_hunt_3",
+		"wh_dlc08_qb_nor_monster_hunt_4",
+		"wh_dlc08_qb_nor_monster_hunt_5",
+		"wh_dlc08_qb_nor_monster_hunt_6",
+		"wh_dlc08_qb_nor_monster_hunt_7",
+		"wh2_dlc10_qb_nor_monster_hunt_8",
+		"wh2_dlc10_qb_nor_monster_hunt_9",
+		"wh2_dlc10_qb_nor_monster_hunt_10",
+		"wh2_dlc10_qb_nor_monster_hunt_11"
+	};
+
+	for battle in MONSTER_HUNT_FINAL_BATTLES do
+	  if battle == mission_record_key then
+	  local MONSTER_HUNTS_COMPLETED_UPDATED = MONSTER_HUNTS_COMPLETED + 1;
+		  cm:set_saved_value("vco_nor_wul_monster_hunts_succeeded", MONSTER_HUNTS_COMPLETED_UPDATED);
+
+		  if MONSTER_HUNTS_COMPLETED_UPDATED < 6 then
+			  return;
+		  else
+			  vco:complete_mission("wh_dlc08_nor_norsca", "vco_nor_wul_monster_hunts");
+		  end
+	  end
+	end
+end
+
 local function check_vco_ogr_goldtooth_gross_income(target_faction)
 	local REQUIRED_CORRUPTED_REGIONS_VICTORY = 25000;
 	local current_income = target_faction:income();
@@ -472,6 +504,18 @@ local function add_listeners()
 			);
 		end,
 		true
+	);
+	
+	core:add_listener(
+		"vco_nor_wulfrik_monster_hunts",
+		"MissionSucceeded",
+		function(context)
+			return return faction:is_human() and faction:name() == "wh_dlc08_nor_norsca";
+		end,
+		function(context)
+			check_vco_nor_wulf_six_monster_hunts_completed(context:mission():mission_record_key());
+		end,
+		true,
 	);
 
 	vco:log("- Ogre Kingdoms listeners");
