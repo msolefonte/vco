@@ -71,24 +71,25 @@ local missions = {
 
 				objective
 				{
-					type DESTROY_FACTION;
+					override_text mission_text_text_vco_nor_wul_2_the_world_walker_override;
+					type CONTROL_N_REGIONS_FROM;
+					total 5;
 
-					faction wh3_main_ksl_the_ice_court;
-					faction wh3_main_ksl_the_great_orthodoxy;
-				}
-			
-				objective
-				{
-					type RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_INCLUDING;
-					total 4;
-				
+					region wh3_main_combi_region_couronne;
+					region wh3_main_combi_region_miragliano;
+					region wh3_main_combi_region_karaz_a_karak;
 					region wh3_main_combi_region_altdorf;
-					region wh3_main_combi_region_kislev;
-					region wh3_main_combi_region_middenheim;
-					region wh3_main_combi_region_brass_keep;
-					region wh3_main_combi_region_gryphon_wood;
 					region wh3_main_combi_region_castle_drakenhof;
-					region wh3_main_combi_region_karak_kadrin;
+					region wh3_main_combi_region_black_crag;
+					region wh3_main_combi_region_kislev;
+					region wh3_main_combi_region_naggarond;
+					region wh3_main_combi_region_lothern;
+					region wh3_main_combi_region_hexoatl;
+					region wh3_main_combi_region_skavenblight;
+					region wh3_main_combi_region_khemri;
+					region wh3_main_combi_region_the_awakening;
+					region wh3_main_combi_region_wei_jin;
+					region wh3_main_combi_region_zharr_naggrund;
 				}
 
 				payload

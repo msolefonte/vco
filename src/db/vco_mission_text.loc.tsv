@@ -405,4 +405,5 @@ mission_text_text_vco_cst_sar_2_daughter_of_manann	<dummy>Rumour has it that sal
 mission_text_text_vco_cst_sar_3_dead_man_s_vengeance	<dummy>Sartosa burned and we fled, but a mighty vengeance was born in us that day. Your death did not dull my thirst... Only sinking the Dreadfleet will do that.	true
 mission_text_text_vco_nor_wul_1_ragnarok	<dummy>The End Times are nigh. Wulfrik has long cursed the gods for his predicament, but now realises he must pledge himself to one of them if he is to survive the coming apocalypse.	true
 mission_text_text_vco_nor_wul_2_the_world_walker	<dummy>After a drunken boast made in sight of the Dark Gods, Wulfrik was cursed to forever wander the earth and seek out the fiercest challengers and most monstrous creatures and slay them in single combat.	true
+mission_text_text_vco_nor_wul_2_the_world_walker_override	Occupy at least 5 of these settlements:	true
 mission_text_text_vco_nor_wul_3_wheres_my_palico	<dummy>Wulfrik leads his World Walkers across the world in search of mighty beasts to slay. Though the rewards are great, so too are the risks.	true
