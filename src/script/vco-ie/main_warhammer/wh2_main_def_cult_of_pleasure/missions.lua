@@ -10,10 +10,8 @@ local missions = {
 				objective
 				{
 					override_text mission_text_text_vco_def_cul_1_stellar_pyramids_of_khaine;
-					type CONTROL_N_REGIONS_INCLUDING;
-					total 1;
-
-					region wh3_main_combi_region_hexoatl;
+					type SCRIPTED;
+					script_key vco_dummy;
 				}
 
 				objective
@@ -23,6 +21,14 @@ local missions = {
 					faction wh2_main_lzd_hexoatl;
 
 					confederation_valid;
+				}
+
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 1;
+
+					region wh3_main_combi_region_hexoatl;
 				}
 
 				objective
@@ -129,6 +135,12 @@ local missions = {
 				objective
 				{
 					override_text mission_text_text_vco_def_cul_3_return_of_the_queen_1;
+					type SCRIPTED;
+					script_key vco_dummy;
+				}
+
+				objective
+				{
 					type CONTROL_N_REGIONS_INCLUDING;
 					total 1;
 
@@ -143,14 +155,12 @@ local missions = {
 
 					building_level wh2_main_special_ghrond_convent_of_sorcery_2;
 				}
-
+
 				objective
 				{
 					override_text mission_text_text_vco_def_cul_3_return_of_the_queen_2;
-					type CONTROL_N_REGIONS_INCLUDING;
-					total 1;
-
-					region wh3_main_combi_region_har_ganeth;
+					type SCRIPTED;
+					script_key vco_dummy;
 				}
 
 				objective
@@ -160,6 +170,14 @@ local missions = {
 					faction wh2_main_def_har_ganeth;
 
 					confederation_valid;
+				}
+
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 1;
+
+					region wh3_main_combi_region_har_ganeth;
 				}
 
 				payload

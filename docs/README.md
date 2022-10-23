@@ -9,7 +9,5 @@
 * [Kislev](immortal-empires/kislev.md)
 * [Lizardmen](immortal-empires/lizardmen.md)
 * [Ogre Kingdoms](immortal-empires/ogre-kingdoms.md)
-* [Skaven](immortal-empires/skaven.md)
 * [The Empire](immortal-empires/the-empire.md)
-* [Tomb Kings](immortal-empires/tomb-kings.md)
-* [Vampire Counts](immortal-empires/vampire-counts.md)
+* [Skaven](immortal-empires/skaven.md)
