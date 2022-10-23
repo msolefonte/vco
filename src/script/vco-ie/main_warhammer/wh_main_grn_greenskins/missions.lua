@@ -23,7 +23,6 @@ local missions = {
 
 				objective
 				{
-
 					type DESTROY_FACTION;
 
 					faction wh3_dlc20_chs_kholek;

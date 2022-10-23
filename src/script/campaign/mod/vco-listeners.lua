@@ -79,7 +79,7 @@ local function check_vco_cth_the_western_provinces_caravans(faction_key)
 
 	if num_caravans_completed < REQUIRED_NUM_CARAVANS_COMPLETED_VICTORY then
 		vco:set_mission_text("vco_cth_the_western_provinces_caravans",
-										 		 "vco_cth_the_western_provinces_caravans_" .. num_caravans_completed);
+			"vco_cth_the_western_provinces_caravans_" .. num_caravans_completed);
 	else
 		vco:set_mission_text("vco_cth_the_western_provinces_caravans", "vco_cth_the_western_provinces_caravans");
 		vco:complete_mission("wh3_main_cth_the_western_provinces", "vco_cth_the_western_provinces_caravans");
@@ -93,21 +93,21 @@ local function check_vco_cth_the_western_provinces_goods(faction_key)
 	if total_goods_moved < REQUIRED_TOTAL_GOODS_MOVED_VICTORY then
 		local percentage_completed = math.floor(total_goods_moved / REQUIRED_TOTAL_GOODS_MOVED_VICTORY * 100)
 		vco:set_mission_text("vco_cth_the_western_provinces_goods",
-												 "vco_cth_the_western_provinces_goods_" .. percentage_completed);
+			"vco_cth_the_western_provinces_goods_" .. percentage_completed);
 	else
 		vco:set_mission_text("vco_cth_the_western_provinces_goods", "vco_cth_the_western_provinces_goods");
 		vco:complete_mission("wh3_main_cth_the_western_provinces", "vco_cth_the_western_provinces_goods");
 	end
 end
 
- -- TODO RENAME AFTER UNIFICATION
+-- TODO RENAME AFTER UNIFICATION
 local function check_vco_daemons_of_chaos_the_great_game(faction_key, corruption_key)
 	local REQUIRED_CORRUPTED_REGIONS_VICTORY = 100;
 	local corrupted_regions = count_regions_with_highest_corruption(corruption_key);
 
 	if corrupted_regions < REQUIRED_CORRUPTED_REGIONS_VICTORY then
 		vco:set_mission_text("vco_" .. faction_key .. "_the_great_game",
-												 "vco_the_great_game_completed_" .. corrupted_regions);
+			"vco_the_great_game_completed_" .. corrupted_regions);
 	else
 		vco:set_mission_text("vco_" .. faction_key .. "_the_great_game", "vco_the_great_game_completed");
 		vco:complete_mission(faction_key, "vco_" .. faction_key .. "_the_great_game");
@@ -121,7 +121,7 @@ local function check_vco_ogr_goldtooth_gross_income(target_faction)
 	if current_income < REQUIRED_CORRUPTED_REGIONS_VICTORY then
 		local percentage_completed = math.floor(current_income / REQUIRED_CORRUPTED_REGIONS_VICTORY * 100)
 		vco:set_mission_text("vco_ogr_gre_1_rich_walk",
-												 "vco_ogr_gre_1_rich_walk_" .. percentage_completed);
+			"vco_ogr_gre_1_rich_walk_" .. percentage_completed);
 	else
 		vco:set_mission_text("vco_ogr_gre_1_rich_walk", "vco_ogr_gre_1_rich_walk");
 		vco:complete_mission("wh3_main_ogr_goldtooth", "vco_ogr_gre_1_rich_walk");
@@ -169,7 +169,7 @@ local function check_vco_vmp_man_collected_books(mission)
 end
 
 
- -- TODO RENAME AFTER UNIFICATION
+-- TODO RENAME AFTER UNIFICATION
 local function check_vco_ogre_kingdoms_the_maw_that_walks(context)
 	local REQUIRED_MEAT_OFFERED_VICTORY = 200;
 	local total_meat_offered = context:factor_spent();
@@ -416,30 +416,30 @@ local function add_listeners()
 
 	vco:log("- Tomb Kings listeners");
 	core:add_listener(
-	  "vco_tmb_ark_book_collected",
-	  "MissionSucceeded",
-	  function(context)
-	  	return context:faction():is_human() and context:faction():name() == "wh2_dlc09_tmb_followers_of_nagash" and
+		"vco_tmb_ark_book_collected",
+		"MissionSucceeded",
+		function(context)
+			return context:faction():is_human() and context:faction():name() == "wh2_dlc09_tmb_followers_of_nagash" and
 				context:mission():mission_record_key():sub(1,26) == "wh2_dlc09_books_of_nagash_";
-	  end,
-	  function(context)
-	  	check_vco_tmb_ark_collected_books(context:mission());
-	  end,
-	  true
+		end,
+		function(context)
+			check_vco_tmb_ark_collected_books(context:mission());
+		end,
+		true
 	);
 
-  vco:log("- Vampire Counts listeners");
+	vco:log("- Vampire Counts listeners");
 	core:add_listener(
-	  "vco_vmp_man_book_collected",
-	  "MissionSucceeded",
-	  function(context)
-	  	return context:faction():is_human() and context:faction():name() == "wh_main_vmp_vampire_counts" and
+		"vco_vmp_man_book_collected",
+		"MissionSucceeded",
+		function(context)
+			return context:faction():is_human() and context:faction():name() == "wh_main_vmp_vampire_counts" and
 				context:mission():mission_record_key():sub(1,26) == "wh2_dlc09_books_of_nagash_";
-	  end,
-	  function(context)
-	  	check_vco_vmp_man_collected_books(context:mission());
-	  end,
-	  true
+		end,
+		function(context)
+			check_vco_vmp_man_collected_books(context:mission());
+		end,
+		true
 	);
 
 
