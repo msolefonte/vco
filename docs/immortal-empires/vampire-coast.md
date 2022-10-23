@@ -3,13 +3,13 @@
 ## Aranessa Saltspite: Pirates of Sartosa
 
 * **Route I - Captain of the Swordfysh**
-  * Accrue 15000 Infamy.
-  * Earn 7500 from Raiding.
+  * Accrue 15000 Infamy
+  * Earn 7500 from Raiding
   * **Reward:**
     * _The Pirate Queen_: Income from Pirate Coves +25%, Movement range after winning a battle +25%
 * **Route II - Daughter of Manann**
-  * Raze or Sack 8 settlements belonging to Norscan factions.
-  * Build the Dragon Tooth Lighthouse landmark in Sartosa. 
+  * Raze or Sack 8 settlements belonging to Norscan factions
+  * Build the Dragon Tooth Lighthouse landmark in Sartosa
   * **Reward:**
     * _Lady Of The Seas_: Melee Attack at sea +12, leadership at sea +12
 	* _Manann's Favoured_: 50% Upkeep Reduction for all Rotting units (Leviathans, Prometheans)
