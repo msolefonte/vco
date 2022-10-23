@@ -28,6 +28,6 @@ effects_description_vco_cst_necrofex_colossus_upkeep_reduction	Upkeep Reduction:
 effects_description_vco_cst_necrofex_colossus_recruitment_time_reduction	Recruitment Time Reduction: %-n for Necrofex Colossus	true
 effects_description_vco_cst_rotting_units_upkeep_reduction	Upkeep Reduction: %-n% for Rotting Prometheans and Rotting Leviathans	true
 effects_description_vco_nor_wulfrik_units_unlock_dummy	Unlocks new Daemonic units from pledging to a Chaos God	true
-effects_description_vco_nor_wulfrik_marauder_spear_hunter_bonus_large	Melee attack: +6 vs Large for Marauder Spearmen and Hunters	true
+effects_description_vco_nor_wulfrik_marauder_spear_hunter_bonus_large	Weapon Strength: +6 vs Large for Marauder Spearmen and Hunters	true
 effects_description_vco_nor_wulfrik_marauder_spear_hunter_primal_instincts	Passive ability: "Primal Instincts" for Marauder Spearmen and Hunters	true
 effects_description_vco_nor_wulfrik_marauder_melee_poison	Enables poison attacks for all Marauders, Marauder Beserkers, and Marauder Champions	true
