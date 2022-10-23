@@ -146,12 +146,12 @@ local function check_vco_skv_mdr_all_augments_unlocked(effect)
 	vco:complete_mission("wh2_main_skv_clan_moulder", "vco_skv_mld_augments");
 end
 
-local function check_generic_collected_nagash_books(mission, faction_id)
+local function check_generic_collected_nagash_books(mission, faction_id, max_books)
 	local book_number = string.sub(mission:mission_record_key(), -1);
 	add_collected_book_of_nagash(book_number, faction_id);
 
 	local count_books = count_collected_books_of_nagash(faction_id);
-	if count_books < 9 then
+	if count_books < max_books then
 		vco:set_mission_text("vco_" .. faction_id.. "_nagash_books", "vco_common_nagash_books_collected_" .. count_books);
 	else
 		vco:set_mission_text("vco_" .. faction_id .. "_nagash_books", "vco_common_nagash_books_collected");
@@ -161,11 +161,11 @@ end
 
 local function check_vco_tmb_ark_collected_books(mission)
 	add_collected_book_of_nagash(9, "tmb_ark");
-	check_generic_collected_nagash_books(mission, "tmb_ark");
+	check_generic_collected_nagash_books(mission, "tmb_ark", 9);
 end
 
 local function check_vco_vmp_man_collected_books(mission)
-	check_generic_collected_nagash_books(mission, "vmp_man");
+	check_generic_collected_nagash_books(mission, "vmp_man", 8);
 end
 
 
@@ -420,7 +420,7 @@ local function add_listeners()
 	  "MissionSucceeded",
 	  function(context)
 	  	return context:faction():is_human() and context:faction():name() == "wh2_dlc09_tmb_followers_of_nagash" and
-				context:mission():mission_record_key():find("^wh2_dlc09_books_of_nagash_");
+				context:mission():mission_record_key():sub(1,26) == "wh2_dlc09_books_of_nagash_";
 	  end,
 	  function(context)
 	  	check_vco_tmb_ark_collected_books(context:mission());
@@ -434,7 +434,7 @@ local function add_listeners()
 	  "MissionSucceeded",
 	  function(context)
 	  	return context:faction():is_human() and context:faction():name() == "wh_main_vmp_vampire_counts" and
-				context:mission():mission_record_key():find("^wh2_dlc09_books_of_nagash_");
+				context:mission():mission_record_key():sub(1,26) == "wh2_dlc09_books_of_nagash_";
 	  end,
 	  function(context)
 	  	check_vco_vmp_man_collected_books(context:mission());
