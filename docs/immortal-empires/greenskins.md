@@ -7,7 +7,7 @@
   whole world, we'll turn around and march back."
   * Destroy factions:
     * Heralds of the Tempest, Goldtooth
-  * Raze settlement:
+  * Raze or occupy settlement:
     * Great Hall of Greasus
   * **Reward:**
     * _Da Great Maw's Avatar_: Income from all buildings: +10%, Diplomatic relations: +40 with Ogre Kingdoms, Allegiance 
@@ -27,21 +27,21 @@
 * **Route III - Unfinished Business**
   * Grimgor has returned to Karak Kadrin, this time with a colossal battering ram forged by captured Daemonsmiths from 
   the Dark Lands. The stunties are going to need a bigger gate...
-  * Raze settlements: 
+  * Raze or occupy settlements: 
     * Karak Kadrin
   * Destroy faction: 
     * Karak Kadrin
   * Grimgor's last attempt to take Kislev was thwarted when the Ice Queen repelled his assault with a massive blizzard. 
   This time he comes prepared. A captured Imperial Pyromancer, his mind addled with madcap mushrooms, will keep the ice 
   at bay.
-  * Raze settlements: 
+  * Raze or occupy settlements: 
     * Kislev
   * Destroy faction: 
     * The Ice Court
   * Grimgor abandoned his last siege of Hell Pit when he grew bored of slaughtering the poor sport sent against him, but 
   rumour has it that Throt the Unclean has crafted more powerful beasts in his fleshlabs. Such a challenge cannot go 
   ignored...
-  * Raze settlements: 
+  * Raze or occupy settlements: 
     * Hell Pit
   * Destroy faction: 
     * Clan Moulder
