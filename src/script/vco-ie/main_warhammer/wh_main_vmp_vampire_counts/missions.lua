@@ -48,6 +48,13 @@ local missions = {
 						turns 0;
 					}
 
+
+					effect_bundle
+					{
+						bundle_key vco_victory_payload_vmp_man_1_restless_dunes_portal;
+						turns 0;
+					}
+
 					effect_bundle
 					{
 						bundle_key vco_campaign_victory_dummy;

@@ -79,7 +79,6 @@ local missions = {
 
 				objective
 				{
-					override_text mission_text_text_vco_emp_the_2_the_huntsmarshals_expedition_artifacts;
 					type RAZE_OR_OWN_SETTLEMENTS;
 
 					region wh3_main_combi_region_chamber_of_visions;
