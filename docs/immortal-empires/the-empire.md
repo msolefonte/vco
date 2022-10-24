@@ -13,7 +13,7 @@
   * Your explorers have told you about an ancient artifact broken in pieces and hidden by the Lizardmen. Destroy those
   who are protecting it and claim it for the Empire.
     * Itza
-  * Locate the artifacts by sacking or razing the temples where they are hidden:
+  * Locate the artifacts by razing or occupying the temples where they are hidden:
     * Chamber of Visions, Itza, Oyxl
   * **Reward:**
     * _Cursed Artifact of No'Tidoq_: Passive ability: "Primal Instincts" for all characters
