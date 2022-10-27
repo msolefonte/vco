@@ -23,6 +23,9 @@ vco_skv_food	pooled_resource_food.png	3	pooled_resource_food.png	campaign	true
 vco_skv_per_turn_growth_vat	growth_juice.png	1	growth_juice.png	campaign	true
 vco_skv_per_turn_mutagen	mutagen.png	101	mutagen.png	campaign	true
 vco_skv_clan_moulder_strength	weapon_damage.png	461	weapon_damage.png	campaign	true
+vco_tmb_arkhan_allegiance_points_mod_vampire_coast	allegiance.png	101	allegiance.png	campaign	true
+vco_vmp_mannfred_weapon_strength	weapon_damage_character.png	101	weapon_damage_character.png	campaign	true
+vco_vmp_mannfred_ward_save	resistance_ward_save.png	101	resistance_ward_save.png	campaign	true
 vco_cst_zombie_deckhands_missile_strength	ranged_damage.png	101	ranged_damage.png	campaign	true
 vco_cst_necrofex_colossus_upkeep_reduction	variable_upkeep.png	101	variable_upkeep.png	campaign	true
 vco_cst_necrofex_colossus_recruitment_time_reduction	army.png	101	army.png	campaign	true

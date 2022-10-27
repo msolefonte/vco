@@ -393,7 +393,19 @@ occasions, now it will be viable to play tall/defensively, without any requisite
 
 ## [5.0.0-beta.5.HOTFIX-3] - 03.10.2022
 
-- Dense today, aren't we? 
+- Dense today, aren't we?
+
+## [5.0.0-beta.6] The Restless Dunes - 23.10.2022
+
+- Added new routes for Arkhan the Black: Followers of Nagash
+- Added new routes for Mannfred von Carstein: The Drakenhof Conclave
+- Changed how flavour is displayed: now the text colour is white and there is no bullet point check
+- Changed Clan Moulder's 2nd route: Now required settlements have to be occupyied instead of sacked
+- Changed Clan Moulder's 3rd route: Now controlling the Mountains of Hel and destroying Wintertooth are also required
+- Fixed Grimgor's Ardboyz, Clan Moulder and Goldtooth Tribe objectives based on controlling a set number of provinces
+- Fixed Goldtooth Tribe's third route objective based on controlling a set of regions
+- Fixed Grimgor's Ardboyz and The Huntsmarshal's Expedition objectives based on razing settlements
+- Improved flavour, replaced icons and fixed typos
 
 ## [5.0.0-beta.7] Tales from the East Blue - <release_date>
 
