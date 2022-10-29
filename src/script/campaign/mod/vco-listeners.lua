@@ -128,6 +128,22 @@ local function count_regions_with_highest_corruption(corruption_key)
 	return regions_count;
 end
 
+local function add_collected_book_of_nagash(book_number, faction_id)
+	cm:set_saved_value("vco_" .. faction_id .. "_book_" .. book_number .. "_collected", true);
+end
+
+local function count_collected_books_of_nagash(faction_id)
+	local count_collected_books = 0;
+
+	for book_number=1, 9 do
+		if cm:get_saved_value("vco_" .. faction_id .. "_book_" .. book_number .. "_collected") then
+			count_collected_books = count_collected_books + 1;
+		end
+	end
+
+	return count_collected_books;
+end
+
 -- CHECKS --
 
 local function check_vco_brt_bordeleaux_alberic_vow(character)
@@ -142,7 +158,7 @@ local function check_vco_cth_the_western_provinces_caravans(faction_key)
 
 	if num_caravans_completed < REQUIRED_NUM_CARAVANS_COMPLETED_VICTORY then
 		vco:set_mission_text("vco_cth_the_western_provinces_caravans",
-		"vco_cth_the_western_provinces_caravans_" .. num_caravans_completed);
+			"vco_cth_the_western_provinces_caravans_" .. num_caravans_completed);
 	else
 		vco:set_mission_text("vco_cth_the_western_provinces_caravans", "vco_cth_the_western_provinces_caravans");
 		vco:complete_mission("wh3_main_cth_the_western_provinces", "vco_cth_the_western_provinces_caravans");
@@ -156,21 +172,21 @@ local function check_vco_cth_the_western_provinces_goods(faction_key)
 	if total_goods_moved < REQUIRED_TOTAL_GOODS_MOVED_VICTORY then
 		local percentage_completed = math.floor(total_goods_moved / REQUIRED_TOTAL_GOODS_MOVED_VICTORY * 100)
 		vco:set_mission_text("vco_cth_the_western_provinces_goods",
-		"vco_cth_the_western_provinces_goods_" .. percentage_completed);
+			"vco_cth_the_western_provinces_goods_" .. percentage_completed);
 	else
 		vco:set_mission_text("vco_cth_the_western_provinces_goods", "vco_cth_the_western_provinces_goods");
 		vco:complete_mission("wh3_main_cth_the_western_provinces", "vco_cth_the_western_provinces_goods");
 	end
 end
 
- -- TODO RENAME AFTER UNIFICATION
+-- TODO RENAME AFTER UNIFICATION
 local function check_vco_daemons_of_chaos_the_great_game(faction_key, corruption_key)
 	local REQUIRED_CORRUPTED_REGIONS_VICTORY = 100;
 	local corrupted_regions = count_regions_with_highest_corruption(corruption_key);
 
 	if corrupted_regions < REQUIRED_CORRUPTED_REGIONS_VICTORY then
 		vco:set_mission_text("vco_" .. faction_key .. "_the_great_game",
-		"vco_the_great_game_completed_" .. corrupted_regions);
+			"vco_the_great_game_completed_" .. corrupted_regions);
 	else
 		vco:set_mission_text("vco_" .. faction_key .. "_the_great_game", "vco_the_great_game_completed");
 		vco:complete_mission(faction_key, "vco_" .. faction_key .. "_the_great_game");
@@ -244,7 +260,7 @@ local function check_vco_ogr_goldtooth_gross_income(target_faction)
 	if current_income < REQUIRED_CORRUPTED_REGIONS_VICTORY then
 		local percentage_completed = math.floor(current_income / REQUIRED_CORRUPTED_REGIONS_VICTORY * 100)
 		vco:set_mission_text("vco_ogr_gre_1_rich_walk",
-		"vco_ogr_gre_1_rich_walk_" .. percentage_completed);
+			"vco_ogr_gre_1_rich_walk_" .. percentage_completed);
 	else
 		vco:set_mission_text("vco_ogr_gre_1_rich_walk", "vco_ogr_gre_1_rich_walk");
 		vco:complete_mission("wh3_main_ogr_goldtooth", "vco_ogr_gre_1_rich_walk");
@@ -269,7 +285,30 @@ local function check_vco_skv_mdr_all_augments_unlocked(effect)
 	vco:complete_mission("wh2_main_skv_clan_moulder", "vco_skv_mld_augments");
 end
 
- -- TODO RENAME AFTER UNIFICATION
+local function check_generic_collected_nagash_books(mission, faction_id, max_books)
+	local book_number = string.sub(mission:mission_record_key(), -1);
+	add_collected_book_of_nagash(book_number, faction_id);
+
+	local count_books = count_collected_books_of_nagash(faction_id);
+	if count_books < max_books then
+		vco:set_mission_text("vco_" .. faction_id.. "_nagash_books", "vco_common_nagash_books_collected_" .. count_books);
+	else
+		vco:set_mission_text("vco_" .. faction_id .. "_nagash_books", "vco_common_nagash_books_collected");
+		vco:complete_mission(faction_id, "vco_" .. faction_id .. "_nagash_books");
+	end
+end
+
+local function check_vco_tmb_ark_collected_books(mission)
+	add_collected_book_of_nagash(9, "tmb_ark");
+	check_generic_collected_nagash_books(mission, "tmb_ark", 9);
+end
+
+local function check_vco_vmp_man_collected_books(mission)
+	check_generic_collected_nagash_books(mission, "vmp_man", 8);
+end
+
+
+-- TODO RENAME AFTER UNIFICATION
 local function check_vco_ogre_kingdoms_the_maw_that_walks(context)
 	local REQUIRED_MEAT_OFFERED_VICTORY = 200;
 	local total_meat_offered = context:factor_spent();
@@ -319,6 +358,32 @@ local function vco_ksl_ort_enable_luminark()
 		"wh_main_emp_veh_luminark_of_hysh_0",
 		"wh3_main_ksl_the_great_orthodoxy"
 	);
+end
+
+-- TRIGGERS --
+
+local function trigger_vco_vmp_mannfred_dilemma()
+	cm:trigger_dilemma("wh_main_vmp_vampire_counts", "vco_vmp_mannfred_dilemma_ossified_portal");
+end
+
+local function trigger_vco_vmp_mannfred_dilemma_choice_made(choice)
+	if choice == 0 then
+		cm:teleport_to(cm:char_lookup_str(cm:get_faction("wh_main_vmp_vampire_counts"):faction_leader()), 666, 580);
+	elseif choice == 1 then
+		local TURNS_DELAY = 10;
+		local TARGET_TURN_NUMBER = cm:turn_number() + TURNS_DELAY;
+
+		core:add_listener(
+			"vco_vmp_mannfred_dilemma_trigger_delay",
+			"FactionTurnStart",
+			function(context)
+				return context:faction():is_human() and context:faction():name() == "wh_main_vmp_vampire_counts" and
+					cm:turn_number() == TARGET_TURN_NUMBER;
+			end,
+			trigger_vco_vmp_mannfred_dilemma,
+			false
+		);
+	end
 end
 
 -- LISTENERS --
@@ -557,6 +622,59 @@ local function add_listeners()
 		end,
 		true
 	);
+
+	vco:log("- Vampire Counts listeners");
+	core:add_listener(
+		"vco_vmp_mannfred_3_completed",
+		"MissionSucceeded",
+		function(context)
+			return context:faction():name() == "wh_main_vmp_vampire_counts"
+				and context:mission():mission_issuer_record_key() == "MUFFIN_MAN";
+		end,
+		trigger_vco_vmp_mannfred_dilemma,
+		true
+	);
+
+	core:add_listener(
+		"vco_vmp_mannfred_dilemma_choice_made",
+		"DilemmaChoiceMadeEvent",
+		function(context)
+			return context:dilemma() == "vco_vmp_mannfred_dilemma_ossified_portal";
+		end,
+		function(context)
+			trigger_vco_vmp_mannfred_dilemma_choice_made(context:choice());
+		end,
+		true
+	);
+
+	vco:log("- Tomb Kings listeners");
+	core:add_listener(
+		"vco_tmb_ark_book_collected",
+		"MissionSucceeded",
+		function(context)
+			return context:faction():is_human() and context:faction():name() == "wh2_dlc09_tmb_followers_of_nagash" and
+				context:mission():mission_record_key():sub(1,26) == "wh2_dlc09_books_of_nagash_";
+		end,
+		function(context)
+			check_vco_tmb_ark_collected_books(context:mission());
+		end,
+		true
+	);
+
+	vco:log("- Vampire Counts listeners");
+	core:add_listener(
+		"vco_vmp_man_book_collected",
+		"MissionSucceeded",
+		function(context)
+			return context:faction():is_human() and context:faction():name() == "wh_main_vmp_vampire_counts" and
+				context:mission():mission_record_key():sub(1,26) == "wh2_dlc09_books_of_nagash_";
+		end,
+		function(context)
+			check_vco_vmp_man_collected_books(context:mission());
+		end,
+		true
+	);
+
 
 	vco:log("- Completing dummies");
 	core:add_listener(

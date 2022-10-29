@@ -111,6 +111,12 @@ vco_victory_type_ksl_ort_3_wololo	2	0	long	long
 vco_victory_type_skv_mdr_1_yes_yes_prepare_the_lab	0	0	long	long
 vco_victory_type_skv_mdr_2_the_vermintide_comes	1	0	long	long
 vco_victory_type_skv_mdr_3_the_frozen_dead	2	0	long	long
+vco_victory_type_tmb_ark_1_thy_kingdom_come	0	0	long	long
+vco_victory_type_tmb_ark_2_born_to_serve	1	0	long	long
+vco_victory_type_tmb_ark_3_faithful_servant	2	0	long	long
+vco_victory_type_vmp_man_1_restless_dunes	0	0	long	long
+vco_victory_type_vmp_man_2_reclaim_throne	1	0	long	long
+vco_victory_type_vmp_man_3_death_comes_for_all	2	0	long	long
 vco_victory_type_cst_sar_1_captain_of_the_swordfysh	0	0	long	long
 vco_victory_type_cst_sar_2_daughter_of_manann	1	0	long	long
 vco_victory_type_cst_sar_3_dead_man_s_vengeance	2	0	long	long
