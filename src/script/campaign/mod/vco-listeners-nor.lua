@@ -31,13 +31,13 @@ end
 
 local function wul_unlock_units(pooled_resource)
 	if pooled_resource == "nor_progress_hound" then
-		vlc.unit_locks:lock_units(UNLOCKABLE_KHORNE_UNITS, FACTION_WUL_KEY);
+		vlc.unit_locks:unlock_units(UNLOCKABLE_KHORNE_UNITS, FACTION_WUL_KEY);
 	elseif pooled_resource == "nor_progress_crow" then
-		vlc.unit_locks:lock_units(UNLOCKABLE_NURGLE_UNITS, FACTION_WUL_KEY);
+		vlc.unit_locks:unlock_units(UNLOCKABLE_NURGLE_UNITS, FACTION_WUL_KEY);
 	elseif pooled_resource == "nor_progress_eagle" then
-		vlc.unit_locks:lock_units(UNLOCKABLE_TZEENTCH_UNITS, FACTION_WUL_KEY);
+		vlc.unit_locks:unlock_units(UNLOCKABLE_TZEENTCH_UNITS, FACTION_WUL_KEY);
 	elseif pooled_resource == "nor_progress_serpent" then
-		vlc.unit_locks:lock_units(UNLOCKABLE_SLAANESH_UNITS, FACTION_WUL_KEY);
+		vlc.unit_locks:unlock_units(UNLOCKABLE_SLAANESH_UNITS, FACTION_WUL_KEY);
 	end
 end
 
