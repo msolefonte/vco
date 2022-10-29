@@ -1,4 +1,4 @@
 key	text	tooltip
 #Loc PackedFile;1;text/db/vco_campaign_payload_ui_details.loc		
-campaign_payload_ui_details_description_vco_vmp_man_dilemma_ossified_portal_teleport	Mannfred will be teleported to Sylvania.	false
 campaign_payload_ui_details_description_vco_vmp_man_dilemma_ossified_portal_ask_again	This dilemma will appear again in 10 turns.	false
+campaign_payload_ui_details_description_vco_vmp_man_dilemma_ossified_portal_teleport	Mannfred will be teleported to Sylvania.	false
