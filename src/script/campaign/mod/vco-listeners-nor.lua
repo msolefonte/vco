@@ -41,6 +41,12 @@ local function wul_unlock_units(pooled_resource)
 	end
 end
 
+local function wul_replenish_movement(character)
+	if character:faction():has_effect_bundle("vco_victory_payload_nor_wul_1_ragnarok_1") then
+		vlc.characters:replenish_campaign_movement(context:character());
+	end
+end
+
 -- CHECKS --
 
 local function check_wul_chaos_allegiance(pooled_resource)
@@ -103,7 +109,7 @@ local function add_listeners()
 				(context:garrison_residence():settlement_interface():port_slot() or false);
 		end,
 		function(context)
-			vlc.characters:replenish_campaign_movement(context:character());
+			wul_replenish_movement(context:character());
 		end,
 		true
 	);
