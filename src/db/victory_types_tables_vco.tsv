@@ -96,9 +96,9 @@ vco_victory_type_brt_bdx_3_home_sweet_home	2	0	long	long
 vco_victory_type_lzd_hex_1_solar_city	0	0	long	long
 vco_victory_type_lzd_hex_2_begone_thot	1	0	long	long
 vco_victory_type_lzd_hex_3_purging_warmbloods	2	0	long	long
-vco_victory_type_def_cul_1_stellar_pyramids_of_khaine	0	0	long	long
-vco_victory_type_def_cul_2_hell_hath_no_fury	1	0	long	long
-vco_victory_type_def_cul_3_return_of_the_queen	2	0	long	long
+vco_victory_type_def_cop_1_stellar_pyramids_of_khaine	0	0	long	long
+vco_victory_type_def_cop_2_hell_hath_no_fury	1	0	long	long
+vco_victory_type_def_cop_3_return_of_the_queen	2	0	long	long
 vco_victory_type_grn_gri_1_boss_east	0	0	long	long
 vco_victory_type_grn_gri_2_burn_badlands	1	0	long	long
 vco_victory_type_grn_gri_3_unfinished_business	2	0	long	long
