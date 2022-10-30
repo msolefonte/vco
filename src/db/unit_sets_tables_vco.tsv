@@ -1,7 +1,10 @@
 key	use_unit_exp_level_range	min_unit_exp_level_inclusive	max_unit_exp_level_inclusive	special_category
 #unit_sets_tables;2;db/unit_sets_tables/vco				
 vco_brt_alberic	false	-1	-1	
-vco_def_morathi	false	-1	-1	
-vco_ogr_greasus	false	-1	-1	
-vco_vmp_mannfred	false	-1	-1	
 vco_cst_rotting	false	-1	-1	
+vco_def_morathi	false	-1	-1	
+vco_nor_marauder_hunters_spears	false	-1	-1	
+vco_nor_melee_marauders	false	-1	-1	
+vco_nor_wulfrik	false	-1	-1	
+vco_ogr_greasus	false	-1	-1	
+vco_vmp_man	false	-1	-1	
