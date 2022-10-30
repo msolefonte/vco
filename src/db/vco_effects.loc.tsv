@@ -24,7 +24,7 @@ effects_description_vco_nor_wul_marauder_spear_hunter_bonus_large	Weapon Strengt
 effects_description_vco_nor_wul_marauder_spear_hunter_primal_instincts	Passive ability: "Primal Instincts" for Marauder Spearmen and Hunters	true
 effects_description_vco_nor_wul_movement_range_post_raze_port	Movement Range: %+n% after razing a port settlement	true
 effects_description_vco_nor_wul_units_unlock_dummy	Unlocks new Daemonic units from pledging to a Chaos God	true
-effects_description_vco_nor_wul_you_are_next	Unlocks ability: You are next	true
+effects_description_vco_nor_wul_ability_enable_youre_next	Ability: "You're Next!"	true
 effects_description_vco_ogr_greasus_armour	Armour: %+n for Greasus Goldtooth	true
 effects_description_vco_ogr_greasus_charge_bonus	Charge Bonus: %+n for Greasus Goldtooth	true
 effects_description_vco_ogr_greasus_speed	Speed: %+n% for Greasus Goldtooth	true
