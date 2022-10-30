@@ -13,4 +13,5 @@
 * [Skaven](immortal-empires/skaven.md)
 * [The Empire](immortal-empires/the-empire.md)
 * [Tomb Kings](immortal-empires/tomb-kings.md)
+* [Vampire Coast](immortal-empires/vampire-coast.md)
 * [Vampire Counts](immortal-empires/vampire-counts.md)

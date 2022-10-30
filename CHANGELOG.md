@@ -407,6 +407,7 @@ occasions, now it will be viable to play tall/defensively, without any requisite
 
 ## [5.0.0-beta.7] Tales from the East Blue - <release_date>
 
+- Added new routes for Aranessa Saltspite: Pirates of Sartosa
 - Added new routes for Wulfrik the Wanderer: World Walkers
 - _(Technical)_ Added a new export VCO Lib Commons to standardise implementation across all scripts/submods
 - _(Technical)_ Refactored almost all scripts files. Now each race has its own listeners file
