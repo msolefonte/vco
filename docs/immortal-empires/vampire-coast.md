@@ -20,5 +20,6 @@
   * Occupy region:
     * The Galleon's Graveyard
   * **Reward:**
-     * _Sank The Bloody Reaver_: Bonus vs Large: +6 when fighting against Lizardmen
+     * _Sank The Bloody Reaver_: Deck Gunners reload time reduction 20%, ammunition +20%
+     * _Master of the Colossi_: Upkeep Reduction 33% for Necrofex Colossus, Recruitment Time Reduction -1 for Necrofex Colossus
      * Infamy: +2500
