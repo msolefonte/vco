@@ -7,6 +7,10 @@ vco_brt_alberic	wh_dlc07_brt_cha_alberic_bordeleaux_3				false
 vco_def_morathi	wh2_main_def_cha_morathi_0				false
 vco_def_morathi	wh2_main_def_cha_morathi_1				false
 vco_ogr_greasus	wh3_main_ogr_cha_greasus_goldtooth_0				false
+vco_vmp_mannfred	wh_main_vmp_cha_mannfred_von_carstein_0				false
+vco_vmp_mannfred	wh_main_vmp_cha_mannfred_von_carstein_2				false
+vco_vmp_mannfred	wh_main_vmp_cha_mannfred_von_carstein_3				false
+vco_vmp_mannfred	wh_main_vmp_cha_mannfred_von_carstein_4				false
 vco_cst_rotting	wh2_dlc11_cst_mon_rotting_leviathan_0				false
 vco_cst_rotting	wh2_dlc11_cst_mon_rotting_prometheans_0				false
 vco_cst_rotting	wh2_dlc11_cst_mon_rotting_prometheans_gunnery_mob_0				false

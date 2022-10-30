@@ -1,0 +1,8 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/vco_cdir_events_dilemma_choice_details.loc		
+cdir_events_dilemma_choice_details_localised_choice_label_vco_vmp_mannfred_dilemma_ossified_portalFIRST	Cross the Threshold	false
+cdir_events_dilemma_choice_details_localised_choice_title_vco_vmp_mannfred_dilemma_ossified_portalFIRST	I must return to Castle Drakenhof and study these books further. My sire will surely relinquish his claim once he witnesses my newfound power. If not... then he will suffer the same fate as the Devils of Swartzhafen.	false
+cdir_events_dilemma_choice_details_localised_choice_label_vco_vmp_mannfred_dilemma_ossified_portalSECOND	The Time Is Not Right	false
+cdir_events_dilemma_choice_details_localised_choice_title_vco_vmp_mannfred_dilemma_ossified_portalSECOND	These dunes still hide many treasures. My business is not concluded here.	false
+cdir_events_dilemma_choice_details_localised_choice_label_vco_vmp_mannfred_dilemma_ossified_portalTHIRD	I Care Not	false
+cdir_events_dilemma_choice_details_localised_choice_title_vco_vmp_mannfred_dilemma_ossified_portalTHIRD	Sylvania is presently of no concern. I must focus my efforts elsewhere.	false
