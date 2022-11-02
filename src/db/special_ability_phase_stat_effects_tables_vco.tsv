@@ -1,7 +1,4 @@
 phase	value	stat	how
 #special_ability_phase_stat_effects_tables;3;db/special_ability_phase_stat_effects_tables/vco			
-vco_lord_abilities_youre_next	0.5500	scalar_speed	mult
-vco_lord_abilities_youre_next	-24.0000	stat_melee_attack	add
-vco_lord_abilities_youre_next	-40.0000	stat_melee_defence	add
 vco_lord_abilities_hunter_of_champions	-24.0000	stat_melee_attack	add
 vco_lord_abilities_hunter_of_champions	-24.0000	stat_melee_defence	add
