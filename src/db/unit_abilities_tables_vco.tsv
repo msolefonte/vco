@@ -1,0 +1,4 @@
+key	superseded_abilities_set	requires_effect_enabling	icon_name	overpower_option	type	video	uniqueness	is_unit_upgrade	is_hidden_in_ui	source_type	is_hidden_in_ui_for_enemy
+#unit_abilities_tables;17;db/unit_abilities_tables/vco											
+vco_lord_abilities_youre_next		true	wh2_dlc15_lord_abilities_youre_next		wh_type_hex		wh_main_anc_group_uncommon	true	false	active	false
+vco_lord_abilities_gaze_of_khaine		true	wh_dlc08_lord_abilities_fight_or_die		wh_type_hex		wh_main_anc_group_uncommon	true	false	active	false
