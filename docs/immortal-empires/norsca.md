@@ -25,7 +25,7 @@
 	Skavenblight, Khemri, The Awakening, Wei-Jin, Zhar-Naggrund
   * **Reward**:
 	* _The Eternal Challenger_: 
-	  * Leadership: -20% for enemy chracters near Wulfrik, give him Grimgor or Snitch ability
+	  * Ability: "Hunter of Champions"
 
 * **Route III - Where's My Palico?**
   * Wulfrik leads his World Walkers across the world in search of mighty beasts to slay. Though the rewards are great, 
