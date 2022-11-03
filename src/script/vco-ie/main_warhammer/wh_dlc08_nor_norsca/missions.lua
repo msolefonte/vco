@@ -121,14 +121,14 @@ local missions = {
 			{
 				objective
 				{
-					override_text mission_text_text_vco_nor_wul_3_wheres_my_palico_1;
+					override_text mission_text_text_vco_nor_wul_3_monster_hunt_0;
 					type SCRIPTED;
 					script_key vco_nor_wul_monster_hunts;
 				}
 
 				objective
 				{
-					override_text mission_text_text_vco_nor_wul_3_wheres_my_palico_2;
+					override_text mission_text_text_vco_nor_wul_3_wheres_my_palico;
 					type CONTROL_N_REGIONS_INCLUDING;
 					total 1;
 
@@ -139,13 +139,13 @@ local missions = {
 				{
 					effect_bundle
 					{
-						bundle_key vco_victory_payload_nor_wul_3_wheres_my_palico_1;
+						bundle_key vco_victory_payload_nor_wul_3_monster_hunt;
 						turns 0;
 					}
 				
 					effect_bundle
 					{
-						bundle_key vco_victory_payload_nor_wul_3_wheres_my_palico_2;
+						bundle_key vco_victory_payload_nor_wul_3_wheres_my_palico;
 						turns 0;
 					}
 

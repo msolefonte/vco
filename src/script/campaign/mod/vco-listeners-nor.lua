@@ -58,12 +58,15 @@ local function check_wul_chaos_allegiance(pooled_resource)
 end
 
 local function check_wul_monster_hunts_completed(mission_record_key)
-	for mission_key in MONSTER_HUNT_MISSION_KEYS do
+	for _, mission_key in ipairs(MONSTER_HUNT_MISSION_KEYS) do
 		if mission_key == mission_record_key then
-			local monster_hunt_completed = (cm:get_saved_value("vco_nor_wul_monster_hunts_succeeded") or 0) + 1;
-			cm:set_saved_value("vco_nor_wul_monster_hunts_succeeded", monster_hunt_completed);
+			local monster_hunts_completed = (cm:get_saved_value("vco_nor_wul_monster_hunts_succeeded") or 0) + 1;
+			cm:set_saved_value("vco_nor_wul_monster_hunts_succeeded", monster_hunts_completed);
 
-			if monster_hunt_completed >= REQUIRED_MONSTER_HUNTS then
+			if monster_hunts_completed < REQUIRED_MONSTER_HUNTS then
+				vco:set_mission_text("vco_nor_wul_monster_hunts", "vco_nor_wul_3_monster_hunt_" .. monster_hunts_completed);
+			else
+				vco:set_mission_text("vco_nor_wul_monster_hunts", "vco_nor_wul_3_monster_hunt");
 				vco:complete_mission(FACTION_WUL_KEY, "vco_nor_wul_monster_hunts");
 			end
 		end
