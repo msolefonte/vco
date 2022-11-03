@@ -4,6 +4,8 @@ vco_brt_alberic	wh_dlc07_brt_cha_alberic_bordeleaux_0				false
 vco_brt_alberic	wh_dlc07_brt_cha_alberic_bordeleaux_1				false
 vco_brt_alberic	wh_dlc07_brt_cha_alberic_bordeleaux_2				false
 vco_brt_alberic	wh_dlc07_brt_cha_alberic_bordeleaux_3				false
+vco_cst_ara	wh2_dlc11_cst_cha_aranessa_0				false
+vco_cst_ara	wh2_dlc11_cst_cha_aranessa_1				false
 vco_cst_deck_gunners	wh2_dlc11_cst_inf_deck_gunners_0				false
 vco_cst_deck_gunners	wh2_dlc11_cst_inf_deck_gunners_ror_0				false
 vco_cst_rotting	wh2_dlc11_cst_mon_rotting_leviathan_0				false
@@ -32,5 +34,3 @@ vco_vmp_man	wh_main_vmp_cha_mannfred_von_carstein_0				false
 vco_vmp_man	wh_main_vmp_cha_mannfred_von_carstein_2				false
 vco_vmp_man	wh_main_vmp_cha_mannfred_von_carstein_3				false
 vco_vmp_man	wh_main_vmp_cha_mannfred_von_carstein_4				false
-vco_cst_ara	wh2_dlc11_cst_cha_aranessa_0				false
-vco_cst_ara	wh2_dlc11_cst_cha_aranessa_1				false
