@@ -12,3 +12,4 @@
 * [The Empire](immortal-empires/the-empire.md)
 * [Skaven](immortal-empires/skaven.md)
 * [Slaanesh](immortal-empires/slaanesh.md)
+* [Warriors of Chaos](immortal-empires/warriors-of-chaos.md)
