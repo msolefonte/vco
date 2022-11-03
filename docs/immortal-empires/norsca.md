@@ -25,7 +25,7 @@
 	Skavenblight, Khemri, The Awakening, Wei-Jin, Zhar-Naggrund
   * **Reward**:
 	* _The Eternal Challenger_: 
-	  * Ability: "Hunter of Champions"
+	  * Ability: "Hunter of Champions" (Debuff and Rampage enemy Lord once per battle) for Wulfrik
 
 * **Route III - Where's My Palico?**
   * Wulfrik leads his World Walkers across the world in search of mighty beasts to slay. Though the rewards are great, 
