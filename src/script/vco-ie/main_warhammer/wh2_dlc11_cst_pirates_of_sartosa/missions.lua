@@ -31,13 +31,19 @@ local missions = {
 				{
 					effect_bundle
 					{
-						bundle_key vco_victory_payload_cst_sar_1_captain_of_the_swordfysh;
+						bundle_key vco_victory_payload_cst_sar_1_pirate_queen;
 						turns 0;
 					}
 
 					effect_bundle
 					{
-						bundle_key vco_victory_payload_all_campaign_victory_dummy;
+						bundle_key vco_victory_payload_cst_sar_3_dead_man_s_vengeance_1;
+						turns 0;
+					}
+
+					effect_bundle
+					{
+						bundle_key vco_campaign_victory_dummy;
 						turns 0;
 					}
 
@@ -102,7 +108,7 @@ local missions = {
 
 					effect_bundle
 					{
-						bundle_key vco_victory_payload_all_campaign_victory_dummy;
+						bundle_key vco_campaign_victory_dummy;
 						turns 0;
 					}
 
@@ -156,7 +162,7 @@ local missions = {
 
 					effect_bundle
 					{
-						bundle_key vco_victory_payload_cst_sar_3_dead_man_s_vengeance_1;
+						bundle_key vco_victory_payload_cst_sar_1_captain_of_the_swordfysh;
 						turns 0;
 					}
 				
@@ -168,7 +174,7 @@ local missions = {
 
 					effect_bundle
 					{
-						bundle_key vco_victory_payload_all_campaign_victory_dummy;
+						bundle_key vco_campaign_victory_dummy;
 						turns 0;
 					}
 
