@@ -142,13 +142,13 @@ function vlc.unit_locks:unlock_unit(unit_key, faction_key)
 end
 
 function vlc.unit_locks:lock_units(unit_keys_list, faction_key)
-	for unit_key in unit_keys_list do
+  for _, unit_key in ipairs(unit_keys_list) do
     self:lock_unit(unit_key, faction_key);
 	end
 end
 
 function vlc.unit_locks:unlock_units(unit_keys_list, faction_key)
-	for unit_key in unit_keys_list do
+  for _, unit_key in ipairs(unit_keys_list) do
     self:unlock_unit(unit_key, faction_key);
 	end
 end
