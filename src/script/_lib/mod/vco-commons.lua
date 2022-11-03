@@ -16,10 +16,7 @@ function vlc.characters:is_rank_gte(character, target_rank)
 end
 
 function vlc.characters:replenish_campaign_movement(character)
-	-- TODO: I replaced movement to replenish with 100
-	--       We might want this to be *2 which doubles remaining action points?
-	--       Much discussion and testing to be had here
-  cm:replenish_action_points(cm:char_lookup_str(character), (character:action_points_remaining_percent() + 100) / 100);
+	cm:replenish_action_points(cm:char_lookup_str(character), (character:action_points_remaining_percent() + 100) / 100);
 end
 
 -- CORRUPTION --
