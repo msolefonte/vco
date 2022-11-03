@@ -45,7 +45,7 @@ local missions = {
 				
 					effect_bundle
 					{
-						bundle_key vco_victory_payload_all_campaign_victory_dummy;
+						bundle_key vco_campaign_victory_dummy;
 						turns 0;
 					}
 				
@@ -92,6 +92,15 @@ local missions = {
 					region wh3_main_combi_region_zharr_naggrund;
 				}
 
+				objective
+				{
+					override_text mission_text_text_vco_nor_wul_3_wheres_my_palico_2;
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 1;
+
+					region wh3_main_combi_region_skeggi;
+				}
+
 				payload
 				{
 					effect_bundle
@@ -102,7 +111,13 @@ local missions = {
 
 					effect_bundle
 					{
-						bundle_key vco_victory_payload_all_campaign_victory_dummy;
+						bundle_key vco_victory_payload_nor_wul_3_wheres_my_palico_2;
+						turns 0;
+					}
+
+					effect_bundle
+					{
+						bundle_key vco_campaign_victory_dummy;
 						turns 0;
 					}
 
@@ -121,37 +136,24 @@ local missions = {
 			{
 				objective
 				{
-					override_text mission_text_text_vco_nor_wul_3_monster_hunt_0;
+					override_text mission_text_text_vco_nor_wul_3_wheres_my_palico_1;
 					type SCRIPTED;
 					script_key vco_nor_wul_monster_hunts;
 				}
 
-				objective
-				{
-					override_text mission_text_text_vco_nor_wul_3_wheres_my_palico;
-					type CONTROL_N_REGIONS_INCLUDING;
-					total 1;
 
-					region wh3_main_combi_region_skeggi;
-				}
 
 				payload
 				{
 					effect_bundle
 					{
-						bundle_key vco_victory_payload_nor_wul_3_monster_hunt;
-						turns 0;
-					}
-				
-					effect_bundle
-					{
-						bundle_key vco_victory_payload_nor_wul_3_wheres_my_palico;
+						bundle_key vco_victory_payload_nor_wul_3_wheres_my_palico_1;
 						turns 0;
 					}
 
 					effect_bundle
 					{
-						bundle_key vco_victory_payload_all_campaign_victory_dummy;
+						bundle_key vco_campaign_victory_dummy;
 						turns 0;
 					}
 
