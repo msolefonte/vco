@@ -38,4 +38,3 @@ effects_description_vco_skv_per_turn_mutagen	Mutagen: %+n per turn	true
 effects_description_vco_tmb_arkhan_allegiance_points_mod_vampire_coast	Allegiance points gained: %+n% for alliances with Vampire Coast	true
 effects_description_vco_vmp_man_ward_save	Ward save: %+n% for Mannfred von Carstein	true
 effects_description_vco_vmp_man_weapon_strength	Weapon strength: %+n% for Mannfred von Carstein	true
-effects_description_vco_effect_ability_enable_youre_next	Ability: "You're Next!"	false
