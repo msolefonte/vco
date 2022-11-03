@@ -1,3 +1,4 @@
+cm:load_global_script("vco");
 local vco = core:get_static_object("vco");
 
 local vlc = {
@@ -76,29 +77,36 @@ end
 -- NAGASH BOOKS --
 
 function vlc.nagash_books:add(faction_id, book_number)
+	vco:log("Book of Nagash collected (" .. faction_id .. "): " .. book_number);
 	cm:set_saved_value("vco_" .. faction_id .. "_book_" .. book_number .. "_collected", true);
 end
 
 function vlc.nagash_books:count(faction_id)
+	vco:log("Counting Books of Nagash (" .. faction_id .. ")");
 	local count_collected_books = 0;
 
 	for book_number=1, 9 do
 		if cm:get_saved_value("vco_" .. faction_id .. "_book_" .. book_number .. "_collected") then
+			vco:log("- Book " .. book_number .. " OK");
 			count_collected_books = count_collected_books + 1;
 		end
 	end
 
+	vco:log("Total Books of Nagash: " .. count_collected_books);
 	return count_collected_books;
 end
 
 function vlc.nagash_books:check_generic_all_books_collected(faction_id, mission, max_books)
+	vco:log("Checking Books of Nagash (" .. faction_id .. ") | Triggered by " .. mission:mission_record_key());
 	local book_number = string.sub(mission:mission_record_key(), -1);
 	self:add(faction_id, book_number);
 
 	local count_books = self:count(faction_id);
 	if count_books < max_books then
+		vco:log("Checking Books of Nagash | Count updated");
 		vco:set_mission_text("vco_" .. faction_id.. "_nagash_books", "vco_common_nagash_books_collected_" .. count_books);
 	else
+		vco:log("Checking Books of Nagash | Mission completed");
 		vco:set_mission_text("vco_" .. faction_id .. "_nagash_books", "vco_common_nagash_books_collected");
 		vco:complete_mission(faction_id, "vco_" .. faction_id .. "_nagash_books");
 	end

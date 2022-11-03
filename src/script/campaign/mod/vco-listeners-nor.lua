@@ -43,7 +43,7 @@ end
 
 local function wul_replenish_movement(character)
 	if character:faction():has_effect_bundle("vco_victory_payload_nor_wul_1_ragnarok_1") then
-		vlc.characters:replenish_campaign_movement(context:character());
+		vlc.characters:replenish_campaign_movement(character);
 	end
 end
 
@@ -80,7 +80,8 @@ local function add_listeners()
 		"vco_nor_wul_max_allegiance_with_god_reached",
 		"PooledResourceChanged",
 		function(context)
-			return context:faction():is_human() and
+			return not context:faction():is_null_interface() and
+				context:faction():is_human() and
 				context:faction():name() == FACTION_WUL_KEY and
 				context:resource():value() == 100;
 		end,
@@ -106,12 +107,14 @@ local function add_listeners()
 		"vco_nor_wul_razed_port",
 		"CharacterRazedSettlement",
 		function(context)
+			vco:log("NORSCA CharacterRazedSettlement");
 			local faction = context:character():faction();
 			return faction:is_human() and
 				faction:name() == FACTION_WUL_KEY and
-				(context:garrison_residence():settlement_interface():port_slot() or false);
+				not context:garrison_residence():settlement_interface():port_slot():is_null_interface();
 		end,
 		function(context)
+			vco:log("NORSCA wul_replenish_movement");
 			wul_replenish_movement(context:character());
 		end,
 		true

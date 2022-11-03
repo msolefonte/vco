@@ -33,7 +33,8 @@ local function add_listeners()
 		"vco_kho_eok_earned_skulls",
 		"PooledResourceChanged",
 		function(context)
-			return context:faction():is_human() and
+			return not context:faction():is_null_interface() and
+				context:faction():is_human() and
 				context:faction():name() == FACTION_EOK_KEY and
 				context:resource():key() == KEY_PR_SKULLS;
 		end,
@@ -48,8 +49,9 @@ local function add_listeners()
 		"vco_kho_skarbrand_rank_up",
 		"CharacterRankUp",
 		function(context)
-			return context:faction():is_human() and
-				context:character():unit_key() == KEY_U_SKARBRAND;
+			return context:character():faction():is_human() and
+				context:character():faction():name() == FACTION_EOK_KEY and
+				context:character():is_faction_leader() == KEY_U_SKARBRAND;
 		end,
 		function(context)
 			check_eok_skarbrand_rank(context:character());
