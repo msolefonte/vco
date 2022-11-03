@@ -21,12 +21,12 @@ effects_description_vco_grn_black_orcs_frostbite	Enables frostbite attacks for B
 effects_description_vco_grn_per_turn_salvage_gain	Scrap: %+n per turn	true
 effects_description_vco_grn_per_turn_waaagh	Reputation: %+n per turn	true
 effects_description_vco_ksl_tgo_luminark_unlock_dummy	Unlock new unit: Luminark of Hysh	true
+effects_description_vco_nor_wul_enable_rampage_ability  Ability: "Hunter of Champions" for Wulfrik true
 effects_description_vco_nor_wul_marauder_melee_poison	Enables poison attacks for all Marauders, Marauder Beserkers, and Marauder Champions	true
 effects_description_vco_nor_wul_marauder_spear_hunter_bonus_large	Bonus vs Large: %+n for Marauder Spearmen and Hunters	true
 effects_description_vco_nor_wul_marauder_spear_hunter_primal_instincts	Passive ability: "Primal Instincts" for Marauder Spearmen and Hunters	true
 effects_description_vco_nor_wul_movement_range_post_raze_port	Campaign movement range: %+n% after razing a port settlement	true
 effects_description_vco_nor_wul_units_unlock_dummy	Unlocks new Daemonic units after pledging to a Chaos God	true
-effects_description_vco_nor_wul_ability_enable_youre_next	Ability: "Hunter of Champions"	true
 effects_description_vco_ogr_greasus_armour	Armour: %+n for Greasus Goldtooth	true
 effects_description_vco_ogr_greasus_charge_bonus	Charge Bonus: %+n for Greasus Goldtooth	true
 effects_description_vco_ogr_greasus_speed	Speed: %+n% for Greasus Goldtooth	true
@@ -40,4 +40,3 @@ effects_description_vco_vmp_man_ward_save	Ward save: %+n% for Mannfred von Carst
 effects_description_vco_vmp_man_weapon_strength	Weapon strength: %+n% for Mannfred von Carstein	true
 effects_description_vco_cst_ara_ward_save	Ward save: %+n% for Aranessa Saltspite	true
 effects_description_vco_cst_ara_weapon_strength	Weapon strength: %+n% for Aranessa Saltspite	true
-effects_description_vco_effect_ability_enable_youre_next	Ability: "You're Next!"	false
