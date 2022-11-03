@@ -6,7 +6,7 @@
   * Accrue 15000 Infamy
   * Earn 7500 from Raiding
   * **Reward:**
-    * _The Pirate Queen_: Income from Pirate Coves: +25%, Movement range: +25% after winning a battle 
+    * _The Pirate Queen_: Income from Pirate Coves: +25%, Campaign movement range: +100% after razing a port settlement 
 * **Route II - Daughter of Manann**
   * Raze or Sack 8 settlements belonging to Norscan factions
   * Build the Dragon Tooth Lighthouse landmark in Sartosa
@@ -21,5 +21,6 @@
     * The Galleon's Graveyard
   * **Reward:**
      * _Sank The Bloody Reaver_: Deck Gunners reload time reduction 20%, ammunition +20%
-     * _Master of the Colossi_: Upkeep Reduction 33% for Necrofex Colossus, Recruitment Time Reduction -1 for Necrofex Colossus
+     * _Master of the Colossi_: Upkeep Reduction 33% for Necrofex Colossus, Recruitment Time Reduction -1 for Necrofex 
+     Colossus
      * Infamy: +2500

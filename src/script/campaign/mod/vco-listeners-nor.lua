@@ -107,14 +107,12 @@ local function add_listeners()
 		"vco_nor_wul_razed_port",
 		"CharacterRazedSettlement",
 		function(context)
-			vco:log("NORSCA CharacterRazedSettlement");
 			local faction = context:character():faction();
 			return faction:is_human() and
 				faction:name() == FACTION_WUL_KEY and
 				not context:garrison_residence():settlement_interface():port_slot():is_null_interface();
 		end,
 		function(context)
-			vco:log("NORSCA wul_replenish_movement");
 			wul_replenish_movement(context:character());
 		end,
 		true

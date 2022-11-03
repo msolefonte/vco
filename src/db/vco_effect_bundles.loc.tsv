@@ -1,6 +1,6 @@
 key	text	tooltip
 #Loc PackedFile;1;text/db/vco_effect_bundles.loc		
-effect_bundles_localised_description_vco_campaign_victory_dummy	Completing a route will count as a campaign victory and will trigger the victory achievements. Do not worry, you will still be able to keep playing to complete the other routes or go for world domination!	true
+effect_bundles_localised_description_vco_victory_payload_all_campaign_victory_dummy	Completing a route will count as a campaign victory and will trigger the victory achievements. Do not worry, you will still be able to keep playing to complete the other routes or go for world domination!	true
 effect_bundles_localised_description_vco_victory_payload_brt_blessed_by_the_lady	Alberic has supped from the grail, becoming a god amongst men.	true
 effect_bundles_localised_description_vco_victory_payload_brt_bordeleaux_reclaimed	The peasants are safe. Have them return to their labours, for idle hands are the daemon's playthings.	true
 effect_bundles_localised_description_vco_victory_payload_brt_the_sea_gods_wrath	The scourge of undeath has been banished from the waves. Manann is pleased.	true
@@ -56,7 +56,7 @@ effect_bundles_localised_description_vco_victory_payload_vmp_man_1_restless_dune
 effect_bundles_localised_description_vco_victory_payload_vmp_man_2_reclaim_throne	This land is my home, my birthright. The wind and rain are my allies. The trees and stones are my foot soldiers. The very earth will rise up against you should you try to take it from me. And my people will feast on your bones.	true
 effect_bundles_localised_description_vco_victory_payload_vmp_man_3_death_comes_for_all_1	Nagash was a fool, too weak to see his dreams realised. I will build an empire of death atop his broken legacy.	true
 effect_bundles_localised_description_vco_victory_payload_vmp_man_3_death_comes_for_all_2	From Nuln to Nordland, all pay the blood tithe and live only to serve the von Carsteins.	true
-effect_bundles_localised_title_vco_campaign_victory_dummy	Campaign Victory	true
+effect_bundles_localised_title_vco_victory_payload_all_campaign_victory_dummy	Campaign Victory	true
 effect_bundles_localised_title_vco_victory_payload_brt_blessed_by_the_lady	Blessed by The Lady	true
 effect_bundles_localised_title_vco_victory_payload_brt_bordeleaux_reclaimed	Bordeleaux Reclaimed	true
 effect_bundles_localised_title_vco_victory_payload_brt_the_sea_gods_wrath	The Sea God's Wrath	true

@@ -1,9 +1,9 @@
 key	localised_title	localised_description	ui_icon	bundle_target	priority	is_global_effect	show_in_3d_space	owner_only
 #effect_bundles_tables;4;db/effect_bundles_tables/vco								
-vco_campaign_victory_dummy	Campaign Victory	Completing a route will count as a campaign victory and will trigger the achievements. Do not worry, you still will be able to keep playing to complete the other routes or go for a world domination!	hunter_effect_icons_loyalty_green.png	faction	1	false	false	true
 vco_dilemma_payload_vmp_man_ossified_portal_first	Cross the Threshold	I must return to Castle Drakenhof and study these books further. My sire will surely relinquish his claim once he witnesses my newfound power. If not... then he will suffer the same fate as the Devils of Swartzhafen.	blood_kiss.png	faction	1	true	false	true
 vco_dilemma_payload_vmp_man_ossified_portal_second	The Time Is Not Right	These dunes still hide many treasures. My business is not concluded here.	blood_kiss.png	faction	1	true	false	true
 vco_dilemma_payload_vmp_man_ossified_portal_third	I Care Not	Sylvania is presently of no concern. I must focus my efforts elsewhere.	blood_kiss.png	faction	1	true	false	true
+vco_victory_payload_all_campaign_victory_dummy	Campaign Victory	Completing a route will count as a campaign victory and will trigger the achievements. Do not worry, you still will be able to keep playing to complete the other routes or go for a world domination!	hunter_effect_icons_loyalty_green.png	faction	1	false	false	true
 vco_victory_payload_brt_blessed_by_the_lady	Blessed by The Lady	Alberic has supped from the grail, becoming a god amongst men.	vow_grail_positive.png	faction	1	true	false	true
 vco_victory_payload_brt_bordeleaux_reclaimed	Bordeleaux Reclaimed	The peasants are safe. Have them return to their labours, for idle hands are the daemon's playthings.	peasant.png	faction	1	true	false	true
 vco_victory_payload_brt_the_sea_gods_wrath	The Sea God's Wrath	The scurge of undeath has been banished from the waves. Manann is pleased.	pirate_crew.png	faction	1	true	false	true
