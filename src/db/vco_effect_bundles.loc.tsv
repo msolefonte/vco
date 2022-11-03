@@ -4,11 +4,12 @@ effect_bundles_localised_description_vco_campaign_victory_dummy	Completing a rou
 effect_bundles_localised_description_vco_victory_payload_brt_blessed_by_the_lady	Alberic has supped from the grail, becoming a god amongst men.	true
 effect_bundles_localised_description_vco_victory_payload_brt_bordeleaux_reclaimed	The peasants are safe. Have them return to their labours, for idle hands are the daemon's playthings.	true
 effect_bundles_localised_description_vco_victory_payload_brt_the_sea_gods_wrath	The scourge of undeath has been banished from the waves. Manann is pleased.	true
-effect_bundles_localised_description_vco_victory_payload_cst_sar_1_captain_of_the_swordfysh	Do you know what she, the queen of the pirates, did when the treasure she always looked for was placed in front of her very eyes? She laughed.	true
-effect_bundles_localised_description_vco_victory_payload_cst_sar_2_daughter_of_manann_1	Manann is said to be mighty, called the Summoner of Storms and Master of Maelstroms.... But no-one ever said he pays the crew's wages. Sacking cities does that.	true
-effect_bundles_localised_description_vco_victory_payload_cst_sar_2_daughter_of_manann_2	Many a victim has died at sea, their corpses sinking gracefully to the sea bed. Manann is all too happy to raise those corpses as fodder for those he favours.	true
-effect_bundles_localised_description_vco_victory_payload_cst_sar_3_dead_man_s_vengeance_1	Rest in peace, Roth. The deed is done. A golden age of piracy is upon us, free of the Dreadfleet's blight.	true
-effect_bundles_localised_description_vco_victory_payload_cst_sar_3_dead_man_s_vengeance_2	The seas are a better place without the Dreadfleet and it's ravaging captain, but his mastery of the Necrofex Colossus was impressive. Such knowledge should not sink beneath the waves.	true
+effect_bundles_localised_description_vco_victory_payload_cst_sar_1_captain_of_the_swordfysh	This moondail once belonged to Captain Jaego Roth, before he was slain by Count Noctilus. Any pirate worth their name pays their respects on seeing it... Mainly in additional coin to it's new bearer.	true
+effect_bundles_localised_description_vco_victory_payload_cst_sar_1_pirate_queen	Do you know what she, the queen of the pirates, did when the treasure she always looked for was placed in front of her very eyes? She laughed.	true
+effect_bundles_localised_description_vco_victory_payload_cst_sar_2_daughter_of_manann_1	Those amongst Aranessa's crew who believe her to be the daughter of Manann fight with a bravado that is rarely seen upon the sun-baked timbers of a man'o'war.  After all, who else upon the seas can claim they share the favour of a god?	true
+effect_bundles_localised_description_vco_victory_payload_cst_sar_2_daughter_of_manann_2	Whether through Manann's divine intervention or simple chance, the floating carcasses of mighty sea beasts are a common sight for the sailors of the Swordfysh. The vampires pledged to the Pirate Queen's service waste no time reanimating the creatures and commanding them to follow in the ship's wake.	true
+effect_bundles_localised_description_vco_victory_payload_cst_sar_3_dead_man_s_vengeance_1	"I want every gun we have to fire on that man."	true
+effect_bundles_localised_description_vco_victory_payload_cst_sar_3_dead_man_s_vengeance_2	As the Sartosans pillaged the rapidly sinking Bloody Reaver, one of their number came across this ancient tome. Upon touching it, they collapsed into ash. A Vampire Fleet Captain quickly recognised its importance and ensured its knowledge was not lost beneath the waves.	true
 effect_bundles_localised_description_vco_victory_payload_cth_cool_and_aloof	From the highest tower in the City of Smoke the Supreme Matriarch safeguards the nation.	true
 effect_bundles_localised_description_vco_victory_payload_cth_dont_thread_on_ming	Across Cathay the merchants rejoice, for the trade routes are secure and wealth flows into the nation.	true
 effect_bundles_localised_description_vco_victory_payload_cth_in_harmony	With the daemons kept at bay, the land thrives and the people are content.	true
@@ -60,11 +61,12 @@ effect_bundles_localised_title_vco_campaign_victory_dummy	Campaign Victory	true
 effect_bundles_localised_title_vco_victory_payload_brt_blessed_by_the_lady	Blessed by The Lady	true
 effect_bundles_localised_title_vco_victory_payload_brt_bordeleaux_reclaimed	Bordeleaux Reclaimed	true
 effect_bundles_localised_title_vco_victory_payload_brt_the_sea_gods_wrath	The Sea God's Wrath	true
-effect_bundles_localised_title_vco_victory_payload_cst_sar_1_captain_of_the_swordfysh	The Pirate Queen	true
-effect_bundles_localised_title_vco_victory_payload_cst_sar_2_daughter_of_manann_1	Lady Of The Seas	true
-effect_bundles_localised_title_vco_victory_payload_cst_sar_2_daughter_of_manann_2	Manann's Favoured	true
-effect_bundles_localised_title_vco_victory_payload_cst_sar_3_dead_man_s_vengeance_1	Sank The Bloody Reaver	true
-effect_bundles_localised_title_vco_victory_payload_cst_sar_3_dead_man_s_vengeance_2	Master Of The Colossi	true
+effect_bundles_localised_title_vco_victory_payload_cst_sar_1_captain_of_the_swordfysh	Jaego Roth's Moondail	true
+effect_bundles_localised_title_vco_victory_payload_cst_sar_2_daughter_of_manann_1	Manann's Favoured	true
+effect_bundles_localised_title_vco_victory_payload_cst_sar_2_daughter_of_manann_2	The Ocean Provides	true
+effect_bundles_localised_title_vco_victory_payload_cst_sar_3_dead_man_s_vengeance_1	More Guns Than Sense	true
+effect_bundles_localised_title_vco_victory_payload_cst_sar_3_dead_man_s_vengeance_2	The Red Book of Van Hel	true
+effect_bundles_localised_title_vco_victory_payload_cst_sar_1_pirate_queen	The Pirate Queen	true
 effect_bundles_localised_title_vco_victory_payload_cth_cool_and_aloof	Unreachable	true
 effect_bundles_localised_title_vco_victory_payload_cth_dont_thread_on_ming	Safe Roads	true
 effect_bundles_localised_title_vco_victory_payload_cth_in_harmony	Empire of the Celestial Dragon	true
