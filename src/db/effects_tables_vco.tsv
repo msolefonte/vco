@@ -5,6 +5,8 @@ vco_brt_alberic_vow_melee_damage	weapon_damage_character.png	101	weapon_damage_c
 vco_brt_alberic_vow_melee_damage_ap	armour_piercing_character.png	101	armour_piercing_character.png	campaign	true
 vco_brt_alberic_vow_resistance_physical	resistance_physical.png	101	resistance_physical.png	campaign	true
 vco_campaign_victory_dummy	hunter_effect_icons_loyalty_green.png	1	hunter_effect_icons_loyalty_green.png	campaign	true
+vco_cst_ara_ward_save	resistance_ward_save.png	101	resistance_ward_save.png	campaign	true
+vco_cst_ara_weapon_strength	weapon_damage_character.png	101	weapon_damage_character.png	campaign	true
 vco_cst_deck_gunners_ammo	ammo.png	101	ammo.png	campaign	true
 vco_cst_deck_gunners_reload	icon_stat_reload_time_force.png	101	icon_stat_reload_time_force.png	campaign	true
 vco_cst_necrofex_colossus_recruitment_time_reduction	turns.png	101	turns.png	campaign	true
@@ -38,5 +40,3 @@ vco_skv_per_turn_mutagen	mutagen.png	101	mutagen.png	campaign	true
 vco_tmb_arkhan_allegiance_points_mod_vampire_coast	allegiance.png	101	allegiance.png	campaign	true
 vco_vmp_man_ward_save	resistance_ward_save.png	101	resistance_ward_save.png	campaign	true
 vco_vmp_man_weapon_strength	weapon_damage_character.png	101	weapon_damage_character.png	campaign	true
-vco_cst_ara_ward_save	resistance_ward_save.png	101	resistance_ward_save.png	campaign	true
-vco_cst_ara_weapon_strength	weapon_damage_character.png	101	weapon_damage_character.png	campaign	true
