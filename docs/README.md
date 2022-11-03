@@ -14,3 +14,4 @@
 * [The Empire](immortal-empires/the-empire.md)
 * [Tomb Kings](immortal-empires/tomb-kings.md)
 * [Vampire Counts](immortal-empires/vampire-counts.md)
+* [Warriors of Chaos](immortal-empires/warriors_of_chaos.md)
