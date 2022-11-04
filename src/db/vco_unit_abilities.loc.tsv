@@ -1,4 +1,4 @@
 key	text	tooltip
 #Loc PackedFile;1;text/db/vco_unit_abilities.loc		
 unit_abilities_onscreen_name_vco_lord_abilities_hunter_of_champions	Hunter of Champions	false
-unit_abilities_tooltip_text_vco_lord_abilities_hunter_of_champions	"Face me if you dare, stunted whelp, or do you lack even an Elven maid's courage? I thought the Sons of Grungni were great warriors, but perhaps you are no true Dwarf. Indeed, maybe you are instead some breed of bearded Goblin, though in truth I have seen a finer beard on a Troll's backside." - Wulfrik the Wanderer, to Dwarf King Thurbad Stonebeard, in perfect Khazalid	false
+unit_abilities_tooltip_text_vco_lord_abilities_hunter_of_champions	Face me if you dare, stunted whelp, or do you lack even an Elven maid's courage? I thought the Sons of Grungni were great warriors, but perhaps you are no true Dwarf. Indeed, maybe you are instead some breed of bearded Goblin, though in truth I have seen a finer beard on a Troll's backside. - Wulfrik the Wanderer, to Dwarf King Thurbad Stonebeard, in perfect Khazalid	false

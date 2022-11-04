@@ -6,6 +6,8 @@ effects_description_vco_brt_alberic_vow_melee_attack	Melee attack: %+n for Alber
 effects_description_vco_brt_alberic_vow_melee_damage	Weapon strength: %+n for Alberic de Bordeleaux	true
 effects_description_vco_brt_alberic_vow_melee_damage_ap	Armour-piercing weapon damage: %+n for Alberic de Bordeleaux	true
 effects_description_vco_brt_alberic_vow_resistance_physical	Physical resistance: %n% for Alberic de Bordeleaux	true
+effects_description_vco_cst_ara_ward_save	Ward save: %+n% for Aranessa Saltspite	true
+effects_description_vco_cst_ara_weapon_strength	Weapon strength: %+n% for Aranessa Saltspite	true
 effects_description_vco_cst_deck_gunners_ammo	Ammunition: %+n% for Deck Gunner units	true
 effects_description_vco_cst_deck_gunners_reload	Reload time reduction: %-n% for Deck Gunner units	true
 effects_description_vco_cst_necrofex_colossus_recruitment_time_reduction	Recruitment duration: %-n turn for Necrofex Colossus units (minimum 1)	true
@@ -39,5 +41,3 @@ effects_description_vco_skv_per_turn_mutagen	Mutagen: %+n per turn	true
 effects_description_vco_tmb_arkhan_allegiance_points_mod_vampire_coast	Allegiance points gained: %+n% for alliances with Vampire Coast	true
 effects_description_vco_vmp_man_ward_save	Ward save: %+n% for Mannfred von Carstein	true
 effects_description_vco_vmp_man_weapon_strength	Weapon strength: %+n% for Mannfred von Carstein	true
-effects_description_vco_cst_ara_ward_save	Ward save: %+n% for Aranessa Saltspite	true
-effects_description_vco_cst_ara_weapon_strength	Weapon strength: %+n% for Aranessa Saltspite	true
