@@ -317,7 +317,7 @@ occasions, now it will be viable to play tall/defensively, without any requisite
     - Destroying Clan Rictus as Karaz-a-Karak is no longer required
     - Clan Eshin reputation is now detected properly
     - Clan Skryre Workshop level is now detected properly
-    - Technical: is_multiplayer() check has been removed, now add_first_tick_callback() is used
+    - _(Technical)_ is_multiplayer() check has been removed, now add_first_tick_callback() is used
 
 ## [4.0.0] Realms of Chaos Release - 23.03.2022
 
@@ -356,8 +356,7 @@ occasions, now it will be viable to play tall/defensively, without any requisite
 - Added new routes for Alberic de Bordeleaux: Bordeleaux Errant
 - All routes have been turned into Short Victories to prevent triggering Endgame Scenarios
 - Payloads renamed into Rewards for better readability
-- Technical:
-  - Now effects and effects bonus include a race identifier in the key
+- _(Technical)_ Now effects and effects bonus include a race identifier in the key
 
 ## [5.0.0-beta.3] Plunder in the Jungle - 12.09.2022
 
@@ -372,8 +371,7 @@ occasions, now it will be viable to play tall/defensively, without any requisite
 
 - Added new routes for Grimgor Ironhide: Grimgor's 'Ardboyz
 - Added new routes for Greasus Goldtooth: Goldtooth Tribe
-- Technical: 
-  - Added new common functions for VCO listeners: `is_faction_military_ally_or_destroyed()`, 
+- _(Technical)_ Added new common functions for VCO listeners: `is_faction_military_ally_or_destroyed()`, 
   `is_faction_vassal_or_destroyed()` and `is_faction_under_your_control()`
   
 ## [5.0.0-beta.5] War in the North - 26.09.2022
@@ -406,3 +404,13 @@ occasions, now it will be viable to play tall/defensively, without any requisite
 - Fixed Goldtooth Tribe's third route objective based on controlling a set of regions
 - Fixed Grimgor's Ardboyz and The Huntsmarshal's Expedition objectives based on razing settlements
 - Improved flavour, replaced icons and fixed typos
+
+## [5.0.0-beta.7] Tales from the East Blue - 04.11.2022
+
+- Added new routes for Aranessa Saltspite: Pirates of Sartosa
+- Added new routes for Wulfrik the Wanderer: World Walkers
+- Fixed a bug that caused Arkhan the Black and Mannfred von Carstein book count to never go up
+- _(Technical)_ Added a new export VCO Lib Commons to standardise implementation across all scripts/submods
+- _(Technical)_ Refactored almost all scripts files. Now each race has its own listeners file
+- _(Technical)_ Added a linter for TSV files
+

@@ -1,3 +1,4 @@
 key	unit_set	special_ability_phase
 #unit_set_special_ability_phase_junctions_tables;0;db/unit_set_special_ability_phase_junctions_tables/vco		
 vco_frostbite_black_orcs	grn_black_orcs	wh_dlc08_unit_contact_frostbite
+vco_poison_marauder_spear_hunter	vco_nor_marauder_hunters_spears	wh_main_unit_contact_poison
