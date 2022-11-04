@@ -1,6 +1,7 @@
 key	text	tooltip
-#Loc PackedFile;1;text/db/vco_effects.loc		
-effects_description_vco_campaign_victory_dummy	Campaign Victory	true
+#Loc PackedFile;1;text/db/vco_effects.loc
+effects_description_vco_all_campaign_victory_dummy	Campaign Victory	true
+effects_description_vco_all_movement_range_post_raze_port	Movement Range: %+n% after razing a port settlement	true
 effects_description_vco_brt_alberic_vow_melee_attack	Melee attack: %+n for Alberic de Bordeleaux	true
 effects_description_vco_brt_alberic_vow_melee_damage	Weapon strength: %+n for Alberic de Bordeleaux	true
 effects_description_vco_brt_alberic_vow_melee_damage_ap	Armour-piercing weapon damage: %+n for Alberic de Bordeleaux	true

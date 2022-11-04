@@ -43,7 +43,7 @@ end
 
 local function wul_replenish_movement(character)
 	if character:faction():has_effect_bundle("vco_victory_payload_nor_wul_1_ragnarok_1") then
-		vlc.characters:replenish_campaign_movement(context:character());
+		vlc.characters:replenish_campaign_movement(character);
 	end
 end
 
@@ -58,12 +58,15 @@ local function check_wul_chaos_allegiance(pooled_resource)
 end
 
 local function check_wul_monster_hunts_completed(mission_record_key)
-	for mission_key in MONSTER_HUNT_MISSION_KEYS do
+	for _, mission_key in ipairs(MONSTER_HUNT_MISSION_KEYS) do
 		if mission_key == mission_record_key then
-			local monster_hunt_completed = (cm:get_saved_value("vco_nor_wul_monster_hunts_succeeded") or 0) + 1;
-			cm:set_saved_value("vco_nor_wul_monster_hunts_succeeded", monster_hunt_completed);
+			local monster_hunts_completed = (cm:get_saved_value("vco_nor_wul_monster_hunts_succeeded") or 0) + 1;
+			cm:set_saved_value("vco_nor_wul_monster_hunts_succeeded", monster_hunts_completed);
 
-			if monster_hunt_completed >= REQUIRED_MONSTER_HUNTS then
+			if monster_hunts_completed < REQUIRED_MONSTER_HUNTS then
+				vco:set_mission_text("vco_nor_wul_monster_hunts", "vco_nor_wul_3_monster_hunt_" .. monster_hunts_completed);
+			else
+				vco:set_mission_text("vco_nor_wul_monster_hunts", "vco_nor_wul_3_monster_hunt");
 				vco:complete_mission(FACTION_WUL_KEY, "vco_nor_wul_monster_hunts");
 			end
 		end
@@ -77,7 +80,8 @@ local function add_listeners()
 		"vco_nor_wul_max_allegiance_with_god_reached",
 		"PooledResourceChanged",
 		function(context)
-			return context:faction():is_human() and
+			return not context:faction():is_null_interface() and
+				context:faction():is_human() and
 				context:faction():name() == FACTION_WUL_KEY and
 				context:resource():value() == 100;
 		end,
@@ -106,7 +110,7 @@ local function add_listeners()
 			local faction = context:character():faction();
 			return faction:is_human() and
 				faction:name() == FACTION_WUL_KEY and
-				(context:garrison_residence():settlement_interface():port_slot() or false);
+				not context:garrison_residence():settlement_interface():port_slot():is_null_interface();
 		end,
 		function(context)
 			wul_replenish_movement(context:character());
