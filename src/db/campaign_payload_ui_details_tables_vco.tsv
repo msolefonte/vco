@@ -1,0 +1,4 @@
+component	icon	state	sort_order
+#campaign_payload_ui_details_tables;2;db/campaign_payload_ui_details_tables/vco			
+vco_vmp_man_dilemma_ossified_portal_ask_again	UI/Campaign UI/Effect_bundles/turns.png	default	0
+vco_vmp_man_dilemma_ossified_portal_teleport	ui/campaign ui/effect_bundles/teleport.png	default	0

@@ -2,16 +2,18 @@ local missions = {
 	[[
  		mission
 		{
-			victory_type vco_victory_type_def_cul_1_stellar_pyramids_of_khaine;
+			victory_type vco_victory_type_def_cop_1_stellar_pyramids_of_khaine;
 			key wh_main_short_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
 				objective
 				{
-					override_text mission_text_text_vco_def_cul_1_stellar_pyramids_of_khaine;
-					type SCRIPTED;
-					script_key vco_dummy;
+					override_text mission_text_text_vco_def_cop_1_stellar_pyramids_of_khaine;
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 1;
+
+					region wh3_main_combi_region_hexoatl;
 				}
 
 				objective
@@ -21,14 +23,6 @@ local missions = {
 					faction wh2_main_lzd_hexoatl;
 
 					confederation_valid;
-				}
-
-				objective
-				{
-					type CONTROL_N_REGIONS_INCLUDING;
-					total 1;
-
-					region wh3_main_combi_region_hexoatl;
 				}
 
 				objective
@@ -44,13 +38,13 @@ local missions = {
 				{
 					effect_bundle
 					{
-						bundle_key vco_victory_payload_def_cul_1_stellar_pyramids_of_khaine;
+						bundle_key vco_victory_payload_def_cop_1_stellar_pyramids_of_khaine;
 						turns 0;
 					}
 
 					effect_bundle
 					{
-						bundle_key vco_campaign_victory_dummy;
+						bundle_key vco_victory_payload_all_campaign_victory_dummy;
 						turns 0;
 					}
 
@@ -62,14 +56,14 @@ local missions = {
 	[[
  		mission
 		{
-			victory_type vco_victory_type_def_cul_2_hell_hath_no_fury;
+			victory_type vco_victory_type_def_cop_2_hell_hath_no_fury;
 			key wh_main_short_victory;
 			issuer MUFFIN_MAN;
 			primary_objectives_and_payload
 			{
 				objective
 				{
-					override_text mission_text_text_vco_def_cul_2_hell_hath_no_fury_1;
+					override_text mission_text_text_vco_def_cop_2_hell_hath_no_fury_1;
 					type SCRIPTED;
 					script_key vco_dummy;
 				}
@@ -85,7 +79,7 @@ local missions = {
 
 				objective
 				{
-					override_text mission_text_text_vco_def_cul_2_hell_hath_no_fury_2;
+					override_text mission_text_text_vco_def_cop_2_hell_hath_no_fury_2;
 					type SCRIPTED;
 					script_key vco_dummy;
 				}
@@ -103,19 +97,19 @@ local missions = {
 				{
 					effect_bundle
 					{
-						bundle_key vco_victory_payload_def_cul_2_hell_hath_no_fury_1;
+						bundle_key vco_victory_payload_def_cop_2_hell_hath_no_fury_1;
 						turns 0;
 					}
 
 					effect_bundle
 					{
-						bundle_key vco_victory_payload_def_cul_2_hell_hath_no_fury_2;
+						bundle_key vco_victory_payload_def_cop_2_hell_hath_no_fury_2;
 						turns 0;
 					}
 
 					effect_bundle
 					{
-						bundle_key vco_campaign_victory_dummy;
+						bundle_key vco_victory_payload_all_campaign_victory_dummy;
 						turns 0;
 					}
 
@@ -127,20 +121,14 @@ local missions = {
 	[[
  		mission
 		{
-			victory_type vco_victory_type_def_cul_3_return_of_the_queen;
+			victory_type vco_victory_type_def_cop_3_return_of_the_queen;
 			key wh_main_short_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
 				objective
 				{
-					override_text mission_text_text_vco_def_cul_3_return_of_the_queen_1;
-					type SCRIPTED;
-					script_key vco_dummy;
-				}
-
-				objective
-				{
+					override_text mission_text_text_vco_def_cop_3_return_of_the_queen_1;
 					type CONTROL_N_REGIONS_INCLUDING;
 					total 1;
 
@@ -156,11 +144,14 @@ local missions = {
 					building_level wh2_main_special_ghrond_convent_of_sorcery_2;
 				}
 
+
 				objective
 				{
-					override_text mission_text_text_vco_def_cul_3_return_of_the_queen_2;
-					type SCRIPTED;
-					script_key vco_dummy;
+					override_text mission_text_text_vco_def_cop_3_return_of_the_queen_2;
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 1;
+
+					region wh3_main_combi_region_har_ganeth;
 				}
 
 				objective
@@ -172,31 +163,23 @@ local missions = {
 					confederation_valid;
 				}
 
-				objective
-				{
-					type CONTROL_N_REGIONS_INCLUDING;
-					total 1;
-
-					region wh3_main_combi_region_har_ganeth;
-				}
-
 				payload
 				{
 					effect_bundle
 					{
-						bundle_key vco_victory_payload_def_cul_3_return_of_the_queen_1;
+						bundle_key vco_victory_payload_def_cop_3_return_of_the_queen_1;
 						turns 0;
 					}
 
 					effect_bundle
 					{
-						bundle_key vco_victory_payload_def_cul_3_return_of_the_queen_2;
+						bundle_key vco_victory_payload_def_cop_3_return_of_the_queen_2;
 						turns 0;
 					}
 
 					effect_bundle
 					{
-						bundle_key vco_campaign_victory_dummy;
+						bundle_key vco_victory_payload_all_campaign_victory_dummy;
 						turns 0;
 					}
 

@@ -1,0 +1,5 @@
+dilemma_key	choice_key	associated_audio_trigger
+#cdir_events_dilemma_choice_details_tables;3;db/cdir_events_dilemma_choice_details_tables/vco		
+vco_vmp_man_dilemma_ossified_portal	FIRST	
+vco_vmp_man_dilemma_ossified_portal	SECOND	
+vco_vmp_man_dilemma_ossified_portal	THIRD	

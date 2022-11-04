@@ -33,7 +33,7 @@ local missions = {
 
 					effect_bundle
 					{
-						bundle_key vco_campaign_victory_dummy;
+						bundle_key vco_victory_payload_all_campaign_victory_dummy;
 						turns 0;
 					}
 
@@ -67,7 +67,8 @@ local missions = {
 			
 				objective
 				{
-					type RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_INCLUDING;
+					override_text mission_text_text_vco_skv_mdr_2_the_vermintide_comes_override;
+					type CONTROL_N_REGIONS_FROM;
 					total 4;
 				
 					region wh3_main_combi_region_altdorf;
@@ -89,7 +90,7 @@ local missions = {
 
 					effect_bundle
 					{
-						bundle_key vco_campaign_victory_dummy;
+						bundle_key vco_victory_payload_all_campaign_victory_dummy;
 						turns 0;
 					}
 
@@ -110,10 +111,11 @@ local missions = {
 				{
 					override_text mission_text_text_vco_skv_mdr_3_the_frozen_dead;
 					type CONTROL_N_PROVINCES_INCLUDING;
-					total 2;
+					total 3;
 
 					province wh3_main_combi_province_gianthome_mountains;
 					province wh3_main_combi_province_goromadny_mountains;
+					province wh3_main_combi_province_mountains_of_hel;
 				}
 
 				objective
@@ -122,6 +124,7 @@ local missions = {
 
 					faction wh_main_dwf_kraka_drak;
 					faction wh_dlc08_nor_goromadny_tribe;
+					faction wh_dlc08_nor_wintertooth;
 
 					confederation_valid;
 				}
@@ -136,7 +139,7 @@ local missions = {
 
 					effect_bundle
 					{
-						bundle_key vco_campaign_victory_dummy;
+						bundle_key vco_victory_payload_all_campaign_victory_dummy;
 						turns 0;
 					}
 

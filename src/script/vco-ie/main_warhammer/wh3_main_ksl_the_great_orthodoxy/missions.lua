@@ -2,7 +2,7 @@ local missions = {
 	[[
  		mission
 		{
-			victory_type vco_victory_type_ksl_ort_1_there_can_only_be_one;
+			victory_type vco_victory_type_ksl_tgo_1_there_can_only_be_one;
 			key wh_main_short_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
@@ -10,7 +10,7 @@ local missions = {
 
 				objective
 				{
-					override_text mission_text_text_vco_ksl_ort_1_there_can_only_be_one;
+					override_text mission_text_text_vco_ksl_tgo_1_there_can_only_be_one;
 					type CONTROL_N_REGIONS_INCLUDING;
 					total 3;
 
@@ -31,13 +31,13 @@ local missions = {
 				{
 					effect_bundle
 					{
-						bundle_key vco_victory_payload_ksl_ort_1_there_can_only_be_one;
+						bundle_key vco_victory_payload_ksl_tgo_1_there_can_only_be_one;
 						turns 0;
 					}
 
 					effect_bundle
 					{
-						bundle_key vco_campaign_victory_dummy;
+						bundle_key vco_victory_payload_all_campaign_victory_dummy;
 						turns 0;
 					}
 
@@ -49,14 +49,14 @@ local missions = {
 	[[
  		mission
 		{
-			victory_type vco_victory_type_ksl_ort_2_the_last_bastion;
+			victory_type vco_victory_type_ksl_tgo_2_the_last_bastion;
 			key wh_main_short_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
 				objective
 				{
-					override_text mission_text_text_vco_ksl_ort_2_the_last_bastion;
+					override_text mission_text_text_vco_ksl_tgo_2_the_last_bastion;
 					type SCRIPTED;
 					script_key vco_dummy;
 				}
@@ -77,13 +77,13 @@ local missions = {
 				{
 					effect_bundle
 					{
-						bundle_key vco_victory_payload_ksl_ort_2_the_last_bastion;
+						bundle_key vco_victory_payload_ksl_tgo_2_the_last_bastion;
 						turns 0;
 					}
 
 					effect_bundle
 					{
-						bundle_key vco_campaign_victory_dummy;
+						bundle_key vco_victory_payload_all_campaign_victory_dummy;
 						turns 0;
 					}
 
@@ -95,14 +95,20 @@ local missions = {
 	[[
  		mission
 		{
-			victory_type vco_victory_type_ksl_ort_3_wololo;
+			victory_type vco_victory_type_ksl_tgo_3_wololo;
 			key wh_main_short_victory;
 			issuer MUFFIN_MAN;
 			primary_objectives_and_payload
 			{
 				objective
 				{
-					override_text mission_text_text_vco_ksl_ort_3_wololo;
+					override_text mission_text_text_vco_ksl_tgo_3_wololo;
+					type SCRIPTED;
+					script_key vco_dummy;
+				}
+
+				objective
+				{
 					type CONTROL_N_REGIONS_INCLUDING;
 					total 4;
 
@@ -137,31 +143,31 @@ local missions = {
 				{
 					effect_bundle
 					{
-						bundle_key vco_victory_payload_ksl_ort_3_wololo_1;
+						bundle_key vco_victory_payload_ksl_tgo_3_wololo_1;
 						turns 0;
 					}
 				
 					effect_bundle
 					{
-						bundle_key vco_victory_payload_ksl_ort_3_wololo_2;
+						bundle_key vco_victory_payload_ksl_tgo_3_wololo_2;
 						turns 0;
 					}
 				
 					effect_bundle
 					{
-						bundle_key vco_victory_payload_ksl_ort_3_wololo_3;
+						bundle_key vco_victory_payload_ksl_tgo_3_wololo_3;
 						turns 0;
 					}
 				
 					effect_bundle
 					{
-						bundle_key vco_victory_payload_ksl_ort_3_wololo_4;
+						bundle_key vco_victory_payload_ksl_tgo_3_wololo_4;
 						turns 0;
 					}
 
 					effect_bundle
 					{
-						bundle_key vco_campaign_victory_dummy;
+						bundle_key vco_victory_payload_all_campaign_victory_dummy;
 						turns 0;
 					}
 

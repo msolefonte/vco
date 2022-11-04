@@ -1,0 +1,3 @@
+key	localised_title	localised_description	ui_image	generate	prioritized	event_category	sound_popup_override	sound_click_override	override_icon	is_large_dilemma
+#dilemmas_tables;3;db/dilemmas_tables/vco										
+vco_vmp_man_dilemma_ossified_portal	The Ossified Portal	Mannfred raises the Timor Noctis towards the fell moon shining balefully over the desert. He chants sonorously as the blade glows with power, an unholy dirge that fuses the bones of a dozen conquered Tomb Kings into a great ossified portal that thrums with Dhar magic. The way to Sylvania is open.	vco_mannfred_dilemma	false	false	Event	UI_CAM_EVENT_Dilemma			false

@@ -51,7 +51,7 @@ local missions = {
 
 					effect_bundle
 					{
-						bundle_key vco_campaign_victory_dummy;
+						bundle_key vco_victory_payload_all_campaign_victory_dummy;
 						turns 0;
 					}
 
@@ -96,7 +96,7 @@ local missions = {
 
 					effect_bundle
 					{
-						bundle_key vco_campaign_victory_dummy;
+						bundle_key vco_victory_payload_all_campaign_victory_dummy;
 						turns 0;
 					}
 
@@ -116,10 +116,10 @@ local missions = {
 				objective
 				{
 					override_text mission_text_text_vco_brt_bdx_3_home_sweet_home;
-					type CONTROL_N_PROVINCES_INCLUDING;
+					type CONTROL_N_REGIONS_INCLUDING;
 					total 1;
 
-					province wh3_main_combi_province_river_brienne;
+					region wh3_main_combi_region_bordeleaux;
 				}
 
 				objective
@@ -152,7 +152,7 @@ local missions = {
 
 					effect_bundle
 					{
-						bundle_key vco_campaign_victory_dummy;
+						bundle_key vco_victory_payload_all_campaign_victory_dummy;
 						turns 0;
 					}
 
