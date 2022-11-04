@@ -7,7 +7,6 @@ local missions = {
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
-			 
 				objective
 				{
 					override_text mission_text_text_vco_nor_wul_1_ragnarok;
@@ -92,26 +91,11 @@ local missions = {
 					region wh3_main_combi_region_zharr_naggrund;
 				}
 
-				objective
-				{
-					override_text mission_text_text_vco_nor_wul_3_wheres_my_palico_2;
-					type CONTROL_N_REGIONS_INCLUDING;
-					total 1;
-
-					region wh3_main_combi_region_skeggi;
-				}
-
 				payload
 				{
 					effect_bundle
 					{
 						bundle_key vco_victory_payload_nor_wul_2_the_world_walker;
-						turns 0;
-					}
-
-					effect_bundle
-					{
-						bundle_key vco_victory_payload_nor_wul_3_wheres_my_palico_2;
 						turns 0;
 					}
 
@@ -136,18 +120,31 @@ local missions = {
 			{
 				objective
 				{
-					override_text mission_text_text_vco_nor_wul_3_wheres_my_palico_1;
+					override_text mission_text_text_vco_nor_wul_3_monster_hunt_0;
 					type SCRIPTED;
 					script_key vco_nor_wul_monster_hunts;
 				}
 
+				objective
+				{
+					override_text mission_text_text_vco_nor_wul_3_wheres_my_palico;
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 1;
 
+					region wh3_main_combi_region_skeggi;
+				}
 
 				payload
 				{
 					effect_bundle
 					{
-						bundle_key vco_victory_payload_nor_wul_3_wheres_my_palico_1;
+						bundle_key vco_victory_payload_nor_wul_3_monster_hunt;
+						turns 0;
+					}
+
+					effect_bundle
+					{
+						bundle_key vco_victory_payload_nor_wul_3_wheres_my_palico;
 						turns 0;
 					}
 
