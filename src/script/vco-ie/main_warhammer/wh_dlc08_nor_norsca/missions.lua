@@ -134,18 +134,17 @@ local missions = {
 					region wh3_main_combi_region_skeggi;
 				}
 
-
 				payload
 				{
 					effect_bundle
 					{
-						bundle_key vco_victory_payload_nor_wul_3_wheres_my_palico_1;
+						bundle_key vco_victory_payload_nor_wul_3_monster_hunt;
 						turns 0;
 					}
 
 					effect_bundle
 					{
-						bundle_key vco_victory_payload_nor_wul_3_wheres_my_palico_2;
+						bundle_key vco_victory_payload_nor_wul_3_wheres_my_palico;
 						turns 0;
 					}
 
