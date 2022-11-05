@@ -20,6 +20,21 @@ local function check_nka_gifts_given(faction_name)
 	end
 end
 
+local function check_nka_cult_building(context)
+	vco:log("VCO | Seducers of Slaanesh | Event | Building Completed");
+	
+	-- TODO this event type doesn't have much on it, figure out what we need
+	local faction_name = context:slot_manager():faction():name();
+
+	local cult_buildings_completed = cm:get_saved_value("cult_buildings_built_" .. faction_name) or 0;
+	vco:log("VCO | Seducers of Slaanesh | Value | cult_buildings_built_" .. faction_name .. " | = " .. cult_buildings_completed);
+
+	local building_completed_slot_type = context:building():slot():type();
+	local building_completed_slot_name = context:building():slot():name();
+	vco:log("VCO | Seducers of Slaanesh | Value | Building Completed Type | " .. building_completed_slot_type);
+	vco:log("VCO | Seducers of Slaanesh | Value | Building Completed Name | " .. building_completed_slot_name);
+end
+
 -- LISTENERS --
 
 local function add_listeners()
@@ -32,6 +47,19 @@ local function add_listeners()
 		end,
 		function(context)
 			check_nka_gifts_given(context:tagging_faction():name());
+		end,
+		true
+	);
+	
+	core:add_listener(
+		"vco_sla_nka_cult_building_constructed",
+		"ForeignSlotBuildingCompleteEvent",
+		function(context)
+			return context:slot_manager():faction():is_human() and
+				context:slot_manager():faction():name() == FACTION_KEY
+		end,
+		function(context)
+			check_nka_cult_building(context);
 		end,
 		true
 	);
