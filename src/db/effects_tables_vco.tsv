@@ -1,5 +1,5 @@
 effect	icon	priority	icon_negative	category	is_positive_value_good
-#effects_tables;0;db/effects_tables/vco
+#effects_tables;0;db/effects_tables/vco					
 vco_all_campaign_victory_dummy	hunter_effect_icons_loyalty_green.png	1	hunter_effect_icons_loyalty_green.png	campaign	true
 vco_all_movement_range_post_raze_port	engineer.png	101	engineer.png	campaign	true
 vco_brt_alberic_vow_melee_attack	melee_character.png	101	melee_character.png	campaign	true
@@ -42,3 +42,5 @@ vco_skv_per_turn_mutagen	mutagen.png	101	mutagen.png	campaign	true
 vco_tmb_arkhan_allegiance_points_mod_vampire_coast	allegiance.png	101	allegiance.png	campaign	true
 vco_vmp_man_ward_save	resistance_ward_save.png	101	resistance_ward_save.png	campaign	true
 vco_vmp_man_weapon_strength	weapon_damage_character.png	101	weapon_damage_character.png	campaign	true
+vco_sla_nkari_weapon_strength	weapon_damage_character.png	101	weapon_damage_character.png	campaign	true
+vco_sla_devotees	devotees.png	101	devotees.png	campaign	true
