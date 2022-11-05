@@ -83,14 +83,14 @@ local missions = {
 				{
 					override_text mission_text_text_vco_sla_nka_2_paradise_lost_spread_marks;
 					type SCRIPTED;
-					script_key vco_dummy;
+					script_key vco_wh3_main_sla_seducers_of_slaanesh_gifts_given;
 				}
 
 				objective
 				{
 					override_text mission_text_text_vco_sla_nka_2_paradise_lost_establish_cults;
 					type SCRIPTED;
-					script_key vco_dummy;
+					script_key vco_wh3_main_sla_seducers_of_slaanesh_cults_established;
 				}
 
 				payload

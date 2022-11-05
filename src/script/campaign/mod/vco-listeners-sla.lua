@@ -3,36 +3,36 @@ local vlc = core:get_static_object("vco-lib-commons");
 
 local FACTION_KEY = "wh3_main_sla_seducers_of_slaanesh";
 local NUMBER_GIFTS_REQUIRED = 20;
+local NUMBER_CULTS_REQUIRED = 10;
 
 -- CHECKS --
 
-local function check_nka_gifts_given(faction_name)
-	local gifts_given = cm:get_saved_value("gifts_given_" .. faction_name) or 0;
+local function check_nka_gifts_given()
+	local gifts_given = cm:get_saved_value("gifts_given_" .. FACTION_KEY) or 0;
 	
 	local gifts_given_incremented = gifts_given + 1;
-	cm:set_saved_value("gifts_given_" .. faction_name, gifts_given_incremented);
+	cm:set_saved_value("gifts_given_" .. FACTION_KEY, gifts_given_incremented);
 	
 	if gifts_given_incremented < NUMBER_GIFTS_REQUIRED then
-		vco:set_mission_text("vco_" .. faction_name .. "_gifts_given", "vco_sla_gifts_given_" .. gifts_given_incremented);
+		vco:set_mission_text("vco_" .. FACTION_KEY .. "_gifts_given", "vco_sla_gifts_given_" .. gifts_given_incremented);
 	else
-		vco:set_mission_text("vco_" .. faction_name .. "_gifts_given", "vco_sla_gifts_given_completed");
-		vco:complete_mission(faction_name, "vco_" .. faction_name .. "_gifts_given");
+		vco:set_mission_text("vco_" .. FACTION_KEY .. "_gifts_given", "vco_sla_gifts_given_completed");
+		vco:complete_mission(FACTION_KEY, "vco_" .. FACTION_KEY .. "_gifts_given");
 	end
 end
 
 local function check_nka_cult_building(context)
-	vco:log("VCO | Seducers of Slaanesh | Event | Building Completed");
+	local cult_buildings_completed = cm:get_saved_value("cult_buildings_built_" .. FACTION_KEY) or 0;
 	
-	-- TODO this event type doesn't have much on it, figure out what we need
-	local faction_name = context:slot_manager():faction():name();
+	local cult_buildings_completed_incremented = cult_buildings_completed + 1;
+	cm:set_saved_value("cult_buildings_built_" .. FACTION_KEY, cult_buildings_completed_incremented);
 
-	local cult_buildings_completed = cm:get_saved_value("cult_buildings_built_" .. faction_name) or 0;
-	vco:log("VCO | Seducers of Slaanesh | Value | cult_buildings_built_" .. faction_name .. " | = " .. cult_buildings_completed);
-
-	local building_completed_slot_type = context:building():slot():type();
-	local building_completed_slot_name = context:building():slot():name();
-	vco:log("VCO | Seducers of Slaanesh | Value | Building Completed Type | " .. building_completed_slot_type);
-	vco:log("VCO | Seducers of Slaanesh | Value | Building Completed Name | " .. building_completed_slot_name);
+	if cult_buildings_completed_incremented < NUMBER_CULTS_REQUIRED then
+		vco:set_mission_text("vco_" .. FACTION_KEY .. "_cults_established", "vco_sla_cults_established_" .. cult_buildings_completed_incremented);
+	else
+		vco:set_mission_text("vco_" .. FACTION_KEY .. "_cults_established", "vco_sla_cults_established_completed");
+		vco:complete_mission(FACTION_KEY, "vco_" .. FACTION_KEY .. "_cults_established");
+	end
 end
 
 -- LISTENERS --
@@ -45,9 +45,7 @@ local function add_listeners()
 			return context:tagging_faction():is_human() and
 				context:tagging_faction():name() == FACTION_KEY
 		end,
-		function(context)
-			check_nka_gifts_given(context:tagging_faction():name());
-		end,
+		check_nka_gifts_given,
 		true
 	);
 	
@@ -58,9 +56,7 @@ local function add_listeners()
 			return context:slot_manager():faction():is_human() and
 				context:slot_manager():faction():name() == FACTION_KEY
 		end,
-		function(context)
-			check_nka_cult_building(context);
-		end,
+		check_nka_cult_building,
 		true
 	);
 end
