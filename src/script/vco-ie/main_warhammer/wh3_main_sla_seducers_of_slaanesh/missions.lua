@@ -55,7 +55,7 @@ local missions = {
 
 					effect_bundle
 					{
-						bundle_key vco_campaign_victory_dummy;
+						bundle_key vco_victory_payload_all_campaign_victory_dummy;
 						turns 0;
 					}
 
@@ -103,7 +103,7 @@ local missions = {
 
 					effect_bundle
 					{
-						bundle_key vco_campaign_victory_dummy;
+						bundle_key vco_victory_payload_all_campaign_victory_dummy;
 						turns 0;
 					}
 
@@ -149,7 +149,7 @@ local missions = {
 
 					effect_bundle
 					{
-						bundle_key vco_campaign_victory_dummy;
+						bundle_key vco_victory_payload_all_campaign_victory_dummy;
 						turns 0;
 					}
 
