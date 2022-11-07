@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc PackedFile;1;text/db/vco_effects.loc
+#Loc PackedFile;1;text/db/vco_effects.loc		
 effects_description_vco_all_campaign_victory_dummy	Campaign Victory	true
 effects_description_vco_all_movement_range_post_raze_port	Movement Range: %+n% after razing a port settlement	true
 effects_description_vco_brt_alberic_vow_melee_attack	Melee attack: %+n for Alberic de Bordeleaux	true
@@ -24,7 +24,7 @@ effects_description_vco_grn_black_orcs_frostbite	Enables frostbite attacks for B
 effects_description_vco_grn_per_turn_salvage_gain	Scrap: %+n per turn	true
 effects_description_vco_grn_per_turn_waaagh	Reputation: %+n per turn	true
 effects_description_vco_ksl_tgo_luminark_unlock_dummy	Unlock new unit: Luminark of Hysh	true
-effects_description_vco_nor_wul_enable_rampage_ability  Ability: "Hunter of Champions" for Wulfrik true
+effects_description_vco_nor_wul_enable_rampage_ability	Ability: "Hunter of Champions" for Wulfrik	true
 effects_description_vco_nor_wul_marauder_melee_poison	Enables poison attacks for all Marauders, Marauder Beserkers, and Marauder Champions	true
 effects_description_vco_nor_wul_marauder_spear_hunter_bonus_large	Bonus vs Large: %+n for Marauder Spearmen and Hunters	true
 effects_description_vco_nor_wul_marauder_spear_hunter_primal_instincts	Passive ability: "Primal Instincts" for Marauder Spearmen and Hunters	true
