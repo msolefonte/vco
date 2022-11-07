@@ -42,3 +42,4 @@ effects_description_vco_tmb_arkhan_allegiance_points_mod_vampire_coast	Allegianc
 effects_description_vco_vmp_man_ward_save	Ward save: %+n% for Mannfred von Carstein	true
 effects_description_vco_vmp_man_weapon_strength	Weapon strength: %+n% for Mannfred von Carstein	true
 effects_description_vco_sla_devotees	Devotees: %+n per turn	true
+effects_description_vco_sla_nkari_weapon_strength	Weapon strength: %+n% for N'Kari	true
