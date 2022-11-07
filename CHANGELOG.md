@@ -414,9 +414,8 @@ occasions, now it will be viable to play tall/defensively, without any requisite
 - _(Technical)_ Refactored almost all scripts files. Now each race has its own listeners file
 - _(Technical)_ Added a linter for TSV files
 
-## [5.0.0-beta.7.HOTFIX-1] - xx.11.2022
+## [5.0.0-beta.7.HOTFIX-1] - 07.11.2022
 
-- Fixed missing icons for Aranessa Saltspite's rewards
-- Fixed missing ability tooltip for Wulfrik's reward
-- Fixed AI factions having access to unlockable units
+- Fixed a bug that allowed AI factions to recruit unlockable units
+- Improved flavour and replaced icons
 
