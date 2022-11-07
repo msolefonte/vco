@@ -96,7 +96,6 @@ local function add_listeners()
 		"FactionTurnStart",
 		function(context)
 			return cm:model():turn_number() == 1 and
-				context:faction():is_human() and
 				context:faction():name() == FACTION_WUL_KEY;
 		end,
 		wul_lock_units,
