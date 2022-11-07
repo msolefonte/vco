@@ -419,3 +419,7 @@ occasions, now it will be viable to play tall/defensively, without any requisite
 - Fixed a bug that allowed AI factions to recruit unlockable units
 - Improved flavour and replaced icons
 
+## [5.0.0-beta-8] TITLE - DATE
+- Fixed Wulfrik's Skeggi objective and payload location
+- Fixed more effect bundle icons
+
