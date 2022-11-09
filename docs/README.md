@@ -16,3 +16,4 @@
 * [Tomb Kings](immortal-empires/tomb-kings.md)
 * [Vampire Coast](immortal-empires/vampire-coast.md)
 * [Vampire Counts](immortal-empires/vampire-counts.md)
+* [Legion of Chaos](immortal-empires/legion-of-chaos.md)
