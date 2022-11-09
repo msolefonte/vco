@@ -1,28 +1,43 @@
 key	text	tooltip
 #Loc PackedFile;1;text/db/vco_effects.loc		
-effects_description_vco_campaign_victory_dummy	Campaign Victory	true
-effects_description_vco_emp_cursed_artifact_notidoq	Passive ability: "Primal Instincts"	true
+effects_description_vco_all_campaign_victory_dummy	Campaign Victory	true
+effects_description_vco_all_movement_range_post_raze_port	Movement Range: %+n% after razing a port settlement	true
 effects_description_vco_brt_alberic_vow_melee_attack	Melee attack: %+n for Alberic de Bordeleaux	true
 effects_description_vco_brt_alberic_vow_melee_damage	Weapon strength: %+n for Alberic de Bordeleaux	true
 effects_description_vco_brt_alberic_vow_melee_damage_ap	Armour-piercing weapon damage: %+n for Alberic de Bordeleaux	true
 effects_description_vco_brt_alberic_vow_resistance_physical	Physical resistance: %n% for Alberic de Bordeleaux	true
+effects_description_vco_cst_ara_ward_save	Ward save: %+n% for Aranessa Saltspite	true
+effects_description_vco_cst_ara_weapon_strength	Weapon strength: %+n% for Aranessa Saltspite	true
+effects_description_vco_cst_deck_gunners_ammo	Ammunition: %+n% for Deck Gunner units	true
+effects_description_vco_cst_deck_gunners_reload	Reload time reduction: %-n% for Deck Gunner units	true
+effects_description_vco_cst_necrofex_colossus_recruitment_time_reduction	Recruitment duration: %-n turn for Necrofex Colossus units (minimum 1)	true
+effects_description_vco_cst_necrofex_colossus_upkeep_reduction	Upkeep: %-n% for Necrofex Colossus	true
+effects_description_vco_cst_rotting_units_upkeep_reduction	Upkeep: %-n% for Rotting Prometheans and Rotting Leviathans	true
+effects_description_vco_cst_zombie_deckhands_missile_strength	Missile strength: %+n% for Zombie Deckhand units	true
 effects_description_vco_def_morathi_miscast_base_chance	Miscast base chance: %-n% for Morathi	true
-effects_description_vco_def_morathi_targeting_range	Spell targeting range: %+n% for Morathi	true
-effects_description_vco_def_morathi_ward_save	Ward save: %+n% for Morathi	true
 effects_description_vco_def_morathi_missile_resistance	Missile resistance: %+n% for Morathi	true
 effects_description_vco_def_morathi_slaanesh_unlock_dummy	Unlocks new Slaanesh units: Fiends and Keepers of Secrets	true
+effects_description_vco_def_morathi_targeting_range	Spell targeting range: %+n% for Morathi	true
+effects_description_vco_def_morathi_ward_save	Ward save: %+n% for Morathi	true
+effects_description_vco_emp_cursed_artifact_notidoq	Passive ability: "Primal Instincts"	true
+effects_description_vco_grn_black_orcs_frostbite	Enables frostbite attacks for Black Orcs	true
 effects_description_vco_grn_per_turn_salvage_gain	Scrap: %+n per turn	true
 effects_description_vco_grn_per_turn_waaagh	Reputation: %+n per turn	true
-effects_description_vco_grn_black_orcs_frostbite	Enables frostbite attacks for Black Orcs	true
-effects_description_vco_ogr_greasus_speed	Speed: %+n% for Greasus Goldtooth	true
-effects_description_vco_ogr_greasus_charge_bonus	Charge Bonus: %+n for Greasus Goldtooth	true
+effects_description_vco_ksl_tgo_luminark_unlock_dummy	Unlock new unit: Luminark of Hysh	true
+effects_description_vco_nor_wul_enable_rampage_ability	Ability: "Hunter of Champions" for Wulfrik	true
+effects_description_vco_nor_wul_marauder_melee_poison	Enables poison attacks for all Marauders, Marauder Beserkers, and Marauder Champions	true
+effects_description_vco_nor_wul_marauder_spear_hunter_bonus_large	Bonus vs Large: %+n for Marauder Spearmen and Hunters	true
+effects_description_vco_nor_wul_marauder_spear_hunter_primal_instincts	Passive ability: "Primal Instincts" for Marauder Spearmen and Hunters	true
+effects_description_vco_nor_wul_movement_range_post_raze_port	Campaign movement range: %+n% after razing a port settlement	true
+effects_description_vco_nor_wul_units_unlock_dummy	Unlocks new Daemonic units after pledging to a Chaos God	true
 effects_description_vco_ogr_greasus_armour	Armour: %+n for Greasus Goldtooth	true
+effects_description_vco_ogr_greasus_charge_bonus	Charge Bonus: %+n for Greasus Goldtooth	true
+effects_description_vco_ogr_greasus_speed	Speed: %+n% for Greasus Goldtooth	true
 effects_description_vco_ogr_greasus_ward_save	Ward save: %+n% for Greasus Goldtooth	true
-effects_description_vco_ksl_ort_luminark_unlock_dummy	Unlock new unit: Luminark of Hysh	true
+effects_description_vco_skv_clan_moulder_strength	Weapon strength: %+n% for all Clan Moulder units	true
 effects_description_vco_skv_food	Food generated: %n	true
 effects_description_vco_skv_per_turn_growth_vat	Growth Juice: %+n per turn	true
 effects_description_vco_skv_per_turn_mutagen	Mutagen: %+n per turn	true
-effects_description_vco_skv_clan_moulder_strength	Weapon strength: %+n% for all Clan Moulder units	true
 effects_description_vco_tmb_arkhan_allegiance_points_mod_vampire_coast	Allegiance points gained: %+n% for alliances with Vampire Coast	true
-effects_description_vco_vmp_mannfred_weapon_strength	Weapon strength: %+n% for Mannfred von Carstein	true
-effects_description_vco_vmp_mannfred_ward_save	Ward save: %+n% for Mannfred von Carstein	true
+effects_description_vco_vmp_man_ward_save	Ward save: %+n% for Mannfred von Carstein	true
+effects_description_vco_vmp_man_weapon_strength	Weapon strength: %+n% for Mannfred von Carstein	true
