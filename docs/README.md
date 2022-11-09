@@ -8,6 +8,7 @@
 * [Dark Elves](immortal-empires/dark-elves.md)
 * [Grand Cathay](immortal-empires/cathay.md)
 * [Greenskins](immortal-empires/greenskins.md)
+* [Khorne](khorne.md)
 * [Kislev](immortal-empires/kislev.md)
 * [Lizardmen](immortal-empires/lizardmen.md)
 * [Norsca](immortal-empires/norsca.md)
