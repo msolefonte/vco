@@ -20,3 +20,5 @@
 * [Vampire Coast](immortal-empires/vampire-coast.md)
 * [Vampire Counts](immortal-empires/vampire-counts.md)
 * [Warriors of Chaos](immortal-empires/warriors-of-chaos.md)
+* [Wood Elves](immortal-empires/wood_elves.md)
+
