@@ -44,6 +44,12 @@ end
 
 -- DIPLOMACY --
 
+function vlc.diplomacy:apply_effect_bundle_safe(effect_bundle_key, faction_key, number_turns)
+	if self:is_target_faction_valid(target_faction_key) then
+		cm:apply_effect_bundle(effect_bundle_key, faction_key, number_turns);
+	end
+end
+
 function vlc.diplomacy:is_faction_military_ally_or_destroyed(self_faction, target_faction_key)
 	local target_faction = cm:get_faction(target_faction_key);
 	return target_faction and (target_faction:is_dead() or target_faction:military_allies_with(self_faction));
@@ -72,6 +78,17 @@ end
 function vlc.diplomacy:is_faction_under_your_control(self_faction, target_faction_key, consider_military_allies)
 	return self:is_faction_vassal_or_destroyed(self_faction, target_faction_key, consider_military_allies) or
 		self:is_faction_military_ally_or_destroyed(self_faction, target_faction_key);
+end
+
+function vlc.diplomacy:is_target_faction_valid(target_faction_key)
+	local target = cm:get_faction(target_faction_key);
+	return target ~= nil and not (target:is_null_interface() or target:is_human() or target:is_dead());
+end
+
+function vlc.diplomacy:vassalise_faction_safe(self_faction, target_faction_key)
+	if self:is_target_faction_valid(target_faction_key) then
+		cm:force_make_vassal(self_faction, target_faction_key);
+	end
 end
 
 -- NAGASH BOOKS --
