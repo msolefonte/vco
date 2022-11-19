@@ -37,7 +37,7 @@ effect_bundles_localised_description_vco_victory_payload_ksl_tgo_3_wololo_4	Rejo
 effect_bundles_localised_description_vco_victory_payload_lzd_hex_1_solar_city	The interlopers have been purged. The Skink artisans and Kroxigor labourers can continue their work unabated.	true
 effect_bundles_localised_description_vco_victory_payload_lzd_hex_2_begone_thot	The Hag Queen and her cruel consorts have met their end, their souls now the playthings of the Ancient Enemy for all eternity. The arcane artifacts contained within Quintex are now at your disposal.	true
 effect_bundles_localised_description_vco_victory_payload_lzd_hex_3_purging_warmbloods	The Geomantic Web thrums with power, the spawning pools thrash with new life - all is as the Old Ones foretold.	true
-effect_bundles_localised_description_vco_victory_payload_nor_wul_1_ragnarok_1	Seafang's figurehead quickly absorbed the blood of the slain challengers that were smeared upon it. The ship now glows with an eldritch power that has spread across Wulfrik's entire fleet, filling their sails with the Winds of Magic.	true
+effect_bundles_localised_description_vco_victory_payload_nor_wul_1_ragnarok_1	Seafang's figurehead quickly absorbed the blood of the slain challengers that were smeared upon it. The ship now thrums with an eldritch power that has spread across Wulfrik's entire fleet, filling their sails with the Winds of Magic.	true
 effect_bundles_localised_description_vco_victory_payload_nor_wul_1_ragnarok_2	Baleful monuments to your dark master poison the land and whip the Winds of Magic up into a hurricane gale, allowing hordes of daemons to manifest directly into the mortal realm.	true
 effect_bundles_localised_description_vco_victory_payload_nor_wul_2_the_world_walker	With his Gift of Tongues Wulfrik curses foes and goads them into recklessness. Whether he's besmirching a Dwarf's honour, questioning a Bretonnian's lineage or humiliating a haughty Elf - none can ignore his insults for long.	true
 effect_bundles_localised_description_vco_victory_payload_nor_wul_3_monster_hunt	We fought monsters. And we became them.	true
@@ -128,3 +128,13 @@ effect_bundles_localised_title_vco_victory_payload_sla_nka_3_wrath_desire_roc_1	
 effect_bundles_localised_description_vco_victory_payload_sla_nka_3_wrath_desire_roc_1	Skarbrand's anguished soul now writhes within the Witstealer, granting the blade unparalleled strength.	true
 effect_bundles_localised_title_vco_victory_payload_sla_nka_3_wrath_desire_roc_2	Sweet Surrender	true
 effect_bundles_localised_description_vco_victory_payload_sla_nka_3_wrath_desire_roc_2	"Open your hearts to the Flesh-Tempter! No, literally..."	true
+effect_bundles_localised_title_vco_victory_payload_hef_tyr_1_defender_ulthuan	The Age of Sanctuary	true
+effect_bundles_localised_description_vco_victory_payload_hef_tyr_1_defender_ulthuan	Not since the Age of Colonisation have the Elves known such prosperity.	true
+effect_bundles_localised_title_vco_victory_payload_hef_tyr_2_love_and_war_1	Dawn of a New Age	true
+effect_bundles_localised_description_vco_victory_payload_hef_tyr_2_love_and_war_1	With the Witch King's demise, revolts have broken out across Naggaroth. Thousands of slaves and druchii defectors flee the Black Cities, and some even flock to your banner.	true
+effect_bundles_localised_title_vco_victory_payload_hef_tyr_2_love_and_war_2	The Everchild	true
+effect_bundles_localised_description_vco_victory_payload_hef_tyr_2_love_and_war_2	Ostensibly the progeny of the Everqueen and the Phoenix King, some whisper that Aliathra's pedigree is... less than certain.	true
+effect_bundles_localised_title_vco_victory_payload_hef_tyr_3_fate_of_the_soul_1	Reunification	true
+effect_bundles_localised_description_vco_victory_payload_hef_tyr_3_fate_of_the_soul_1	After centuries of isolation, the Asrai now answer to Phoenix King and the Elves of Ulthuan once more.	true
+effect_bundles_localised_title_vco_victory_payload_hef_tyr_3_fate_of_the_soul_2	The Original Phoenix Crown	true
+effect_bundles_localised_description_vco_victory_payload_hef_tyr_3_fate_of_the_soul_2	Tyrion has reclaimed the original Phoenix Crown, which was stolen by the Dwarf King Gotrek Starbreaker at the Battle of the Three Towers. This aching wound to High Elf pride can finally heal.	true
