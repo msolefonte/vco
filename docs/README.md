@@ -14,7 +14,6 @@
 * [Norsca](immortal-empires/norsca.md)
 * [Ogre Kingdoms](immortal-empires/ogre-kingdoms.md)
 * [Skaven](immortal-empires/skaven.md)
-* [Slaanesh](immortal-empires/slaanesh.md)
 * [The Empire](immortal-empires/the-empire.md)
 * [Tomb Kings](immortal-empires/tomb-kings.md)
 * [Vampire Coast](immortal-empires/vampire-coast.md)
