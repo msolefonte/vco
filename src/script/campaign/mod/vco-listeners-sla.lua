@@ -2,8 +2,8 @@ local vco = core:get_static_object("vco");
 local vlc = core:get_static_object("vco-lib-commons");
 
 local FACTION_KEY = "wh3_main_sla_seducers_of_slaanesh";
-local NUMBER_GIFTS_REQUIRED = 20;
-local NUMBER_CULTS_REQUIRED = 10;
+local NUMBER_GIFTS_REQUIRED = 40;
+local NUMBER_CULTS_REQUIRED = 20;
 
 -- CHECKS --
 
