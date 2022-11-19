@@ -6,6 +6,7 @@
 * [Bretonnia](immortal-empires/bretonnia.md)
 * [Daemons of Chaos](immortal-empires/daemons-of-chaos.md)
 * [Dark Elves](immortal-empires/dark-elves.md)
+* [Dwarfs](immortal-empires/dwarfs.md)
 * [Grand Cathay](immortal-empires/cathay.md)
 * [Greenskins](immortal-empires/greenskins.md)
 * [Khorne](khorne.md)
@@ -21,4 +22,3 @@
 * [Vampire Counts](immortal-empires/vampire-counts.md)
 * [Warriors of Chaos](immortal-empires/warriors-of-chaos.md)
 * [Wood Elves](immortal-empires/wood_elves.md)
-
