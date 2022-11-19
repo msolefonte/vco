@@ -15,3 +15,4 @@
 * [Tomb Kings](immortal-empires/tomb-kings.md)
 * [Vampire Coast](immortal-empires/vampire-coast.md)
 * [Vampire Counts](immortal-empires/vampire-counts.md)
+* [Warriors of Chaos](immortal-empires/warriors-of-chaos.md)
