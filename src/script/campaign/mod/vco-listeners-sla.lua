@@ -9,10 +9,10 @@ local NUMBER_CULTS_REQUIRED = 20;
 
 local function check_nka_gifts_given()
 	local gifts_given = cm:get_saved_value("gifts_given_" .. FACTION_KEY) or 0;
-	
+
 	local gifts_given_incremented = gifts_given + 1;
 	cm:set_saved_value("gifts_given_" .. FACTION_KEY, gifts_given_incremented);
-	
+
 	if gifts_given_incremented < NUMBER_GIFTS_REQUIRED then
 		vco:set_mission_text("vco_" .. FACTION_KEY .. "_gifts_given", "vco_sla_gifts_given_" .. gifts_given_incremented);
 	else
@@ -23,7 +23,7 @@ end
 
 local function check_nka_cult_building(context)
 	local cult_buildings_completed = cm:get_saved_value("cult_buildings_built_" .. FACTION_KEY) or 0;
-	
+
 	local cult_buildings_completed_incremented = cult_buildings_completed + 1;
 	cm:set_saved_value("cult_buildings_built_" .. FACTION_KEY, cult_buildings_completed_incremented);
 
@@ -48,7 +48,7 @@ local function add_listeners()
 		check_nka_gifts_given,
 		true
 	);
-	
+
 	core:add_listener(
 		"vco_sla_nka_cult_building_constructed",
 		"ForeignSlotBuildingCompleteEvent",
