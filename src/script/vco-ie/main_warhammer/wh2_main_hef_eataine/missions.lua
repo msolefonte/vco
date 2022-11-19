@@ -143,7 +143,7 @@ local missions = {
 		{
 			victory_type vco_victory_type_hef_tyr_3_fate_of_the_soul;
 			key wh_main_short_victory;
-			issuer CLAN_ELDERS;
+			issuer KING_KAZADOR;
 			primary_objectives_and_payload
 			{
 				objective
