@@ -122,6 +122,13 @@ vco_victory_type_vmp_man_1_restless_dunes	0	0	long	long
 vco_victory_type_vmp_man_2_reclaim_throne	1	0	long	long
 vco_victory_type_vmp_man_3_death_comes_for_all	2	0	long	long
 wh3_main_victory_type_chaos_domination	0	0	long	long
+wh3_main_victory_type_chaos_forge_of_souls	0	0	long	long
+vco_victory_type_sla_nka_1_the_great_game	0	0	long	long
+vco_victory_type_sla_nka_2_paradise_lost	1	0	long	long
+vco_victory_type_sla_nka_3_bloodline_aenarion	2	0	long	long
+vco_victory_type_sla_nka_1_the_great_game_roc	1	0	long	long
+vco_victory_type_sla_nka_2_paradise_lost_roc	2	0	long	long
+vco_victory_type_sla_nka_3_wrath_desire_roc	3	0	long	long
 wh3_main_victory_type_chaos_forge_of_souls	3	0	long	long
 vco_victory_type_hef_tyr_1_defender_ulthuan	0	0	long	long
 vco_victory_type_hef_tyr_2_love_and_war	1	0	long	long

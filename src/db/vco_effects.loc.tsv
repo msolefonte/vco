@@ -41,5 +41,7 @@ effects_description_vco_skv_per_turn_mutagen	Mutagen: %+n per turn	true
 effects_description_vco_tmb_arkhan_allegiance_points_mod_vampire_coast	Allegiance points gained: %+n% for alliances with Vampire Coast	true
 effects_description_vco_vmp_man_ward_save	Ward save: %+n% for Mannfred von Carstein	true
 effects_description_vco_vmp_man_weapon_strength	Weapon strength: %+n% for Mannfred von Carstein	true
-effects_description_vco_hef_tyr_dummy_global_def_revolt	Surviving Dark Elf factions suffer -10 control per turn	true
+effects_description_vco_sla_devotees	Devotees: %+n per turn	true
+effects_description_vco_sla_nkari_weapon_strength	Weapon strength: %+n% for N'Kari	true
+effects_description_vco_hef_tyr_dummy_global_def_revolt	Surviving Dark Elf factions suffer -5 control per turn	true
 effects_description_vco_hef_tyr_dummy_wef_forcible_vassalisation	Most Wood Elf factions are forcibly vassalised	true

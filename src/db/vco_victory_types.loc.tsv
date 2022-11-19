@@ -121,6 +121,12 @@ victory_types_display_name_vco_victory_type_ultimate	Ultimate Campaign Victory	t
 victory_types_display_name_vco_victory_type_vmp_man_1_restless_dunes	Route I - The Restless Dunes	true
 victory_types_display_name_vco_victory_type_vmp_man_2_reclaim_throne	Route II - Reclaiming the Throne	true
 victory_types_display_name_vco_victory_type_vmp_man_3_death_comes_for_all	Route III - Death Comes For All	true
+victory_types_display_name_vco_victory_type_sla_nka_1_the_great_game	Route I - The Great Game	true
+victory_types_display_name_vco_victory_type_sla_nka_2_paradise_lost	Route II - Paradise Lost	true
+victory_types_display_name_vco_victory_type_sla_nka_3_bloodline_aenarion	Route III - Bloodline of Aenarion	true
+victory_types_display_name_vco_victory_type_sla_nka_1_the_great_game_roc	Route I - The Great Game	true
+victory_types_display_name_vco_victory_type_sla_nka_2_paradise_lost_roc	Route II - Paradise Lost	true
+victory_types_display_name_vco_victory_type_sla_nka_3_wrath_desire_roc	Route III - Wrath & Desire	true
 victory_types_display_name_vco_victory_type_hef_tyr_1_defender_ulthuan	Route I - Defender of Ulthuan	true
 victory_types_display_name_vco_victory_type_hef_tyr_2_love_and_war	Route II - All's Fair in Love and War	true
 victory_types_display_name_vco_victory_type_hef_tyr_3_fate_of_the_soul	Route III - The Fate of the Soul	true

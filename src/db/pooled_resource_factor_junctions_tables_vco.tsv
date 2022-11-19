@@ -7,3 +7,4 @@ grn_waaagh	vco	vco_grn_waaagh	-2147483647	2147483647
 skaven_food	vco	vco_skv_food	0	2147483647	
 skv_growth_vat	vco	vco_skv_growth_vat	0	2147483647	
 skv_mutagen	vco	vco_skv_mutagen	0	2147483647	
+wh3_main_sla_devotees	vco	vco_sla_devotees	-2147483647	2147483647	
