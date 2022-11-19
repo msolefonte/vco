@@ -11,20 +11,8 @@
   * **Reward**:
     * _Dark Coronation_: Souls gained from battles: +10%, All Authority +2 (Archaon's army)
 _Reward flavour text:_ With a pulse of eldritch force, the Crown of Domination is placed upon your head. A vast ocean of battle-hardened warriors chants your name. You take up your blade and mount your steed, ready to march south to bring ruination and death to the world.
-wh_dlc01_item_passive_the_crown_of_domination.png
 
-* **Route II - The End Times**
-  * "Fear me mortals, for I am the Anointed, the favoured Son of Chaos, the Scourge of the World. The armies of the gods rally behind me, and it is by my will and by my sword that your weakling nations shall fall."
-  * Destroy or vassalise factions:
-    * Ice Court, Middenheim, Reikland
- * Occupy Middenheim either directly or via diplomacy.
-  * Win 50 battles.
-  * **Reward**:
-    * _The Gateway of Fauschlag_: +10 Chaos Undivided corruption in adjacent provinces factionwide, warband upgrade cost -30% for Undivided units, Gifted units pool capacity: +2 for Keepers of Secrets, Bloodthirsters, Lords of Change and Great Unclean Ones.
-_Reward flavour text:_ Deep beneath Middenheim there lies an ancient device, left from the age when the gods warred against the Old ones; a device that, if properly coaxed, will unleash a rift to the Realm of Chaos.
-icon_spell_vortex.png
-
-* **Route III - Slayer of Kings**
+* **Route II - Slayer of Kings**
   * U'zhul, the daemon trapped within your blade, rages against your will, eager to taste the blood of kings. It is time to slake its thirst.
   * Occupy at least 4 of the following regions either directly or via vassals:
     * Altdorf, Kislev, Couronne, Lair of the Troll King, Karaz-a-Karak, The Oak of Ages, Khemri 
@@ -41,4 +29,13 @@ OPTION 1 REWARDS: -20% Weapon strength for Archaon, income from post-battle loot
 item_ability.png
 OPTION 2: U'zhul Denied: "I said I would set you free, mighty daemon. I never said when."
 OPTION 2 REWARDS: Weapon strength: +20% for Archaon, Ward save: +20% for Archaon
-wh_dlc01_weapon_abilities_the_slayer_of_kings.png
+
+* **Route III - The End Times**
+  * "Fear me mortals, for I am the Anointed, the favoured Son of Chaos, the Scourge of the World. The armies of the gods rally behind me, and it is by my will and by my sword that your weakling nations shall fall."
+  * Destroy or vassalise factions:
+    * Ice Court, Middenheim, Reikland
+ * Occupy Middenheim either directly or via diplomacy.
+  * Win 50 battles.
+  * **Reward**:
+    * _The Gateway of Fauschlag_: +10 Chaos Undivided corruption in adjacent provinces factionwide, warband upgrade cost -30% for Undivided units, Gifted units pool capacity: +2 for Keepers of Secrets, Bloodthirsters, Lords of Change and Great Unclean Ones.
+_Reward flavour text:_ Deep beneath Middenheim there lies an ancient device, left from the age when the gods warred against the Old ones; a device that, if properly coaxed, will unleash a rift to the Realm of Chaos.
