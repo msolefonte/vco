@@ -1,7 +1,7 @@
 local vlc = core:get_static_object("vco-lib-commons");
 
 local FACTION_EAT_KEY = "wh2_main_hef_eataine";
-local KEY_EB_PENALIZATION = "TBD"; -- TODO ADD AN EFFECT BUNDLE THAT DOES -10 PUBLIC ORDER FACTION WIDE
+local KEY_EB_PENALIZATION = "wh2_main_payload_public_order_negative_all_provinces_factionwide";
 local PENALIZABLE_DARK_ELVES_FACTIONS = {
   "wh2_dlc10_def_blood_voyage",
   "wh2_dlc11_def_the_blessed_dread",
@@ -34,26 +34,49 @@ local VASSALIZABLE_WOOD_ELVES_FACTIONS = {
   "wh_dlc05_wef_wydrioth"
 };
 
--- TODO, NEEDS A LISTENER
+-- ACTIONS --
 local function eat_penalize_dark_elves_factions()
   for _, de_faction_key in ipairs(PENALIZABLE_DARK_ELVES_FACTIONS) do
-    vlc.diplomacy:apply_effect_bundle_safe(KEY_EB_PENALIZATION, de_faction_key, 0);
+	vlc.diplomacy:apply_effect_bundle_safe(KEY_EB_PENALIZATION, de_faction_key, 0);
   end
 end
 
--- TODO, NEEDS A LISTENER
 local function eat_vassalize_wood_elves_factions()
   for _, we_faction_key in ipairs(VASSALIZABLE_WOOD_ELVES_FACTIONS) do
-    vlc.diplomacy:vassalise_faction_safe(FACTION_EAT_KEY, we_faction_key);
+	vlc.diplomacy:vassalise_faction_safe(FACTION_EAT_KEY, we_faction_key);
   end
 end
 
 -- LISTENERS --
+local function add_listeners()
+	core:add_listener(
+		"vco_hef_eat_def_control_penalty",
+		"MissionSucceeded",
+		function(context)
+			return not context:faction():is_null_interface() and
+				context:faction():is_human() and
+				context:faction():name() == FACTION_EAT_KEY and
+				context:mission():mission_record_issuer_key() == "MUFFIN_MAN";
+		end,
+		eat_penalize_dark_elves_factions,
+		true
+	); 
 
--- TODO
+	core:add_listener(
+		"vco_hef_eat_wef_vassalisation",
+		"MissionSucceeded",
+		function(context)
+			return not context:faction():is_null_interface() and
+				context:faction():is_human() and
+				context:faction():name() == FACTION_EAT_KEY and
+				context:mission():mission_record_issuer_key() == "KING_KAZADOR";
+		end,
+		eat_vassalize_wood_elves_factions,
+		true
+	);
+end
 
 -- MAIN --
-
 local function main()
 	cm:add_first_tick_callback(add_listeners);
 end
