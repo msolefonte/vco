@@ -4,16 +4,16 @@ mission_text_text_vco_brt_bdx_1_alberic_vow	Complete the [[url:#]]Grail Vow[[/ur
 mission_text_text_vco_brt_bdx_1_sacred_pools	Seek out the [[url:#]]Lady of the Lake[[/url]] in the heart of Lustria. Occupy the following region:	true
 mission_text_text_vco_brt_bdx_2_no_ocean_for_dead_men	<dummy>"Manann is our blessing, our patron, the one that brings food to our table. He’s also the one that drags our foes to the bottom of his watery home, the bringer of storms and crushing waves. He is the Sea and he is eternal."	true
 mission_text_text_vco_brt_bdx_3_home_sweet_home	Return home to your ancestral castle and drive out the foes who have been terrorising the peasants in your absence.\\n\\nMaintain control of the following settlement either by direct ownership or through [[img:icon_vassal]][[/img]]vassals and [[img:icon_military_alliance]][[/img]]military allies:	true
-mission_text_text_vco_common_nagash_books_collected	Collect all the [[url:#]]Books of Nagash[[/url]]. 	true
-mission_text_text_vco_common_nagash_books_collected_0	Collect all the [[url:#]]Books of Nagash[[/url]].\\n(Current: 0) 	true
-mission_text_text_vco_common_nagash_books_collected_1	Collect all the [[url:#]]Books of Nagash[[/url]].\\n(Current: 1) 	true
-mission_text_text_vco_common_nagash_books_collected_2	Collect all the [[url:#]]Books of Nagash[[/url]].\\n(Current: 2) 	true
-mission_text_text_vco_common_nagash_books_collected_3	Collect all the [[url:#]]Books of Nagash[[/url]].\\n(Current: 3) 	true
-mission_text_text_vco_common_nagash_books_collected_4	Collect all the [[url:#]]Books of Nagash[[/url]].\\n(Current: 4) 	true
-mission_text_text_vco_common_nagash_books_collected_5	Collect all the [[url:#]]Books of Nagash[[/url]].\\n(Current: 5) 	true
-mission_text_text_vco_common_nagash_books_collected_6	Collect all the [[url:#]]Books of Nagash[[/url]].\\n(Current: 6) 	true
-mission_text_text_vco_common_nagash_books_collected_7	Collect all the [[url:#]]Books of Nagash[[/url]].\\n(Current: 7) 	true
-mission_text_text_vco_common_nagash_books_collected_8	Collect all the [[url:#]]Books of Nagash[[/url]].\\n(Current: 8) 	true
+mission_text_text_vco_common_nagash_books_collected	Collect all the [[url:#]]Books of Nagash[[/url]].	true
+mission_text_text_vco_common_nagash_books_collected_0	Collect all the [[url:#]]Books of Nagash[[/url]].\\n(Current: 0)	true
+mission_text_text_vco_common_nagash_books_collected_1	Collect all the [[url:#]]Books of Nagash[[/url]].\\n(Current: 1)	true
+mission_text_text_vco_common_nagash_books_collected_2	Collect all the [[url:#]]Books of Nagash[[/url]].\\n(Current: 2)	true
+mission_text_text_vco_common_nagash_books_collected_3	Collect all the [[url:#]]Books of Nagash[[/url]].\\n(Current: 3)	true
+mission_text_text_vco_common_nagash_books_collected_4	Collect all the [[url:#]]Books of Nagash[[/url]].\\n(Current: 4)	true
+mission_text_text_vco_common_nagash_books_collected_5	Collect all the [[url:#]]Books of Nagash[[/url]].\\n(Current: 5)	true
+mission_text_text_vco_common_nagash_books_collected_6	Collect all the [[url:#]]Books of Nagash[[/url]].\\n(Current: 6)	true
+mission_text_text_vco_common_nagash_books_collected_7	Collect all the [[url:#]]Books of Nagash[[/url]].\\n(Current: 7)	true
+mission_text_text_vco_common_nagash_books_collected_8	Collect all the [[url:#]]Books of Nagash[[/url]].\\n(Current: 8)	true
 mission_text_text_vco_cst_sar_1_captain_of_the_swordfysh	<dummy>Commander of the Swordfysh, a mighty galleon crewed by hundreds, Aranessa and her crew prefer boarding actions to thundering broadsides. The ship roves the Tilean Sea and beyond, raiding and pillaging any who cross her path. Make them all fear the crossed tridents upon her sails.	true
 mission_text_text_vco_cst_sar_2_daughter_of_manann	<dummy>Rumour has it that saltwater flows through her veins instead of blood. That she rose fully grown from the waves in a froth of gore. The truth, unknown to most, is not so magnificent - Aranessa was born a mutant in Skjold and thrown into the sea by her own Norscan tribe. Her crews and victims alike believe Manann, Lord of the Seas, watches over her, and the seas rage as the Swordfysh sails into the wealthiest ports.\\n	true
 mission_text_text_vco_cst_sar_3_dead_man_s_vengeance	<dummy>"Sartosa burned and we fled, but a mighty vengeance was born in us that day. Your death did not dull my spirit. You'll have your vengeance, Jaego. I'll see it done."	true
@@ -148,6 +148,13 @@ mission_text_text_vco_grn_gri_2_burn_badlands	<dummy>Long ago, the Chaos Dwarfs 
 mission_text_text_vco_grn_gri_3_unfinished_business_1	<dummy>Grimgor has returned to Karak Kadrin, this time with a colossal battering ram forged by captured Daemonsmiths from the Dark Lands. The stunties are going to need a bigger gate...	true
 mission_text_text_vco_grn_gri_3_unfinished_business_2	<dummy>Grimgor's last attempt to take Kislev was thwarted when the Ice Queen repelled his assault with a massive blizzard. This time he comes prepared. A captured Imperial Pyromancer, his mind addled with madcap mushrooms, will keep the ice at bay.	true
 mission_text_text_vco_grn_gri_3_unfinished_business_3	<dummy>Grimgor abandoned his last siege of Hell Pit when he grew bored of slaughtering the poor sport sent against him, but rumour has it that Throt the Unclean has crafted more powerful beasts in his fleshlabs. Such a challenge cannot go ignored...	true
+mission_text_text_vco_hef_tyr_1_defender_ulthuan	<dummy>Prince Tyrion is the Defender of Ulthuan and the protector of its people, a heavy burden entrusted to him by the Phoenix King Finubar. Among the Dark Elves of Naggaroth he is known as the Reaper, to the Goblins of Red-Axe Pass he is Orcbane, and to the north the Norse know him as Mankiller. For two centuries he has stood between the Elves of Ulthuan and their many foes as an unbreakable shield against the darkness.	true
+mission_text_text_vco_hef_tyr_2_love_and_war	<dummy>Malekith's ruinous ambitions have brought death and destruction to Ulthuan for centuries. Elf has fought against elf for far too long. The civil war must end.	true
+mission_text_text_vco_hef_tyr_2_love_and_war_1	<dummy>Tyrion concerns himself only with the twin duties of protecting Ulthuan and its Everqueen, the beloved Alarielle. However, the latter is seen less as a duty than it is a calling of the heart - it is common knowledge that Tyrion is Alarielle's consort, and has been for many years.	true
+mission_text_text_vco_hef_tyr_3_fate_of_the_soul	<dummy>The fate of Tyrion's soul teeters on a blade-edge. Will he succumb to Aenarion's curse and salve his people's wounded pride with the blood of old enemies, or will he put aside those grievances and reforge old alliances to stand together against the forces of Chaos?	true
+mission_text_text_vco_hef_tyr_3_fate_of_the_soul_1	Control at least 2 of the following regions either by [[img:sword_of_khaine]][[/img]]conquest or through [[img:icon_vassal]][[/img]]vassals and [[img:icon_military_alliance]][[/img]]military allies:	true
+mission_text_text_vco_hef_tyr_3_fate_of_the_soul_2	Control at least 2 of the following regions either by [[img:sword_of_khaine]][[/img]]conquest or through [[img:icon_vassal]][[/img]]vassals and [[img:icon_military_alliance]][[/img]]military allies:	true
+mission_text_text_vco_hef_tyr_3_fate_of_the_soul_3	Control the following regions either by [[img:sword_of_khaine]][[/img]]conquest or through [[img:icon_vassal]][[/img]]vassals and [[img:icon_military_alliance]][[/img]]military allies:	true
 mission_text_text_vco_ksl_tgo_1_there_can_only_be_one	The Ice Queen will lead our mighty nation into ruin with her dangerous magicks. She'd already be screaming on a pyre if she did not share the Red Tzar's blood. Nevertheless, Kostaltyn must act. If we win the support of the people, the Tzarina will have no choice but to relenquish her frozen grip on these lands.	true
 mission_text_text_vco_ksl_tgo_2_the_last_bastion	<dummy>The Supreme Patriarch knows without a shadow of a doubt that the only thing that stands between his people and annihilation is faith. A bright reflection of the agents of darkness, he sees the land and its people as what he must protect and serve.	true
 mission_text_text_vco_ksl_tgo_3_wololo	<dummy>The Old World is rife with corruption, blasphemy, and the worship of lesser gods. Tear down the Temple of Sigmar, disperse the Cult of Ulric, beggar the followers of Handrich! Ursun, Tor, Dazh, Salyak – these are the true gods who will guide the realms of men out of chaos, no others!	true
@@ -376,6 +383,45 @@ mission_text_text_vco_skv_mdr_1_yes_yes_prepare_the_lab	Utterly consumed with hi
 mission_text_text_vco_skv_mdr_2_the_vermintide_comes	<dummy>From Hell Pit they come, a scurrying tide of ratmen and mutant creations thundering towards the lands of men on feet most foul. Throt's vermintide can't be stopped now!	true
 mission_text_text_vco_skv_mdr_2_the_vermintide_comes_override	Control at least 4 of the following regions either by direct ownership or through [[img:icon_vassal]][[/img]]vassals and [[img:icon_military_alliance]][[/img]]military allies:	true
 mission_text_text_vco_skv_mdr_3_the_frozen_dead	Norscan no-furs are perfect for experimentation: warped, tainted-foul, and delicious! What marvelous creations they will inspire!\\n\\nMaintain control of the following provinces either by direct ownership or through [[img:icon_vassal]][[/img]]vassals and [[img:icon_military_alliance]][[/img]]military allies:	true
+mission_text_text_vco_sla_cults_established_1	Establish at least 10 [[url:script_link_campaign_chaos_cults]]Chaos Cults[[/url]]. (Current: 1)	true
+mission_text_text_vco_sla_cults_established_2	Establish at least 10 [[url:script_link_campaign_chaos_cults]]Chaos Cults[[/url]]. (Current: 2)	true
+mission_text_text_vco_sla_cults_established_3	Establish at least 10 [[url:script_link_campaign_chaos_cults]]Chaos Cults[[/url]]. (Current: 3)	true
+mission_text_text_vco_sla_cults_established_4	Establish at least 10 [[url:script_link_campaign_chaos_cults]]Chaos Cults[[/url]]. (Current: 4)	true
+mission_text_text_vco_sla_cults_established_5	Establish at least 10 [[url:script_link_campaign_chaos_cults]]Chaos Cults[[/url]]. (Current: 5)	true
+mission_text_text_vco_sla_cults_established_6	Establish at least 10 [[url:script_link_campaign_chaos_cults]]Chaos Cults[[/url]]. (Current: 6)	true
+mission_text_text_vco_sla_cults_established_7	Establish at least 10 [[url:script_link_campaign_chaos_cults]]Chaos Cults[[/url]]. (Current: 7)	true
+mission_text_text_vco_sla_cults_established_8	Establish at least 10 [[url:script_link_campaign_chaos_cults]]Chaos Cults[[/url]]. (Current: 8)	true
+mission_text_text_vco_sla_cults_established_9	Establish at least 10 [[url:script_link_campaign_chaos_cults]]Chaos Cults[[/url]]. (Current: 9)	true
+mission_text_text_vco_sla_cults_established_completed	Establish at least 10 [[url:script_link_campaign_chaos_cults]]Chaos Cults[[/url]].	true
+mission_text_text_vco_sla_gifts_given_1	Spread at least 20 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 1)	true
+mission_text_text_vco_sla_gifts_given_2	Spread at least 20 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 2)	true
+mission_text_text_vco_sla_gifts_given_3	Spread at least 20 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 3)	true
+mission_text_text_vco_sla_gifts_given_4	Spread at least 20 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 4)	true
+mission_text_text_vco_sla_gifts_given_5	Spread at least 20 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 5)	true
+mission_text_text_vco_sla_gifts_given_6	Spread at least 20 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 6)	true
+mission_text_text_vco_sla_gifts_given_7	Spread at least 20 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 7)	true
+mission_text_text_vco_sla_gifts_given_8	Spread at least 20 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 8)	true
+mission_text_text_vco_sla_gifts_given_9	Spread at least 20 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 9)	true
+mission_text_text_vco_sla_gifts_given_10	Spread at least 20 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 10)	true
+mission_text_text_vco_sla_gifts_given_11	Spread at least 20 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 11)	true
+mission_text_text_vco_sla_gifts_given_12	Spread at least 20 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 12)	true
+mission_text_text_vco_sla_gifts_given_13	Spread at least 20 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 13)	true
+mission_text_text_vco_sla_gifts_given_14	Spread at least 20 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 14)	true
+mission_text_text_vco_sla_gifts_given_15	Spread at least 20 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 15)	true
+mission_text_text_vco_sla_gifts_given_16	Spread at least 20 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 16)	true
+mission_text_text_vco_sla_gifts_given_17	Spread at least 20 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 17)	true
+mission_text_text_vco_sla_gifts_given_18	Spread at least 20 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 18)	true
+mission_text_text_vco_sla_gifts_given_19	Spread at least 20 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 19)	true
+mission_text_text_vco_sla_gifts_given_completed	Spread at least 20 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]].	true
+mission_text_text_vco_sla_nka_1_the_great_game	<dummy>Though Slaanesh is presently the least of the four great Ruinous Powers, his brothers secretly fear him, for he feeds on humanity's darkest urges, a source of power that they cannot hope to match. Let the lands of Ulthuan be submerged beneath a writhing, twitching blanket of sin.	true
+mission_text_text_vco_sla_nka_1_the_great_game_roc	<dummy>Though Slaanesh is presently the least of the four great Ruinous Powers, his brothers secretly fear him, for he feeds on humanity's darkest urges, a source of power that they cannot hope to match. Let the lands of the mortal world be submerged beneath a writhing, twitching blanket of sin.	true
+mission_text_text_vco_sla_nka_2_paradise_lost	<dummy>"Come, mortal. Gorge yourself on the blood of your beloved, slain by your own hands. Let your lust and despair mingle into a delicious concotion. Then, and only then, will you know the sweet caress of the Dark Prince."	true
+mission_text_text_vco_sla_nka_2_paradise_lost_establish_cults	Establish at least 10 [[url:script_link_campaign_chaos_cults]]Chaos Cults[[/url]]. (Current: 0)	true
+mission_text_text_vco_sla_nka_2_paradise_lost_spread_marks	Spread at least 20 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 0)	true
+mission_text_text_vco_sla_nka_3_bloodline_aenarion	<dummy>The Arch-Temptor has been thwarted by Aenarion and his hated descendants more times than he would care to admit. The time has come to visit upon them the most exquisite of agonies. Only after they beg for death will their souls be relinquished to the Dark Prince.	true
+mission_text_text_vco_sla_nka_3_wrath_desire_roc_1	<dummy>The Dark Prince visited exquisite agony upon N'Kari for his failure to defeat the Exiled One. His wounded pride can only be salved with the sweet nectar of revenge...	true
+mission_text_text_vco_sla_nka_3_wrath_desire_roc_2	<dummy>Though Ulthuan is presently shrouded from N'Kari's gaze, the amoral beings of the Old World beg for release. Let us indulge them.	true
+mission_text_text_vco_sla_nka_3_wrath_desire_roc_3	Control at least [[url:#]]6[[/url]] of the following [[url:#]]9[[/url]] regions either by [[img:sword_of_khaine]][[/img]]conquest or through [[img:icon_vassal]][[/img]]vassals and [[img:icon_military_alliance]][[/img]]military allies:	true
 mission_text_text_vco_the_great_game_completed	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.	true
 mission_text_text_vco_the_great_game_completed_0	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 0)	true
 mission_text_text_vco_the_great_game_completed_1	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 1)	true
@@ -426,7 +472,7 @@ mission_text_text_vco_the_great_game_completed_45	Ascend in [[url:#]]The Great G
 mission_text_text_vco_the_great_game_completed_46	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 46)	true
 mission_text_text_vco_the_great_game_completed_47	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 47)	true
 mission_text_text_vco_the_great_game_completed_48	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 48)	true
-mission_text_text_vco_the_great_game_completed_49	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 49)	true 
+mission_text_text_vco_the_great_game_completed_49	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 49)	true
 mission_text_text_vco_the_great_game_completed_50	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 50)	true
 mission_text_text_vco_the_great_game_completed_51	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 51)	true
 mission_text_text_vco_the_great_game_completed_52	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 52)	true
@@ -484,49 +530,3 @@ mission_text_text_vco_tmb_ark_3_faithful_servant	<dummy>The portents are trouble
 mission_text_text_vco_vmp_man_1_restless_dunes	<dummy>The shifting sands of Nehekhara hide many long lost tombs filled with powerful magical artifacts that Mannfred desires. They also hide many foes who would see him undone. They will find only death and an unlife of eternal servitude in these dunes.	true
 mission_text_text_vco_vmp_man_2_reclaim_throne	<dummy>The time has come to return to Sylvania and reclaim the von Carstein's ancestral citadel: Castle Drakenhof. In his private chambers in the uppermost tower Mannfred can continue to study the Books of Nagash he has found thus far. But first, Vlad and Isabella must be convinced to recognise his supremacy, or else be staked through the heart and left out for dawn's light to take them.	true
 mission_text_text_vco_vmp_man_3_death_comes_for_all	<dummy>Mannfred means to marshal every last vestige of the Great Necromancer's power and launch an unholy assault upon the Empire. The reign of the Midnight Aristocracy is nigh...	true
-mission_text_text_vco_sla_nka_1_the_great_game	<dummy>Though Slaanesh is presently the least of the four great Ruinous Powers, his brothers secretly fear him, for he feeds on humanity's darkest urges, a source of power that they cannot hope to match. Let the lands of Ulthuan be submerged beneath a writhing, twitching blanket of sin.	true
-mission_text_text_vco_sla_nka_1_the_great_game_roc	<dummy>Though Slaanesh is presently the least of the four great Ruinous Powers, his brothers secretly fear him, for he feeds on humanity's darkest urges, a source of power that they cannot hope to match. Let the lands of the mortal world be submerged beneath a writhing, twitching blanket of sin.	true
-mission_text_text_vco_sla_nka_2_paradise_lost	<dummy>"Come, mortal. Gorge yourself on the blood of your beloved, slain by your own hands. Let your lust and despair mingle into a delicious concotion. Then, and only then, will you know the sweet caress of the Dark Prince."	true
-mission_text_text_vco_sla_nka_3_bloodline_aenarion	<dummy>The Arch-Temptor has been thwarted by Aenarion and his hated descendants more times than he would care to admit. The time has come to visit upon them the most exquisite of agonies. Only after they beg for death will their souls be relinquished to the Dark Prince.	true
-mission_text_text_vco_sla_nka_2_paradise_lost_spread_marks	Spread at least 20 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 0)	true
-mission_text_text_vco_sla_nka_2_paradise_lost_establish_cults	Establish at least 10 [[url:script_link_campaign_chaos_cults]]Chaos Cults[[/url]]. (Current: 0)	true
-mission_text_text_vco_sla_nka_3_wrath_desire_roc_1	<dummy>The Dark Prince visited exquisite agony upon N'Kari for his failure to defeat the Exiled One. His wounded pride can only be salved with the sweet nectar of revenge...	true
-mission_text_text_vco_sla_nka_3_wrath_desire_roc_2	<dummy>Though Ulthuan is presently shrouded from N'Kari's gaze, the amoral beings of the Old World beg for release. Let us indulge them.	true
-mission_text_text_vco_sla_nka_3_wrath_desire_roc_3	Control at least [[url:#]]6[[/url]] of the following [[url:#]]9[[/url]] regions either by [[img:sword_of_khaine]][[/img]]conquest or through [[img:icon_vassal]][[/img]]vassals and [[img:icon_military_alliance]][[/img]]military allies:	true
-mission_text_text_vco_sla_gifts_given_1	Spread at least 20 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 1)	true
-mission_text_text_vco_sla_gifts_given_2	Spread at least 20 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 2)	true
-mission_text_text_vco_sla_gifts_given_3	Spread at least 20 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 3)	true
-mission_text_text_vco_sla_gifts_given_4	Spread at least 20 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 4)	true
-mission_text_text_vco_sla_gifts_given_5	Spread at least 20 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 5)	true
-mission_text_text_vco_sla_gifts_given_6	Spread at least 20 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 6)	true
-mission_text_text_vco_sla_gifts_given_7	Spread at least 20 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 7)	true
-mission_text_text_vco_sla_gifts_given_8	Spread at least 20 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 8)	true
-mission_text_text_vco_sla_gifts_given_9	Spread at least 20 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 9)	true
-mission_text_text_vco_sla_gifts_given_10	Spread at least 20 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 10)	true
-mission_text_text_vco_sla_gifts_given_11	Spread at least 20 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 11)	true
-mission_text_text_vco_sla_gifts_given_12	Spread at least 20 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 12)	true
-mission_text_text_vco_sla_gifts_given_13	Spread at least 20 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 13)	true
-mission_text_text_vco_sla_gifts_given_14	Spread at least 20 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 14)	true
-mission_text_text_vco_sla_gifts_given_15	Spread at least 20 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 15)	true
-mission_text_text_vco_sla_gifts_given_16	Spread at least 20 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 16)	true
-mission_text_text_vco_sla_gifts_given_17	Spread at least 20 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 17)	true
-mission_text_text_vco_sla_gifts_given_18	Spread at least 20 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 18)	true
-mission_text_text_vco_sla_gifts_given_19	Spread at least 20 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 19)	true
-mission_text_text_vco_sla_gifts_given_completed	Spread at least 20 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]].	true
-mission_text_text_vco_sla_cults_established_1	Establish at least 10 [[url:script_link_campaign_chaos_cults]]Chaos Cults[[/url]]. (Current: 1)	true
-mission_text_text_vco_sla_cults_established_2	Establish at least 10 [[url:script_link_campaign_chaos_cults]]Chaos Cults[[/url]]. (Current: 2)	true
-mission_text_text_vco_sla_cults_established_3	Establish at least 10 [[url:script_link_campaign_chaos_cults]]Chaos Cults[[/url]]. (Current: 3)	true
-mission_text_text_vco_sla_cults_established_4	Establish at least 10 [[url:script_link_campaign_chaos_cults]]Chaos Cults[[/url]]. (Current: 4)	true
-mission_text_text_vco_sla_cults_established_5	Establish at least 10 [[url:script_link_campaign_chaos_cults]]Chaos Cults[[/url]]. (Current: 5)	true
-mission_text_text_vco_sla_cults_established_6	Establish at least 10 [[url:script_link_campaign_chaos_cults]]Chaos Cults[[/url]]. (Current: 6)	true
-mission_text_text_vco_sla_cults_established_7	Establish at least 10 [[url:script_link_campaign_chaos_cults]]Chaos Cults[[/url]]. (Current: 7)	true
-mission_text_text_vco_sla_cults_established_8	Establish at least 10 [[url:script_link_campaign_chaos_cults]]Chaos Cults[[/url]]. (Current: 8)	true
-mission_text_text_vco_sla_cults_established_9	Establish at least 10 [[url:script_link_campaign_chaos_cults]]Chaos Cults[[/url]]. (Current: 9)	true
-mission_text_text_vco_sla_cults_established_completed	Establish at least 10 [[url:script_link_campaign_chaos_cults]]Chaos Cults[[/url]]. true
-mission_text_text_vco_hef_tyr_1_defender_ulthuan	<dummy>Prince Tyrion is the Defender of Ulthuan and the protector of its people, a heavy burden entrusted to him by the Phoenix King Finubar. Among the Dark Elves of Naggaroth he is known as the Reaper, to the Goblins of Red-Axe Pass he is Orcbane, and to the north the Norse know him as Mankiller. For two centuries he has stood between the Elves of Ulthuan and their many foes as an unbreakable shield against the darkness.	true
-mission_text_text_vco_hef_tyr_2_love_and_war	<dummy>Malekith's ruinous ambitions have brought death and destruction to Ulthuan for centuries. Elf has fought against elf for far too long. The civil war must end.	true
-mission_text_text_vco_hef_tyr_2_love_and_war_1	<dummy>Tyrion concerns himself only with the twin duties of protecting Ulthuan and its Everqueen, the beloved Alarielle. However, the latter is seen less as a duty than it is a calling of the heart - it is common knowledge that Tyrion is Alarielle's consort, and has been for many years.	true
-mission_text_text_vco_hef_tyr_3_fate_of_the_soul	<dummy>The fate of Tyrion's soul teeters on a blade-edge. Will he succumb to Aenarion's curse and salve his people's wounded pride with the blood of old enemies, or will he put aside those grievances and reforge old alliances to stand together against the forces of Chaos?	true
-mission_text_text_vco_hef_tyr_3_fate_of_the_soul_1	Control at least 2 of the following regions either by [[img:sword_of_khaine]][[/img]]conquest or through [[img:icon_vassal]][[/img]]vassals and [[img:icon_military_alliance]][[/img]]military allies:	true
-mission_text_text_vco_hef_tyr_3_fate_of_the_soul_2	Control at least 2 of the following regions either by [[img:sword_of_khaine]][[/img]]conquest or through [[img:icon_vassal]][[/img]]vassals and [[img:icon_military_alliance]][[/img]]military allies:	true
-mission_text_text_vco_hef_tyr_3_fate_of_the_soul_3	Control the following regions either by [[img:sword_of_khaine]][[/img]]conquest or through [[img:icon_vassal]][[/img]]vassals and [[img:icon_military_alliance]][[/img]]military allies:	true

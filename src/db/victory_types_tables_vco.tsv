@@ -96,6 +96,9 @@ vco_victory_type_emp_the_3_it_is_round	2	0	long	long
 vco_victory_type_grn_gri_1_boss_east	0	0	long	long
 vco_victory_type_grn_gri_2_burn_badlands	1	0	long	long
 vco_victory_type_grn_gri_3_unfinished_business	2	0	long	long
+vco_victory_type_hef_tyr_1_defender_ulthuan	0	0	long	long
+vco_victory_type_hef_tyr_2_love_and_war	1	0	long	long
+vco_victory_type_hef_tyr_3_fate_of_the_soul	2	0	long	long
 vco_victory_type_ksl_tgo_1_there_can_only_be_one	0	0	long	long
 vco_victory_type_ksl_tgo_2_the_last_bastion	1	0	long	long
 vco_victory_type_ksl_tgo_3_wololo	2	0	long	long
@@ -114,6 +117,12 @@ vco_victory_type_short	0	0	short	short
 vco_victory_type_skv_mdr_1_yes_yes_prepare_the_lab	0	0	long	long
 vco_victory_type_skv_mdr_2_the_vermintide_comes	1	0	long	long
 vco_victory_type_skv_mdr_3_the_frozen_dead	2	0	long	long
+vco_victory_type_sla_nka_1_the_great_game	0	0	long	long
+vco_victory_type_sla_nka_1_the_great_game_roc	1	0	long	long
+vco_victory_type_sla_nka_2_paradise_lost	1	0	long	long
+vco_victory_type_sla_nka_2_paradise_lost_roc	2	0	long	long
+vco_victory_type_sla_nka_3_bloodline_aenarion	2	0	long	long
+vco_victory_type_sla_nka_3_wrath_desire_roc	3	0	long	long
 vco_victory_type_tmb_ark_1_thy_kingdom_come	0	0	long	long
 vco_victory_type_tmb_ark_2_born_to_serve	1	0	long	long
 vco_victory_type_tmb_ark_3_faithful_servant	2	0	long	long
@@ -123,13 +132,4 @@ vco_victory_type_vmp_man_2_reclaim_throne	1	0	long	long
 vco_victory_type_vmp_man_3_death_comes_for_all	2	0	long	long
 wh3_main_victory_type_chaos_domination	0	0	long	long
 wh3_main_victory_type_chaos_forge_of_souls	0	0	long	long
-vco_victory_type_sla_nka_1_the_great_game	0	0	long	long
-vco_victory_type_sla_nka_2_paradise_lost	1	0	long	long
-vco_victory_type_sla_nka_3_bloodline_aenarion	2	0	long	long
-vco_victory_type_sla_nka_1_the_great_game_roc	1	0	long	long
-vco_victory_type_sla_nka_2_paradise_lost_roc	2	0	long	long
-vco_victory_type_sla_nka_3_wrath_desire_roc	3	0	long	long
 wh3_main_victory_type_chaos_forge_of_souls	3	0	long	long
-vco_victory_type_hef_tyr_1_defender_ulthuan	0	0	long	long
-vco_victory_type_hef_tyr_2_love_and_war	1	0	long	long
-vco_victory_type_hef_tyr_3_fate_of_the_soul	2	0	long	long

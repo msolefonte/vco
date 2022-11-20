@@ -23,6 +23,8 @@ effects_description_vco_emp_cursed_artifact_notidoq	Passive ability: "Primal Ins
 effects_description_vco_grn_black_orcs_frostbite	Enables frostbite attacks for Black Orcs	true
 effects_description_vco_grn_per_turn_salvage_gain	Scrap: %+n per turn	true
 effects_description_vco_grn_per_turn_waaagh	Reputation: %+n per turn	true
+effects_description_vco_hef_tyr_dummy_global_def_revolt	Surviving Dark Elf factions suffer -5 control per turn	true
+effects_description_vco_hef_tyr_dummy_wef_forcible_vassalisation	Most Wood Elf factions are forcibly vassalised	true
 effects_description_vco_ksl_tgo_luminark_unlock_dummy	Unlock new unit: Luminark of Hysh	true
 effects_description_vco_nor_wul_enable_rampage_ability	Ability: "Hunter of Champions" for Wulfrik the Wanderer	true
 effects_description_vco_nor_wul_marauder_melee_poison	Enables poison attacks for all Marauders, Marauder Beserkers, and Marauder Champions	true
@@ -38,10 +40,8 @@ effects_description_vco_skv_clan_moulder_strength	Weapon strength: %+n% for all 
 effects_description_vco_skv_food	Food generated: %n	true
 effects_description_vco_skv_per_turn_growth_vat	Growth Juice: %+n per turn	true
 effects_description_vco_skv_per_turn_mutagen	Mutagen: %+n per turn	true
+effects_description_vco_sla_devotees	Devotees: %+n per turn	true
+effects_description_vco_sla_nkari_weapon_strength	Weapon strength: %+n% for N'Kari	true
 effects_description_vco_tmb_arkhan_allegiance_points_mod_vampire_coast	Allegiance points gained: %+n% for alliances with Vampire Coast	true
 effects_description_vco_vmp_man_ward_save	Ward save: %+n% for Mannfred von Carstein	true
 effects_description_vco_vmp_man_weapon_strength	Weapon strength: %+n% for Mannfred von Carstein	true
-effects_description_vco_sla_devotees	Devotees: %+n per turn	true
-effects_description_vco_sla_nkari_weapon_strength	Weapon strength: %+n% for N'Kari	true
-effects_description_vco_hef_tyr_dummy_global_def_revolt	Surviving Dark Elf factions suffer -5 control per turn	true
-effects_description_vco_hef_tyr_dummy_wef_forcible_vassalisation	Most Wood Elf factions are forcibly vassalised	true
