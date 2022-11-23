@@ -121,3 +121,6 @@ victory_types_display_name_vco_victory_type_ultimate	Ultimate Campaign Victory	t
 victory_types_display_name_vco_victory_type_vmp_man_1_restless_dunes	Route I - The Restless Dunes	true
 victory_types_display_name_vco_victory_type_vmp_man_2_reclaim_throne	Route II - Reclaiming the Throne	true
 victory_types_display_name_vco_victory_type_vmp_man_3_death_comes_for_all	Route III - Death Comes For All	true
+victory_types_display_name_vco_victory_type_bst_tau_1_banebeast_naggaroth	Route I - Banebeast of Naggaroth	true
+victory_types_display_name_vco_victory_type_bst_tau_2_beastpaths_ruin	Route II - Beastpaths of Ruin	true
+victory_types_display_name_vco_victory_type_bst_tau_3_heart_dark	Route III - The Heart of the Dark	true

@@ -123,3 +123,6 @@ vco_victory_type_vmp_man_2_reclaim_throne	1	0	long	long
 vco_victory_type_vmp_man_3_death_comes_for_all	2	0	long	long
 wh3_main_victory_type_chaos_domination	0	0	long	long
 wh3_main_victory_type_chaos_forge_of_souls	3	0	long	long
+vco_victory_type_bst_tau_1_banebeast_naggaroth	0	0	long	long
+vco_victory_type_bst_tau_2_beastpaths_ruin	1	0	long	long
+vco_victory_type_bst_tau_3_heart_dark	2	0	long	long
