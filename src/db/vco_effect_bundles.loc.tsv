@@ -57,6 +57,9 @@ effect_bundles_localised_description_vco_victory_payload_vmp_man_1_restless_dune
 effect_bundles_localised_description_vco_victory_payload_vmp_man_2_reclaim_throne	This land is my home, my birthright. The wind and rain are my allies. The trees and stones are my foot soldiers. The very earth will rise up against you should you try to take it from me. And my people will feast on your bones.	true
 effect_bundles_localised_description_vco_victory_payload_vmp_man_3_death_comes_for_all_1	Nagash was a fool, too weak to see his dreams realised. I will build an empire of death atop his broken legacy.	true
 effect_bundles_localised_description_vco_victory_payload_vmp_man_3_death_comes_for_all_2	From Nuln to Nordland, all pay the blood tithe and live only to serve the von Carsteins.	true
+effect_bundles_localised_description_vco_victory_payload_kho_ska_1_great_game	The world is in flames, broken and crumbling. The Exile has served his purpose.	true
+effect_bundles_localised_description_vco_victory_payload_kho_ska_2_blood_god	Skarbrand's Blood Hosts sweep across the land, drowning the world in blood.	true
+effect_bundles_localised_description_vco_victory_payload_kho_ska_3_skull_throne	Khorne sits resplendent in his rage upon the Skull Throne, pleased with your offering. But, of course, he is never satisfied. He demands more. More! MORE!	true
 effect_bundles_localised_title_vco_victory_payload_all_campaign_victory_dummy	Campaign Victory	true
 effect_bundles_localised_title_vco_victory_payload_brt_blessed_by_the_lady	Blessed by The Lady	true
 effect_bundles_localised_title_vco_victory_payload_brt_bordeleaux_reclaimed	Bordeleaux Reclaimed	true
@@ -114,3 +117,6 @@ effect_bundles_localised_title_vco_victory_payload_vmp_man_1_restless_dunes_port
 effect_bundles_localised_title_vco_victory_payload_vmp_man_2_reclaim_throne	Return of the Count	true
 effect_bundles_localised_title_vco_victory_payload_vmp_man_3_death_comes_for_all_1	The Mortarch of Night	true
 effect_bundles_localised_title_vco_victory_payload_vmp_man_3_death_comes_for_all_2	The Dread Emperor	true
+effect_bundles_localised_title_vco_victory_payload_kho_ska_1_great_game	Khorne Ascendant	true
+effect_bundles_localised_title_vco_victory_payload_kho_ska_2_blood_god	The Reaping	true
+effect_bundles_localised_title_vco_victory_payload_kho_ska_3_skull_throne	Skulls of the Desert	true
