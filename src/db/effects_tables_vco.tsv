@@ -25,7 +25,6 @@ vco_grn_black_orcs_frostbite	phase_frostbite.png	101	phase_frostbite.png	battle	
 vco_grn_per_turn_salvage_gain	scrap.png	1	scrap.png	campaign	true
 vco_grn_per_turn_waaagh	waaagh_charge.png	1	waaagh.png	campaign	true
 vco_hef_tyr_dummy_global_def_revolt	wh2_main_army_abilities_khaines_lash.png	101	wh2_main_army_abilities_khaines_lash.png	campaign	true
-vco_hef_tyr_dummy_wef_forcible_vassalisation	wh2_dlc15_unit_passive_mimic_forest_walker.png	101	wh2_dlc15_unit_passive_mimic_forest_walker.png	campaign	true
 vco_ksl_tgo_luminark_unlock_dummy	artillery.png	1	artillery.png	campaign	true
 vco_nor_wul_enable_rampage_ability	wh_dlc08_lord_abilities_fight_or_die.png	1	wh_dlc08_lord_abilities_fight_or_die.png	campaign	true
 vco_nor_wul_marauder_melee_poison	wh_main_unit_contact_poison.png	101	wh_main_unit_contact_poison.png	campaign	true
@@ -46,3 +45,4 @@ vco_sla_nkari_weapon_strength	weapon_damage_character.png	101	weapon_damage_char
 vco_tmb_arkhan_allegiance_points_mod_vampire_coast	allegiance.png	101	allegiance.png	campaign	true
 vco_vmp_man_ward_save	resistance_ward_save.png	101	resistance_ward_save.png	campaign	true
 vco_vmp_man_weapon_strength	weapon_damage_character.png	101	weapon_damage_character.png	campaign	true
+vco_hef_tyrion_allegiance_points_mod_wood_elves	allegiance.png	101	allegiance.png	campaign	true
