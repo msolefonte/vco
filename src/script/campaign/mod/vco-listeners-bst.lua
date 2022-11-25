@@ -2,7 +2,7 @@ local vco = core:get_static_object("vco");
 local vlc = core:get_static_object("vco-lib-commons");
 
 local FACTION_KEY = "wh2_dlc17_bst_taurox";
-local BATTLE_KEY = "wh3_main_ie_qb_bst_final_battle_taurox";
+local BATTLE_KEY = "wh3_dlc03_qb_bst_the_final_battle";
 local BATTLE_SCRIPT_KEY = "vco_bst_taurox_heart_of_the_dark";
 
 -- CHECKS --
