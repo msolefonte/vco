@@ -24,7 +24,6 @@ vco_emp_cursed_artifact_notidoq	dlc12_plaque_stage_3.png	101	dlc12_plaque_stage_
 vco_grn_black_orcs_frostbite	phase_frostbite.png	101	phase_frostbite.png	battle	true
 vco_grn_per_turn_salvage_gain	scrap.png	1	scrap.png	campaign	true
 vco_grn_per_turn_waaagh	waaagh_charge.png	1	waaagh.png	campaign	true
-vco_hef_tyr_dummy_global_def_revolt	wh2_main_army_abilities_khaines_lash.png	101	wh2_main_army_abilities_khaines_lash.png	campaign	true
 vco_ksl_tgo_luminark_unlock_dummy	artillery.png	1	artillery.png	campaign	true
 vco_nor_wul_enable_rampage_ability	wh_dlc08_lord_abilities_fight_or_die.png	1	wh_dlc08_lord_abilities_fight_or_die.png	campaign	true
 vco_nor_wul_marauder_melee_poison	wh_main_unit_contact_poison.png	101	wh_main_unit_contact_poison.png	campaign	true
