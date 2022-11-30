@@ -90,7 +90,7 @@ local function add_listeners()
 		end,
 		true
 	);
-	
+
 	core:add_listener(
 		"vco_nor_wul_first_turn_start",
 		"FactionTurnStart",
@@ -101,7 +101,7 @@ local function add_listeners()
 		wul_lock_units,
 		false
 	);
-	
+
 	core:add_listener(
 		"vco_nor_wul_razed_port",
 		"CharacterRazedSettlement",
@@ -116,7 +116,7 @@ local function add_listeners()
 		end,
 		true
 	);
-	
+
 	core:add_listener(
 		"vco_nor_wul_mission_completed",
 		"MissionSucceeded",

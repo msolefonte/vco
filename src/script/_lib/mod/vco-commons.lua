@@ -2,18 +2,18 @@ cm:load_global_script("vco");
 local vco = core:get_static_object("vco");
 
 local vlc = {
-  characters = {},
-  corruption = {},
-  diplomacy = {},
-  nagash_books = {},
-  pooled_resources = {},
-  unit_locks = {},
+	characters = {},
+	corruption = {},
+	diplomacy = {},
+	nagash_books = {},
+	pooled_resources = {},
+	unit_locks = {},
 };
 
 -- CHARACTERS --
 
 function vlc.characters:is_rank_gte(character, target_rank)
-  return character:rank() >= target_rank;
+	return character:rank() >= target_rank;
 end
 
 function vlc.characters:replenish_campaign_movement(character)
@@ -23,7 +23,7 @@ end
 -- CORRUPTION --
 
 function vlc.corruption:is_corruption_highest_in_region(corruption_key, region)
-  return (cm:get_highest_corruption_in_region(region) or '') == corruption_key;
+	return (cm:get_highest_corruption_in_region(region) or '') == corruption_key;
 end
 
 function vlc.corruption:count_regions_where_corruption_is_highest(corruption_key)
@@ -43,6 +43,12 @@ function vlc.corruption:count_regions_where_corruption_is_highest(corruption_key
 end
 
 -- DIPLOMACY --
+
+function vlc.diplomacy:apply_effect_bundle_safe(effect_bundle_key, faction_key, number_turns)
+	if self:is_target_faction_valid(target_faction_key) then
+		cm:apply_effect_bundle(effect_bundle_key, faction_key, number_turns);
+	end
+end
 
 function vlc.diplomacy:is_faction_military_ally_or_destroyed(self_faction, target_faction_key)
 	local target_faction = cm:get_faction(target_faction_key);
@@ -72,6 +78,17 @@ end
 function vlc.diplomacy:is_faction_under_your_control(self_faction, target_faction_key, consider_military_allies)
 	return self:is_faction_vassal_or_destroyed(self_faction, target_faction_key, consider_military_allies) or
 		self:is_faction_military_ally_or_destroyed(self_faction, target_faction_key);
+end
+
+function vlc.diplomacy:is_target_faction_valid(target_faction_key)
+	local target = cm:get_faction(target_faction_key);
+	return target ~= nil and not (target:is_null_interface() or target:is_human() or target:is_dead());
+end
+
+function vlc.diplomacy:vassalise_faction_safe(self_faction, target_faction_key)
+	if self:is_target_faction_valid(target_faction_key) then
+		cm:force_make_vassal(self_faction, target_faction_key);
+	end
 end
 
 -- NAGASH BOOKS --
@@ -115,14 +132,14 @@ end
 -- POOLED RESOURCES --
 
 function vlc.pooled_resources:get_faction_earnings(faction_id, pooled_resource_key)
-  return cm:get_saved_value("vco_pooled_resource_earned_" .. faction_id .. "_" .. pooled_resource_key) or 0;
+	return cm:get_saved_value("vco_pooled_resource_earned_" .. faction_id .. "_" .. pooled_resource_key) or 0;
 end
 
 function vlc.pooled_resources:add_faction_earnings(faction_id, pooled_resource_key, amount)
 	if amount > 0 then
 		local current_earnings = self:get_faction_earnings(faction_id, pooled_resource_key);
 		cm:set_saved_value(
-      "vco_pooled_resource_earned_" .. faction_id .. "_" .. pooled_resource_key, current_earnings + amount
+			"vco_pooled_resource_earned_" .. faction_id .. "_" .. pooled_resource_key, current_earnings + amount
 		);
 	end
 end
@@ -134,22 +151,22 @@ end
 -- UNIT LOCKS & UNLOCKS --
 
 function vlc.unit_locks:lock_unit(unit_key, faction_key)
-  cm:add_event_restricted_unit_record_for_faction(unit_key, faction_key);
+	cm:add_event_restricted_unit_record_for_faction(unit_key, faction_key);
 end
 
 function vlc.unit_locks:unlock_unit(unit_key, faction_key)
-  cm:remove_event_restricted_unit_record_for_faction(unit_key, faction_key);
+	cm:remove_event_restricted_unit_record_for_faction(unit_key, faction_key);
 end
 
 function vlc.unit_locks:lock_units(unit_keys_list, faction_key)
-  for _, unit_key in ipairs(unit_keys_list) do
-    self:lock_unit(unit_key, faction_key);
+	for _, unit_key in ipairs(unit_keys_list) do
+		self:lock_unit(unit_key, faction_key);
 	end
 end
 
 function vlc.unit_locks:unlock_units(unit_keys_list, faction_key)
-  for _, unit_key in ipairs(unit_keys_list) do
-    self:unlock_unit(unit_key, faction_key);
+	for _, unit_key in ipairs(unit_keys_list) do
+		self:unlock_unit(unit_key, faction_key);
 	end
 end
 
