@@ -20,7 +20,7 @@ local missions = {
 					faction wh2_main_skv_clan_moulder;
 					total 1;
 
-					building_level wh2_main_special_hellpit_pits;
+					building_level wh2_main_special_hellpit_pits_moulder_2;
 				}
 
 				payload
