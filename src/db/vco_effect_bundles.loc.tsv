@@ -28,6 +28,11 @@ effect_bundles_localised_description_vco_victory_payload_grn_gri_2_burn_badlands
 effect_bundles_localised_description_vco_victory_payload_grn_gri_3_unfinished_business_1	“Dis way, ladz! I 'eard Ironhide's 'aving anuver big stunty bake!”	true
 effect_bundles_localised_description_vco_victory_payload_grn_gri_3_unfinished_business_2	“Dat's right 'umie, get ma choppa nice 'n frosty.”	true
 effect_bundles_localised_description_vco_victory_payload_grn_gri_3_unfinished_business_3	Wot's dis do?	true
+effect_bundles_localised_description_vco_victory_payload_hef_tyr_1_defender_ulthuan	Not since the Age of Colonisation have the Elves known such prosperity.	true
+effect_bundles_localised_description_vco_victory_payload_hef_tyr_2_love_and_war_1	With the Witch King's demise, revolts have broken out across Naggaroth. Thousands of slaves and druchii defectors flee the Black Cities, and some even flock to your banner.	true
+effect_bundles_localised_description_vco_victory_payload_hef_tyr_2_love_and_war_2	Ostensibly the progeny of the Everqueen and the Phoenix King, some whisper that Aliathra's pedigree is... less than certain.	true
+effect_bundles_localised_description_vco_victory_payload_hef_tyr_3_fate_of_the_soul_1	After centuries of isolation, the Asrai now answer to Phoenix King and the Elves of Ulthuan once more.	true
+effect_bundles_localised_description_vco_victory_payload_hef_tyr_3_fate_of_the_soul_2	Tyrion has reclaimed the original Phoenix Crown, which was stolen by the Dwarf King Gotrek Starbreaker at the Battle of the Three Towers. This aching wound to High Elf pride can finally heal.	true
 effect_bundles_localised_description_vco_victory_payload_ksl_tgo_1_there_can_only_be_one	The Ice Queen's ruinous leadership will lead Kislev astray no longer. The Motherland is stronger for it.	true
 effect_bundles_localised_description_vco_victory_payload_ksl_tgo_2_the_last_bastion	Where Katarin failed, Kostaltyn succeeded. Recognising the true power of the Great Orthodoxy, several Ice Witches have deserted their queen and joined their strength to Kostaltyn's, wreathing his warriors in frozen armour and battering invaders with ceaseless blizzards. The Supreme Patriarch yearns to have the heathens executed on cleansing pyres, but stays his hand, for now...	true
 effect_bundles_localised_description_vco_victory_payload_ksl_tgo_3_wololo_1	You follow a great man, but he is just a man. Follow the bear, and you will know true strength.	true
@@ -37,7 +42,7 @@ effect_bundles_localised_description_vco_victory_payload_ksl_tgo_3_wololo_4	Rejo
 effect_bundles_localised_description_vco_victory_payload_lzd_hex_1_solar_city	The interlopers have been purged. The Skink artisans and Kroxigor labourers can continue their work unabated.	true
 effect_bundles_localised_description_vco_victory_payload_lzd_hex_2_begone_thot	The Hag Queen and her cruel consorts have met their end, their souls now the playthings of the Ancient Enemy for all eternity. The arcane artifacts contained within Quintex are now at your disposal.	true
 effect_bundles_localised_description_vco_victory_payload_lzd_hex_3_purging_warmbloods	The Geomantic Web thrums with power, the spawning pools thrash with new life - all is as the Old Ones foretold.	true
-effect_bundles_localised_description_vco_victory_payload_nor_wul_1_ragnarok_1	Seafang's figurehead quickly absorbed the blood of the slain challengers that were smeared upon it. The ship now glows with an eldritch power that has spread across Wulfrik's entire fleet, filling their sails with the Winds of Magic.	true
+effect_bundles_localised_description_vco_victory_payload_nor_wul_1_ragnarok_1	Seafang's figurehead quickly absorbed the blood of the slain challengers that were smeared upon it. The ship now thrums with an eldritch power that has spread across Wulfrik's entire fleet, filling their sails with the Winds of Magic.	true
 effect_bundles_localised_description_vco_victory_payload_nor_wul_1_ragnarok_2	Baleful monuments to your dark master poison the land and whip the Winds of Magic up into a hurricane gale, allowing hordes of daemons to manifest directly into the mortal realm.	true
 effect_bundles_localised_description_vco_victory_payload_nor_wul_2_the_world_walker	With his Gift of Tongues Wulfrik curses foes and goads them into recklessness. Whether he's besmirching a Dwarf's honour, questioning a Bretonnian's lineage or humiliating a haughty Elf - none can ignore his insults for long.	true
 effect_bundles_localised_description_vco_victory_payload_nor_wul_3_monster_hunt	We fought monsters. And we became them.	true
@@ -49,6 +54,13 @@ effect_bundles_localised_description_vco_victory_payload_ogr_gre_3_drakecrush	Th
 effect_bundles_localised_description_vco_victory_payload_skv_mdr_1_yes_yes_prepare_the_lab	Cross-breeding all manner of creatures and utilising the mutating effects of warpstone, Throt is ever seeking to create more destructive creatures to set on his enemies and trade with other clans.	true
 effect_bundles_localised_description_vco_victory_payload_skv_mdr_2_the_vermintide_comes	Winding lines of corpse-wagons journey towards Hell Pit, ensuring Throt's gluttonous creations have a constant supply of flesh to sate their ravenous appetites.	true
 effect_bundles_localised_description_vco_victory_payload_skv_mdr_3_the_frozen_dead	These frozen corpses will make for excellent sources of mutagen with which to bolster the ferocity of the Master Mutator's creations.	true
+effect_bundles_localised_description_vco_victory_payload_sla_nka_1_the_great_game	The Dark Prince's power waxes so strongly that it can no longer be contained within the Realms of Chaos. Storms howl outwards from the polar gates, driving his servants onwards to commit countless unspeakable acts in his name.	true
+effect_bundles_localised_description_vco_victory_payload_sla_nka_1_the_great_game_1	And all the men and women merely playthings for the Daemonettes.	true
+effect_bundles_localised_description_vco_victory_payload_sla_nka_1_the_great_game_roc	The Dark Prince's power waxes so strongly that it can no longer be contained within the Realms of Chaos. Storms howl outwards from the polar gates, driving his servants onwards to commit countless unspeakable acts in his name.	true
+effect_bundles_localised_description_vco_victory_payload_sla_nka_2_paradise_lost	Let the arrogant fools indulge themselves in fine liquors, exotic sweetmeats and the pleasures of the flesh. Then they shall feast again, and indulge in pleasures of a different sort...	true
+effect_bundles_localised_description_vco_victory_payload_sla_nka_3_bloodline_aenarion	Aenarion's final humiliation is at hand. Vengeance never tasted so sweet...	true
+effect_bundles_localised_description_vco_victory_payload_sla_nka_3_wrath_desire_roc_1	Skarbrand's anguished soul now writhes within the Witstealer, granting the blade unparalleled strength.	true
+effect_bundles_localised_description_vco_victory_payload_sla_nka_3_wrath_desire_roc_2	Open your hearts to the Flesh-Tempter! No, literally...	true
 effect_bundles_localised_description_vco_victory_payload_tmb_ark_1_thy_kingdom_come	Arkhan journeys across the dunes, enslaving Tomb Kings from every dynasty and binding their legions to his will. Those who resist are destroyed utterly - their powdered bones lost to the sands of time forevermore.	true
 effect_bundles_localised_description_vco_victory_payload_tmb_ark_2_born_to_serve	These bloodthirsty creatures will make fine foot soldiers in the wars to come. Let their blight curse the lands.	true
 effect_bundles_localised_description_vco_victory_payload_tmb_ark_3_faithful_servant	Foremost of the Dark Lords, Arkhan heralds in a new age of death and despair.	true
@@ -85,6 +97,11 @@ effect_bundles_localised_title_vco_victory_payload_grn_gri_2_burn_badlands	Slave
 effect_bundles_localised_title_vco_victory_payload_grn_gri_3_unfinished_business_1	Stunty Bake	true
 effect_bundles_localised_title_vco_victory_payload_grn_gri_3_unfinished_business_2	Mushroom-Addled Ice Witch	true
 effect_bundles_localised_title_vco_victory_payload_grn_gri_3_unfinished_business_3	Pointy Fing	true
+effect_bundles_localised_title_vco_victory_payload_hef_tyr_1_defender_ulthuan	The Age of Sanctuary	true
+effect_bundles_localised_title_vco_victory_payload_hef_tyr_2_love_and_war_1	Dawn of a New Age	true
+effect_bundles_localised_title_vco_victory_payload_hef_tyr_2_love_and_war_2	The Everchild	true
+effect_bundles_localised_title_vco_victory_payload_hef_tyr_3_fate_of_the_soul_1	Reunification	true
+effect_bundles_localised_title_vco_victory_payload_hef_tyr_3_fate_of_the_soul_2	The Original Phoenix Crown	true
 effect_bundles_localised_title_vco_victory_payload_ksl_tgo_1_there_can_only_be_one	Dethroned	true
 effect_bundles_localised_title_vco_victory_payload_ksl_tgo_2_the_last_bastion	Ice Court Defectors	true
 effect_bundles_localised_title_vco_victory_payload_ksl_tgo_3_wololo_1	The Scourge of Altdorf	true
@@ -106,6 +123,13 @@ effect_bundles_localised_title_vco_victory_payload_ogr_gre_3_drakecrush	Subservi
 effect_bundles_localised_title_vco_victory_payload_skv_mdr_1_yes_yes_prepare_the_lab	Stitched Up!	true
 effect_bundles_localised_title_vco_victory_payload_skv_mdr_2_the_vermintide_comes	A Cornucopia of Flesh	true
 effect_bundles_localised_title_vco_victory_payload_skv_mdr_3_the_frozen_dead	The Frozen Dead	true
+effect_bundles_localised_title_vco_victory_payload_sla_nka_1_the_great_game	Slaanesh Ascendant	true
+effect_bundles_localised_title_vco_victory_payload_sla_nka_1_the_great_game_1	All The World's A Stage	true
+effect_bundles_localised_title_vco_victory_payload_sla_nka_1_the_great_game_roc	Slaanesh Ascendant	true
+effect_bundles_localised_title_vco_victory_payload_sla_nka_2_paradise_lost	Cult Following	true
+effect_bundles_localised_title_vco_victory_payload_sla_nka_3_bloodline_aenarion	Best Served Cold	true
+effect_bundles_localised_title_vco_victory_payload_sla_nka_3_wrath_desire_roc_1	Bound to the Blade	true
+effect_bundles_localised_title_vco_victory_payload_sla_nka_3_wrath_desire_roc_2	Sweet Surrender	true
 effect_bundles_localised_title_vco_victory_payload_tmb_ark_1_thy_kingdom_come	Thy Will Be Done	true
 effect_bundles_localised_title_vco_victory_payload_tmb_ark_2_born_to_serve	Know Your Place	true
 effect_bundles_localised_title_vco_victory_payload_tmb_ark_3_faithful_servant	Mortarch of Sacrament	true
