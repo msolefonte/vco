@@ -419,7 +419,11 @@ occasions, now it will be viable to play tall/defensively, without any requisite
 - Fixed a bug that allowed AI factions to recruit unlockable units
 - Improved flavour and replaced icons
 
-## [5.0.0-beta-8] TITLE - DATE
-- Fixed Wulfrik's Skeggi objective and payload location
-- Fixed more effect bundle icons
+## [5.0.0-beta-8] The Corruptor and the Incorruptible  - 30.11.2022
+
+- Added new routes for Tyrion: Eataine
+- Added new routes for N'Kari: Seducers of Slaanesh
+- Fixed a bug that caused Clan Moulder first objective to be unachievable
+- Fixed World Walkers' Skeggi objective and payload location
+- Improved flavour and replaced icons
 

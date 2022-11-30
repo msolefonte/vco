@@ -1,6 +1,6 @@
 # High Elves
 
-## Tyrion - Eataine
+## Tyrion: Eataine
 
 * **Route I - Defender of Ulthuan**
   * Prince Tyrion is the Defender of Ulthuan and the protector of its people, a heavy burden entrusted to him by the 
@@ -26,8 +26,8 @@
   * Build Landmark:
     * Court of the Phoenix King
   * **Reward**: 
-    * _Dawn of a New Age_: +100% experience gained when fighting against Dark Elves (factionwide), +10 Leadership when fighting against Dark
-    Elves (factionwide), Recruit rank: +2 for all units
+    * _Dawn of a New Age_: +100% experience gained when fighting against Dark Elves (factionwide), +10 Leadership when 
+    fighting against Dark Elves (factionwide), Recruit rank: +2 for all units
     * _The Everchild_: Influence per turn: +10, Corruption -2
 
 * **Route III - The Fate of the Soul**
