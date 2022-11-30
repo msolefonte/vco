@@ -26,7 +26,7 @@
   * Build Landmark:
     * Court of the Phoenix King
   * **Reward**: 
-    * _Dawn of a New Age_: All remaining Dark Elf factions suffer -10 control, +10 Leadership when fighting against Dark
+    * _Dawn of a New Age_: +100% experience gained when fighting against Dark Elves (factionwide), +10 Leadership when fighting against Dark
     Elves (factionwide), Recruit rank: +2 for all units
     * _The Everchild_: Influence per turn: +10, Corruption -2
 
