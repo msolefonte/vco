@@ -36,5 +36,5 @@
     * Erengrad, Praag, Kislev
   * **Reward**:
     * _God of Kislev_: Base Weapon Damage +20%, Armour +30, Hit Points +30%, Barrier Hit Points +300 for faction leader
-    * _Daemon Queen_: Kislev blizzard (10% attrition to all foreigners in your territories), Blizzard spell unlocked 
+    * _Frostmourne_: Kislev blizzard (10% attrition to all foreigners in your territories), Blizzard spell unlocked 
     for faction leader with 50% cooldown reduction and -10 Winds of Magic cost.

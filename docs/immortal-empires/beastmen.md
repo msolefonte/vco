@@ -8,9 +8,9 @@
   all of Naggaroth is his blood-ground.
   * Raze or Conquer the following settlements:
     * Clar Karond, Naggarond, Hag Graef, Ghrond, Har Ganeth, Karond Kar
-  * Win 50 battles.
+  * Occupy, loot, raze or sack 32 settlements.
   * **Reward**:
-    * _Favoured One_: Khorne corruption +8 (factionwide), Khorne corruption adjacent provinces +5 (factionwide), 
+    * _Favoured One_: Khorne corruption +12 (factionwide), Khorne corruption adjacent provinces +8 (factionwide), 
     Allegiance points gained: 50% for alliances and vassalage with Khorne, Diplomatic relations: +20 with Khornate 
     factions
 
@@ -20,10 +20,10 @@
   * Raze or Conquer the following settlements:
     * The Witchwood, Quintex, Hexoatl
   * Destroy factions:
-    * The Huntsmarshal's Expedition, Ghost of Phauax
+    * The Thousand Maws, The Huntsmarshal's Expedition, Ghost of Phauax
   * **Reward**:
-    * _Baneblood_: Weapon strength: +20% for Minotaur units, Charge bonus: +10 for Minotaur units, Ward Save +10% for 
-    Taurox
+    * _Baneblood_: Weapon strength: +20% for Minotaur units, Charge bonus: +10 for Minotaur units, Passive ability: 
+    Fuelled by Rage (faction leader)
 
 * **Route III - The Heart of the Dark**
   * The exact location of this place is never spoken of, but the Bray-Shamans claim that all beastpaths ultimately lead 
@@ -33,4 +33,4 @@
   * Win the following battle: The Fall of Man
   * **Reward**:
     * _Rites of Ruin_: Unit capacity: +5 Ghorgon, Unit capacity: +5 Jabberslythe, Unit capacity: +3 Minotaurs, Minotaurs 
-    (Shields), Minotaurs (Great Weapons)
+    (Shields), Minotaurs (Great Weapons), Ability: Bloodthirst (faction leader)

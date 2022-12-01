@@ -8,6 +8,7 @@
   carry the Daemons to the very heart of Athel Loren!
   * Perform 3 rituals of the following category: 
     * Worldroots Healing
+ * Own at least 1 agent: Ariel the Mage Queen
   * The Hag Queen's machinations have brought Athel Loren to the brink of ruin over the centuries. Even now, she means 
   to use the portal to the Dreaming Wood to usher in the daemonic armies of her Dark Prince. Her scheming must end. 
   * Destroy factions:
@@ -15,7 +16,7 @@
   * Occupy or raze settlement:
     * Ghrond
   * **Reward**:
-    * _Portal Sealed_: Corruption: -4, Corruption in adjacent provinces: -6
+    * _Sweet Dreams_: Corruption: -4, Corruption in adjacent provinces: -6
     * _Vengeance of the Mage Queen_: Ability number of uses: +1 for "Volley of Kurnous" (all armies), Ability number of 
     uses: +1 for all Dragon breath attacks, Research rate: +50%
 
@@ -27,9 +28,9 @@
   * Occupy settlements:
     * Vaul's Anvil (Naggaroth), Vaul's Anvil (Ulthuan), Vaul's Anvil (Athel Loren)
   * **Reward**:
-    * _Godlike Craftsmanship_: Daith's Favour: +33% chance to earn additional Daith's Favour after battles, Naestra's 
-    Grace +6 turns (up from 3), Physical resistance +10% (up from 5%); Arahan's Wrath: +6 turns (up from 3), Leadership 
-    +8 (up from 4), Missile strength: +10% (up from 5%)
+    * _Godlike Craftsmanship_: Daith's Favour: +33% chance to earn additional Daith's Favour after battles, Abilities: 
+    Volley of High Arrows, Volley of Dark Arrows (faction leader), Army ability: Vaul's Hammer during siege battles 
+    (all armies)
 
 * **Route III - The Sacred Pools**
   * A single, enormous Zoat emerges from the Worldroots and kneels before the Mage Queen. He claims his herd in Lustria 
@@ -51,6 +52,5 @@
   * **Reward**:
     * _Guardians of the Pools_: Gain +1 additional Forest Health for winning battles in Magical Forests or their 
     Heathlands, Melee attack: +5 when fighting against Men (factionwide)
-    * _Isha's Embrace_: Cooldown: -30% to Lore of Life spells (Ariel), Ariel leaves lingering bonuses on regions she 
-    visits (Control +3, Growth: +10, Chance of Winds of Magic increasing in strength when changing: +10%, Corruption 
-    -5, turn duration: 10)
+    * _Isha's Embrace_: Cooldown: -30% to Lore of Life spells (Ariel), Active ability Isha's Rain (faction leader), 
+    passive ability Shieldstone of Isha (faction leader)
