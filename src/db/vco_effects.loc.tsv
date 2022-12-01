@@ -1,12 +1,13 @@
 key	text	tooltip
 #Loc PackedFile;1;text/db/vco_effects.loc		
 effects_description_vco_all_campaign_victory_dummy	Campaign Victory	true
-effects_description_vco_all_movement_range_post_raze_port	Movement Range: %+n% after razing a port settlement	true
+effects_description_vco_all_movement_range_post_raze_port	Campaign movement range: %+n% after razing a port settlement	true
 effects_description_vco_brt_alberic_vow_melee_attack	Melee attack: %+n for Alberic de Bordeleaux	true
 effects_description_vco_brt_alberic_vow_melee_damage	Weapon strength: %+n for Alberic de Bordeleaux	true
 effects_description_vco_brt_alberic_vow_melee_damage_ap	Armour-piercing weapon damage: %+n for Alberic de Bordeleaux	true
 effects_description_vco_brt_alberic_vow_resistance_physical	Physical resistance: %n% for Alberic de Bordeleaux	true
-effects_description_vco_cst_ara_ward_save	Ward save: %+n% for Aranessa Saltspite	true
+effects_description_vco_chs_arc_dilemma	You will be presented with a dilemma.	true
+effects_description_vco_cst_ara_ward_save	Speed: %+n% for Aranessa Saltspite	true
 effects_description_vco_cst_ara_weapon_strength	Weapon strength: %+n% for Aranessa Saltspite	true
 effects_description_vco_cst_deck_gunners_ammo	Ammunition: %+n% for Deck Gunner units	true
 effects_description_vco_cst_deck_gunners_reload	Reload time reduction: %-n% for Deck Gunner units	true
@@ -42,5 +43,6 @@ effects_description_vco_skv_per_turn_mutagen	Mutagen: %+n per turn	true
 effects_description_vco_sla_devotees	Devotees: %+n per turn	true
 effects_description_vco_sla_nkari_weapon_strength	Weapon strength: %+n% for N'Kari	true
 effects_description_vco_tmb_arkhan_allegiance_points_mod_vampire_coast	Allegiance points gained: %+n% for alliances with Vampire Coast	true
+effects_description_vco_vmp_man_dilemma_soulgate	A portal to Sylvania will become available to Mannfred's army.	true
 effects_description_vco_vmp_man_ward_save	Ward save: %+n% for Mannfred von Carstein	true
 effects_description_vco_vmp_man_weapon_strength	Weapon strength: %+n% for Mannfred von Carstein	true

@@ -1,13 +1,14 @@
 effect	icon	priority	icon_negative	category	is_positive_value_good
 #effects_tables;0;db/effects_tables/vco					
 vco_all_campaign_victory_dummy	hunter_effect_icons_loyalty_green.png	1	hunter_effect_icons_loyalty_green.png	campaign	true
-vco_all_movement_range_post_raze_port	engineer.png	101	engineer.png	campaign	true
+vco_all_movement_range_post_raze_port	wh_dlc08_seafang.png	101	wh_dlc08_seafang.png	campaign	true
 vco_brt_alberic_vow_melee_attack	melee_character.png	101	melee_character.png	campaign	true
 vco_brt_alberic_vow_melee_damage	weapon_damage_character.png	101	weapon_damage_character.png	campaign	true
 vco_brt_alberic_vow_melee_damage_ap	armour_piercing_character.png	101	armour_piercing_character.png	campaign	true
 vco_brt_alberic_vow_resistance_physical	resistance_physical.png	101	resistance_physical.png	campaign	true
 vco_campaign_victory_dummy	hunter_effect_icons_loyalty_green.png	1	hunter_effect_icons_loyalty_green.png	campaign	true
-vco_cst_ara_ward_save	resistance_ward_save.png	101	resistance_ward_save.png	campaign	true
+vco_chs_arc_dilemma	wh_dlc01_weapon_abilities_the_slayer_of_kings.png	101	wh_dlc01_weapon_abilities_the_slayer_of_kings.png	campaign	true
+vco_cst_ara_ward_save	battle_movement_character.png	101	battle_movement_character.png	campaign	true
 vco_cst_ara_weapon_strength	weapon_damage_character.png	101	weapon_damage_character.png	campaign	true
 vco_cst_deck_gunners_ammo	ammo.png	101	ammo.png	campaign	true
 vco_cst_deck_gunners_reload	icon_stat_reload_time_force.png	101	icon_stat_reload_time_force.png	campaign	true
@@ -26,7 +27,7 @@ vco_grn_per_turn_salvage_gain	scrap.png	1	scrap.png	campaign	true
 vco_grn_per_turn_waaagh	waaagh_charge.png	1	waaagh.png	campaign	true
 vco_hef_tyrion_allegiance_points_mod_wood_elves	allegiance.png	101	allegiance.png	campaign	true
 vco_ksl_tgo_luminark_unlock_dummy	artillery.png	1	artillery.png	campaign	true
-vco_nor_wul_enable_rampage_ability	wh_dlc08_lord_abilities_fight_or_die.png	1	wh_dlc08_lord_abilities_fight_or_die.png	campaign	true
+vco_nor_wul_enable_rampage_ability	wh_dlc08_lord_abilities_fight_or_die.png	101	wh_dlc08_lord_abilities_fight_or_die.png	campaign	true
 vco_nor_wul_marauder_melee_poison	wh_main_unit_contact_poison.png	101	wh_main_unit_contact_poison.png	campaign	true
 vco_nor_wul_marauder_spear_hunter_bonus_large	bonus_vs_large.png	101	bonus_vs_large.png	campaign	true
 vco_nor_wul_marauder_spear_hunter_primal_instincts	dlc12_plaque_stage_3.png	101	dlc12_plaque_stage_3.png	campaign	true
@@ -43,5 +44,6 @@ vco_skv_per_turn_mutagen	mutagen.png	101	mutagen.png	campaign	true
 vco_sla_devotees	devotees.png	101	devotees.png	campaign	true
 vco_sla_nkari_weapon_strength	weapon_damage_character.png	101	weapon_damage_character.png	campaign	true
 vco_tmb_arkhan_allegiance_points_mod_vampire_coast	allegiance.png	101	allegiance.png	campaign	true
+vco_vmp_man_dilemma_soulgate	souls.png	101	souls.png	campaign	true
 vco_vmp_man_ward_save	resistance_ward_save.png	101	resistance_ward_save.png	campaign	true
 vco_vmp_man_weapon_strength	weapon_damage_character.png	101	weapon_damage_character.png	campaign	true
