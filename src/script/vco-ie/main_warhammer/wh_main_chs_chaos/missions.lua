@@ -76,8 +76,23 @@ local missions = {
 
 				objective
 				{
+					override_text mission_text_text_vco_chs_arc_2_slayer_kings_1;
+					type CONTROL_N_REGIONS_FROM;
+					total 4;
+
+					region wh3_main_combi_region_altdorf;
+					region wh3_main_combi_region_kislev;
+					region wh3_main_combi_region_couronne;
+					region wh3_main_combi_region_khazid_bordkarag;
+					region wh3_main_combi_region_karaz_a_karak;
+					region wh3_main_combi_region_the_oak_of_ages;
+					region wh3_main_combi_region_khemri;
+				}
+
+				objective
+				{
 					type OCCUPY_LOOT_RAZE_OR_SACK_X_SETTLEMENTS;
-					total 1;
+					total 50;
 				}
 
 				payload

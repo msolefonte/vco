@@ -427,7 +427,7 @@ occasions, now it will be viable to play tall/defensively, without any requisite
 - Fixed World Walkers' Skeggi objective and payload location
 - Improved flavour and replaced icons
 
-## [5.0.0-beta-9] TBA  - TBA
+## [5.0.0-beta-9] Apocalypse Now - 01.12.2022
 
 - Added new routes for Archaon: Warhost of the Apocalypse
 - Added new routes for Daemon Prince: Legion of Chaos
