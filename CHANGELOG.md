@@ -13,7 +13,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added new routes for Karl Franz: Reikland
 - _(Technical)_ Updated CHANGELOG format
 - General cleanup! We are finally out of beta!
-- Technical
 
 ## [5.0.0-beta-9] Apocalypse Now - 01/12/2022
 
