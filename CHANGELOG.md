@@ -5,15 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [5.0.0] Out of beta! - 14.12.2022
+## [5.0.0] Out of beta! - 14/12/2022
 
 - Added new routes for Grombrindal: The Ancestral Throng
 - Added new routes for Kairos Fateweaver: Oracles of Tzeentch
 - Added new routes for Ku'gath: Poxmakers of Nurgle
 - Added new routes for Karl Franz: Reikland
+- _(Technical)_ Updated CHANGELOG format
 - General cleanup! We are finally out of beta!
+- Technical
 
-## [5.0.0-beta-9] Apocalypse Now - 01.12.2022
+## [5.0.0-beta-9] Apocalypse Now - 01/12/2022
 
 - Added new routes for Archaon: Warhost of the Apocalypse
 - Added new routes for Daemon Prince: Legion of Chaos
@@ -23,7 +25,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updated The Drakenhof Conclave third route reward: Now Mannfred also gets the Ghal Maraz ability
 - Improved flavour and replaced icons
 
-## [5.0.0-beta-8] The Corruptor and the Incorruptible  - 30.11.2022
+## [5.0.0-beta-8] The Corruptor and the Incorruptible  - 30/11/2022
 
 - Added new routes for Tyrion: Eataine
 - Added new routes for N'Kari: Seducers of Slaanesh
@@ -31,12 +33,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed World Walkers' Skeggi objective and payload location
 - Improved flavour and replaced icons
 
-## [5.0.0-beta.7.HOTFIX-1] - 07.11.2022
+## [5.0.0-beta.7.HOTFIX-1] - 07/11/2022
 
 - Fixed a bug that allowed AI factions to recruit unlockable units
 - Improved flavour and replaced icons
 
-## [5.0.0-beta.7] Tales from the East Blue - 04.11.2022
+## [5.0.0-beta.7] Tales from the East Blue - 04/11/2022
 
 - Added new routes for Aranessa Saltspite: Pirates of Sartosa
 - Added new routes for Wulfrik the Wanderer: World Walkers
@@ -45,7 +47,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - _(Technical)_ Refactored almost all scripts files. Now each race has its own listeners file
 - _(Technical)_ Added a linter for TSV files
 
-## [5.0.0-beta.6] The Restless Dunes - 23.10.2022
+## [5.0.0-beta.6] The Restless Dunes - 23/10/2022
 
 - Added new routes for Arkhan the Black: Followers of Nagash
 - Added new routes for Mannfred von Carstein: The Drakenhof Conclave
@@ -57,33 +59,33 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed Grimgor's Ardboyz and The Huntsmarshal's Expedition objectives based on razing settlements
 - Improved flavour, replaced icons and fixed typos
 
-## [5.0.0-beta.5.HOTFIX-3] - 03.10.2022
+## [5.0.0-beta.5.HOTFIX-3] - 03/10/2022
 
 - Dense today, aren't we?
 
-## [5.0.0-beta.5.HOTFIX-2] - 03.10.2022
+## [5.0.0-beta.5.HOTFIX-2] - 03/10/2022
 
 - I forgot to update the pack file :D
 
-## [5.0.0-beta.5.HOTFIX-1] - 03.10.2022
+## [5.0.0-beta.5.HOTFIX-1] - 03/10/2022
 
 - Fixed a bug that caused The Great Orthodoxy's Route III to be unachievable
   
-## [5.0.0-beta.5] War in the North - 26.09.2022
+## [5.0.0-beta.5] War in the North - 26/09/2022
 
 - Added new routes for Throt the Unclean: Clan Moulder
 - Added new routes for Kostaltyn: The Great Orthodoxy
 - Fixed a bug with The Huntsmarshal's Expedition second route reward
 - Improved descriptions and fixed typos
 
-## [5.0.0-beta.4] The Fat and the Furious - 20.09.2022
+## [5.0.0-beta.4] The Fat and the Furious - 20/09/2022
 
 - Added new routes for Grimgor Ironhide: Grimgor's 'Ardboyz
 - Added new routes for Greasus Goldtooth: Goldtooth Tribe
 - _(Technical)_ Added new common functions for VCO listeners: `is_faction_military_ally_or_destroyed()`, 
   `is_faction_vassal_or_destroyed()` and `is_faction_under_your_control()`
 
-## [5.0.0-beta.3] Plunder in the Jungle - 12.09.2022
+## [5.0.0-beta.3] Plunder in the Jungle - 12/09/2022
 
 - Added new routes for Lord Mazdamundi: Hexoatl
 - Added new routes for Morathi: Cult of Pleasure
@@ -92,7 +94,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed a bug that prevented new Victory Conditions from loading in the Objectives panel
 - Improved descriptions and fixed typos
 
-## [5.0.0-beta.2] The Hunter and the Knight - 06.09.2022
+## [5.0.0-beta.2] The Hunter and the Knight - 06/09/2022
 
 - Added new routes for Markus Wulfhart: The Huntsmarshal's Expedition
 - Added new routes for Alberic de Bordeleaux: Bordeleaux Errant
@@ -100,7 +102,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Payloads renamed into Rewards for better readability
 - _(Technical)_ Now effects and effects bonus include a race identifier in the key
 
-## [5.0.0-beta.1] Immortal Empires Early Access - 03.09.2022
+## [5.0.0-beta.1] Immortal Empires Early Access - 03/09/2022
 
 - Unified the framework and the main mod
 - Added support for Immortal Empires
@@ -109,24 +111,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added an integration with Legendary Lore
 - Added native support for multiplayer
 
-## [4.1.1] - 25.08.2022
+## [4.1.1] - 25/08/2022
 
 - Removed database, text and listeners
 - Code has been ported into VCO Framework to work towards unification
 
-## [4.1.0] - 11.08.2022
+## [4.1.0] - 11/08/2022
 
 - The Great Game (Nurgle, Slaanesh, Tzeentch) and Blood for the Blood God (Khorne) routes modified
   - Now it is required to achieve the highest corruption in 100 regions instead of 50
 - Treasure increase after completing a route reduced from 50000 to 15000
 - Updated CHANGELOG.md format
 
-## [4.0.1] - 21.04.2022
+## [4.0.1] - 21/04/2022
 
 - Skulls required by Skarbrand increased from 20000 to 88888
 - Fixed a bug that caused the Realms of Chaos route (Nurgle, Slaanesh, Tzeentch) to be unachievable
 
-## [4.0.0] Realms of Chaos Release - 23.03.2022
+## [4.0.0] Realms of Chaos Release - 23/03/2022
 
 - Warhammer III (Realms of Chaos) release
 - New routes for all new factions
