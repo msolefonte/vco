@@ -1,5 +1,6 @@
 effect	bonus_value_id	resource_factor
 #effect_bonus_value_pooled_resource_factor_junctions_tables;0;db/effect_bonus_value_pooled_resource_factor_junctions_tables/vco		
+vco_dwf_per_turn_oathgold_gain	base_amount	vco_dwf_oathgold
 vco_grn_per_turn_salvage_gain	base_amount	vco_grn_salvage
 vco_grn_per_turn_waaagh	base_amount	vco_grn_waaagh
 vco_skv_food	base_amount	vco_skv_food

@@ -101,7 +101,13 @@ victory_types_display_name_vco_victory_type_dae_god_3_frozen_heart_roc	Route III
 victory_types_display_name_vco_victory_type_def_cop_1_stellar_pyramids_of_khaine	Route I - The Stellar Pyramids of Khaine	true
 victory_types_display_name_vco_victory_type_def_cop_2_hell_hath_no_fury	Route II - Hell Hath No Fury	true
 victory_types_display_name_vco_victory_type_def_cop_3_return_of_the_queen	Route III - Return of the Queen	true
+victory_types_display_name_vco_victory_type_dwf_gro_1_malekith_grudge	Route I - Snorri Whitebeard's Final Grudge	true
+victory_types_display_name_vco_victory_type_dwf_gro_2_high_elf_decision	Route II - The Fate of the Elves	true
+victory_types_display_name_vco_victory_type_dwf_gro_3_age_reckoning	Route III - The Age of Reckoning	true
 victory_types_display_name_vco_victory_type_economic	Economic Victory	true
+victory_types_display_name_vco_victory_type_emp_kar_1_protector_empire	Route I - Protector of the Empire	true
+victory_types_display_name_vco_victory_type_emp_kar_2_defier_dark	Route II - Defier of the Dark	true
+victory_types_display_name_vco_victory_type_emp_kar_3_karl_uniter	Route III - Karl the Uniter	true
 victory_types_display_name_vco_victory_type_emp_the_1_champions_of_the_empire	Route I - The Huntsmarshal's Expedition	true
 victory_types_display_name_vco_victory_type_emp_the_2_the_huntsmarshals_expedition	Route II - That Belongs in a Museum!	true
 victory_types_display_name_vco_victory_type_emp_the_3_it_is_round	Route III - It IS Round!	true
@@ -125,6 +131,9 @@ victory_types_display_name_vco_victory_type_military	Military Victory	true
 victory_types_display_name_vco_victory_type_nor_wul_1_ragnarok	Route I - Ragnarok	true
 victory_types_display_name_vco_victory_type_nor_wul_2_the_world_walker	Route II - The World Walker	true
 victory_types_display_name_vco_victory_type_nor_wul_3_wheres_my_palico	Route III - Where's My Palico?	true
+victory_types_display_name_vco_victory_type_nur_kug_1_great_game	Route I - The Great Game	true
+victory_types_display_name_vco_victory_type_nur_kug_2_eastern_poxes	Route II - Eastern Poxes	true
+victory_types_display_name_vco_victory_type_nur_kug_3_death_dwarfs	Route III - Death to the Dwarfs!	true
 victory_types_display_name_vco_victory_type_ogr_gre_1_rich_walk	Route I - Too Rich to Walk	true
 victory_types_display_name_vco_victory_type_ogr_gre_2_overtyrants_reign	Route II - Overtyrant's Reign	true
 victory_types_display_name_vco_victory_type_ogr_gre_3_drakecrush	Route III - Drakecrush	true
@@ -141,6 +150,9 @@ victory_types_display_name_vco_victory_type_sla_nka_3_wrath_desire_roc	Route III
 victory_types_display_name_vco_victory_type_tmb_ark_1_thy_kingdom_come	Route I - Thy Kingdom Come	true
 victory_types_display_name_vco_victory_type_tmb_ark_2_born_to_serve	Route II - Cursed to Serve	true
 victory_types_display_name_vco_victory_type_tmb_ark_3_faithful_servant	Route III - Faithful Servant	true
+victory_types_display_name_vco_victory_type_tze_kai_1_great_game	Route I - The Great Game	true
+victory_types_display_name_vco_victory_type_tze_kai_2_visions_past	Route II - Visions of the Past	true
+victory_types_display_name_vco_victory_type_tze_kai_3_visions_future	Route III - Visions of the Future	true
 victory_types_display_name_vco_victory_type_ultimate	Ultimate Campaign Victory	true
 victory_types_display_name_vco_victory_type_vmp_man_1_restless_dunes	Route I - The Restless Dunes	true
 victory_types_display_name_vco_victory_type_vmp_man_2_reclaim_throne	Route II - Reclaiming the Throne	true
