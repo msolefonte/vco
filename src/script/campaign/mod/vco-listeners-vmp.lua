@@ -3,10 +3,16 @@ local vlc = core:get_static_object("vco-lib-commons");
 local DILEMMA_TURNS_DELAY = 10;
 local FACTION_MAN_ID = "vmp_man";
 local FACTION_MAN_KEY = "wh_main_vmp_vampire_counts";
+local FACTION_KEM_KEY = "wh2_dlc11_vmp_the_barrow_legion";
 local KEY_D_OSSIFIED_PORTAL = "vco_vmp_man_dilemma_ossified_portal";
 
 local function trigger_man_dilemma()
 	cm:trigger_dilemma(FACTION_MAN_KEY, KEY_D_OSSIFIED_PORTAL);
+end
+
+local function bloodline_awoken()
+	vco:set_mission_text("vco_" .. FACTION_KEM_KEY .. "_bloodline_completed", "vco_vmp_kem_3_bloodline_awoken_completed");
+	vco:complete_mission(FACTION_KEM_KEY, "vco_" .. FACTION_KEM_KEY .. "_bloodline_completed");
 end
 
 local function trigger_man_dilemma_choice_made(choice)
@@ -73,6 +79,24 @@ local function add_listeners()
 			check_man_collected_books(context:mission());
 		end,
 		true
+	);
+	
+	core:add_listener(
+		"vco_vmp_kem_3_bloodline_awoken",
+		"RitualEvent",
+		function(context)
+			return context:faction():name() == FACTION_KEM_KEY and
+				context:faction():is_human() and
+				(
+				 context:ritual():ritual_key() == "wh2_dlc11_vmp_ritual_bloodline_awaken_von_carstein_03" or
+				 context:ritual():ritual_key() == "wh2_dlc11_vmp_ritual_bloodline_awaken_strigoi_03" or
+				 context:ritual():ritual_key() == "wh2_dlc11_vmp_ritual_bloodline_awaken_necrarch_03" or
+				 context:ritual():ritual_key() == "wh2_dlc11_vmp_ritual_bloodline_awaken_lahmian_03" or
+				 context:ritual():ritual_key() == "wh2_dlc11_vmp_ritual_bloodline_awaken_blood_dragon_03"
+				)
+		end,
+		bloodline_awoken,
+		false
 	);
 end
 

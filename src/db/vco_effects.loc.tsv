@@ -50,3 +50,5 @@ effects_description_vco_tmb_arkhan_allegiance_points_mod_vampire_coast	Allegianc
 effects_description_vco_vmp_man_dilemma_soulgate	A portal to Sylvania will become available to Mannfred's army.	true
 effects_description_vco_vmp_man_ward_save	Ward save: %+n% for Mannfred von Carstein	true
 effects_description_vco_vmp_man_weapon_strength	Weapon strength: %+n% for Mannfred von Carstein	true
+effects_description_vco_vmp_kem_melee_defence	Melee defence: %+n for Heinrich Kemmler	true
+effects_description_vco_vmp_kem_missile_resistance	Missile resistance: %+n% for Heinrich Kemmler	true
