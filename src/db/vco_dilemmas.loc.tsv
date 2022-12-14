@@ -1,6 +1,8 @@
 key	text	tooltip
 #Loc PackedFile;1;text/db/vco_dilemmas.loc		
-dilemmas_localised_description_vco_chs_arc_dilemma_slayer_kings	Release me from this steel thralldom, Everchosen, so that I may kill for mighty Khorne once more. To taste the blood he spills, rather than watch it drip down the walls of my prison. To wield, and not be wielded. You swore I would be free! You swore!	true
+dilemmas_localised_description_vco_chs_arc_dilemma_slayer_kings	The Slayer of Kings has slaked its thirst with royal blood, but now the blade glows white hot in Archaon's hand. The steel shudders as the daemon speaks.\\n\\n"Release me from this steel thralldom, Everchosen, so that I may kill for mighty Khorne once more. To taste the blood he spills, rather than watch it drip down the walls of my prison. To wield, and not be wielded. You swore I would be free! You swore!"	true
+dilemmas_localised_description_vco_dwf_gro_1_dilemma_elves	Malekith is dead, turned to stone by Grungi's judgment. The dead have been avenged, but there are still foes out in the world. The Karaz Ankor still have need of the White Dwarf. The time has come for Grombindal to decide the fate of the Elgi race. Should the War of Vengeance begin again, or should peace reign?	true
 dilemmas_localised_description_vco_vmp_man_dilemma_ossified_portal	Mannfred raises the Timor Noctis towards the fell moon shining balefully over the desert. He chants sonorously as the blade glows with power, an unholy dirge that fuses the bones of a dozen conquered Tomb Kings into a great ossified portal that thrums with Dhar magic. The way to Sylvania is open.	true
 dilemmas_localised_title_vco_chs_arc_dilemma_slayer_kings	U'zhul's Fate	true
+dilemmas_localised_title_vco_dwf_gro_1_dilemma_elves	The Fate of the Elves	true
 dilemmas_localised_title_vco_vmp_man_dilemma_ossified_portal	The Ossified Portal	true

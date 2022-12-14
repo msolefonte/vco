@@ -9,8 +9,8 @@ effect_bundles_localised_description_vco_victory_payload_bst_tau_2_beastpaths_ru
 effect_bundles_localised_description_vco_victory_payload_bst_tau_3_heart_dark	The Slaughterhorn tribe enact hideous rites at the Heart of the Dark, feeding thousands of captives into a gaping, gnashing maw at the very foundation of the herdstone. Men suffer evil dreams. Priests are plagued with temptation. Every beast feels a primal urge to kill and destroy, and the Cloven Ones march to war.	true
 effect_bundles_localised_description_vco_victory_payload_chs_arc_1_beginning_end	With a pulse of eldritch force, the Crown of Domination is placed upon your head. A vast ocean of battle-hardened warriors chants your name. You take up your blade and mount your steed, ready to march south to bring ruination and death to the world.	true
 effect_bundles_localised_description_vco_victory_payload_chs_arc_2_slayer_kings	The Slayer of Kings is a huge sword with the raging soul of a captive Greater Daemon, U'zuhl, bound within it. Archaon claimed it from the hands of the Father of the Dragon Ogres, giving Archaon a weapon that has drunk the blood of kings for aeons. Now, he must decide U'zuhl's fate.	true
-effect_bundles_localised_description_vco_victory_payload_chs_arc_2_slayer_kings_dilemma_denied	I said I would set you free, mighty daemon. I never said when.	true
-effect_bundles_localised_description_vco_victory_payload_chs_arc_2_slayer_kings_dilemma_unbound	You are free, daemon. Free to serve as my pack mule. Now go, search the corpses of the slain. Bring back anything of value you find.	true
+effect_bundles_localised_description_vco_victory_payload_chs_arc_2_slayer_kings_dilemma_denied	U'zhul rages within his steel prison, cursing Archaon's name. Ironically, the daemon's wrath serves only to strengthen the Everchosen further.	true
+effect_bundles_localised_description_vco_victory_payload_chs_arc_2_slayer_kings_dilemma_unbound	U'zhul has been freed from his steel prison, but is still bound to Archaon's will. The daemon now trails behind Archaon's Warhost, scavenging valuables from the fields of carnage left in their wake.	true
 effect_bundles_localised_description_vco_victory_payload_chs_arc_3_end_times	Deep beneath Middenheim there lies an ancient device, left from the age when the gods warred against the Old Ones; a device that, if properly coaxed, will unleash a rift to the Realm of Chaos.	true
 effect_bundles_localised_description_vco_victory_payload_cst_sar_1_captain_of_the_swordfysh	This moondail once belonged to Captain Jaego Roth, before he was slain by Count Noctilus. It enables its owner to pull of seemingly-impossible feats of navigation and piloting.	true
 effect_bundles_localised_description_vco_victory_payload_cst_sar_1_pirate_queen	Do you know what Aranessa Saltspite, Queen of the Pirates, did when the treasure she had sought was placed in front of her very eyes? She laughed.	true
@@ -32,9 +32,17 @@ effect_bundles_localised_description_vco_victory_payload_def_cop_2_hell_hath_no_
 effect_bundles_localised_description_vco_victory_payload_def_cop_2_hell_hath_no_fury_2	This jewel was originally gifted to Morathi by Aenarion, before it was stolen by Anar. It cloaks the wearer in shadow.	true
 effect_bundles_localised_description_vco_victory_payload_def_cop_3_return_of_the_queen_1	From Ghrond's pinnacle, Sorceresses of the Dark Convent manipulate the Winds of Magic in Morathi's favour.	true
 effect_bundles_localised_description_vco_victory_payload_def_cop_3_return_of_the_queen_2	The Hag Queen deliberately withholds the deepest secrets of the Cauldrons of Blood, thus chaining the Witch Elves to her will.	true
+effect_bundles_localised_description_vco_victory_payload_dwf_gro_1_dilemma_elves_condemn	The White Dwarf leads his throng on the war path, seeking vengeance for ancient grievances against his people. He will not rest until the Phoenix King Finubar sues for peace!	true
+effect_bundles_localised_description_vco_victory_payload_dwf_gro_1_dilemma_elves_forgive	The White Dwarf has ushered in a new era of peace between the Dwarfs and the Elves. Though they may never see eye-to-eye, the two races stand united against the forces of Chaos arrayed against them.	true
+effect_bundles_localised_description_vco_victory_payload_dwf_gro_1_malekith_grudge	The Witch King is dead, turned to stone by Grungi's judgment. His hateful empire is in ruins, and his great betrayal has finally been avenged.	true
+effect_bundles_localised_description_vco_victory_payload_dwf_gro_2_high_elf_decision	The realms of the Elgi boast treasures that rival even the greatest dwarfholds of the Everlasting Realm.	true
+effect_bundles_localised_description_vco_victory_payload_dwf_gro_3_age_reckoning	The White Dwarf has laid the foundation for a new Dwarfen realm amongst the snowy peaks of Naggaroth. May the Ancestor Gods watch over these trailblazers until their dying days!	true
 effect_bundles_localised_description_vco_victory_payload_emp_big_game_hunter	Nakai didn't wander far enough. His head now takes pride of place in the Huntmarshal's trophy room.	true
 effect_bundles_localised_description_vco_victory_payload_emp_champions_of_the_empire	Arise, Huntsmarshal. You need not kneel in my presence; you have earned that right. Your expedition has brought honour and glory to the Empire in its hour of greatest need. Your brother would be proud.	true
 effect_bundles_localised_description_vco_victory_payload_emp_cursed_artifact_notidoq	This ancient artifact glows with an eldritch light, filling one's mind with a bestial fury.	true
+effect_bundles_localised_description_vco_victory_payload_emp_kar_1_protector_empire	Marienburg's independence is no more. Rulership has been returned to the true Duke of Marienburg, Theoderic Gausser, and the wealth from its ports now flows into the imperial coffers once more.	true
+effect_bundles_localised_description_vco_victory_payload_emp_kar_2_defier_dark	Upon the battlements of Castle Drakenhof, the Emperor slew Vlad von Carstein in personal combat, staking him through the heart to ensure he would never return. The Cleansing of Sylvania has begun, though it will take many years to purge these blighted lands.	true
+effect_bundles_localised_description_vco_victory_payload_emp_kar_3_karl_uniter	Whether through conquest or diplomacy, the Empire has gained newfound strength with which to wield against its rivals. Even Sigmar Heldenhammer himself did not command such martial and political strength in his lifetime.	true
 effect_bundles_localised_description_vco_victory_payload_grn_gri_1_boss_east	After clubbing Greasus to death with his own sceptre and banishing Kholek from the mountains, the Ogres saw Grimgor as a living avatar of the Great Maw and pledged their allegiance.	true
 effect_bundles_localised_description_vco_victory_payload_grn_gri_2_burn_badlands	The Dawi-Zharr have reaped what they have sown. They are now slaves to Grimgor, doomed to labour at their forges to produce arms and armour for his ever-growing Waaagh!	true
 effect_bundles_localised_description_vco_victory_payload_grn_gri_3_unfinished_business_1	“Dis way, ladz! I 'eard Ironhide's 'aving anuver big stunty bake!”	true
@@ -62,6 +70,11 @@ effect_bundles_localised_description_vco_victory_payload_nor_wul_1_ragnarok_2	Ba
 effect_bundles_localised_description_vco_victory_payload_nor_wul_2_the_world_walker	With his Gift of Tongues, Wulfrik curses foes and goads them into recklessness. Whether he's besmirching a Dwarf's honour, questioning a Bretonnian's lineage or humiliating a haughty Elf - none can ignore his insults for long.	true
 effect_bundles_localised_description_vco_victory_payload_nor_wul_3_monster_hunt	We fought monsters. And we became them.	true
 effect_bundles_localised_description_vco_victory_payload_nor_wul_3_wheres_my_palico	The Norscans of Lustria have taught Wulfrik's warriors how to harvest and coat their blades in deadly poisons from the jungles.	true
+effect_bundles_localised_description_vco_victory_payload_nur_kug_1_great_game	Nurgle's Chaos Cults rot the the world, weakening the strength of the armies of mortals and the morale of their civilian subjects. A single cough can lay low a legendary hero where feats of arms have failed. A sneeze can decimate an entire town. Where subtle measures fail, cultists can rip apart the veil between reality and the Realm of Chaos, summoning Nurgle's Daemons to lay waste with their contagions. As pestilence grips the world, Nurgle's power eclipses that of his brother gods.	true
+effect_bundles_localised_description_vco_victory_payload_nur_kug_2_eastern_poxes	The aged Necromancer's resilience to toxins rivals those of Poxfulcrum herself. This delights Ku'gath to no end, as he makes an excellent subject for which to test his latest creations.	true
+effect_bundles_localised_description_vco_victory_payload_nur_kug_2_eastern_poxes_1	Ku'gath took great delight in visiting the many sights and cities of Grand Cathay, showing his appreciation by sharing the many gifts he had created. In the southern and western provinces, crops withered, rice paddies were blighted, and the people took ill. They called him Zin-Fa and prayed to him for salvation. He was only too happy to oblige...	true
+effect_bundles_localised_description_vco_victory_payload_nur_kug_3_death_dwarfs	Ku'gath once spent several centuries within the Forge of Souls as punishment for his failure against the Dwarfs. Yet the Urfather was always a forgiving father towards his children. This recent victory has raised Ku'gath to the pinnacle of Nurgle's favour once more.	true
+effect_bundles_localised_description_vco_victory_payload_nur_kug_3_death_dwarfs_1	Ku'gath, ever generous with his children, gifted them with his newest creation, derived from the pollutants found within the River Ruin. The Nurglings are soon overjoyed to discover their skin hardening like iron from this new gift.	true
 effect_bundles_localised_description_vco_victory_payload_ogr_gre_1_rich_walk	Greasus' wealth is now so obscene that even the lowliest Gnoblar in his tribe is bedecked in finery that would beggar a noble. All vie to join the Goldtooths and share in their wealth, and even the great nations of the world are enticed by the Hoardmaster's lucrative offers.	true
 effect_bundles_localised_description_vco_victory_payload_ogr_gre_2_overtyrants_reign_1	In recognition of Greasus' indisputable dominion over these lands, the Black Dwarfs of Zhar-Naggrund have gifted him with a powerful daemon engine to strap to the back of his cart. In return, they merely ask that he look the other way when the occasional Cathayan caravan goes missing...	true
 effect_bundles_localised_description_vco_victory_payload_ogr_gre_2_overtyrants_reign_2	Grimgor's armour was forged in the blood of Dwarf Runepriests, thus granting it potent defensive properties. As it was far too small for Greasus' magnificent bulk, it was melted down and reforged into a gut-plate of terrific proportions.	true
@@ -79,6 +92,9 @@ effect_bundles_localised_description_vco_victory_payload_sla_nka_3_wrath_desire_
 effect_bundles_localised_description_vco_victory_payload_tmb_ark_1_thy_kingdom_come	Arkhan journeys across the dunes, enslaving Tomb Kings from every dynasty and binding their legions to his will. Those who resist are destroyed utterly - their powdered bones lost to the sands of time forevermore.	true
 effect_bundles_localised_description_vco_victory_payload_tmb_ark_2_born_to_serve	These bloodthirsty creatures will make fine foot soldiers in the wars to come. Let their blight curse the lands.	true
 effect_bundles_localised_description_vco_victory_payload_tmb_ark_3_faithful_servant	Foremost of the Dark Lords, Arkhan heralds in a new age of death and despair.	true
+effect_bundles_localised_description_vco_victory_payload_tze_kai_1_great_game	Was this Tzeentch's ultimate goal, or merely one further step towards another end? To even begin to unravel his intentions is to invite madness, for perhaps he is mad himself, and his plans are, in fact, utterly devoid of all reason.	true
+effect_bundles_localised_description_vco_victory_payload_tze_kai_2_visions_past	Though the Lizardmen of the present era had little understanding of these ancient relics, Kairos had long studied their purpose within the Impossible Fortress. His mastery of their magics rivals even those of a first generation Slann.	true
+effect_bundles_localised_description_vco_victory_payload_tze_kai_3_visions_future	Fate has been rewritten. Those who were once destined to defeat Kairos now lie dead beneath his claws, their arcane baubles serving only for his entertainment. All is as was foreseen...	true
 effect_bundles_localised_description_vco_victory_payload_vmp_man_1_restless_dunes	Built from the fused remains of a dozen conquered Tomb Kings, this monolith throbs with unholy power.	true
 effect_bundles_localised_description_vco_victory_payload_vmp_man_1_restless_dunes_portal	A portal to Sylvania will become available to Mannfred's army.	true
 effect_bundles_localised_description_vco_victory_payload_vmp_man_2_reclaim_throne	This land is my home, my birthright. The wind and rain are my allies. The trees and stones are my foot soldiers. The very earth will rise up against you should you try to take it from me. And my people will feast on your bones.	true
@@ -121,9 +137,17 @@ effect_bundles_localised_title_vco_victory_payload_def_cop_2_hell_hath_no_fury_1
 effect_bundles_localised_title_vco_victory_payload_def_cop_2_hell_hath_no_fury_2	The Stone of Midnight	true
 effect_bundles_localised_title_vco_victory_payload_def_cop_3_return_of_the_queen_1	Ghrond Reclaimed	true
 effect_bundles_localised_title_vco_victory_payload_def_cop_3_return_of_the_queen_2	Hellebron Humbled	true
+effect_bundles_localised_title_vco_victory_payload_dwf_gro_1_dilemma_elves_condemn	The Second War of Vengeance	true
+effect_bundles_localised_title_vco_victory_payload_dwf_gro_1_dilemma_elves_forgive	The Last Alliance	true
+effect_bundles_localised_title_vco_victory_payload_dwf_gro_1_malekith_grudge	Grungi's Condemnation	true
+effect_bundles_localised_title_vco_victory_payload_dwf_gro_2_high_elf_decision	The Wealth of the Elves	true
+effect_bundles_localised_title_vco_victory_payload_dwf_gro_3_age_reckoning	Manifest Destiny	true
 effect_bundles_localised_title_vco_victory_payload_emp_big_game_hunter	Big Game Hunter	true
 effect_bundles_localised_title_vco_victory_payload_emp_champions_of_the_empire	Champions of the Empire	true
 effect_bundles_localised_title_vco_victory_payload_emp_cursed_artifact_notidoq	Cursed Artifact of No'Tidoq	true
+effect_bundles_localised_title_vco_victory_payload_emp_kar_1_protector_empire	The Reclamation of Marienburg	true
+effect_bundles_localised_title_vco_victory_payload_emp_kar_2_defier_dark	The Cleansing of Sylvania	true
+effect_bundles_localised_title_vco_victory_payload_emp_kar_3_karl_uniter	Karl the Uniter	true
 effect_bundles_localised_title_vco_victory_payload_grn_gri_1_boss_east	Da Great Maw's Avatar	true
 effect_bundles_localised_title_vco_victory_payload_grn_gri_2_burn_badlands	Slavesmiths	true
 effect_bundles_localised_title_vco_victory_payload_grn_gri_3_unfinished_business_1	Stunty Bake	true
@@ -151,6 +175,11 @@ effect_bundles_localised_title_vco_victory_payload_nor_wul_1_ragnarok_2	Faithful
 effect_bundles_localised_title_vco_victory_payload_nor_wul_2_the_world_walker	The Eternal Challenger	true
 effect_bundles_localised_title_vco_victory_payload_nor_wul_3_monster_hunt	Monster Hunter	true
 effect_bundles_localised_title_vco_victory_payload_nor_wul_3_wheres_my_palico	Lustrian Tactics	true
+effect_bundles_localised_title_vco_victory_payload_nur_kug_1_great_game	Nurgle Ascendant	true
+effect_bundles_localised_title_vco_victory_payload_nur_kug_2_eastern_poxes	Ghorst Imprisoned	true
+effect_bundles_localised_title_vco_victory_payload_nur_kug_2_eastern_poxes_1	Zin-Fa the Ever-Pustulent	true
+effect_bundles_localised_title_vco_victory_payload_nur_kug_3_death_dwarfs	The Urfather's Forgiveness	true
+effect_bundles_localised_title_vco_victory_payload_nur_kug_3_death_dwarfs_1	River Ruin Pathogen	true
 effect_bundles_localised_title_vco_victory_payload_ogr_gre_1_rich_walk	Hoardmaster	true
 effect_bundles_localised_title_vco_victory_payload_ogr_gre_2_overtyrants_reign_1	Hell on Wheels	true
 effect_bundles_localised_title_vco_victory_payload_ogr_gre_2_overtyrants_reign_2	Blood-forged Gut-plate	true
@@ -168,6 +197,9 @@ effect_bundles_localised_title_vco_victory_payload_sla_nka_3_wrath_desire_roc_2	
 effect_bundles_localised_title_vco_victory_payload_tmb_ark_1_thy_kingdom_come	Thy Will Be Done	true
 effect_bundles_localised_title_vco_victory_payload_tmb_ark_2_born_to_serve	Know Your Place	true
 effect_bundles_localised_title_vco_victory_payload_tmb_ark_3_faithful_servant	Mortarch of Sacrament	true
+effect_bundles_localised_title_vco_victory_payload_tze_kai_1_great_game	Tzeentch Ascendant	true
+effect_bundles_localised_title_vco_victory_payload_tze_kai_2_visions_past	Artifacts of the Old Ones	true
+effect_bundles_localised_title_vco_victory_payload_tze_kai_3_visions_future	Trinkets of the Slain	true
 effect_bundles_localised_title_vco_victory_payload_vmp_man_1_restless_dunes	The Ossified Monolith	true
 effect_bundles_localised_title_vco_victory_payload_vmp_man_1_restless_dunes_portal	The Soulgate	true
 effect_bundles_localised_title_vco_victory_payload_vmp_man_2_reclaim_throne	Return of the Count	true

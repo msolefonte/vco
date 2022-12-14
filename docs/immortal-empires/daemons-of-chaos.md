@@ -1,6 +1,6 @@
 # Daemons of Chaos
 
-## Daemon Prince - Legion of Chaos
+## Daemon Prince: Legion of Chaos
 
 * **Route I - Ascension**
   * "Gods of Chaos... I have tasted but a morsel of your power... Look at what I have achieved! Let me feast upon it! 

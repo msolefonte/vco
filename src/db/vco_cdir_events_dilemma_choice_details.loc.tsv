@@ -1,12 +1,16 @@
 key	text	tooltip
 #Loc PackedFile;1;text/db/vco_cdir_events_dilemma_choice_details.loc		
-cdir_events_dilemma_choice_details_localised_choice_label_vco_chs_arc_dilemma_slayer_kingsFIRST	U'zhul Unbound	false
-cdir_events_dilemma_choice_details_localised_choice_label_vco_chs_arc_dilemma_slayer_kingsSECOND	U'zhul Denied	false
+cdir_events_dilemma_choice_details_localised_choice_label_vco_chs_arc_dilemma_slayer_kingsFIRST	Free the Daemon	false
+cdir_events_dilemma_choice_details_localised_choice_label_vco_chs_arc_dilemma_slayer_kingsSECOND	Deny the Daemon	false
+cdir_events_dilemma_choice_details_localised_choice_label_vco_dwf_gro_1_dilemma_elvesFIRST	Forgive the Elves	true
+cdir_events_dilemma_choice_details_localised_choice_label_vco_dwf_gro_1_dilemma_elvesSECOND	Condemn the Elves	true
 cdir_events_dilemma_choice_details_localised_choice_label_vco_vmp_man_dilemma_ossified_portalFIRST	Cross the Threshold	false
 cdir_events_dilemma_choice_details_localised_choice_label_vco_vmp_man_dilemma_ossified_portalSECOND	The Time Is Not Right	false
 cdir_events_dilemma_choice_details_localised_choice_label_vco_vmp_man_dilemma_ossified_portalTHIRD	I Care Not	false
 cdir_events_dilemma_choice_details_localised_choice_title_vco_chs_arc_dilemma_slayer_kingsFIRST	You are free, daemon. Free to serve as my pack mule. Now go, search the corpses of the slain. Bring back anything of value you find.	false
 cdir_events_dilemma_choice_details_localised_choice_title_vco_chs_arc_dilemma_slayer_kingsSECOND	I said I would set you free, mighty daemon. I never said when.	false
+cdir_events_dilemma_choice_details_localised_choice_title_vco_dwf_gro_1_dilemma_elvesFIRST	The Grudge is struck. The Witch King's veiled machinations have been laid bare for all to see. Let us reforge the old alliances and stand together as one against the coming darkness.	true
+cdir_events_dilemma_choice_details_localised_choice_title_vco_dwf_gro_1_dilemma_elvesSECOND	Malekith proved that the Elgi cannot be trusted. It is in their nature to lie and decieve, and the Dawi would be fools to forget this. The War of Vengeance will begin anew, and this time it will not end until we have their unconditional surrender. Muster the throngs - we march to Ulthuan!	true
 cdir_events_dilemma_choice_details_localised_choice_title_vco_vmp_man_dilemma_ossified_portalFIRST	I must return to Castle Drakenhof and study these books further. My sire will surely relinquish his claim once he witnesses my newfound power. If not... then he will suffer the same fate as the Devils of Swartzhafen.	false
 cdir_events_dilemma_choice_details_localised_choice_title_vco_vmp_man_dilemma_ossified_portalSECOND	These dunes still hide many treasures. My business is not concluded here.	false
 cdir_events_dilemma_choice_details_localised_choice_title_vco_vmp_man_dilemma_ossified_portalTHIRD	Sylvania is presently of no concern. I must focus my efforts elsewhere.	false

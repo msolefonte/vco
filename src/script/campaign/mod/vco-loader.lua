@@ -69,6 +69,10 @@ local function load_campaigns()
 		if vco:get_config("campaign_immortal_empires_enabled") then
 			vco:trigger_custom_missions("vco-ie");
 		end
+
+		if vco:get_config("campaign_realms_of_chaos_enabled") then
+			vco:trigger_custom_missions("vco-roc");
+		end
 	end
 end
 
