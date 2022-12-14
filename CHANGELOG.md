@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [5.0.0] Out of beta! - TBA
+## [5.0.0] Out of beta! - 14.12.2022
 
 - Added new routes for Grombrindal: The Ancestral Throng
 - Added new routes for Kairos Fateweaver: Oracles of Tzeentch
