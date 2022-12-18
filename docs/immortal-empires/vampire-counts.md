@@ -53,7 +53,7 @@
   * **Reward**:
     * _Sea of Bones_: Replenishment rate +15% for Vampiric Undead units, Raise Dead recruitment cost -15%
     * _Locus of Power_: Winds of Magic pool cap +50
-    * Blood Kisses + 1
+    * Blood Kisses + 3
 
 * **Route II - The Old World Calls Me**
   * Destroy factions:
@@ -62,7 +62,7 @@
     * Nuln, Altdorf, Averheim, Wurtbad, Middenheim
   * **Reward**:
     * _Age of the Living is Ending_: Armies gain Terror vs the Empire, +15 Melee Attack vs the Empire, Raise Dead recruitment cost -15%
-    * Blood Kisses + 1
+    * Blood Kisses + 3
 
 * **Route III - Lichemaster**
   * Reach rank 40 with Heinrich Kemmler
