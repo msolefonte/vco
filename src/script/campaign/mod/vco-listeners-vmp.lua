@@ -1,4 +1,5 @@
 local vlc = core:get_static_object("vco-lib-commons");
+local vco = core:get_static_object("vco");
 
 local DILEMMA_TURNS_DELAY = 10;
 local FACTION_MAN_ID = "vmp_man";
@@ -83,10 +84,10 @@ local function add_listeners()
 	
 	core:add_listener(
 		"vco_vmp_kem_3_bloodline_awoken",
-		"RitualEvent",
+		"RitualCompletedEvent",
 		function(context)
-			return context:faction():name() == FACTION_KEM_KEY and
-				context:faction():is_human() and
+			return context:performing_faction():name() == FACTION_KEM_KEY and
+				context:performing_faction():is_human() and
 				(
 				 context:ritual():ritual_key() == "wh2_dlc11_vmp_ritual_bloodline_awaken_von_carstein_03" or
 				 context:ritual():ritual_key() == "wh2_dlc11_vmp_ritual_bloodline_awaken_strigoi_03" or

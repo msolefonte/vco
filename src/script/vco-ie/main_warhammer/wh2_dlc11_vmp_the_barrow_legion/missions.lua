@@ -50,7 +50,7 @@ local missions = {
 					{
 						resource vmp_blood_kiss;
 						factor vco;
-						amount 1;
+						amount 3;
 						context absolute;
 					}
 				
@@ -79,7 +79,7 @@ local missions = {
 					type SCRIPTED;
 					script_key vco_dummy;
 				}
-
+			
 				objective
 				{
 					type DESTROY_FACTION;
@@ -110,7 +110,7 @@ local missions = {
 					{
 						resource vmp_blood_kiss;
 						factor vco;
-						amount 1;
+						amount 3;
 						context absolute;
 					}
 				
@@ -139,7 +139,7 @@ local missions = {
 					type SCRIPTED;
 					script_key vco_dummy;
 				}
-
+			
 				objective
 				{
 					type ACHIEVE_CHARACTER_RANK;
