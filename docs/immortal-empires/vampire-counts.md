@@ -60,6 +60,8 @@
     * Reikland
   * Raze or Occupy settlements:
     * Nuln, Altdorf, Averheim, Wurtbad, Middenheim
+  * Destroy faction:
+    * Argwylon
   * **Reward**:
     * _Age of the Living is Ending_: Armies gain Terror vs the Empire, +15 Melee Attack vs the Empire, Raise Dead recruitment cost -15%
     * Blood Kisses + 3
