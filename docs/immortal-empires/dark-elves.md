@@ -50,7 +50,7 @@
     * Shrine of the Widowmaker
   * **Reward:** 
     * _Blades of Khaine_: AP damage +10 for Witch Elves and Sisters of Slaughter
-    * _Taste their Fear_: +15 leadership vs High Elves
+    * _Taste their Fear_: +10 leadership vs Forces of Order
 
 * **Route II - Suffer not another Queen to live**
   * Destroy faction: 
@@ -60,7 +60,7 @@
   * Build Landmark:
     * Hellebron's Palace
   * **Rewards:** 
-    * _Asur Slaves_: Income from Slaves +25%, Slaves max +2500, Slaves +2500
+    * _Asur Slaves_: Income from Slaves +20%, maximum Slaves +2500, Slaves +2500
     * _Admiration of the Druchi_: +50 Diplomacy bonus with all Dark Elf factions
 
 * **Route III - Eternity Awaits**
