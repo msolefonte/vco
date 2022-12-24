@@ -95,7 +95,8 @@ end
 -- ITEMS --
 
 function vlc.items:add_item_to_faction_inventory(item_key, faction_key)
-  cm:add_ancillary_to_faction(faction_key, item_key, true);
+    local faction = cm:get_faction(faction_key);
+    cm:add_ancillary_to_faction(faction, item_key, false);
 end
 
 -- NAGASH BOOKS --
