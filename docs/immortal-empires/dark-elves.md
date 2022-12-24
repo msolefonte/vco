@@ -61,7 +61,7 @@
     * Hellebron's Palace
   * **Rewards:** 
     * _Asur Slaves_: Income from Slaves +20%, maximum Slaves +2500, Slaves +2500
-    * _Admiration of the Druchi_: +50 Diplomacy bonus with all Dark Elf factions
+    * _Admiration of the Druchi_: +50 Diplomacy bonus with all Dark Elf factions, Armor of Living Death + Hydra Blade granted
 
 * **Route III - Eternity Awaits**
   * Destroy faction:
