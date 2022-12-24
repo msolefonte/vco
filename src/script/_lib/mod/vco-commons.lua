@@ -5,6 +5,7 @@ local vlc = {
 	characters = {},
 	corruption = {},
 	diplomacy = {},
+	items = {},
 	nagash_books = {},
 	pooled_resources = {},
 	unit_locks = {},
@@ -89,6 +90,12 @@ function vlc.diplomacy:vassalise_faction_safe(self_faction, target_faction_key)
 	if self:is_target_faction_valid(target_faction_key) then
 		cm:force_make_vassal(self_faction, target_faction_key);
 	end
+end
+
+-- ITEMS --
+
+function vlc.items:add_item_to_faction_inventory(item_key, faction_key)
+  cm:add_ancillary_to_faction(faction_key, item_key, true);
 end
 
 -- NAGASH BOOKS --
