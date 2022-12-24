@@ -13,7 +13,7 @@ local missions = {
 					type SCRIPTED;
 					script_key vco_dummy;
 				}
-
+			
 				objective
 				{
 					type DESTROY_FACTION;
@@ -68,7 +68,7 @@ local missions = {
 		{
 			victory_type vco_victory_type_def_gan_2_suffer_not_another_queen;
 			key wh_main_short_victory;
-			issuer CLAN_ELDERS;
+			issuer MUFFIN_MAN;
 			primary_objectives_and_payload
 			{
 				objective

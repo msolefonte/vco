@@ -45,7 +45,7 @@ local function add_listeners()
 	);
 	
 	core:add_listener(
-		"vco_def_gan_route_1_completed",
+		"vco_def_gan_route_2_completed",
 		"MissionSucceeded",
 		function(context)
 			return context:faction():name() == FACTION_GAN_KEY and
