@@ -55,3 +55,4 @@ effects_description_vco_def_gan_increase_max_slaves	Maximum Slaves: %+n	true
 effects_description_vco_def_gan_hellebron_melee_damage_ap	Armour-piercing weapon damage: %+n for Crone Hellebron	true
 effects_description_vco_def_gan_ritual_drakira_cost_reduction	Cost reduction for Sacrifice to Drakira: %-n%	true
 effects_description_vco_def_gan_leadership_vs_forces_of_order	Leadership vs Forces of Order: %+n	true
+effects_description_vco_def_gan_items_awarded_dummy	Items Granted: Armor of Living Death, Hydra Blade	true

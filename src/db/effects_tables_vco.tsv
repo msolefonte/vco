@@ -55,3 +55,4 @@ vco_def_gan_increase_max_slaves	slaves.png	101	slaves.png	campaign	true
 vco_def_gan_hellebron_melee_damage_ap	armour_piercing_character.png	101	armour_piercing_character.png	campaign	true
 vco_def_gan_ritual_drakira_cost_reduction	effect_rite.png	101	effect_rite.png	campaign	true
 vco_def_gan_leadership_vs_forces_of_order	morale.png	101	morale.png	campaign	true
+vco_def_gan_items_awarded_dummy	daemonic_gift.png	101	daemonic_gift.png	campaign	true
