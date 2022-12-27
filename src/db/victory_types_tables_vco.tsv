@@ -160,8 +160,9 @@ vco_victory_type_vmp_man_3_death_comes_for_all	2	0	long	long
 vco_victory_type_wef_twi_1_dreaming_wood	0	0	long	long
 vco_victory_type_wef_twi_2_vauls_anvils	1	0	long	long
 vco_victory_type_wef_twi_3_sacred_pools	2	0	long	long
-wh3_main_victory_type_chaos_domination	0	0	long	long
-wh3_main_victory_type_chaos_forge_of_souls	0	0	long	long
+vco_victory_type_def_gan_1_sacrifice_slaughter	0	0	long	long
+vco_victory_type_def_gan_2_suffer_not_another_queen	1	0	long	long
+vco_victory_type_def_gan_3_eternity_awaits	2	0	long	long
 wh3_main_victory_type_chaos_forge_of_souls	3	0	long	long
 vco_victory_type_vmp_kem_1_cold_mountains_quiet_fields	0	0	long	long
 vco_victory_type_vmp_kem_2_old_world_calls_me	1	0	long	long

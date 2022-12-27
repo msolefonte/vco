@@ -50,5 +50,11 @@ effects_description_vco_tmb_arkhan_allegiance_points_mod_vampire_coast	Allegianc
 effects_description_vco_vmp_man_dilemma_soulgate	A portal to Sylvania will become available to Mannfred's army.	true
 effects_description_vco_vmp_man_ward_save	Ward save: %+n% for Mannfred von Carstein	true
 effects_description_vco_vmp_man_weapon_strength	Weapon strength: %+n% for Mannfred von Carstein	true
+effects_description_vco_def_gan_witch_elves_sisters_melee_damage_ap	Armour-piercing weapon damage: %+n for Sisters of Slaughter and Witch Elves	true
+effects_description_vco_def_gan_increase_max_slaves	Maximum Slaves: %+n	true
+effects_description_vco_def_gan_hellebron_melee_damage_ap	Armour-piercing weapon damage: %+n for Crone Hellebron	true
+effects_description_vco_def_gan_ritual_drakira_cost_reduction	Cost reduction for Sacrifice to Drakira: %-n%	true
+effects_description_vco_def_gan_leadership_vs_forces_of_order	Leadership vs Forces of Order: %+n	true
+effects_description_vco_def_gan_items_awarded_dummy	Items Granted: Armor of Living Death, Hydra Blade	true
 effects_description_vco_vmp_kem_melee_defence	Melee defence: %+n for Heinrich Kemmler	true
 effects_description_vco_vmp_kem_missile_resistance	Missile resistance: %+n% for Heinrich Kemmler	true
