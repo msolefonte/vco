@@ -1,6 +1,7 @@
 local vco = {};
 local config = {
 	campaign_immortal_empires_enabled = true,
+	campaign_realms_of_chaos_enabled = true,
 	default_campaigns_disabled = false,
 	logging_enabled = false
 };
