@@ -2,7 +2,7 @@ local vco = core:get_static_object("vco");
 
 local FACTION_BOR_KEY = "wh_main_brt_bordeleaux";
 local KEY_CS_ALBERIC = "wh_dlc07_brt_alberic";
-local KEY_D_MANANNS_FAVOUR = "vco_brt_alb_2_dilemma_mananns_favour";
+local KEY_D_MANANNS_FAVOUR = "vco_brt_alb_dilemma_mananns_favour";
 
 -- TRIGGERS --
 

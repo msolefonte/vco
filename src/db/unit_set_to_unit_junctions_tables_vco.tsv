@@ -13,8 +13,11 @@ vco_cst_rotting	wh2_dlc11_cst_mon_rotting_prometheans_0				false
 vco_cst_rotting	wh2_dlc11_cst_mon_rotting_prometheans_gunnery_mob_0				false
 vco_cst_rotting	wh2_dlc11_cst_mon_rotting_prometheans_gunnery_mob_ror				false
 vco_cst_rotting	wh2_dlc11_cst_mon_rotting_prometheans_summoned_0				false
+vco_cth_war_compass	wh3_main_cth_veh_war_compass_0				false
 vco_def_morathi	wh2_main_def_cha_morathi_0				false
 vco_def_morathi	wh2_main_def_cha_morathi_1				false
+vco_ksl_tzar_guard	wh3_main_ksl_inf_tzar_guard_0				false
+vco_ksl_tzar_guard	wh3_main_ksl_inf_tzar_guard_1				false
 vco_nor_marauder_hunters_spears	wh_dlc08_nor_inf_marauder_hunters_0				false
 vco_nor_marauder_hunters_spears	wh_dlc08_nor_inf_marauder_hunters_1				false
 vco_nor_marauder_hunters_spears	wh_dlc08_nor_inf_marauder_spearman_0				false

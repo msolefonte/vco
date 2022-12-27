@@ -2,7 +2,7 @@ local missions = {
 	[[
  		mission
 		{
-			victory_type vco_victory_type_alternative_1_iron_into_gold_roc;
+			victory_type vco_victory_type_cth_twp_1_iron_into_gold_roc;
 			key wh_main_short_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
@@ -67,7 +67,7 @@ local missions = {
 	[[
  		mission
 		{
-			victory_type vco_victory_type_cth_zha_2_warpstone_hoard_roc;
+			victory_type vco_victory_type_cth_twp_2_warpstone_hoard_roc;
 			key wh_main_short_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
@@ -112,7 +112,7 @@ local missions = {
 	[[
  		mission
 		{
-			victory_type vco_victory_type_alternative_3_dont_thread_on_ming_roc;
+			victory_type vco_victory_type_cth_twp_3_dont_thread_on_ming_roc;
 			key wh_main_short_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload

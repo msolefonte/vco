@@ -2,7 +2,7 @@ local vco = core:get_static_object("vco");
 
 local FACTION_TNP_KEY = "wh3_main_cth_the_northern_provinces";
 local FACTION_TWP_KEY = "wh3_main_cth_the_western_provinces";
-local KEY_D_SISTER_RESCUED = "vco_cth_miao_3_dilemma_sister_rescued";
+local KEY_D_SISTER_RESCUED = "vco_cth_miao_dilemma_sister_rescued";
 local REQUIRED_NUM_CARAVANS_COMPLETED_VICTORY = 9;
 local REQUIRED_TOTAL_GOODS_MOVED_VICTORY = 13140;
 

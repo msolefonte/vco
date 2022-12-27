@@ -1,5 +1,5 @@
 local FACTION_TAT_KEY = "wh3_main_dwf_the_ancestral_throng";
-local KEY_D_ELVES = "vco_dwf_gro_1_dilemma_elves";
+local KEY_D_ELVES = "vco_dwf_gro_dilemma_elves";
 
 -- TRIGGERS --
 
