@@ -89,7 +89,6 @@ local missions = {
 					subculture wh_main_sc_emp_empire;
 				}
 
-
 				payload
 				{
 					effect_bundle
@@ -146,7 +145,6 @@ local missions = {
 
 					building_level wh3_main_special_gorger_haunt;
 				}
-
 
 				payload
 				{

@@ -7,7 +7,6 @@ local missions = {
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
-
 				objective
 				{
 					override_text mission_text_text_vco_cth_unify_grand_cathay;
@@ -57,7 +56,6 @@ local missions = {
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
-
 				objective
 				{
 					override_text mission_text_text_vco_cth_unify_great_bastion;
@@ -95,7 +93,6 @@ local missions = {
 					confederation_valid;
 				}
 
-
 				payload
 				{
 					effect_bundle
@@ -123,7 +120,6 @@ local missions = {
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
-
 				objective
 				{
 					override_text mission_text_text_vco_cth_the_northern_expedition_roc;

@@ -29,7 +29,6 @@ local missions = {
 
 				payload
 				{
-				
 					effect_bundle
 					{
 						bundle_key vco_victory_payload_dae_god_1_ascension;

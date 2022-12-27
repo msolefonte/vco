@@ -7,7 +7,6 @@ local missions = {
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
-
 				objective
 				{
 					override_text mission_text_text_vco_cth_zha_1_iron_into_gold;
@@ -73,7 +72,6 @@ local missions = {
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
-
 				objective
 				{
 					override_text mission_text_text_vco_cth_zha_2_warpstone_hoard;
@@ -119,7 +117,6 @@ local missions = {
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
-
 				objective
 				{
 					override_text mission_text_text_vco_cth_unify_ivory_road;

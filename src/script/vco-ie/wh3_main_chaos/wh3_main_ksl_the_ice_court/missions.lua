@@ -7,7 +7,6 @@ local missions = {
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
-
 				objective
 				{
 					override_text mission_text_text_vco_ksl_kat_1_there_can_only_be_one;
@@ -87,7 +86,6 @@ local missions = {
 
 				payload
 				{
-
 					effect_bundle
 					{
 						bundle_key vco_victory_payload_ksl_kat_2_kislev_love;

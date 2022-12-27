@@ -7,7 +7,6 @@ local missions = {
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
-
 				objective
 				{
 					override_text mission_text_text_vco_ksl_tgo_1_there_can_only_be_one;

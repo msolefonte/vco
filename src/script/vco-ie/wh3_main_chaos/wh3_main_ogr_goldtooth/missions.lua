@@ -63,27 +63,27 @@ local missions = {
 					type CONTROL_N_PROVINCES_INCLUDING;
 					total 8;
 
-                    province wh3_main_chaos_province_ivory_road;
+					province wh3_main_chaos_province_ivory_road;
 					province wh3_main_chaos_province_mountains_of_mourn;
 					province wh3_main_chaos_province_the_great_maw;
 					province wh3_main_chaos_province_ice_pass;
-                    province wh3_main_chaos_province_ancient_giant_lands;
+					province wh3_main_chaos_province_ancient_giant_lands;
 					province wh3_main_chaos_province_bone_road;
-                    province wh3_main_chaos_province_gash_kadrak;
-					province wh3_main_chaos_province_path_to_the_east;   
+					province wh3_main_chaos_province_gash_kadrak;
+					province wh3_main_chaos_province_path_to_the_east;
 				}
 
 				objective
 				{
-                    type CONSTRUCT_N_BUILDINGS_INCLUDING;
-                    faction wh3_main_ogr_goldtooth;
-                    total 5;
+					type CONSTRUCT_N_BUILDINGS_INCLUDING;
+					faction wh3_main_ogr_goldtooth;
+					total 5;
 
-                    building_level wh3_main_special_goldtooths_toll_gate;
-                    building_level wh3_main_special_the_fire_mouth;
-                    building_level wh3_main_special_karak_azorn_great_hall;
-                    building_level wh3_main_special_abandoned_sky_titan_hold;
-                    building_level wh3_main_special_challenge_stone_srawl;
+					building_level wh3_main_special_goldtooths_toll_gate;
+					building_level wh3_main_special_the_fire_mouth;
+					building_level wh3_main_special_karak_azorn_great_hall;
+					building_level wh3_main_special_abandoned_sky_titan_hold;
+					building_level wh3_main_special_challenge_stone_srawl;
 				}
 
 				payload
@@ -125,7 +125,7 @@ local missions = {
 					type CONTROL_N_PROVINCES_INCLUDING;
 					total 2;
 
-                    province wh3_main_chaos_province_imperial_road;
+					province wh3_main_chaos_province_imperial_road;
 					province wh3_main_chaos_province_forests_of_the_moon;
 				}
 

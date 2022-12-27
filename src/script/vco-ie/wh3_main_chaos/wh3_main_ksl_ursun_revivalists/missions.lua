@@ -7,7 +7,6 @@ local missions = {
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
-
 				objective
 				{
 					override_text mission_text_text_vco_ksl_bor_1_doomslayer_roc;
@@ -90,7 +89,6 @@ local missions = {
 
 				payload
 				{
-
 					effect_bundle
 					{
 						bundle_key vco_victory_payload_ksl_bor_2_old_frontier_roc;
@@ -116,7 +114,6 @@ local missions = {
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
-
 				objective
 				{
 					override_text mission_text_text_vco_ksl_bor_3_blood_snow;
