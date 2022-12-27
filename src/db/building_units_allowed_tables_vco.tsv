@@ -2,6 +2,10 @@ building	unit	xp	conditions	key	faction	enabled
 #building_units_allowed_tables;4;db/building_units_allowed_tables/vco						
 wh2_main_def_pleasure_cult_5	wh3_main_sla_mon_fiends_of_slaanesh_0	0	0	852189347		false
 wh2_main_def_pleasure_cult_5	wh3_main_sla_mon_keeper_of_secrets_0	0	0	834926571		false
+wh3_main_ksl_artillery_1	wh_main_emp_art_great_cannon	0	0	111926596		false
+wh3_main_ksl_artillery_1	wh_main_emp_art_mortar	0	0	111926594		false
+wh3_main_ksl_stables_1	wh2_dlc10_dwf_inf_giant_slayers	0	0	111926593		false
+wh3_main_ksl_stables_1	wh_main_dwf_inf_slayers	0	0	111926595		false
 wh3_main_special_ksl_erengrad_3_4	wh_main_emp_veh_luminark_of_hysh_0	0	0	111926571		false
 wh3_main_special_ksl_erengrad_3_5	wh_main_emp_veh_luminark_of_hysh_0	0	0	111926572		false
 wh_main_nor_settlement_major_3	wh3_main_kho_inf_bloodletters_0	0	0	111926573		false

@@ -1,6 +1,7 @@
 local vco = core:get_static_object("vco");
 local vlc = core:get_static_object("vco-lib-commons");
 
+local FACTION_DAE_KEY = "wh3_main_dae_daemon_prince";
 local REQUIRED_CORRUPTED_REGIONS_VICTORY = 100;
 
 -- CHECKS --
@@ -39,6 +40,25 @@ local function add_listeners()
 			end
 
 			check_mono_gods_the_great_game(context:faction():name(), corruption_key);
+		end,
+		true
+	);
+
+	core:add_listener(
+		"vco_dae_daemon_prince_ascend_ritual_completed",
+		"RitualCompletedEvent",
+		function(context)
+			local ritual_key = context:ritual():ritual_key();
+			return context:performing_faction():is_human() and
+				context:performing_faction():name() == FACTION_DAE_KEY and
+				(ritual_key == "wh3_main_ritual_dae_ascend_khorne" or
+					ritual_key == "wh3_main_ritual_dae_ascend_nurgle" or
+					ritual_key == "wh3_main_ritual_dae_ascend_slaanesh" or
+					ritual_key == "wh3_main_ritual_dae_ascend_tzeentch" or
+					ritual_key == "wh3_main_ritual_dae_ascend_undivided");
+		end,
+		function()
+			vco:complete_mission(FACTION_DAE_KEY, "vco_dae_daemon_prince_ascend_ritual");
 		end,
 		true
 	);

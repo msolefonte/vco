@@ -16,7 +16,7 @@ campaign_immortal_empires_enabled:set_text("Enable Immortal Empires");
 campaign_immortal_empires_enabled:set_tooltip_text("Do you want VCO victory conditions for Immortal Empires?");
 
 local campaign_realms_of_chaos_enabled = mct_mod:add_new_option("campaign_realms_of_chaos_enabled", "checkbox");
-campaign_realms_of_chaos_enabled:set_default_value(false);
+campaign_realms_of_chaos_enabled:set_default_value(true);
 campaign_realms_of_chaos_enabled:set_text("Enable Realms of Chaos");
 campaign_realms_of_chaos_enabled:set_tooltip_text("Do you want VCO victory conditions for Realms of Chaos?");
 
