@@ -1,42 +1,34 @@
 # Ogre Kingdoms
 
-## Greasus Goldtooth - Goldtooth Tribe
+## Skrag the Slaughterer: Prophets of the Maw
 
-* **Route I - Too Rich to Walk**
-  * The Goldtooth tribe is notorious for its wealth. Ever eager to show off their top status, they are given to 
-  ostentatious displays - from a vast mountaintop feast hall, to gem-encrusted gutplates and even a solid gold Mawtooth. 
-  Now, under the rule of Greasus, the tribe will grow richer still.
-  * Have a gross income of 25,000
-  * Construct 2 buildings:
-    * Mint (Gold Resource)
-  * Construct 1 building:
-    * Big Gem Mine (Diamond Resource)
-  * **Reward:**
-    * _Hoardmaster_: +30 Diplomacy all factions, Global recruitment capacity +2
+* **Route I - Pilgrim of the Maw**
+  * Offer 200 food to the Great Maw
+  * Win the Cauldron of the Great Maw quest battle
+  * Occupy settlements:
+    * The Maw Gate, The Galleon's Graveyard
+  * **Reward**:
+    * _More Maw!_: Offer to Great Maw cost: -20%, Spell: "Tidecall", Winds of Magic cost: -5 for "Tidecall", Winds of 
+    Magic cost: -10 for "The Maw", Cooldown: -20% to "The Maw"
 
-* **Route II - Overtyrant's Reign**
-  * Greasus' overflowing coffers have not diminished his greed nor his all-consuming desire to conquer everything he 
-  sees. The Tribestealer will unite the Ogres of the Mountains of Mourn into the largest Ogre Kingdom in history!
-  * Occupy provinces: 
-    * Path to the East, Gash Kadrak, Ancient Giant Lands, Bone Road, Mountains of Mourn, Ivory Road, Wyrm Pass, 
-    Gnoblar Country
-  * The Black Orc known as Grimgor Ironhide seeks to challenge Greasus' reign, brazenly dubbing himself "Boss of the 
-  East". The Sceptre of Titans will disabuse him of this notion.
-  * Destroy faction: 
-    * Grimgor's 'Ardboyz
-  * **Reward:**
-    * _Hell on Wheels_: Speed: +35% and Charge Bonus: +20 for Greasus
-    * _Blood-forged Gut-plate_: Armour: +20 and Ward Save: +5 for Greasus
+* **Route II - The Age of Ogres**
+  * Skrag leads his ravenous tribe east, through the lands of the Southern Realms and into the verdant pastures of 
+  Bretonnia. Though there are many foes on this journey, soon to become meat for the maw-cauldron, there are many 
+  potential allies as well.
+  * Destroy factions:
+    * Border Princes, Clan Angrund, Tilea, Estalia, Carcassonne, Couronne
+  * Control at least 2 of the following settlements:
+    * Sartosa, Skavenblight, Oak of Ages, Massif Orcal
+  * **Reward**:
+    * _A New Ogre Kingdom_: Camp limit: +2, Camp growth: +10 for all camps, Speed: +20% (faction leader), Passive 
+    ability: "Bloodgreed" (Lord's army)
 
-* **Route III - Drakecrush**
-  * Maintaining strong ties with the Cathayans will ensure their wealth continues to flow into the Hoardmaster's 
-  coffers. Alternatively, Greasus could move against their draconic masters directly, after all, they don't call him 
-  Drakecrush for nothing.
-  * Control regions either directly or diplomatically:
-    * Shang-Yang, Hanyu Port, Kunlan, Wei-Jin, Nan-Gau
-  * Occupy settlement:
-    * Great Hall of Greasus
-  * Build landmark in Great Hall of Greasus: Goldtooth's Toll Gate
-  * **Reward:**
-    * _Subservient Cathayans_: Camp limit +2, Income from trade: +20% for every ally, Magic item drop chance increased 
-    by an additional 20% (factionwide)
+* **Route III - Hunger for Power**
+  * Control at least 1 of the following settlements:
+    * Karaz-a-Karak, Altdorf
+  * Control at least 4 of the following settlements:
+    * Black Crag, Karak Eight Peaks, Morgheim, Galbaraz
+    * Pfeildorf, Nuln, Castle Drakenhof, Marienburg
+  * **Reward**:
+    * _Well-Fed_: Camp limit: +2, Hero recruit rank: +3 for Butchers, Armour: +5 for Sabretusk Pack, Stonehorn, Gorgers 
+    and Giant units, Charge bonus: +10 for Sabretusk Pack, Stonehorns, Gorgers and Giant units

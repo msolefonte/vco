@@ -2,6 +2,7 @@ key	text	tooltip
 #Loc PackedFile;1;text/db/vco_effects.loc		
 effects_description_vco_all_campaign_victory_dummy	Campaign Victory	true
 effects_description_vco_all_movement_range_post_raze_port	Campaign movement range: %+n% after razing a port settlement	true
+effects_description_vco_brt_alb_dilemma	A dilemma will offer a choice between powerful rewards!	true
 effects_description_vco_brt_alberic_vow_melee_attack	Melee attack: %+n for Alberic de Bordeleaux	true
 effects_description_vco_brt_alberic_vow_melee_damage	Weapon strength: %+n for Alberic de Bordeleaux	true
 effects_description_vco_brt_alberic_vow_melee_damage_ap	Armour-piercing weapon damage: %+n for Alberic de Bordeleaux	true
@@ -15,12 +16,20 @@ effects_description_vco_cst_necrofex_colossus_recruitment_time_reduction	Recruit
 effects_description_vco_cst_necrofex_colossus_upkeep_reduction	Upkeep: %-n% for Necrofex Colossus	true
 effects_description_vco_cst_rotting_units_upkeep_reduction	Upkeep: %-n% for Rotting Prometheans and Rotting Leviathans	true
 effects_description_vco_cst_zombie_deckhands_missile_strength	Missile strength: %+n% for Zombie Deckhand units	true
+effects_description_vco_cth_miao_dilemma	A dilemma will offer a choice between powerful rewards!	true
+effects_description_vco_cth_zhao_compass_upgraded	Enables Burning Alignment for Wu Xing War Compass units	true
+effects_description_vco_def_gan_hellebron_melee_damage_ap	Armour-piercing weapon damage: %+n for Crone Hellebron	true
+effects_description_vco_def_gan_increase_max_slaves	Maximum Slaves: %+n	true
+effects_description_vco_def_gan_items_awarded_dummy	Items Granted: Armor of Living Death, Hydra Blade	true
+effects_description_vco_def_gan_leadership_vs_forces_of_order	Leadership vs Forces of Order: %+n	true
+effects_description_vco_def_gan_ritual_drakira_cost_reduction	Cost reduction for Sacrifice to Drakira: %-n%	true
+effects_description_vco_def_gan_witch_elves_sisters_melee_damage_ap	Armour-piercing weapon damage: %+n for Sisters of Slaughter and Witch Elves	true
 effects_description_vco_def_morathi_miscast_base_chance	Miscast base chance: %-n% for Morathi	true
 effects_description_vco_def_morathi_missile_resistance	Missile resistance: %+n% for Morathi	true
 effects_description_vco_def_morathi_slaanesh_unlock_dummy	Unlocks new Slaanesh units: Fiends and Keepers of Secrets	true
 effects_description_vco_def_morathi_targeting_range	Spell targeting range: %+n% for Morathi	true
 effects_description_vco_def_morathi_ward_save	Ward save: %+n% for Morathi	true
-effects_description_vco_dwf_gro_1_dilemma_elves	A dilemma will offer a choice between powerful rewards!	true
+effects_description_vco_dwf_gro_dilemma_elves	A dilemma will offer a choice between powerful rewards!	true
 effects_description_vco_dwf_grombrindal_allegiance_points_mod_wef_hef	Allegiance points gained: %+n% for alliances with High Elves and Wood Elves	true
 effects_description_vco_dwf_per_turn_oathgold_gain	Oathgold generated: %n per turn	true
 effects_description_vco_emp_cursed_artifact_notidoq	Passive ability: "Primal Instincts"	true
@@ -29,7 +38,11 @@ effects_description_vco_grn_per_turn_salvage_gain	Scrap: %+n per turn	true
 effects_description_vco_grn_per_turn_waaagh	Reputation: %+n per turn	true
 effects_description_vco_hef_tyr_dummy_wef_forcible_vassalisation	Most Wood Elf factions are forcibly vassalised	true
 effects_description_vco_hef_tyrion_allegiance_points_mod_wood_elves	Allegiance points gained: %+n% for alliances with Wood Elves	true
-effects_description_vco_ksl_tgo_luminark_unlock_dummy	Unlock new unit: Luminark of Hysh	true
+effects_description_vco_ksl_drunk_tzars	Enables Liquid Fortification for Tzar Guard units	true
+effects_description_vco_ksl_kat_dilemma_call_for_aid	A dilemma will offer a choice between powerful rewards!	true
+effects_description_vco_ksl_kat_dilemma_call_for_aid_unlock_artillery	Unlocks new Empire units: Mortars and Great Cannons	true
+effects_description_vco_ksl_kat_dilemma_call_for_aid_unlock_slayers	Unlocks new Dwarf units: Slayers and Giant Slayers	true
+effects_description_vco_ksl_tgo_luminark_unlock_dummy	Unlocks new unit: Luminark of Hysh	true
 effects_description_vco_nor_wul_enable_rampage_ability	Ability: "Hunter of Champions" for Wulfrik the Wanderer	true
 effects_description_vco_nor_wul_marauder_melee_poison	Enables poison attacks for all Marauders, Marauder Beserkers, and Marauder Champions	true
 effects_description_vco_nor_wul_marauder_spear_hunter_bonus_large	Bonus vs Large: %+n for Marauder Spearmen and Hunters	true
@@ -47,14 +60,8 @@ effects_description_vco_skv_per_turn_mutagen	Mutagen: %+n per turn	true
 effects_description_vco_sla_devotees	Devotees: %+n per turn	true
 effects_description_vco_sla_nkari_weapon_strength	Weapon strength: %+n% for N'Kari	true
 effects_description_vco_tmb_arkhan_allegiance_points_mod_vampire_coast	Allegiance points gained: %+n% for alliances with Vampire Coast	true
+effects_description_vco_vmp_kem_melee_defence	Melee defence: %+n for Heinrich Kemmler	true
+effects_description_vco_vmp_kem_missile_resistance	Missile resistance: %+n% for Heinrich Kemmler	true
 effects_description_vco_vmp_man_dilemma_soulgate	A portal to Sylvania will become available to Mannfred's army.	true
 effects_description_vco_vmp_man_ward_save	Ward save: %+n% for Mannfred von Carstein	true
 effects_description_vco_vmp_man_weapon_strength	Weapon strength: %+n% for Mannfred von Carstein	true
-effects_description_vco_def_gan_witch_elves_sisters_melee_damage_ap	Armour-piercing weapon damage: %+n for Sisters of Slaughter and Witch Elves	true
-effects_description_vco_def_gan_increase_max_slaves	Maximum Slaves: %+n	true
-effects_description_vco_def_gan_hellebron_melee_damage_ap	Armour-piercing weapon damage: %+n for Crone Hellebron	true
-effects_description_vco_def_gan_ritual_drakira_cost_reduction	Cost reduction for Sacrifice to Drakira: %-n%	true
-effects_description_vco_def_gan_leadership_vs_forces_of_order	Leadership vs Forces of Order: %+n	true
-effects_description_vco_def_gan_items_awarded_dummy	Items Granted: Armor of Living Death, Hydra Blade	true
-effects_description_vco_vmp_kem_melee_defence	Melee defence: %+n for Heinrich Kemmler	true
-effects_description_vco_vmp_kem_missile_resistance	Missile resistance: %+n% for Heinrich Kemmler	true

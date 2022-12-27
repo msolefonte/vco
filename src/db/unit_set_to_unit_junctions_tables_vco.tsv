@@ -13,8 +13,11 @@ vco_cst_rotting	wh2_dlc11_cst_mon_rotting_prometheans_0				false
 vco_cst_rotting	wh2_dlc11_cst_mon_rotting_prometheans_gunnery_mob_0				false
 vco_cst_rotting	wh2_dlc11_cst_mon_rotting_prometheans_gunnery_mob_ror				false
 vco_cst_rotting	wh2_dlc11_cst_mon_rotting_prometheans_summoned_0				false
+vco_cth_war_compass	wh3_main_cth_veh_war_compass_0				false
 vco_def_morathi	wh2_main_def_cha_morathi_0				false
 vco_def_morathi	wh2_main_def_cha_morathi_1				false
+vco_ksl_tzar_guard	wh3_main_ksl_inf_tzar_guard_0				false
+vco_ksl_tzar_guard	wh3_main_ksl_inf_tzar_guard_1				false
 vco_nor_marauder_hunters_spears	wh_dlc08_nor_inf_marauder_hunters_0				false
 vco_nor_marauder_hunters_spears	wh_dlc08_nor_inf_marauder_hunters_1				false
 vco_nor_marauder_hunters_spears	wh_dlc08_nor_inf_marauder_spearman_0				false
@@ -31,9 +34,9 @@ vco_nor_wulfrik	wh_dlc08_nor_cha_wulfrik_2				false
 vco_nor_wulfrik	wh_dlc08_nor_cha_wulfrik_3				false
 vco_ogr_greasus	wh3_main_ogr_cha_greasus_goldtooth_0				false
 vco_sla_nkari	wh3_main_sla_cha_nkari_0				false
+vco_vmp_kem	wh2_dlc11_vmp_cha_heinrich_kemmler_1				false
+vco_vmp_kem	wh_main_vmp_cha_heinrich_kemmler				false
 vco_vmp_man	wh_main_vmp_cha_mannfred_von_carstein_0				false
 vco_vmp_man	wh_main_vmp_cha_mannfred_von_carstein_2				false
 vco_vmp_man	wh_main_vmp_cha_mannfred_von_carstein_3				false
 vco_vmp_man	wh_main_vmp_cha_mannfred_von_carstein_4				false
-vco_vmp_kem	wh2_dlc11_vmp_cha_heinrich_kemmler_1				false
-vco_vmp_kem	wh_main_vmp_cha_heinrich_kemmler				false

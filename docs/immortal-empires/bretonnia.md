@@ -19,8 +19,11 @@
   * Destroy factions:
     * The Awakened, The Dreadfleet and Sartosa
   * **Reward:** 
-    * _The Sea God's Wrath_: Leadership: +12 when fighting at sea, Income from ports: +30%, Passive ability: 
-    "Regeneration" when fighting at sea (all characters), 
+    * _Manann's Favour_: A dilemma will offer a choice between powerful rewards!
+        * _CHOICE 1: The Sea God's Wrath_: Regeneration at sea (all characters), Leadership at sea +12 (all armies), 
+        Melee attack at sea +5 (all characters)
+        * _CHOICE 2: Guardian of the Waves_: Port income +30%, Port construction cost -20%, Tradeable goods produced: 
+        +10%
 
 **Route III - Home Sweet Home**
   * Return home to your ancestral castle and drive out the foes who have been terrorising the peasants in your absence:

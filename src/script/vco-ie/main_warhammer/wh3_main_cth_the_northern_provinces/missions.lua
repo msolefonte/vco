@@ -2,7 +2,7 @@ local missions = {
 	[[
  		mission
 		{
-			victory_type vco_victory_type_alternative_1_in_harmony;
+			victory_type vco_victory_type_cth_tnp_1_in_harmony;
 			key wh_main_short_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
@@ -10,6 +10,12 @@ local missions = {
 				objective
 				{
 					override_text mission_text_text_vco_cth_unify_grand_cathay;
+					type SCRIPTED;
+					script_key vco_dummy;
+				}
+
+				objective
+				{
 					type CONTROL_N_PROVINCES_INCLUDING;
 					total 15;
 
@@ -28,17 +34,6 @@ local missions = {
 					province wh3_main_combi_province_broken_lands_of_tian_li;
 					province wh3_main_combi_province_the_great_canal;
 					province wh3_main_combi_province_serpent_estuary;
-				}
-
-				objective
-				{
-					override_text mission_text_text_vco_cth_unify_great_bastion;
-					type CONTROL_N_PROVINCES_INCLUDING;
-					total 3;
-
-					province wh3_main_combi_province_central_great_bastion;
-					province wh3_main_combi_province_eastern_great_bastion;
-					province wh3_main_combi_province_western_great_bastion;
 				}
 
 				payload
@@ -63,7 +58,7 @@ local missions = {
 	[[
  		mission
 		{
-			victory_type vco_victory_type_alternative_2_cool_and_aloof;
+			victory_type vco_victory_type_cth_tnp_2_cool_and_aloof;
 			key wh_main_short_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
@@ -71,27 +66,18 @@ local missions = {
 				objective
 				{
 					override_text mission_text_text_vco_cth_unify_great_bastion;
-					type CONTROL_N_PROVINCES_INCLUDING;
-					total 3;
-
-					province wh3_main_combi_province_central_great_bastion;
-					province wh3_main_combi_province_eastern_great_bastion;
-					province wh3_main_combi_province_western_great_bastion;
+					type SCRIPTED;
+					script_key vco_dummy;
 				}
 
 				objective
 				{
-					type DESTROY_FACTION;
-
-					faction wh3_main_cth_dissenter_lords_of_jinshen;
-					faction wh3_main_cth_rebel_lords_of_nan_yang;
-					faction wh_dlc03_bst_jagged_horn;
-					faction wh2_main_skv_clan_eshin;
-					faction wh3_main_grn_dimned_sun;
-					faction wh2_dlc11_def_the_blessed_dread;
-					faction wh3_dlc21_cst_dead_flag_fleet;
-
-					confederation_valid;
+					type CONTROL_N_REGIONS_FROM;
+					total 3;
+				
+					region wh3_main_combi_region_snake_gate;
+					region wh3_main_combi_region_turtle_gate;
+					region wh3_main_combi_region_dragon_gate;
 				}
 
 				objective
@@ -101,6 +87,18 @@ local missions = {
 					total 1;
 
 					building_level wh3_main_special_the_ninth_wall;
+				}
+
+				objective
+				{
+					type DESTROY_FACTION;
+
+					faction wh3_dlc20_chs_vilitch;
+					faction wh2_dlc11_def_the_blessed_dread;
+					faction wh2_main_skv_clan_eshin;
+					faction wh3_dlc20_chs_kholek;
+
+					confederation_valid;
 				}
 
 				payload
@@ -125,43 +123,44 @@ local missions = {
 	[[
 		mission
  		{
-			victory_type vco_victory_type_alternative_3_the_northern_expedition;
+			victory_type vco_victory_type_cth_tnp_3_the_northern_expedition;
 			key wh_main_short_victory;
-			issuer CLAN_ELDERS;
+			issuer KING_KAZADOR;
 			primary_objectives_and_payload
 			{
 				objective
 				{
 					override_text mission_text_text_vco_cth_the_northern_expedition;
-					type CONTROL_N_REGIONS_INCLUDING;
-					total 1;
-
-					region wh3_main_combi_region_the_writhing_fortress;
+					type SCRIPTED;
+					script_key vco_dummy;
 				}
 
 				objective
 				{
-					type DESTROY_FACTION;
+					override_text mission_text_text_vco_cth_the_northern_expedition_obfuscate;
+					type CONTROL_N_REGIONS_FROM;
+					total 7;
 
-					faction wh3_dlc20_chs_vilitch;
-					faction wh3_dlc20_nor_yusak;
-					faction wh3_main_chs_khazag;
-					faction wh3_main_ogr_fleshgreeders;
-					faction wh3_dlc20_chs_kholek;
-					faction wh3_dlc20_nor_dolgan;
-					faction wh3_main_nur_maggoth_kin;
-					faction wh3_dlc20_nor_kul;
-					faction wh3_main_sla_exquisite_pain;
-
-					confederation_valid;
+					region wh3_main_combi_region_red_fortress;
+					region wh3_main_combi_region_bloodwind_keep;
+					region wh3_main_combi_region_fortress_of_eyes;
+					region wh3_main_combi_region_zanbaijin;
+					region wh3_main_combi_region_the_writhing_fortress;
+					region wh3_main_combi_region_the_howling_citadel;
+					region wh3_main_combi_region_the_crystal_spires;
+					region wh3_main_combi_region_black_rock;
+					region wh3_main_combi_region_the_twisted_towers;
+					region wh3_main_combi_region_fortress_of_the_damned;
+					region wh3_main_combi_region_the_frozen_city;
+					region wh3_main_combi_region_the_palace_of_ruin;
 				}
 
 				payload
 				{
 					effect_bundle
 					{
-						bundle_key vco_victory_payload_cth_the_northern_expedition;
-						turns 0;
+						bundle_key vco_victory_payload_cth_kat_3_sister_rescued;
+						turns 1;
 					}
 
 					effect_bundle

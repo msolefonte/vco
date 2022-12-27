@@ -2,11 +2,18 @@ local missions = {
 	[[
  		mission
 		{
-			victory_type vco_victory_type_alternative_1_iron_into_gold;
+			victory_type vco_victory_type_cth_twp_1_iron_into_gold;
 			key wh_main_short_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
+				objective
+				{
+					override_text mission_text_text_vco_cth_zha_1_iron_into_gold;
+					type SCRIPTED;
+					script_key vco_dummy;
+				}
+
 				objective
 				{
 					type HAVE_AT_LEAST_X_MONEY;
@@ -25,6 +32,23 @@ local missions = {
 					override_text mission_text_text_vco_cth_the_western_provinces_goods_0;
 					type SCRIPTED;
 					script_key vco_cth_the_western_provinces_goods;
+				}
+
+				objective
+				{
+					type CONTROL_N_REGIONS_FROM;
+					total 1;
+				
+					region wh3_main_combi_region_shang_yang;
+				}
+
+				objective
+				{
+					type CONSTRUCT_N_BUILDINGS_INCLUDING;
+					faction wh3_main_cth_the_western_provinces;
+					total 1;
+
+					building_level wh3_main_special_the_great_embassy;
 				}
 
 				payload
@@ -49,50 +73,34 @@ local missions = {
 	[[
  		mission
 		{
-			victory_type vco_victory_type_alternative_2_in_harmony;
+			victory_type vco_victory_type_cth_twp_2_warpstone_hoard;
 			key wh_main_short_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
 				objective
 				{
-					override_text mission_text_text_vco_cth_unify_grand_cathay;
-					type CONTROL_N_PROVINCES_INCLUDING;
-					total 15;
-
-					province wh3_main_combi_province_gunpowder_road;
-					province wh3_main_combi_province_lands_of_stone_and_steel;
-					province wh3_main_combi_province_imperial_road;
-					province wh3_main_combi_province_plains_of_xen;
-					province wh3_main_combi_province_forests_of_the_moon;
-					province wh3_main_combi_province_warpstone_desert;
-					province wh3_main_combi_province_wastelands_of_jinshen;
-					province wh3_main_combi_province_celestial_riverlands;
-					province wh3_main_combi_province_celestial_lake;
-					province wh3_main_combi_province_jade_river_delta;
-					province wh3_main_combi_province_nongchang_basin;
-					province wh3_main_combi_province_mount_li;
-					province wh3_main_combi_province_broken_lands_of_tian_li;
-					province wh3_main_combi_province_the_great_canal;
-					province wh3_main_combi_province_serpent_estuary;
+					override_text mission_text_text_vco_cth_zha_2_warpstone_hoard;
+					type SCRIPTED;
+					script_key vco_dummy;
 				}
 
 				objective
 				{
-					override_text mission_text_text_vco_cth_unify_great_bastion;
-					type CONTROL_N_PROVINCES_INCLUDING;
-					total 3;
+					type RAZE_OR_OWN_SETTLEMENTS;
 
-					province wh3_main_combi_province_central_great_bastion;
-					province wh3_main_combi_province_eastern_great_bastion;
-					province wh3_main_combi_province_western_great_bastion;
+					region wh3_main_combi_region_skavenblight;
+					region wh3_main_combi_region_hell_pit;
+					region wh3_main_combi_region_mordheim;
+					region wh3_main_combi_region_nagashizzar;
+					region wh3_main_combi_region_crookback_mountain;
 				}
 
 				payload
 				{
 					effect_bundle
 					{
-						bundle_key vco_victory_payload_cth_in_harmony;
+						bundle_key vco_victory_payload_cth_zha_2_warpstone_hoard;
 						turns 0;
 					}
 
@@ -110,7 +118,7 @@ local missions = {
 	[[
  		mission
 		{
-			victory_type vco_victory_type_alternative_3_dont_thread_on_ming;
+			victory_type vco_victory_type_cth_twp_3_dont_thread_on_ming;
 			key wh_main_short_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
@@ -118,25 +126,41 @@ local missions = {
 				objective
 				{
 					override_text mission_text_text_vco_cth_unify_ivory_road;
-					type CONTROL_N_PROVINCES_INCLUDING;
-					total 1;
+					type SCRIPTED;
+					script_key vco_dummy;
+				}
 
-					province wh3_main_combi_province_ivory_road;
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;
+					total 3;
+
 					province wh3_main_combi_province_the_maw;
+					province wh3_main_combi_province_ivory_road;
+					province wh3_main_combi_province_mountains_of_mourn;
+					province wh3_main_combi_province_gnoblar_country;
+				}
+
+				objective
+				{
+					override_text mission_text_text_vco_cth_zha_3_black_fortress;
+					type SCRIPTED;
+					script_key vco_dummy;
+				}
+
+				objective
+				{
+					type RAZE_OR_OWN_SETTLEMENTS;
+
+					region wh3_main_combi_region_black_fortress;
 				}
 
 				objective
 				{
 					type DESTROY_FACTION;
 
-					faction wh3_main_ogr_goldtooth;
-					faction wh3_main_ogr_sons_of_the_mountain;
-					faction wh3_main_ogr_crossed_clubs;
-					faction wh3_main_ogr_lazarghs;
-
 					faction wh3_main_vmp_caravan_of_blue_roses;
-
-					faction wh3_main_skv_clan_treecherik;
+					faction wh3_main_nur_poxmakers_of_nurgle;
 
 					confederation_valid;
 				}

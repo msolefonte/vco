@@ -18,7 +18,10 @@ local missions = {
 				{
 					type RAZE_OR_OWN_SETTLEMENTS;
 
-					region wh3_main_combi_region_great_hall_of_greasus;
+					region wh3_main_combi_region_wei_jin;
+					region wh3_main_combi_region_nan_gau;
+					region wh3_main_combi_region_shang_yang;
+					region wh3_main_combi_region_hanyu_port;
 				}
 
 				objective
@@ -36,6 +39,12 @@ local missions = {
 					effect_bundle
 					{
 						bundle_key vco_victory_payload_grn_gri_1_boss_east;
+						turns 0;
+					}
+
+					effect_bundle
+					{
+						bundle_key vco_victory_payload_grn_gri_1_boss_east_cathay;
 						turns 0;
 					}
 

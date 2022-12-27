@@ -65,7 +65,7 @@ local missions = {
 		{
 			victory_type vco_victory_type_brt_bdx_2_no_ocean_for_dead_men;
 			key wh_main_short_victory;
-			issuer CLAN_ELDERS;
+			issuer MUFFIN_MAN;
 			primary_objectives_and_payload
 			{
 				objective

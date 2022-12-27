@@ -5,6 +5,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [5.1.0] - 27/12/2022
+
+- Added Realm of Chaos support for all factions except Champions of Chaos
+- Added new routes for Boris Ursus: Ursun Revivalists
+- Added new routes for Skrag the Slaughterer: Prophets of the Maw
+- Added new routes for Tzarina Katarin: The Ice Court
+- Added new routes for Heinrich Kemmler: The Barrow Legion
+- Added new routes for Crone Hellebron: Har Ganeth
+- Updated Bordeleaux second route: A dilemma has been added as a reward
+- Updated The Huntmarshal's Expedition third route: Route reward has been improved
+- Updated The Northern Provinces third route: A dilemma has been added as a reward
+- Updated The Western Provinces second route: Route completely redesigned
+- Updated The Western Provinces third route: Killing Greasus Goldtooth is no longer required
+- _(Technical)_ Added new common functions for VCO listeners: Add item to faction pool
+- Fixed some minor bugs
+
 ## [5.0.0] Out of beta! - 14/12/2022
 
 - Added new routes for Grombrindal: The Ancestral Throng
