@@ -2,6 +2,13 @@ local vco = core:get_static_object("vco");
 
 local FACTION_BOR_KEY = "wh_main_brt_bordeleaux";
 local KEY_CS_ALBERIC = "wh_dlc07_brt_alberic";
+local KEY_D_MANANNS_FAVOUR = "vco_brt_alb_2_dilemma_mananns_favour";
+
+-- TRIGGERS --
+
+local function trigger_man_dilemma()
+	cm:trigger_dilemma(FACTION_BOR_KEY, KEY_D_MANANNS_FAVOUR);
+end
 
 -- CHECKS --
 
@@ -26,6 +33,17 @@ local function add_listeners()
 			check_alberic_vow_mission(context:character());
 		end,
 		true
+	);
+
+	core:add_listener(
+		"vco_brt_man_3_completed",
+		"MissionSucceeded",
+		function(context)
+			return context:faction():name() == FACTION_BOR_KEY and
+				context:mission():mission_issuer_record_key() == "MUFFIN_MAN";
+		end,
+		trigger_man_dilemma,
+		false
 	);
 end
 

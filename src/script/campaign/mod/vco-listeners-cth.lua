@@ -1,8 +1,16 @@
 local vco = core:get_static_object("vco");
 
+local FACTION_TNP_KEY = "wh3_main_cth_the_northern_provinces";
 local FACTION_TWP_KEY = "wh3_main_cth_the_western_provinces";
+local KEY_D_SISTER_RESCUED = "vco_cth_miao_3_dilemma_sister_rescued";
 local REQUIRED_NUM_CARAVANS_COMPLETED_VICTORY = 9;
 local REQUIRED_TOTAL_GOODS_MOVED_VICTORY = 13140;
+
+-- TRIGGERS --
+
+local function trigger_miao_dilemma()
+	cm:trigger_dilemma(FACTION_TNP_KEY, KEY_D_SISTER_RESCUED);
+end
 
 -- CHECKS --
 
@@ -46,6 +54,17 @@ local function add_listeners()
 			check_goods_moved(context:faction():name());
 		end,
 		true
+	);
+
+	core:add_listener(
+		"vco_cth_miao_3_completed",
+		"MissionSucceeded",
+		function(context)
+			return context:faction():name() == FACTION_TNP_KEY and
+				context:mission():mission_issuer_record_key() == "KING_KAZADOR";
+		end,
+		trigger_miao_dilemma,
+		false
 	);
 end
 
