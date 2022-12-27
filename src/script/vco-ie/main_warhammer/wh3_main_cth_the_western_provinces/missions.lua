@@ -16,6 +16,12 @@ local missions = {
 
 				objective
 				{
+					type HAVE_AT_LEAST_X_MONEY;
+					total 500048;
+				}
+
+				objective
+				{
 					override_text mission_text_text_vco_cth_the_western_provinces_caravans_0;
 					type SCRIPTED;
 					script_key vco_cth_the_western_provinces_caravans;
