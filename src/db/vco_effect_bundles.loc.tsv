@@ -38,6 +38,12 @@ effect_bundles_localised_description_vco_victory_payload_def_cop_2_hell_hath_no_
 effect_bundles_localised_description_vco_victory_payload_def_cop_2_hell_hath_no_fury_2	This jewel was originally gifted to Morathi by Aenarion, before it was stolen by Anar. It cloaks the wearer in shadow.	true
 effect_bundles_localised_description_vco_victory_payload_def_cop_3_return_of_the_queen_1	From Ghrond's pinnacle, Sorceresses of the Dark Convent manipulate the Winds of Magic in Morathi's favour.	true
 effect_bundles_localised_description_vco_victory_payload_def_cop_3_return_of_the_queen_2	The Hag Queen deliberately withholds the deepest secrets of the Cauldrons of Blood, thus chaining the Witch Elves to her will.	true
+effect_bundles_localised_description_vco_victory_payload_def_gan_1_sacrifice_slaughter_1	Khaine's Fury rages within these blades but his power comes at a price.	true
+effect_bundles_localised_description_vco_victory_payload_def_gan_1_sacrifice_slaughter_2	Such a brutal sacrifice leaves a mark upon the world, and they cannot help but see it and recoil in horror. They fear us now, and we will feel that fear on the battlefield.	true
+effect_bundles_localised_description_vco_victory_payload_def_gan_2_suffer_not_another_queen_1	Look at them, they're pathetic... Once so proud but broken so easily. Put them to work in the pens, quickly!	true
+effect_bundles_localised_description_vco_victory_payload_def_gan_2_suffer_not_another_queen_2	The Druchi cannot help but stare in wonder and envy. The Crone has slain the Queen and Ulthuan is ablaze. They come, bowing low, gifts raised above their heads.	true
+effect_bundles_localised_description_vco_victory_payload_def_gan_3_eternity_awaits_1	The Cauldron so long denied to me is finally mine. From the very first sip I am renewed, Crone no longer.	true
+effect_bundles_localised_description_vco_victory_payload_def_gan_3_eternity_awaits_2	No vengeance can ever taste as sweet as slaying Morathi., and no sacrifice to Drakira ever be as powerful... No matter, I have earned Drakira's favour today.	true
 effect_bundles_localised_description_vco_victory_payload_dwf_gro_1_dilemma_elves_condemn	The White Dwarf leads his throng on the war path, seeking vengeance for ancient grievances against his people. He will not rest until the Phoenix King Finubar sues for peace!	true
 effect_bundles_localised_description_vco_victory_payload_dwf_gro_1_dilemma_elves_forgive	The White Dwarf has ushered in a new era of peace between the Dwarfs and the Elves. Though they may never see eye-to-eye, the two races stand united against the forces of Chaos arrayed against them.	true
 effect_bundles_localised_description_vco_victory_payload_dwf_gro_1_malekith_grudge	The Witch King is dead, turned to stone by Grungi's judgment. His hateful empire is in ruins, and his great betrayal has finally been avenged.	true
@@ -126,6 +132,11 @@ effect_bundles_localised_description_vco_victory_payload_tze_kai_2_twelve_artefa
 effect_bundles_localised_description_vco_victory_payload_tze_kai_2_visions_past	Though the Lizardmen of the present era had little understanding of these ancient relics, Kairos had long studied their purpose within the Impossible Fortress. His mastery of their magics rivals even those of a first generation Slann.	true
 effect_bundles_localised_description_vco_victory_payload_tze_kai_3_visions_future	Fate has been rewritten. Those who were once destined to defeat Kairos now lie dead beneath his claws, their arcane baubles serving only for his entertainment. All is as was foreseen...	true
 effect_bundles_localised_description_vco_victory_payload_tze_kai_3_wu_xing_compass_roc	Tzeentch's forces now control the Wu Xing Compass. This powerful artefact was once used to protect the people of Cathay. Now, it is utilised as a weapon of war, unleashing fearsome magics upon those it once safeguarded.	true
+effect_bundles_localised_description_vco_victory_payload_vmp_kem_1_locus_of_power	The icy rock fortresses thrum with dead energies, and those willing to draw upon such foul powers will sweep down from the mountains with death in their eyes!	true
+effect_bundles_localised_description_vco_victory_payload_vmp_kem_1_sea_of_bones	The plains of the Bretonnians lay covered in a sea of their bones, latent, still, awaiting the call to serve the Lichemaster.	true
+effect_bundles_localised_description_vco_victory_payload_vmp_kem_2_age_of_the_living_is_ending	Men once sat on their proud stone thrones, surrounded by Counts in their great and expansive Empire. Now their capitals lie empty, razed to rubble, or quiet and filled with the dead. Their Emperor no-where to be seen.	true
+effect_bundles_localised_description_vco_victory_payload_vmp_kem_3_immortal_lich	Wounded once, driven to madness after a duel of three days and nights, Kemmler knew defeat. Not again shall he feel such weakness, his immortality now absolute.	true
+effect_bundles_localised_description_vco_victory_payload_vmp_kem_3_unhallowed_necromancers	Necromancers flock to his banner in Nagash's absence. Heinrich Kemmler's power permeates the very air around him, and the Necromancers grow ever stronger in his midst.	true
 effect_bundles_localised_description_vco_victory_payload_vmp_man_1_restless_dunes	Built from the fused remains of a dozen conquered Tomb Kings, this monolith throbs with unholy power.	true
 effect_bundles_localised_description_vco_victory_payload_vmp_man_1_restless_dunes_portal	A portal to Sylvania will become available to Mannfred's army.	true
 effect_bundles_localised_description_vco_victory_payload_vmp_man_2_reclaim_throne	This land is my home, my birthright. The wind and rain are my allies. The trees and stones are my foot soldiers. The very earth will rise up against you should you try to take it from me. And my people will feast on your bones.	true
@@ -136,17 +147,6 @@ effect_bundles_localised_description_vco_victory_payload_wef_twi_1_dreaming_wood
 effect_bundles_localised_description_vco_victory_payload_wef_twi_2_vauls_anvils	With the Hammer of Vaul and Caledor's volcanic furnaces at his disposal, Lord Daith's creations now rival those of the God of Smiths himself.	true
 effect_bundles_localised_description_vco_victory_payload_wef_twi_3_sacred_pools_1	Whether venturing through the Old World or the New, all men should know to fear the forests.	true
 effect_bundles_localised_description_vco_victory_payload_wef_twi_3_sacred_pools_2	Within the Everqueen's Grove, Alarielle reigns upon her Oaken Throne. With the passing of the seasons her body withers and the roots pierce deeper into her flesh, but Athel Avelorn thrives. Such is Isha's will.	true
-effect_bundles_localised_description_vco_victory_payload_def_gan_1_sacrifice_slaughter_1	Khaine's Fury rages within these blades but his power comes at a price.	true
-effect_bundles_localised_description_vco_victory_payload_def_gan_1_sacrifice_slaughter_2	Such a brutal sacrifice leaves a mark upon the world, and they cannot help but see it and recoil in horror. They fear us now, and we will feel that fear on the battlefield.	true
-effect_bundles_localised_description_vco_victory_payload_def_gan_2_suffer_not_another_queen_1	"Look at them, they're pathetic... Once so proud but broken so easily. Put them to work in the pens, quickly!"	true
-effect_bundles_localised_description_vco_victory_payload_def_gan_2_suffer_not_another_queen_2	The Druchi cannot help but stare in wonder and envy. The Crone has slain the Queen and Ulthuan is ablaze. They come, bowing low, gifts raised above their heads.	true
-effect_bundles_localised_description_vco_victory_payload_def_gan_3_eternity_awaits_1	The Cauldron so long denied to me is finally mine. From the very first sip I am renewed, Crone no longer.	true
-effect_bundles_localised_description_vco_victory_payload_def_gan_3_eternity_awaits_2	No vengeance can ever taste as sweet as slaying Morathi., and no sacrifice to Drakira ever be as powerful... No matter, I have earned Drakira's favour today.	true
-effect_bundles_localised_description_vco_victory_payload_vmp_kem_1_locus_of_power	The icy rock fortresses thrum with dead energies, and those willing to draw upon such foul powers will sweep down from the mountains with death in their eyes!	true
-effect_bundles_localised_description_vco_victory_payload_vmp_kem_1_sea_of_bones	The plains of the Bretonnians lay covered in a sea of their bones, latent, still, awaiting the call to serve the Lichemaster.	true
-effect_bundles_localised_description_vco_victory_payload_vmp_kem_2_age_of_the_living_is_ending	Men once sat on their proud stone thrones, surrounded by Counts in their great and expansive Empire. Now their capitals lie empty, razed to rubble, or quiet and filled with the dead. Their Emperor no-where to be seen.	true
-effect_bundles_localised_description_vco_victory_payload_vmp_kem_3_immortal_lich	Wounded once, driven to madness after a duel of three days and nights, Kemmler knew defeat. Not again shall he feel such weakness, his immortality now absolute.	true
-effect_bundles_localised_description_vco_victory_payload_vmp_kem_3_unhallowed_necromancers	Necromancers flock to his banner in Nagash's absence. Heinrich Kemmler's power permeates the very air around him, and the Necromancers grow ever stronger in his midst.	true
 effect_bundles_localised_title_vco_victory_payload_all_campaign_victory_dummy	Campaign Victory	true
 effect_bundles_localised_title_vco_victory_payload_brt_alb_2_dilemma_mananns_favour_calm_seas	Guardian of the Waves	true
 effect_bundles_localised_title_vco_victory_payload_brt_alb_2_dilemma_mananns_favour_storms	The Sea God's Wrath	true
@@ -185,6 +185,12 @@ effect_bundles_localised_title_vco_victory_payload_def_cop_2_hell_hath_no_fury_1
 effect_bundles_localised_title_vco_victory_payload_def_cop_2_hell_hath_no_fury_2	The Stone of Midnight	true
 effect_bundles_localised_title_vco_victory_payload_def_cop_3_return_of_the_queen_1	Ghrond Reclaimed	true
 effect_bundles_localised_title_vco_victory_payload_def_cop_3_return_of_the_queen_2	Hellebron Humbled	true
+effect_bundles_localised_title_vco_victory_payload_def_gan_1_sacrifice_slaughter_1	Blades of Khaine	true
+effect_bundles_localised_title_vco_victory_payload_def_gan_1_sacrifice_slaughter_2	Taste their Fear	true
+effect_bundles_localised_title_vco_victory_payload_def_gan_2_suffer_not_another_queen_1	Asur Slaves	true
+effect_bundles_localised_title_vco_victory_payload_def_gan_2_suffer_not_another_queen_2	Admiration of the Druchi	true
+effect_bundles_localised_title_vco_victory_payload_def_gan_3_eternity_awaits_1	One Sip, Eternal	true
+effect_bundles_localised_title_vco_victory_payload_def_gan_3_eternity_awaits_2	Drakira's Vengeance	true
 effect_bundles_localised_title_vco_victory_payload_dwf_gro_1_dilemma_elves_condemn	The Second War of Vengeance	true
 effect_bundles_localised_title_vco_victory_payload_dwf_gro_1_dilemma_elves_forgive	The Last Alliance	true
 effect_bundles_localised_title_vco_victory_payload_dwf_gro_1_malekith_grudge	Grungi's Condemnation	true
@@ -273,6 +279,11 @@ effect_bundles_localised_title_vco_victory_payload_tze_kai_2_twelve_artefacts_ro
 effect_bundles_localised_title_vco_victory_payload_tze_kai_2_visions_past	Artifacts of the Old Ones	true
 effect_bundles_localised_title_vco_victory_payload_tze_kai_3_visions_future	Trinkets of the Slain	true
 effect_bundles_localised_title_vco_victory_payload_tze_kai_3_wu_xing_compass_roc	The Wu Xing Compass	true
+effect_bundles_localised_title_vco_victory_payload_vmp_kem_1_locus_of_power	Locus of Power	true
+effect_bundles_localised_title_vco_victory_payload_vmp_kem_1_sea_of_bones	Sea of Bones	true
+effect_bundles_localised_title_vco_victory_payload_vmp_kem_2_age_of_the_living_is_ending	Age of the Living is Ending	true
+effect_bundles_localised_title_vco_victory_payload_vmp_kem_3_immortal_lich	Immortal Lich	true
+effect_bundles_localised_title_vco_victory_payload_vmp_kem_3_unhallowed_necromancers	Unhallowed Necromancers	true
 effect_bundles_localised_title_vco_victory_payload_vmp_man_1_restless_dunes	The Ossified Monolith	true
 effect_bundles_localised_title_vco_victory_payload_vmp_man_1_restless_dunes_portal	The Soulgate	true
 effect_bundles_localised_title_vco_victory_payload_vmp_man_2_reclaim_throne	Return of the Count	true
@@ -283,14 +294,3 @@ effect_bundles_localised_title_vco_victory_payload_wef_twi_1_dreaming_wood_2	Ven
 effect_bundles_localised_title_vco_victory_payload_wef_twi_2_vauls_anvils	Godlike Craftsmanship	true
 effect_bundles_localised_title_vco_victory_payload_wef_twi_3_sacred_pools_1	Guardians of the Pools	true
 effect_bundles_localised_title_vco_victory_payload_wef_twi_3_sacred_pools_2	Isha's Embrace	true
-effect_bundles_localised_title_vco_victory_payload_def_gan_1_sacrifice_slaughter_1	Blades of Khaine	true
-effect_bundles_localised_title_vco_victory_payload_def_gan_1_sacrifice_slaughter_2	Taste their Fear	true
-effect_bundles_localised_title_vco_victory_payload_def_gan_2_suffer_not_another_queen_1	Asur Slaves	true
-effect_bundles_localised_title_vco_victory_payload_def_gan_2_suffer_not_another_queen_2	Admiration of the Druchi	true
-effect_bundles_localised_title_vco_victory_payload_def_gan_3_eternity_awaits_1	One Sip, Eternal	true
-effect_bundles_localised_title_vco_victory_payload_def_gan_3_eternity_awaits_2	Drakira's Vengeance	true
-effect_bundles_localised_title_vco_victory_payload_vmp_kem_1_locus_of_power	Locus of Power	true
-effect_bundles_localised_title_vco_victory_payload_vmp_kem_1_sea_of_bones	Sea of Bones	true
-effect_bundles_localised_title_vco_victory_payload_vmp_kem_2_age_of_the_living_is_ending	Age of the Living is Ending	true
-effect_bundles_localised_title_vco_victory_payload_vmp_kem_3_immortal_lich	Immortal Lich	true
-effect_bundles_localised_title_vco_victory_payload_vmp_kem_3_unhallowed_necromancers	Unhallowed Necromancers	true
