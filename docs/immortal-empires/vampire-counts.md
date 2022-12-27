@@ -42,3 +42,35 @@
     * _The Mortarch of Night_: Recruitment duration: -1 turn for all units (minimum 1), Recruitment cost: -20% (all 
     armies), Cooldown -20% to spells (all armies)
     * _The Dread Emperor_: Weapon strength: +20%, Ward save: +20% for Mannfred
+
+## Heinrich Kemmler: The Barrow Legion
+
+* **Route I - Cold Mountains, Quiet Fields**
+  * Destroy factions:
+    * Bastonne, Artois, Aquitaine
+  * Control provinces:
+    * Northern Grey Mountains, Bastonne
+  * **Reward**:
+    * _Sea of Bones_: Replenishment rate +15% for Vampiric Undead units, Raise Dead recruitment cost -15%
+    * _Locus of Power_: Winds of Magic pool cap +50
+    * Blood Kisses + 3
+
+* **Route II - The Old World Calls Me**
+  * Destroy factions:
+    * Reikland
+  * Raze or Occupy settlements:
+    * Nuln, Altdorf, Averheim, Wurtbad, Middenheim
+  * Destroy faction:
+    * Argwylon
+  * **Reward**:
+    * _Age of the Living is Ending_: Armies gain Terror vs the Empire, +15 Melee Attack vs the Empire, Raise Dead recruitment cost -15%
+    * Blood Kisses + 3
+
+* **Route III - Lichemaster**
+  * Reach rank 40 with Heinrich Kemmler
+  * Have 8 Necromancer heroes
+  * Fully awaken one Bloodline
+  * **Reward**:
+    * _Immortal Lich_: +60% HP for Heinrich Kemmler, +30% Missile Resistance for Heimrich Kemmler, +30 Melee Defence for Heinrich Kemmler
+    * _Unhallowed Necromancers_: +50% Experience gain for Necromancer heroes
+    * Blood Kisses + 3

@@ -111,6 +111,11 @@ effect_bundles_localised_description_vco_victory_payload_def_gan_2_suffer_not_an
 effect_bundles_localised_description_vco_victory_payload_def_gan_2_suffer_not_another_queen_2	The Druchi cannot help but stare in wonder and envy. The Crone has slain the Queen and Ulthuan is ablaze. They come, bowing low, gifts raised above their heads.	true
 effect_bundles_localised_description_vco_victory_payload_def_gan_3_eternity_awaits_1	The Cauldron so long denied to me is finally mine. From the very first sip I am renewed, Crone no longer.	true
 effect_bundles_localised_description_vco_victory_payload_def_gan_3_eternity_awaits_2	No vengeance can ever taste as sweet as slaying Morathi., and no sacrifice to Drakira ever be as powerful... No matter, I have earned Drakira's favour today.	true
+effect_bundles_localised_description_vco_victory_payload_vmp_kem_1_locus_of_power	The icy rock fortresses thrum with dead energies, and those willing to draw upon such foul powers will sweep down from the mountains with death in their eyes!	true
+effect_bundles_localised_description_vco_victory_payload_vmp_kem_1_sea_of_bones	The plains of the Bretonnians lay covered in a sea of their bones, latent, still, awaiting the call to serve the Lichemaster.	true
+effect_bundles_localised_description_vco_victory_payload_vmp_kem_2_age_of_the_living_is_ending	Men once sat on their proud stone thrones, surrounded by Counts in their great and expansive Empire. Now their capitals lie empty, razed to rubble, or quiet and filled with the dead. Their Emperor no-where to be seen.	true
+effect_bundles_localised_description_vco_victory_payload_vmp_kem_3_immortal_lich	Wounded once, driven to madness after a duel of three days and nights, Kemmler knew defeat. Not again shall he feel such weakness, his immortality now absolute.	true
+effect_bundles_localised_description_vco_victory_payload_vmp_kem_3_unhallowed_necromancers	Necromancers flock to his banner in Nagash's absence. Heinrich Kemmler's power permeates the very air around him, and the Necromancers grow ever stronger in his midst.	true
 effect_bundles_localised_title_vco_victory_payload_all_campaign_victory_dummy	Campaign Victory	true
 effect_bundles_localised_title_vco_victory_payload_brt_blessed_by_the_lady	Blessed by The Lady	true
 effect_bundles_localised_title_vco_victory_payload_brt_bordeleaux_reclaimed	Bordeleaux Reclaimed	true
@@ -222,3 +227,8 @@ effect_bundles_localised_title_vco_victory_payload_def_gan_2_suffer_not_another_
 effect_bundles_localised_title_vco_victory_payload_def_gan_2_suffer_not_another_queen_2	Admiration of the Druchi	true
 effect_bundles_localised_title_vco_victory_payload_def_gan_3_eternity_awaits_1	One Sip, Eternal	true
 effect_bundles_localised_title_vco_victory_payload_def_gan_3_eternity_awaits_2	Drakira's Vengeance	true
+effect_bundles_localised_title_vco_victory_payload_vmp_kem_1_locus_of_power	Locus of Power	true
+effect_bundles_localised_title_vco_victory_payload_vmp_kem_1_sea_of_bones	Sea of Bones	true
+effect_bundles_localised_title_vco_victory_payload_vmp_kem_2_age_of_the_living_is_ending	Age of the Living is Ending	true
+effect_bundles_localised_title_vco_victory_payload_vmp_kem_3_immortal_lich	Immortal Lich	true
+effect_bundles_localised_title_vco_victory_payload_vmp_kem_3_unhallowed_necromancers	Unhallowed Necromancers	true
