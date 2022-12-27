@@ -2,7 +2,7 @@ local missions = {
 	[[
  		mission
 		{
-			victory_type vco_victory_type_alternative_1_iron_into_gold;
+			victory_type vco_victory_type_alternative_1_iron_into_gold_roc;
 			key wh_main_short_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
@@ -34,7 +34,7 @@ local missions = {
 					type CONTROL_N_REGIONS_FROM;
 					total 1;
 				
-					region wh3_main_combi_region_shang_yang;
+					region wh3_main_chaos_region_shang_yang;
 				}
 
 				objective
@@ -68,7 +68,7 @@ local missions = {
 	[[
  		mission
 		{
-			victory_type vco_victory_type_cth_zha_2_warpstone_hoard;
+			victory_type vco_victory_type_cth_zha_2_warpstone_hoard_roc;
 			key wh_main_short_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
@@ -85,11 +85,11 @@ local missions = {
 				{
 					type RAZE_OR_OWN_SETTLEMENTS;
 
-					region wh3_main_combi_region_skavenblight;
-					region wh3_main_combi_region_hell_pit;
-					region wh3_main_combi_region_mordheim;
-					region wh3_main_combi_region_nagashizzar;
-					region wh3_main_combi_region_crookback_mountain;
+					region wh3_main_chaos_region_seep_gore;
+					region wh3_main_chaos_region_hell_pit;
+					region wh3_main_chaos_region_castle_drakenhof;
+					region wh3_main_chaos_region_castle_drachenfels;
+					region wh3_main_chaos_region_crookback_mountain;
 				}
 
 				payload
@@ -114,7 +114,7 @@ local missions = {
 	[[
  		mission
 		{
-			victory_type vco_victory_type_alternative_3_dont_thread_on_ming;
+			victory_type vco_victory_type_alternative_3_dont_thread_on_ming_roc;
 			key wh_main_short_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
@@ -132,15 +132,14 @@ local missions = {
 					type CONTROL_N_PROVINCES_INCLUDING;
 					total 3;
 
-					province wh3_main_combi_province_the_maw;
-					province wh3_main_combi_province_ivory_road;
-					province wh3_main_combi_province_mountains_of_mourn;
-					province wh3_main_combi_province_gnoblar_country;
+					province wh3_main_chaos_province_ivory_road;
+					province wh3_main_chaos_province_the_great_maw;
+					province wh3_main_chaos_province_ice_pass;
 				}
 
 				objective
 				{
-					override_text mission_text_text_vco_cth_zha_3_black_fortress;
+					override_text mission_text_text_vco_cth_zha_3_black_fortress_roc;
 					type SCRIPTED;
 					script_key vco_dummy;
 				}
@@ -149,17 +148,7 @@ local missions = {
 				{
 					type RAZE_OR_OWN_SETTLEMENTS;
 
-					region wh3_main_combi_region_black_fortress;
-				}
-
-				objective
-				{
-					type DESTROY_FACTION;
-
-					faction wh3_main_vmp_caravan_of_blue_roses;
-					faction wh3_main_nur_poxmakers_of_nurgle;
-
-					confederation_valid;
+					region wh3_main_chaos_region_black_fortress;
 				}
 
 				payload

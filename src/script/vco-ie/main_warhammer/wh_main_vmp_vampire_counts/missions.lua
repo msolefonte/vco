@@ -40,6 +40,7 @@ local missions = {
 					province wh3_main_combi_province_great_desert_of_araby;
 				}
 
+
 				payload
 				{
 					effect_bundle
