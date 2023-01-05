@@ -39,7 +39,7 @@ end
 -- CHECKS --
 
 local function check_man_collected_books(mission)
-	vlc.nagash_books:check_generic_all_books_collected(FACTION_MAN_ID, mission, 8);
+	vlc.nagash_books:check_generic_all_books_collected(FACTION_MAN_KEY, mission, 8);
 end
 
 -- LISTENERS --

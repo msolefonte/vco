@@ -135,7 +135,7 @@ local missions = {
 				{
 					override_text mission_text_text_vco_common_nagash_books_collected_1;
 					type SCRIPTED;
-					script_key vco_tmb_ark_nagash_books;
+					script_key vco_wh2_dlc09_tmb_followers_of_nagash_nagash_books;
 				}
 
 				payload

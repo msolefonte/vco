@@ -158,7 +158,7 @@ local missions = {
 				{
 					override_text mission_text_text_vco_common_nagash_books_collected_0;
 					type SCRIPTED;
-					script_key vco_vmp_man_nagash_books;
+					script_key vco_wh_main_vmp_vampire_counts_nagash_books;
 				}
 
 				payload

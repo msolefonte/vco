@@ -6,7 +6,7 @@ local FACTION_ARK_KEY = "wh2_dlc09_tmb_followers_of_nagash";
 -- CHECKS --
 
 local function check_ark_collected_books(mission)
-	vlc.nagash_books:check_generic_all_books_collected(FACTION_ARK_ID, mission, 9);
+	vlc.nagash_books:check_generic_all_books_collected(FACTION_ARK_KEY, mission, 9);
 end
 
 -- LISTENERS --
