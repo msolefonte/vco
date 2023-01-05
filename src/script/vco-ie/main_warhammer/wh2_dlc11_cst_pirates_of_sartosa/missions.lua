@@ -78,10 +78,19 @@ local missions = {
 			
 				objective
 				{
-					type RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_OF_SUBCULTURE;
-					total 8;
-				
-					subculture wh_dlc08_sc_nor_norsca;
+					type DESTROY_FACTION;
+
+					faction wh2_main_nor_skeggi;
+					faction wh3_dlc21_nor_wyrmkins;
+					faction wh_main_nor_skaeling;
+					faction wh_dlc08_nor_vanaheimlings;
+					faction wh_main_nor_bjornling;
+					faction wh_main_nor_varg;
+					faction wh_dlc08_nor_goromadny_tribe;
+					faction wh_dlc08_nor_wintertooth;
+					faction wh_dlc08_nor_norsca;
+
+					confederation_valid;
 				}
 
 				payload
