@@ -1,3 +1,5 @@
+local vco = core:get_static_object("vco");
+
 local FACTION_MDR_KEY = "wh2_main_skv_clan_moulder";
 local KEY_D_HARVEST = "vco_skv_mdr_dilemma_ultimate_harvest";
 local REQUIRED_EFFECT_TAILS = { "inf_aug_13", "inf_aug_14", "mon_aug_13", "mon_aug_14" };
