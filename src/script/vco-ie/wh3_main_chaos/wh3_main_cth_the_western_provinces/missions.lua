@@ -16,6 +16,13 @@ local missions = {
 
 				objective
 				{
+					override_text mission_text_text_vco_ogr_gre_1_rich_walk_0;
+					type SCRIPTED;
+					script_key vco_ogr_gre_1_rich_walk;
+				}
+
+				objective
+				{
 					override_text mission_text_text_vco_cth_the_western_provinces_caravans_0;
 					type SCRIPTED;
 					script_key vco_cth_the_western_provinces_caravans;
