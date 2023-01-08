@@ -1,4 +1,4 @@
-## Throt the Unclean - Clan Moulder
+## Throt the Unclean: Clan Moulder
 
 * **Route I - Yes-yes, prepare The Lab!**
   * Throt is busy deep down in Hell Pit, mutating any beast or Skaven that gets too close to the Flesh Lab! Unlock all 
@@ -27,7 +27,7 @@
   * **Reward:**
     * _Tainted-Foul Flesh_: Mutagens: +26 per turn, Weapon strength: +13% for all Clan Moulder units
 
-## Deathmaster Snikch - Clan Eshin
+## Deathmaster Snikch: Clan Eshin
 
 * **Route I - Service of the Grand Nightlord**
   * Perform Ritual: Plunge into Anarchy
