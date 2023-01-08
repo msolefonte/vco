@@ -37,9 +37,9 @@
     * _Eshin Trials_: Recruit Rank +13 for Assassins, action success chance +13% for Assassins, Assassinate action success chance +13% for Assassins, +52 Melee AP damage for Assassins
 
 * **Route II - Assassin**
-  * Defeat Ku'gath Plaguefather in battle with Deathmaster Snikch's army.
-  * Defeat Belegar Ironhammer in battle with Deathmaster Snikch's army.
-  * Defeat Malus Darkblade in battle with Deathmaster Snikch's army.
+  * Defeat Ku'gath Plaguefather in battle with Deathmaster Snikch's army
+  * Defeat Belegar Ironhammer in battle with Deathmaster Snikch's army
+  * Defeat Malus Darkblade in battle with Deathmaster Snikch's army
   * **Reward:**
     * _A Plague No More_: +25% Technology research rate, -1 turn wound recovery time for all characters
 	* _Even Iron Can Shatter_: -40 Diplomacy with all Dwarven factions, +20 leadership vs all Dwarven factions
