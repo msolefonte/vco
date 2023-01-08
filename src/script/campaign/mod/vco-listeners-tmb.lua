@@ -21,7 +21,7 @@ local function add_listeners()
 				context:mission():mission_record_key():sub(1,26) == "wh2_dlc09_books_of_nagash_";
 		end,
 		function(context)
-			vlc.nagash_books:add(FACTION_ARK_ID, 9);
+			vlc.nagash_books:add(FACTION_ARK_ID, 8);
 			check_ark_collected_books(context:mission());
 		end,
 		true
