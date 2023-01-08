@@ -64,3 +64,8 @@ vco_vmp_kem_missile_resistance	resistance_missile.png	101	resistance_missile.png
 vco_vmp_man_dilemma_soulgate	souls.png	101	souls.png	campaign	true
 vco_vmp_man_ward_save	resistance_ward_save.png	101	resistance_ward_save.png	campaign	true
 vco_vmp_man_weapon_strength	weapon_damage_character.png	101	weapon_damage_character.png	campaign	true
+vco_esh_melee_defence_vs_vampires	defence.png	101	defence.png	campaign	true
+vco_esh_melee_attack_vs_vampires	melee.png	101	melee.png	campaign	true
+vco_esh_clans_impressed	attribute_causes_fear.png	101	attribute_causes_fear.png	campaign	true
+vco_esh_snikch_melee_damage_ap	armour_piercing_character.png	101	armour_piercing_character.png	campaign	true
+vco_esh_assassins_melee_damage_ap	armour_piercing_character.png	101	armour_piercing_character.png	campaign	true
