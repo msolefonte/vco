@@ -41,8 +41,8 @@
   * Defeat Belegar Ironhammer in battle with Deathmaster Snikch's army.
   * Defeat Malus Darkblade in battle with Deathmaster Snikch's army.
   * **Reward:**
-    * _A Plague No More_: +25% Technology research rate, -1 turn wound recovery time for all characters
-	* _Even Iron Can Shatter_: -40 Diplomacy with all Dwarven factions, +20 leadership vs all Dwarven factions
+    * _A Plague No More_: +26% Technology research rate, -1 turn wound recovery time for all characters
+	* _Even Iron Can Shatter_: -39 Diplomacy with all Dwarven factions, +13 leadership vs all Dwarven factions
 	* _Host of T'zarkan_: Enable Ability T'zarkan for Deathmaster Snikch
 	* Potion of Healing added to Inventory
 
@@ -52,5 +52,5 @@
   * Destroy factions:
     * Jiangshi Rebels
   * **Reward:**
-    * _Fame and Fury_: +20 Clan Reputation with Clans Pestilens, Mors, Skryre, Moulder, +150 Melee AP Damage with Deathmaster Snikch
+    * _Fame and Fury_: +26 Clan Reputation with Clans Pestilens, Mors, Skryre, Moulder, +154 Melee AP Damage with Deathmaster Snikch
 	* _Quick Study_: +5 Melee Attack & Melee Defence vs all Vampire Factions

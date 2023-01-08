@@ -171,7 +171,7 @@ local missions = {
 					{
 						resource skv_clan_mors;
 						factor vco;
-						amount 20;
+						amount 26;
 						context absolute;
 					}
 				
@@ -179,7 +179,7 @@ local missions = {
 					{
 						resource skv_clan_moulder;
 						factor vco;
-						amount 20;
+						amount 26;
 						context absolute;
 					}
 				
@@ -187,7 +187,7 @@ local missions = {
 					{
 						resource skv_clan_pestilens;
 						factor vco;
-						amount 20;
+						amount 26;
 						context absolute;
 					}
 				
@@ -195,7 +195,7 @@ local missions = {
 					{
 						resource skv_clan_skryre;
 						factor vco;
-						amount 20;
+						amount 26;
 						context absolute;
 					}
 				
