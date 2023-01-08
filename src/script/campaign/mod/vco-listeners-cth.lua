@@ -24,7 +24,7 @@ local function check_gol_gross_income(target_faction)
 			"vco_ogr_gre_1_rich_walk_" .. percentage_completed);
 	else
 		vco:set_mission_text("vco_ogr_gre_1_rich_walk", "vco_ogr_gre_1_rich_walk");
-		vco:complete_mission(FACTION_TWP_KEY, "vco_ogr_gre_1_rich_walk");
+		vco:complete_mission(FACTION_TWP_KEY, "vco_cth_wes_1_rich_walk");
 	end
 end
 

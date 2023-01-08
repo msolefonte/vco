@@ -18,7 +18,7 @@ local missions = {
 				{
 					override_text mission_text_text_vco_ogr_gre_1_rich_walk_0;
 					type SCRIPTED;
-					script_key vco_ogr_gre_1_rich_walk;
+					script_key vco_cth_wes_1_rich_walk;
 				}
 
 				objective
