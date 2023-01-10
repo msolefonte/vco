@@ -178,6 +178,15 @@ function vlc.unit_locks:unlock_units(unit_keys_list, faction_key)
 	end
 end
 
+function vlc.unit_locks:lock_units_by_subculture(unit_keys_list, subculture_key)
+	local all_subculture_factions = cm:get_factions_by_subculture(subculture_key);
+	for _, unit_key in ipairs(unit_keys_list) do
+		for _, faction_key in ipairs(all_subculture_factions) do
+			self:lock_unit(unit_key, faction_key)
+		end
+	end
+end
+
 -- EXPORT --
 
 core:add_static_object("vco-lib-commons", vlc);
