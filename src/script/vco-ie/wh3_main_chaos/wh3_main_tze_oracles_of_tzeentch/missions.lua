@@ -100,6 +100,16 @@ local missions = {
 						turns 0;
 					}
 
+					add_ancillary_to_faction_pool
+					{
+						ancillary_key vco_anc_weapon_the_heartwood_lance;
+					}
+
+					add_ancillary_to_faction_pool
+					{
+						ancillary_key vco_anc_magic_standard_shroud_of_gilles;
+					}
+
 					effect_bundle
 					{
 						bundle_key vco_victory_payload_all_campaign_victory_dummy;

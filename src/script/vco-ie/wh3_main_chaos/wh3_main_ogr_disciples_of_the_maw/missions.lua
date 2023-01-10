@@ -23,9 +23,11 @@ local missions = {
 
 				objective
 				{
-					override_text mission_text_text_mis_activity_cauldron_of_maw;
-					type SCRIPTED;
-					script_key cauldron_of_maw_obtained;
+					type ACHIEVE_CHARACTER_RANK;
+					total 1;
+					total2 40;
+					start_pos_character 1627781468;
+					include_generals;
 				}
 
 				objective
@@ -83,10 +85,8 @@ local missions = {
 
 				objective
 				{
-					type RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_OF_SUBCULTURE;
-					total 15;
-				
-					subculture wh_main_sc_emp_empire;
+					type DEFEAT_N_ARMIES_OF_FACTION;
+					total 35;
 				}
 
 				payload
