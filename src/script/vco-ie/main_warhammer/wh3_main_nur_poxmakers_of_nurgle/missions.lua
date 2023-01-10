@@ -78,8 +78,8 @@ local missions = {
 				{
 					type RAZE_OR_OWN_SETTLEMENTS;
 
+					region wh3_main_combi_region_the_haunted_forest;                
 					region wh3_main_combi_region_jungles_of_chian;
-					region wh3_main_combi_region_the_haunted_forest;
 				}
 
 				payload
@@ -124,17 +124,26 @@ local missions = {
 
 				objective
 				{
-					type RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_OF_SUBCULTURE;
-					total 10;
-				
-					subculture wh_main_sc_dwf_dwarfs;
+					type RAZE_OR_OWN_SETTLEMENTS;
+
+					region wh3_main_combi_region_karaz_a_karak;
 				}
 
 				objective
 				{
-					type RAZE_OR_OWN_SETTLEMENTS;
-
-					region wh3_main_combi_region_karaz_a_karak;
+					override_text mission_text_text_vco_ogr_skr_3_hunger_power_2;
+					type CONTROL_N_REGIONS_FROM;
+					total 4;
+				
+					region wh3_main_combi_region_karak_azorn;
+					region wh3_main_combi_region_karak_azul;
+					region wh3_main_combi_region_karak_izor;
+					region wh3_main_combi_region_karak_hirn;
+					region wh3_main_combi_region_karak_zorn;
+					region wh3_main_combi_region_zhufbar;
+					region wh3_main_combi_region_karak_norn;
+					region wh3_main_combi_region_karak_kadrin;
+					region wh3_main_combi_region_kraka_drak;
 				}
 
 				objective
