@@ -6,7 +6,7 @@ local FACTION_ARK_KEY = "wh2_dlc09_tmb_followers_of_nagash";
 -- CHECKS --
 
 local function check_ark_collected_books(mission)
-	vlc.nagash_books:check_generic_all_books_collected(FACTION_ARK_ID, mission, 9);
+	vlc.nagash_books:check_generic_all_books_collected(FACTION_ARK_KEY, mission, 9);
 end
 
 -- LISTENERS --
@@ -21,7 +21,7 @@ local function add_listeners()
 				context:mission():mission_record_key():sub(1,26) == "wh2_dlc09_books_of_nagash_";
 		end,
 		function(context)
-			vlc.nagash_books:add(FACTION_ARK_ID, 9);
+			vlc.nagash_books:add(FACTION_ARK_ID, 8);
 			check_ark_collected_books(context:mission());
 		end,
 		true

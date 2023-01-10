@@ -5,6 +5,8 @@ local FACTION_TWP_KEY = "wh3_main_cth_the_western_provinces";
 local KEY_D_SISTER_RESCUED = "vco_cth_miao_dilemma_sister_rescued";
 local REQUIRED_NUM_CARAVANS_COMPLETED_VICTORY = 9;
 local REQUIRED_TOTAL_GOODS_MOVED_VICTORY = 13140;
+local REQUIRED_GROSS_INCOME = 25000;
+
 
 -- TRIGGERS --
 
@@ -13,6 +15,18 @@ local function trigger_miao_dilemma()
 end
 
 -- CHECKS --
+local function check_gol_gross_income(target_faction)
+	local current_income = target_faction:income();
+
+	if current_income < REQUIRED_GROSS_INCOME then
+		local percentage_completed = math.floor(current_income / REQUIRED_GROSS_INCOME * 100)
+		vco:set_mission_text("vco_ogr_gre_1_rich_walk",
+			"vco_ogr_gre_1_rich_walk_" .. percentage_completed);
+	else
+		vco:set_mission_text("vco_ogr_gre_1_rich_walk", "vco_ogr_gre_1_rich_walk");
+		vco:complete_mission(FACTION_TWP_KEY, "vco_cth_wes_1_rich_walk");
+	end
+end
 
 local function check_caravans_completed(faction_key)
 	local num_caravans_completed = cm:get_saved_value("caravans_completed_" .. faction_key) or 0;
@@ -55,6 +69,20 @@ local function add_listeners()
 		end,
 		true
 	);
+
+	core:add_listener(
+		"vco_ogr_gol_faction_turn_start",
+		"FactionTurnStart",
+		function(context)
+			return context:faction():is_human() and
+				context:faction():name() == FACTION_TWP_KEY;
+		end,
+		function(context)
+			check_gol_gross_income(context:faction());
+		end,
+		true
+	);
+
 
 	core:add_listener(
 		"vco_cth_miao_3_completed",

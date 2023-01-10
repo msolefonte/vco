@@ -147,6 +147,12 @@ effect_bundles_localised_description_vco_victory_payload_wef_twi_1_dreaming_wood
 effect_bundles_localised_description_vco_victory_payload_wef_twi_2_vauls_anvils	With the Hammer of Vaul and Caledor's volcanic furnaces at his disposal, Lord Daith's creations now rival those of the God of Smiths himself.	true
 effect_bundles_localised_description_vco_victory_payload_wef_twi_3_sacred_pools_1	Whether venturing through the Old World or the New, all men should know to fear the forests.	true
 effect_bundles_localised_description_vco_victory_payload_wef_twi_3_sacred_pools_2	Within the Everqueen's Grove, Alarielle reigns upon her Oaken Throne. With the passing of the seasons her body withers and the roots pierce deeper into her flesh, but Athel Avelorn thrives. Such is Isha's will.	true
+effect_bundles_localised_description_vco_victory_payload_skv_esh_1_eshin_trials	Sneek and the Deathmaster have expanded Eshin's Trials as more capable candidates pass their tests and are granted the Master Assassin title.	true
+effect_bundles_localised_description_vco_victory_payload_skv_esh_2_magnus_sicarius_1	Ku'gath and his plagues are no longer infecting this world with their foul stench, but some of his treasure survived the purge - strange potions and barely legible notes among the spoils.	true
+effect_bundles_localised_description_vco_victory_payload_skv_esh_2_magnus_sicarius_2	Ironhammer and his ghosts did not see us coming, and they paid the ultimate price. The Council will demand a great price from the Goblins, that much is certain.	true
+effect_bundles_localised_description_vco_victory_payload_skv_esh_2_magnus_sicarius_3	We could not kill it, it was too strong. It needed a new host after Darkblade was slain... It found one.	true
+effect_bundles_localised_description_vco_victory_payload_skv_esh_3_the_night_is_quiet_once_again_1	Snikch's blades have slaughtered so many yet remain so impressively sharp. The Clans pray to the Horned Rat that those blades do not turn their way next.	true
+effect_bundles_localised_description_vco_victory_payload_skv_esh_3_the_night_is_quiet_once_again_2	Our Assassins have studied the Vampire's movement - we know now how they fight, and we'll use that against the rest of their kind.	true
 effect_bundles_localised_title_vco_victory_payload_all_campaign_victory_dummy	Campaign Victory	true
 effect_bundles_localised_title_vco_victory_payload_brt_alb_2_dilemma_mananns_favour_calm_seas	Guardian of the Waves	true
 effect_bundles_localised_title_vco_victory_payload_brt_alb_2_dilemma_mananns_favour_storms	The Sea God's Wrath	true
@@ -294,3 +300,9 @@ effect_bundles_localised_title_vco_victory_payload_wef_twi_1_dreaming_wood_2	Ven
 effect_bundles_localised_title_vco_victory_payload_wef_twi_2_vauls_anvils	Godlike Craftsmanship	true
 effect_bundles_localised_title_vco_victory_payload_wef_twi_3_sacred_pools_1	Guardians of the Pools	true
 effect_bundles_localised_title_vco_victory_payload_wef_twi_3_sacred_pools_2	Isha's Embrace	true
+effect_bundles_localised_title_vco_victory_payload_skv_esh_1_eshin_trials	Eshin Trials	true
+effect_bundles_localised_title_vco_victory_payload_skv_esh_2_magnus_sicarius_1	A Plague No More	true
+effect_bundles_localised_title_vco_victory_payload_skv_esh_2_magnus_sicarius_2	Even Iron Can Shatter	true
+effect_bundles_localised_title_vco_victory_payload_skv_esh_2_magnus_sicarius_3	Host of T'zarkan	true
+effect_bundles_localised_title_vco_victory_payload_skv_esh_3_the_night_is_quiet_once_again_1	Fame and Fury	true
+effect_bundles_localised_title_vco_victory_payload_skv_esh_3_the_night_is_quiet_once_again_2	Quick Study	true

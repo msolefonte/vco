@@ -2,6 +2,7 @@ local vlc = core:get_static_object("vco-lib-commons");
 
 local FACTION_TGO_KEY = "wh3_main_ksl_the_great_orthodoxy";
 local FACTION_TIC_KEY = "wh3_main_ksl_the_ice_court";
+local SUBCULTURE_KEY = "wh3_main_sc_ksl_kislev";
 local KEY_D_CALL_FOR_AID = "vco_ksl_kat_dilemma_call_for_aid";
 local KEY_U_GIANT_SLAYERS = "wh2_dlc10_dwf_inf_giant_slayers";
 local KEY_U_GREAT_CANNON = "wh_main_emp_art_great_cannon";
@@ -10,7 +11,7 @@ local KEY_U_MORTAR = "wh_main_emp_art_mortar";
 local KEY_U_SLAYERS = "wh_main_dwf_inf_slayers";
 
 local function tgo_lock_luminark()
-	vlc.unit_locks:lock_unit(KEY_U_LUMINARK, FACTION_TGO_KEY);
+	vlc.unit_locks:lock_units_by_subculture(KEY_U_LUMINARK, SUBCULTURE_KEY);
 end
 
 local function tgo_unlock_luminark()
@@ -18,10 +19,10 @@ local function tgo_unlock_luminark()
 end
 
 local function tic_lock_units()
-	vlc.unit_locks:lock_unit(KEY_U_SLAYERS, FACTION_TIC_KEY);
-	vlc.unit_locks:lock_unit(KEY_U_GIANT_SLAYERS, FACTION_TIC_KEY);
-	vlc.unit_locks:lock_unit(KEY_U_MORTAR, FACTION_TIC_KEY);
-	vlc.unit_locks:lock_unit(KEY_U_GREAT_CANNON, FACTION_TIC_KEY);
+	vlc.unit_locks:lock_units_by_subculture(KEY_U_SLAYERS, SUBCULTURE_KEY);
+	vlc.unit_locks:lock_units_by_subculture(KEY_U_GIANT_SLAYERS, SUBCULTURE_KEY);
+	vlc.unit_locks:lock_units_by_subculture(KEY_U_MORTAR, SUBCULTURE_KEY);
+	vlc.unit_locks:lock_units_by_subculture(KEY_U_GREAT_CANNON, SUBCULTURE_KEY);
 end
 
 local function tic_unlock_dwarf_units()
