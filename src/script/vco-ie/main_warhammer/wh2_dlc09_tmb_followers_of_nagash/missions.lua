@@ -133,6 +133,15 @@ local missions = {
 
 				objective
 				{
+					type DESTROY_FACTION;
+
+					faction wh2_dlc15_grn_bonerattlaz;
+
+					confederation_valid;
+				}
+
+				objective
+				{
 					override_text mission_text_text_vco_common_nagash_books_collected_1;
 					type SCRIPTED;
 					script_key vco_wh2_dlc09_tmb_followers_of_nagash_nagash_books;
@@ -144,6 +153,11 @@ local missions = {
 					{
 						bundle_key vco_victory_payload_tmb_ark_3_faithful_servant;
 						turns 0;
+					}
+
+					add_ancillary_to_faction_pool
+					{
+						ancillary_key vco_anc_enchanted_item_the_crown_of_sorcery;
 					}
 
 					effect_bundle

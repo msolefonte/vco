@@ -89,6 +89,17 @@ local missions = {
 						turns 0;
 					}
 
+
+					add_ancillary_to_faction_pool
+					{
+						ancillary_key vco_anc_arcane_item_cube_of_darkness;
+					}
+
+					add_ancillary_to_faction_pool
+					{
+						ancillary_key vco_anc_weapon_the_blade_of_realities;
+					}
+
 					effect_bundle
 					{
 						bundle_key vco_victory_payload_all_campaign_victory_dummy;
@@ -138,6 +149,11 @@ local missions = {
 					{
 						bundle_key vco_victory_payload_tze_kai_3_visions_future;
 						turns 0;
+					}
+
+					add_ancillary_to_faction_pool
+					{
+						ancillary_key vco_anc_weapon_stolen_hand_of_gods;
 					}
 
 					effect_bundle
