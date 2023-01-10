@@ -1,9 +1,16 @@
 local vco = core:get_static_object("vco");
 
 local FACTION_MDR_KEY = "wh2_main_skv_clan_moulder";
+local KEY_D_HARVEST = "vco_skv_mdr_dilemma_ultimate_harvest";
 local REQUIRED_EFFECT_TAILS = { "inf_aug_13", "inf_aug_14", "mon_aug_13", "mon_aug_14" };
 local FACTION_ESH_KEY = "wh2_main_skv_clan_eshin";
 local SNIKCH_ESHIN_ACTIONS_REQUIRED = 13;
+
+-- TRIGGERS --
+
+local function trigger_throt_dilemma()
+	cm:trigger_dilemma(FACTION_MDR_KEY, KEY_D_HARVEST);
+end
 
 local function add_mdr_augment_unlocked(effect)
 	for _, effect_tail in ipairs(REQUIRED_EFFECT_TAILS) do
@@ -83,6 +90,17 @@ local function add_listeners()
 			check_mdr_all_augments_unlocked(context:effect());
 		end,
 		true
+	);
+
+	core:add_listener(
+		"vco_skv_mdr_3_completed",
+		"MissionSucceeded",
+		function(context)
+			return context:faction():name() == FACTION_MDR_KEY and
+				context:mission():mission_issuer_record_key() == "KING_KAZADOR";
+		end,
+		trigger_throt_dilemma,
+		false
 	);
 	
 	core:add_listener(
