@@ -65,3 +65,8 @@ effects_description_vco_vmp_kem_missile_resistance	Missile resistance: %+n% for 
 effects_description_vco_vmp_man_dilemma_soulgate	A portal to Sylvania will become available to Mannfred's army.	true
 effects_description_vco_vmp_man_ward_save	Ward save: %+n% for Mannfred von Carstein	true
 effects_description_vco_vmp_man_weapon_strength	Weapon strength: %+n% for Mannfred von Carstein	true
+effects_description_vco_esh_melee_attack_vs_vampires	Melee Attack: %+n against Vampires	true
+effects_description_vco_esh_melee_defence_vs_vampires	Melee Defence: %+n against Vampires	true
+effects_description_vco_esh_clans_impressed	News of the swift Cathayan demise has reached the Clans, and try as they might they cannot hide how impressed they are!	true
+effects_description_vco_esh_snikch_melee_damage_ap	Armour-piercing weapon damage: %+n for Deathmaster Snikch	true
+effects_description_vco_esh_assassins_melee_damage_ap	Armour-piercing weapon damage: %+n for Assassins	true
