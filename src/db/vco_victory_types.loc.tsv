@@ -148,6 +148,9 @@ victory_types_display_name_vco_victory_type_ogr_skr_2_age_of_ogres_roc	Route II 
 victory_types_display_name_vco_victory_type_ogr_skr_3_hunger_power	Route III - Hunger for Power	true
 victory_types_display_name_vco_victory_type_ogr_skr_3_hunger_power_roc	Route III - Hunger for Power	true
 victory_types_display_name_vco_victory_type_short	Short Campaign Victory	true
+victory_types_display_name_vco_victory_type_skv_esh_1_service_of_the_grand_nightlord	Route I - Service of the Grand Nightlord	true
+victory_types_display_name_vco_victory_type_skv_esh_2_assassin	Route II - Assassin	true
+victory_types_display_name_vco_victory_type_skv_esh_3_keep_your_enemies_close	Route III - Keep Your Enemies Close	true
 victory_types_display_name_vco_victory_type_skv_mdr_1_yes_yes_prepare_the_lab	Route I - The Nine Circles of Hell	true
 victory_types_display_name_vco_victory_type_skv_mdr_2_the_vermintide_comes	Route II - The Vermintide Comes	true
 victory_types_display_name_vco_victory_type_skv_mdr_3_the_frozen_dead	Route III - The Ultimate Harvest	true
@@ -176,6 +179,3 @@ victory_types_display_name_vco_victory_type_vmp_man_3_death_comes_for_all	Route 
 victory_types_display_name_vco_victory_type_wef_twi_1_dreaming_wood	Route I - The Dreaming Wood	true
 victory_types_display_name_vco_victory_type_wef_twi_2_vauls_anvils	Route II - Vaul's Anvils	true
 victory_types_display_name_vco_victory_type_wef_twi_3_sacred_pools	Route III - The Seeds of Fate	true
-victory_types_display_name_vco_victory_type_skv_esh_1_service_of_the_grand_nightlord	Route I - Service of the Grand Nightlord	true
-victory_types_display_name_vco_victory_type_skv_esh_2_assassin	Route II - Assassin	true
-victory_types_display_name_vco_victory_type_skv_esh_3_keep_your_enemies_close	Route III - Keep Your Enemies Close	true
