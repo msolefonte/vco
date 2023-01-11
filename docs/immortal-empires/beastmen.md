@@ -1,6 +1,6 @@
 # Beastmen
 
-## Taurox - Slaughterhorn Tribe
+## Taurox: Slaughterhorn Tribe
 
 * **Route I - Banebeast of Naggaroth**
   * The skies over Naggaroth are stained crimson, for the Blood God's gaze has fallen upon the heavily fortified cities 

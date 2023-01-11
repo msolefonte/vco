@@ -34,7 +34,8 @@
   * Assassinate 13 enemy Agents
   * Perform 13 Eshin Actions
   * **Reward:**
-    * _Eshin Trials_: Recruit Rank +13 for Assassins, action success chance +13% for Assassins, Assassinate action success chance +13% for Assassins, +52 Melee AP damage for Assassins
+    * _Eshin Trials_: Recruit Rank +13 for Assassins, action success chance +13% for Assassins, Assassinate action 
+    success chance +13% for Assassins, +52 Melee AP damage for Assassins
 
 * **Route II - Assassin**
   * Defeat Ku'gath Plaguefather in battle with Deathmaster Snikch's army.
@@ -52,5 +53,6 @@
   * Destroy factions:
     * Jiangshi Rebels
   * **Reward:**
-    * _Fame and Fury_: +26 Clan Reputation with Clans Pestilens, Mors, Skryre, Moulder, +154 Melee AP Damage with Deathmaster Snikch
+    * _Fame and Fury_: +26 Clan Reputation with Clans Pestilens, Mors, Skryre, Moulder, +154 Melee AP Damage with 
+    Deathmaster Snikch
 	* _Quick Study_: +5 Melee Attack & Melee Defence vs all Vampire Factions

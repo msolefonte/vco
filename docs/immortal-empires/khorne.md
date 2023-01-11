@@ -1,6 +1,6 @@
 # Khorne
 
-## Skarbrand - Exiles of Khorne
+## Skarbrand: Exiles of Khorne
 
 * **Route I - The Great Game**
   * During times of utter destruction and murder, Khorne's bellows resound in the Chaos Wastes, causing madness in any 
