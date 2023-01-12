@@ -1,3 +1,4 @@
+local vco = core:get_static_object("vco");
 local vlc = core:get_static_object("vco-lib-commons");
 
 local FACTION_POS_KEY = "wh2_dlc11_cst_pirates_of_sartosa";

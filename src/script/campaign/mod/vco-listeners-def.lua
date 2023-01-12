@@ -1,3 +1,4 @@
+local vco = core:get_static_object("vco");
 local vlc = core:get_static_object("vco-lib-commons");
 
 local FACTION_COP_KEY = "wh2_main_def_cult_of_pleasure";

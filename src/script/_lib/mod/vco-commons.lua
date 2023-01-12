@@ -159,6 +159,7 @@ end
 -- UNIT LOCKS & UNLOCKS --
 
 function vlc.unit_locks:lock_unit(unit_key, faction_key)
+	--vco:log("lock_unit | Locking unit " .. unit_key .. " for faction " .. faction_key);
 	cm:add_event_restricted_unit_record_for_faction(unit_key, faction_key);
 end
 
@@ -182,7 +183,7 @@ function vlc.unit_locks:lock_units_by_subculture(unit_keys_list, subculture_key)
 	local all_subculture_factions = cm:get_factions_by_subculture(subculture_key);
 	for _, unit_key in ipairs(unit_keys_list) do
 		for _, faction_key in ipairs(all_subculture_factions) do
-			self:lock_unit(unit_key, faction_key)
+			self:lock_unit(unit_key, faction_key:name())
 		end
 	end
 end

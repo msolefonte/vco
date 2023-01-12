@@ -1,4 +1,5 @@
 local vco = core:get_static_object("vco");
+local vlc = core:get_static_object("vco-lib-commons");
 
 local FACTION_TNP_KEY = "wh3_main_cth_the_northern_provinces";
 local FACTION_TWP_KEY = "wh3_main_cth_the_western_provinces";

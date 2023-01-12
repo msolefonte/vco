@@ -1,4 +1,5 @@
 local vco = core:get_static_object("vco");
+local vlc = core:get_static_object("vco-lib-commons");
 
 local FACTION_ESH_KEY = "wh2_main_skv_clan_eshin";
 local FACTION_MDR_KEY = "wh2_main_skv_clan_moulder";

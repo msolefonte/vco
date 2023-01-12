@@ -1,4 +1,5 @@
 local vco = core:get_static_object("vco");
+local vlc = core:get_static_object("vco-lib-commons");
 
 local FACTION_BOR_KEY = "wh_main_brt_bordeleaux";
 local KEY_CS_ALBERIC = "wh_dlc07_brt_alberic";

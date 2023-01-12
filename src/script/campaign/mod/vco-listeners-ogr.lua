@@ -1,4 +1,5 @@
 local vco = core:get_static_object("vco");
+local vlc = core:get_static_object("vco-lib-commons");
 
 local FACTION_GOL_KEY = "wh3_main_ogr_goldtooth";
 local FACTION_MAW_KEY = "wh3_main_ogr_disciples_of_the_maw";
