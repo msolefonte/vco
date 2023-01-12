@@ -29,18 +29,8 @@ local missions = {
 
 				objective
 				{
-					type RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_OF_SUBCULTURE;
-					total 5;
-				
-					subculture wh3_main_sc_nur_nurgle;
-				}
-
-				objective
-				{
-					type RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_OF_SUBCULTURE;
-					total 5;
-				
-					subculture wh3_main_sc_tze_tzeentch;
+					type OCCUPY_LOOT_RAZE_OR_SACK_X_SETTLEMENTS;
+					total 25;
 				}
 
 				payload
@@ -97,18 +87,8 @@ local missions = {
 
 				objective
 				{
-					type RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_OF_SUBCULTURE;
-					total 5;
-				
-					subculture wh3_main_sc_kho_khorne;
-				}
-
-				objective
-				{
-					type RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_OF_SUBCULTURE;
-					total 5;
-				
-					subculture wh3_main_sc_sla_slaanesh;
+					type OCCUPY_LOOT_RAZE_OR_SACK_X_SETTLEMENTS;
+					total 25;
 				}
 
 				payload

@@ -1,4 +1,4 @@
-## Throt the Unclean - Clan Moulder
+## Throt the Unclean: Clan Moulder
 
 * **Route I - Yes-yes, prepare The Lab!**
   * Throt is busy deep down in Hell Pit, mutating any beast or Skaven that gets too close to the Flesh Lab! Unlock all 
@@ -26,3 +26,33 @@
     * Kraka Drak, Goromadny Tribe and Wintertooth
   * **Reward:**
     * _Tainted-Foul Flesh_: Mutagens: +26 per turn, Weapon strength: +13% for all Clan Moulder units
+
+## Deathmaster Snikch: Clan Eshin
+
+* **Route I - Service of the Grand Nightlord**
+  * Perform Ritual: Plunge into Anarchy
+  * Assassinate 13 enemy Agents
+  * Perform 13 Eshin Actions
+  * **Reward:**
+    * _Eshin Trials_: Recruit Rank +13 for Assassins, action success chance +13% for Assassins, Assassinate action 
+    success chance +13% for Assassins, +52 Melee AP damage for Assassins
+
+* **Route II - Assassin**
+  * Defeat Ku'gath Plaguefather in battle with Deathmaster Snikch's army.
+  * Defeat Belegar Ironhammer in battle with Deathmaster Snikch's army.
+  * Defeat Malus Darkblade in battle with Deathmaster Snikch's army.
+  * **Reward:**
+    * _A Plague No More_: +26% Technology research rate, -1 turn wound recovery time for all characters
+	* _Even Iron Can Shatter_: -39 Diplomacy with all Dwarven factions, +13 leadership vs all Dwarven factions
+	* _Host of T'zarkan_: Enable Ability T'zarkan for Deathmaster Snikch
+	* Potion of Healing added to Inventory
+
+* **Route III - Keep Your Enemies Close**
+  * Destroy factions: 
+    * Dimmed Sun, Western Provinces, Northern Provinces, Celestial Loyalists
+  * Destroy factions:
+    * Jiangshi Rebels
+  * **Reward:**
+    * _Fame and Fury_: +26 Clan Reputation with Clans Pestilens, Mors, Skryre, Moulder, +154 Melee AP Damage with 
+    Deathmaster Snikch
+	* _Quick Study_: +5 Melee Attack & Melee Defence vs all Vampire Factions

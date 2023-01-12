@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [5.2.0] - 12/01/2023
+
+- Added new routes for Deathmaster Snikch: Clan Eshin
+- Added new ancillary item rewards for several factions
+- Updated The Western Provinces with a new objective to earn a certain amount of money
+- Updated the method used to grant ancillary items to factions such that they display properly
+- Fixed (most) aborting objectives that don't complete when targets are destroyed or no longer exist
+- Fixed Book of Nagash objectives not completing when a faction doesn't collect all nine books
+- Fixed some minor bugs, spelling errors, and generalisations across IME/RoC
+
 ## [5.1.0] - 27/12/2022
 
 - Added Realm of Chaos support for all factions except Champions of Chaos

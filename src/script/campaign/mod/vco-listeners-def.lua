@@ -43,7 +43,7 @@ local function add_listeners()
 		cop_unlock_slaanesh_units,
 		false
 	);
-	
+
 	core:add_listener(
 		"vco_def_gan_route_2_completed",
 		"MissionSucceeded",

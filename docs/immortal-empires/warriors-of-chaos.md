@@ -1,6 +1,6 @@
 # Warriors of Chaos
 
-## Archaon - Warhost of the Apocalypse
+## Archaon the Everchosen: Warhost of the Apocalypse
 
 * **Route I - The Beginning of the End**
   * There are those who would stand against your ascension. Your Father-in-Shadow schemes against you on Albion, the 

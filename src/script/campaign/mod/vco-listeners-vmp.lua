@@ -2,9 +2,8 @@ local vlc = core:get_static_object("vco-lib-commons");
 local vco = core:get_static_object("vco");
 
 local DILEMMA_TURNS_DELAY = 10;
-local FACTION_MAN_ID = "vmp_man";
-local FACTION_MAN_KEY = "wh_main_vmp_vampire_counts";
 local FACTION_KEM_KEY = "wh2_dlc11_vmp_the_barrow_legion";
+local FACTION_MAN_KEY = "wh_main_vmp_vampire_counts";
 local KEY_D_OSSIFIED_PORTAL = "vco_vmp_man_dilemma_ossified_portal";
 
 local function trigger_man_dilemma()
@@ -39,7 +38,7 @@ end
 -- CHECKS --
 
 local function check_man_collected_books(mission)
-	vlc.nagash_books:check_generic_all_books_collected(FACTION_MAN_ID, mission, 8);
+	vlc.nagash_books:check_generic_all_books_collected(FACTION_MAN_KEY, mission, 8);
 end
 
 -- LISTENERS --
@@ -81,7 +80,7 @@ local function add_listeners()
 		end,
 		true
 	);
-	
+
 	core:add_listener(
 		"vco_vmp_kem_3_bloodline_awoken",
 		"RitualCompletedEvent",
@@ -89,11 +88,11 @@ local function add_listeners()
 			return context:performing_faction():name() == FACTION_KEM_KEY and
 				context:performing_faction():is_human() and
 				(
-				 context:ritual():ritual_key() == "wh2_dlc11_vmp_ritual_bloodline_awaken_von_carstein_03" or
-				 context:ritual():ritual_key() == "wh2_dlc11_vmp_ritual_bloodline_awaken_strigoi_03" or
-				 context:ritual():ritual_key() == "wh2_dlc11_vmp_ritual_bloodline_awaken_necrarch_03" or
-				 context:ritual():ritual_key() == "wh2_dlc11_vmp_ritual_bloodline_awaken_lahmian_03" or
-				 context:ritual():ritual_key() == "wh2_dlc11_vmp_ritual_bloodline_awaken_blood_dragon_03"
+					context:ritual():ritual_key() == "wh2_dlc11_vmp_ritual_bloodline_awaken_von_carstein_03" or
+						context:ritual():ritual_key() == "wh2_dlc11_vmp_ritual_bloodline_awaken_strigoi_03" or
+						context:ritual():ritual_key() == "wh2_dlc11_vmp_ritual_bloodline_awaken_necrarch_03" or
+						context:ritual():ritual_key() == "wh2_dlc11_vmp_ritual_bloodline_awaken_lahmian_03" or
+						context:ritual():ritual_key() == "wh2_dlc11_vmp_ritual_bloodline_awaken_blood_dragon_03"
 				)
 		end,
 		bloodline_awoken,

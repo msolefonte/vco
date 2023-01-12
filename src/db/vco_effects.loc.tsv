@@ -20,7 +20,6 @@ effects_description_vco_cth_miao_dilemma	A dilemma will offer a choice between p
 effects_description_vco_cth_zhao_compass_upgraded	Enables Burning Alignment for Wu Xing War Compass units	true
 effects_description_vco_def_gan_hellebron_melee_damage_ap	Armour-piercing weapon damage: %+n for Crone Hellebron	true
 effects_description_vco_def_gan_increase_max_slaves	Maximum Slaves: %+n	true
-effects_description_vco_def_gan_items_awarded_dummy	Items Granted: Armor of Living Death, Hydra Blade	true
 effects_description_vco_def_gan_leadership_vs_forces_of_order	Leadership vs Forces of Order: %+n	true
 effects_description_vco_def_gan_ritual_drakira_cost_reduction	Cost reduction for Sacrifice to Drakira: %-n%	true
 effects_description_vco_def_gan_witch_elves_sisters_melee_damage_ap	Armour-piercing weapon damage: %+n for Sisters of Slaughter and Witch Elves	true
@@ -53,10 +52,16 @@ effects_description_vco_ogr_greasus_armour	Armour: %+n for Greasus Goldtooth	tru
 effects_description_vco_ogr_greasus_charge_bonus	Charge Bonus: %+n for Greasus Goldtooth	true
 effects_description_vco_ogr_greasus_speed	Speed: %+n% for Greasus Goldtooth	true
 effects_description_vco_ogr_greasus_ward_save	Ward save: %+n% for Greasus Goldtooth	true
+effects_description_vco_skv_assassins_melee_damage_ap	Armour-piercing weapon damage: %+n for Assassins	true
 effects_description_vco_skv_clan_moulder_strength	Weapon strength: %+n% for all Clan Moulder units	true
+effects_description_vco_skv_clans_impressed	News of the swift Cathayan demise has reached the Clans, and try as they might they cannot hide how impressed they are!	true
 effects_description_vco_skv_food	Food generated: %n	true
+effects_description_vco_skv_melee_attack_vs_vampires	Melee Attack: %+n against Vampires	true
+effects_description_vco_skv_melee_defence_vs_vampires	Melee Defence: %+n against Vampires	true
 effects_description_vco_skv_per_turn_growth_vat	Growth Juice: %+n per turn	true
 effects_description_vco_skv_per_turn_mutagen	Mutagen: %+n per turn	true
+effects_description_vco_skv_snikch_melee_damage_ap	Armour-piercing weapon damage: %+n for Deathmaster Snikch	true
+effects_description_vco_skv_ultimate_harvest_dilemma_dummy_text	A dilemma will offer a choice between powerful rewards!	true
 effects_description_vco_sla_devotees	Devotees: %+n per turn	true
 effects_description_vco_sla_nkari_weapon_strength	Weapon strength: %+n% for N'Kari	true
 effects_description_vco_tmb_arkhan_allegiance_points_mod_vampire_coast	Allegiance points gained: %+n% for alliances with Vampire Coast	true

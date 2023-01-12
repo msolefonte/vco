@@ -23,13 +23,6 @@ local missions = {
 
 				objective
 				{
-					override_text mission_text_text_mis_activity_complete_slaughter_carnage;
-					type SCRIPTED;
-					script_key slaughter_carnage_obtained;
-				}
-
-				objective
-				{
 					type ACHIEVE_CHARACTER_RANK;
 					total 1;
 					total2 40;
@@ -148,11 +141,10 @@ local missions = {
 
 				objective
 				{
-					type RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_OF_SUBCULTURE;
-					total 8;
-				
-					subculture wh3_main_sc_sla_slaanesh;
+					type DEFEAT_N_ARMIES_OF_FACTION;
+					total 35;
 				}
+
 
 				payload
 				{

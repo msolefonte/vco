@@ -113,9 +113,18 @@ effect_bundles_localised_description_vco_victory_payload_ogr_skr_1_pilgrim_maw_r
 effect_bundles_localised_description_vco_victory_payload_ogr_skr_2_age_of_ogres	The Great Maw's greatest prophet has founded a new Ogre Kingdom in the very heartland of Bretonnia. The Land of Chivalry is now anything but, and the Lady of the Lake has seemingly deserted her people, though some claim that she was dragged screaming into Skrag's maw-cauldron...	true
 effect_bundles_localised_description_vco_victory_payload_ogr_skr_2_age_of_ogres_roc	The Great Maw's greatest prophet has founded a new Ogre Kingdom in the centre of the Empire. This once mighty nation of men is now naught but livestock for the Ogre tribes who now call these lands their own.	true
 effect_bundles_localised_description_vco_victory_payload_ogr_skr_3_hunger_power	The Gorgers have feasted well. Their mutated forms now ripple with power, a clear sign of the Great Maw's blessing.	true
+effect_bundles_localised_description_vco_victory_payload_skv_esh_1_eshin_trials	Sneek and the Deathmaster have expanded Eshin's Trials as more capable candidates pass their tests and are granted the Master Assassin title.	true
+effect_bundles_localised_description_vco_victory_payload_skv_esh_2_magnus_sicarius_1	Ku'gath and his plagues are no longer infecting this world with their foul stench, but some of his treasure survived the purge - strange potions and barely legible notes among the spoils.	true
+effect_bundles_localised_description_vco_victory_payload_skv_esh_2_magnus_sicarius_2	Ironhammer and his ghosts did not see us coming, and they paid the ultimate price. The Council will demand a great price from the Goblins, that much is certain.	true
+effect_bundles_localised_description_vco_victory_payload_skv_esh_2_magnus_sicarius_3	We could not kill it, it was too strong. It needed a new host after Darkblade was slain... It found one.	true
+effect_bundles_localised_description_vco_victory_payload_skv_esh_3_the_night_is_quiet_once_again_1	Snikch's blades have slaughtered so many yet remain so impressively sharp. The Clans pray to the Horned Rat that those blades do not turn their way next.	true
+effect_bundles_localised_description_vco_victory_payload_skv_esh_3_the_night_is_quiet_once_again_2	Our Assassins have studied the Vampire's movement - we know now how they fight, and we'll use that against the rest of their kind.	true
 effect_bundles_localised_description_vco_victory_payload_skv_mdr_1_yes_yes_prepare_the_lab	Cross-breeding all manner of creatures and utilising the mutating effects of warpstone, Throt is ever seeking to create more destructive creatures to set on his enemies and trade with other clans.	true
 effect_bundles_localised_description_vco_victory_payload_skv_mdr_2_the_vermintide_comes	Winding lines of corpse-wagons journey towards Hell Pit, ensuring Throt's gluttonous creations have a constant supply of flesh to sate their ravenous appetites.	true
+effect_bundles_localised_description_vco_victory_payload_skv_mdr_3_dilemma_devour_godflesh	Like a squished moth, Ariel is now nothing but a pulp consumed by Throt to abate his hunger, with the remains used to augment his twisted hench-rats!	true
+effect_bundles_localised_description_vco_victory_payload_skv_mdr_3_dilemma_trade_godflesh	The Mage-Queen's pulped remains have been bottled into hundreds of vials, each one worth a small fortune in warpstone. Envoys from every clan in Skavendom journey to Hell Pit in the hopes of acquiring the precious substance.	true
 effect_bundles_localised_description_vco_victory_payload_skv_mdr_3_the_frozen_dead	These frozen corpses will make for excellent sources of mutagen with which to bolster the ferocity of the Master Mutator's creations.	true
+effect_bundles_localised_description_vco_victory_payload_skv_mdr_3_ultimate_harvest	With the Mage-Queen's demise, Throt prepares to harvest her divine flesh...	true
 effect_bundles_localised_description_vco_victory_payload_sla_nka_1_the_great_game	The Dark Prince's power waxes so strongly that it can no longer be contained within the Realms of Chaos. Storms howl outwards from the polar gates, driving his servants onwards to commit countless unspeakable acts in his name.	true
 effect_bundles_localised_description_vco_victory_payload_sla_nka_1_the_great_game_1	And all the men and women merely playthings for the Daemonettes.	true
 effect_bundles_localised_description_vco_victory_payload_sla_nka_1_the_great_game_roc	The Dark Prince's power waxes so strongly that it can no longer be contained within the Realms of Chaos. Storms howl outwards from the polar gates, driving his servants onwards to commit countless unspeakable acts in his name.	true
@@ -215,7 +224,7 @@ effect_bundles_localised_title_vco_victory_payload_hef_tyr_3_fate_of_the_soul_1	
 effect_bundles_localised_title_vco_victory_payload_hef_tyr_3_fate_of_the_soul_2	The Original Phoenix Crown	true
 effect_bundles_localised_title_vco_victory_payload_kho_ska_1_great_game	Khorne Ascendant	true
 effect_bundles_localised_title_vco_victory_payload_kho_ska_2_blood_god	The Reaping	true
-effect_bundles_localised_title_vco_victory_payload_kho_ska_3_skull_throne	Skulls of the Desert	true
+effect_bundles_localised_title_vco_victory_payload_kho_ska_3_skull_throne	Skulls of the Slain	true
 effect_bundles_localised_title_vco_victory_payload_ksl_bor_1_doomslayer_1	Rip & Tear	true
 effect_bundles_localised_title_vco_victory_payload_ksl_bor_1_doomslayer_1_roc	Rip & Tear	true
 effect_bundles_localised_title_vco_victory_payload_ksl_bor_1_doomslayer_2	Ursun's Vengeance	true
@@ -260,9 +269,18 @@ effect_bundles_localised_title_vco_victory_payload_ogr_skr_1_pilgrim_maw_roc	Jou
 effect_bundles_localised_title_vco_victory_payload_ogr_skr_2_age_of_ogres	A New Ogre Kingdom	true
 effect_bundles_localised_title_vco_victory_payload_ogr_skr_2_age_of_ogres_roc	The Ogre Empire	true
 effect_bundles_localised_title_vco_victory_payload_ogr_skr_3_hunger_power	Well-Fed	true
+effect_bundles_localised_title_vco_victory_payload_skv_esh_1_eshin_trials	Eshin Trials	true
+effect_bundles_localised_title_vco_victory_payload_skv_esh_2_magnus_sicarius_1	A Plague No More	true
+effect_bundles_localised_title_vco_victory_payload_skv_esh_2_magnus_sicarius_2	Even Iron Can Shatter	true
+effect_bundles_localised_title_vco_victory_payload_skv_esh_2_magnus_sicarius_3	Host of T'zarkan	true
+effect_bundles_localised_title_vco_victory_payload_skv_esh_3_the_night_is_quiet_once_again_1	Fame and Fury	true
+effect_bundles_localised_title_vco_victory_payload_skv_esh_3_the_night_is_quiet_once_again_2	Quick Study	true
 effect_bundles_localised_title_vco_victory_payload_skv_mdr_1_yes_yes_prepare_the_lab	Stitched Up!	true
 effect_bundles_localised_title_vco_victory_payload_skv_mdr_2_the_vermintide_comes	A Cornucopia of Flesh	true
+effect_bundles_localised_title_vco_victory_payload_skv_mdr_3_dilemma_devour_godflesh	Deific Feast	true
+effect_bundles_localised_title_vco_victory_payload_skv_mdr_3_dilemma_trade_godflesh	Supply and Demand	true
 effect_bundles_localised_title_vco_victory_payload_skv_mdr_3_the_frozen_dead	The Frozen Dead	true
+effect_bundles_localised_title_vco_victory_payload_skv_mdr_3_ultimate_harvest	Godflesh	true
 effect_bundles_localised_title_vco_victory_payload_sla_nka_1_the_great_game	Slaanesh Ascendant	true
 effect_bundles_localised_title_vco_victory_payload_sla_nka_1_the_great_game_1	All The World's A Stage	true
 effect_bundles_localised_title_vco_victory_payload_sla_nka_1_the_great_game_roc	Slaanesh Ascendant	true
