@@ -4,11 +4,11 @@ local FACTION_TGO_KEY = "wh3_main_ksl_the_great_orthodoxy";
 local FACTION_TIC_KEY = "wh3_main_ksl_the_ice_court";
 local SUBCULTURE_KEY = "wh3_main_sc_ksl_kislev";
 local KEY_D_CALL_FOR_AID = "vco_ksl_kat_dilemma_call_for_aid";
-local KEY_U_GIANT_SLAYERS = "wh2_dlc10_dwf_inf_giant_slayers";
-local KEY_U_GREAT_CANNON = "wh_main_emp_art_great_cannon";
-local KEY_U_LUMINARK = "wh_main_emp_veh_luminark_of_hysh_0";
-local KEY_U_MORTAR = "wh_main_emp_art_mortar";
-local KEY_U_SLAYERS = "wh_main_dwf_inf_slayers";
+local KEY_U_GIANT_SLAYERS = { "wh2_dlc10_dwf_inf_giant_slayers" };
+local KEY_U_GREAT_CANNON = { "wh_main_emp_art_great_cannon" };
+local KEY_U_LUMINARK = { "wh_main_emp_veh_luminark_of_hysh_0" };
+local KEY_U_MORTAR = { "wh_main_emp_art_mortar" };
+local KEY_U_SLAYERS = { "wh_main_dwf_inf_slayers" };
 
 local function tgo_lock_luminark()
 	vlc.unit_locks:lock_units_by_subculture(KEY_U_LUMINARK, SUBCULTURE_KEY);
