@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [5.2.1] - 12/01/2023
 
-- Added missing Eshin check for target factions being destroyed, preventing Snikch from defeating their leader in battle (Thanks @Thrakerzod & @Cheato1!)
+- Added missing Clan Eshin check for target factions being destroyed, preventing Snikch from defeating their leader in battle (Thanks @Thrakerzod & @Cheato1!)
 - Fixed locking units to subcultures which was causing a crash during the first AI turns
 - Fixed race-specific unit locking applying on faction-specific first turn for Norsca + Kislev
 - Fixed missing Ancillary item key table which was preventing Victory Conditions Overhaul ancillary additions
