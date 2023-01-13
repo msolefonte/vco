@@ -54,7 +54,7 @@ local function add_listeners()
 	core:add_listener(
 		"vco_ksl_first_turn_start",
 		"FactionTurnStart",
-		function(context)
+		function()
 			return cm:model():turn_number() == 1;
 		end,
 		ksl_lock_units,

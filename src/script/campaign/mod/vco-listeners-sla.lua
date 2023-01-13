@@ -21,7 +21,7 @@ local function check_nka_gifts_given()
 	end
 end
 
-local function check_nka_cult_building(context)
+local function check_nka_cult_building()
 	local cult_buildings_completed = cm:get_saved_value("cult_buildings_built_" .. FACTION_KEY) or 0;
 
 	local cult_buildings_completed_incremented = cult_buildings_completed + 1;

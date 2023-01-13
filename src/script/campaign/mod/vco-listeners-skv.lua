@@ -130,12 +130,13 @@ local function add_listeners()
 		end,
 		true
 	);
-	
+
 	core:add_listener(
 		"vco_skv_esh_snikch_target_faction_wiped_out",
 		"FactionTurnStart",
 		function(context)
-			return faction:is_human() and faction:name() == FACTION_ESH_KEY
+			return context:faction():is_human() and
+				context:faction():name() == FACTION_ESH_KEY;
 		end,
 		check_snikch_targets,
 		true

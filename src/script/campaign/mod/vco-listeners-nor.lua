@@ -2,7 +2,6 @@ local vco = core:get_static_object("vco");
 local vlc = core:get_static_object("vco-lib-commons");
 
 local FACTION_WUL_KEY = "wh_dlc08_nor_norsca";
-local SUBCULTURE_KEY = "wh_dlc08_sc_nor_norsca";
 local MONSTER_HUNT_MISSION_KEYS = {
 	"wh_dlc08_qb_nor_monster_hunt_0",
 	"wh_dlc08_qb_nor_monster_hunt_1",
@@ -18,6 +17,7 @@ local MONSTER_HUNT_MISSION_KEYS = {
 	"wh2_dlc10_qb_nor_monster_hunt_11"
 };
 local REQUIRED_MONSTER_HUNTS = 6;
+local SUBCULTURE_KEY = "wh_dlc08_sc_nor_norsca";
 local UNLOCKABLE_KHORNE_UNITS = { "wh3_main_kho_inf_bloodletters_0", "wh3_main_kho_inf_bloodletters_1" };
 local UNLOCKABLE_NURGLE_UNITS = {	"wh3_main_nur_inf_plaguebearers_0", "wh3_main_nur_inf_plaguebearers_1" };
 local UNLOCKABLE_TZEENTCH_UNITS = {	"wh3_main_tze_inf_pink_horrors_0", "wh3_main_tze_inf_pink_horrors_1" };
@@ -80,7 +80,7 @@ local function add_listeners()
 	core:add_listener(
 		"vco_nor_first_turn_start",
 		"FactionTurnStart",
-		function(context)
+		function()
 			return cm:model():turn_number() == 1;
 		end,
 		nor_lock_units,
