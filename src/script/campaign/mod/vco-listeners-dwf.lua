@@ -1,3 +1,6 @@
+local vco = core:get_static_object("vco");
+local vlc = core:get_static_object("vco-lib-commons");
+
 local FACTION_TAT_KEY = "wh3_main_dwf_the_ancestral_throng";
 local KEY_D_ELVES = "vco_dwf_gro_dilemma_elves";
 

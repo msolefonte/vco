@@ -1,3 +1,6 @@
+local vco = core:get_static_object("vco");
+local vlc = core:get_static_object("vco-lib-commons");
+
 local FACTION_MAN_KEY = "wh_main_chs_chaos";
 local KEY_D_SLAYER_KINGS = "vco_chs_arc_dilemma_slayer_kings";
 
