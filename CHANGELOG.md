@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [5.2.1] - 12/01/2023
+## [5.2.1] - 13/01/2023
 
 - Added missing Clan Eshin check for target factions being destroyed, preventing Snikch from defeating their leader in battle (Thanks @Thrakerzod & @Cheato1!)
 - Fixed locking units to subcultures which was causing a crash during the first AI turns
