@@ -1,9 +1,11 @@
 local vco = core:get_static_object("vco");
+local vlc = core:get_static_object("vco-lib-commons");
 
 local FACTION_ESH_KEY = "wh2_main_skv_clan_eshin";
 local FACTION_MDR_KEY = "wh2_main_skv_clan_moulder";
 local KEY_D_HARVEST = "vco_skv_mdr_dilemma_ultimate_harvest";
 local REQUIRED_EFFECT_TAILS = { "inf_aug_13", "inf_aug_14", "mon_aug_13", "mon_aug_14" };
+local REQUIRED_ESHIN_TARGETS = { "wh_main_dwf_karak_izor", "wh2_main_def_hag_graef", "wh3_main_nur_poxmakers_of_nurgle" };
 local REQUIRED_ESHIN_ACTIONS = 13;
 
 -- TRIGGERS --
@@ -53,6 +55,16 @@ local function check_snikch_battle(defender)
 
 	vco:log("Marking mission complete for script key 'vco_skv_esh_" .. defender_faction .. "_leader_defeated'.");
 	vco:complete_mission(FACTION_ESH_KEY, "vco_skv_esh_" .. defender_faction .. "_leader_defeated");
+end
+
+local function check_snikch_targets()
+	for _, faction_name in ipairs(REQUIRED_ESHIN_TARGETS) do
+		local faction_data = cm:get_faction(faction_name, false);
+		local faction_is_dead = faction_data:is_dead();
+		if faction_is_dead then
+			vco:complete_mission(FACTION_ESH_KEY, "vco_skv_esh_" .. faction_name .. "_leader_defeated");
+		end
+	end
 end
 
 local function check_snikch_eshin_actions()
@@ -109,7 +121,6 @@ local function add_listeners()
 		function(context)
 			local character = context:character();
 			local faction = context:character():faction();
-			vco:log("CharacterCompletedBattle: Conditional Function");
 			return faction:is_human() and
 				faction:name() == FACTION_ESH_KEY and
 				character:is_faction_leader();
@@ -117,6 +128,17 @@ local function add_listeners()
 		function(context)
 			check_snikch_battle(context:pending_battle():defender());
 		end,
+		true
+	);
+
+	core:add_listener(
+		"vco_skv_esh_snikch_target_faction_wiped_out",
+		"FactionTurnStart",
+		function(context)
+			return context:faction():is_human() and
+				context:faction():name() == FACTION_ESH_KEY;
+		end,
+		check_snikch_targets,
 		true
 	);
 

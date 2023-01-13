@@ -1,3 +1,4 @@
+local vco = core:get_static_object("vco");
 local vlc = core:get_static_object("vco-lib-commons");
 
 local FACTION_COP_KEY = "wh2_main_def_cult_of_pleasure";
@@ -25,9 +26,8 @@ local function add_listeners()
 	core:add_listener(
 		"vco_def_cop_first_turn_start",
 		"FactionTurnStart",
-		function(context)
-			return cm:model():turn_number() == 1 and
-				context:faction():name() == FACTION_COP_KEY;
+		function()
+			return cm:model():turn_number() == 1;
 		end,
 		cop_lock_slaanesh_units,
 		false

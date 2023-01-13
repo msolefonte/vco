@@ -1,5 +1,5 @@
-local vlc = core:get_static_object("vco-lib-commons");
 local vco = core:get_static_object("vco");
+local vlc = core:get_static_object("vco-lib-commons");
 
 local DILEMMA_TURNS_DELAY = 10;
 local FACTION_KEM_KEY = "wh2_dlc11_vmp_the_barrow_legion";
