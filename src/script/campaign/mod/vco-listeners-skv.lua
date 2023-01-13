@@ -64,6 +64,7 @@ local function check_snikch_targets()
 		if faction_is_dead then
 			vco:complete_mission(FACTION_ESH_KEY, "vco_skv_esh_" .. faction_name .. "_leader_defeated");
 		end
+	end
 end
 
 local function check_snikch_eshin_actions()
