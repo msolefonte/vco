@@ -97,10 +97,24 @@ end
 -- OBJECTIVES --
 
 function vco:complete_mission(faction_name, script_key)
+	if self:is_multiplayer_campaign() then
+		self:log("Completing multiplayer mission objective (wh3_main_mp_victory) for " .. faction_name .. " using script key: " .. script_key);
+		cm:complete_scripted_mission_objective(faction_name, "wh3_main_mp_victory", script_key, true);
+		return;
+	end
+
+	self:log("Completing singleplayer mission objective (wh_main_short_victory) for " .. faction_name .. " using script key: " .. script_key);
 	cm:complete_scripted_mission_objective(faction_name, "wh_main_short_victory", script_key, true);
 end
 
 function vco:set_mission_text(script_key, text_key)
+	if self:is_multiplayer_campaign() then
+		self:log("Setting multiplayer mission text (wh3_main_mp_victory) for script: " .. script_key .. " from text key: " .. text_key);
+		cm:set_scripted_mission_text("wh3_main_mp_victory", script_key, "mission_text_text_" .. text_key);
+		return;
+	end
+
+	self:log("Setting singleplayer mission text (wh_main_short_victory) for script: " .. script_key .. " from text key: " .. text_key);
 	cm:set_scripted_mission_text("wh_main_short_victory", script_key, "mission_text_text_" .. text_key);
 end
 
