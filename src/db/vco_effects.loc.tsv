@@ -70,3 +70,7 @@ effects_description_vco_vmp_kem_missile_resistance	Missile resistance: %+n% for 
 effects_description_vco_vmp_man_dilemma_soulgate	A portal to Sylvania will become available to Mannfred's army.	true
 effects_description_vco_vmp_man_ward_save	Ward save: %+n% for Mannfred von Carstein	true
 effects_description_vco_vmp_man_weapon_strength	Weapon strength: %+n% for Mannfred von Carstein	true
+effects_description_vco_chs_aza_dilemma	A dilemma will offer a choice between powerful rewards!	true
+effects_description_vco_chs_fes_dilemma	A dilemma will offer a choice between powerful rewards!	true
+effects_description_vco_chs_vil_dilemma	A dilemma will offer a choice between powerful rewards!	true
+effects_description_vco_chs_val_dilemma	A dilemma will offer a choice between powerful rewards!	true

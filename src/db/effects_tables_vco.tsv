@@ -16,7 +16,7 @@ vco_cst_necrofex_colossus_recruitment_time_reduction	turns.png	101	turns.png	cam
 vco_cst_necrofex_colossus_upkeep_reduction	military_spending_upkeep.png	101	military_spending_upkeep.png	campaign	true
 vco_cst_rotting_units_upkeep_reduction	military_spending_upkeep.png	101	military_spending_upkeep.png	campaign	true
 vco_cst_zombie_deckhands_missile_strength	ranged_damage.png	101	ranged_damage.png	campaign	true
-vco_cth_miao_dilemma	shen_zoo.png	101	shen_zoo.png	campaign	true
+vco_cth_miao_dilemma	shen_zoo_vengeance.png	101	shen_zoo_vengeance.png	campaign	true
 vco_cth_zhao_compass_upgraded	wh2_dlc12_unit_abilities_burning_alignment.png	101	wh2_dlc12_unit_abilities_burning_alignment.png	campaign	true
 vco_def_gan_hellebron_melee_damage_ap	armour_piercing_character.png	101	armour_piercing_character.png	campaign	true
 vco_def_gan_increase_max_slaves	slaves.png	101	slaves.png	campaign	true
@@ -69,3 +69,7 @@ vco_vmp_kem_missile_resistance	resistance_missile.png	101	resistance_missile.png
 vco_vmp_man_dilemma_soulgate	souls.png	101	souls.png	campaign	true
 vco_vmp_man_ward_save	resistance_ward_save.png	101	resistance_ward_save.png	campaign	true
 vco_vmp_man_weapon_strength	weapon_damage_character.png	101	weapon_damage_character.png	campaign	true
+vco_chs_aza_dilemma	bullet_sla_promise_of_perfection.png	101	bullet_sla_promise_of_perfection.png	campaign	true
+vco_chs_fes_dilemma	wh2_main_spell_plague_pestilent_birth.png	101	wh2_main_spell_plague_pestilent_birth.png	campaign	true
+vco_chs_vil_dilemma	archaon_vco.png	101	archaon_vco.png	campaign	true
+vco_chs_val_dilemma	wh3_main_lord_abilities_willing_prey.png	101	wh3_main_lord_abilities_willing_prey.png	campaign	true
