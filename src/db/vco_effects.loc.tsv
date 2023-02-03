@@ -2,12 +2,18 @@ key	text	tooltip
 #Loc PackedFile;1;text/db/vco_effects.loc		
 effects_description_vco_all_campaign_victory_dummy	Campaign Victory	true
 effects_description_vco_all_movement_range_post_raze_port	Campaign movement range: %+n% after razing a port settlement	true
+effects_description_vco_archaon_vilitch_dummy_body	Archaon the Everslave will become available for recruitment	true
+effects_description_vco_archaon_vilitch_dummy_mind	Archaon the Everslave will become available for recruitment	true
 effects_description_vco_brt_alb_dilemma	A dilemma will offer a choice between powerful rewards!	true
 effects_description_vco_brt_alberic_vow_melee_attack	Melee attack: %+n for Alberic de Bordeleaux	true
 effects_description_vco_brt_alberic_vow_melee_damage	Weapon strength: %+n for Alberic de Bordeleaux	true
 effects_description_vco_brt_alberic_vow_melee_damage_ap	Armour-piercing weapon damage: %+n for Alberic de Bordeleaux	true
 effects_description_vco_brt_alberic_vow_resistance_physical	Physical resistance: %n% for Alberic de Bordeleaux	true
 effects_description_vco_chs_arc_dilemma	A dilemma will offer a choice between powerful rewards!	true
+effects_description_vco_chs_aza_dilemma	A dilemma will offer a choice between powerful rewards!	true
+effects_description_vco_chs_fes_dilemma	A dilemma will offer a choice between powerful rewards!	true
+effects_description_vco_chs_val_dilemma	A dilemma will offer a choice between powerful rewards!	true
+effects_description_vco_chs_vil_dilemma	A dilemma will offer a choice between powerful rewards!	true
 effects_description_vco_cst_ara_ward_save	Speed: %+n% for Aranessa Saltspite	true
 effects_description_vco_cst_ara_weapon_strength	Weapon strength: %+n% for Aranessa Saltspite	true
 effects_description_vco_cst_deck_gunners_ammo	Ammunition: %+n% for Deck Gunner units	true
@@ -35,8 +41,11 @@ effects_description_vco_emp_cursed_artifact_notidoq	Passive ability: "Primal Ins
 effects_description_vco_grn_black_orcs_frostbite	Enables frostbite attacks for Black Orcs	true
 effects_description_vco_grn_per_turn_salvage_gain	Scrap: %+n per turn	true
 effects_description_vco_grn_per_turn_waaagh	Reputation: %+n per turn	true
+effects_description_vco_hef_imrik_dragon_speed	Speed: %+n for Dragons	true
+effects_description_vco_hef_imrik_flammable_contact	Enables [[col:yellow]]Flammable![[/col]] [[col:green]]attacks for Dragon Princes[[/col]]	true
 effects_description_vco_hef_tyr_dummy_wef_forcible_vassalisation	Most Wood Elf factions are forcibly vassalised	true
 effects_description_vco_hef_tyrion_allegiance_points_mod_wood_elves	Allegiance points gained: %+n% for alliances with Wood Elves	true
+effects_description_vco_hef_tyrion_force_vassalisation_wef	All Elven Wood Elf factions will be forcibly vassalised	true
 effects_description_vco_ksl_drunk_tzars	Enables Liquid Fortification for Tzar Guard units	true
 effects_description_vco_ksl_kat_dilemma_call_for_aid	A dilemma will offer a choice between powerful rewards!	true
 effects_description_vco_ksl_kat_dilemma_call_for_aid_unlock_artillery	Unlocks new Empire units: Mortars and Great Cannons	true
@@ -52,6 +61,9 @@ effects_description_vco_ogr_greasus_armour	Armour: %+n for Greasus Goldtooth	tru
 effects_description_vco_ogr_greasus_charge_bonus	Charge Bonus: %+n for Greasus Goldtooth	true
 effects_description_vco_ogr_greasus_speed	Speed: %+n% for Greasus Goldtooth	true
 effects_description_vco_ogr_greasus_ward_save	Ward save: %+n% for Greasus Goldtooth	true
+effects_description_vco_ogr_skr_gorger_armour	Armour: %+n for Gorgers	true
+effects_description_vco_ogr_skr_gorger_missile_resistance	Missile Resistance: %+n for Gorgers	true
+effects_description_vco_ogr_skr_gorger_speed	Speed: %+n for Gorgers	true
 effects_description_vco_skv_assassins_melee_damage_ap	Armour-piercing weapon damage: %+n for Assassins	true
 effects_description_vco_skv_clan_moulder_strength	Weapon strength: %+n% for all Clan Moulder units	true
 effects_description_vco_skv_clans_impressed	News of the swift Cathayan demise has reached the Clans, and try as they might they cannot hide how impressed they are!	true
@@ -65,6 +77,8 @@ effects_description_vco_skv_ultimate_harvest_dilemma_dummy_text	A dilemma will o
 effects_description_vco_sla_devotees	Devotees: %+n per turn	true
 effects_description_vco_sla_nkari_weapon_strength	Weapon strength: %+n% for N'Kari	true
 effects_description_vco_tmb_arkhan_allegiance_points_mod_vampire_coast	Allegiance points gained: %+n% for alliances with Vampire Coast	true
+effects_description_vco_vil_arch_rampage	Passive ability: "Berserker" for Archaon the Everslave	true
+effects_description_vco_vil_arch_weapon_strength	Weapon strength: %+n% for Archaon the Everslave	true
 effects_description_vco_vmp_kem_melee_defence	Melee defence: %+n for Heinrich Kemmler	true
 effects_description_vco_vmp_kem_missile_resistance	Missile resistance: %+n% for Heinrich Kemmler	true
 effects_description_vco_vmp_man_dilemma_soulgate	A portal to Sylvania will become available to Mannfred's army.	true

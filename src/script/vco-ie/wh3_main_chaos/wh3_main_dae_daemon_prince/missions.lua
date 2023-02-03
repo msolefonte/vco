@@ -80,6 +80,21 @@ local missions = {
 						turns 0;
 					}
 
+					add_ancillary_to_faction_pool
+					{
+						ancillary_key vco_anc_weapon_the_slayer_of_kings;
+					}
+
+					add_ancillary_to_faction_pool
+					{
+						ancillary_key vco_anc_armour_the_armour_of_morkar;
+					}
+
+					add_ancillary_to_faction_pool
+					{
+						ancillary_key vco_anc_talisman_the_eye_of_sheerian;
+					}
+
 					effect_bundle
 					{
 						bundle_key vco_victory_payload_all_campaign_victory_dummy;

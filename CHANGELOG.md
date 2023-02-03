@@ -5,6 +5,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [5.3.0] - 03.02.2023
+
+- Added full support for Realms of Chaos. Now all faction are covered!
+- Added new routes for Azazel: The Ecstatic Legion
+- Added new routes for Festus: The Fecundites
+- Added new routes for Valkia the Bloody: Legion of the Gorequeen
+- Added new routes for Vilitch the Curseling: Puppets of Misrule
+- Added new routes for Imrik: Knights of Caledor
+- Added new routes for Azazel: The Ecstatic Legion (Realms of Chaos)
+- Added new routes for Festus: The Fecundites (Realms of Chaos)
+- Added new routes for Valkia the Bloody: Legion of the Gorequeen (Realms of Chaos)
+- Added new routes for Vilitch the Curseling: Puppets of Misrule (Realms of Chaos)
+- Updated Tyrion: Eataine third route: Now unifying the Wood Elves will result in them being forcefully vassalised
+- Fixed a bug that was preventing multiplayer flavour text from displaying and victory rewards from triggering
+- Fixed a display issue where other Kislev factions could see Katarin's unlockable units
+
 ## [5.2.1] - 13/01/2023
 
 - Added missing Clan Eshin check for target factions being destroyed, preventing Snikch from defeating their leader in battle (Thanks @Thrakerzod & @Cheato1!)

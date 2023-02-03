@@ -32,8 +32,7 @@ local missions = {
 
 				objective
 				{
-					type CONTROL_N_REGIONS_FROM;
-					total 1;
+					type CAPTURE_REGIONS;
 
 					region wh3_main_chaos_region_yhetee_peak;
 				}
@@ -139,10 +138,10 @@ local missions = {
 
 				objective
 				{
-					type CONSTRUCT_N_BUILDINGS_INCLUDING;
+					type CONSTRUCT_BUILDING_IN_PROVINCES;
 					faction wh3_main_ogr_disciples_of_the_maw;
-					total 1;
 
+                    province wh3_main_chaos_province_southern_grey_mountains;
 					building_level wh3_main_special_gorger_haunt;
 				}
 

@@ -69,10 +69,10 @@ local missions = {
 			
 				objective
 				{
-					type CONSTRUCT_N_BUILDINGS_INCLUDING;
+					type CONSTRUCT_BUILDING_IN_PROVINCES;
 					faction wh2_dlc11_cst_pirates_of_sartosa;
-					total 1;
 
+                    province wh3_main_combi_province_pirates_current;
 					building_level wh2_dlc11_special_dragon_tooth_lighthouse_1;
 				}
 			

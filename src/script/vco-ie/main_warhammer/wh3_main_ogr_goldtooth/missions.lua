@@ -146,10 +146,10 @@ local missions = {
 
 				objective
 				{
-					type CONSTRUCT_N_BUILDINGS_INCLUDING;
+					type CONSTRUCT_BUILDING_IN_PROVINCES;
 					faction wh3_main_ogr_goldtooth;
-					total 1;
 
+                    province wh3_main_combi_province_ivory_road;
 					building_level wh3_main_special_goldtooths_toll_gate;
 				}
 

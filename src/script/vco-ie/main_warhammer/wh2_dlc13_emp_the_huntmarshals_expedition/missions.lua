@@ -124,7 +124,7 @@ local missions = {
 				objective
 				{
 					override_text mission_text_text_vco_emp_the_3_it_is_round;
-					type CONTROL_N_REGIONS_INCLUDING;
+					type CONTROL_N_REGIONS_FROM;
 					total 4;
 
 					region wh3_main_combi_region_haichai;

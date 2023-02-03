@@ -73,16 +73,12 @@ local missions = {
 					province wh3_main_chaos_province_path_to_the_east;
 				}
 
-				objective
+				objective
 				{
-					type CONSTRUCT_N_BUILDINGS_INCLUDING;
+					type CONSTRUCT_BUILDING_IN_PROVINCES;
 					faction wh3_main_ogr_goldtooth;
-					total 5;
 
-					building_level wh3_main_special_goldtooths_toll_gate;
-					building_level wh3_main_special_the_fire_mouth;
-					building_level wh3_main_special_karak_azorn_great_hall;
-					building_level wh3_main_special_abandoned_sky_titan_hold;
+                    province wh3_main_chaos_province_road_to_damnation;
 					building_level wh3_main_special_challenge_stone_srawl;
 				}
 
@@ -122,11 +118,22 @@ local missions = {
 
 				objective
 				{
-					type CONTROL_N_PROVINCES_INCLUDING;
-					total 2;
+					type CONSTRUCT_BUILDING_IN_PROVINCES;
+					faction wh3_main_ogr_goldtooth;
 
-					province wh3_main_chaos_province_imperial_road;
-					province wh3_main_chaos_province_forests_of_the_moon;
+                    province wh3_main_chaos_province_ivory_road;
+					building_level wh3_main_special_goldtooths_toll_gate;
+				}
+
+				objective
+				{
+					type CONTROL_N_REGIONS_FROM;
+					total 4;
+
+					region wh3_main_chaos_region_wei_jin;
+					region wh3_main_chaos_region_nan_gau;
+					region wh3_main_chaos_region_shang_yang;
+					region wh3_main_chaos_region_hanyu_port;
 				}
 
 				payload
