@@ -135,10 +135,10 @@ local missions = {
 
 				objective
 				{
-					type CONSTRUCT_N_BUILDINGS_INCLUDING;
+					type CONSTRUCT_BUILDING_IN_PROVINCES;
 					faction wh_main_brt_bordeleaux;
-					total 1;
 
+                    province wh3_main_combi_province_river_brienne;
 					building_level wh2_dlc12_special_bordeleaux_manann_shrine_1;
 				}
 

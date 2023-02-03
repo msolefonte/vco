@@ -87,6 +87,9 @@ local missions = {
 					region wh3_main_combi_region_karaz_a_karak;
 					region wh3_main_combi_region_the_oak_of_ages;
 					region wh3_main_combi_region_khemri;
+					region wh3_main_combi_region_the_awakening;
+					region wh3_main_combi_region_lothern;
+					region wh3_main_combi_region_naggarond;
 				}
 
 				objective
@@ -151,18 +154,8 @@ local missions = {
 
 				objective
 				{
-					type RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_OF_SUBCULTURE;
-					total 10;
-				
-					subculture wh_main_sc_emp_empire;
-				}
-
-				objective
-				{
-					type RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_OF_SUBCULTURE;
-					total 5;
-				
-					subculture wh3_main_sc_ksl_kislev;
+					type DEFEAT_N_ARMIES_OF_FACTION;
+					total 50;
 				}
 
 				payload

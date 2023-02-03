@@ -16,10 +16,10 @@ local missions = {
 
 				objective
 				{
-					type CONSTRUCT_N_BUILDINGS_INCLUDING;
+					type CONSTRUCT_BUILDING_IN_PROVINCES;
 					faction wh2_main_skv_clan_moulder;
-					total 1;
 
+                    province wh3_main_combi_province_black_blood_pass;
 					building_level wh2_main_special_hellpit_pits_moulder_2;
 				}
 

@@ -1,0 +1,3 @@
+key	no_going_back_level	hidden	precedence	icon	pre_battle_speech_parameter	ui_priority
+#character_traits_tables;2;db/character_traits_tables/vco						
+vco_trait_archaon_possessed	1	false	1	tzeentch		1

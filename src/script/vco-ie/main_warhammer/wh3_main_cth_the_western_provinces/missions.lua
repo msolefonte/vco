@@ -37,18 +37,10 @@ local missions = {
 
 				objective
 				{
-					type CONTROL_N_REGIONS_FROM;
-					total 1;
-				
-					region wh3_main_combi_region_shang_yang;
-				}
-
-				objective
-				{
-					type CONSTRUCT_N_BUILDINGS_INCLUDING;
+					type CONSTRUCT_BUILDING_IN_PROVINCES;
 					faction wh3_main_cth_the_western_provinces;
-					total 1;
 
+                    province wh3_main_combi_province_warpstone_desert;
 					building_level wh3_main_special_the_great_embassy;
 				}
 

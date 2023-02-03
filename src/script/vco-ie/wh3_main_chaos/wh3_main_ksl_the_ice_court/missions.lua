@@ -120,24 +120,18 @@ local missions = {
 
 				objective
 				{
-					type OCCUPY_LOOT_RAZE_OR_SACK_X_SETTLEMENTS;
+					type DEFEAT_N_ARMIES_OF_FACTION;
 					total 32;
 				}
 
 				objective
 				{
-					type RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_OF_SUBCULTURE;
-					total 5;
-				
-					subculture wh_dlc08_sc_nor_norsca;
-				}
+					type CONSTRUCT_N_BUILDINGS_INCLUDING;
+					faction wh3_main_ksl_the_ice_court;
+					total 2;
 
-				objective
-				{
-					type RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_OF_SUBCULTURE;
-					total 5;
-				
-					subculture wh_main_sc_chs_chaos;
+					building_level wh3_main_special_ksl_kislev_4_2;
+					building_level wh3_main_special_ksl_kislev_1_3;
 				}
 
 				payload

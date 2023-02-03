@@ -2,17 +2,26 @@
 
 ## Daemon Prince: Legion of Chaos
 
-* **Route I - Blessed by the Gods**
-    * Obtain at least 3080 Glory with all paths and Chaos gods
-        * Undivided, Khorne, Nurgle, Slaanesh and Tzeentch
-* **Route II - Succeeding You**
-    * Destroy factions:
-        * Brotherhood of the Bear, Druzhina Enclave, Ropsmenn Clan, The Great Orthodoxy, Ungol Kindred and Ursun 
-        Revivalists, 
-    * Destroy factions:
-        * The Ice Court
-* **Route III - Peacekeeping Mission**
-    * Destroy factions:
-        * Exiles of Khorne, Poxmakers of Nurgle, Oracles of Tzeentch and Seducers of Slaanesh
-    * Have available the following lords:
-        * Exalted Bloodthirster, Exalted Great Unclean One, Exalted Keeper of Secrets and Exalted Lord of Change
+* **Route I - Ascension**
+  * Occupy, loot, raze or sack 35 different settlements.
+  * Ascend in service to any Chaos God, or as an Undivided champion of all.
+  * **Reward**:
+    * _Worldslayer_: Campaign movement range: +80% after winning a battle (all armies), Upkeep: -20% for Daemon units
+
+* **Route II - Witness Me!**
+   * Raze or conquer the following settlements:
+    * Altdorf, Middenheim, Karak Kadrin, Wei-Jin, Nan-Gau
+  * **Reward**:
+    * _Everchosen_: Diplomatic relations: +20 with Warriors of Chaos, Daemons of Chaos, Beastmen and Norsca, Passive 
+    ability: The Crown of Domination (faction leader)
+
+* **Route III - Succeeding You**
+  * Destroy factions:
+    * The Ice Court, The Great Orthodoxy
+  * Raze or conquer the following settlements:
+    * Praag, Erengrad, Kislev
+  * **Reward**:
+    * _God of Kislev_: Hit Points: +30%, Armour: +30, Base weapon damage: +30, Barrier hit points: +300 for faction 
+    leader
+    * _Frostmourne_: Causes attrition to enemy armies within your territory, Spell unlocked for faction leader: Blizzard 
+    (cooldown -50%, mana cost -10)

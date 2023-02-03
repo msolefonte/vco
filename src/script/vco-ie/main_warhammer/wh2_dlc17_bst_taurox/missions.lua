@@ -4,7 +4,7 @@ local missions = {
 		{
 			victory_type vco_victory_type_bst_tau_1_banebeast_naggaroth;
 			key wh_main_short_victory;
-			issuer CLAN_ELDERS;
+			issuer KING_KAZADOR;
 			primary_objectives_and_payload
 			{
 				objective
@@ -56,7 +56,7 @@ local missions = {
 		{
 			victory_type vco_victory_type_bst_tau_2_beastpaths_ruin;
 			key wh_main_short_victory;
-			issuer CLAN_ELDERS;
+			issuer KING_KAZADOR;
 			primary_objectives_and_payload
 			{
 				objective

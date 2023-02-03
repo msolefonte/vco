@@ -23,18 +23,10 @@ local missions = {
 			
 				objective
 				{
-					type CONTROL_N_REGIONS_INCLUDING;
-					total 1;
-
-					region wh3_main_combi_region_shrine_of_khaine;
-				}
-			
-				objective
-				{
-					type CONSTRUCT_N_BUILDINGS_INCLUDING;
+					type CONSTRUCT_BUILDING_IN_PROVINCES;
 					faction wh2_main_def_har_ganeth;
-					total 1;
 
+                    province wh3_main_combi_province_nagarythe;
 					building_level wh2_main_special_shrine_of_khaine_def_1;
 				}
 			
@@ -95,10 +87,10 @@ local missions = {
 			
 				objective
 				{
-					type CONSTRUCT_N_BUILDINGS_INCLUDING;
+					type CONSTRUCT_BUILDING_IN_PROVINCES;
 					faction wh2_main_def_har_ganeth;
-					total 1;
 
+                    province wh3_main_combi_province_the_road_of_skulls;
 					building_level wh2_main_special_har_ganeth_hellebron_palace;
 				}
 
@@ -162,18 +154,10 @@ local missions = {
 
 				objective
 				{
-					type CONTROL_N_REGIONS_INCLUDING;
-					total 1;
-
-					region wh3_main_combi_region_ancient_city_of_quintex;
-				}
-			
-				objective
-				{
-					type CONSTRUCT_N_BUILDINGS_INCLUDING;
+					type CONSTRUCT_BUILDING_IN_PROVINCES;
 					faction wh2_main_def_har_ganeth;
-					total 1;
 
+                    province wh3_main_combi_province_titan_peaks;
 					building_level wh2_main_special_quintex_2;
 				}
 

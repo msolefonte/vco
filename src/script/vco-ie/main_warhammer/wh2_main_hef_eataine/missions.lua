@@ -106,10 +106,10 @@ local missions = {
 
 				objective
 				{
-					type CONSTRUCT_N_BUILDINGS_INCLUDING;
+					type CONSTRUCT_BUILDING_IN_PROVINCES;
 					faction wh2_main_hef_eataine;
-					total 1;
 
+                    province wh3_main_combi_province_eataine;
 					building_level wh2_main_special_phoenix_king_court;
 				}
 
