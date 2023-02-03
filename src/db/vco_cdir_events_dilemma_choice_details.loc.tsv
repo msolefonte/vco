@@ -4,6 +4,16 @@ cdir_events_dilemma_choice_details_localised_choice_label_vco_brt_alb_dilemma_ma
 cdir_events_dilemma_choice_details_localised_choice_label_vco_brt_alb_dilemma_mananns_favourSECOND	Pray for Calm Seas	true
 cdir_events_dilemma_choice_details_localised_choice_label_vco_chs_arc_dilemma_slayer_kingsFIRST	Free the Daemon	false
 cdir_events_dilemma_choice_details_localised_choice_label_vco_chs_arc_dilemma_slayer_kingsSECOND	Deny the Daemon	false
+cdir_events_dilemma_choice_details_localised_choice_label_vco_chs_aza_dilemma_supplicants_comeFIRST	Khazrak the One-Eye	true
+cdir_events_dilemma_choice_details_localised_choice_label_vco_chs_aza_dilemma_supplicants_comeFOURTH	The Ice Queen	true
+cdir_events_dilemma_choice_details_localised_choice_label_vco_chs_aza_dilemma_supplicants_comeSECOND	The King of Bretonnia	true
+cdir_events_dilemma_choice_details_localised_choice_label_vco_chs_aza_dilemma_supplicants_comeTHIRD	The Briarmaven of Woe	true
+cdir_events_dilemma_choice_details_localised_choice_label_vco_chs_fes_dilemma_lustrian_plagueFIRST	Befoul the Waters	true
+cdir_events_dilemma_choice_details_localised_choice_label_vco_chs_fes_dilemma_lustrian_plagueSECOND	Taint the Air	true
+cdir_events_dilemma_choice_details_localised_choice_label_vco_chs_val_dilemma_nkari_approachesFIRST	Cut Off His Head	true
+cdir_events_dilemma_choice_details_localised_choice_label_vco_chs_val_dilemma_nkari_approachesSECOND	Rip Out His Heart	true
+cdir_events_dilemma_choice_details_localised_choice_label_vco_chs_vil_dilemma_the_reckoningFIRST	Break His Mind	true
+cdir_events_dilemma_choice_details_localised_choice_label_vco_chs_vil_dilemma_the_reckoningSECOND	Bind His Body	true
 cdir_events_dilemma_choice_details_localised_choice_label_vco_cth_miao_dilemma_sister_rescuedFIRST	Counsel Temperance	true
 cdir_events_dilemma_choice_details_localised_choice_label_vco_cth_miao_dilemma_sister_rescuedSECOND	Counsel Vengeance	true
 cdir_events_dilemma_choice_details_localised_choice_label_vco_dwf_gro_dilemma_elvesFIRST	Forgive the Elves	true
@@ -19,8 +29,18 @@ cdir_events_dilemma_choice_details_localised_choice_label_vco_vmp_man_dilemma_os
 cdir_events_dilemma_choice_details_localised_choice_label_vco_vmp_man_dilemma_ossified_portalTHIRD	I Care Not	false
 cdir_events_dilemma_choice_details_localised_choice_title_vco_brt_alb_dilemma_mananns_favourFIRST	Alberic offers his trident up to his god, vowing that he will continue to hunt Manann's enemies wherever the storms rage the hardest.	true
 cdir_events_dilemma_choice_details_localised_choice_title_vco_brt_alb_dilemma_mananns_favourSECOND	Falling to one knee, Alberic humbles himself before his god and prays for the safe passage of Bretonnia's fleets.	true
-cdir_events_dilemma_choice_details_localised_choice_title_vco_chs_arc_dilemma_slayer_kingsFIRST	You are free, daemon. Free to serve as my pack mule. Now go, search the corpses of the slain. Bring back anything of value you find.	false
-cdir_events_dilemma_choice_details_localised_choice_title_vco_chs_arc_dilemma_slayer_kingsSECOND	I said I would set you free, mighty daemon. I never said when.	false
+cdir_events_dilemma_choice_details_localised_choice_title_vco_chs_arc_dilemma_slayer_kingsFIRST	“You are free, daemon. Free to serve as my pack mule. Now go, search the corpses of the slain. Bring back anything of value you find.”	false
+cdir_events_dilemma_choice_details_localised_choice_title_vco_chs_arc_dilemma_slayer_kingsSECOND	“I said I would set you free, mighty daemon. I never said when.”	false
+cdir_events_dilemma_choice_details_localised_choice_title_vco_chs_aza_dilemma_supplicants_comeFIRST	This Beastlord brays loudly for all to hear. It is a sound of primal lust, a promise of many nights of rutting soon to come.	true
+cdir_events_dilemma_choice_details_localised_choice_title_vco_chs_aza_dilemma_supplicants_comeFOURTH	Kislev's Tzarina promises a night of wonder within her Ice Palace. She asks only that you grant her an heir.	true
+cdir_events_dilemma_choice_details_localised_choice_title_vco_chs_aza_dilemma_supplicants_comeSECOND	The Bretonnian begs you to strike off his head with his own blade, utterly convinced of the justification of the act.	true
+cdir_events_dilemma_choice_details_localised_choice_title_vco_chs_aza_dilemma_supplicants_comeTHIRD	A Dryad of the forests kneels before you, guised in the alluring form of a beautiful, lithe elf-maiden. It is said her skills of seduction rival even those of your own...	true
+cdir_events_dilemma_choice_details_localised_choice_title_vco_chs_fes_dilemma_lustrian_plagueFIRST	Dump the contents of the Cauldron of a Thousand Poxes into the River Reik. The contagion will flow across the Empire, bringing death and misery to many.	true
+cdir_events_dilemma_choice_details_localised_choice_title_vco_chs_fes_dilemma_lustrian_plagueSECOND	Stoke the Plague Furnaces deep beneath their cities. The tainted air will waft up from the sewers, rendering the largest population centres almost uninhabitable.	true
+cdir_events_dilemma_choice_details_localised_choice_title_vco_chs_val_dilemma_nkari_approachesFIRST	With one deft blow, Valkia parts N'Kari's head from his shoulders. His skull will surely make a worthy offering to Khorne!	true
+cdir_events_dilemma_choice_details_localised_choice_title_vco_chs_val_dilemma_nkari_approachesSECOND	The Spear Slaupnir sings out, deftly plucking N'kari's heart from his chest. Valkia smiles as she bites into it, relishing the Greater Daemon's stolen strength.	true
+cdir_events_dilemma_choice_details_localised_choice_title_vco_chs_vil_dilemma_the_reckoningFIRST	Shatter Archaon's mind, leaving him as little more than a gibbering automaton who will wordlessly obey Vilitch's every command.	true
+cdir_events_dilemma_choice_details_localised_choice_title_vco_chs_vil_dilemma_the_reckoningSECOND	Carve his flesh with Tzeentchian runes of binding. His mind will remain intact, but he will be trapped within a body that answers only to the Curseling.	true
 cdir_events_dilemma_choice_details_localised_choice_title_vco_cth_miao_dilemma_sister_rescuedFIRST	Come sister, you have suffered enough in these foul wastes. Travel with me to the Paradise Gardens. Mother will be overjoyed at your return.	true
 cdir_events_dilemma_choice_details_localised_choice_title_vco_cth_miao_dilemma_sister_rescuedSECOND	These foul daemons must pay for their transgressions! Fight alongside me, sister. Together, we will push them back to the very polar gates!	true
 cdir_events_dilemma_choice_details_localised_choice_title_vco_dwf_gro_dilemma_elvesFIRST	The Grudge is struck. The Witch King's veiled machinations have been laid bare for all to see. Let us reforge the old alliances and stand together as one against the coming darkness.	true

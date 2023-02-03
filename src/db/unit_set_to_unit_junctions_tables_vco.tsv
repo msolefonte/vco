@@ -4,6 +4,8 @@ vco_brt_alberic	wh_dlc07_brt_cha_alberic_bordeleaux_0				false
 vco_brt_alberic	wh_dlc07_brt_cha_alberic_bordeleaux_1				false
 vco_brt_alberic	wh_dlc07_brt_cha_alberic_bordeleaux_2				false
 vco_brt_alberic	wh_dlc07_brt_cha_alberic_bordeleaux_3				false
+vco_chs_arch	wh_main_chs_cha_archaon_the_everchosen_0				false
+vco_chs_arch	wh_main_chs_cha_archaon_the_everchosen_1				false
 vco_cst_ara	wh2_dlc11_cst_cha_aranessa_0				false
 vco_cst_ara	wh2_dlc11_cst_cha_aranessa_1				false
 vco_cst_deck_gunners	wh2_dlc11_cst_inf_deck_gunners_0				false
@@ -16,6 +18,17 @@ vco_cst_rotting	wh2_dlc11_cst_mon_rotting_prometheans_summoned_0				false
 vco_cth_war_compass	wh3_main_cth_veh_war_compass_0				false
 vco_def_morathi	wh2_main_def_cha_morathi_0				false
 vco_def_morathi	wh2_main_def_cha_morathi_1				false
+vco_hef_dragon_knights	wh2_main_hef_cav_dragon_princes				false
+vco_hef_dragons	wh2_dlc15_hef_mon_black_dragon_imrik				false
+vco_hef_dragons	wh2_dlc15_hef_mon_forest_dragon_0				false
+vco_hef_dragons	wh2_dlc15_hef_mon_forest_dragon_imrik				false
+vco_hef_dragons	wh2_dlc15_hef_mon_moon_dragon_imrik				false
+vco_hef_dragons	wh2_dlc15_hef_mon_star_dragon_imrik				false
+vco_hef_dragons	wh2_dlc15_hef_mon_sun_dragon_imrik				false
+vco_hef_dragons	wh2_main_def_mon_black_dragon				false
+vco_hef_dragons	wh2_main_hef_mon_moon_dragon				false
+vco_hef_dragons	wh2_main_hef_mon_star_dragon				false
+vco_hef_dragons	wh2_main_hef_mon_sun_dragon				false
 vco_ksl_tzar_guard	wh3_main_ksl_inf_tzar_guard_0				false
 vco_ksl_tzar_guard	wh3_main_ksl_inf_tzar_guard_1				false
 vco_nor_marauder_hunters_spears	wh_dlc08_nor_inf_marauder_hunters_0				false
@@ -32,6 +45,8 @@ vco_nor_wulfrik	wh_dlc08_nor_cha_wulfrik_0				false
 vco_nor_wulfrik	wh_dlc08_nor_cha_wulfrik_1				false
 vco_nor_wulfrik	wh_dlc08_nor_cha_wulfrik_2				false
 vco_nor_wulfrik	wh_dlc08_nor_cha_wulfrik_3				false
+vco_ogr_gorgers	wh3_main_ogr_mon_gorgers_0				false
+vco_ogr_gorgers	wh3_main_ogr_mon_gorgers_summoned_0				false
 vco_ogr_greasus	wh3_main_ogr_cha_greasus_goldtooth_0				false
 vco_skv_assassins	wh2_main_skv_cha_assassin				false
 vco_sla_nkari	wh3_main_sla_cha_nkari_0				false

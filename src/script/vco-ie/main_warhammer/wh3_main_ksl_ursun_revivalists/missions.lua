@@ -29,7 +29,7 @@ local missions = {
 
 				objective
 				{
-					type OCCUPY_LOOT_RAZE_OR_SACK_X_SETTLEMENTS;
+					type DEFEAT_N_ARMIES_OF_FACTION;
 					total 25;
 				}
 

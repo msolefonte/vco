@@ -59,9 +59,11 @@ end
 
 local function check_snikch_targets()
 	for _, faction_name in ipairs(REQUIRED_ESHIN_TARGETS) do
+		vco:log("check_snikch_targets: Checking if Target Faction (" .. faction_name .. ") is dead.");
 		local faction_data = cm:get_faction(faction_name, false);
 		local faction_is_dead = faction_data:is_dead();
 		if faction_is_dead then
+			vco:log("check_snikch_targets: Target Faction (" .. faction_name .. ") dead: true");
 			vco:complete_mission(FACTION_ESH_KEY, "vco_skv_esh_" .. faction_name .. "_leader_defeated");
 		end
 	end

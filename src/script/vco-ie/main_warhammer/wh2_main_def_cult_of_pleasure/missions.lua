@@ -27,10 +27,10 @@ local missions = {
 
 				objective
 				{
-					type CONSTRUCT_N_BUILDINGS_INCLUDING;
+					type CONSTRUCT_BUILDING_IN_PROVINCES;
 					faction wh2_main_def_cult_of_pleasure;
-					total 1;
 
+                    province wh3_main_combi_province_isthmus_of_lustria;
 					building_level wh2_main_special_hexoatl_stellar_pyramids_other;
 				}
 
@@ -137,13 +137,12 @@ local missions = {
 
 				objective
 				{
-					type CONSTRUCT_N_BUILDINGS_INCLUDING;
+					type CONSTRUCT_BUILDING_IN_PROVINCES;
 					faction wh2_main_def_cult_of_pleasure;
-					total 1;
 
+                    province wh3_main_combi_province_spiteful_peaks;
 					building_level wh2_main_special_ghrond_convent_of_sorcery_2;
 				}
-
 
 				objective
 				{

@@ -94,10 +94,10 @@ local missions = {
 
 				objective
 				{
-					type CONSTRUCT_N_BUILDINGS_INCLUDING;
+					type CONSTRUCT_BUILDING_IN_PROVINCES;
 					faction wh_main_vmp_vampire_counts;
-					total 1;
 
+                    province wh3_main_combi_province_southern_sylvania;
 					building_level wh3_main_special_drakenhof_malevolent_museum;
 				}
 

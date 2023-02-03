@@ -35,6 +35,12 @@ local missions = {
 					region wh3_main_chaos_region_the_volary;
 				}
 
+				objective
+				{
+					type DEFEAT_N_ARMIES_OF_FACTION;
+					total 32;
+				}
+
 				payload
 				{
 					effect_bundle

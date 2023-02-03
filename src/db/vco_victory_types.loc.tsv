@@ -53,6 +53,30 @@ victory_types_display_name_vco_victory_type_bst_tau_3_heart_dark	Route III - The
 victory_types_display_name_vco_victory_type_chs_arc_1_beginning_end	Route I - The Beginning of the End	true
 victory_types_display_name_vco_victory_type_chs_arc_2_slayer_kings	Route II - Slayer of Kings	true
 victory_types_display_name_vco_victory_type_chs_arc_3_end_times	Route III - The End Times	true
+victory_types_display_name_vco_victory_type_chs_aza_1_sycophants_gather	Route I - The Sycophants Gather	true
+victory_types_display_name_vco_victory_type_chs_aza_1_sycophants_gather_roc	Route I - The Sycophants Gather	true
+victory_types_display_name_vco_victory_type_chs_aza_2_cathay_roc	Route II - The Submission of Cathay	true
+victory_types_display_name_vco_victory_type_chs_aza_2_legions_march	Route II - The Legions March Forth	true
+victory_types_display_name_vco_victory_type_chs_aza_3_legions_march_roc	Route III - The Legions March Forth	true
+victory_types_display_name_vco_victory_type_chs_aza_3_sigmars_folly	Route III - Sigmar's Folly	true
+victory_types_display_name_vco_victory_type_chs_fes_1_infector_counts	Route I - Summon the Infector Counts!	true
+victory_types_display_name_vco_victory_type_chs_fes_1_infector_counts_roc	Route I - Summon the Infector Counts!	true
+victory_types_display_name_vco_victory_type_chs_fes_2_strange_bedfellows	Route II - Strange Bedfellows	true
+victory_types_display_name_vco_victory_type_chs_fes_2_strange_bedfellows_roc	Route II - Strange Bedfellows	true
+victory_types_display_name_vco_victory_type_chs_fes_3_down_sickness	Route III - Down with the Sickness	true
+victory_types_display_name_vco_victory_type_chs_fes_3_down_sickness_roc	Route III - Superspreader	true
+victory_types_display_name_vco_victory_type_chs_val_1_blood_snow	Route I - Blood in the Snow	true
+victory_types_display_name_vco_victory_type_chs_val_1_blood_snow_roc	Route I - Blood in the Snow	true
+victory_types_display_name_vco_victory_type_chs_val_2_bringer_glory	Route II - Bringer of Glory	true
+victory_types_display_name_vco_victory_type_chs_val_2_bringer_glory_roc	Route II - Bringer of Glory	true
+victory_types_display_name_vco_victory_type_chs_val_3_shup_up_daemon	Route III - Shut Up, Daemon!	true
+victory_types_display_name_vco_victory_type_chs_val_3_shup_up_daemon_roc	Route III - Shut Up, Daemon!	true
+victory_types_display_name_vco_victory_type_chs_vil_1_the_reckoning	Route I - The Reckoning	true
+victory_types_display_name_vco_victory_type_chs_vil_1_the_reckoning_roc	Route I - The Reckoning	true
+victory_types_display_name_vco_victory_type_chs_vil_2_master_puppets_roc	Route II - Master of Puppets	true
+victory_types_display_name_vco_victory_type_chs_vil_2_puppet_state	Route II - Puppet State	true
+victory_types_display_name_vco_victory_type_chs_vil_3_doubters_folly_roc	Route III - The Doubter's Folly	true
+victory_types_display_name_vco_victory_type_chs_vil_3_yueyins_diamond	Route III - Yueyin's Diamond	true
 victory_types_display_name_vco_victory_type_cst_sar_1_captain_of_the_swordfysh	Route I - Red Seas Under Red Skies	true
 victory_types_display_name_vco_victory_type_cst_sar_2_daughter_of_manann	Route II - Daughter of Manann	true
 victory_types_display_name_vco_victory_type_cst_sar_3_dead_man_s_vengeance	Route III - Dead Man's Vengeance	true
@@ -94,6 +118,9 @@ victory_types_display_name_vco_victory_type_emp_the_3_it_is_round	Route III - It
 victory_types_display_name_vco_victory_type_grn_gri_1_boss_east	Route I - Boss uv da East	true
 victory_types_display_name_vco_victory_type_grn_gri_2_burn_badlands	Route II - Burn Da Badlands	true
 victory_types_display_name_vco_victory_type_grn_gri_3_unfinished_business	Route III - Unfinished Business	true
+victory_types_display_name_vco_victory_type_hef_imr_1_eastern_ambitions	Route I - Eastern Ambitions	true
+victory_types_display_name_vco_victory_type_hef_imr_2_vengeance_dark_lands	Route II - Vengeance in the Dark Lands	true
+victory_types_display_name_vco_victory_type_hef_imr_3_gold_glory	Route III - Gold & Glory	true
 victory_types_display_name_vco_victory_type_hef_tyr_1_defender_ulthuan	Route I - Defender of Ulthuan	true
 victory_types_display_name_vco_victory_type_hef_tyr_2_love_and_war	Route II - All's Fair in Love and War	true
 victory_types_display_name_vco_victory_type_hef_tyr_3_fate_of_the_soul	Route III - The Fate of the Soul	true

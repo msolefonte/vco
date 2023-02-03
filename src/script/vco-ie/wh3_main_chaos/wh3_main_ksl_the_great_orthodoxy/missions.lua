@@ -108,15 +108,14 @@ local missions = {
 
 				objective
 				{
-					type CONTROL_N_REGIONS_INCLUDING;
-					total 4;
+					type CAPTURE_REGIONS;
 
 					region wh3_main_chaos_region_altdorf;
 					region wh3_main_chaos_region_marienburg;
 					region wh3_main_chaos_region_middenheim;
 					region wh3_main_chaos_region_castle_drakenhof;
 				}
-			
+
 				objective
 				{
 					type CONSTRUCT_N_BUILDINGS_FROM;
@@ -124,18 +123,6 @@ local missions = {
 					total 6;
 				
 					building_level wh3_main_ksl_gold_3;
-				}
-			
-				objective
-				{
-					type DESTROY_FACTION;
-
-					faction wh_main_emp_empire;
-					faction wh_main_emp_marienburg;
-					faction wh_main_emp_middenland;
-					faction wh_main_vmp_vampire_counts;
-
-					confederation_valid;
 				}
 
 				payload
