@@ -120,12 +120,12 @@ local missions = {
 
 					add_ancillary_to_faction_pool
 					{
-						ancillary_key vco_anc_armour_the_armour_of_morkar;
+						ancillary_key vco_anc_weapon_shard_blade;
 					}
 
 					add_ancillary_to_faction_pool
 					{
-						ancillary_key vco_anc_talisman_the_eye_of_sheerian;
+						ancillary_key vco_anc_weapon_blade_of_shadow;
 					}
 
 					effect_bundle

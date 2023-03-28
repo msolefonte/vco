@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [5.3.0] - 28.03.2023
+
+- Added new routes for Helman Ghorst: Caravan of Blue Roses
+- Added new routes for Repanse de Lyonesse: Chevaliers de Lyonesse
+- Added new routes for Cylostra Direfin: The Drowned
+- Fixed a ton of bugs but forgot to kept track of which ones. We will let you guess this time
+
 ## [5.3.0] - 03.02.2023
 
 - Added full support for Realms of Chaos. Now all faction are covered!

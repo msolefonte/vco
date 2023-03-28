@@ -4,7 +4,7 @@ local missions = {
 		{
 			victory_type vco_victory_type_chs_aza_1_sycophants_gather_roc;
 			key wh_main_short_victory;
-			issuer MUFFIN_MAN;
+			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
 				objective
@@ -40,7 +40,6 @@ local missions = {
 					region wh3_main_chaos_region_the_writhing_fortress;
 				}
 
-
 				payload
 				{
 					effect_bundle
@@ -73,7 +72,7 @@ local missions = {
 		{
 			victory_type vco_victory_type_chs_aza_2_cathay_roc;
 			key wh_main_short_victory;
-			issuer MUFFIN_MAN;
+			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
 				objective
@@ -133,7 +132,7 @@ local missions = {
 		{
 			victory_type vco_victory_type_chs_aza_3_legions_march_roc;
 			key wh_main_short_victory;
-			issuer CLAN_ELDERS;
+			issuer MUFFIN_MAN;
 			primary_objectives_and_payload
 			{
 				objective

@@ -145,6 +145,13 @@ local missions = {
 
 				objective
 				{
+					type RAZE_OR_OWN_SETTLEMENTS;
+
+					region wh3_main_combi_region_silver_pinnacle;
+				}
+
+				objective
+				{
 					type DESTROY_FACTION;
 
 					faction wh3_main_vmp_lahmian_sisterhood;

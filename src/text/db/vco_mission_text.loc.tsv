@@ -1,0 +1,707 @@
+key	text	tooltip
+#Loc;1;text/db/vco_mission_text.loc		
+mission_text_text_vco_brt_bdx_1_alberic_vow	Complete the [[url:#]]Grail Vow[[/url]] with [[url:#]]Alberic de Bordeleaux[[/url]].	true
+mission_text_text_vco_brt_bdx_1_sacred_pools	Seek out the [[url:#]]Lady of the Lake[[/url]] in the heart of Lustria. Occupy the following region:	true
+mission_text_text_vco_brt_bdx_2_no_ocean_for_dead_men	<dummy>"Manann is our blessing, our patron, the one that brings food to our table. He’s also the one that drags our foes to the bottom of his watery home, the bringer of storms and crushing waves. He is the Sea and he is eternal."	true
+mission_text_text_vco_brt_bdx_3_home_sweet_home	Return home to your ancestral castle and drive out the foes who have been terrorising the peasants in your absence.\\n\\nMaintain control of the following settlement either by direct ownership or through [[img:icon_vassal]][[/img]]vassals and [[img:icon_military_alliance]][[/img]]military allies:	true
+mission_text_text_vco_bst_tau_1_banebeast_naggaroth	<dummy>The skies over Naggaroth are stained crimson, for the Blood God's gaze has fallen upon the heavily fortified cities of the Dark Elves. Driven by countless turbid visions placed in his mind by Khorne, the Bloodbeast will not stop until all of Naggaroth is his blood-ground.	true
+mission_text_text_vco_bst_tau_2_beastpaths_ruin	<dummy>The Slaughterhorn leads his tribe south through the forests of Naggaroth and into the jungles of Lustria, driven ever onwards by portentious visions whispered in his primitive mind by the Ruinous Powers.	true
+mission_text_text_vco_bst_tau_3_heart_dark	<dummy>The exact location of this place is never spoken of, but the Bray-Shamans claim that all beastpaths ultimately lead toward it. At its centre is the mightiest herdstone in the whole of the world, resonating with a malignant power that Taurox vows will be his to harness.	true
+mission_text_text_vco_bst_tau_3_heart_dark_set_piece	Complete the [[url:#]]Heart Of The Dark[[/url]] final battle.	true
+mission_text_text_vco_chs_arc_1_beginning_end	<dummy>There are those who would stand against your ascension. Your Father-in-Shadow schemes against you on Albion, the upstart "Godslayer" means to challenge your reign, and the Red Tzar oversteps his bounds, leading an expedition deep into the Chaos Wastes. They will all bend the knee, or they will all die.	true
+mission_text_text_vco_chs_arc_1_beginning_end_1	Control at least 3 of the following [[url:#]]Dark Fortresses[[/url]] either by direct ownership or through [[img:icon_vassal]][[/img]]vassals and [[img:icon_military_alliance]][[/img]]military allies:	true
+mission_text_text_vco_chs_arc_2_slayer_kings	<dummy>U'zhul, the daemon trapped within your blade, rages against your will, eager to taste the blood of kings. It is time to slake its thirst.	true
+mission_text_text_vco_chs_arc_2_slayer_kings_1	Control at least 4 of the following regions either by direct ownership or through [[img:icon_vassal]][[/img]]vassals and [[img:icon_military_alliance]][[/img]]military allies:	true
+mission_text_text_vco_chs_arc_3_end_times	<dummy>"Fear me mortals, for I am the Anointed, the favoured Son of Chaos, the Scourge of the World. The armies of the gods rally behind me, and it is by my will and by my sword that your weakling nations shall fall."	true
+mission_text_text_vco_common_nagash_books_collected	Collect all the [[url:#]]Books of Nagash[[/url]].	true
+mission_text_text_vco_common_nagash_books_collected_0	Collect all the [[url:#]]Books of Nagash[[/url]].\\n(Current: 0)	true
+mission_text_text_vco_common_nagash_books_collected_1	Collect all the [[url:#]]Books of Nagash[[/url]].\\n(Current: 1)	true
+mission_text_text_vco_common_nagash_books_collected_2	Collect all the [[url:#]]Books of Nagash[[/url]].\\n(Current: 2)	true
+mission_text_text_vco_common_nagash_books_collected_3	Collect all the [[url:#]]Books of Nagash[[/url]].\\n(Current: 3)	true
+mission_text_text_vco_common_nagash_books_collected_4	Collect all the [[url:#]]Books of Nagash[[/url]].\\n(Current: 4)	true
+mission_text_text_vco_common_nagash_books_collected_5	Collect all the [[url:#]]Books of Nagash[[/url]].\\n(Current: 5)	true
+mission_text_text_vco_common_nagash_books_collected_6	Collect all the [[url:#]]Books of Nagash[[/url]].\\n(Current: 6)	true
+mission_text_text_vco_common_nagash_books_collected_7	Collect all the [[url:#]]Books of Nagash[[/url]].\\n(Current: 7)	true
+mission_text_text_vco_common_nagash_books_collected_8	Collect all the [[url:#]]Books of Nagash[[/url]].\\n(Current: 8)	true
+mission_text_text_vco_cst_sar_1_captain_of_the_swordfysh	<dummy>Commander of the Swordfysh, a mighty galleon crewed by hundreds, Aranessa and her crew prefer boarding actions to thundering broadsides. The ship roves the Tilean Sea and beyond, raiding and pillaging any who cross her path. Make them all fear the crossed tridents upon her sails.	true
+mission_text_text_vco_cst_sar_2_daughter_of_manann	<dummy>Rumour has it that saltwater flows through her veins instead of blood. That she rose fully grown from the waves in a froth of gore. The truth, unknown to most, is not so magnificent - Aranessa was born a mutant in Skjold and thrown into the sea by her own Norscan tribe. Her crews and victims alike believe Manann, Lord of the Seas, watches over her, and the seas rage as the Swordfysh sails into the wealthiest ports.\\n	true
+mission_text_text_vco_cst_sar_3_dead_man_s_vengeance	<dummy>"Sartosa burned and we fled, but a mighty vengeance was born in us that day. Your death did not dull my spirit. You'll have your vengeance, Jaego. I swear it."	true
+mission_text_text_vco_cth_the_northern_expedition	<dummy>Miao's sister, [[url:#]]Shen-Zoo[[/url]], [[url:#]]Dragon of Light[[/url]], was last seen venturing beyond the mountains of Norsca before her disappearance. After communion with the great god bear, Ursun, the Dragon Emperor now knows that she has been imprisoned somewhere within the [[url:#]]Chaos Wastes[[/url]].	true
+mission_text_text_vco_cth_the_northern_expedition_obfuscate	Search [[url:#]]Dark Fortresses[[/url]] for [[url:#]]Shen-Zoo[[/url]] via [[img:sword_of_khaine]][[/img]]conquest or through [[img:icon_vassal]][[/img]]vassals and [[img:icon_military_alliance]][[/img]]military allies:	true
+mission_text_text_vco_cth_the_northern_expedition_obfuscate_roc	Search [[url:#]]Dark Fortresses[[/url]] for the [[url:#]]Old One Relic[[/url]] via [[img:sword_of_khaine]][[/img]]conquest or through [[img:icon_vassal]][[/img]]vassals and [[img:icon_military_alliance]][[/img]]military allies:	true
+mission_text_text_vco_cth_the_northern_expedition_roc	<dummy>The Dragon Emperor commands his daughter to lead an expedition into the [[url:#]]Chaos Wastes[[/url]]. Not even the Storm Dragon knows the true purpose of her mission, only that she must search the [[url:#]]Dark Fortresses[[/url]] of the Chaos worshippers for an ancient relic once stolen from the Old Ones many centuries ago.	true
+mission_text_text_vco_cth_the_western_provinces_caravans	Complete the [[url:#]]Ivory Road[[/url]] with at least 9 caravans.	true
+mission_text_text_vco_cth_the_western_provinces_caravans_0	Complete the [[url:#]]Ivory Road[[/url]] with at least 9 caravans.\\n(Current: 0)	true
+mission_text_text_vco_cth_the_western_provinces_caravans_1	Complete the [[url:#]]Ivory Road[[/url]] with at least 9 caravans.\\n(Current: 1)	true
+mission_text_text_vco_cth_the_western_provinces_caravans_2	Complete the [[url:#]]Ivory Road[[/url]] with at least 9 caravans.\\n(Current: 2)	true
+mission_text_text_vco_cth_the_western_provinces_caravans_3	Complete the [[url:#]]Ivory Road[[/url]] with at least 9 caravans.\\n(Current: 3)	true
+mission_text_text_vco_cth_the_western_provinces_caravans_4	Complete the [[url:#]]Ivory Road[[/url]] with at least 9 caravans.\\n(Current: 4)	true
+mission_text_text_vco_cth_the_western_provinces_caravans_5	Complete the [[url:#]]Ivory Road[[/url]] with at least 9 caravans.\\n(Current: 5)	true
+mission_text_text_vco_cth_the_western_provinces_caravans_6	Complete the [[url:#]]Ivory Road[[/url]] with at least 9 caravans.\\n(Current: 6)	true
+mission_text_text_vco_cth_the_western_provinces_caravans_7	Complete the [[url:#]]Ivory Road[[/url]] with at least 9 caravans.\\n(Current: 7)	true
+mission_text_text_vco_cth_the_western_provinces_caravans_8	Complete the [[url:#]]Ivory Road[[/url]] with at least 9 caravans.\\n(Current: 8)	true
+mission_text_text_vco_cth_the_western_provinces_goods	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.	true
+mission_text_text_vco_cth_the_western_provinces_goods_0	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 0%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_1	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 1%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_2	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 2%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_3	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 3%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_4	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 4%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_5	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 5%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_6	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 6%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_7	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 7%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_8	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 8%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_9	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 9%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_10	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 10%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_11	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 11%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_12	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 12%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_13	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 13%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_14	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 14%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_15	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 15%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_16	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 16%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_17	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 17%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_18	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 18%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_19	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 19%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_20	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 20%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_21	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 21%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_22	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 22%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_23	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 23%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_24	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 24%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_25	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 25%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_26	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 26%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_27	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 27%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_28	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 28%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_29	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 29%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_30	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 30%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_31	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 31%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_32	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 32%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_33	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 33%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_34	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 34%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_35	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 35%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_36	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 36%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_37	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 37%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_38	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 38%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_39	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 39%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_40	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 40%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_41	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 41%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_42	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 42%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_43	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 43%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_44	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 44%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_45	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 45%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_46	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 46%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_47	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 47%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_48	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 48%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_49	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 49%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_50	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 50%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_51	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 51%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_52	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 52%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_53	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 53%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_54	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 54%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_55	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 55%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_56	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 56%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_57	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 57%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_58	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 58%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_59	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 59%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_60	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 60%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_61	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 61%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_62	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 62%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_63	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 63%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_64	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 64%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_65	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 65%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_66	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 66%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_67	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 67%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_68	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 68%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_69	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 69%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_70	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 70%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_71	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 71%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_72	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 72%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_73	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 73%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_74	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 74%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_75	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 75%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_76	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 76%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_77	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 77%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_78	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 78%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_79	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 79%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_80	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 80%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_81	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 81%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_82	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 82%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_83	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 83%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_84	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 84%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_85	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 85%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_86	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 86%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_87	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 87%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_88	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 88%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_89	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 89%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_90	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 90%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_91	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 91%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_92	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 92%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_93	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 93%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_94	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 94%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_95	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 95%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_96	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 96%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_97	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 97%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_98	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 98%)	true
+mission_text_text_vco_cth_the_western_provinces_goods_99	Trade a minimum of [[img:icon_caravan_cargo]][[/img]]13140 goods with the west.\\n(Current: 99%)	true
+mission_text_text_vco_cth_unify_grand_cathay	<dummy>An old crone approaches Miao Ying from the shadows, but in the light of the full moon her true form is revealed: it is the Moon Empress, Quai Yin. She entrusts her daughter with a most sacred task: the reunification of the Celestial Empire.	true
+mission_text_text_vco_cth_unify_great_bastion	<dummy>“My siblings resent me, thinking me favoured for I am the eldest. They envy my station. They are wrong! I am cursed with responsibility, the ultimate responsibility... Should I fail and the Bastion falls, then Cathay is doomed, and they will be jealous of nothing but a wasteland!”	true
+mission_text_text_vco_cth_unify_ivory_road	<dummy>At the Tower of Ashshair, Zhao Ming once came to an agreement with Greasus Goldtooth: Cathay's caravans would have safe passage through the Ogre's lands, as long as a toll was paid. In the years since that bargain was struck, Greasus has risen to the rank of Overtyrant - leader of the Ogre Kingdoms, and his tolls have become increasingly exorbitant. The Iron Dragon must ensure he can reign in the gluttonous Ogre's excesses, or else abandon all pretenses of diplomacy and secure the Ivory Road by force of arms.	true
+mission_text_text_vco_cth_zha_1_iron_into_gold	<dummy>Though the Ivory Road reaps enormous profits, it is also used to exert influence over foreign powers and further Cathay's interests abroad. In Shang-Yang, the largest city in the Western Provinces, weary merchants and envoys are provided with every comfort and showered with luxurious gifts, thus ensuring they are more amenable to the Dragon Emperor's demands.	true
+mission_text_text_vco_cth_zha_2_warpstone_hoard	<dummy>The strange elements found in the Warpstone Desert have only deepened Zhao's fascination with alchemy. Having ascertained the location of hoards of warpstone abroad, the Iron Dragon feels he now has enough information to launch an expedition into the west.	true
+mission_text_text_vco_cth_zha_3_black_fortress	<dummy>To ensure the safety of caravans travelling through Gnoblar Country, the Iron Dragon must do battle with zombies from the Haunted Forest, Chaos Dwarf slavers from the Black Fortress, and even the infamous Nurglite daemon Zin-Fa the Ever-Pustulent. Since his defeat by Zhao and his brothers at Shang-Wu, Ku'gath has returned to the mortal realm and now plagues the Dragon Isles.	true
+mission_text_text_vco_cth_zha_3_black_fortress_roc	<dummy>The Legion of Azgorh have abandoned their previous arrangement with the Iron Dragon and now brazenly attack his caravans from their stronghold of Black Fortress. They will soon learn the folly of their actions.	true
+mission_text_text_vco_dae_god_1_ascension	<dummy>"Gods of Chaos... I have tasted but a morsel of your power... Look at what I have achieved! Let me feast upon it! Kislev will be mine, and together, we will serve you. Bestow me with your terrible grace!"	true
+mission_text_text_vco_dae_god_2_succeeding_you_1	<dummy>The so-called "Everchosen" presumptuously commands you to serve in his armies. The Godslayer answers to no one! Archaon must be taught a lesson in humility.	true
+mission_text_text_vco_dae_god_2_succeeding_you_2	<dummy>The Red Tzar, Boris Ursus, stands against you. His faith in the false god Ursun is not a strength, but a weakness. One that you will easily exploit.	true
+mission_text_text_vco_dae_god_2_succeeding_you_3	<dummy>Be'lakor... the betrayer. Through unknown means he has achieved physical form once more and now doubtless plots against you on the Isle of Albion. Banish him back to the shadows.	true
+mission_text_text_vco_dae_god_2_succeeding_you_roc	<dummy>"The Dark Brothers mean to crown some spineless southerner as Everchosen, leader of all the armies of Chaos. Fools! They will know their folly when they bear witness to my trail of destruction. From east to west, all will fear my name!"	true
+mission_text_text_vco_dae_god_3_frozen_heart	<dummy>"Ursun has forsaken you. He has forsaken Kislev! Give yourselves fully to the Dark Brothers. Only through their strength will we find salvation!"	true
+mission_text_text_vco_def_cop_1_stellar_pyramids_of_khaine	Sacrifice the bloated toad of Hexoatl upon the stellar altars of the Old Ones.\\n\\nMaintain control of the following settlement either by direct ownership or through [[img:icon_vassal]][[/img]]vassals and [[img:icon_military_alliance]][[/img]]military allies:	true
+mission_text_text_vco_def_cop_2_hell_hath_no_fury_1	<dummy>Ariel sends her agents against you, but they meddle with powers they do not understand. Within the Dreaming Wood the Dark Prince's servants lie in wait. You need only widen the portal further...	true
+mission_text_text_vco_def_cop_2_hell_hath_no_fury_2	<dummy>The Shadow King has been a constant thorn in your side, humiliating and thwarting you at every turn. Now he dares bring an army onto the shores of Naggaroth itself. This cannot stand.	true
+mission_text_text_vco_def_cop_3_return_of_the_queen_1	Journey to the seat of your power in Naggaroth: Ghrond, the Tower of Prophecy. The Sorceresses of the Dark Convent await your instruction.\\n\\nMaintain control of the following settlement either by direct ownership or through [[img:icon_vassal]][[/img]]vassals and [[img:icon_military_alliance]][[/img]]military allies:	true
+mission_text_text_vco_def_cop_3_return_of_the_queen_2	The Blood Queen has forgotten her place. Humble her before Khaine, either through confederation or destruction.\\n\\nMaintain control of the following settlement either by direct ownership or through [[img:icon_vassal]][[/img]]vassals and [[img:icon_military_alliance]][[/img]]military allies:	true
+mission_text_text_vco_def_gan_1_sacrifice_slaughter	<dummy>Nagarythe has stood too long, and Khaine hungers for the blood of the Revenant. The Shadow King is close, and what a glorious sacrifice his body would be upon the very shrine itself.	true
+mission_text_text_vco_def_gan_2_suffer_not_another_queen	 <dummy>There shall be one queen, and it shall be I, Blood Queen of Khaine. Slay the Everqueen. Raid Elven holds and enslave the survivors... But leave a few alive to spread the news. Return only when their lands lie bare; your palace awaits, where the sacrifices will be many, gory, and beautiful.	true
+mission_text_text_vco_def_gan_3_eternity_awaits	<dummy>Morathi has spurned you too many times. She has long denied you access to the Cauldrons of Blood, and the eternal youth within them, but no more.	true
+mission_text_text_vco_dwf_gro_1_malekith_grudge	<dummy>Gotrek Starbreak declared the grudge against the Elves settled when he took the Phoenix Crown from their king's broken corpse, but Grombrindal knew that was not the end of the matter. He knew the one truly responsible had not yet paid for his crimes. The one who once swore eternal friendship between elf and dwarf. The one who now called himself 'Witch King'.	true
+mission_text_text_vco_dwf_gro_2_high_elf_decision	<dummy>Fell forces now gather against Elves and Dwarfs. Malekith, embittered by his maiming in the Flame of Asuryan, seeks to destroy them both, but still darker powers are also at work. Already strained, disharmony sours relations between them until only enmity remains. Will the White Dwarf stoke the fires of war, or will he douse them instead?	true
+mission_text_text_vco_dwf_gro_2_high_elf_decision_1	Control at least 5 of the following regions either by [[img:sword_of_khaine]][[/img]]conquest or through [[img:icon_vassal]][[/img]]vassals and [[img:icon_military_alliance]][[/img]]military allies:	true
+mission_text_text_vco_dwf_gro_2_high_elf_decision_2	Control at least 2 of the following regions either by [[img:sword_of_khaine]][[/img]]conquest or through [[img:icon_vassal]][[/img]]vassals and [[img:icon_military_alliance]][[/img]]military allies:	true
+mission_text_text_vco_dwf_gro_3_age_reckoning	<dummy>The White Dwarf led his Ancestral Throng across the Boiling Sea and onto the shores of Naggaroth. Those who answered his call know they march with a Living Ancestor and stand ready with hammer and shield to bring ruin to their foes in these bleak lands.	true
+mission_text_text_vco_emp_kar_1_protector_empire	<dummy>A mysterious plague spreads from the north. Beastmen prey upon the Emperor's loyal subjects within the Drakwald forest. Marienburg's secession drains the imperial coffers on a daily basis. Barely recovered from his most recent skirmish with the Greenskins at Black Fire Pass, Karl Franz readies the men for a new campaign to unite the western provinces of his Empire.	true
+mission_text_text_vco_emp_kar_2_defier_dark	<dummy>Grim tidings make their way from the east. Despite his apparent death beneath the ramparts of Altdorf many years ago, the vampire Vlad von Carstein has returned. While he musters his legion of the dead, malicious tree spirits gather in the Gryphon Wood, slaughtering good citizens of the Empire without rhyme or reason. This cannot stand. Karl Franz orders his men east to put down these new threats to his reign once and for all.	true
+mission_text_text_vco_emp_kar_3_karl_uniter	<dummy>The Empire has close ties with the nations of men, elves and dwarfs that share its borders, though relations have been erratic at best over the years. Now is the time for the Emperor to decide whether to strengthen these ties or to annex their lands for his ever-growing Empire.	true
+mission_text_text_vco_emp_kar_3_karl_uniter_1	Control at least 3 of the following regions either by [[img:sword_of_khaine]][[/img]]conquest or through [[img:icon_vassal]][[/img]]vassals and [[img:icon_military_alliance]][[/img]]military allies:	true
+mission_text_text_vco_emp_the_1_champions_of_the_empire	Conquer the coast of Lustria. At least six [[url:#]]port settlements[[/url]] must be under your control either directly or via [[img:icon_vassal]][[/img]]vassals and [[img:icon_military_alliance]][[/img]]military allies:	true
+mission_text_text_vco_emp_the_2_the_huntsmarshals_expedition	<dummy>Your explorers have told you about an ancient artifact broken in pieces and hidden by the Lizardmen. Destroy those who are protecting it and claim it for the Empire.	true
+mission_text_text_vco_emp_the_2_the_huntsmarshals_expedition_artifacts	<dummy>Locate the artifacts by sacking or razing the temples where they are hidden.	true
+mission_text_text_vco_emp_the_3_it_is_round	The expedition doesn't have to stop here. Follow the [[url:#]]Sea Lanes[[/url]] to reach [[url:#]]The Jade Sea[[/url]] and build at least four [[url:#]]port settlements[[/url]] on the Cathayan coast.	true
+mission_text_text_vco_emp_the_3_it_is_round_nakai	<dummy>An old enemy lies hidden in the [[url:#]]Jungles of Chi'an[[/url]]. Ensure he doesn't run away this time.	true
+mission_text_text_vco_grn_gri_1_boss_east	<dummy>"Everfing I see is mine. All da uvver bits are mine too - I just ain't got there yet. When we reach da end of da whole world, we'll turn around and march back."	true
+mission_text_text_vco_grn_gri_2_at_least_5_provinces	Control at least 5 of the following provinces either by direct ownership or through [[img:icon_vassal]][[/img]]vassals and [[img:icon_military_alliance]][[/img]]military allies:	true
+mission_text_text_vco_grn_gri_2_burn_badlands	<dummy>Long ago, the Chaos Dwarfs carefully bred enslaved Greenskins to create a new subspecies: the Black Orc. They sought to make them stronger, hardier and more intelligent - the perfect slaves. They succeeded on all counts, but one...	true
+mission_text_text_vco_grn_gri_3_unfinished_business_1	<dummy>Grimgor has returned to Karak Kadrin, this time with a colossal battering ram forged by captured Daemonsmiths from the Dark Lands. The stunties are going to need a bigger gate...	true
+mission_text_text_vco_grn_gri_3_unfinished_business_2	<dummy>Grimgor's last attempt to take Kislev was thwarted when the Ice Queen repelled his assault with a massive blizzard. This time he comes prepared. A captured Imperial Pyromancer, his mind addled with madcap mushrooms, will keep the ice at bay.	true
+mission_text_text_vco_grn_gri_3_unfinished_business_3	<dummy>Grimgor abandoned his last siege of Hell Pit when he grew bored of slaughtering the poor sport sent against him, but rumour has it that Throt the Unclean has crafted more powerful beasts in his fleshlabs. Such a challenge cannot go ignored...	true
+mission_text_text_vco_hef_tyr_1_defender_ulthuan	<dummy>Prince Tyrion is the Defender of Ulthuan and the protector of its people, a heavy burden entrusted to him by the Phoenix King Finubar. Among the Dark Elves of Naggaroth he is known as the Reaper, to the Goblins of Red-Axe Pass he is Orcbane, and to the north the Norse know him as Mankiller. For two centuries he has stood between the Elves of Ulthuan and their many foes as an unbreakable shield against the darkness.	true
+mission_text_text_vco_hef_tyr_2_love_and_war	<dummy>Malekith's ruinous ambitions have brought death and destruction to Ulthuan for centuries. Elf has fought against elf for far too long. The civil war must end.	true
+mission_text_text_vco_hef_tyr_2_love_and_war_1	<dummy>Tyrion concerns himself only with the twin duties of protecting Ulthuan and its Everqueen, the beloved Alarielle. However, the latter is seen less as a duty than it is a calling of the heart - it is common knowledge that Tyrion is Alarielle's consort, and has been for many years.	true
+mission_text_text_vco_hef_tyr_3_fate_of_the_soul	<dummy>The fate of Tyrion's soul teeters on a blade-edge. Will he succumb to Aenarion's curse and salve his people's wounded pride with the blood of old enemies, or will he put aside those grievances and reforge old alliances to stand together against the forces of Chaos?	true
+mission_text_text_vco_hef_tyr_3_fate_of_the_soul_1	Control at least 2 of the following regions either by [[img:sword_of_khaine]][[/img]]conquest or through [[img:icon_vassal]][[/img]]vassals and [[img:icon_military_alliance]][[/img]]military allies:	true
+mission_text_text_vco_hef_tyr_3_fate_of_the_soul_2	Control at least 2 of the following regions either by [[img:sword_of_khaine]][[/img]]conquest or through [[img:icon_vassal]][[/img]]vassals and [[img:icon_military_alliance]][[/img]]military allies:	true
+mission_text_text_vco_hef_tyr_3_fate_of_the_soul_3	Control the following regions either by [[img:sword_of_khaine]][[/img]]conquest or through [[img:icon_vassal]][[/img]]vassals and [[img:icon_military_alliance]][[/img]]military allies:	true
+mission_text_text_vco_kho_ska_1_great_game	<dummy>During times of utter destruction and murder, Khorne's bellows resound in the Chaos Wastes, causing madness in any that might hear. Of all the Ruinous Powers, Khorne is the biggest instigator of war and destruction. He will not rest until all the world is drowned in fire and blood.	true
+mission_text_text_vco_kho_ska_2_blood_god	<dummy>To the east is Lahmia, the Cursed City, birthplace of the vampires. Let their tainted blood drench the desert sands. To the south are great champions of order whose deaths will doubtless please Khorne greatly. Let their blood flow. These parched lands beg for a crimson flood. We shall quench their thirst!	true
+mission_text_text_vco_kho_ska_2_blood_god_roc	<dummy>Though Khorne cares not from whence the blood flows, the tainted blood of Vampires is much sought after by his mortal followers, Minotaurs in particular. To indulge one's bloodthirst with such a heady brew always promises grand mutation, and who is Skarbrand to deny his followers such a gift? Taking up his gore-encrusted axes, the Exiled One leads his host into the lands of Sylvania and beyond. Let there be blood!	true
+mission_text_text_vco_kho_ska_3_skull_throne	<dummy>Within the dunes of Araby lie Tomb Kings and holy crusaders who stand against you. Their skulls will make a mighty offering to your hateful god.	true
+mission_text_text_vco_kho_ska_3_skull_throne_roc	<dummy>Khorne most despises Slaanesh, whose dark designs are an affront to the Blood God's sense of honour and martial pride. The Exiled One shares this hatred for the Dark Prince's followers. He has no time for pleasure or eroticism; indeed, all such emotions have been purged long ago, leaving only rage, hate and the desire for vengeance. He will reap their skulls for the Skull Throne.	true
+mission_text_text_vco_ksl_bor_1_doomslayer	<dummy>Urskin has the traitor-prince's scent, and so the hunt begins. The trail leads west, where Boris must do battle with depraved servants of Slaanesh, sadistic Elves and scores of daemons who haunt these desolate wastes.	true
+mission_text_text_vco_ksl_bor_1_doomslayer_roc	<dummy>Boris' reign was a bloody one, marked by constant siege and endless war. He will not watch his daughter share that same fate. He marches north, an army of Orthodoxy loyalists following his banner. For the first time in Kislev's long history, it will be safe from the daemons... for they will be far too busy with him.	true
+mission_text_text_vco_ksl_bor_2_ice_fire	<dummy>Boris rides out into the wastes to face down the greatest champions of the Dark Gods and avert the prophesied End Times. In the Badlands, he does battle with black-hearted Dwarfs and their Greenskin thralls. Every foe vanquished is one less threat to the Motherland.	true
+mission_text_text_vco_ksl_bor_2_old_frontier_roc	<dummy>In days long passed, Kislev's borders once extended as far as the Eastern Steppes. Decades of conflict with Hobgoblins, Fire Dwarfs and Ogres forced the old Tzars to concede much of this territory. Boris believes the glory days of old Kislev can be restored. He leads his armies into the Dark Lands, to reclaim that which was taken.	true
+mission_text_text_vco_ksl_bor_3_blood_snow	<dummy>The Red Tzar faces a difficult decision. Does he support his daughter's rule and condemn the Orthodoxy he has worked so hard to build, or does he renounce his blood and stay true to the faith?	true
+mission_text_text_vco_ksl_kat_1_there_can_only_be_one	<dummy>The Ice Queen leads a fractured nation, under threat from forces both without and within. Kostaltyn, the de facto leader of the Great Orthodoxy, instigates rebellion from his stronghold on the west coast. His sermons were well-received by the Ropsmenn Clan, who have risen out of the ghettos of Praag to take control of the city. These zealots must be pacified before they cause a schism from which the Motherland will never recover.	true
+mission_text_text_vco_ksl_kat_2_kislev_love	<dummy>The Motherland is beset by foes on all sides, but it is the Godslayer that Katarin most fears - he who once threatened the life of Ursun himself. Once her childhood friend and secret lover, Kislev's fallen son has returned from his doomed expedition, seeking to finish what he started.	true
+mission_text_text_vco_ksl_kat_3_defenders_world	<dummy>"You look down on us and think we are little better than barbarians, but you should be glad we are, for without us here, the northern tribes would be dining on the flesh of your children in your burning homes. But for the courage that flows in our veins would your lands be theirs. Look down on us? You should be on your knees, thanking us every day!"	true
+mission_text_text_vco_ksl_tgo_1_there_can_only_be_one	The Ice Queen will lead our mighty nation into ruin with her dangerous magicks. She'd already be screaming on a pyre if she did not share the Red Tzar's blood. Nevertheless, Kostaltyn must act. If we win the support of the people, the Tzarina will have no choice but to relenquish her frozen grip on these lands.	true
+mission_text_text_vco_ksl_tgo_2_the_last_bastion	<dummy>The Supreme Patriarch knows without a shadow of a doubt that the only thing that stands between his people and annihilation is faith. A bright reflection of the agents of darkness, he sees the land and its people as what he must protect and serve.	true
+mission_text_text_vco_ksl_tgo_3_wololo	<dummy>The Old World is rife with corruption, blasphemy, and the worship of lesser gods. Tear down the Temple of Sigmar, disperse the Cult of Ulric, beggar the followers of Handrich! Ursun, Tor, Dazh, Salyak – these are the true gods who will guide the realms of men out of chaos, no others!	true
+mission_text_text_vco_lzd_hex_1_begone_thot	<dummy>A servant of the Ancient Enemy defiles the sacred site of [[url:#]]Quintex[[/url]], causing an unacceptable deviation in the Great Plan. Correct the error.	true
+mission_text_text_vco_lzd_hex_1_solar_city	<dummy>"Woe to the warm-bloods who trespass against us. Feed them to the beasts of the jungle and leave their bones to bleach upon the golden shores of our land. Let them see that it is folly to intrude upon the Isthmus."	true
+mission_text_text_vco_lzd_hex_3_purging_warmbloods	<dummy>The Lizardmen must accomplish the first of the Old Ones' decrees - the extermination of those races not part of the Great Plan. Mazdamundi believes it is pointless to divine the next stages until the first is complete; to do so would only invite further error.	true
+mission_text_text_vco_lzd_hex_3_purging_warmbloods_2	If Lustria is to endure, the Geomantic Web linking Hexoatl and Itza must be re-established. Seek an [[img:icon_military_alliance]][[/img]]alliance with the Great White Lizard or seize the First City directly.	true
+mission_text_text_vco_nor_wul_1_ragnarok	<dummy>The End Times are nigh. Wulfrik has long cursed the gods for his predicament, but now realises he must pledge himself to one of them if he is to survive the coming apocalypse.	true
+mission_text_text_vco_nor_wul_2_the_world_walker	<dummy>After a drunken boast made in sight of the Dark Gods, Wulfrik was cursed to forever wander the earth and seek out the fiercest challengers and slay them in single combat.	true
+mission_text_text_vco_nor_wul_2_the_world_walker_override	Occupy at least 5 of these settlements:	true
+mission_text_text_vco_nor_wul_3_monster_hunt	Wulfrik leads his World Walkers across the world in search of mighty beasts to slay. Though the rewards are great, so too are the risks.\\nComplete 6 [[url:#]]Monster Hunts[[/url]].	true
+mission_text_text_vco_nor_wul_3_monster_hunt_0	Wulfrik leads his World Walkers across the world in search of mighty beasts to slay. Though the rewards are great, so too are the risks.\\nComplete 6 [[url:#]]Monster Hunts[[/url]]. (Current: 0)	true
+mission_text_text_vco_nor_wul_3_monster_hunt_1	Wulfrik leads his World Walkers across the world in search of mighty beasts to slay. Though the rewards are great, so too are the risks.\\nComplete 6 [[url:#]]Monster Hunts[[/url]]. (Current: 1)	true
+mission_text_text_vco_nor_wul_3_monster_hunt_2	Wulfrik leads his World Walkers across the world in search of mighty beasts to slay. Though the rewards are great, so too are the risks.\\nComplete 6 [[url:#]]Monster Hunts[[/url]]. (Current: 2)	true
+mission_text_text_vco_nor_wul_3_monster_hunt_3	Wulfrik leads his World Walkers across the world in search of mighty beasts to slay. Though the rewards are great, so too are the risks.\\nComplete 6 [[url:#]]Monster Hunts[[/url]]. (Current: 3)	true
+mission_text_text_vco_nor_wul_3_monster_hunt_4	Wulfrik leads his World Walkers across the world in search of mighty beasts to slay. Though the rewards are great, so too are the risks.\\nComplete 6 [[url:#]]Monster Hunts[[/url]]. (Current: 4)	true
+mission_text_text_vco_nor_wul_3_monster_hunt_5	Wulfrik leads his World Walkers across the world in search of mighty beasts to slay. Though the rewards are great, so too are the risks.\\nComplete 6 [[url:#]]Monster Hunts[[/url]]. (Current: 5)	true
+mission_text_text_vco_nor_wul_3_wheres_my_palico	The Norse adventurer Losteriksson was the first Norscan to land on the coast of Lustria and live to tell the tale. The settlement he founded still stands to this day, though it is under dire threat from the Lizardmen of the jungle. Occupy the following region:	true
+mission_text_text_vco_nur_kug_1_great_game	<dummy>The Plague Lord, obsessed with his ceaseless foetid experiments, seems to care little about the Great Game. Yet his carefree demeanour subtly undermines the plotting and politicking of the other Chaos Gods. It drives Khorne to an unthinking fury, disturbs Tzeentch's insidious train of thought, and distracts Slaanesh from his indulgences. Meanwhile, Nurgle's own intrigues spread slowly like a cancer.	true
+mission_text_text_vco_nur_kug_2_eastern_poxes	<dummy>Ku'gath journeys east, eager to discover new reagents in the exotic jungles of Cathay. But first, an unexpected foe bars his passage: Helman Ghorst. He who shunned the Urfarther's gift of the Blue Roses. The Plaguefather is most intrigued by this individual and wishes to test his susceptibility to his more recent creations.	true
+mission_text_text_vco_nur_kug_2_eastern_poxes_roc	<dummy>Ku'gath journeys east, eager to discover new reagents in the exotic jungles of Cathay. The Plagueweaver must exercise caution, for the vexatious Cathayan Dragons patrol the skies, and their flaming breath is anathema to Chaos.	true
+mission_text_text_vco_nur_kug_2_frozen_poxes_roc	<dummy>The Urfather's plagues have always failed to propagate through Kislev, as the freezing cold and sparsely-populated oblasts are poor conditions for germs to thrive. Ku'gath toiled for months at his cauldron, unable to solve the problem, until a captured Ice Witch was brought before him. Her blood proved to be the missing ingredient he had been searching for. Now, all that remains is to test this new creation...	true
+mission_text_text_vco_nur_kug_3_death_dwarfs	<dummy>It is during forays into the Known World that Ku'gath has encountered the one mortal race that has penetrated his scientific detachment to kindle his rage - the Dwarfs. On a professional level, the Plaguefather hates the creatures for their resilience to disease; on a personal level, he is embittered by a truly ignominious defeat beneath the walls of Karaz-a-Karak. Either way, there is no doubt in Ku'gath's mind as to the first test subjects when his perfect plague is prepared.	true
+mission_text_text_vco_nur_kug_3_death_dwarfs_1	<dummy>The Brewmaster means to sample the polluted River Ruin for new reagents for his concotions. To do so, he must travel north and seek out the corruption at its source.	true
+mission_text_text_vco_nur_kug_3_death_dwarfs_1_roc	<dummy>The Brewmaster means to sample the polluted River Ruin for new reagents for his concotions. To do so, he must travel to the Dark Lands and seek out the corruption at its source.	true
+mission_text_text_vco_ogr_gre_1_rich_walk	Have a gross income of 25,000 (Current: 100%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_0	Have a gross income of 25,000 (Current: 0%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_1	Have a gross income of 25,000 (Current: 1%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_2	Have a gross income of 25,000 (Current: 2%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_3	Have a gross income of 25,000 (Current: 3%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_4	Have a gross income of 25,000 (Current: 4%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_5	Have a gross income of 25,000 (Current: 5%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_6	Have a gross income of 25,000 (Current: 6%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_7	Have a gross income of 25,000 (Current: 7%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_8	Have a gross income of 25,000 (Current: 8%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_9	Have a gross income of 25,000 (Current: 9%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_10	Have a gross income of 25,000 (Current: 10%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_11	Have a gross income of 25,000 (Current: 11%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_12	Have a gross income of 25,000 (Current: 12%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_13	Have a gross income of 25,000 (Current: 13%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_14	Have a gross income of 25,000 (Current: 14%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_15	Have a gross income of 25,000 (Current: 15%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_16	Have a gross income of 25,000 (Current: 16%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_17	Have a gross income of 25,000 (Current: 17%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_18	Have a gross income of 25,000 (Current: 18%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_19	Have a gross income of 25,000 (Current: 19%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_20	Have a gross income of 25,000 (Current: 20%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_21	Have a gross income of 25,000 (Current: 21%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_22	Have a gross income of 25,000 (Current: 22%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_23	Have a gross income of 25,000 (Current: 23%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_24	Have a gross income of 25,000 (Current: 24%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_25	Have a gross income of 25,000 (Current: 25%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_26	Have a gross income of 25,000 (Current: 26%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_27	Have a gross income of 25,000 (Current: 27%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_28	Have a gross income of 25,000 (Current: 28%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_29	Have a gross income of 25,000 (Current: 29%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_30	Have a gross income of 25,000 (Current: 30%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_31	Have a gross income of 25,000 (Current: 31%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_32	Have a gross income of 25,000 (Current: 32%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_33	Have a gross income of 25,000 (Current: 33%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_34	Have a gross income of 25,000 (Current: 34%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_35	Have a gross income of 25,000 (Current: 35%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_36	Have a gross income of 25,000 (Current: 36%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_37	Have a gross income of 25,000 (Current: 37%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_38	Have a gross income of 25,000 (Current: 38%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_39	Have a gross income of 25,000 (Current: 39%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_40	Have a gross income of 25,000 (Current: 40%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_41	Have a gross income of 25,000 (Current: 41%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_42	Have a gross income of 25,000 (Current: 42%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_43	Have a gross income of 25,000 (Current: 43%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_44	Have a gross income of 25,000 (Current: 44%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_45	Have a gross income of 25,000 (Current: 45%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_46	Have a gross income of 25,000 (Current: 46%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_47	Have a gross income of 25,000 (Current: 47%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_48	Have a gross income of 25,000 (Current: 48%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_49	Have a gross income of 25,000 (Current: 49%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_50	Have a gross income of 25,000 (Current: 50%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_51	Have a gross income of 25,000 (Current: 51%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_52	Have a gross income of 25,000 (Current: 52%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_53	Have a gross income of 25,000 (Current: 53%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_54	Have a gross income of 25,000 (Current: 54%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_55	Have a gross income of 25,000 (Current: 55%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_56	Have a gross income of 25,000 (Current: 56%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_57	Have a gross income of 25,000 (Current: 57%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_58	Have a gross income of 25,000 (Current: 58%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_59	Have a gross income of 25,000 (Current: 59%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_60	Have a gross income of 25,000 (Current: 60%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_61	Have a gross income of 25,000 (Current: 61%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_62	Have a gross income of 25,000 (Current: 62%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_63	Have a gross income of 25,000 (Current: 63%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_64	Have a gross income of 25,000 (Current: 64%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_65	Have a gross income of 25,000 (Current: 65%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_66	Have a gross income of 25,000 (Current: 66%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_67	Have a gross income of 25,000 (Current: 67%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_68	Have a gross income of 25,000 (Current: 68%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_69	Have a gross income of 25,000 (Current: 69%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_70	Have a gross income of 25,000 (Current: 70%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_71	Have a gross income of 25,000 (Current: 71%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_72	Have a gross income of 25,000 (Current: 72%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_73	Have a gross income of 25,000 (Current: 73%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_74	Have a gross income of 25,000 (Current: 74%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_75	Have a gross income of 25,000 (Current: 75%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_76	Have a gross income of 25,000 (Current: 76%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_77	Have a gross income of 25,000 (Current: 77%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_78	Have a gross income of 25,000 (Current: 78%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_79	Have a gross income of 25,000 (Current: 79%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_80	Have a gross income of 25,000 (Current: 80%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_81	Have a gross income of 25,000 (Current: 81%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_82	Have a gross income of 25,000 (Current: 82%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_83	Have a gross income of 25,000 (Current: 83%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_84	Have a gross income of 25,000 (Current: 84%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_85	Have a gross income of 25,000 (Current: 85%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_86	Have a gross income of 25,000 (Current: 86%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_87	Have a gross income of 25,000 (Current: 87%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_88	Have a gross income of 25,000 (Current: 88%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_89	Have a gross income of 25,000 (Current: 89%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_90	Have a gross income of 25,000 (Current: 90%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_91	Have a gross income of 25,000 (Current: 91%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_92	Have a gross income of 25,000 (Current: 92%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_93	Have a gross income of 25,000 (Current: 93%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_94	Have a gross income of 25,000 (Current: 94%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_95	Have a gross income of 25,000 (Current: 95%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_96	Have a gross income of 25,000 (Current: 96%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_97	Have a gross income of 25,000 (Current: 97%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_98	Have a gross income of 25,000 (Current: 98%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_99	Have a gross income of 25,000 (Current: 99%).	true
+mission_text_text_vco_ogr_gre_1_rich_walk_DUMMY	<dummy>The Goldtooth tribe is notorious for its wealth. Ever eager to show off their top status, they are given to ostentatious displays - from a vast mountaintop feast hall, to gem-encrusted gutplates and even a solid gold Mawtooth. Now, under the rule of Greasus, the tribe will grow richer still.	true
+mission_text_text_vco_ogr_gre_2_overtyrants_reign_1	<dummy>Greasus' overflowing coffers have not diminished his greed nor his all-consuming desire to conquer everything he sees. The Tribestealer will unite the Ogres of the Mountains of Mourn into the largest Ogre Kingdom in history!	true
+mission_text_text_vco_ogr_gre_2_overtyrants_reign_2	<dummy>The Black Orc known as Grimgor Ironhide seeks to challenge Greasus' reign, brazenly dubbing himself "Boss of the East". The Sceptre of Titans will disabuse him of this notion.	true
+mission_text_text_vco_ogr_gre_3_at_least_5_settlements	Control at least 5 of the following settlements either by direct ownership or through [[img:icon_vassal]][[/img]]vassals and [[img:icon_military_alliance]][[/img]]military allies:	true
+mission_text_text_vco_ogr_gre_3_drakecrush	<dummy>Maintaining strong ties with the Cathayans will ensure their wealth continues to flow into the Hoardmaster's coffers. Alternatively, Greasus could move against their draconic masters directly; after all, they don't call him Drakecrush for nothing.	true
+mission_text_text_vco_ogr_skr_1_pilgrim_maw	<dummy>As Skrag feeds the bloody corpse of a Sartosan Vampire into his maw-cauldron, he is suddenly overcome with an all-consuming vision. A gaping whirlpool in the centre of the ocean, ravenously devouring the very lifeblood of the earth. His curiosity piqued, the Maw-that-Walks leads his tribe on a dangerous pilgrimage to seek out this new god.	true
+mission_text_text_vco_ogr_skr_1_pilgrim_maw_roc	<dummy>Skrag journeys east, making his long pilgrimage back to the Great Maw. He means to deliver to his god the greatest tribute of all - the flesh of the bear god, Ursun. But first, preparations must be made.	true
+mission_text_text_vco_ogr_skr_2_age_of_ogres	<dummy>Skrag leads his ravenous tribe west, through the lands of the Southern Realms and into the verdant pastures of Bretonnia. Though there are many foes on this journey, soon to become meat for the maw-cauldron, there are many potential allies as well.	true
+mission_text_text_vco_ogr_skr_2_age_of_ogres_roc	<dummy>Guided by the Great Maw, Skrag has travelled far from the Ogre Kingdoms. He follows visions given to him by his ravenous god - visions that show the Empire awash in blood and gore, their populace fit only for meat for the cookpots. The Gore-Harvester will not rest until this reality is made manifest!	true
+mission_text_text_vco_ogr_skr_3_hunger_power	<dummy>The Gorgers grow tired of the scrawny Border Princes and hunger for new prey. In the Badlands, the Dwarfs and Greenskins fight for dominance. Their well-marbled forms would undoubtedly roast up well in the maw-cauldron. To the west, through Black Fire Pass, the lands of the Empire are ripe for plunder, and the cloying scent of vampiric blood wafts from the north. Skrag closes his eyes and prays to the God Mouth for guidance.	true
+mission_text_text_vco_ogr_skr_3_hunger_power_1	Control at least 1 of the following regions either by [[img:sword_of_khaine]][[/img]]conquest or through [[img:icon_vassal]][[/img]]vassals and [[img:icon_military_alliance]][[/img]]military allies:	true
+mission_text_text_vco_ogr_skr_3_hunger_power_2	Control at least 4 of the following regions either by [[img:sword_of_khaine]][[/img]]conquest or through [[img:icon_vassal]][[/img]]vassals and [[img:icon_military_alliance]][[/img]]military allies:	true
+mission_text_text_vco_ogr_skr_3_hunger_power_roc	<dummy>Your Gorgers grow hungry devouring the scrawny men of the Empire. They long for hardier prey. Skrag conducts a grand blood ritual, committing the bloody remnants of the sacrificed into his maw-cauldron. Reading the patterns in the entrails, he divines the Great Maw's intent for his ravenous tribe.	true
+mission_text_text_vco_ogr_the_maw_that_walks	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].	true
+mission_text_text_vco_ogr_the_maw_that_walks_0	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 0%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_1	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 1%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_2	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 2%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_3	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 3%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_4	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 4%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_5	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 5%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_6	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 6%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_7	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 7%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_8	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 8%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_9	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 9%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_10	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 10%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_11	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 11%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_12	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 12%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_13	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 13%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_14	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 14%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_15	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 15%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_16	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 16%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_17	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 17%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_18	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 18%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_19	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 19%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_20	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 20%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_21	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 21%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_22	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 22%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_23	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 23%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_24	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 24%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_25	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 25%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_26	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 26%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_27	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 27%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_28	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 28%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_29	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 29%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_30	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 30%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_31	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 31%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_32	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 32%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_33	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 33%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_34	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 34%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_35	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 35%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_36	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 36%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_37	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 37%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_38	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 38%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_39	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 39%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_40	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 40%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_41	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 41%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_42	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 42%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_43	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 43%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_44	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 44%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_45	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 45%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_46	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 46%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_47	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 47%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_48	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 48%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_49	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 49%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_50	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 50%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_51	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 51%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_52	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 52%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_53	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 53%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_54	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 54%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_55	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 55%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_56	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 56%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_57	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 57%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_58	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 58%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_59	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 59%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_60	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 60%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_61	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 61%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_62	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 62%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_63	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 63%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_64	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 64%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_65	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 65%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_66	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 66%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_67	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 67%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_68	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 68%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_69	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 69%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_70	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 70%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_71	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 71%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_72	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 72%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_73	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 73%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_74	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 74%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_75	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 75%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_76	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 76%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_77	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 77%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_78	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 78%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_79	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 79%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_80	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 80%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_81	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 81%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_82	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 82%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_83	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 83%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_84	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 84%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_85	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 85%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_86	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 86%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_87	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 87%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_88	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 88%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_89	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 89%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_90	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 90%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_91	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 91%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_92	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 92%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_93	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 93%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_94	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 94%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_95	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 95%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_96	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 96%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_97	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 97%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_98	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 98%)	true
+mission_text_text_vco_ogr_the_maw_that_walks_99	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 99%)	true
+mission_text_text_vco_skv_esh_1_service_of_the_grand_nightlord_1	<dummy>Clan Eshin has a reputation to uphold and a demanding Grand Nightlord to please. There is no time to rest for the Deathmaster and his Agents. 	true
+mission_text_text_vco_skv_esh_1_service_of_the_grand_nightlord_2_0	Perform 13 Eshin Actions. (Current: 0)	true
+mission_text_text_vco_skv_esh_1_service_of_the_grand_nightlord_2_1	Perform 13 Eshin Actions. (Current: 1)	true
+mission_text_text_vco_skv_esh_1_service_of_the_grand_nightlord_2_2	Perform 13 Eshin Actions. (Current: 2)	true
+mission_text_text_vco_skv_esh_1_service_of_the_grand_nightlord_2_3	Perform 13 Eshin Actions. (Current: 3)	true
+mission_text_text_vco_skv_esh_1_service_of_the_grand_nightlord_2_4	Perform 13 Eshin Actions. (Current: 4)	true
+mission_text_text_vco_skv_esh_1_service_of_the_grand_nightlord_2_5	Perform 13 Eshin Actions. (Current: 5)	true
+mission_text_text_vco_skv_esh_1_service_of_the_grand_nightlord_2_6	Perform 13 Eshin Actions. (Current: 6)	true
+mission_text_text_vco_skv_esh_1_service_of_the_grand_nightlord_2_7	Perform 13 Eshin Actions. (Current: 7)	true
+mission_text_text_vco_skv_esh_1_service_of_the_grand_nightlord_2_8	Perform 13 Eshin Actions. (Current: 8)	true
+mission_text_text_vco_skv_esh_1_service_of_the_grand_nightlord_2_9	Perform 13 Eshin Actions. (Current: 9)	true
+mission_text_text_vco_skv_esh_1_service_of_the_grand_nightlord_2_10	Perform 13 Eshin Actions. (Current: 10)	true
+mission_text_text_vco_skv_esh_1_service_of_the_grand_nightlord_2_11	Perform 13 Eshin Actions. (Current: 11)	true
+mission_text_text_vco_skv_esh_1_service_of_the_grand_nightlord_2_12	Perform 13 Eshin Actions. (Current: 12)	true
+mission_text_text_vco_skv_esh_1_service_of_the_grand_nightlord_2_13	Perform 13 Eshin Actions. (Completed)	true
+mission_text_text_vco_skv_esh_2_assassin_1	Strong-powerful it was, great-large daemon from beyond! Paid us quite handsomely to terror-kill fat plague-man it did, and so-so we will! \\n\\nSnikch's army must defeat [[url:#]]Ku'gath Plaguefather's[[/url]] army in battle.	true
+mission_text_text_vco_skv_esh_2_assassin_2	Ironhammer's attention is solely focused on Karak Eight Peaks, currently inhabited by filthy Greenskins. Now is the the time to strike, when he and his ever-present ancestors are distracted. Slay the Dwarf, and the Council will ensure the Goblins pay their due. \\n\\nSnikch's army must defeat [[url:#]]Belegar Ironhammer's[[/url]] army in battle.	true
+mission_text_text_vco_skv_esh_2_assassin_3	A mysterious evil lies just beneath the taught skin of Malus Darkblade, tainted-foul and powerful. Put Darkblade in mortal danger and he'll let it loose, then slay it. \\n\\nSnikch's army must defeat [[url:#]]Malus Darkblades'[[/url]] army in battle.	true
+mission_text_text_vco_skv_esh_3_keep_your_enemies_close_1	<dummy>The forests of the moon are densely covered, sparsely traveled, and poorly lit. Clan Eshin's assassins found it both peaceful and perfect.... Until unintelligent, lumbering greenskins ruined the tranquility. Sneak in and separate heads from shoulders. Once the forests are clean turn your attention to the Cathayan settlements to the North - their rangings into the forest grow ever more frequent... And ever more undesirable.	true
+mission_text_text_vco_skv_esh_3_keep_your_enemies_close_2	<dummy> The Northern Cathayans are not the only threat to our secrecy. Vampires from the South roam the nights, and Eshin agents are increasing encountering them when it is least desirable. The bloodsuckers must learn to stay in their swamp while Eshin agents are at work.	true
+mission_text_text_vco_skv_mdr_1_yes_yes_prepare_the_lab	Utterly consumed with his disturbing research, Throt has long since lost whatever hint of sanity he once had. His waking hours are filled with his twisted studies, and the depths of his domain echo with the cacophony of tortured cries from the living abominations dwelling there, the horrid results of his unnatural experiments.\\n\\nUnlock all [[url:#]]Infantry Augments[[/url]] and [[url:#]]Monster Augments[[/url]].	true
+mission_text_text_vco_skv_mdr_2_the_vermintide_comes	<dummy>From Hell Pit they come, a scurrying tide of ratmen and mutant creations thundering towards the lands of men on feet most foul. Throt's vermintide can't be stopped now!	true
+mission_text_text_vco_skv_mdr_2_the_vermintide_comes_override	Control at least 4 of the following regions either by direct ownership or through [[img:icon_vassal]][[/img]]vassals and [[img:icon_military_alliance]][[/img]]military allies:	true
+mission_text_text_vco_skv_mdr_3_the_frozen_dead	Norscan no-furs are perfect for experimentation: warped, tainted-foul, and delicious! What marvelous creations they will inspire!\\n\\nMaintain control of the following provinces either by direct ownership or through [[img:icon_vassal]][[/img]]vassals and [[img:icon_military_alliance]][[/img]]military allies:	true
+mission_text_text_vco_skv_mdr_3_ultimate_harvest	<dummy>Throt journeys to the Land of Chill, seeking to destroy the waystones scattered across Naggaroth. Their destruction will draw the Elf Queen, Ariel, out of hiding, and render her vulnerable for the first time in aeons. By Throt's reckoning, acquiring the demigoddess' life essence will make Clan Moulder the most powerful clan in all of Skavendom!	true
+mission_text_text_vco_sla_cults_established_1	Establish at least 20 [[url:script_link_campaign_chaos_cults]]Chaos Cults[[/url]]. (Current: 1)	true
+mission_text_text_vco_sla_cults_established_2	Establish at least 20 [[url:script_link_campaign_chaos_cults]]Chaos Cults[[/url]]. (Current: 2)	true
+mission_text_text_vco_sla_cults_established_3	Establish at least 20 [[url:script_link_campaign_chaos_cults]]Chaos Cults[[/url]]. (Current: 3)	true
+mission_text_text_vco_sla_cults_established_4	Establish at least 20 [[url:script_link_campaign_chaos_cults]]Chaos Cults[[/url]]. (Current: 4)	true
+mission_text_text_vco_sla_cults_established_5	Establish at least 20 [[url:script_link_campaign_chaos_cults]]Chaos Cults[[/url]]. (Current: 5)	true
+mission_text_text_vco_sla_cults_established_6	Establish at least 20 [[url:script_link_campaign_chaos_cults]]Chaos Cults[[/url]]. (Current: 6)	true
+mission_text_text_vco_sla_cults_established_7	Establish at least 20 [[url:script_link_campaign_chaos_cults]]Chaos Cults[[/url]]. (Current: 7)	true
+mission_text_text_vco_sla_cults_established_8	Establish at least 20 [[url:script_link_campaign_chaos_cults]]Chaos Cults[[/url]]. (Current: 8)	true
+mission_text_text_vco_sla_cults_established_9	Establish at least 20 [[url:script_link_campaign_chaos_cults]]Chaos Cults[[/url]]. (Current: 9)	true
+mission_text_text_vco_sla_cults_established_10	Establish at least 20 [[url:script_link_campaign_chaos_cults]]Chaos Cults[[/url]]. (Current: 10)	true
+mission_text_text_vco_sla_cults_established_11	Establish at least 20 [[url:script_link_campaign_chaos_cults]]Chaos Cults[[/url]]. (Current: 11)	true
+mission_text_text_vco_sla_cults_established_12	Establish at least 20 [[url:script_link_campaign_chaos_cults]]Chaos Cults[[/url]]. (Current: 12)	true
+mission_text_text_vco_sla_cults_established_13	Establish at least 20 [[url:script_link_campaign_chaos_cults]]Chaos Cults[[/url]]. (Current: 13)	true
+mission_text_text_vco_sla_cults_established_14	Establish at least 20 [[url:script_link_campaign_chaos_cults]]Chaos Cults[[/url]]. (Current: 14)	true
+mission_text_text_vco_sla_cults_established_15	Establish at least 20 [[url:script_link_campaign_chaos_cults]]Chaos Cults[[/url]]. (Current: 15)	true
+mission_text_text_vco_sla_cults_established_16	Establish at least 20 [[url:script_link_campaign_chaos_cults]]Chaos Cults[[/url]]. (Current: 16)	true
+mission_text_text_vco_sla_cults_established_17	Establish at least 20 [[url:script_link_campaign_chaos_cults]]Chaos Cults[[/url]]. (Current: 17)	true
+mission_text_text_vco_sla_cults_established_18	Establish at least 20 [[url:script_link_campaign_chaos_cults]]Chaos Cults[[/url]]. (Current: 18)	true
+mission_text_text_vco_sla_cults_established_19	Establish at least 20 [[url:script_link_campaign_chaos_cults]]Chaos Cults[[/url]]. (Current: 19)	true
+mission_text_text_vco_sla_cults_established_completed	Establish at least 20 [[url:script_link_campaign_chaos_cults]]Chaos Cults[[/url]].	true
+mission_text_text_vco_sla_gifts_given_1	Spread at least 40 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 1)	true
+mission_text_text_vco_sla_gifts_given_2	Spread at least 40 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 2)	true
+mission_text_text_vco_sla_gifts_given_3	Spread at least 40 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 3)	true
+mission_text_text_vco_sla_gifts_given_4	Spread at least 40 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 4)	true
+mission_text_text_vco_sla_gifts_given_5	Spread at least 40 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 5)	true
+mission_text_text_vco_sla_gifts_given_6	Spread at least 40 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 6)	true
+mission_text_text_vco_sla_gifts_given_7	Spread at least 40 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 7)	true
+mission_text_text_vco_sla_gifts_given_8	Spread at least 40 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 8)	true
+mission_text_text_vco_sla_gifts_given_9	Spread at least 40 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 9)	true
+mission_text_text_vco_sla_gifts_given_10	Spread at least 40 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 10)	true
+mission_text_text_vco_sla_gifts_given_11	Spread at least 40 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 11)	true
+mission_text_text_vco_sla_gifts_given_12	Spread at least 40 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 12)	true
+mission_text_text_vco_sla_gifts_given_13	Spread at least 40 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 13)	true
+mission_text_text_vco_sla_gifts_given_14	Spread at least 40 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 14)	true
+mission_text_text_vco_sla_gifts_given_15	Spread at least 40 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 15)	true
+mission_text_text_vco_sla_gifts_given_16	Spread at least 40 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 16)	true
+mission_text_text_vco_sla_gifts_given_17	Spread at least 40 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 17)	true
+mission_text_text_vco_sla_gifts_given_18	Spread at least 40 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 18)	true
+mission_text_text_vco_sla_gifts_given_19	Spread at least 40 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 19)	true
+mission_text_text_vco_sla_gifts_given_20	Spread at least 40 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 20)	true
+mission_text_text_vco_sla_gifts_given_21	Spread at least 40 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 21)	true
+mission_text_text_vco_sla_gifts_given_22	Spread at least 40 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 22)	true
+mission_text_text_vco_sla_gifts_given_23	Spread at least 40 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 23)	true
+mission_text_text_vco_sla_gifts_given_24	Spread at least 40 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 24)	true
+mission_text_text_vco_sla_gifts_given_25	Spread at least 40 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 25)	true
+mission_text_text_vco_sla_gifts_given_26	Spread at least 40 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 26)	true
+mission_text_text_vco_sla_gifts_given_27	Spread at least 40 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 27)	true
+mission_text_text_vco_sla_gifts_given_28	Spread at least 40 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 28)	true
+mission_text_text_vco_sla_gifts_given_29	Spread at least 40 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 29)	true
+mission_text_text_vco_sla_gifts_given_30	Spread at least 40 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 30)	true
+mission_text_text_vco_sla_gifts_given_31	Spread at least 40 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 31)	true
+mission_text_text_vco_sla_gifts_given_32	Spread at least 40 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 32)	true
+mission_text_text_vco_sla_gifts_given_33	Spread at least 40 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 33)	true
+mission_text_text_vco_sla_gifts_given_34	Spread at least 40 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 34)	true
+mission_text_text_vco_sla_gifts_given_35	Spread at least 40 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 35)	true
+mission_text_text_vco_sla_gifts_given_36	Spread at least 40 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 36)	true
+mission_text_text_vco_sla_gifts_given_37	Spread at least 40 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 37)	true
+mission_text_text_vco_sla_gifts_given_38	Spread at least 40 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 38)	true
+mission_text_text_vco_sla_gifts_given_39	Spread at least 40 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 39)	true
+mission_text_text_vco_sla_gifts_given_completed	Spread at least 40 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]].	true
+mission_text_text_vco_sla_nka_1_the_great_game	<dummy>Though Slaanesh is presently the least of the four great Ruinous Powers, his brothers secretly fear him, for he feeds on humanity's darkest urges, a source of power that they cannot hope to match. Let the lands of Ulthuan be submerged beneath a writhing, twitching blanket of sin.	true
+mission_text_text_vco_sla_nka_1_the_great_game_roc	<dummy>Though Slaanesh is presently the least of the four great Ruinous Powers, his brothers secretly fear him, for he feeds on humanity's darkest urges, a source of power that they cannot hope to match. Let the lands of the mortal world be submerged beneath a writhing, twitching blanket of sin.	true
+mission_text_text_vco_sla_nka_2_paradise_lost	<dummy>"Come, mortal. Gorge yourself on the blood of your beloved, slain by your own hands. Let your lust and despair mingle into a delicious concotion. Then, and only then, will you know the sweet caress of the Dark Prince."	true
+mission_text_text_vco_sla_nka_2_paradise_lost_establish_cults	Establish at least 20 [[url:script_link_campaign_chaos_cults]]Chaos Cults[[/url]]. (Current: 0)	true
+mission_text_text_vco_sla_nka_2_paradise_lost_spread_marks	Spread at least 40 [[url:script_link_campaign_gifts_of_slaanesh]]Gifts of Slaanesh[[/url]]. (Current: 0)	true
+mission_text_text_vco_sla_nka_3_bloodline_aenarion	<dummy>The Arch-Temptor has been thwarted by Aenarion and his hated descendants more times than he would care to admit. The time has come to visit upon them the most exquisite of agonies. Only after they beg for death will their souls be relinquished to the Dark Prince.	true
+mission_text_text_vco_sla_nka_3_wrath_desire_roc_1	<dummy>The Dark Prince visited exquisite agony upon N'Kari for his failure to defeat the Exiled One. His wounded pride can only be salved with the sweet nectar of revenge...	true
+mission_text_text_vco_sla_nka_3_wrath_desire_roc_2	<dummy>Though Ulthuan is presently shrouded from N'Kari's gaze, the amoral beings of the Old World beg for release. Let us indulge them.	true
+mission_text_text_vco_sla_nka_3_wrath_desire_roc_3	Control at least [[url:#]]6[[/url]] of the following [[url:#]]9[[/url]] regions either by [[img:sword_of_khaine]][[/img]]conquest or through [[img:icon_vassal]][[/img]]vassals and [[img:icon_military_alliance]][[/img]]military allies:	true
+mission_text_text_vco_the_great_game_completed	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.	true
+mission_text_text_vco_the_great_game_completed_0	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 0)	true
+mission_text_text_vco_the_great_game_completed_1	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 1)	true
+mission_text_text_vco_the_great_game_completed_2	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 2)	true
+mission_text_text_vco_the_great_game_completed_3	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 3)	true
+mission_text_text_vco_the_great_game_completed_4	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 4)	true
+mission_text_text_vco_the_great_game_completed_5	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 5)	true
+mission_text_text_vco_the_great_game_completed_6	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 6)	true
+mission_text_text_vco_the_great_game_completed_7	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 7)	true
+mission_text_text_vco_the_great_game_completed_8	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 8)	true
+mission_text_text_vco_the_great_game_completed_9	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 9)	true
+mission_text_text_vco_the_great_game_completed_10	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 10)	true
+mission_text_text_vco_the_great_game_completed_11	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 11)	true
+mission_text_text_vco_the_great_game_completed_12	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 12)	true
+mission_text_text_vco_the_great_game_completed_13	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 13)	true
+mission_text_text_vco_the_great_game_completed_14	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 14)	true
+mission_text_text_vco_the_great_game_completed_15	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 15)	true
+mission_text_text_vco_the_great_game_completed_16	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 16)	true
+mission_text_text_vco_the_great_game_completed_17	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 17)	true
+mission_text_text_vco_the_great_game_completed_18	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 18)	true
+mission_text_text_vco_the_great_game_completed_19	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 19)	true
+mission_text_text_vco_the_great_game_completed_20	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 20)	true
+mission_text_text_vco_the_great_game_completed_21	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 21)	true
+mission_text_text_vco_the_great_game_completed_22	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 22)	true
+mission_text_text_vco_the_great_game_completed_23	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 23)	true
+mission_text_text_vco_the_great_game_completed_24	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 24)	true
+mission_text_text_vco_the_great_game_completed_25	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 25)	true
+mission_text_text_vco_the_great_game_completed_26	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 26)	true
+mission_text_text_vco_the_great_game_completed_27	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 27)	true
+mission_text_text_vco_the_great_game_completed_28	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 28)	true
+mission_text_text_vco_the_great_game_completed_29	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 29)	true
+mission_text_text_vco_the_great_game_completed_30	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 30)	true
+mission_text_text_vco_the_great_game_completed_31	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 31)	true
+mission_text_text_vco_the_great_game_completed_32	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 32)	true
+mission_text_text_vco_the_great_game_completed_33	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 33)	true
+mission_text_text_vco_the_great_game_completed_34	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 34)	true
+mission_text_text_vco_the_great_game_completed_35	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 35)	true
+mission_text_text_vco_the_great_game_completed_36	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 36)	true
+mission_text_text_vco_the_great_game_completed_37	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 37)	true
+mission_text_text_vco_the_great_game_completed_38	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 38)	true
+mission_text_text_vco_the_great_game_completed_39	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 39)	true
+mission_text_text_vco_the_great_game_completed_40	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 40)	true
+mission_text_text_vco_the_great_game_completed_41	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 41)	true
+mission_text_text_vco_the_great_game_completed_42	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 42)	true
+mission_text_text_vco_the_great_game_completed_43	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 43)	true
+mission_text_text_vco_the_great_game_completed_44	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 44)	true
+mission_text_text_vco_the_great_game_completed_45	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 45)	true
+mission_text_text_vco_the_great_game_completed_46	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 46)	true
+mission_text_text_vco_the_great_game_completed_47	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 47)	true
+mission_text_text_vco_the_great_game_completed_48	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 48)	true
+mission_text_text_vco_the_great_game_completed_49	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 49)	true
+mission_text_text_vco_the_great_game_completed_50	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 50)	true
+mission_text_text_vco_the_great_game_completed_51	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 51)	true
+mission_text_text_vco_the_great_game_completed_52	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 52)	true
+mission_text_text_vco_the_great_game_completed_53	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 53)	true
+mission_text_text_vco_the_great_game_completed_54	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 54)	true
+mission_text_text_vco_the_great_game_completed_55	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 55)	true
+mission_text_text_vco_the_great_game_completed_56	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 56)	true
+mission_text_text_vco_the_great_game_completed_57	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 57)	true
+mission_text_text_vco_the_great_game_completed_58	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 58)	true
+mission_text_text_vco_the_great_game_completed_59	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 59)	true
+mission_text_text_vco_the_great_game_completed_60	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 60)	true
+mission_text_text_vco_the_great_game_completed_61	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 61)	true
+mission_text_text_vco_the_great_game_completed_62	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 62)	true
+mission_text_text_vco_the_great_game_completed_63	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 63)	true
+mission_text_text_vco_the_great_game_completed_64	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 64)	true
+mission_text_text_vco_the_great_game_completed_65	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 65)	true
+mission_text_text_vco_the_great_game_completed_66	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 66)	true
+mission_text_text_vco_the_great_game_completed_67	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 67)	true
+mission_text_text_vco_the_great_game_completed_68	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 68)	true
+mission_text_text_vco_the_great_game_completed_69	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 69)	true
+mission_text_text_vco_the_great_game_completed_70	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 70)	true
+mission_text_text_vco_the_great_game_completed_71	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 71)	true
+mission_text_text_vco_the_great_game_completed_72	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 72)	true
+mission_text_text_vco_the_great_game_completed_73	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 73)	true
+mission_text_text_vco_the_great_game_completed_74	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 74)	true
+mission_text_text_vco_the_great_game_completed_75	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 75)	true
+mission_text_text_vco_the_great_game_completed_76	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 76)	true
+mission_text_text_vco_the_great_game_completed_77	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 77)	true
+mission_text_text_vco_the_great_game_completed_78	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 78)	true
+mission_text_text_vco_the_great_game_completed_79	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 79)	true
+mission_text_text_vco_the_great_game_completed_80	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 80)	true
+mission_text_text_vco_the_great_game_completed_81	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 81)	true
+mission_text_text_vco_the_great_game_completed_82	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 82)	true
+mission_text_text_vco_the_great_game_completed_83	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 83)	true
+mission_text_text_vco_the_great_game_completed_84	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 84)	true
+mission_text_text_vco_the_great_game_completed_85	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 85)	true
+mission_text_text_vco_the_great_game_completed_86	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 86)	true
+mission_text_text_vco_the_great_game_completed_87	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 87)	true
+mission_text_text_vco_the_great_game_completed_88	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 88)	true
+mission_text_text_vco_the_great_game_completed_89	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 89)	true
+mission_text_text_vco_the_great_game_completed_90	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 90)	true
+mission_text_text_vco_the_great_game_completed_91	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 91)	true
+mission_text_text_vco_the_great_game_completed_92	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 92)	true
+mission_text_text_vco_the_great_game_completed_93	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 93)	true
+mission_text_text_vco_the_great_game_completed_94	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 94)	true
+mission_text_text_vco_the_great_game_completed_95	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 95)	true
+mission_text_text_vco_the_great_game_completed_96	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 96)	true
+mission_text_text_vco_the_great_game_completed_97	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 97)	true
+mission_text_text_vco_the_great_game_completed_98	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 98)	true
+mission_text_text_vco_the_great_game_completed_99	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 100 regions.\\n(Current: 99)	true
+mission_text_text_vco_tmb_ark_1_thy_kingdom_come	<dummy>Arkhan has feigned obedience to Settra for long enough. The time has come to march out and retake the ancient lands of his master, the Great Necromancer Nagash.	true
+mission_text_text_vco_tmb_ark_2_born_to_serve	<dummy>The vampires did not drink from the Elixir of Life as Arkhan did, but from a lesser, corrupted version that cursed them with unlife. They are forever bound to the will of Nagash, and as his foremost servant, Arkhan can command them just as easily.	true
+mission_text_text_vco_tmb_ark_2_born_to_serve_region_overwrite	Control at least 4 of the following regions either by direct ownership or through [[img:icon_vassal]][[/img]]vassals and [[img:icon_military_alliance]][[/img]]military allies:	true
+mission_text_text_vco_tmb_ark_3_faithful_servant	<dummy>The portents are troubled. Daemons roam the earth. Ancient empires crumble before the coming of Chaos. Preparations must be made for the Great Necromancer's return.	true
+mission_text_text_vco_tze_kai_1_great_game	<dummy>Tzeentch's ultimate goal is utterly unknowable. Perhaps the Great Game and even the destruction of the Old World are merely amusing diversions for the Great Schemer. The realisation of his greater plan, if he has one, is lost in the mists of the far future.	true
+mission_text_text_vco_tze_kai_2_tancred_castle_roc	<dummy>Cultists have ascertained the location of the twelve enchanted artefacts of Gilles le Breton. Since the failed siege of Mousillon, they have been relocated to the stronghold of Tancred Castle.	true
+mission_text_text_vco_tze_kai_2_visions_past	<dummy>The Fateweaver gazes back into the past, witnessing his former self breach the magical barriers of the Lizardmen's temple-cities. He saw with only one pair of eyes back then, and thus was blind to his imminent defeat. This time, history will not repeat itself...	true
+mission_text_text_vco_tze_kai_2_visions_past_roc	<dummy>The Fateweaver gazes back into the past, witnessing his former self lay siege to the Bretonnian city of Mousillon. At the crux of victory, he was undone by the arrival of Ku'gath Plaguefather, who bludgeoned Kairos into a feathered ruin, only to find himself slaughtered in turn by a dozen blessed lances from a Bretonnian charge. If the Great Game is to continue in Tzeentch's favour, that bumbling fool must be taken off the board...	true
+mission_text_text_vco_tze_kai_3_visions_future	<dummy>The Fateweaver casts his mind forward and beholds a grim future. The Elves, Dwarfs and Lizardmen march together in an unstoppable alliance, united by the machinations of an Elven wizard within the halls of a golden dwarfhold. But to Kairos, fate is as malleable as clay. He will ensure such an eventuality does not come to pass.	true
+mission_text_text_vco_tze_kai_3_visions_future_roc	<dummy>The Fateweaver casts his mind forward and beholds a grim future. A great Cathayan host lays siege to the Impossible Fortress. Their Dragon Emperor leads the charge, blasting apart entire hosts of daemons with unfathomable magics. No... such an eventuality cannot come to pass. The future must be unmade.	true
+mission_text_text_vco_vmp_kem_1_cold_mountains_quiet_fields	<dummy>High in the quiet, cold mountains, Heinrich Kemmler lurks, peering over the walls of Blackstone Post at the ripe fields of Bastonne and the many peasants of Bretonnia. Once the mountains are secured those peasants will make for simple skeletons.	true
+mission_text_text_vco_vmp_kem_2_old_world_calls_me	<dummy>Old rivalries die hard, if at all. Petty men run a crowned Empire to the North East sat safely behind their walls, growing fat and old on their hops. The ancient Treeman Durthu stands tall in Athel Loren, slaughterer of a great Terrorgheist.  The Skull Staff chitters at their peaceful homes, itching to sunder them.	true
+mission_text_text_vco_vmp_kem_3_bloodline_awoken	The old, powerful Vampire Lords slumber in the dirt. My power now surpasses even theirs, and they will do my bidding in this new world. Fully awaken one bloodline.	true
+mission_text_text_vco_vmp_kem_3_bloodline_awoken_completed	The old, powerful Vampire Lords slumber in the dirt. My power now surpasses even theirs, and they will do my bidding in this new world. Fully awaken one bloodline (Completed).	true
+mission_text_text_vco_vmp_kem_3_lichemaster	<dummy>Like Nagash before him, Heinrich has both written and collected many works of power. He has scoured many lands, stripped the minds of many victims, torn to shreds many towns, all in search of the sorceries that will grant true invincibility.	true
+mission_text_text_vco_vmp_man_1_restless_dunes	<dummy>The shifting sands of Nehekhara hide many long lost tombs filled with powerful magical artifacts that Mannfred desires. They also hide many foes who would see him undone. They will find only death and an unlife of eternal servitude in these dunes.	true
+mission_text_text_vco_vmp_man_2_reclaim_throne	<dummy>The time has come to return to Sylvania and reclaim the von Carstein's ancestral citadel: Castle Drakenhof. In his private chambers in the uppermost tower Mannfred can continue to study the Books of Nagash he has found thus far. But first, Vlad and Isabella must be convinced to recognise his supremacy, or else be staked through the heart and left out for dawn's light to take them.	true
+mission_text_text_vco_vmp_man_3_death_comes_for_all	<dummy>Mannfred means to marshal every last vestige of the Great Necromancer's power and launch an unholy assault upon the Empire. The reign of the Midnight Aristocracy is nigh...	true
+mission_text_text_vco_wef_twi_1_dreaming_wood_1	<dummy>In the forests of Naggaroth, a portal to the Dreaming Wood grows thin; where beyond, Daemon's rage. Only Ariel can seal the dire portal, but to do so she must draw strength from the Worldroots. Should she fail, the portal will carry the Daemons to the very heart of Athel Loren!	true
+mission_text_text_vco_wef_twi_1_dreaming_wood_2	<dummy>The Hag Queen's machinations have brought Athel Loren to the brink of ruin over the centuries. Even now, she means to use the portal to the Dreaming Wood to usher in the daemonic armies of her Dark Prince. Her scheming must end.	true
+mission_text_text_vco_wef_twi_2_vauls_anvils	<dummy>Some whisper that Lord Daith is older even than Ariel and Orion, that he fled Ulthuan with the first colonists; others claim that he is Vaul himself, the Elven God of Smiths who crafted the Widowmaker with the heat of Draugnir's flames. Despite Naestra's protestations, Arahan once brazenly asked the blind smith if this was true. He merely chuckled before returning to the fires of his forge.	true
+mission_text_text_vco_wef_twi_3_sacred_pools_1	<dummy>A single, enormous Zoat emerges from the Worldroots and kneels before the Mage Queen, pledging his herd's allegiance to the Woodland Realms. The ancient being claims the Sacred Pools are under threat by invaders from across the sea who chop and burn the woods without remorse. Riled, Ariel sends her Heralds to chasten the impudent mayflies.	true
+mission_text_text_vco_wef_twi_3_sacred_pools_2	<dummy>Alarielle, Everqueen of the High Elves and Chosen of Isha, has safeguarded the forests of Avelorn for centuries. Now, she must make the final sacrifice and give both her body and soul to the Oaken Throne, where she will reign over a new Woodland Realm in the heart of Ulthuan. Alas, she will not do so willingly. She is ignorant of Isha's designs for her, and Ariel's Heralds, regrettably, must persuade her to see reason.	true
+mission_text_text_vco_chs_aza_1_sycophants_gather	<dummy>Azazel ventures into Norsca, where he once led the tribes as a powerful Chaos Lord of Slaanesh before his ascension. Now he returns, seeking new warriors and champions to swell the ranks of his Ecstatic Legions. His serpentine tail whispers in his ear, urging him to seduce those who show promise... and slaughter those who do not.	true
+mission_text_text_vco_chs_aza_2_legions_march	<dummy>The Temptator leads his Ecstatic Legions south into the Old World. Zealous warriors vow to slay this new threat, only to be reduced to gibbering imbeciles before Azazel's darkling beauty, slaves to his every whim. None can resist his allure, their repulsion quickly giving way to rapturous desire. Let them beg, beg for the privilege to be slain by his hand.	true
+mission_text_text_vco_chs_aza_3_sigmars_folly	<dummy>Though Azazel once struck Sigmar low with a poisoned blade, the wretch survived and went on to found a great empire. Azazel must finish what he started. The men of the Empire must renounce Sigmar, body and soul. Only then will Azazel's vengeance for his slain brother, Trinovantes, be complete.	true
+mission_text_text_vco_chs_aza_3_sigmars_folly_1	Control at least 8 of the following regions either by direct ownership or through [[img:icon_vassal]][[/img]]vassals and [[img:icon_military_alliance]][[/img]]military allies:	true
+mission_text_text_vco_chs_aza_1_sycophants_gather_roc	<dummy>Azazel ventures into into the Chaos Wastes, seeking new warriors to swell the ranks of his Ecstatic Legions and Dark Fortresses to barrack them. His serpentine tail whispers in his ear, urging him to seduce those who show promise... and slaughter those who do not.	true
+mission_text_text_vco_chs_aza_1_dark_fortresses_roc	Control at least 5 of the following [[url:#]]Dark Fortresses[[/url]] either by direct ownership or through [[img:icon_vassal]][[/img]]vassals and [[img:icon_military_alliance]][[/img]]military allies:	true
+mission_text_text_vco_chs_aza_2_cathay_roc	<dummy>The citizens of Cathay long to shrug off the yoke of their draconic taskmasters. They beg for a release from the mundanity of their existence. The most zealous among them participate in clandestine blood rituals, hoping to draw the Dark Prince's attention to their plight. Slaanesh sends unto them their salvation: the Prince of Damnation, Azazel.	true
+mission_text_text_vco_chs_aza_2_legions_march_roc	<dummy>The Temptator leads his Ecstatic Legions through the [[url:#]]Chaos Rifts[[/url]] and into the Old World. Zealous warriors vow to slay this new threat, only to be reduced to gibbering imbeciles before Azazel's darkling beauty, slaves to his every whim. None can resist his allure, their repulsion quickly giving way to rapturous desire. Let them beg, beg for the privilege to be slain by his hand.	true
+mission_text_text_vco_chs_fes_1_infector_counts	<dummy>Festus has returned from his journeys in Norsca with a wealth of new reagents. He aims for nothing less than to open a rift in reality, a portal so large that the essence of Nurgle's Garden can spill through into the mortal realm. It is a plan of such breathtaking ambition that even Festus privately doubts he can achieve it, yet if he is to earn his master’s favour, he knows he has to try.	true
+mission_text_text_vco_chs_fes_2_strange_bedfellows	<dummy>As the good doctor tended his gardens beneath the light of Morrslieb, he was approached by a hooded, sickly ratman who claimed to represent a sect of Skaven plague-worshippers from Lustria. He claimed that if Festus were to collect a number of ingredients from across the Old World, his master, Lord Skrolk, would be truly grateful...	true
+mission_text_text_vco_chs_fes_3_down_sickness	<dummy>As Festus sung merrily to himself within his lab, he was shocked to witness an antlered head emerge from one of his cauldrons. It was none other than Ku'gath, the Plaguefather. “My leechling,” he said, “we must spread the Urfather's gifts. Journey south, and bring new life to those stifled lands!” Festus smiled, the seed of a new vision planted in his soul.	true
+mission_text_text_vco_chs_fes_3_down_sickness_roc	<dummy>As Festus sung merrily to himself within his lab, he was shocked to witness an antlered head emerge from one of his cauldrons. It was none other than Ku'gath, the Plaguefather. “My leechling,” he said, “we must spread the Urfather's gifts. Journey through the [[url:#]]Chaos Rifts[[/url]], and bring new life to those stifled lands!” Festus smiled, the seed of a new vision planted in his soul.	true
+mission_text_text_vco_chs_vil_1_the_reckoning	<dummy>The Twisted Twin journeys into the Chaos Wastes, ostensibly seeking to raise up [[url:#]]Dark Fortresses[[/url]] to support his incursions into Cathay, but in truth, to draw the Everchosen's attention. Vilitch has not forgotten the events at Brilloinne Castle. There will be a reckoning, indeed...	true
+mission_text_text_vco_chs_vil_2_puppet_state	<dummy>The Puppets of Misrule march into the verdant fields of Cathay, each step of their boots thudding into the earth with an eerie synchrony. Every village that falls is another score of souls enslaved to Vilitch’s will.	true
+mission_text_text_vco_chs_vil_3_yueyins_diamond	<dummy>Tzeentch whispers into Vilitch's mind, instructing him to acquire a powerful relic from the lands of Cathay known as [[url:#]]Yueyin’s Diamond[[/url]]. Though little is known of the relic itself, its theft would surely thwart the Moon Empress’ plans.	true
+mission_text_text_vco_chs_vil_3_yueyins_diamond_obfuscate	The Cultists of Chi’an Chi have narrowed down the relic’s location to one of the following settlements:	true
+mission_text_text_vco_chs_vil_1_the_reckoning_roc	<dummy>The Twisted Twin journeys into Norsca, ostensibly seeking to raise up [[url:#]]Dark Fortresses[[/url]] to support his incursions into the Old World, but in truth, to draw the attention of Archaon the Everchosen. Vilitch has not forgotten the events at Briolloinne Castle. There will be a reckoning, indeed...	true
+mission_text_text_vco_chs_vil_2_master_puppets_roc	<dummy>The Puppets of Misrule march into the Old World, each step of their boots thudding into the earth with an eerie synchrony. Every city that falls is another score of souls enslaved to Vilitch’s will.	true
+mission_text_text_vco_chs_vil_3_doubters_folly_roc	<dummy>A cabal of cultists have forsaken Tzeentch and now pledge themselves to some lesser being known only as Necoho. The Changer has tasked Vilitch with finding and slaughtering these traitors for their apostasy.	true
+mission_text_text_vco_chs_vil_3_doubters_folly_obfuscate_roc	Agents of Tzeentch have narrowed down the traitor-cult's whereabouts to one of the following locations:	true
+mission_text_text_vco_chs_val_1_blood_snow	<dummy>The Gorequeen's legions have broken through the Druchii's watchtowers and now threaten to besiege their cities directly. Valkia descends from the skies, ready to lead her followers personally. She means to present her diabloic paramour a most precious gift: the skull of the Witch King.	true
+mission_text_text_vco_chs_val_2_bringer_glory	<dummy>The Legion of the Gorequeen rampages across Naggaroth, fighting with a blood-crazed fervour rarely seen amongst their ilk, for they alone know the Blood God's gaze is upon them. Valkia circles above on wings of red ruin, searching for those who are worthy to fight on in the Realms of Chaos after their death.	true
+mission_text_text_vco_chs_val_3_shup_up_daemon	<dummy>Locephax's incessant gibbering has reached intolerable levels of late. Eager to humble the ever-prideful daemon, Valkia journeys east, seeking out the foremost of the Dark Prince's champions. When Locephax witnesses their pitiful deaths, perhaps he will, at last, be silent.	true
+mission_text_text_vco_chs_val_1_blood_snow_roc	<dummy>The Gorequeen's legions surge out from the north, seeking to break the bastion of the Old World once and for all. At their head is Valkia, a near-mythical figure to the savage northmen. She has vowed to present her diabloic paramour with the skull of the Ice Queen.	true
+mission_text_text_vco_chs_val_2_bringer_glory_roc	<dummy>The Legion of the Gorequeen rampages across the Dark Lands, fighting with a blood-crazed fervour rarely seen amongst their ilk, for they alone know the Blood God's gaze is upon them. Valkia circles above on wings of red ruin, seeking out those who are worthy to fight on in the Realms of Chaos after their death.	true
+mission_text_text_vco_chs_val_3_shup_up_daemon_roc	<dummy>Locephax's incessant gibbering has reached intolerable levels of late. Seeking to humble the ever-prideful daemon, Valkia journeys into the Chaos Wastes, seeking out the Dark Prince's greatest champion. When Locephax witnesses N'Kari's pitiful death, perhaps he will, at last, be silent.	true
+mission_text_text_vco_hef_imr_1_eastern_ambitions	<dummy>[[col:ancillary_uncommon]]Bruwor[[/col]], the [[col:ancillary_uncommon]]Protector of Life[[/col]], urges Imrik to save the [[col:fe_white]]Haunted Forest[[/col]] from the foul agents of corruption that have poisoned its roots. He assures the Dragon Prince that such a gesture will surely win him favour with the Elves of Athel Loren. Though Imrik is not particularly enamoured with his wayward kin of the forests, he nevertheless agrees, as Minaithnir has been restless of late and longs for battle.	true
+mission_text_text_vco_hef_imr_1_eastern_ambitions_1	<dummy>A beleaguered caravan from the east arrives at the Fortress of Vorag. The Caravan Master beseeches the Knights of Caledor for aid, for the [[col:yellow]]Ivory Road[[/col]] has grown untenably treacherous. Seeking an opportunity to curry favour with Cathay's mysterious draconic rulers, Imrik agrees to the request. For good measure, he assigns an envoy to travel east and entreat with the ruler of the Celestial Riverlands, the [[col:green]]Jade Dragon[[/col]]: Prince Yuan Bo.	true
+mission_text_text_vco_hef_imr_2_vengeance_dark_lands	<dummy>[[col:ancillary_rare]]Lamoureux[[/col]] returns from the north with dire news. The sacred [[col:fe_white]]Grave of the Dragons[[/col]] has been desecreated by a series of profane rituals enacted by the hateful [[col:dark_r]]Chaos Dwarfs[[/col]]. The she-dragon howls to the moon, a keening cry that sends chills down Imrik's spine. Wasting no time, the Knights of Caledor march north.	true
+mission_text_text_vco_hef_imr_2_vengeance_dark_lands_1	<dummy>[[col:ancillary_unique]]Shackolot[[/col]] is a rarity among his kind, a sentient Black Dragon, taken from Naggaroth when he was just an egg. He languished in the dungeons of the [[col:subtitle_daemon_prince]]Silver Pinnacle[[/col]] for years before making his escape. With Imrik's aid, he wishes to return and enact vengeance upon his vampiric captors.	true
+mission_text_text_vco_hef_imr_3_gold_glory	<dummy>[[col:fe_white]]Caledor[[/col]] is a silent realm. It has been centuries since the skies rang to the cries of dragons and the roar of their fiery breaths. One by one, they drifted into slumber, becoming ever more difficult to rouse. Yet [[col:subtitle_ursun]]Ymwrath the Eternal[[/col]] means to see those days returned. He urges Imrik to return to [[col:fe_white]]Caledor[[/col]] so that he can awaken his slumbering kin.	true
+mission_text_text_vco_hef_imr_3_gold_glory_1	<dummy>[[col:yellow]]Gordinar[[/col]] is a Sun Dragon, the youngest of his kind, named as such by the Elves for their hot tempers and the rich, warm hue of their scales. He longs for battle, and so urges Imrik to lead the dragonflight west, into the [[col:fe_white]]Badlands[[/col]], where there are many foes to be found.	true
+mission_text_text_vco_vmp_hel_1_necrotic_harvest	<dummy>Reading from the Cursed Book of Har-ak-Iman, Helman devises a new spell. He will need three reagents: the [[col:subtitle_festus]]ichor of a greater plague-daemon[[/col]], the [[col:fe_white]]bones of a dragon[[/col]], and the [[col:subtitle_valkia]]blood of a holy man[[/col]]. He journeys west, to the ancient necropolis of [[url:#]]Nagashizzar[[/url]], a site of dread power that he must harness if the spell is to be successful.	true
+mission_text_text_vco_vmp_hel_2_killing_fields_cathay	<dummy>When Helman was a simple farrier in the village of Templehof, he had always dreamed of journeying to the far off lands of Grand Cathay. Now, his dream will become their nightmare as his shambling horde floods into the western provinces. His goal is twofold: to swell his armies with Cathay's vast population, and to search these far-off lands for any exotic spell or artifact that could return his brothers to life.	true
+mission_text_text_vco_vmp_hel_3_the_summoning	<dummy>Helman's ongoing quest to save his brothers from death has thus far failed to come to fruition. Growing reckless, he ventures north to gather reagents for a dangerous summoning spell.	true
+mission_text_text_vco_vmp_hel_2_the_summoning_1	Search the [[url:#]]Mountains of Mourn[[/url]] for the [[col:fe_white]]Bones of a Skytitan[[/col]] via [[img:sword_of_khaine]][[/img]]conquest or through [[img:icon_vassal]][[/img]]vassals and [[img:icon_military_alliance]][[/img]]military allies:	true
+mission_text_text_vco_vmp_hel_2_the_summoning_2	Search the [[url:#]]Dark Lands[[/url]] for a [[col:subtitle_valkia]]Darkforged Vessel[[/col]] via [[img:sword_of_khaine]][[/img]]conquest or through [[img:icon_vassal]][[/img]]vassals and [[img:icon_military_alliance]][[/img]]military allies:	true
+mission_text_text_vco_cst_cyl_1_ghost_seashell	<dummy>“The New World offers opportunities for a budding starlet such as myself; there is treasure, spoils and an ignorant yet keen audience. If I cannot sing for the Elves of Ulthuan then I shall dazzle their dark kin instead! I shall perform for the Dreadlords, for alliances - no matter how fleeting - can be made... but if they do not applaud, then they will join the Drowned!”	true
+mission_text_text_vco_cst_cyl_2_what_lurks_below	<dummy>A zombified Black Ark Fleetmaster tells the tale of a vast [[col:ancillary_rare]]Underworld Sea[[/col]] beneath [[url:#]]Naggaroth[[/url]]. It is a treacherous place, teeming with many strange and cruelly predatory creatures, and, if rumour has it, an entire lost civilisation hidden somewhere within its depths. This dark abyss holds ancient terrors that even the dead should fear, but Cylostra is unperturbed. She sees only an opportunity for a new audience!	true
+mission_text_text_vco_cst_cyl_2_what_lurks_below_1	Beneath ancient sites across [[url:#]]Naggaroth[[/url]] are subterranean entrances into the [[col:ancillary_rare]]Underworld Sea[[/col]]. Cylostra will explore their depths, but first they must be secured via [[img:sword_of_khaine]][[/img]]conquest or through [[img:icon_vassal]][[/img]]vassals and [[img:icon_military_alliance]][[/img]]military allies:	true
+mission_text_text_vco_cst_cyl_3_rising_tide	<dummy>With the [[url:#]]Star-Metal Harpoon[[/url]] and all 3 verses of the [[url:#]]Lost Sea Shanty[[/url]], Cylostra will slay [[col:ancillary_rare]]Amanar[[/col]], the mighty defender of [[col:fe_white]]Lothern[[/col]], and bend it to her will. Then she will unleash the sea beast's fury upon the city, dragging it down to the abyssal depths, and the Phoenix King will finally bear witness to her triumphant song!	true
+mission_text_text_vco_cst_cyl_2_rising_tide_1	<dummy>Long ago, a Bretonnian King sent Cylostra on her doomed voyage to Ulthuan to sing for the Phoenix King. Now, she returns at the head of a vast, shambling host. She does not recognise this new king, the one the peasants call "Lionheart". No matter. He, too, will learn to love her music!	true
+mission_text_text_vco_brt_rep_1_desert_crusades	<dummy>With the Lady's divine message still clear in her mind, Repanse has arrived on the coast of Araby wholeheartedly prepared for war. The provenances of evil are increasingly strong and numerous in the desert, evils that cannot be allowed to endure lest they find their way back to the homeland.	true
+mission_text_text_vco_brt_rep_2_cleansing_the_land	<dummy>“Wretched armies of the Undead shamble across these scorched sands, led by their depraved overlords. Whether you be commoner or noble, take up your blades, and follow me into glorious battle! Onwards, for the Lady!”	true
+mission_text_text_vco_brt_rep_3_lyonesse_lawbringer	<dummy>To the south of Repanse's beloved home dukedom of Lyonesse, Undead pirates stalk the seas, plundering critically needed relief flotillas en route to Copher Port. The Damsel of War cares not whether she fights beneath the scorching desert sun or upon the sea-drenched timbers of a galleon, and so she sets sail for the foe.	true

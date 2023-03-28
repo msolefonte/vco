@@ -1,3 +1,0 @@
-id	duration	effect_type	requested_stance	unbreakable	cant_move	freeze_fatigue	fatigue_change_ratio	inspiration_aura_range_mod	ability_recharge_change	resurrect	hp_change_frequency	heal_amount	damage_amount	max_damaged_entities	mana_regen_mod	mana_max_depletion_mod	imbue_magical	imbue_ignition	imbue_contact	phase_display	phase_audio	is_hidden_in_ui	affects_allies	affects_enemies	replenish_ammo	composite_scene_group	spreading	freeze_recharge	barrier_heal_amount
-#special_ability_phases_tables;41;db/special_ability_phases_tables/vco																													
-vco_lord_abilities_hunter_of_champions	28.0000	negative		false	false	false	0.0000	0.0000	0.0000	false	0.0000	0.0000	0	0	0.0000	0.0000	false	0				false	false	true	0.0000			false	0.0000

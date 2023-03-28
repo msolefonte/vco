@@ -143,7 +143,10 @@ local missions = {
 					faction wh3_main_cth_the_western_provinces;
 					faction wh3_main_cth_the_northern_provinces;
 					faction wh3_main_cth_celestial_loyalists;
+
+					confederation_valid;
 				}
+
 			
 				objective
 				{
@@ -157,7 +160,10 @@ local missions = {
 					type DESTROY_FACTION;
 
 					faction wh3_dlc21_vmp_jiangshi_rebels;
+
+					confederation_valid;
 				}
+
 
 				payload
 				{
