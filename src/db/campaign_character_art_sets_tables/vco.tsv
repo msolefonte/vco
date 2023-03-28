@@ -1,0 +1,3 @@
+art_set_id	agent_type	culture	subculture	faction	is_custom	is_male	agent_subtype	campaign_map_scale
+#campaign_character_art_sets_tables;6;db/campaign_character_art_sets_tables/vco								
+vco_wh_main_chs_archaon	general				false	true	vco_wh_main_chs_archaon	1.0000

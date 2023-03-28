@@ -16,7 +16,7 @@ local function trigger_miao_dilemma()
 end
 
 -- CHECKS --
-local function check_gol_gross_income(target_faction)
+local function check_cth_gross_income(target_faction)
 	local current_income = target_faction:income();
 
 	if current_income < REQUIRED_GROSS_INCOME then
@@ -72,14 +72,14 @@ local function add_listeners()
 	);
 
 	core:add_listener(
-		"vco_ogr_gol_faction_turn_start",
+		"vco_cth_twp_faction_turn_start",
 		"FactionTurnStart",
 		function(context)
 			return context:faction():is_human() and
 				context:faction():name() == FACTION_TWP_KEY;
 		end,
 		function(context)
-			check_gol_gross_income(context:faction());
+			check_cth_gross_income(context:faction());
 		end,
 		true
 	);

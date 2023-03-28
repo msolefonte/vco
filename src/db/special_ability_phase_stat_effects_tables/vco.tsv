@@ -1,0 +1,4 @@
+phase	stat	value	how
+#special_ability_phase_stat_effects_tables;3;db/special_ability_phase_stat_effects_tables/vco			
+vco_lord_abilities_hunter_of_champions	stat_melee_attack	-24.0000	add
+vco_lord_abilities_hunter_of_champions	stat_melee_defence	-24.0000	add

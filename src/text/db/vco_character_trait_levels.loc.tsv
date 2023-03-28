@@ -1,0 +1,6 @@
+key	text	tooltip
+#Loc;1;text/db/vco_character_trait_levels.loc		
+character_trait_levels_colour_text_vco_trait_archaon_possessed	The Everchosen was defeated by the Curseling and Sarthorael in a magical duel. He has since been... persuaded... to serve the Changer of Ways for all eternity.	true
+character_trait_levels_explanation_text_vco_trait_archaon_possessed		true
+character_trait_levels_onscreen_name_vco_trait_archaon_possessed	Everslave	true
+character_trait_levels_removal_text_vco_trait_archaon_possessed		true
