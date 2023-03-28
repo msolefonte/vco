@@ -4,7 +4,7 @@ local missions = {
 		{
 			victory_type vco_victory_type_chs_vil_1_the_reckoning_roc;
 			key wh_main_short_victory;
-			issuer CLAN_ELDERS;
+			issuer MUFFIN_MAN;
 			primary_objectives_and_payload
 			{
 				objective
@@ -68,7 +68,7 @@ local missions = {
 		{
 			victory_type vco_victory_type_chs_vil_2_master_puppets_roc;
 			key wh_main_short_victory;
-			issuer MUFFIN_MAN;
+			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
 				objective
@@ -138,7 +138,7 @@ local missions = {
 		{
 			victory_type vco_victory_type_chs_vil_3_doubters_folly_roc;
 			key wh_main_short_victory;
-			issuer MUFFIN_MAN;
+			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
 				objective

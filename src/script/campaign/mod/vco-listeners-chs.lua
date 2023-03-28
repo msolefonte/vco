@@ -30,11 +30,11 @@ end
 local function trigger_vil_dilemma()
 	cm:trigger_dilemma(FACTION_VIL_KEY, KEY_D_THE_RECKONING)
 	if not cm:get_faction("wh_main_chs_chaos") then
-    cm:spawn_character_to_pool("wh3_dlc20_chs_vilitch", "names_name_2147343903", "names_name_21473573645", "", "", 18, true, "general", "wh_main_chs_archaon", true, "");
+    cm:spawn_character_to_pool("wh3_dlc20_chs_vilitch", "names_name_2147343903", "names_name_21473573645", "", "", 18, true, "general", "vco_wh_main_chs_archaon", true, "");
     
     elseif not cm:get_faction("wh_main_chs_chaos"):was_confederated()
     then
-    cm:spawn_character_to_pool("wh3_dlc20_chs_vilitch", "names_name_2147343903", "names_name_21473573645", "", "", 18, true, "general", "wh_main_chs_archaon", true, "");
+    cm:spawn_character_to_pool("wh3_dlc20_chs_vilitch", "names_name_2147343903", "names_name_21473573645", "", "", 18, true, "general", "vco_wh_main_chs_archaon", true, "");
     end
 end
 
@@ -83,7 +83,7 @@ local function add_listeners()
 		"MissionSucceeded",
 		function(context)
 			return context:faction():name() == FACTION_AZA_KEY and
-				context:mission():mission_issuer_record_key() == "CLAN_ELDERS";
+				context:mission():mission_issuer_record_key() == "MUFFIN_MAN";
 		end,
 		trigger_aza_dilemma,
 		false
@@ -94,7 +94,7 @@ local function add_listeners()
 		"MissionSucceeded",
 		function(context)
 			return context:faction():name() == FACTION_FES_KEY and
-				context:mission():mission_issuer_record_key() == "CLAN_ELDERS";
+				context:mission():mission_issuer_record_key() == "MUFFIN_MAN";
 		end,
 		trigger_fes_dilemma,
 		false
@@ -105,7 +105,7 @@ local function add_listeners()
 		"MissionSucceeded",
 		function(context)
 			return context:faction():name() == FACTION_VIL_KEY and
-				context:mission():mission_issuer_record_key() == "CLAN_ELDERS";
+				context:mission():mission_issuer_record_key() == "MUFFIN_MAN";
 		end,
 		trigger_vil_dilemma,
 		false
@@ -115,13 +115,19 @@ core:add_listener(
     "adds_trait_to_possessed_archaon",
     "CharacterCreated",
     function(context)
-			return context:character():character_subtype_key() == "wh_main_chs_archaon"
+			return context:character():character_subtype_key() == "vco_wh_main_chs_archaon"
     end,
     function(context)
         local character = context:character()
         local cqi = character:command_queue_index()
         local lookup_str = cm:char_lookup_str(cqi)
         cm:force_add_trait(lookup_str,"vco_trait_archaon_possessed", true, 1)
+        cm:force_add_ancillary(character,"vco_anc_weapon_the_slayer_of_kings", false, true)
+        cm:force_add_ancillary(character,"vco_anc_talisman_the_eye_of_sheerian", false, true)
+        cm:force_add_ancillary(character,"vco_anc_armour_the_armour_of_morkar", false, true)
+        cm:force_add_ancillary(character,"vco_anc_enchanted_item_the_crown_of_domination", false, true)
+        cm:force_add_ancillary(character,"vco_anc_arcane_item_vilitchs_locket", false, false)
+        cm:add_agent_experience(lookup_str, 57500)
     end,
     false
     );
@@ -131,7 +137,7 @@ core:add_listener(
 		"MissionSucceeded",
 		function(context)
 			return context:faction():name() == FACTION_VAL_KEY and
-				context:mission():mission_issuer_record_key() == "CLAN_ELDERS";
+				context:mission():mission_issuer_record_key() == "MUFFIN_MAN";
 		end,
 		trigger_val_dilemma,
 		false

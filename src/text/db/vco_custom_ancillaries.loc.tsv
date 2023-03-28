@@ -1,0 +1,62 @@
+key	text	tooltip
+#Loc;1;text/db/vco_custom_ancillaries.loc		
+ancillaries_colour_text_vco_anc_arcane_item_cube_of_darkness	Found in the metal ark beneath Xhotl, the Cube of Darkness is as alien as it is powerful. Viewed up close, this small black cube contains millions of tiny pin-pricks of blinking light, each circling a sphere of pure darkness. By implementing the correct pattern of thoughts, the cube may be opened for a fraction of a second, inexpleciably drawing the very Winds of Magic into its depths.	true
+ancillaries_colour_text_vco_anc_enchanted_item_the_crown_of_sorcery	The Crown's whispered advice lured Azhag into an ambush whereupon he was slain by Arkhan the Black, greatest of Nagash's servants. With the Crown now in his possession, the Great Necromancer's return is imminent.	true
+ancillaries_colour_text_vco_anc_magic_standard_shroud_of_gilles	This holy relic still bears the image of the Bretonnian hero's body, imprinted with his blood when he was mortally wounded. The Cultists of Tzeentch now use this sacred blood of the slain hero in their profane rituals.	true
+ancillaries_colour_text_vco_anc_weapon_ghal_maraz	Ghal Maraz is the legendary hammer of Sigmar and one of the most potent magical artefacts in the entire world. This rune-encrusted weapon has been the symbol of the Emperor's office ever since the founding of the Empire.	true
+ancillaries_colour_text_vco_anc_weapon_stolen_hand_of_gods	This ancient artifact of the Old Ones was once wielded by the legendary Saurus Kroq-Gar, before his defeat at the hands of Kairos Fateweaver. It has been repurposed into a weapon of dread power.	true
+ancillaries_colour_text_vco_anc_weapon_the_blade_of_realities	Brought to the world by the Old Ones, this weapon shimmers with unnatural power. Legends carved on ancient stone claim the blade exists on every plane of reality simultaneously, and that its edge can sever a creature's soul. No earthly force can stop this deadly blade - it penetrates granite and steel as easily as it slices through flesh and bone.	true
+ancillaries_colour_text_vco_anc_weapon_the_heartwood_lance	This lance was crafted from the heart of the Major Oak, the largest tree in Bretonnia, which was shattered by lightning the moment Gilles was struck down. Its blackened wood is covered with tiny carvings depicting the twelve battles of Gilles and, despite being harder than stone and diamond sharp, it is lightweight and beautiful to behold.	true
+ancillaries_onscreen_name_vco_anc_arcane_item_cube_of_darkness	Cube of Darkness	true
+ancillaries_onscreen_name_vco_anc_enchanted_item_the_crown_of_sorcery	The Crown of Sorcery	true
+ancillaries_onscreen_name_vco_anc_magic_standard_shroud_of_gilles	The Shroud of Gilles le Breton	true
+ancillaries_onscreen_name_vco_anc_weapon_ghal_maraz	Ghal Maraz	true
+ancillaries_onscreen_name_vco_anc_weapon_stolen_hand_of_gods	Repurposed Hand of Gods	true
+ancillaries_onscreen_name_vco_anc_weapon_the_blade_of_realities	The Blade of Realities	true
+ancillaries_onscreen_name_vco_anc_weapon_the_heartwood_lance	The Heartwood Lance	true
+ancillaries_onscreen_name_vco_anc_weapon_scourge	Scourge	true
+ancillaries_onscreen_name_vco_anc_weapon_the_sword_of_couronne	Profaned Sword of Couronne	true
+ancillaries_onscreen_name_vco_anc_enchanted_item_moonstone	Moonstone of the Hidden Ways	true
+ancillaries_onscreen_name_vco_anc_arcane_item_mirror_of_the_ice_queen	Mirror of the Ice Queen	true
+ancillaries_colour_text_vco_anc_weapon_scourge	Scourge is a lethal whip, thirsty for blood and wrapped in the bitter curses of many generations of Bray-Shamans. 	true
+ancillaries_colour_text_vco_anc_weapon_the_sword_of_couronne	This powerful heirloom was forged from the finest Bretonnian siverline. It catches the sun's rays and magnifies them, dazzling the foe as the wielder makes their death stroke. It is now stained with the golden blood of Bretonnia's Royarch.	true
+ancillaries_colour_text_vco_anc_enchanted_item_moonstone	In ages past, the worldroots linked Athel Loren not only with every forest upon the face of the world, but those further afield also. Much has changed since those days. Many pathways are now forever closed, and those that remain can be unsealed only through the use of this ancient Moonstone.	true
+ancillaries_colour_text_vco_anc_arcane_item_mirror_of_the_ice_queen	A hand mirror fashioned from flawless ice and bound within an intricate frame of frostwork. A gift from the Ice Queen to Azazel, so that he can gaze upon his beautiful form whenever he deems fit.	true
+ancillaries_onscreen_name_vco_anc_weapon_blade_of_corruption	Blade of Corruption	true
+ancillaries_colour_text_vco_anc_weapon_blade_of_corruption	This sword was left for 13 days in the dreaded Cauldron of a Thousand Poxes before it was presented to the Leechlord as a gesture of peace from Clan Pestilens.	true
+ancillaries_onscreen_name_vco_anc_arcane_item_warp_scroll	Warp Scroll	true
+ancillaries_colour_text_vco_anc_arcane_item_warp_scroll	This copied magical script outlines techniques from the great Liber Bubonicus. It has been written in warpstone ink on flayed hides of those unable to withstand the Great Horned Rat's gifts.	true
+ancillaries_onscreen_name_vco_anc_arcane_item_yueyins_diamond	Yueyin's Diamond	true
+ancillaries_colour_text_vco_anc_arcane_item_yueyins_diamond	This brilliant crystal shines with the light of the true moon itself. Its touch is anaethama to daemons, and even to stare upon it is to risk banishment back to the Realms of Chaos.	true
+ancillaries_onscreen_name_vco_anc_enchanted_item_the_rock_of_inevitability	The Rock of Inevitability	true
+ancillaries_colour_text_vco_anc_enchanted_item_the_rock_of_inevitability	Deep in the Realm of Chaos sits the Inevitable City. It is an ageless edifice that lies ever distant from those who seek to reach it, and shadows every step taken by those who wish to escape it. The city has been destroyed many times, but has always rebuilt itself - and always will so long as a single stone remains. Indeed, if but one worn brick from its walls is planted in the mortal realm, it is said that a new city will soon arise.	true
+ancillaries_onscreen_name_vco_anc_weapon_witstealer_sword	Witstealer Sword	true
+ancillaries_colour_text_vco_anc_weapon_witstealer_sword	Forged in the molten heat of desire and cooled in a vat of Slaanesh's own blood, the Witstealer Sword was presented to the Arch-tempter by the Dark Prince himself.	true
+ancillaries_onscreen_name_vco_anc_weapon_sliverslash	Sliverslash	true
+ancillaries_colour_text_vco_anc_weapon_sliverslash	It is said Prince Sigvald's ornate sword is forged from a sliver of Slaanesh's own blade. It moves like quicksilver, striking its foes down in a flurry of lightning-quick blows.	true
+ancillaries_onscreen_name_vco_anc_weapon_warpsword_of_khaine	The Warpsword of Khaine	true
+ancillaries_colour_text_vco_anc_weapon_warpsword_of_khaine	"The Time of Blood is at hand!"	true
+ancillaries_onscreen_name_vco_anc_talisman_superior_collar_of_khorne	Superior Collar of Khorne	true
+ancillaries_colour_text_vco_anc_talisman_superior_collar_of_khorne	Valkia's hellsmiths have used the blood of the slain Ice Witches to create a uniquely superior Collar of Khorne. This rune-etched brass collar will protect the wearer from all but the most grevious of magical attacks.	true
+ancillaries_onscreen_name_vco_anc_weapon_the_slayer_of_kings	The Slayer of Kings	true
+ancillaries_colour_text_vco_anc_weapon_the_slayer_of_kings	The Second Everchosen, Vangel, trapped the Greater Daemon U'zuhl inside this regicidal blade. Aeons of imprisonment inside the blade have driven the Daemon insane with rage. In battle, the blade moans with barely contained fury.	true
+ancillaries_onscreen_name_vco_anc_armour_the_armour_of_morkar	The Armour of Morkar	true
+ancillaries_colour_text_vco_anc_weapon_the_slayer_of_kings	Once belonging to the First Everchosen of Chaos, this ancient suit of Chaos Armour is as powerful as those who have dared to wear it.	true
+ancillaries_onscreen_name_vco_anc_talisman_the_eye_of_sheerian	The Eye of Sheerian	true
+ancillaries_colour_text_vco_anc_talisman_the_eye_of_sheerian	Named after the Tzeentchian Sorcerer who discovered it, the Eye sees nearly all. Its current owner should make use of its prophetic powers...	true
+ancillaries_onscreen_name_vco_anc_enchanted_item_black_dragon_egg	Liberated Black Dragon Egg	true
+ancillaries_colour_text_vco_anc_enchanted_item_black_dragon_egg	In Ulthuan, the egg of a Dragon is sacred, and harsh punishment awaits any who endanger or disturb a Dragon nest. For the Vampires, a Dragon egg is naught but a potential source of power, and their nests nothing but cradles to nurture that power. This particular egg was liberated from the clutches of the Lahmian Sisterhood. Shackolot has vowed to raise it to maturity.	true
+ancillaries_onscreen_name_vco_anc_enchanted_item_dragonfire_staff	Dragonfire Staff	true
+ancillaries_colour_text_vco_anc_enchanted_item_dragonfire_staff	This gnarled staff of Helman's own design was carved from a rotten branch from the Haunted Forest. It is adorned with an ornate silver topper shaped like the head of a dragon, a powerful arcane artifact pillaged from a Cathayan caravan.	true
+ancillaries_onscreen_name_vco_anc_arcane_item_eye_of_the_deep	Eye of the Deep	true
+ancillaries_colour_text_vco_anc_arcane_item_eye_of_the_deep	An intricately crafted orb of unknown material that shimmers with an otherworldly light. Cylostra received it from a strange entity she encountered in the Underworld Sea.	true
+ancillaries_onscreen_name_vco_anc_arcane_item_golden_lamp	Golden Lamp	true
+ancillaries_colour_text_vco_anc_arcane_item_golden_lamp	While doing battle with Arabyan cultists, Henri and Repanse were set upon by a Fire-Djinn. Henri managed to outsmart the spirit by appealing to its pride, loudly declaring that it couldn't possibly contain its tempestuous form into so small a receptacle. The djinn was only too eager to prove Henri wrong, and shortly thereafter found itself imprisoned. Repanse sought to destroy it, but the Prophetesses persuaded her to stay her hand so that they can continue to study it.	true
+ancillaries_onscreen_name_vco_anc_enchanted_item_the_crown_of_domination	The Crown of Domination	false
+ancillaries_colour_text_vco_anc_enchanted_item_the_crown_of_domination	An ancient battle-helm dating back to the time of Morkar, it exudes an aura of raw malice to cow the servants of Chaos.	false
+ancillaries_onscreen_name_vco_anc_arcane_item_vilitchs_locket	Vilitch's Locket	false
+ancillaries_colour_text_vco_anc_arcane_item_vilitchs_locket	This ornate silver locket hangs around Archaon's neck at all times, threatening to throttle him at the slightest sign of disobedience. At times its filigreed surface slides open, revealing a blinking, living eye through which the Curseling sees all.	false
+ancillaries_onscreen_name_vco_anc_weapon_blade_of_shadow	Blade of Shadow	false
+ancillaries_colour_text_vco_anc_weapon_blade_of_shadow	A lesser blade forged from shadow magic siphoned from Be'lakor himself. Since the Godslayer spoke his True Name, he was incapable of resisting the act.	false
+ancillaries_onscreen_name_vco_anc_weapon_shard_blade	Shard Blade	false
+ancillaries_colour_text_vco_anc_weapon_shard_blade	The blade of Boris Ursus was crafted from the glaciers of Norsca and magically bound to remain forever frozen. When this mighty polearm strikes, the foe's blood turns to ice.	false

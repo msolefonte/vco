@@ -8,7 +8,7 @@ mct_mod:set_title("Victory Conditions Overhaul");
 mct_mod:set_author("Wolfy");
 mct_mod:set_description("Complete overhaul of Victory Conditions for all factions. Also a framework.");
 
-mct_mod:add_new_section("1-vco-campaigns", "Victory Conditions Overhaul Campaigns");
+mct_mod:add_new_section("1_vco_campaigns", "Victory Conditions Overhaul Campaigns");
 
 local campaign_immortal_empires_enabled = mct_mod:add_new_option("campaign_immortal_empires_enabled", "checkbox");
 campaign_immortal_empires_enabled:set_default_value(true);
@@ -20,7 +20,7 @@ campaign_realms_of_chaos_enabled:set_default_value(true);
 campaign_realms_of_chaos_enabled:set_text("Enable Realms of Chaos");
 campaign_realms_of_chaos_enabled:set_tooltip_text("Do you want VCO victory conditions for Realms of Chaos?");
 
-mct_mod:add_new_section("3-vco-ao", "Advanced Options", false);
+mct_mod:add_new_section("3_vco_ao", "Advanced Options", false);
 
 local logging_enabled = mct_mod:add_new_option("logging_enabled", "checkbox");
 logging_enabled:set_default_value(false);

@@ -91,7 +91,10 @@ local missions = {
 
 					faction wh3_main_ksl_the_ice_court;
 					faction wh3_main_ksl_the_great_orthodoxy;
+
+					confederation_valid;
 				}
+
 			
 				objective
 				{

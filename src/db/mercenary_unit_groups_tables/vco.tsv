@@ -1,0 +1,10 @@
+key	chance_to_replenish	max_count	unit_record	use_partial_replenishment	max_replenish_per_turn
+#mercenary_unit_groups_tables;2;db/mercenary_unit_groups_tables/vco					
+vco_wh_dlc04_emp_inf_flagellants_0	100.0000	1	vco_wh_dlc04_emp_inf_flagellants_0	true	0.1000
+vco_wh_main_dwf_inf_slayers	100.0000	1	vco_wh_main_dwf_inf_slayers	true	0.1000
+vco_wh2_dlc10_dwf_inf_giant_slayers	100.0000	1	vco_wh2_dlc10_dwf_inf_giant_slayers	true	0.1000
+vco_wh_main_emp_art_mortar	100.0000	1	vco_wh_main_emp_art_mortar	true	0.1000
+vco_wh_main_emp_art_great_cannon	100.0000	1	vco_wh_main_emp_art_great_cannon	true	0.1000
+vco_wh2_dlc11_cst_cav_knights_errant_2	100.0000	1	vco_wh2_dlc11_cst_cav_knights_errant_2	true	0.1000
+vco_wh2_dlc11_cst_cav_knights_of_the_realm	100.0000	1	vco_wh2_dlc11_cst_cav_knights_of_the_realm	true	0.1000
+vco_wh2_dlc11_cst_cav_questing_knights_0	100.0000	1	vco_wh2_dlc11_cst_cav_questing_knights_0	true	0.1000
