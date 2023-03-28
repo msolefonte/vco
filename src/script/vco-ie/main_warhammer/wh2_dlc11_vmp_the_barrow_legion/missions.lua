@@ -21,7 +21,10 @@ local missions = {
 					faction wh_main_brt_bastonne;
 					faction wh_main_brt_artois;
 					faction wh3_main_brt_aquitaine;
+
+					confederation_valid;
 				}
+
 			
 				objective
 				{
@@ -85,7 +88,10 @@ local missions = {
 					type DESTROY_FACTION;
 
 					faction wh_main_emp_empire;
+
+					confederation_valid;
 				}
+
 
 				objective
 				{
@@ -103,7 +109,10 @@ local missions = {
 					type DESTROY_FACTION;
 
 					faction wh_dlc05_wef_argwylon;
+
+					confederation_valid;
 				}
+
 
 				payload
 				{

@@ -6,32 +6,22 @@ local FACTION_TIC_KEY = "wh3_main_ksl_the_ice_court";
 local SUBCULTURE_KEY = "wh3_main_sc_ksl_kislev";
 local KEY_D_CALL_FOR_AID = "vco_ksl_kat_dilemma_call_for_aid";
 
-local KEY_U_LUMINARK = { "wh_main_emp_veh_luminark_of_hysh_0" };
-local KEY_U_SLAYERS = { "wh_main_dwf_inf_slayers" };
-local KEY_U_GIANT_SLAYERS = { "wh2_dlc10_dwf_inf_giant_slayers" };
-local KEY_U_MORTAR = { "wh_main_emp_art_mortar" };
-local KEY_U_GREAT_CANNON = { "wh_main_emp_art_great_cannon" };
 
-local function ksl_lock_units()
-	vlc.unit_locks:lock_units_by_subculture(KEY_U_LUMINARK, SUBCULTURE_KEY);
-	vlc.unit_locks:lock_units_by_subculture(KEY_U_SLAYERS, SUBCULTURE_KEY);
-	vlc.unit_locks:lock_units_by_subculture(KEY_U_GIANT_SLAYERS, SUBCULTURE_KEY);
-	vlc.unit_locks:lock_units_by_subculture(KEY_U_MORTAR, SUBCULTURE_KEY);
-	vlc.unit_locks:lock_units_by_subculture(KEY_U_GREAT_CANNON, SUBCULTURE_KEY);
-end
-
-local function tgo_unlock_luminark()
-	vlc.unit_locks:unlock_unit(KEY_U_LUMINARK[1], FACTION_TGO_KEY);
+local function tgo_unlock_flagellants()
+    local faction = cm:get_faction("wh3_main_ksl_the_great_orthodoxy");
+        cm:add_unit_to_faction_mercenary_pool(faction, "vco_wh_dlc04_emp_inf_flagellants_0", "province_recruitment", 5, 100, 5, 1, "", "", "", true, "vco_wh_dlc04_emp_inf_flagellants_0");
 end
 
 local function tic_unlock_dwarf_units()
-	vlc.unit_locks:unlock_unit(KEY_U_SLAYERS[1], FACTION_TIC_KEY);
-	vlc.unit_locks:unlock_unit(KEY_U_GIANT_SLAYERS[1], FACTION_TIC_KEY);
+    local faction = cm:get_faction("wh3_main_ksl_the_ice_court");
+        cm:add_unit_to_faction_mercenary_pool(faction, "vco_wh_main_dwf_inf_slayers", "province_recruitment", 5, 100, 5, 1, "", "", "", true, "vco_wh_main_dwf_inf_slayers");
+        cm:add_unit_to_faction_mercenary_pool(faction, "vco_wh2_dlc10_dwf_inf_giant_slayers", "province_recruitment", 3, 100, 3, 1, "", "", "", true, "vco_wh2_dlc10_dwf_inf_giant_slayers");
 end
 
 local function tic_unlock_empire_units()
-	vlc.unit_locks:unlock_unit(KEY_U_MORTAR[1], FACTION_TIC_KEY);
-	vlc.unit_locks:unlock_unit(KEY_U_GREAT_CANNON[1], FACTION_TIC_KEY);
+    local faction = cm:get_faction("wh3_main_ksl_the_ice_court");
+        cm:add_unit_to_faction_mercenary_pool(faction, "vco_wh_main_emp_art_mortar", "province_recruitment", 3, 100, 3, 1, "", "", "", true, "vco_wh_main_emp_art_mortar");
+        cm:add_unit_to_faction_mercenary_pool(faction, "vco_wh_main_emp_art_great_cannon", "province_recruitment", 3, 100, 3, 1, "", "", "", true, "vco_wh_main_emp_art_great_cannon");
 end
 
 -- TRIGGERS --
@@ -68,7 +58,7 @@ local function add_listeners()
 			return context:faction():name() == FACTION_TGO_KEY and
 				context:mission():mission_issuer_record_key() == "MUFFIN_MAN";
 		end,
-		tgo_unlock_luminark,
+		tgo_unlock_flagellants,
 		false
 	);
 

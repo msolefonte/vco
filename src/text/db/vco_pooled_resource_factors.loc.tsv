@@ -1,0 +1,4 @@
+key	text	tooltip
+#Loc;1;text/db/vco_pooled_resource_factors.loc		
+pooled_resource_factors_display_name_negative_vco	Campaign Rewards	false
+pooled_resource_factors_display_name_positive_vco	Campaign Rewards	false

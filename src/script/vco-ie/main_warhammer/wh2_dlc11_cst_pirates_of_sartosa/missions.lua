@@ -17,7 +17,7 @@ local missions = {
 				objective
 				{
 					type HAVE_AT_LEAST_X_OF_A_POOLED_RESOURCE;
-					total 15000;
+					total 24000;
 					pooled_resource cst_infamy;
 				}
 			

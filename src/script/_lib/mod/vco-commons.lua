@@ -160,7 +160,7 @@ end
 
 function vlc.unit_locks:lock_unit(unit_key, faction_key)
 	--vco:log("lock_unit | Locking unit " .. unit_key .. " for faction " .. faction_key);
-	cm:add_event_restricted_unit_record_for_faction(unit_key, faction_key);
+	cm:add_event_restricted_unit_record_for_faction(unit_key, faction_key,"norsca_monster_hunt_ror_unlock");
 end
 
 function vlc.unit_locks:unlock_unit(unit_key, faction_key)
