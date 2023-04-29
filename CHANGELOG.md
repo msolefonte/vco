@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [5.4.0] - 14.04.2023
+## [5.5.0] - 14.04.2023
 
 - Added new routes for Astragoth Ironhand: Disciples of Hashut
 - Added new routes for Drazhoath the Ashen: The Legion of Azgorh
@@ -16,7 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed a display issue with Zhao Ming's gold collection objective
 - Fixed a visual issue where Archaon's lord objectives were not appearing in faction select screen
 
-## [5.3.0] - 28.03.2023
+## [5.4.0] - 28.03.2023
 
 - Added new routes for Helman Ghorst: Caravan of Blue Roses
 - Added new routes for Repanse de Lyonesse: Chevaliers de Lyonesse
