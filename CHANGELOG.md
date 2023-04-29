@@ -5,6 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [5.5.2] - 14.04.2023
+
+- Added immortality to Grimgor Ironbound and Archaon the Everslave
+- Added two custom items for Grimgor to acquire from defeating the Chaos Dwarfs in Route 2
+- Fixes a bug that caused Bull Centaur Tauruks to be unable to be recruited
+
+## [5.5.1] - 14.04.2023
+
+- Added flags back in to signify VCO supported factions
+- Added Grimgor Ironbound Legendary Hero (custom items and skill tree that buffs Labourers), oh and yes he's Expendable
+- Revisited all factions who were near the Dark Lands and gave them new Chaos Dwarf targets
+- Changed one of Drazhoath's buffs that gave port income
+- Fixed reported bugs
+
 ## [5.5.0] - 14.04.2023
 
 - Added new routes for Astragoth Ironhand: Disciples of Hashut
