@@ -1,3 +1,4 @@
 agent	faction	subtype
 #faction_agent_permitted_subtypes_tables;0;db/faction_agent_permitted_subtypes_tables/vco		
 general	wh3_dlc20_chs_vilitch	vco_wh_main_chs_archaon
+spy	wh3_dlc23_chd_astragoth	vco_wh_main_grn_grimgor_ironbound

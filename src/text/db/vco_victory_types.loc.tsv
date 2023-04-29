@@ -215,3 +215,21 @@ victory_types_display_name_vco_victory_type_cst_cyl_3_rising_tide	Route III - Th
 victory_types_display_name_vco_victory_type_brt_rep_1_desert_crusades	Route I - The Desert Crusades	true
 victory_types_display_name_vco_victory_type_brt_rep_2_cleansing_the_land	Route II - Cleansing the Land	true
 victory_types_display_name_vco_victory_type_brt_rep_3_lyonesse_lawbringer	Route III - The Lyonesse Lawbringer	true
+victory_types_display_name_vco_victory_type_chd_ast_1_steel_sky	Route I - Beneath A Steel Sky	true
+victory_types_display_name_vco_victory_type_chd_ast_2_the_culling	Route II - The Culling	true
+victory_types_display_name_vco_victory_type_chd_ast_3_hashut_wakes	Route III - Hashut Wakes	true
+victory_types_display_name_vco_victory_type_chd_dra_1_show_of_strength	Route I - A Show of Strength	true
+victory_types_display_name_vco_victory_type_chd_dra_2_trial_by_fire	Route II - Trial by Fire	true
+victory_types_display_name_vco_victory_type_chd_dra_3_the_last_days	Route III - The Last Days of Karaz-a-Karak	true
+victory_types_display_name_vco_victory_type_chd_zha_1_storms_end	Route I - Storm’s End	true
+victory_types_display_name_vco_victory_type_chd_zha_2_the_harrowing	Route II - The Harrowing	true
+victory_types_display_name_vco_victory_type_chd_zha_3_hashuts_ascent	Route III - Hashut’s Ascent	true
+victory_types_display_name_vco_victory_type_chd_ast_1_steel_sky_roc	Route I - Beneath A Steel Sky	true
+victory_types_display_name_vco_victory_type_chd_ast_2_the_culling_roc	Route II - The Culling	true
+victory_types_display_name_vco_victory_type_chd_ast_3_hashut_wakes_roc	Route III - Hashut Wakes	true
+victory_types_display_name_vco_victory_type_chd_dra_1_show_of_strength_roc	Route I - A Show of Strength	true
+victory_types_display_name_vco_victory_type_chd_dra_2_trial_by_fire_roc	Route II - Trial by Fire	true
+victory_types_display_name_vco_victory_type_chd_dra_3_the_last_days_roc	Route III - The Last Days of Karak Kadrin	true
+victory_types_display_name_vco_victory_type_chd_zha_1_storms_end_roc	Route I - Daemon May Cry	true
+victory_types_display_name_vco_victory_type_chd_zha_2_the_harrowing_roc	Route II - The Harrowing	true
+victory_types_display_name_vco_victory_type_chd_zha_3_hashuts_ascent_roc	Route III - Hashut’s Ascent	true

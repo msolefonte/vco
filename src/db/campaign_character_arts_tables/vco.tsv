@@ -1,3 +1,4 @@
 id	art_set_id	level	age	portrait	season	uniform	card	info	sea_uniform	navy_uniform	land_animation	sea_animation	navy_animation	land_animation_vfx_filter	sea_animation_vfx_filter	navy_animation_vfx_filter
 #campaign_character_arts_tables;0;db/campaign_character_arts_tables/vco																
 111343291	vco_wh_main_chs_archaon	0	0		none	vco_wh_main_chs_archaon			wh_main_campaign_chs_ship_heavy	wh_main_campaign_chs_ship_heavy	cam_lord_hu1c_chaos_archaon_sword_and_shield	cam_heavy_ship_04	cam_heavy_ship_04	160	0	0
+111343292	vco_wh_main_grn_grimgor_ironbound	0	0		none	vco_wh_main_grn_grimgor_ironbound			wh_main_campaign_grn_ship_heavy	wh_main_campaign_grn_ship_heavy	cam_hu2_orc_2handed_axe	cam_heavy_ship_02	cam_heavy_ship_02	0	0	0

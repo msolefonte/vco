@@ -93,6 +93,18 @@ local missions = {
 					region wh3_main_chaos_region_the_silver_pinnacle;
 				}
 
+				objective
+				{
+					type DESTROY_FACTION;
+
+					faction wh3_dlc23_chd_astragoth;
+					faction wh3_dlc23_chd_zhatan;
+					faction wh3_dlc23_chd_legion_of_azgorh;
+
+					confederation_valid;
+				}
+
+
 				payload
 				{
 					effect_bundle
