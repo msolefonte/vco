@@ -1,0 +1,24 @@
+key	text	tooltip
+#Loc;1;text/db/vco_character_skills.loc		
+character_skills_localised_name_vco_wh_main_skill_grn_lord_battle_tunnel_boss	Tunnel Boss	false
+character_skills_localised_description_vco_wh_main_skill_grn_lord_battle_tunnel_boss	Tunnel bosses are Greenskins who are good at shoutin’ and hollerin’ at mobs when underground, where space and sight is an issue.	false
+character_skills_localised_name_vco_wh_dlc08_skill_grn_lord_unique_grimgor_0	Best of Da Best	false
+character_skills_localised_description_vco_wh_dlc08_skill_grn_lord_unique_grimgor_0	Grimgor fears no injury, but despite his war-ravaged appearance has an unmatched knack for avoiding it.	false
+character_skills_localised_name_vco_wh_dlc08_skill_grn_lord_unique_grimgor_1	Back Wiv' Da Boyz!	false
+character_skills_localised_description_vco_wh_dlc08_skill_grn_lord_unique_grimgor_1	Before the Black Orc Rebellion, Grimgor was no stranger to 'ard labour. He can teach the boyz a 'fing or two.	false
+character_skills_localised_name_vco_wh_dlc08_skill_grn_lord_unique_grimgor_2	Bigger 'n' 'Arder	false
+character_skills_localised_description_vco_wh_dlc08_skill_grn_lord_unique_grimgor_2	"Grimgor is bigger 'n' 'arder 'n' betta than orl yoo uvver gits!!!"	false
+character_skills_localised_name_vco_skill_chd_grimgor_ironbound_1_da_alpha_orc	Da Alpha Orc	false
+character_skills_localised_description_vco_skill_chd_grimgor_ironbound_1_da_alpha_orc	Turns out splitting rocks ain't too different to splitting heads!	false
+character_skills_localised_name_vco_skill_chd_grimgor_ironbound_2_chain_gang	Chain Gang	false
+character_skills_localised_description_vco_skill_chd_grimgor_ironbound_2_chain_gang	“All right, boyz. Let's show 'da bull-god 'oo's 'da best!”	false
+character_skills_localised_name_vco_skill_chd_grimgor_ironbound_3_duck_weave	Duck 'n' Weave	false
+character_skills_localised_description_vco_skill_chd_grimgor_ironbound_3_duck_weave	“Keep yer 'ead down an' don't stop running, gits!”	false
+character_skills_localised_name_vco_skill_chd_grimgor_ironbound_4_hard_fast	'Ard 'n' Fast	false
+character_skills_localised_description_vco_skill_chd_grimgor_ironbound_4_hard_fast	“Da lash makes ya tuff. But when 'da stunties don't let up, well... dey don't move too fast on 'dem legs.”	false
+character_skills_localised_name_vco_skill_chd_grimgor_ironbound_5_waaagh	Waaagh!	false
+character_skills_localised_description_vco_skill_chd_grimgor_ironbound_5_waaagh	“If yer die wiv' a clean choppa I'll throw yer corpse 'n Da Dropz!”	false
+character_skills_localised_name_vco_skill_chd_grimgor_ironbound_6_grimgors_clankers	Grimgor's Clankers	false
+character_skills_localised_description_vco_skill_chd_grimgor_ironbound_6_grimgors_clankers	The cacophonous tumult of a horde of shackled Greenskins is often the first sign of an imminent Chaos Dwarf attack.	false
+character_skills_localised_name_vco_wh_main_skill_innate_grn_grimgor_ironhide	Ironbound	false
+character_skills_localised_description_vco_wh_main_skill_innate_grn_grimgor_ironhide	Mentally subjugated by Astragoth's dark magics, Grimgor lives only to serve his brutal master's will.	false

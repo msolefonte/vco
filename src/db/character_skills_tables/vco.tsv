@@ -1,0 +1,13 @@
+key	image_path	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
+#character_skills_tables;5;db/character_skills_tables/vco									
+vco_skill_chd_grimgor_ironbound_1_da_alpha_orc	battle_military_spending.png	Turns out splitting rocks ain't too different to splitting heads!	Da Alpha Orc	0	false	false	false	0.0000	0
+vco_skill_chd_grimgor_ironbound_2_chain_gang	battle_damage.png	“All right, boyz. Let's show 'da bull-god 'oo's 'da best!”	Chain Gang	0	false	false	false	0.0000	0
+vco_skill_chd_grimgor_ironbound_3_duck_weave	battle_speed.png	“Keep yer 'ead down an' don't stop running, gits!”	Duck 'n' Weave	0	false	false	false	0.0000	0
+vco_skill_chd_grimgor_ironbound_4_hard_fast	battle_health.png	“Da lash makes ya tuff. But when 'da stunties don't let up, well... dey don't move too fast on 'dem legs.”	'Ard 'n' Fast	0	false	false	false	0.0000	0
+vco_skill_chd_grimgor_ironbound_5_waaagh	battle_charge.png	“If yer die wiv' a clean choppa I'll throw yer corpse 'n Da Dropz!”	Waaagh!	0	false	false	false	0.0000	0
+vco_skill_chd_grimgor_ironbound_6_grimgors_clankers	guerrilla_deploy.png	The cacophonous tumult of a horde of shackled Greenskins is often the first sign of an imminent Chaos Dwarf attack.	Grimgor's Clankers	0	false	false	false	0.0000	0
+vco_wh_dlc08_skill_grn_lord_unique_grimgor_0	wh2_dlc15_skill_grn_best_of_da_best.png	Grimgor fears no injury, but despite his war-ravaged appearance has an unmatched knack for avoiding it.	Best of Da Best	0	false	false	false	0.0000	0
+vco_wh_dlc08_skill_grn_lord_unique_grimgor_1	character_slaves.png	Turns out splitting rocks isn't much different to splitting heads!	Back Wiv' Da Boys!	0	false	false	false	0.0000	0
+vco_wh_dlc08_skill_grn_lord_unique_grimgor_2	character_morale.png	Grimgor is bigger 'n' 'arder 'n' betta than orl yoo uvver gits!!!	Bigger 'n' 'Arder	0	false	false	false	0.0000	0
+vco_wh_main_skill_grn_lord_battle_tunnel_boss	battle_morale.png	Tunnel bosses are Greenskins who are good at shoutin’ and hollerin’ at mobs when underground, where space and sight is an issue.	Tunnel Boss	0	false	false	false	0.0000	0
+vco_wh_main_skill_innate_grn_grimgor_ironhide	trait_greenskins.png	Mentally subjugated by Astragoth's dark magics, Grimgor lives only to serve his brutal master's will.	Ironbound	0	true	false	false	5.0000	0

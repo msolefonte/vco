@@ -80,7 +80,7 @@ local missions = {
 					faction wh_main_chs_chaos;
 					faction wh3_dlc20_chs_kholek;
 					faction wh_main_grn_greenskins;
-					faction wh3_main_grn_dark_land_orcs;
+					faction wh3_dlc23_chd_astragoth;
 
 					confederation_valid;
 				}

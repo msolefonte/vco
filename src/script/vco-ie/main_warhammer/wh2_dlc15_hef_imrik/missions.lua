@@ -59,7 +59,7 @@ local missions = {
 					total 2;
 
 					province wh3_main_combi_province_ivory_road;
-					province wh3_main_combi_province_the_maw;
+					province wh3_main_combi_province_gnoblar_country;
 				}
 
 				payload
@@ -122,10 +122,19 @@ local missions = {
 
 				objective
 				{
+					type DESTROY_FACTION;
+
+					faction wh3_dlc23_chd_legion_of_azgorh;
+
+					confederation_valid;
+				}
+
+				objective
+				{
 					type CONSTRUCT_BUILDING_IN_PROVINCES;
 					faction wh2_dlc15_hef_imrik;
 
-                    province wh3_main_combi_province_the_desolation_of_azgorh;
+                    province wh3_main_combi_province_the_plain_of_bones;
 					building_level wh2_dlc15_special_graves_of_the_dragons_2_hef;
 				}
 

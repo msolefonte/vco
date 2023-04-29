@@ -93,6 +93,7 @@ local missions = {
 					region wh3_main_combi_region_nonchang;
 					region wh3_main_combi_region_shi_wu;
 					region wh3_main_combi_region_fu_hung;
+					region wh3_main_combi_region_bamboo_crossing;
 					region wh3_main_combi_region_jungles_of_chian;
 					region wh3_main_combi_region_tower_of_ashung;
 				}

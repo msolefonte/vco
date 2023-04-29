@@ -1,3 +1,4 @@
 key	agent_key	for_army	for_navy	faction_key	campaign_key	subculture	agent_subtype_key
 #character_skill_node_sets_tables;0;db/character_skill_node_sets_tables/vco							
-wh_main_skill_node_set_chs_archaon	general	false	false				vco_wh_main_chs_archaon
+wh_main_skill_node_set_vco_chs_archaon	general	false	false				vco_wh_main_chs_archaon
+wh_main_skill_node_set_vco_grn_grimgor	spy	false	false				vco_wh_main_grn_grimgor_ironbound

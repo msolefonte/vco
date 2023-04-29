@@ -7,6 +7,14 @@ local missions = {
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
+
+				objective
+				{
+					override_text mission_text_text_vco_ogr_gre_1_DUMMY_MONEY;
+					type SCRIPTED;
+					script_key vco_dummy;
+				}
+
 				objective
 				{
 					override_text mission_text_text_vco_ogr_gre_1_rich_walk_0;
@@ -61,7 +69,7 @@ local missions = {
 				objective
 				{
 					type CONTROL_N_PROVINCES_INCLUDING;
-					total 8;
+					total 7;
 
 					province wh3_main_combi_province_path_to_the_east;
 					province wh3_main_combi_province_gash_kadrak;
@@ -69,7 +77,6 @@ local missions = {
 					province wh3_main_combi_province_bone_road;
 					province wh3_main_combi_province_mountains_of_mourn;
 					province wh3_main_combi_province_ivory_road;
-					province wh3_main_combi_province_the_maw;
 					province wh3_main_combi_province_gnoblar_country;
 				}
 
