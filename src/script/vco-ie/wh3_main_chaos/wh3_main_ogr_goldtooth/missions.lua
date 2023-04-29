@@ -7,6 +7,14 @@ local missions = {
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
+
+				objective
+				{
+					override_text mission_text_text_vco_ogr_gre_1_DUMMY_MONEY;
+					type SCRIPTED;
+					script_key vco_dummy;
+				}
+
 				objective
 				{
 					override_text mission_text_text_vco_ogr_gre_1_rich_walk_0;

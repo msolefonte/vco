@@ -95,8 +95,13 @@ local missions = {
 
 				objective
 				{
-					type DEFEAT_N_ARMIES_OF_FACTION;
-					total 35;
+					type DESTROY_FACTION;
+
+					faction wh3_dlc23_chd_astragoth;
+					faction wh3_dlc23_chd_legion_of_azgorh;
+
+					confederation_valid;
+					vassalization_valid;
 				}
 
 				payload

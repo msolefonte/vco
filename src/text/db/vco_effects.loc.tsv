@@ -75,8 +75,8 @@ effects_description_vco_chs_fes_dilemma	A dilemma will offer a choice between po
 effects_description_vco_chs_vil_dilemma	A dilemma will offer a choice between powerful rewards!	true
 effects_description_vco_chs_val_dilemma	A dilemma will offer a choice between powerful rewards!	true
 effects_description_vco_vmp_hel_dilemma	A dilemma will offer a choice between powerful rewards!	true
-effects_description_vco_archaon_vilitch_dummy_mind	Archaon the Everslave will become available for recruitment	true
-effects_description_vco_archaon_vilitch_dummy_body	Archaon the Everslave will become available for recruitment	true
+effects_description_vco_archaon_vilitch_dummy_mind	Archaon the Everslave will become available for recruitment.	true
+effects_description_vco_archaon_vilitch_dummy_body	Archaon the Everslave will become available for recruitment.	true
 effects_description_vco_vil_arch_rampage	Passive ability: "Berserker" for Archaon the Everslave	true
 effects_description_vco_vil_arch_weapon_strength	Weapon strength: %+n% for Archaon the Everslave	true
 effects_description_vco_hef_tyrion_force_vassalisation_wef	All Elven Wood Elf factions will be forcibly vassalised	true
@@ -100,3 +100,22 @@ effects_description_vco_cylostra_zp_vigour_loss_reduction	Vigour loss reduction:
 effects_description_vco_brt_rep_dilemma	A dilemma will offer a choice between powerful rewards!	true
 effects_description_vco_repanse_peasant_weapon_strength	Weapon Strength: %+n% for Peasant Mob, Men-at-Arms, and Spearmen-at-Arms units	true
 effects_description_vco_repanse_peasant_physical_resistance	Physical resistance: %+n% for Peasant Mob, Men-at-Arms, and Spearmen-at-Arms units	true
+effects_description_vco_zhatan_black_orcs_dummy	Unlocks new unit: Perfected Black Orcs	true
+effects_description_vco_astragoth_labourer_weapon_strength	Weapon Strength: %+n% for Labourers	true
+effects_description_vco_drazhoath_infernal_guard_weapon_strength	Weapon Strength: %+n% for Infernal Guard and Infernal Ironsworn units	true
+effects_description_vco_chd_ast_dilemma	A dilemma will offer a choice between powerful rewards!	true
+effects_description_vco_chd_dra_dilemma	A dilemma will offer a choice between powerful rewards!	true
+effects_description_vco_chd_zha_dilemma	A dilemma will offer a choice between powerful rewards!	true
+effects_description_vco_grimgor_ironbound_labourer_recruit_rank	Recruit rank: %+n for Orc Labourer units	true
+effects_description_vco_grimgor_ironbound_labourer_bonus_large	Bonus vs Large: %+n for Orc Labourer units	true
+effects_description_vco_grimgor_ironbound_labourer_leadership	Leadership: %+n for Orc Labourer units	true
+effects_description_vco_grimgor_ironbound_labourer_experience	Unit experience gain: %+n% for Labourers	true
+effects_description_vco_grimgor_ironbound_labourer_melee_attack	Melee attack: %+n for Orc Labourer units	true
+effects_description_vco_grimgor_ironbound_labourer_weapon_strength	Weapon strength: %+n% for Orc Labourer units	true
+effects_description_vco_grimgor_ironbound_labourer_missile_resistance	Missile resistance: %n% for Orc Labourer units	true
+effects_description_vco_grimgor_ironbound_labourer_vigour	Vigour loss reduction: %+n% for Orc Labourer units	true
+effects_description_vco_grimgor_ironbound_labourer_speed	Speed: %+n% for Orc Labourer units	true
+effects_description_vco_grimgor_ironbound_labourer_melee_defence	Melee defence: %+n for Orc Labourer units	true
+effects_description_vco_grimgor_ironbound_labourer_charge_bonus	Charge bonus: %+n for Orc Labourer units	true
+effects_description_vco_grimgor_ironbound_labourer_ward_save	Ward save: %n% for Labourer units	true
+effects_description_vco_grimgor_ironbound_labourer_vanguard	Attribute: Vanguard Deployment for Labourer units	true

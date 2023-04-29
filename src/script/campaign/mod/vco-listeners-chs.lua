@@ -127,7 +127,7 @@ core:add_listener(
         cm:force_add_ancillary(character,"vco_anc_armour_the_armour_of_morkar", false, true)
         cm:force_add_ancillary(character,"vco_anc_enchanted_item_the_crown_of_domination", false, true)
         cm:force_add_ancillary(character,"vco_anc_arcane_item_vilitchs_locket", false, false)
-        cm:add_agent_experience(lookup_str, 57500)
+        cm:add_agent_experience(lookup_str, 20000)
     end,
     false
     );

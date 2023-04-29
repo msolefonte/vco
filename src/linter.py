@@ -33,7 +33,7 @@ def sort_tsv(filename):
 
 def sort_all_tsv():
     print('[linter] Sorting all TSV files')
-    path = "./db/*.tsv"
+    path = "./db/**/*.tsv"
     files = glob.glob(path)
 
     for filename in files:

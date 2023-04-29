@@ -88,12 +88,32 @@ local missions = {
 					province wh3_main_combi_province_the_plain_of_bones;
 				}
 
+				objective
+				{
+					type DESTROY_FACTION;
+
+					faction wh3_dlc23_chd_astragoth;
+					faction wh3_dlc23_chd_legion_of_azgorh;
+
+					confederation_valid;
+				}
+
 				payload
 				{
 					effect_bundle
 					{
 						bundle_key vco_victory_payload_grn_gri_2_burn_badlands;
 						turns 0;
+					}
+
+					add_ancillary_to_faction_pool
+					{
+						ancillary_key vco_anc_enchanted_black_hammer_hashut_grimgor;
+					}
+
+					add_ancillary_to_faction_pool
+					{
+						ancillary_key vco_anc_talisman_hellshard_amulet_grimgor;
 					}
 
 					effect_bundle

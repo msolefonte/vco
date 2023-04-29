@@ -1,3 +1,4 @@
 uniform_name	filename	battle_filename	campaign_porthole_filename	campaign_politician_filename	campaign_override_skeleton
 #agent_uniforms_tables;10;db/agent_uniforms_tables/vco					
 vco_wh_main_chs_archaon	wh_chs_ch_archaon	wh_chs_ch_archaon	wh_chs_ch_archaon		
+vco_wh_main_grn_grimgor_ironbound	wh_grn_ch_grimgor	wh_grn_ch_grimgor	wh_grn_ch_grimgor		

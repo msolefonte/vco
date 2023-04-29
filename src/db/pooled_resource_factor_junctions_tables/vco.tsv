@@ -1,14 +1,14 @@
 unique_id	factor	resource	minimum	maximum	specific_faction_set
 #pooled_resource_factor_junctions_tables;2;db/pooled_resource_factor_junctions_tables/vco					
 chivalry_vco	vco	brt_chivalry	-2147483647	2147483647	
+vco_chs_rifts	vco	wh3_dlc20_chs_teleport_network_rift_resource	-2147483647	2147483647	
 vco_def_slaves	vco	def_slaves	0	2147483647	
 vco_dwf_oathgold	vco	dwf_oathgold	-2147483647	2147483647	
-wh2_dlc13_resource_factor_vco	vco	emp_progress	0	2147483647	
 vco_grn_salvage	vco	grn_salvage	-2147483647	2147483647	
 vco_grn_waaagh	vco	grn_waaagh	-2147483647	2147483647	
 vco_skv_food	vco	skaven_food	0	2147483647	
 vco_skv_growth_vat	vco	skv_growth_vat	0	2147483647	
 vco_skv_mutagen	vco	skv_mutagen	0	2147483647	
-vco_vmp_blood_kiss	vco	vmp_blood_kiss	0	2147483647	
 vco_sla_devotees	vco	wh3_main_sla_devotees	-2147483647	2147483647	
-vco_chs_rifts	vco	wh3_dlc20_chs_teleport_network_rift_resource	-2147483647	2147483647	
+vco_vmp_blood_kiss	vco	vmp_blood_kiss	0	2147483647	
+wh2_dlc13_resource_factor_vco	vco	emp_progress	0	2147483647	

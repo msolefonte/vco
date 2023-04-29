@@ -19,9 +19,9 @@ local missions = {
 					type CONTROL_N_REGIONS_INCLUDING;
 					total 3;
 
+					region wh3_main_combi_region_kislev;
 					region wh3_main_combi_region_erengrad;
 					region wh3_main_combi_region_praag;
-					region wh3_main_combi_region_kislev;
 				}
 
 				objective
