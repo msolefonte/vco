@@ -90,11 +90,26 @@ local missions = {
 					building_level wh3_main_special_challenge_stone_srawl;
 				}
 
+				objective
+				{
+					type DESTROY_FACTION;
+
+					faction wh_main_grn_greenskins;
+
+					confederation_valid;
+				}
+
 				payload
 				{
 					effect_bundle
 					{
 						bundle_key vco_victory_payload_ogr_gre_2_overtyrants_reign_1;
+						turns 0;
+					}
+
+					effect_bundle
+					{
+						bundle_key vco_victory_payload_ogr_gre_2_overtyrants_reign_2;
 						turns 0;
 					}
 

@@ -155,9 +155,16 @@ local missions = {
 
 				objective
 				{
-					type CAPTURE_REGIONS;
+					type OWN_N_REGIONS_INCLUDING;
+					total 1;
 
 					region wh3_main_combi_region_karaz_a_karak;
+				}
+
+				objective
+				{
+					type DEFEAT_N_ARMIES_OF_FACTION;
+					total 35;
 				}
 
 				payload

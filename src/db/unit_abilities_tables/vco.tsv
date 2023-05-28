@@ -1,3 +1,4 @@
 key	requires_effect_enabling	icon_name	overpower_option	type	video	uniqueness	is_unit_upgrade	is_hidden_in_ui	source_type	superseded_abilities_set	is_hidden_in_ui_for_enemy
 #unit_abilities_tables;17;db/unit_abilities_tables/vco											
 vco_lord_abilities_hunter_of_champions	true	wh_dlc08_lord_abilities_fight_or_die		wh_type_hex		wh_main_anc_group_uncommon	true	false	active		false
+vco_wh3_main_army_abilities_storm_of_fire	false	wh3_main_army_abilities_storm_of_fire		wh_type_bombardment		wh_main_anc_group_rare	false	false	army		false

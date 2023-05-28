@@ -167,6 +167,7 @@ local missions = {
 					confederation_valid;
 				}
 
+
 				payload
 				{
 					effect_bundle

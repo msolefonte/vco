@@ -1,0 +1,3 @@
+army_special_ability	unit_special_ability	unique_id	enables_siege_assault
+#army_special_abilities_tables;2;db/army_special_abilities_tables/vco			
+vco_wh3_main_army_abilities_storm_of_fire	vco_wh3_main_army_abilities_storm_of_fire	339241681	false

@@ -23,6 +23,7 @@ local missions = {
 
 				objective
 				{
+					override_text mission_text_text_vco_ogr_gre_3_at_least_5_settlements;
 					type CONTROL_N_REGIONS_FROM;
 					total 5;
 
@@ -128,7 +129,8 @@ local missions = {
 
 				objective
 				{
-					type CAPTURE_REGIONS;
+					type OWN_N_REGIONS_INCLUDING;
+					total 1;
 
 					region wh3_main_chaos_region_fire_mouth;
 				}
