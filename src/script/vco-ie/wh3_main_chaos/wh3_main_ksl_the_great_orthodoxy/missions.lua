@@ -108,7 +108,8 @@ local missions = {
 
 				objective
 				{
-					type CAPTURE_REGIONS;
+					type OWN_N_REGIONS_INCLUDING;
+					total 4;
 
 					region wh3_main_chaos_region_altdorf;
 					region wh3_main_chaos_region_marienburg;

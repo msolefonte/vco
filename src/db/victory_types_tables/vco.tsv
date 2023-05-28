@@ -80,6 +80,9 @@ vco_victory_type_chs_aza_2_cathay_roc	2	0	long	long	true
 vco_victory_type_chs_aza_2_legions_march	1	0	long	long	true
 vco_victory_type_chs_aza_3_legions_march_roc	3	0	long	long	true
 vco_victory_type_chs_aza_3_sigmars_folly	2	0	long	long	true
+vco_victory_type_chs_bel_1_shadows_albion	0	0	long	long	true
+vco_victory_type_chs_bel_2_no_strings_on_me	1	0	long	long	true
+vco_victory_type_chs_bel_3_aetherophasic_engine	2	0	long	long	true
 vco_victory_type_chs_fes_1_infector_counts	0	0	long	long	true
 vco_victory_type_chs_fes_1_infector_counts_roc	1	0	long	long	true
 vco_victory_type_chs_fes_2_strange_bedfellows	1	0	long	long	true
@@ -139,6 +142,9 @@ vco_victory_type_emp_kar_3_karl_uniter	2	0	long	long	true
 vco_victory_type_emp_the_1_champions_of_the_empire	0	0	long	long	true
 vco_victory_type_emp_the_2_the_huntsmarshals_expedition	1	0	long	long	true
 vco_victory_type_emp_the_3_it_is_round	2	0	long	long	true
+vco_victory_type_emp_vol_1_restless_dunes	0	0	long	long	true
+vco_victory_type_emp_vol_2_face_your_daemons	1	0	long	long	true
+vco_victory_type_emp_vol_3_bibliophobe	2	0	long	long	true
 vco_victory_type_grn_gri_1_boss_east	0	0	long	long	true
 vco_victory_type_grn_gri_2_burn_badlands	1	0	long	long	true
 vco_victory_type_grn_gri_3_unfinished_business	2	0	long	long	true

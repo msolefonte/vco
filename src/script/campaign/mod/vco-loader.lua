@@ -62,6 +62,7 @@ local function recolor_and_resize_dummy_missions_listener()
 	);
 end
 
+
 -- LOADER --
 
 local function load_campaigns()

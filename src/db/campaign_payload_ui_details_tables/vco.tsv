@@ -1,5 +1,9 @@
 component	icon	state	sort_order
 #campaign_payload_ui_details_tables;2;db/campaign_payload_ui_details_tables/vco			
 vco_chd_ast_grimgor_unlock_dummy	ui/campaign ui/effect_bundles/wh2_dlc15_lord_passive_best_of_da_best.png	default	0
+vco_chs_bel_dilemma_aetherophasic_engine_bretonnia	UI/Campaign UI/Effect_bundles/vco_bretonnia_flag.png	default	0
+vco_chs_bel_dilemma_aetherophasic_engine_dwarfs	UI/Campaign UI/Effect_bundles/vco_dwarf_flag.png	default	0
+vco_chs_bel_dilemma_aetherophasic_engine_elves	UI/Campaign UI/Effect_bundles/vco_elf_flag.png	default	0
+vco_chs_bel_dilemma_aetherophasic_engine_empire	UI/Campaign UI/Effect_bundles/vco_empire_flag.png	default	0
 vco_vmp_man_dilemma_ossified_portal_ask_again	UI/Campaign UI/Effect_bundles/turns.png	default	0
 vco_vmp_man_dilemma_ossified_portal_teleport	ui/campaign ui/effect_bundles/teleport.png	default	0
