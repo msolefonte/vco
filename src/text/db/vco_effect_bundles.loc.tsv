@@ -335,7 +335,7 @@ effect_bundles_localised_description_vco_victory_payload_chs_fes_2_strange_bedfe
 effect_bundles_localised_title_vco_victory_payload_chs_fes_3_down_sickness	Festus Empowered	true
 effect_bundles_localised_description_vco_victory_payload_chs_fes_3_down_sickness	A storm rumbled overhead, the indulgent laughter of a father proud of his son's antics. Festus was lit from within by a green-white light that poured from his eyes and mouth, his entire form resonating with the fell energies now bestowed upon him. The Fecundites bowed low, chanting his name over and over again. Surely, he now stands on the very threshold of daemonhood...	true
 effect_bundles_localised_title_vco_victory_payload_chs_fes_dilemma_lustrian_plague_water	The Bowelworm Pandemic	true
-effect_bundles_localised_description_vco_victory_payload_chs_fes_dilemma_lustrian_plague_water	Those who sup from the tainted warriors soon finded themselves confined to the privy, condemned to give birth to a torrent of red-ringed worms until their lifeforce is utterly spent.	true
+effect_bundles_localised_description_vco_victory_payload_chs_fes_dilemma_lustrian_plague_water	Those who sup from the tainted waters soon find themselves confined to the privy, condemned to give birth to a torrent of red-ringed worms until their lifeforce is utterly spent.	true
 effect_bundles_localised_title_vco_victory_payload_chs_fes_dilemma_lustrian_plague_air	The Fugue Fog	true
 effect_bundles_localised_description_vco_victory_payload_chs_fes_dilemma_lustrian_plague_air	Citizens stumble through the fume-choked cities of the Old World in a daze, coughing up blood and soon going blind as the smog ravages their eyes. Though most survive its effects, they inevitably succumb to madness and despair.	true
 effect_bundles_localised_title_vco_victory_payload_chs_vil_1_the_reckoning	The Three-Eyed King Approaches	true
@@ -423,7 +423,7 @@ effect_bundles_localised_description_vco_victory_payload_brt_rep_dilemma_eternal
 effect_bundles_localised_title_vco_victory_payload_chd_ast_1_steel_sky	The Curse Denied	false
 effect_bundles_localised_description_vco_victory_payload_chd_ast_1_steel_sky	Through subtle arcane means, Astragoth commutes his curse to his unwitting disciples and thus postpones his own petrification indefinitely. Each season adds new ranks of petrified sorcerors to Zharr-Naggrund's causeway, and Astragoth's reign continues in perpetuity.	false
 effect_bundles_localised_title_vco_victory_payload_chd_ast_2_the_culling	An Old Foe Returns	false
-effect_bundles_localised_description_vco_victory_payload_chd_ast_2_the_culling	 As the last of the Greenskins scatters before the implacable might of the Disciples of Hashut, one among their number fights on. Astragoth readies his hammer and moves to put down this stubborn orc personally…	false
+effect_bundles_localised_description_vco_victory_payload_chd_ast_2_the_culling	As the last of the Greenskins scatters before the implacable might of the Disciples of Hashut, one among their number fights on. Astragoth readies his hammer and moves to put down this stubborn orc personally…	false
 effect_bundles_localised_title_vco_victory_payload_chd_ast_3_hashut_wakes	Reign of Iron	false
 effect_bundles_localised_description_vco_victory_payload_chd_ast_3_hashut_wakes	Under Ironhand’s reign, the Dawi-Zharr Empire has reached a new pinnacle of power and influence. Great nations of men have been laid low, their denizens consigned to back-breaking labour in the factories and strip mines that now pockmark the Old World.	false
 effect_bundles_localised_title_vco_victory_payload_chd_ast_dilemma_old_foe_enslave	Bellicose Labourers	false
@@ -454,3 +454,19 @@ effect_bundles_localised_title_vco_victory_payload_chd_zha_marcher_fortress_migh
 effect_bundles_localised_description_vco_victory_payload_chd_zha_marcher_fortress_might	By studying the strange and exotic weapons plundered from the Marcher Fortress, the Daemonsmiths have successfully refined their daemonic constructs.	false
 effect_bundles_localised_title_vco_victory_payload_chd_zha_1_storms_end_roc	Daemonstock	false
 effect_bundles_localised_description_vco_victory_payload_chd_zha_1_storms_end_roc	Manlings make perfect vessels for the daemons. They spend the long journey back to the forges of the Dark-Lands in sorcerous chains, howling for release and promising their captors a slow, painful death.	false
+effect_bundles_localised_title_vco_victory_payload_emp_vol_1_restless_dunes	Sigmar's Desert	false
+effect_bundles_localised_description_vco_victory_payload_emp_vol_1_restless_dunes	The great deserts of Nehekhara have been conquered in the name of Sigmar. From this new base of power, Volkmar supports his ambitions further abroad.	false
+effect_bundles_localised_title_vco_victory_payload_emp_vol_2_face_your_daemons	The Exorcist	false
+effect_bundles_localised_description_vco_victory_payload_emp_vol_2_face_your_daemons	“Hear Me and obey, thou foulest Daemon! I cast ye out with the Might of My Arm, with the Iron of My Will and by the Fire of My Word. Ever shall I pit myself against thy kind, and eternal shall be my wrath in the face of thy masters.”	false
+effect_bundles_localised_title_vco_victory_payload_emp_vol_3_bibliophobe	The Final Seal	false
+effect_bundles_localised_description_vco_victory_payload_emp_vol_3_bibliophobe	With the final book in his possession, Volkmar journeys to Altdorf to seal them away in the vaults deep beneath the Holy Temple of Sigmar.	false
+effect_bundles_localised_title_vco_victory_payload_emp_vol_final_seal_sword	War Eternal	false
+effect_bundles_localised_description_vco_victory_payload_emp_vol_final_seal_sword	Emboldened by their recent victory, Volkmar's zealous troops are eager to embark on the next holy war. The Grand Theogonist sees no reason to deny them.	false
+effect_bundles_localised_title_vco_victory_payload_emp_vol_final_seal_shield	Faith & Steel	false
+effect_bundles_localised_description_vco_victory_payload_emp_vol_final_seal_shield	The rabid mobs that constitute the bulk of Volkmar's forces were outfitted with freshly forged arms and armour. Such a decision was questioned by some politicians in Altdorf, but the Grand Theogonist paid no heed to their concerns.	false
+effect_bundles_localised_title_vco_victory_payload_chs_bel_1_shadows_albion	The Harbinger	false
+effect_bundles_localised_description_vco_victory_payload_chs_bel_1_shadows_albion	From east to west, all is ruin, all is despair, all is Chaos. Whether mortal or daemon, all will learn to fear the name... Be'lakor.	false
+effect_bundles_localised_title_vco_victory_payload_chs_bel_2_no_strings_on_me	The First and the Last	false
+effect_bundles_localised_description_vco_victory_payload_chs_bel_2_no_strings_on_me	The Dark Brothers could only howl with frustration as they witnessed Be'lakor subjugate their greatest champions. Now, the Dark Coronation will begin again, but this time the son will crown the father.	false
+effect_bundles_localised_title_vco_victory_payload_chs_bel_3_aetherophasic_engine	The Time is Nigh	false
+effect_bundles_localised_description_vco_victory_payload_chs_bel_3_aetherophasic_engine	Deep within the Forge of Souls, Be'lakor's newest creation shudders with a roar of tortured metal and agonised souls. The Aetherophasic Engine is ready. All it needs is a target...	false

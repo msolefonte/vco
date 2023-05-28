@@ -160,6 +160,7 @@ local missions = {
 					faction wh2_main_def_har_ganeth;
 
 					confederation_valid;
+					vassalization_valid;
 				}
 
 				payload

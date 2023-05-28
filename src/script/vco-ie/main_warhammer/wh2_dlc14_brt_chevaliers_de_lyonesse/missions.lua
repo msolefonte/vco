@@ -26,7 +26,6 @@ local missions = {
 					province wh3_main_combi_province_land_of_the_dervishes;
 					province wh3_main_combi_province_shifting_sands;
 					province wh3_main_combi_province_land_of_the_dead;
-
 				}
 
 				objective

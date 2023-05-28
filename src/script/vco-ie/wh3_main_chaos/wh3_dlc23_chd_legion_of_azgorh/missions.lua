@@ -161,6 +161,12 @@ local missions = {
 					building_level wh3_dlc23_special_karak_kadrin_defaced_shrine_chd;
 				}
 
+				objective
+				{
+					type DEFEAT_N_ARMIES_OF_FACTION;
+					total 35;
+				}
+
 				payload
 				{
 					effect_bundle

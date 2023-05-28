@@ -23,7 +23,7 @@ effects_description_vco_def_gan_increase_max_slaves	Maximum Slaves: %+n	true
 effects_description_vco_def_gan_leadership_vs_forces_of_order	Leadership vs Forces of Order: %+n	true
 effects_description_vco_def_gan_ritual_drakira_cost_reduction	Cost reduction for Sacrifice to Drakira: %-n%	true
 effects_description_vco_def_gan_witch_elves_sisters_melee_damage_ap	Armour-piercing weapon damage: %+n for Sisters of Slaughter and Witch Elves	true
-effects_description_vco_def_morathi_miscast_base_chance	Miscast base chance: %-n% for Morathi	true
+effects_description_vco_def_morathi_miscast_base_chance	[[col:green]]Miscast base chance: %-n% for Morathi[[/col]]	true
 effects_description_vco_def_morathi_missile_resistance	Missile resistance: %+n% for Morathi	true
 effects_description_vco_def_morathi_slaanesh_unlock_dummy	Unlocks new Slaanesh units: Fiends and Keepers of Secrets	true
 effects_description_vco_def_morathi_targeting_range	Spell targeting range: %+n% for Morathi	true
@@ -43,7 +43,7 @@ effects_description_vco_ksl_kat_dilemma_call_for_aid_unlock_artillery	Unlocks ne
 effects_description_vco_ksl_kat_dilemma_call_for_aid_unlock_slayers	Unlocks new Dwarf units: Slayers and Giant Slayers	true
 effects_description_vco_ksl_tgo_luminark_unlock_dummy	Unlocks new unit: Orthodoxy Flagellants	true
 effects_description_vco_nor_wul_enable_rampage_ability	Ability: "Hunter of Champions" for Wulfrik the Wanderer	true
-effects_description_vco_nor_wul_marauder_melee_poison	Enables poison attacks for all Marauders, Marauder Beserkers, and Marauder Champions	true
+effects_description_vco_nor_wul_marauder_melee_poison	Enables poison attacks for all Marauders, Marauder Berserkers, and Marauder Champions	true
 effects_description_vco_nor_wul_marauder_spear_hunter_bonus_large	Bonus vs Large: %+n for Marauder Spearmen and Hunters	true
 effects_description_vco_nor_wul_marauder_spear_hunter_primal_instincts	Passive ability: "Primal Instincts" for Marauder Spearmen and Hunters	true
 effects_description_vco_nor_wul_movement_range_post_raze_port	Campaign movement range: %+n% after razing a port settlement	true
@@ -119,3 +119,7 @@ effects_description_vco_grimgor_ironbound_labourer_melee_defence	Melee defence: 
 effects_description_vco_grimgor_ironbound_labourer_charge_bonus	Charge bonus: %+n for Orc Labourer units	true
 effects_description_vco_grimgor_ironbound_labourer_ward_save	Ward save: %n% for Labourer units	true
 effects_description_vco_grimgor_ironbound_labourer_vanguard	Attribute: Vanguard Deployment for Labourer units	true
+effects_description_vco_emp_vol_dilemma	A dilemma will offer a choice between powerful rewards!	true
+effects_description_vco_chs_bel_everchosen_dominated	Archaon and the Godslayer will be forcibly vassalised	true
+effects_description_vco_chs_bel_dilemma	A dilemma will offer a choice between powerful rewards!	true
+effects_description_vco_wh3_main_army_abilities_storm_of_fire	Army ability: "Storm of Fire"	true
