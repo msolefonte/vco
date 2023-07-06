@@ -18,13 +18,13 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			vco_wh_dlc04_emp_inf_flagellants_0	ksl_kossars_armoured_kossars_streltsi_rank_7	false
 			vco_wh_dlc04_emp_inf_flagellants_0	wh3_main_ksl_all	false
 			vco_wh_main_chs_cha_archaon_the_everchosen_0	all_non_chs	false
-			vco_wh_main_chs_cha_archaon_the_everchosen_0	all_units_excluding_immune_to_psychology	false
+			vco_wh_main_chs_cha_archaon_the_everchosen_0	all_units_excluding_immune_to_psychology	true
 			vco_wh_main_chs_cha_archaon_the_everchosen_0	mp_cap_group_lords	false
 			vco_wh_main_chs_cha_archaon_the_everchosen_0	undivided_characters	false
 			vco_wh_main_chs_cha_archaon_the_everchosen_0	vco_chs_arch	false
 			vco_wh_main_chs_cha_archaon_the_everchosen_0	wh3_dlc20_chs_und_all	false
 			vco_wh_main_chs_cha_archaon_the_everchosen_1	all_non_chs	false
-			vco_wh_main_chs_cha_archaon_the_everchosen_1	all_units_excluding_immune_to_psychology	false
+			vco_wh_main_chs_cha_archaon_the_everchosen_1	all_units_excluding_immune_to_psychology	true
 			vco_wh_main_chs_cha_archaon_the_everchosen_1	mp_cap_group_lords	false
 			vco_wh_main_chs_cha_archaon_the_everchosen_1	undivided_characters	false
 			vco_wh_main_chs_cha_archaon_the_everchosen_1	vco_chs_arch	false
@@ -85,6 +85,9 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			wh2_dlc15_hef_mon_moon_dragon_imrik	vco_hef_dragons	false
 			wh2_dlc15_hef_mon_star_dragon_imrik	vco_hef_dragons	false
 			wh2_dlc15_hef_mon_sun_dragon_imrik	vco_hef_dragons	false
+			wh2_dlc17_bst_cha_wargor_0	vco_malagor_gors	false
+			wh2_dlc17_bst_cha_wargor_1	vco_malagor_gors	false
+			wh2_dlc17_bst_cha_wargor_2	vco_malagor_gors	false
 			wh2_main_def_cha_morathi_0	vco_def_morathi	false
 			wh2_main_def_cha_morathi_1	vco_def_morathi	false
 			wh2_main_def_mon_black_dragon	vco_hef_dragons	false
@@ -110,6 +113,14 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			wh3_main_ogr_mon_gorgers_0	vco_ogr_gorgers	false
 			wh3_main_ogr_mon_gorgers_summoned_0	vco_ogr_gorgers	false
 			wh3_main_sla_cha_nkari_0	vco_sla_nkari	false
+			wh_dlc03_bst_inf_bestigor_herd_0	vco_malagor_gors	false
+			wh_dlc03_bst_inf_gor_herd_0	vco_malagor_gors	false
+			wh_dlc03_bst_inf_gor_herd_1	vco_malagor_gors	false
+			wh_dlc03_bst_inf_ungor_herd_1	vco_malagor_gors	false
+			wh_dlc03_bst_inf_ungor_raiders_0	vco_malagor_gors	false
+			wh_dlc03_bst_inf_ungor_spearmen_0	vco_malagor_gors	false
+			wh_dlc03_bst_inf_ungor_spearmen_1	vco_malagor_gors	false
+			wh_dlc05_bst_mon_harpies_0	vco_malagor_harpies	false
 			wh_dlc07_brt_cha_alberic_bordeleaux_0	vco_brt_alberic	false
 			wh_dlc07_brt_cha_alberic_bordeleaux_1	vco_brt_alberic	false
 			wh_dlc07_brt_cha_alberic_bordeleaux_2	vco_brt_alberic	false
@@ -137,5 +148,8 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			wh_main_vmp_cha_mannfred_von_carstein_2	vco_vmp_man	false
 			wh_main_vmp_cha_mannfred_von_carstein_3	vco_vmp_man	false
 			wh_main_vmp_cha_mannfred_von_carstein_4	vco_vmp_man	false
+			wh_pro04_bst_inf_bestigor_herd_ror_0	vco_malagor_gors	false
+			wh_pro04_bst_inf_gor_herd_ror_0	vco_malagor_gors	false
+			wh_pro04_bst_inf_ungor_spearmen_ror_0	vco_malagor_gors	false
 			wh_pro04_nor_inf_chaos_marauders_ror_0	vco_nor_melee_marauders	false
 			wh_pro04_nor_inf_marauder_berserkers_ror_0	vco_nor_melee_marauders	false

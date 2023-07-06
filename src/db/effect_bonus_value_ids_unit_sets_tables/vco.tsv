@@ -1,6 +1,7 @@
 bonus_value_id	effect	unit_set
 #effect_bonus_value_ids_unit_sets_tables;0;db/effect_bonus_value_ids_unit_sets_tables/vco		
 ammo_mod	vco_cst_deck_gunners_ammo	vco_cst_deck_gunners
+armour_mod	vco_malagor_gor_armour	vco_malagor_gors
 armour_mod	vco_ogr_greasus_armour	vco_ogr_greasus
 armour_mod	vco_ogr_skr_gorger_armour	vco_ogr_gorgers
 charge_add	vco_cylostra_zp_charge_bonus	vco_cylostra_zombie_pirates

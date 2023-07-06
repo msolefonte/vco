@@ -1,4 +1,5 @@
 key	unit_attribute	unit_set
 #unit_set_unit_attribute_junctions_tables;0;db/unit_set_unit_attribute_junctions_tables/vco		
 vanguard_chd_vco_labourers	guerrilla_deploy	vco_astragoth_labourers
+vco_harbinger_harpies_unbreakable	unbreakable	vco_malagor_harpies
 vco_zhatan_black_orcs_expendable	expendable	vco_zhatan_black_orcs

@@ -8,6 +8,7 @@ vco_anc_arcane_item_mirror_of_the_ice_queen	wh_main_anc_arcane_item	.	true	false
 vco_anc_arcane_item_vilitchs_locket	wh_main_anc_arcane_item	.	false	false	false	1	0	9999			false	false	false	arcane_item	16	30	30	50	true			200	0		false	false	false	all
 vco_anc_arcane_item_warp_scroll	wh_main_anc_arcane_item	.	true	false	false	1	0	9999			false	false	false	arcane_item	16	30	30	50	true			200	0		false	false	false	all
 vco_anc_arcane_item_yueyins_diamond	wh_main_anc_arcane_item	.	true	false	false	1	0	9999			false	false	false	arcane_item	16	30	30	50	true			200	0		false	false	false	all
+vco_anc_armour_armour_of_templehof	wh_main_anc_armour	.	true	false	false	1	0	9999			false	false	false	armour	16	30	30	50	true			200	0		false	false	false	all
 vco_anc_armour_blood-forged_armour	wh_main_anc_armour	.	true	false	false	1	0	9999			false	false	false	armour	16	30	30	50	true			200	0		false	false	false	all
 vco_anc_armour_dragonscale_cloak	wh_main_anc_armour	.	true	false	false	1	0	9999			false	false	false	armour	16	30	30	50	true			200	0		false	false	false	all
 vco_anc_armour_the_armour_of_morkar	wh_main_anc_armour	.	true	false	false	1	0	9999			false	false	false	armour	16	30	30	50	true			200	0		false	false	false	all
@@ -16,6 +17,7 @@ vco_anc_enchanted_item_black_dragon_egg	wh_main_anc_enchanted_item	.	true	false	
 vco_anc_enchanted_item_chains_of_binding	wh_main_anc_enchanted_item	.	false	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			200	0		false	false	false	all
 vco_anc_enchanted_item_cracked_rune_azamar	wh_main_anc_enchanted_item	.	true	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			200	0		false	false	false	all
 vco_anc_enchanted_item_dragonfire_staff	wh_main_anc_enchanted_item	.	true	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			200	0		false	false	false	all
+vco_anc_enchanted_item_malagors_mask_of_heavens	wh_main_anc_enchanted_item	.	true	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			200	0		false	false	false	all
 vco_anc_enchanted_item_moonstone	wh_main_anc_enchanted_item	.	true	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			200	0		false	false	false	all
 vco_anc_enchanted_item_shadow_ruby	wh_main_anc_enchanted_item	.	true	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			200	0		false	false	false	all
 vco_anc_enchanted_item_the_crown_of_domination	wh_main_anc_enchanted_item	.	true	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			200	0		false	false	false	all
@@ -23,6 +25,8 @@ vco_anc_enchanted_item_the_crown_of_sorcery	wh_main_anc_enchanted_item	.	true	fa
 vco_anc_enchanted_item_the_rock_of_inevitability	wh_main_anc_enchanted_item	.	true	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			200	0		false	false	false	all
 vco_anc_enchanted_item_writ_of_iron	wh_main_anc_enchanted_item	.	true	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			200	0		false	false	false	all
 vco_anc_magic_standard_shroud_of_gilles	wh_main_anc_enchanted_item	.	true	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			200	0		false	false	false	all
+vco_anc_magic_standard_volkmar_banner	vco_anc_magic_standard_volkmar_banner	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true		vco_anc_magic_standard_volkmar_banner	200	0	banner	false	false	false	all
+vco_anc_talisman_bloodstained_pendant	wh_main_anc_talisman	.	true	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false	all
 vco_anc_talisman_eight_pointed_star	wh_main_anc_talisman	.	true	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false	all
 vco_anc_talisman_hellshard_amulet_grimgor	wh_main_anc_talisman	.	true	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false	all
 vco_anc_talisman_mecha_arm	wh_main_anc_talisman	.	false	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false	all
@@ -37,11 +41,14 @@ vco_anc_weapon_chittering_crossbow	wh_main_anc_weapon	.	true	false	false	1	0	999
 vco_anc_weapon_flensing_gauntlet	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false	all
 vco_anc_weapon_ghal_maraz	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false	all
 vco_anc_weapon_gitsnik	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false	all
+vco_anc_weapon_profaned_sword_of_lyonesse	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false	all
+vco_anc_weapon_red_fang	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false	all
 vco_anc_weapon_scourge	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false	all
 vco_anc_weapon_shard_blade	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false	all
 vco_anc_weapon_sliverslash	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false	all
 vco_anc_weapon_staff_of_oblivion	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false	all
 vco_anc_weapon_stolen_hand_of_gods	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false	all
+vco_anc_weapon_tainted_blade_of_ptra	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false	all
 vco_anc_weapon_the_blade_of_realities	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false	all
 vco_anc_weapon_the_heartwood_lance	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false	all
 vco_anc_weapon_the_slayer_of_kings	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false	all

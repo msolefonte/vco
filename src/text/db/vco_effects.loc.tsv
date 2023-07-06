@@ -123,3 +123,7 @@ effects_description_vco_emp_vol_dilemma	A dilemma will offer a choice between po
 effects_description_vco_chs_bel_everchosen_dominated	Archaon and the Godslayer will be forcibly vassalised	true
 effects_description_vco_chs_bel_dilemma	A dilemma will offer a choice between powerful rewards!	true
 effects_description_vco_wh3_main_army_abilities_storm_of_fire	Army ability: "Storm of Fire"	true
+effects_description_vco_bst_mal_dilemma	A dilemma will offer a choice between powerful rewards!	true
+effects_description_vco_harbinger_harpies_unbreakable	Attribute: Unbreakable for Harpy units	true
+effects_description_vco_malagor_gor_armour	Armour: %+n for Ungor, Gor and Bestigor units	true
+effects_description_vco_malagor_gor_primal_instincts	Attribute: Primal Instincts for Ungor, Gor and Bestigor units	true
