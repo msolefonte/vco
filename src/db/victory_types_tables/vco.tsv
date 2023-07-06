@@ -50,6 +50,9 @@ vco_victory_type_brt_bdx_3_home_sweet_home	2	0	long	long	true
 vco_victory_type_brt_rep_1_desert_crusades	0	0	long	long	true
 vco_victory_type_brt_rep_2_cleansing_the_land	1	0	long	long	true
 vco_victory_type_brt_rep_3_lyonesse_lawbringer	2	0	long	long	true
+vco_victory_type_bst_mal_1_badlands_bloodground	0	0	long	long	true
+vco_victory_type_bst_mal_2_seed_of_hate	1	0	long	long	true
+vco_victory_type_bst_mal_3_bane_of_death	2	0	long	long	true
 vco_victory_type_bst_tau_1_banebeast_naggaroth	0	0	long	long	true
 vco_victory_type_bst_tau_2_beastpaths_ruin	1	0	long	long	true
 vco_victory_type_bst_tau_3_heart_dark	2	0	long	long	true

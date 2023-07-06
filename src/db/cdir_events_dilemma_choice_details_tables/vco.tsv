@@ -2,6 +2,7 @@ choice_key	dilemma_key	associated_audio_trigger
 #cdir_events_dilemma_choice_details_tables;3;db/cdir_events_dilemma_choice_details_tables/vco		
 FIRST	vco_brt_alb_dilemma_mananns_favour	
 FIRST	vco_brt_rep_dilemma_eternal_war	
+FIRST	vco_bst_mal_dilemma_harbinger	
 FIRST	vco_chd_ast_dilemma_old_foe	
 FIRST	vco_chd_dra_dilemma_witch_kings_gift	
 FIRST	vco_chd_zha_dilemma_marcher_fortress	
@@ -19,12 +20,14 @@ FIRST	vco_ksl_kat_dilemma_call_for_aid
 FIRST	vco_skv_mdr_dilemma_ultimate_harvest	
 FIRST	vco_vmp_hel_dilemma_dark_bargain	
 FIRST	vco_vmp_man_dilemma_ossified_portal	
+FOURTH	vco_bst_mal_dilemma_harbinger	
 FOURTH	vco_chs_aza_dilemma_supplicants_come	
 FOURTH	vco_chs_bel_dilemma_aetherophasic_engine	
 FOURTH	vco_cst_cyl_dilemma_finest_hour	
 FOURTH	vco_ksl_kat_dilemma_call_for_aid	
 SECOND	vco_brt_alb_dilemma_mananns_favour	
 SECOND	vco_brt_rep_dilemma_eternal_war	
+SECOND	vco_bst_mal_dilemma_harbinger	
 SECOND	vco_chd_ast_dilemma_old_foe	
 SECOND	vco_chd_dra_dilemma_witch_kings_gift	
 SECOND	vco_chd_zha_dilemma_marcher_fortress	
@@ -42,6 +45,7 @@ SECOND	vco_ksl_kat_dilemma_call_for_aid
 SECOND	vco_skv_mdr_dilemma_ultimate_harvest	
 SECOND	vco_vmp_hel_dilemma_dark_bargain	
 SECOND	vco_vmp_man_dilemma_ossified_portal	
+THIRD	vco_bst_mal_dilemma_harbinger	
 THIRD	vco_chs_aza_dilemma_supplicants_come	
 THIRD	vco_chs_bel_dilemma_aetherophasic_engine	
 THIRD	vco_cst_cyl_dilemma_finest_hour	
