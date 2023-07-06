@@ -5,11 +5,21 @@ local FACTION_KEY = "wh2_dlc17_bst_taurox";
 local BATTLE_KEY = "wh_dlc03_qb_bst_the_final_battle";
 local BATTLE_SCRIPT_KEY = "vco_bst_taurox_heart_of_the_dark";
 
+local FACTION_MAL_KEY = "wh2_dlc17_bst_malagor";
+local KEY_D_HARBINGER = "vco_bst_mal_dilemma_harbinger";
+
 -- CHECKS --
 
 local function complete_bst_taurox_set_piece_battle()
 	vco:complete_mission(FACTION_KEY, BATTLE_SCRIPT_KEY);
 end
+
+-- TRIGGERS --
+
+local function trigger_mal_dilemma()
+	cm:trigger_dilemma(FACTION_MAL_KEY, KEY_D_HARBINGER);
+end
+
 
 -- LISTENERS --
 
@@ -26,6 +36,18 @@ local function add_listeners()
 		complete_bst_taurox_set_piece_battle,
 		true
 	);
+
+	core:add_listener(
+		"vco_bst_mal_1_completed",
+		"MissionSucceeded",
+		function(context)
+			return context:faction():name() == FACTION_MAL_KEY and
+				context:mission():mission_issuer_record_key() == "KING_KAZADOR";
+		end,
+		trigger_mal_dilemma,
+		false
+	);
+
 end
 
 -- MAIN --

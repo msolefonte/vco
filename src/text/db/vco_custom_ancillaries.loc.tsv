@@ -65,7 +65,7 @@ ancillaries_colour_text_vco_anc_weapon_gitsnik	This formidable axe came from the
 ancillaries_onscreen_name_vco_anc_armour_blood-forged_armour	Blood-Forged Armour	false
 ancillaries_colour_text_vco_anc_armour_blood-forged_armour	After being forged under Red Eye Mountain, this armour was cooled with the blood of Dwarf Runesmiths.	false
 ancillaries_onscreen_name_vco_anc_enchanted_item_cracked_rune_azamar	Cracked Rune of Azamar	false
-ancillaries_colour_text_vco_anc_enchanted_item_cracked_rune_azamar	Though the Rune of Azamar's once flawless perfection is now marred by a single crack running down its centre, it still resonates with latent power. The rune was prised from the High King’s Throne of Power and now serves as an indisputable symbol of Drazhoath’s conquest of Karaz-a-Karak.\\n	false
+ancillaries_colour_text_vco_anc_enchanted_item_cracked_rune_azamar	Though the Rune of Azamar's once flawless perfection is now marred by a single crack running down its centre, it still resonates with latent power. The rune was prised from the High King’s Throne of Power and now serves as an indisputable symbol of the conquest of Karaz-a-Karak.	false
 ancillaries_onscreen_name_vco_anc_armour_dragonscale_cloak	Dragonscale Cloak	false
 ancillaries_colour_text_vco_anc_armour_dragonscale_cloak	This cloak was fashioned from the flayed corpse of Zhao Ming, the Iron Dragon. Though it offers significant protection, it is heavily tainted by the corrupting influence of warpstone.\\n	false
 ancillaries_onscreen_name_vco_anc_enchanted_item_writ_of_iron	Writ of Iron	false
@@ -100,3 +100,17 @@ ancillaries_onscreen_name_vco_anc_talisman_hellshard_amulet_grimgor	Daemonspite 
 ancillaries_colour_text_vco_anc_talisman_hellshard_amulet_grimgor	Forged from meteoric iron and blighted gold, quenched in innocent blood and bound with slain, hell-bound souls, the Crucible is said to have been the handiwork of the ancient Chaos Dwarf Sorcerer Azgorh himself.	false
 ancillaries_onscreen_name_vco_anc_enchanted_item_shadow_ruby	Shadow Ruby	false
 ancillaries_colour_text_vco_anc_enchanted_item_shadow_ruby	Within this blood-red ruby swirls Be'lakor's ensnared soul. The daemon rages against the faceted walls of his prison, but there is no hope of escape.	false
+ancillaries_onscreen_name_vco_anc_weapon_red_fang	Red Fang	false
+ancillaries_colour_text_vco_anc_weapon_red_fang	This large, gore-drenched choppa once belonged to the legendary Orc Chieftan Gorfang Rotgut. The Squatter King met his end in a legendary duel against Malagor atop the battlements of Black Crag.	false
+ancillaries_onscreen_name_vco_anc_weapon_tainted_blade_of_ptra	Tainted Blade of Ptra	false
+ancillaries_colour_text_vco_anc_weapon_tainted_blade_of_ptra	This sword's white-hot edge is infused with the desert's baking heat, setting the air itself ablaze and blinding the foe.	false
+ancillaries_onscreen_name_vco_anc_armour_armour_of_templehof	Armour of Templehof	false
+ancillaries_colour_text_vco_anc_armour_armour_of_templehof	A product of twisted sorcery, this construct fuses with the wearer, giving him tremendous endurance.	false
+ancillaries_onscreen_name_vco_anc_magic_standard_volkmar_banner	Jade Griffon Banner	false
+ancillaries_colour_text_vco_anc_magic_standard_volkmar_banner	Even the faith of mighty Volkmar was sorely tested as he was taken up and chained to the battle standard of Malagor's warherd.	false
+ancillaries_onscreen_name_vco_anc_weapon_profaned_sword_of_lyonesse	Profaned Sword of Lyonesse	false
+ancillaries_colour_text_vco_anc_weapon_profaned_sword_of_lyonesse	Smeared in the blood and ash of its previous owner, this once holy blade now radiates with a fell power.	false
+ancillaries_onscreen_name_vco_anc_enchanted_item_malagors_mask_of_heavens	Mask of Heavens	false
+ancillaries_colour_text_vco_anc_enchanted_item_malagors_mask_of_heavens	The ancient magic of Tiktaq'to's mask is used by the Bray-Shamans to dominate the minds of the wilful Minotaurs.	false
+ancillaries_onscreen_name_vco_anc_talisman_bloodstained_pendant	Bloodstained Pendant	false
+ancillaries_colour_text_vco_anc_talisman_bloodstained_pendant	This ithilmar pendant, inset with a flawlessly carved brightstone, was gifted to Thorek Ironbrow by the High Loremaster Teclis as a gesture of peace and friendship.	false

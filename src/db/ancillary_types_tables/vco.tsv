@@ -1,0 +1,3 @@
+type	ui_icon
+#ancillary_types_tables;0;db/ancillary_types_tables/vco	
+vco_anc_magic_standard_volkmar_banner	ui/campaign ui/effect_bundles/vco_volkmar_banner.png
