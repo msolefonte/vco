@@ -9,6 +9,13 @@ local missions = {
 			{
 				objective
 				{
+					override_text mission_text_text_vco_emp_the_1_champions_of_the_empire;
+					type SCRIPTED;
+					script_key vco_dummy;
+				}
+
+				objective
+				{
 					type HAVE_AT_LEAST_X_OF_A_POOLED_RESOURCE;
 					pooled_resource emp_progress;
 					total 100;
@@ -16,22 +23,9 @@ local missions = {
 
 				objective
 				{
-					override_text mission_text_text_vco_emp_the_1_champions_of_the_empire;
-					type CONTROL_N_REGIONS_FROM;
-					total 6;
-
-					region wh3_main_combi_region_the_high_sentinel;
-					region wh3_main_combi_region_temple_of_kara;
-					region wh3_main_combi_region_temple_of_tlencan;
-					region wh3_main_combi_region_pox_marsh;
-					region wh3_main_combi_region_the_awakening;
-					region wh3_main_combi_region_the_blood_swamps;
-					region wh3_main_combi_region_fuming_serpent;
-					region wh3_main_combi_region_the_star_tower;
-					region wh3_main_combi_region_altar_of_the_horned_rat;
-					region wh3_main_combi_region_chupayotl;
-					region wh3_main_combi_region_mangrove_coast;
-					region wh3_main_combi_region_citadel_of_dusk;
+					override_text mission_text_text_vco_emp_mar_1_battle_itza_set_piece;
+					type SCRIPTED;
+					script_key vco_emp_markus_battle_for_itza;
 				}
 
 				payload
@@ -70,23 +64,47 @@ local missions = {
 
 				objective
 				{
-					type DESTROY_FACTION;
+					override_text mission_text_text_vco_emp_the_2_the_huntsmarshals_expedition_artifacts_1;
+					type CONTROL_N_REGIONS_FROM;
+					total 3;
 
-					faction wh2_main_lzd_itza;
-
-					confederation_valid;
+					region wh3_main_combi_region_skeggi;
+					region wh3_main_combi_region_hexoatl;
+					region wh3_main_combi_region_pahuax;
+					region wh3_main_combi_region_floating_pyramid;
+					region wh3_main_combi_region_spektazuma;
+					region wh3_main_combi_region_the_blood_hall;
 				}
 
 				objective
 				{
-					type RAZE_OR_OWN_SETTLEMENTS;
+					override_text mission_text_text_vco_emp_the_2_the_huntsmarshals_expedition_artifacts_2;
+					type CONTROL_N_REGIONS_FROM;
+					total 3;
 
-					region wh3_main_combi_region_chamber_of_visions;
-					region wh3_main_combi_region_itza;
-					region wh3_main_combi_region_oyxl;
+					region wh3_main_combi_region_tlaxtlan;
+					region wh3_main_combi_region_xlanhuapec;
+					region wh3_main_combi_region_the_awakening;
+					region wh3_main_combi_region_the_star_tower;
+					region wh3_main_combi_region_altar_of_the_horned_rat;
+					region wh3_main_combi_region_the_southern_sentinels;
 				}
 
-				payload
+				objective
+				{
+					override_text mission_text_text_vco_emp_the_2_the_huntsmarshals_expedition_artifacts_3;
+					type CONTROL_N_REGIONS_FROM;
+					total 3;
+
+					region wh3_main_combi_region_hualotal;
+					region wh3_main_combi_region_great_turtle_isle;
+					region wh3_main_combi_region_the_golden_colossus;
+					region wh3_main_combi_region_mine_of_the_bearded_skulls;
+					region wh3_main_combi_region_oyxl;
+					region wh3_main_combi_region_kaiax;
+				}
+
+				payload
 				{
 					effect_bundle
 					{
@@ -94,11 +112,16 @@ local missions = {
 						turns 0;
 					}
 
+					add_ancillary_to_faction_pool
+					{
+						ancillary_key vco_anc_enchanted_item_cursed_artifact_notidoq;
+					}
+
 					faction_pooled_resource_transaction
 					{
 						resource emp_progress;
 						factor vco;
-						amount 20;
+						amount 10;
 						context absolute;
 					}
 
@@ -118,52 +141,52 @@ local missions = {
  		{
 			victory_type vco_victory_type_emp_the_3_it_is_round;
 			key wh_main_short_victory;
-			issuer CLAN_ELDERS;
+			issuer MUFFIN_MAN;
 			primary_objectives_and_payload
 			{
 				objective
 				{
 					override_text mission_text_text_vco_emp_the_3_it_is_round;
-					type CONTROL_N_REGIONS_FROM;
-					total 4;
-
-					region wh3_main_combi_region_haichai;
-					region wh3_main_combi_region_beichai;
-					region wh3_main_combi_region_chimai;
-					region wh3_main_combi_region_fu_chow;
-					region wh3_main_combi_region_li_zhu;
-					region wh3_main_combi_region_dai_cheng;
-				}
-
-				objective
-				{
-					override_text mission_text_text_vco_emp_the_3_it_is_round_nakai;
 					type SCRIPTED;
 					script_key vco_dummy;
 				}
 
 				objective
 				{
+					type CONSTRUCT_BUILDING_IN_PROVINCES;
+					faction wh2_dlc13_emp_the_huntmarshals_expedition;
+
+                    province wh3_main_combi_province_scorpion_coast;
+					building_level vco_landmark_markus_trophy_hall;
+				}
+
+				objective
+				{
 					type DESTROY_FACTION;
 
-					faction wh2_dlc13_lzd_spirits_of_the_jungle;
+					faction wh2_main_lzd_hexoatl;
+					faction wh2_main_lzd_itza;
+					faction wh2_dlc12_lzd_cult_of_sotek;
+					faction wh2_twa03_def_rakarth;
+					faction wh2_main_skv_clan_pestilens;
+					faction wh2_dlc11_cst_vampire_coast;
 
 					confederation_valid;
 				}
 
-				payload
+				payload
 				{
 					effect_bundle
 					{
 						bundle_key vco_victory_payload_emp_big_game_hunter;
-						turns 0;
+						turns 1;
 					}
 
 					faction_pooled_resource_transaction
 					{
 						resource emp_progress;
 						factor vco;
-						amount 20;
+						amount 10;
 						context absolute;
 					}
 
