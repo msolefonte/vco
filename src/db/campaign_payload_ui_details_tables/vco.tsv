@@ -5,5 +5,7 @@ vco_chs_bel_dilemma_aetherophasic_engine_bretonnia	UI/Campaign UI/Effect_bundles
 vco_chs_bel_dilemma_aetherophasic_engine_dwarfs	UI/Campaign UI/Effect_bundles/vco_dwarf_flag.png	default	0
 vco_chs_bel_dilemma_aetherophasic_engine_elves	UI/Campaign UI/Effect_bundles/vco_elf_flag.png	default	0
 vco_chs_bel_dilemma_aetherophasic_engine_empire	UI/Campaign UI/Effect_bundles/vco_empire_flag.png	default	0
+vco_lzd_maz_dilemma_unity_spirit_confederate	UI/Campaign UI/Effect_bundles/confederation.png	default	0
+vco_lzd_maz_dilemma_unity_spirit_vassalise	UI/Campaign UI/Effect_bundles/treaty_vassal.png	default	0
 vco_vmp_man_dilemma_ossified_portal_ask_again	UI/Campaign UI/Effect_bundles/turns.png	default	0
 vco_vmp_man_dilemma_ossified_portal_teleport	ui/campaign ui/effect_bundles/teleport.png	default	0

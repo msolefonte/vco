@@ -31,7 +31,6 @@ effects_description_vco_def_morathi_ward_save	Ward save: %+n% for Morathi	true
 effects_description_vco_dwf_gro_dilemma_elves	A dilemma will offer a choice between powerful rewards!	true
 effects_description_vco_dwf_grombrindal_allegiance_points_mod_wef_hef	Allegiance points gained: %+n% for alliances with High Elves and Wood Elves	true
 effects_description_vco_dwf_per_turn_oathgold_gain	Oathgold generated: %n per turn	true
-effects_description_vco_emp_cursed_artifact_notidoq	Passive ability: "Primal Instincts"	true
 effects_description_vco_grn_black_orcs_frostbite	Enables frostbite attacks for Black Orcs	true
 effects_description_vco_grn_per_turn_salvage_gain	Scrap: %+n per turn	true
 effects_description_vco_grn_per_turn_waaagh	Reputation: %+n per turn	true
@@ -123,7 +122,12 @@ effects_description_vco_emp_vol_dilemma	A dilemma will offer a choice between po
 effects_description_vco_chs_bel_everchosen_dominated	Archaon and the Godslayer will be forcibly vassalised	true
 effects_description_vco_chs_bel_dilemma	A dilemma will offer a choice between powerful rewards!	true
 effects_description_vco_wh3_main_army_abilities_storm_of_fire	Army ability: "Storm of Fire"	true
+effects_description_vco_wh3_main_army_abilities_fozzriks_flensing_discharge	Army ability: "Fozzrik's Flensing Discharge"	true
+effects_description_vco_wh3_main_army_abilities_fozzriks_verdant_burst	Army ability: "Fozzrik's Verdant Burst"	true
 effects_description_vco_bst_mal_dilemma	A dilemma will offer a choice between powerful rewards!	true
 effects_description_vco_harbinger_harpies_unbreakable	Attribute: Unbreakable for Harpy units	true
 effects_description_vco_malagor_gor_armour	Armour: %+n for Ungor, Gor and Bestigor units	true
 effects_description_vco_malagor_gor_primal_instincts	Attribute: Primal Instincts for Ungor, Gor and Bestigor units	true
+effects_description_vco_lzd_hex_dilemma	A dilemma will offer a choice between powerful rewards!	true
+effects_description_vco_emp_mar_dilemma	A dilemma will offer a choice between powerful rewards!	true
+effects_description_vco_skv_tre_dilemma	A dilemma will offer a choice between powerful rewards!	true

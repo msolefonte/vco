@@ -10,6 +10,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			vco_wh2_dlc11_cst_cav_knights_errant_2	wh2_dlc11_cst_all_large_units	false
 			vco_wh2_dlc11_cst_cav_knights_of_the_realm	wh2_dlc11_cst_all_large_units	false
 			vco_wh2_dlc11_cst_cav_questing_knights_0	wh2_dlc11_cst_all_large_units	false
+			vco_wh_dlc04_emp_inf_flagellants_0	emp_flagellants	false
 			vco_wh_dlc04_emp_inf_flagellants_0	ksl_all	false
 			vco_wh_dlc04_emp_inf_flagellants_0	ksl_armoured_kossars_streltsi	false
 			vco_wh_dlc04_emp_inf_flagellants_0	ksl_infantry	false

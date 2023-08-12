@@ -1,0 +1,30 @@
+key	tech_category_tab	tech_category_position	chain_category	in_encyclopedia	building_superchain	optional_tier_icon	optional_sort_order	optional_required_horde_commander	can_be_dismantled
+#building_chains_tables;9;db/building_chains_tables/vco									
+vco_landmark_fozzriks_flying_fastness			money	false	vco_landmark_fozzriks_flying_fastness		0		true
+vco_landmark_grombrindal_repurposed_docks			money	false	vco_landmark_grombrindal_repurposed_docks		0		true
+vco_landmark_grombrindal_shattered_malekith_tower			military	false	vco_landmark_grombrindal_shattered_malekith_tower		0		true
+vco_landmark_grombrindal_vauls_anvil			military	false	vco_landmark_grombrindal_vauls_anvil		0		true
+vco_landmark_grombrindal_vauls_anvil_athel_loren			military	false	vco_landmark_grombrindal_vauls_anvil_athel_loren		0		true
+vco_landmark_grombrindal_vauls_anvil_caledor			military	false	vco_landmark_grombrindal_vauls_anvil_caledor		0		true
+vco_landmark_imrik_asrai_enclave			military	false	vco_landmark_imrik_asrai_enclave		0		true
+vco_landmark_imrik_blessed_incubator			military	false	vco_landmark_imrik_blessed_incubator		0		true
+vco_landmark_karl_franz_cleansing_pyres			happiness	false	vco_landmark_karl_franz_cleansing_pyres		0		true
+vco_landmark_karl_franz_lumber_yard			money	false	vco_landmark_karl_franz_lumber_yard		0		true
+vco_landmark_karl_franz_marienburg_tax_house			money	false	vco_landmark_karl_franz_marienburg_tax_house		0		true
+vco_landmark_kemmler_couronne_corpse_king			happiness	false	vco_landmark_kemmler_couronne_corpse_king		0		true
+vco_landmark_kemmler_treeman_graveyard			happiness	false	vco_landmark_kemmler_treeman_graveyard		0		true
+vco_landmark_kostaltyn_dazhs_everburning_pyres			happiness	false	vco_landmark_kostaltyn_dazhs_everburning_pyres		0		true
+vco_landmark_kostaltyn_great_orthodoxy_cathedral			money	false	vco_landmark_kostaltyn_great_orthodoxy_cathedral		0		true
+vco_landmark_kostaltyn_halls_of_atonement			money	false	vco_landmark_kostaltyn_halls_of_atonement		0		true
+vco_landmark_kostaltyn_sacred_flame_ulric			happiness	false	vco_landmark_kostaltyn_sacred_flame_ulric		0		true
+vco_landmark_markus_trophy_hall			military	false	vco_landmark_markus_trophy_hall		0		true
+vco_landmark_mazdamundi_geomantic_nexus			happiness	false	vco_landmark_mazdamundi_geomantic_nexus		0		true
+vco_landmark_sisters_twilight_vauls_anvil_caledor			military	false	vco_landmark_sisters_twilight_vauls_anvil_caledor		0		true
+vco_landmark_sisters_twilight_vauls_anvil_naggaroth			military	false	vco_landmark_sisters_twilight_vauls_anvil_naggaroth		0		true
+vco_landmark_skrag_couronne_cook_pot			happiness	false	vco_landmark_skrag_couronne_cook_pot		0		true
+vco_landmark_skrag_great_maw_2			happiness	false	vco_landmark_skrag_great_maw_2		0		true
+vco_landmark_tretch_tower_gorgoth			money	false	vco_landmark_tretch_tower_gorgoth		0		true
+vco_landmark_wulfhart_imperial_dockyard			money	false	vco_landmark_wulfhart_imperial_dockyard		0		true
+vco_landmark_wulfhart_lumber_yard			money	false	vco_landmark_wulfhart_lumber_yard		0		true
+vco_landmark_zhao_sigmars_rock			money	false	vco_landmark_zhao_sigmars_rock		0		true
+vco_landmark_zhao_warpforges			military	false	vco_landmark_zhao_warpforges		0		true

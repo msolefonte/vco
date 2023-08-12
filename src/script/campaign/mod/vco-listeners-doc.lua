@@ -2,7 +2,7 @@ local vco = core:get_static_object("vco");
 local vlc = core:get_static_object("vco-lib-commons");
 
 local FACTION_DAE_KEY = "wh3_main_dae_daemon_prince";
-local REQUIRED_CORRUPTED_REGIONS_VICTORY = 100;
+local REQUIRED_CORRUPTED_REGIONS_VICTORY = 50;
 
 -- CHECKS --
 

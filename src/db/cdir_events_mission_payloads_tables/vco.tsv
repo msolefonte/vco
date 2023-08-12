@@ -1,0 +1,7 @@
+id	mission_key	payload_key	status_key	value	target_key
+#cdir_events_mission_payloads_tables;2;db/cdir_events_mission_payloads_tables/vco					
+11226100	wh2_dlc13_qb_emp_final_battle_wulfhart	ADD_ANCILLARY	SUCCESS	ANCILLARY_KEY[vco_anc_talisman_hunting_trophy];SHOULD_REPLACE	default
+11226101	wh2_dlc13_qb_emp_final_battle_wulfhart	TREASURY	SUCCESS	AMOUNT[12000]	default
+11226102	vco_custom_quest_tretch	TREASURY	SUCCESS	AMOUNT[8000]	default
+11226103	vco_custom_quest_tretch	FACTION_POOLED_RESOURCE_TRANSACTION	SUCCESS	RESOURCE[skaven_food];FACTOR[skaven_food_missions];AMOUNT[50];CONTEXT[absolute]	default
+11226104	vco_custom_quest_tretch	ADD_ANCILLARY	SUCCESS	ANCILLARY_KEY[vco_anc_armour_rictus_plate_armour];SHOULD_REPLACE	default

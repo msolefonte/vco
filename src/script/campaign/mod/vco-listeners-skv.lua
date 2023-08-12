@@ -3,16 +3,33 @@ local vlc = core:get_static_object("vco-lib-commons");
 
 local FACTION_ESH_KEY = "wh2_main_skv_clan_eshin";
 local FACTION_MDR_KEY = "wh2_main_skv_clan_moulder";
+local FACTION_RICTUS_KEY = "wh2_dlc09_skv_clan_rictus";
 local KEY_D_HARVEST = "vco_skv_mdr_dilemma_ultimate_harvest";
+local KEY_D_AMBUSH_EVERPEAK = "vco_skv_tre_dilemma_ambush_everpeak";
 local REQUIRED_EFFECT_TAILS = { "inf_aug_13", "inf_aug_14", "mon_aug_13", "mon_aug_14" };
 local REQUIRED_ESHIN_TARGETS = { "wh_main_dwf_karak_izor", "wh2_main_def_hag_graef", "wh3_main_nur_poxmakers_of_nurgle" };
 local REQUIRED_ESHIN_ACTIONS = 13;
+local BATTLE_KEY_TRETCH = "vco_custom_quest_tretch";
+local BATTLE_SCRIPT_KEY_TRETCH = "vco_skv_tretch_custom_battle_moonfall";
 
 -- TRIGGERS --
 
 local function trigger_throt_dilemma()
 	cm:trigger_dilemma(FACTION_MDR_KEY, KEY_D_HARVEST);
 end
+
+local function trigger_tretch_dilemma()
+	cm:trigger_dilemma(FACTION_RICTUS_KEY, KEY_D_AMBUSH_EVERPEAK);
+end
+
+local function trigger_tretch_quest()
+    cm:trigger_mission(FACTION_RICTUS_KEY, "vco_custom_quest_tretch", true);
+end
+
+local function complete_skv_tretch_set_piece_battle()
+	vco:complete_mission(FACTION_RICTUS_KEY, BATTLE_SCRIPT_KEY_TRETCH);
+end
+
 
 local function add_mdr_augment_unlocked(effect)
 	for _, effect_tail in ipairs(REQUIRED_EFFECT_TAILS) do
@@ -118,6 +135,17 @@ local function add_listeners()
 	);
 
 	core:add_listener(
+		"vco_skv_tre_2_completed",
+		"MissionSucceeded",
+		function(context)
+			return context:faction():name() == FACTION_RICTUS_KEY and
+				context:mission():mission_issuer_record_key() == "MUFFIN_MAN";
+		end,
+		trigger_tretch_dilemma,
+		false
+	);
+
+	core:add_listener(
 		"vco_skv_esh_snikch_battle_completed",
 		"CharacterCompletedBattle",
 		function(context)
@@ -141,6 +169,33 @@ local function add_listeners()
 				context:faction():name() == FACTION_ESH_KEY;
 		end,
 		check_snikch_targets,
+		true
+	);
+
+    core:add_listener(
+    "vco_skv_tre_warpstone_meteor",
+    "BuildingCompleted",
+    function(context)
+        return not cm:get_saved_value("vco_skv_tre_warpstone_meteor_already_happened") and
+        context:building():name() == "vco_landmark_tretch_tower_gorgoth";
+    end,
+    function()
+      cm:set_saved_value("vco_skv_tre_warpstone_meteor_already_happened", true);
+      trigger_tretch_quest();
+    end,
+    true
+    );
+
+	core:add_listener(
+		"vco_skv_tre_moonfall",
+		"MissionSucceeded",
+		function(context)
+			return not context:faction():is_null_interface() and
+				context:faction():is_human() and
+				context:faction():name() == FACTION_RICTUS_KEY and
+				context:mission():mission_record_key() == BATTLE_KEY_TRETCH;
+		end,
+		complete_skv_tretch_set_piece_battle,
 		true
 	);
 

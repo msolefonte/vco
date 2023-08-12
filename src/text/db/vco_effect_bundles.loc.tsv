@@ -49,9 +49,9 @@ effect_bundles_localised_description_vco_victory_payload_dwf_gro_1_dilemma_elves
 effect_bundles_localised_description_vco_victory_payload_dwf_gro_1_malekith_grudge	The Witch King is dead, turned to stone by Grungi's judgment. His hateful empire is in ruins, and his great betrayal has finally been avenged.	true
 effect_bundles_localised_description_vco_victory_payload_dwf_gro_2_high_elf_decision	The realms of the Elgi boast treasures that rival even the greatest dwarfholds of the Everlasting Realm.	true
 effect_bundles_localised_description_vco_victory_payload_dwf_gro_3_age_reckoning	The White Dwarf has laid the foundation for a new Dwarfen realm amongst the snowy peaks of Naggaroth. May the Ancestor Gods watch over these trailblazers until their dying days!	true
-effect_bundles_localised_description_vco_victory_payload_emp_big_game_hunter	Nakai didn't wander far enough. His head now takes pride of place in the Huntmarshal's trophy room.	true
-effect_bundles_localised_description_vco_victory_payload_emp_champions_of_the_empire	Arise, Huntsmarshal. You need not kneel in my presence; you have earned that right. Your expedition has brought honour and glory to the Empire in its hour of greatest need. Your brother would be proud.	true
-effect_bundles_localised_description_vco_victory_payload_emp_cursed_artifact_notidoq	This ancient artifact glows with an eldritch light, filling one's mind with a bestial fury.	true
+effect_bundles_localised_description_vco_victory_payload_emp_big_game_hunter	The Huntsmarshal has amassed a formidable number of trophies from his many hunts across Lustria. Preparations must be made to showcase the most impressive specimens, as an Imperial delegation will soon arrive from the mainland.	true
+effect_bundles_localised_description_vco_victory_payload_emp_champions_of_the_empire	The land of the lizard-beasts is conquered, exposed for the Empire to pillage to their heart's content. The Emperor's Mandate has been fulfilled!	true
+effect_bundles_localised_description_vco_victory_payload_emp_cursed_artifact_notidoq	To plunder a Lustrian temple is to court death. Only the bravest (or greediest) men do so again and again.	true
 effect_bundles_localised_description_vco_victory_payload_emp_kar_1_protector_empire	Marienburg's independence is no more. Rulership has been returned to the true Duke of Marienburg, Theoderic Gausser, and the wealth from its ports now flows into the imperial treasury.	true
 effect_bundles_localised_description_vco_victory_payload_emp_kar_2_defier_dark	Upon the battlements of Castle Drakenhof, the Emperor slew Vlad von Carstein in personal combat, staking him through the heart to ensure he would never return. The Cleansing of Sylvania has begun, though it will take many years to purge these blighted lands.	true
 effect_bundles_localised_description_vco_victory_payload_emp_kar_3_karl_uniter	Whether through conquest or diplomacy, the Empire has gained newfound strength with which to wield against its rivals. Even Sigmar Heldenhammer himself did not command such martial and political strength in his lifetime.	true
@@ -87,12 +87,12 @@ effect_bundles_localised_description_vco_victory_payload_ksl_kat_3_dilemma_call_
 effect_bundles_localised_description_vco_victory_payload_ksl_tgo_1_there_can_only_be_one	The Ice Queen's ruinous leadership will lead Kislev astray no longer. The Motherland is stronger for it.	true
 effect_bundles_localised_description_vco_victory_payload_ksl_tgo_2_the_last_bastion	Where Katarin failed, Kostaltyn succeeded. Recognising the true power of the Great Orthodoxy, several Ice Witches have deserted their queen and joined their strength to Kostaltyn's, wreathing his warriors in frozen armour and battering invaders with ceaseless blizzards. The Supreme Patriarch yearns to have the heathens executed on cleansing pyres, but stays his hand, for now...	true
 effect_bundles_localised_description_vco_victory_payload_ksl_tgo_3_wololo_1	You follow a great man, but he is just a man. Follow the bear, and you will know true strength.	true
-effect_bundles_localised_description_vco_victory_payload_ksl_tgo_3_wololo_2	The followers of Handrich now see that the one true path to salvation lies through the renunciation of all wealth, preferably to the Patriarchs of the Great Orthodoxy.	true
+effect_bundles_localised_description_vco_victory_payload_ksl_tgo_3_wololo_2	The followers of Handrich now see that the true path to salvation lies through the renunciation of all wealth, preferably to the Patriarchs of the Great Orthodoxy.	true
 effect_bundles_localised_description_vco_victory_payload_ksl_tgo_3_wololo_3	The wolf and the bear must stand together to brave the coming storm. The Great Orthodoxy will ensure such a union perseveres.	true
 effect_bundles_localised_description_vco_victory_payload_ksl_tgo_3_wololo_4	Rejoice, peasants. The fires of Dazh have exposed your masters for what they truly were. Feed the flames, and your salvation will be ensured.	true
-effect_bundles_localised_description_vco_victory_payload_lzd_hex_1_solar_city	The interlopers have been purged. The Skink artisans and Kroxigor labourers can continue their work unabated.	true
-effect_bundles_localised_description_vco_victory_payload_lzd_hex_2_begone_thot	The Hag Queen and her cruel consorts have met their end, their souls now the playthings of the Ancient Enemy for all eternity. The arcane artifacts contained within Quintex are now at your disposal.	true
-effect_bundles_localised_description_vco_victory_payload_lzd_hex_3_purging_warmbloods	The Geomantic Web thrums with power, the spawning pools thrash with new life - all is as the Old Ones foretold.	true
+effect_bundles_localised_description_vco_victory_payload_lzd_hex_1_solar_city	The Geomantic Web thrums with power, the spawning pools thrash with new life - all is as the Old Ones foretold.	true
+effect_bundles_localised_description_vco_victory_payload_lzd_hex_2_begone_thot	The servants of the Ancient Enemy in Naggaroth have been exterminated, bringing the Great Plan one step closer to fruition.	true
+effect_bundles_localised_description_vco_victory_payload_lzd_hex_3_purging_warmbloods	The interlopers have been purged. The Skink artisans and Kroxigor labourers can continue their work unabated.	true
 effect_bundles_localised_description_vco_victory_payload_nor_wul_1_ragnarok_1	Seafang's figurehead greedily absorbed the blood of the slain challengers smeared upon it. The ship now thrums with an eldritch power that has spread across Wulfrik's entire fleet, filling their sails with the Winds of Magic.	true
 effect_bundles_localised_description_vco_victory_payload_nor_wul_1_ragnarok_2	Baleful monuments to your dark master poison the land and whip the Winds of Magic up into a hurricane gale, allowing hordes of daemons to manifest directly into the mortal realm.	true
 effect_bundles_localised_description_vco_victory_payload_nor_wul_2_the_world_walker	With his Gift of Tongues, Wulfrik curses foes and goads them into recklessness. Whether he's besmirching a Dwarf's honour, questioning a Bretonnian's lineage or humiliating a haughty Elf - none can ignore his insults for long.	true
@@ -205,9 +205,9 @@ effect_bundles_localised_title_vco_victory_payload_dwf_gro_1_dilemma_elves_forgi
 effect_bundles_localised_title_vco_victory_payload_dwf_gro_1_malekith_grudge	Grungi's Condemnation	true
 effect_bundles_localised_title_vco_victory_payload_dwf_gro_2_high_elf_decision	The Wealth of the Elves	true
 effect_bundles_localised_title_vco_victory_payload_dwf_gro_3_age_reckoning	Manifest Destiny	true
-effect_bundles_localised_title_vco_victory_payload_emp_big_game_hunter	Big Game Hunter	true
+effect_bundles_localised_title_vco_victory_payload_emp_big_game_hunter	Big-Game Hunter	true
 effect_bundles_localised_title_vco_victory_payload_emp_champions_of_the_empire	Champions of the Empire	true
-effect_bundles_localised_title_vco_victory_payload_emp_cursed_artifact_notidoq	Cursed Artifact of No'Tidoq	true
+effect_bundles_localised_title_vco_victory_payload_emp_cursed_artifact_notidoq	Treasure Hunters	true
 effect_bundles_localised_title_vco_victory_payload_emp_kar_1_protector_empire	The Reclamation of Marienburg	true
 effect_bundles_localised_title_vco_victory_payload_emp_kar_2_defier_dark	The Cleansing of Sylvania	true
 effect_bundles_localised_title_vco_victory_payload_emp_kar_3_karl_uniter	Karl the Uniter	true
@@ -246,9 +246,11 @@ effect_bundles_localised_title_vco_victory_payload_ksl_tgo_3_wololo_1	The Scourg
 effect_bundles_localised_title_vco_victory_payload_ksl_tgo_3_wololo_2	The Conversion of Marienburg	true
 effect_bundles_localised_title_vco_victory_payload_ksl_tgo_3_wololo_3	The Syncretism of Middenheim	true
 effect_bundles_localised_title_vco_victory_payload_ksl_tgo_3_wololo_4	The Cleansing of Drakenhof	true
-effect_bundles_localised_title_vco_victory_payload_lzd_hex_1_solar_city	The Age of Awakening	true
-effect_bundles_localised_title_vco_victory_payload_lzd_hex_2_begone_thot	Saviour of Quintex	true
-effect_bundles_localised_title_vco_victory_payload_lzd_hex_3_purging_warmbloods	Lustria Resurgent	true
+effect_bundles_localised_title_vco_victory_payload_lzd_hex_1_solar_city	Geomantic Web Restored	true
+effect_bundles_localised_title_vco_victory_payload_lzd_hex_1_unity_of_spirit	Unity of Spirit	true
+effect_bundles_localised_description_vco_victory_payload_lzd_hex_1_unity_of_spirit	Ancient connections long severed are now repaired. Mazdamundi is able to extend his thoughts out across vast distances, and so calls for all Lizardmen everywhere to unite under his Sunburst Standard.\\n\\n	true
+effect_bundles_localised_title_vco_victory_payload_lzd_hex_2_begone_thot	Deviation Corrected	true
+effect_bundles_localised_title_vco_victory_payload_lzd_hex_3_purging_warmbloods	Sins of a Solar Empire	true
 effect_bundles_localised_title_vco_victory_payload_nor_wul_1_ragnarok_1	The Winds Roar	true
 effect_bundles_localised_title_vco_victory_payload_nor_wul_1_ragnarok_2	Faithful Vassal	true
 effect_bundles_localised_title_vco_victory_payload_nor_wul_2_the_world_walker	The Eternal Challenger	true
@@ -486,3 +488,25 @@ effect_bundles_localised_title_vco_victory_payload_bst_mal_dilemma_harbinger_liz
 effect_bundles_localised_description_vco_victory_payload_bst_mal_dilemma_harbinger_lizardmen	Scores of Lizardmen are skinned alive and devoured by the ravenous Beastmen. Their thick, scaled hides will serve the warherd well when fashioned into crude armour and shields.	false
 effect_bundles_localised_title_vco_volkmar_banner_effect_bundle	Jade Griffon Banner	false
 effect_bundles_localised_description_vco_volkmar_banner_effect_bundle	Even the faith of mighty Volkmar was sorely tested as he was taken up and chained to the battle standard of Malagor's warherd.	false
+effect_bundles_localised_title_vco_victory_payload_emp_mar_dilemma_hunting_trophy_carnosaur	Carnosaur Exhibit	false
+effect_bundles_localised_description_vco_victory_payload_emp_mar_dilemma_hunting_trophy_carnosaur	The delegation were overawed by the sheer size of the Carnosaur and vowed to send more shipments from Nuln's foundries to help the colonies fight off these ferocious creatures.	false
+effect_bundles_localised_title_vco_victory_payload_emp_mar_dilemma_hunting_trophy_rat_ogre	Rat Ogre Exhibit	false
+effect_bundles_localised_description_vco_victory_payload_emp_mar_dilemma_hunting_trophy_rat_ogre	Though most members of the delegation questioned if the creature before them was indeed a giant rat, and not merely a mutated Lustrian beast, all agreed that the threat of plague in these foreign lands was very real, and that steps should be taken to prevent further outbreaks.\\n	false
+effect_bundles_localised_title_vco_victory_payload_emp_mar_dilemma_hunting_trophy_black_dragon	Black Dragon Exhibit	false
+effect_bundles_localised_description_vco_victory_payload_emp_mar_dilemma_hunting_trophy_black_dragon	Though the Huntsmarshal struck the Black Dragon dead with a single shot from his Amber Bow, his men suffered great losses at the hands of the black magic of the Dark Elves. All present agreed that more Wizards from the Imperial Colleges should be dispatched to ensure the expedition's continued success.	false
+effect_bundles_localised_title_vco_victory_payload_emp_mar_dilemma_hunting_trophy_sea_monster	Leviathan Exhibit	false
+effect_bundles_localised_description_vco_victory_payload_emp_mar_dilemma_hunting_trophy_sea_monster	After his brother Jacob perished at sea, the Huntsmarshal vowed to continue his quest to hunt down the most infamous sea monsters that prowled the world's oceans. The delegation agreed to divert funds from the Imperial treasury to assist with this endeavour.	false
+effect_bundles_localised_title_vco_victory_payload_skv_ric_1_nightmare_drakenmoor	Dark Lands Warpforges	false
+effect_bundles_localised_description_vco_victory_payload_skv_ric_1_nightmare_drakenmoor	The many forges of the Chaos Dwarfs now serve Clan Rictus, outfitting scores of Stormvermin with warpforged arms and armour.	false
+effect_bundles_localised_title_vco_victory_payload_skv_ric_1_nightmare_drakenmoor_1	Morskrit's Boon	false
+effect_bundles_localised_description_vco_victory_payload_skv_ric_1_nightmare_drakenmoor_1	Standing atop the highest towers of the Dark Lands, the Grey Seers conduct their fell rituals to guide Warpstone Meteors towards the base of Crookback Mountain, where they can be harvested safely.	false
+effect_bundles_localised_title_vco_victory_payload_skv_ric_2_ascension	Unwelcome Guests	false
+effect_bundles_localised_description_vco_victory_payload_skv_ric_2_ascension	Skreet Blackblade, right-claw to the Supreme Warlord of Clan Rictus, has made the long journey to the Everpeak to “congratulate” Tretch in person for his momentous victory. Tretch is no fool. He has already made the necessary preparations…	false
+effect_bundles_localised_title_vco_victory_payload_skv_ric_3_fozzriks_flying_fastness	Fozzrik's Freight-Fleecing Flimflam	false
+effect_bundles_localised_description_vco_victory_payload_skv_ric_3_fozzriks_flying_fastness	Tretch uses Fozzrik's magic to amass a vast collection of arcane treasures, summoning the contents of hidden vaults or entire baggage trains to the Flying Fortress.	false
+effect_bundles_localised_title_vco_victory_payload_skv_ric_3_clan_mors_defeated	The Fifth Great Clan	false
+effect_bundles_localised_description_vco_victory_payload_skv_ric_3_clan_mors_defeated	Clan Mors is no more, their greatest warriors subjugated or slain. With this great victory, Clan Rictus has risen to prominence as a Great Clan, rivalling the ancient clans of Skyre, Pestilens, Eshin and Moulder in military and political influence.	false
+effect_bundles_localised_title_vco_victory_payload_skv_tre_dilemma_ambush_everpeak_kill	Supreme Warlord Tretch Craventail	false
+effect_bundles_localised_description_vco_victory_payload_skv_tre_dilemma_ambush_everpeak_kill	After his conquest of the Worlds Edge Mountains, Tretch seized control of Clan Rictus and slew Kratch Doomclaw in a fair and honourable duel. Well, that's how Tretch tells it anyway...	false
+effect_bundles_localised_title_vco_victory_payload_skv_tre_dilemma_ambush_everpeak_spare	Grand Chieftain of the Deep Warrens and High Peaks	false
+effect_bundles_localised_description_vco_victory_payload_skv_tre_dilemma_ambush_everpeak_spare	Let that fool Doomclaw continue to serve Clan Rictus' interests on the Council of Thirteen. All know that mighty Tretch is the true power behind Clan Rictus.	false

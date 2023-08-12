@@ -1,0 +1,6 @@
+id	mission_key	option_key	value	target
+#cdir_events_mission_option_junctions_tables;2;db/cdir_events_mission_option_junctions_tables/vco				
+9961073001	vco_custom_quest_tretch	VAR_MISSION_LENGTH_INFINITE		default
+9961073002	vco_custom_quest_tretch	GEN_TARGET_CHARACTER		default
+9961073003	vco_custom_quest_tretch	GEN_CND_CHARACTER_ID	1704409635	default
+9961073004	vco_custom_quest_tretch	VAR_CHANCE	100	default

@@ -214,6 +214,9 @@ vco_victory_type_skv_esh_3_keep_your_enemies_close	2	0	long	long	true
 vco_victory_type_skv_mdr_1_yes_yes_prepare_the_lab	0	0	long	long	true
 vco_victory_type_skv_mdr_2_the_vermintide_comes	1	0	long	long	true
 vco_victory_type_skv_mdr_3_the_frozen_dead	2	0	long	long	true
+vco_victory_type_skv_ric_1_nightmare_drakenmoor	0	0	long	long	true
+vco_victory_type_skv_ric_2_ascension	1	0	long	long	true
+vco_victory_type_skv_ric_3_fozzriks_flying_fastness	2	0	long	long	true
 vco_victory_type_sla_nka_1_the_great_game	0	0	long	long	true
 vco_victory_type_sla_nka_1_the_great_game_roc	1	0	long	long	true
 vco_victory_type_sla_nka_2_paradise_lost	1	0	long	long	true
