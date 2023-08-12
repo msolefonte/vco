@@ -4,7 +4,7 @@ local missions = {
 		{
 			victory_type vco_victory_type_lzd_hex_1_solar_city;
 			key wh_main_short_victory;
-			issuer CLAN_ELDERS;
+			issuer MUFFIN_MAN;
 			primary_objectives_and_payload
 			{
 				objective
@@ -16,33 +16,35 @@ local missions = {
 
 				objective
 				{
-					type CONTROL_N_PROVINCES_INCLUDING;
-					total 3;
+					override_text mission_text_text_vco_chs_aza_3_sigmars_folly_1;
+					type CONTROL_N_REGIONS_FROM;
+					total 8;
 
-					province wh3_main_combi_province_isthmus_of_lustria;
-					province wh3_main_combi_province_the_isthmus_coast;
-					province wh3_main_combi_province_jungles_of_pahualaxa;
+					region wh3_main_combi_region_naggarond;
+					region wh3_main_combi_region_the_witchwood;
+					region wh3_main_combi_region_lothern;
+					region wh3_main_combi_region_gaean_vale;
+					region wh3_main_combi_region_skavenblight;
+					region wh3_main_combi_region_altdorf;
+					region wh3_main_combi_region_couronne;
+					region wh3_main_combi_region_kislev;
+					region wh3_main_combi_region_castle_drakenhof;
+					region wh3_main_combi_region_khemri;
+					region wh3_main_combi_region_black_crag;
+					region wh3_main_combi_region_sartosa;
+					region wh3_main_combi_region_karaz_a_karak;
+					region wh3_main_combi_region_zharr_naggrund;
+					region wh3_main_combi_region_fire_mouth;
+					region wh3_main_combi_region_wei_jin;
 				}
 
 				objective
 				{
-
-					type DESTROY_FACTION;
-
-					faction wh3_dlc20_sla_keepers_of_bliss;
-					faction wh2_main_nor_skeggi;
-
-					confederation_valid;
-				}
-
-				objective
-				{
-					type CONSTRUCT_N_BUILDINGS_INCLUDING;
+					type CONSTRUCT_N_BUILDINGS_FROM;
 					faction wh2_main_lzd_hexoatl;
-					total 2;
-
-					building_level wh2_main_special_hexoatl_incubator;
-					building_level wh2_main_special_hexoatl_stellar_pyramids;
+					total 5;
+				
+					building_level vco_landmark_mazdamundi_geomantic_nexus;
 				}
 
 				payload
@@ -51,6 +53,12 @@ local missions = {
 					{
 						bundle_key vco_victory_payload_lzd_hex_1_solar_city;
 						turns 0;
+					}
+
+					effect_bundle
+					{
+						bundle_key vco_victory_payload_lzd_hex_1_unity_of_spirit;
+						turns 1;
 					}
 
 					effect_bundle
@@ -84,25 +92,12 @@ local missions = {
 					type DESTROY_FACTION;
 
 					faction wh2_main_def_cult_of_pleasure;
+					faction wh2_dlc09_tmb_exiles_of_nehek;
+					faction wh2_dlc17_bst_taurox;
+					faction wh2_dlc11_cst_the_drowned;
+					faction wh3_dlc20_chs_valkia;
 
 					confederation_valid;
-				}
-
-				objective
-				{
-					type CONTROL_N_REGIONS_INCLUDING;
-					total 1;
-
-					region wh3_main_combi_region_ancient_city_of_quintex;
-				}
-
-				objective
-				{
-					type CONSTRUCT_N_BUILDINGS_INCLUDING;
-					faction wh2_main_lzd_hexoatl;
-					total 1;
-
-					building_level wh2_main_special_quintex_2;
 				}
 
 				payload
@@ -146,8 +141,11 @@ local missions = {
 					faction wh2_dlc13_emp_the_huntmarshals_expedition;
 					faction wh_main_brt_bordeleaux;
 					faction wh2_dlc11_cst_vampire_coast;
+					faction wh2_twa03_def_rakarth;
 
 					confederation_valid;
+					vassalization_valid;
+
 				}
 
 				objective

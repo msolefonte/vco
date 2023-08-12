@@ -153,6 +153,15 @@ local missions = {
 					confederation_valid;
 				}
 
+				objective
+				{
+					type CONSTRUCT_BUILDING_IN_PROVINCES;
+					faction wh3_main_dwf_the_ancestral_throng;
+
+                    province wh3_main_combi_province_doom_glades;
+					building_level vco_landmark_grombrindal_vauls_anvil;
+				}
+
 				payload
 				{
 					effect_bundle

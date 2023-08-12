@@ -88,9 +88,9 @@ victory_types_display_name_vco_victory_type_economic	Economic Victory	true
 victory_types_display_name_vco_victory_type_emp_kar_1_protector_empire	Route I - Protector of the Empire	true
 victory_types_display_name_vco_victory_type_emp_kar_2_defier_dark	Route II - Defier of the Dark	true
 victory_types_display_name_vco_victory_type_emp_kar_3_karl_uniter	Route III - Karl the Uniter	true
-victory_types_display_name_vco_victory_type_emp_the_1_champions_of_the_empire	Route I - The Huntsmarshal's Expedition	true
+victory_types_display_name_vco_victory_type_emp_the_1_champions_of_the_empire	Route I - The Emperor's Mandate	true
 victory_types_display_name_vco_victory_type_emp_the_2_the_huntsmarshals_expedition	Route II - That Belongs in a Museum!	true
-victory_types_display_name_vco_victory_type_emp_the_3_it_is_round	Route III - It IS Round!	true
+victory_types_display_name_vco_victory_type_emp_the_3_it_is_round	Route III - On Safari	true
 victory_types_display_name_vco_victory_type_grn_gri_1_boss_east	Route I - Boss uv da East	true
 victory_types_display_name_vco_victory_type_grn_gri_2_burn_badlands	Route II - Burn Da Badlands	true
 victory_types_display_name_vco_victory_type_grn_gri_3_unfinished_business	Route III - Unfinished Business	true
@@ -122,9 +122,9 @@ victory_types_display_name_vco_victory_type_ksl_tgo_2_the_last_bastion_roc	Route
 victory_types_display_name_vco_victory_type_ksl_tgo_3_wololo	Route III - Wololo!	true
 victory_types_display_name_vco_victory_type_ksl_tgo_3_wololo_roc	Route III - Wololo!	true
 victory_types_display_name_vco_victory_type_long	Campaign Victory	true
-victory_types_display_name_vco_victory_type_lzd_hex_1_solar_city	Route I - The First Decree	true
-victory_types_display_name_vco_victory_type_lzd_hex_2_begone_thot	Route II - Begone Thot!	true
-victory_types_display_name_vco_victory_type_lzd_hex_3_purging_warmbloods	Route III - Purging the Warmbloods	true
+victory_types_display_name_vco_victory_type_lzd_hex_1_solar_city	Route I - A New Dawn	true
+victory_types_display_name_vco_victory_type_lzd_hex_2_begone_thot	Route II - The First Decree	true
+victory_types_display_name_vco_victory_type_lzd_hex_3_purging_warmbloods	Route III - Purge the Interlopers	true
 victory_types_display_name_vco_victory_type_military	Military Victory	true
 victory_types_display_name_vco_victory_type_nor_wul_1_ragnarok	Route I - Ragnarok	true
 victory_types_display_name_vco_victory_type_nor_wul_2_the_world_walker	Route II - The World Walker	true
@@ -242,3 +242,6 @@ victory_types_display_name_vco_victory_type_chs_bel_3_aetherophasic_engine	Route
 victory_types_display_name_vco_victory_type_bst_mal_1_badlands_bloodground	Route I - Blood in the Badlands	true
 victory_types_display_name_vco_victory_type_bst_mal_2_seed_of_hate	Route II - The Seed of Hate	true
 victory_types_display_name_vco_victory_type_bst_mal_3_bane_of_death	Route III - The Unmaker	true
+victory_types_display_name_vco_victory_type_skv_ric_1_nightmare_drakenmoor	Route I - The Nightmare of Drakenmoor	true
+victory_types_display_name_vco_victory_type_skv_ric_2_ascension	Route II - The Ascent	true
+victory_types_display_name_vco_victory_type_skv_ric_3_fozzriks_flying_fastness	Route III - Blood in the Badlands	true

@@ -41,7 +41,7 @@ ancillaries_colour_text_vco_anc_talisman_superior_collar_of_khorne	Valkia's hell
 ancillaries_onscreen_name_vco_anc_weapon_the_slayer_of_kings	The Slayer of Kings	true
 ancillaries_colour_text_vco_anc_weapon_the_slayer_of_kings	The Second Everchosen, Vangel, trapped the Greater Daemon U'zuhl inside this regicidal blade. Aeons of imprisonment inside the blade have driven the Daemon insane with rage. In battle, the blade moans with barely contained fury.	true
 ancillaries_onscreen_name_vco_anc_armour_the_armour_of_morkar	The Armour of Morkar	true
-ancillaries_colour_text_vco_anc_weapon_the_slayer_of_kings	Once belonging to the First Everchosen of Chaos, this ancient suit of Chaos Armour is as powerful as those who have dared to wear it.	true
+ancillaries_colour_text_vco_anc_armour_the_armour_of_morkar	Once belonging to the First Everchosen of Chaos, this ancient suit of Chaos Armour is as powerful as those who have dared to wear it.	true
 ancillaries_onscreen_name_vco_anc_talisman_the_eye_of_sheerian	The Eye of Sheerian	true
 ancillaries_colour_text_vco_anc_talisman_the_eye_of_sheerian	Named after the Tzeentchian Sorcerer who discovered it, the Eye sees nearly all. Its current owner should make use of its prophetic powers...	true
 ancillaries_onscreen_name_vco_anc_enchanted_item_black_dragon_egg	Liberated Black Dragon Egg	true
@@ -114,3 +114,15 @@ ancillaries_onscreen_name_vco_anc_enchanted_item_malagors_mask_of_heavens	Mask o
 ancillaries_colour_text_vco_anc_enchanted_item_malagors_mask_of_heavens	The ancient magic of Tiktaq'to's mask is used by the Bray-Shamans to dominate the minds of the wilful Minotaurs.	false
 ancillaries_onscreen_name_vco_anc_talisman_bloodstained_pendant	Bloodstained Pendant	false
 ancillaries_colour_text_vco_anc_talisman_bloodstained_pendant	This ithilmar pendant, inset with a flawlessly carved brightstone, was gifted to Thorek Ironbrow by the High Loremaster Teclis as a gesture of peace and friendship.	false
+ancillaries_onscreen_name_vco_anc_talisman_hunting_trophy	Hunting Trophy	false
+ancillaries_colour_text_vco_anc_talisman_hunting_trophy	The Wanderer didn't wander far enough. His severed head now takes pride of place in the Huntsmarshal's trophy hall.	false
+ancillaries_onscreen_name_vco_anc_enchanted_item_cursed_artifact_notidoq	Cursed Artifact of No'Tidoq	false
+ancillaries_colour_text_vco_anc_enchanted_item_cursed_artifact_notidoq	This ancient artifact glows with an eldritch light, filling one's mind with a bestial fury.	false
+ancillaries_onscreen_name_vco_anc_talisman_cracked_rune_azamar	Cracked Rune of Azamar	false
+ancillaries_colour_text_vco_anc_talisman_cracked_rune_azamar	Though the Rune of Azamar's once flawless perfection is now marred by a single crack running down its centre, it still resonates with latent power. The rune was prised from the High King’s Throne of Power and now serves as an indisputable symbol of the Grand Chieftain's conquest.	false
+ancillaries_onscreen_name_vco_anc_follower_fozzrik_summoner	Grey Seer Summoner	false
+ancillaries_colour_text_vco_anc_follower_fozzrik_summoner	With a series of whispered words and intricate gestures, this Grey Seer can summon Fozzrik's Flying Fortress to the battlefield.	false
+ancillaries_onscreen_name_vco_anc_weapon_kratchs_doomclaw	Kratch's Doomclaw	false
+ancillaries_colour_text_vco_anc_weapon_kratchs_doomclaw	This crude, oversized warpstone-powered claw can easily slice through flesh and bone. It was taken from the corpse of Kratch Doomclaw, the previous ruler of Clan Rictus.	false
+ancillaries_onscreen_name_vco_anc_armour_rictus_plate_armour	Rictus Plate Armour	false
+ancillaries_colour_text_vco_anc_armour_rictus_plate_armour	This suit of plate armour is comprised entirely of warpstone. The chestpiece is engraved with Clan Rictus' symbol.	false
