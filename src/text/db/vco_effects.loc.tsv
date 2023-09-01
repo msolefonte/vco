@@ -26,7 +26,6 @@ effects_description_vco_def_gan_witch_elves_sisters_melee_damage_ap	Armour-pierc
 effects_description_vco_def_morathi_miscast_base_chance	[[col:green]]Miscast base chance: %-n% for Morathi[[/col]]	true
 effects_description_vco_def_morathi_missile_resistance	Missile resistance: %+n% for Morathi	true
 effects_description_vco_def_morathi_slaanesh_unlock_dummy	Unlocks new Slaanesh units: Fiends and Keepers of Secrets	true
-effects_description_vco_def_morathi_targeting_range	Spell targeting range: %+n% for Morathi	true
 effects_description_vco_def_morathi_ward_save	Ward save: %+n% for Morathi	true
 effects_description_vco_dwf_gro_dilemma_elves	A dilemma will offer a choice between powerful rewards!	true
 effects_description_vco_dwf_grombrindal_allegiance_points_mod_wef_hef	Allegiance points gained: %+n% for alliances with High Elves and Wood Elves	true
