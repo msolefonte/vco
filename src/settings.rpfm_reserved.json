@@ -1,6 +1,6 @@
 {
   "settings_text": {
-    "diagnostics_files_to_ignore": "",
+    "diagnostics_files_to_ignore": "\nui/portraits/portholes/portrait_settings__templateWH3.bin;;InvalidVariantFilename\n\nui/portraits/portholes/portrait_settings__templateWH3.bin\n\nui/portraits/portholes/portrait_settings__templateWH3.bin\nui/portraits/portholes/portrait_settings__templateWH3.bin\nui/portraits/units/portrait_settings__templateWH3.bin\nui/portraits/units/portrait_settings__templateWH3.bin\n",
     "import_files_to_ignore": ""
   },
   "settings_string": {},

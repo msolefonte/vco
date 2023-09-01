@@ -122,6 +122,9 @@ vco_victory_type_cth_twp_2_warpstone_hoard	1	0	long	long	true
 vco_victory_type_cth_twp_2_warpstone_hoard_roc	2	0	long	long	true
 vco_victory_type_cth_twp_3_dont_thread_on_ming	2	0	long	long	true
 vco_victory_type_cth_twp_3_dont_thread_on_ming_roc	3	0	long	long	true
+vco_victory_type_cth_yua_1_the_jade_compass	0	0	long	long	true
+vco_victory_type_cth_yua_2_harmony_through_unity	1	0	long	long	true
+vco_victory_type_cth_yua_3_the_spymaster	2	0	long	long	true
 vco_victory_type_cultural	5	0	long	long	true
 vco_victory_type_dae_god_1_ascension	0	0	long	long	true
 vco_victory_type_dae_god_1_ascension_roc	1	0	long	long	true

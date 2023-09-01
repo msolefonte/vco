@@ -45,6 +45,11 @@ local missions = {
 						turns 0;
 					}
 
+					add_ancillary_to_faction_pool
+					{
+						ancillary_key wh3_main_anc_weapon_chainsword;
+					}
+
 					effect_bundle
 					{
 						bundle_key vco_victory_payload_all_campaign_victory_dummy;
