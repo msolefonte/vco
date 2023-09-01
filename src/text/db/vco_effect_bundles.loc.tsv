@@ -46,7 +46,7 @@ effect_bundles_localised_description_vco_victory_payload_def_gan_3_eternity_awai
 effect_bundles_localised_description_vco_victory_payload_def_gan_3_eternity_awaits_2	No vengeance can ever taste as sweet as slaying Morathi., and no sacrifice to Drakira ever be as powerful... No matter, I have earned Drakira's favour today.	true
 effect_bundles_localised_description_vco_victory_payload_dwf_gro_1_dilemma_elves_condemn	The White Dwarf leads his throng on the war path, seeking vengeance for ancient grievances against his people. He will not rest until the Phoenix King Finubar sues for peace!	true
 effect_bundles_localised_description_vco_victory_payload_dwf_gro_1_dilemma_elves_forgive	The White Dwarf has ushered in a new era of peace between the Dwarfs and the Elves. Though they may never see eye-to-eye, the two races stand united against the forces of Chaos arrayed against them.	true
-effect_bundles_localised_description_vco_victory_payload_dwf_gro_1_malekith_grudge	The Witch King is dead, turned to stone by Grungi's judgment. His hateful empire is in ruins, and his great betrayal has finally been avenged.	true
+effect_bundles_localised_description_vco_victory_payload_dwf_gro_1_malekith_grudge	The Witch King is dead, turned to stone by Grungni's judgment. His hateful empire is in ruins, and his great betrayal has finally been avenged.	true
 effect_bundles_localised_description_vco_victory_payload_dwf_gro_2_high_elf_decision	The realms of the Elgi boast treasures that rival even the greatest dwarfholds of the Everlasting Realm.	true
 effect_bundles_localised_description_vco_victory_payload_dwf_gro_3_age_reckoning	The White Dwarf has laid the foundation for a new Dwarfen realm amongst the snowy peaks of Naggaroth. May the Ancestor Gods watch over these trailblazers until their dying days!	true
 effect_bundles_localised_description_vco_victory_payload_emp_big_game_hunter	The Huntsmarshal has amassed a formidable number of trophies from his many hunts across Lustria. Preparations must be made to showcase the most impressive specimens, as an Imperial delegation will soon arrive from the mainland.	true
@@ -202,7 +202,7 @@ effect_bundles_localised_title_vco_victory_payload_def_gan_3_eternity_awaits_1	O
 effect_bundles_localised_title_vco_victory_payload_def_gan_3_eternity_awaits_2	Drakira's Vengeance	true
 effect_bundles_localised_title_vco_victory_payload_dwf_gro_1_dilemma_elves_condemn	The Second War of Vengeance	true
 effect_bundles_localised_title_vco_victory_payload_dwf_gro_1_dilemma_elves_forgive	The Last Alliance	true
-effect_bundles_localised_title_vco_victory_payload_dwf_gro_1_malekith_grudge	Grungi's Condemnation	true
+effect_bundles_localised_title_vco_victory_payload_dwf_gro_1_malekith_grudge	Grungni's Condemnation	true
 effect_bundles_localised_title_vco_victory_payload_dwf_gro_2_high_elf_decision	The Wealth of the Elves	true
 effect_bundles_localised_title_vco_victory_payload_dwf_gro_3_age_reckoning	Manifest Destiny	true
 effect_bundles_localised_title_vco_victory_payload_emp_big_game_hunter	Big-Game Hunter	true
@@ -423,7 +423,7 @@ effect_bundles_localised_description_vco_victory_payload_brt_rep_dilemma_eternal
 effect_bundles_localised_title_vco_victory_payload_brt_rep_dilemma_eternal_war_badlands	Into the Lion's Den	true
 effect_bundles_localised_description_vco_victory_payload_brt_rep_dilemma_eternal_war_badlands	The Greenskins are infamous for their love of fighting. When they hear that an entire company of Bretonnians have breached their lands, they will descend upon them like flies to carrion. Repanse orders the men-at-arms to be outfitted with the very best arms and armour, for they must hold the line until the clarion call is sounded.	true
 effect_bundles_localised_title_vco_victory_payload_chd_ast_1_steel_sky	The Curse Denied	false
-effect_bundles_localised_description_vco_victory_payload_chd_ast_1_steel_sky	Through subtle arcane means, Astragoth commutes his curse to his unwitting disciples and thus postpones his own petrification indefinitely. Each season adds new ranks of petrified sorcerors to Zharr-Naggrund's causeway, and Astragoth's reign continues in perpetuity.	false
+effect_bundles_localised_description_vco_victory_payload_chd_ast_1_steel_sky	Through subtle arcane means, Astragoth transposes his curse to his unwitting disciples and thus postpones his own petrification indefinitely. Each season adds new ranks of petrified sorcerors to Zharr-Naggrund's causeway, and Astragoth's reign continues in perpetuity.	false
 effect_bundles_localised_title_vco_victory_payload_chd_ast_2_the_culling	An Old Foe Returns	false
 effect_bundles_localised_description_vco_victory_payload_chd_ast_2_the_culling	As the last of the Greenskins scatters before the implacable might of the Disciples of Hashut, one among their number fights on. Astragoth readies his hammer and moves to put down this stubborn orc personally…	false
 effect_bundles_localised_title_vco_victory_payload_chd_ast_3_hashut_wakes	Reign of Iron	false
@@ -510,3 +510,9 @@ effect_bundles_localised_title_vco_victory_payload_skv_tre_dilemma_ambush_everpe
 effect_bundles_localised_description_vco_victory_payload_skv_tre_dilemma_ambush_everpeak_kill	After his conquest of the Worlds Edge Mountains, Tretch seized control of Clan Rictus and slew Kratch Doomclaw in a fair and honourable duel. Well, that's how Tretch tells it anyway...	false
 effect_bundles_localised_title_vco_victory_payload_skv_tre_dilemma_ambush_everpeak_spare	Grand Chieftain of the Deep Warrens and High Peaks	false
 effect_bundles_localised_description_vco_victory_payload_skv_tre_dilemma_ambush_everpeak_spare	Let that fool Doomclaw continue to serve Clan Rictus' interests on the Council of Thirteen. All know that mighty Tretch is the true power behind Clan Rictus.	false
+effect_bundles_localised_title_vco_victory_payload_cth_yua_1_the_jade_compass	The Jade Compass	false
+effect_bundles_localised_description_vco_victory_payload_cth_yua_1_the_jade_compass	With the power of the Geomantic Web surging through the Wu Xing Compass, the Dragon Emperor and Moon Empress are one step closer to bringing their plan to fruition.	false
+effect_bundles_localised_title_vco_victory_payload_cth_yua_2_harmony_through_unity	United as One	false
+effect_bundles_localised_description_vco_victory_payload_cth_yua_2_harmony_through_unity	With whispered words and decapitating strokes, the Jade Dragon has renewed a fractured nation.	false
+effect_bundles_localised_title_vco_victory_payload_cth_yua_3_the_spymaster	Yuan Bo the Omniscient	false
+effect_bundles_localised_description_vco_victory_payload_cth_yua_3_the_spymaster	Thousands of ink black eyes stare out across the land, taking in each detail and following every movement.	false
