@@ -22,7 +22,7 @@ effect_bundles_localised_description_vco_victory_payload_cst_sar_3_dead_man_s_ve
 effect_bundles_localised_description_vco_victory_payload_cst_sar_3_dead_man_s_vengeance_2	As the Sartosans pillaged the rapidly sinking Bloody Reaver, one of their number came across this ancient tome. Upon touching it, they collapsed into ash. A Vampire Fleet Captain quickly recognised its importance and ensured its knowledge was not lost beneath the waves.	true
 effect_bundles_localised_description_vco_victory_payload_cth_cool_and_aloof	From the highest tower in the City of Smoke, the Supreme Matriarch safeguards the nation.	true
 effect_bundles_localised_description_vco_victory_payload_cth_dont_thread_on_ming	Across Cathay the merchants rejoice, for the trade routes are secure and wealth flows into the nation.	true
-effect_bundles_localised_description_vco_victory_payload_cth_in_harmony	Miao Ying is the Master of the Storm Winds to her enemies, but to her subjects she is the Bringer of the Rains. Her journey across the four provinces brings renewed life and strength to the Celestial Empire.	true
+effect_bundles_localised_description_vco_victory_payload_cth_in_harmony	Though her warmongering would be considered rash by some of her siblings, none can deny the results.	true
 effect_bundles_localised_description_vco_victory_payload_cth_iron_into_gold	Diplomats from the west brave the Ivory Road to kneel before the Dragon Emperor and pledge their nation to his cause.	true
 effect_bundles_localised_description_vco_victory_payload_cth_kat_3_sister_rescued	Cultists continue to desperately chant their ritual of binding, even as the last of their defenders are cut down. Something vast roars from deep within the Dark Fortress, and a burst of blinding light briefly turns night to day. Miao dares not hope...	true
 effect_bundles_localised_description_vco_victory_payload_cth_miao_3_dilemma_sister_rescued_temperance	With Shen-Zoo safely returned, light shines on the Celestial Empire once more. The people rejoice and the shadows are banished.	true
@@ -176,9 +176,9 @@ effect_bundles_localised_title_vco_victory_payload_cst_sar_2_daughter_of_manann_
 effect_bundles_localised_title_vco_victory_payload_cst_sar_2_daughter_of_manann_2	The Ocean Provides	true
 effect_bundles_localised_title_vco_victory_payload_cst_sar_3_dead_man_s_vengeance_1	More Guns Than Sense	true
 effect_bundles_localised_title_vco_victory_payload_cst_sar_3_dead_man_s_vengeance_2	The Red Book of Van Hel	true
-effect_bundles_localised_title_vco_victory_payload_cth_cool_and_aloof	Unreachable	true
-effect_bundles_localised_title_vco_victory_payload_cth_dont_thread_on_ming	Safe Roads	true
-effect_bundles_localised_title_vco_victory_payload_cth_in_harmony	An Empire United	true
+effect_bundles_localised_title_vco_victory_payload_cth_cool_and_aloof	Cold & Aloof	true
+effect_bundles_localised_title_vco_victory_payload_cth_dont_thread_on_ming	Safeguarded Caravan Routes	true
+effect_bundles_localised_title_vco_victory_payload_cth_in_harmony	Favoured Daughter	true
 effect_bundles_localised_title_vco_victory_payload_cth_iron_into_gold	Global Influence	true
 effect_bundles_localised_title_vco_victory_payload_cth_kat_3_sister_rescued	Hope Springs Eternal	true
 effect_bundles_localised_title_vco_victory_payload_cth_miao_3_dilemma_sister_rescued_temperance	Bringer of Light and Hope	true
@@ -515,4 +515,20 @@ effect_bundles_localised_description_vco_victory_payload_cth_yua_1_the_jade_comp
 effect_bundles_localised_title_vco_victory_payload_cth_yua_2_harmony_through_unity	United as One	false
 effect_bundles_localised_description_vco_victory_payload_cth_yua_2_harmony_through_unity	With whispered words and decapitating strokes, the Jade Dragon has renewed a fractured nation.	false
 effect_bundles_localised_title_vco_victory_payload_cth_yua_3_the_spymaster	Yuan Bo the Omniscient	false
-effect_bundles_localised_description_vco_victory_payload_cth_yua_3_the_spymaster	Thousands of ink black eyes stare out across the land, taking in each detail and following every movement.	false
+effect_bundles_localised_description_vco_victory_payload_cth_yua_3_the_spymaster	Thousands of ink black eyes stare out across the land, taking in each detail and following every movement. From east to west, from the Old World to the New, none escape the Jade Dragon's watchful eyes.	false
+effect_bundles_localised_title_vco_victory_payload_ksl_mot_1_malediction_of_ruin	The Malediction of Ruin	false
+effect_bundles_localised_description_vco_victory_payload_ksl_mot_1_malediction_of_ruin	The armies of Kislev's enemies crumble, burdened by the darkest of magics. Somewhere, deep in the forests, a cackling laugh echoes through the wind...	false
+effect_bundles_localised_title_vco_victory_payload_ksl_mot_2_toil_and_trouble	Lustrian Concoction	false
+effect_bundles_localised_description_vco_victory_payload_ksl_mot_2_toil_and_trouble	A single drop delivered to the eye engorges the creatures of the forest with newfound power. But to drink the substance is another matter entirely...	false
+effect_bundles_localised_title_vco_victory_payload_ksl_mot_3_the_new_frontier	Manifest Destiny	false
+effect_bundles_localised_description_vco_victory_payload_ksl_mot_3_the_new_frontier	The once meagre colony at Bleak Hold Fortress has swelled into a mighty nation that rivals the Motherland in strength and prosperity, though even the most prideful Kislevite knows to never, ever venture too deeply into the forests.	false
+effect_bundles_localised_title_vco_victory_payload_ksl_mot_2_toil_and_trouble_roc	Cathayan Concoction	false
+effect_bundles_localised_description_vco_victory_payload_ksl_mot_2_toil_and_trouble_roc	A single drop delivered to the eye engorges the creatures of the forest with newfound power. But to drink the substance is another matter entirely...	false
+effect_bundles_localised_title_vco_victory_payload_ksl_mot_3_the_new_frontier_roc	Guardian of Kislev	false
+effect_bundles_localised_description_vco_victory_payload_ksl_mot_3_the_new_frontier_roc	Thanks to Mother Ostankya's efforts, the corruption of the Chaos Wastes continues to recede towards the Polar Gate. Though she is still considered an outcast, a grateful Motherland now sends baggage trains loaded with provisions in tacit support of her campaign against the daemons.	false
+effect_bundles_localised_title_vco_victory_payload_tze_cha_1_shadows_of_change	Ultimate Trickster	false
+effect_bundles_localised_description_vco_victory_payload_tze_cha_1_shadows_of_change	As the Changeling lounged upon his master's throne, divine power surged through his veins. Though the other Dark Gods would obliterate their servants for such an audacious act, Tzeentch merely laughed.	false
+effect_bundles_localised_title_vco_victory_payload_tze_cha_2_puppet_state	The Many-Faced King	false
+effect_bundles_localised_description_vco_victory_payload_tze_cha_2_puppet_state	Whether writing taunts in the Dammaz Kron or directing Settra's dutiful legions to go swimming in the Great Mortis River, the Changeling's influence is omnipresent. From Wei-Jin to Ulthuan, none can escape his antics!	false
+effect_bundles_localised_title_vco_victory_payload_tze_cha_3_faceless_war	Quai Yin's Lament	false
+effect_bundles_localised_description_vco_victory_payload_tze_cha_3_faceless_war	As her children lay dead or dying, the Moon Empress moved to intercede. Divine intervention could not avail them, however, and only served to betray her whereabouts. The shapeshifters fought for days, flitting between a thousand different forms. Inevitably, the Changeling was repelled, though not before stealing from her that which was most precious...	false

@@ -1,5 +1,6 @@
 building	effect	context_requirement	effect_scope	value	value_damaged	value_ruined
 #building_effects_junction_tables;0;db/building_effects_junction_tables/vco						
+vco_landmark_changeling_tricksters_throne	wh_main_effect_economy_gdp_manufacture		building_to_building_own	250.0000	125.0000	0.0000
 vco_landmark_fozzriks_flying_fastness	wh2_main_effect_ability_cooldown_spells		faction_to_force_own	-20.0000	-15.0000	0.0000
 vco_landmark_fozzriks_flying_fastness	wh3_main_effect_winds_of_magic_pool_cap		faction_to_force_own	5.0000	2.0000	0.0000
 vco_landmark_fozzriks_flying_fastness	wh_main_effect_economy_gdp_mining		building_to_building_own	500.0000	250.0000	0.0000

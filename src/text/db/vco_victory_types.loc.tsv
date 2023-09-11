@@ -56,18 +56,18 @@ victory_types_display_name_vco_victory_type_chs_arc_3_end_times	Route III - The 
 victory_types_display_name_vco_victory_type_cst_sar_1_captain_of_the_swordfysh	Route I - Red Seas Under Red Skies	true
 victory_types_display_name_vco_victory_type_cst_sar_2_daughter_of_manann	Route II - Daughter of Manann	true
 victory_types_display_name_vco_victory_type_cst_sar_3_dead_man_s_vengeance	Route III - Dead Man's Vengeance	true
-victory_types_display_name_vco_victory_type_cth_tnp_1_in_harmony	Route I - In Harmony	true
-victory_types_display_name_vco_victory_type_cth_tnp_1_in_harmony_roc	Route I - In Harmony	true
-victory_types_display_name_vco_victory_type_cth_tnp_2_cool_and_aloof	Route II - Cool and Aloof	true
-victory_types_display_name_vco_victory_type_cth_tnp_2_cool_and_aloof_roc	Route II - Cool and Aloof	true
+victory_types_display_name_vco_victory_type_cth_tnp_1_in_harmony	Route I - When The North Wind Blows	true
+victory_types_display_name_vco_victory_type_cth_tnp_1_in_harmony_roc	Route I - When The North Wind Blows	true
+victory_types_display_name_vco_victory_type_cth_tnp_2_cool_and_aloof	Route II - Castellan of the Great Bastion	true
+victory_types_display_name_vco_victory_type_cth_tnp_2_cool_and_aloof_roc	Route II - Castellan of the Great Bastion	true
 victory_types_display_name_vco_victory_type_cth_tnp_3_the_northern_expedition	Route III - The Northern Expedition	true
 victory_types_display_name_vco_victory_type_cth_tnp_3_the_northern_expedition_roc	Route III - The Northern Expedition	true
-victory_types_display_name_vco_victory_type_cth_twp_1_iron_into_gold	Route I - Iron into Gold	true
-victory_types_display_name_vco_victory_type_cth_twp_1_iron_into_gold_roc	Route I - Iron into Gold	true
+victory_types_display_name_vco_victory_type_cth_twp_1_iron_into_gold	Route I - The Silver Tongue	true
+victory_types_display_name_vco_victory_type_cth_twp_1_iron_into_gold_roc	Route I - The Silver Tongue	true
 victory_types_display_name_vco_victory_type_cth_twp_2_warpstone_hoard	Route II - All That Glitters Is Not Gold	true
 victory_types_display_name_vco_victory_type_cth_twp_2_warpstone_hoard_roc	Route II - All That Glitters Is Not Gold	true
-victory_types_display_name_vco_victory_type_cth_twp_3_dont_thread_on_ming	Route III - Don't Thread on Ming	true
-victory_types_display_name_vco_victory_type_cth_twp_3_dont_thread_on_ming_roc	Route III - Don't Thread on Ming	true
+victory_types_display_name_vco_victory_type_cth_twp_3_dont_thread_on_ming	Route III - Don't Tread on Ming	true
+victory_types_display_name_vco_victory_type_cth_twp_3_dont_thread_on_ming_roc	Route III - Don't Tread on Ming	true
 victory_types_display_name_vco_victory_type_cultural	Cultural Victory	true
 victory_types_display_name_vco_victory_type_dae_god_1_ascension	Route I - Ascension	true
 victory_types_display_name_vco_victory_type_dae_god_1_ascension_roc	Route I - Ascension	true
@@ -248,3 +248,10 @@ victory_types_display_name_vco_victory_type_skv_ric_3_fozzriks_flying_fastness	R
 victory_types_display_name_vco_victory_type_cth_yua_1_the_jade_compass	Route I - The Jade Compass	true
 victory_types_display_name_vco_victory_type_cth_yua_2_harmony_through_unity	Route II - Unity	true
 victory_types_display_name_vco_victory_type_cth_yua_3_the_spymaster	Route III - Tinker, Tailor, Dragon, Spy	true
+victory_types_display_name_vco_victory_type_ksl_mot_1_malediction_of_ruin	Route I - The Malediction of Ruin	true
+victory_types_display_name_vco_victory_type_ksl_mot_2_toil_and_trouble	Route II - Toil & Trouble	true
+victory_types_display_name_vco_victory_type_ksl_mot_3_the_new_frontier	Route III - The New Frontier	true
+victory_types_display_name_vco_victory_type_ksl_mot_3_the_new_frontier_roc	Route III - Nightmare of the Wastes	true
+victory_types_display_name_vco_victory_type_tze_cha_1_shadows_of_change	Route I - Shadows of Change	true
+victory_types_display_name_vco_victory_type_tze_cha_2_puppet_state	Route II - The Many-Faced King	true
+victory_types_display_name_vco_victory_type_tze_cha_3_faceless_war	Route III - Face Off	true

@@ -8,3 +8,7 @@ unit_abilities_onscreen_name_vco_wh3_main_army_abilities_fozzriks_flensing_disch
 unit_abilities_tooltip_text_vco_wh3_main_army_abilities_fozzriks_flensing_discharge	A surge of crackling energy and shimmering light streams forth from Fozzrik's Fortress and tears through the battlefield.	false
 unit_abilities_onscreen_name_vco_wh3_main_army_abilities_fozzriks_verdant_burst	Fozzrik's Verdant Burst	false
 unit_abilities_tooltip_text_vco_wh3_main_army_abilities_fozzriks_verdant_burst	Fozzrik's Fortress unfolds like a giant flower, bathing the fighters below in an outpouring of life magic.	false
+unit_abilities_onscreen_name_vco_lord_abilities_lustrian_concoction	Lustrian Concoction	false
+unit_abilities_tooltip_text_vco_lord_abilities_lustrian_concoction	A potent mixture of extracted Itxi grub humours, crushed Jungle Lotus leaves and Coatl feathers grants the imbiber renewed vitality and an unparalleled mastery of the Winds of Magic... at least until the effects wear off.	false
+unit_abilities_onscreen_name_vco_lord_abilities_cathayan_concoction	Cathayan Concoction	false
+unit_abilities_tooltip_text_vco_lord_abilities_cathayan_concoction	A potent mixture of powdered Ki-rin horn, crushed Jade Lion teeth and Onyx Crowmen feathers grants the imbiber renewed vitality and an unparalleled mastery of the Winds of Magic... at least until the effects wear off.	false
