@@ -5,7 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [5.9.0] - 1.09.2023
+## [5.10.0] - 11.09.2023
+
+- Added new routes for Mother Ostankya: Daughters of the Forest
+- Added new routes for The Changeling: The Deceivers
+- Added a new method to the framework API: `vco:disable_vco_main_mod_routes()`
+- Added a new method to the framework API: `vco:are_vco_main_mod_routes_disabled()`
+- Revisited Miao Ying: The Northern Provinces routes
+- Fixed a bug that caused VCO Ready campaigns to be overridden by other mods
+- Deprecated framework API `vco:disable_default_campaigns()`
+- Deprecated framework API `vco:are_default_campaigns_enabled()`
+
+## [5.9.0] - 01.09.2023
 
 - Added new routes for Yuan Bo: The Jade Court
 

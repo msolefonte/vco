@@ -130,3 +130,6 @@ effects_description_vco_malagor_gor_primal_instincts	Attribute: Primal Instincts
 effects_description_vco_lzd_hex_dilemma	A dilemma will offer a choice between powerful rewards!	true
 effects_description_vco_emp_mar_dilemma	A dilemma will offer a choice between powerful rewards!	true
 effects_description_vco_skv_tre_dilemma	A dilemma will offer a choice between powerful rewards!	true
+effects_description_vco_ksl_mot_malediction_dummy_1	Mother Ostankya will learn the "Malediction of Ruin" Hex	true
+effects_description_vco_lord_abilities_lustrian_concoction	Ability: "Lustrian Concoction"	true
+effects_description_vco_lord_abilities_cathayan_concoction	Ability: "Cathayan Concoction"	true

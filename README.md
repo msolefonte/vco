@@ -60,7 +60,6 @@ The content of that script has to be the following one:
 ```lua
 local vco = core:get_static_object("vco");
 
-vco:disable_default_campaigns();
 cm:add_first_tick_callback(function() vco:trigger_custom_missions("<your-mod-name>") end);
 ```
 

@@ -30,10 +30,12 @@ vco_anc_follower_fozzrik_summoner	vco_anc_follower_fozzrik_summoner	.	true	false
 vco_anc_magic_standard_shroud_of_gilles	wh_main_anc_enchanted_item	.	true	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			200	0		false	false	false	all
 vco_anc_magic_standard_volkmar_banner	vco_anc_magic_standard_volkmar_banner	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true		vco_anc_magic_standard_volkmar_banner	200	0	banner	false	false	false	all
 vco_anc_talisman_bloodstained_pendant	wh_main_anc_talisman	.	true	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false	all
+vco_anc_talisman_cathayan_concoction	wh_main_anc_talisman	.	true	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false	all
 vco_anc_talisman_cracked_rune_azamar	wh_main_anc_talisman	.	true	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false	all
 vco_anc_talisman_eight_pointed_star	wh_main_anc_talisman	.	true	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false	all
 vco_anc_talisman_hellshard_amulet_grimgor	wh_main_anc_talisman	.	true	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false	all
 vco_anc_talisman_hunting_trophy	wh_main_anc_talisman	.	true	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false	all
+vco_anc_talisman_lustrian_concoction	wh_main_anc_talisman	.	true	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false	all
 vco_anc_talisman_mecha_arm	wh_main_anc_talisman	.	false	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false	all
 vco_anc_talisman_storm_dragons_heart	wh_main_anc_talisman	.	true	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false	all
 vco_anc_talisman_superior_collar_of_khorne	wh_main_anc_talisman	.	true	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false	all

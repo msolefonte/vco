@@ -16,24 +16,20 @@ local missions = {
 
 				objective
 				{
-					type CONTROL_N_PROVINCES_INCLUDING;
-					total 15;
+					override_text mission_text_text_vco_cth_mia_1_north_wind_at_least_6;
+					type CONTROL_N_REGIONS_FROM;
+					total 6;
 
-					province wh3_main_combi_province_gunpowder_road;
-					province wh3_main_combi_province_lands_of_stone_and_steel;
-					province wh3_main_combi_province_imperial_road;
-					province wh3_main_combi_province_plains_of_xen;
-					province wh3_main_combi_province_forests_of_the_moon;
-					province wh3_main_combi_province_warpstone_desert;
-					province wh3_main_combi_province_wastelands_of_jinshen;
-					province wh3_main_combi_province_celestial_riverlands;
-					province wh3_main_combi_province_celestial_lake;
-					province wh3_main_combi_province_jade_river_delta;
-					province wh3_main_combi_province_nongchang_basin;
-					province wh3_main_combi_province_mount_li;
-					province wh3_main_combi_province_broken_lands_of_tian_li;
-					province wh3_main_combi_province_the_great_canal;
-					province wh3_main_combi_province_serpent_estuary;
+					region wh3_main_combi_region_zharr_naggrund;
+					region wh3_main_combi_region_great_hall_of_greasus;
+					region wh3_main_combi_region_nagashizzar;
+					region wh3_main_combi_region_black_crag;
+					region wh3_main_combi_region_khemri;
+					region wh3_main_combi_region_naggarond;
+					region wh3_main_combi_region_konquata;
+					region wh3_main_combi_region_castle_drakenhof;
+					region wh3_main_combi_region_skavenblight;
+					region wh3_main_combi_region_hell_pit;
 				}
 
 				payload
@@ -96,6 +92,7 @@ local missions = {
 					faction wh3_dlc20_chs_vilitch;
 					faction wh2_dlc11_def_the_blessed_dread;
 					faction wh2_main_skv_clan_eshin;
+					faction wh3_dlc23_chd_zhatan;
 					faction wh3_dlc20_chs_kholek;
 
 					confederation_valid;
