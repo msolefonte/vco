@@ -135,44 +135,44 @@ local missions = {
 
 				objective
 				{
-					type MOVE_TO_PROVINCE;
+					type MOVE_TO_REGION;
 
-					province wh3_main_chaos_province_reikland;
+					region wh3_main_chaos_region_altdorf;
 				}
 
 				objective
 				{
-					type MOVE_TO_PROVINCE;
+					type MOVE_TO_REGION;
 
-					province wh3_main_chaos_province_river_urskoy;
+					region wh3_main_chaos_region_kislev;
 				}
 
 				objective
 				{
-					type MOVE_TO_PROVINCE;
+					type MOVE_TO_REGION;
 
-					province wh3_main_chaos_province_sylvania;
+					region wh3_main_chaos_region_castle_drakenhof;
 				}
 
 				objective
 				{
-					type MOVE_TO_PROVINCE;
+					type MOVE_TO_REGION;
 
-					province wh3_main_chaos_province_the_plain_of_zharr;
+					region wh3_main_chaos_region_karak_kadrin;
 				}
 
 				objective
 				{
-					type MOVE_TO_PROVINCE;
+					type MOVE_TO_REGION;
 
-					province wh3_main_chaos_province_mountains_of_mourn;
+					region wh3_main_chaos_region_zharr_naggrund;
 				}
 
 				objective
 				{
-					type MOVE_TO_PROVINCE;
+					type MOVE_TO_REGION;
 
-					province wh3_main_chaos_province_peak_pass;
+					region wh3_main_chaos_region_great_hall_of_greasus;
 				}
 
 				payload

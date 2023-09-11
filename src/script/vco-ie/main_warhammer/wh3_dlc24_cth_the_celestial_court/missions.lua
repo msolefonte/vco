@@ -141,44 +141,44 @@ local missions = {
 
 				objective
 				{
-					type MOVE_TO_PROVINCE;
+					type MOVE_TO_REGION;
 
-					province wh3_main_combi_province_river_qurveza;
+					region wh3_main_combi_region_itza;
 				}
 
 				objective
 				{
-					type MOVE_TO_PROVINCE;
+					type MOVE_TO_REGION;
 
-					province wh3_main_combi_province_iron_foothills;
+					region wh3_main_combi_region_naggarond;
 				}
 
 				objective
 				{
-					type MOVE_TO_PROVINCE;
+					type MOVE_TO_REGION;
 
-					province wh3_main_combi_province_eataine;
+					region wh3_main_combi_region_lothern;
 				}
 
 				objective
 				{
-					type MOVE_TO_PROVINCE;
+					type MOVE_TO_REGION;
 
-					province wh3_main_combi_province_pirates_current;
+					region wh3_main_combi_region_sartosa;
 				}
 
 				objective
 				{
-					type MOVE_TO_PROVINCE;
+					type MOVE_TO_REGION;
 
-					province wh3_main_combi_province_land_of_the_dead;
+					region wh3_main_combi_region_khemri;
 				}
 
 				objective
 				{
-					type MOVE_TO_PROVINCE;
+					type MOVE_TO_REGION;
 
-					province wh3_main_combi_province_marches_of_couronne;
+					region wh3_main_combi_region_couronne;
 				}
 
 				payload

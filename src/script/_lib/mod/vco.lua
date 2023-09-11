@@ -2,7 +2,7 @@ local vco = {};
 local config = {
 	campaign_immortal_empires_enabled = true,
 	campaign_realms_of_chaos_enabled = true,
-	default_campaigns_disabled = false,
+	vco_main_mod_routes_enabled = true,
 	logging_enabled = false
 };
 
@@ -45,12 +45,22 @@ end
 
 -- CAMPAIGN --
 
+-- @deprecated
 function vco:disable_default_campaigns()
-	config["default_campaigns_disabled"] = true;
+	config["vco_main_mod_routes_enabled"] = false;
 end
 
+-- @deprecated
 function vco:are_default_campaigns_disabled()
-	return config["default_campaigns_disabled"];
+	return not config["vco_main_mod_routes_enabled"];
+end
+
+function vco:disable_vco_main_mod_routes()
+	config["vco_main_mod_routes_enabled"] = false;
+end
+
+function vco:are_vco_main_mod_routes_enabled()
+	return config["vco_main_mod_routes_enabled"];
 end
 
 function vco:is_multiplayer_campaign()

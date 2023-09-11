@@ -1,5 +1,6 @@
 building_chain	building_level	building_set	exclude
 #building_set_to_building_junctions_tables;0;db/building_set_to_building_junctions_tables/vco			
+vco_landmark_changeling_tricksters_throne		wh2_main_set_landmark	false
 vco_landmark_fozzriks_flying_fastness		wh2_main_set_landmark	false
 vco_landmark_grombrindal_repurposed_docks		wh2_main_set_landmark	false
 vco_landmark_grombrindal_shattered_malekith_tower		wh2_main_set_landmark	false

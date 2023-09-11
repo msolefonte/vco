@@ -126,3 +126,7 @@ ancillaries_onscreen_name_vco_anc_weapon_kratchs_doomclaw	Kratch's Doomclaw	fals
 ancillaries_colour_text_vco_anc_weapon_kratchs_doomclaw	This crude, oversized warpstone-powered claw can easily slice through flesh and bone. It was taken from the corpse of Kratch Doomclaw, the previous ruler of Clan Rictus.	false
 ancillaries_onscreen_name_vco_anc_armour_rictus_plate_armour	Rictus Plate Armour	false
 ancillaries_colour_text_vco_anc_armour_rictus_plate_armour	This suit of plate armour is comprised entirely of warpstone. The chestpiece is engraved with Clan Rictus' symbol.	false
+ancillaries_onscreen_name_vco_anc_talisman_lustrian_concoction	Lustrian Concoction	false
+ancillaries_colour_text_vco_anc_talisman_lustrian_concoction	A potent mixture of extracted Itxi grub humours, crushed Jungle Lotus leaves and Coatl feathers grants the imbiber renewed vitality and an unparalleled mastery of the Winds of Magic... at least until the effects wear off.	false
+ancillaries_onscreen_name_vco_anc_talisman_cathayan_concoction	Cathayan Concoction	false
+ancillaries_colour_text_vco_anc_talisman_cathayan_concoction	A potent mixture of powdered Ki-rin horn, crushed Jade Lion teeth and Onyx Crowmen feathers grants the imbiber renewed vitality and an unparalleled mastery of the Winds of Magic... at least until the effects wear off.	false

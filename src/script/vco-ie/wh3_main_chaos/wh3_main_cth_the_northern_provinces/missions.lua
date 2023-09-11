@@ -16,17 +16,16 @@ local missions = {
 
 				objective
 				{
-					type CONTROL_N_PROVINCES_INCLUDING;
-					total 8;
+					type DESTROY_FACTION;
 
-					province wh3_main_chaos_province_gunpowder_road;
-					province wh3_main_chaos_province_lands_of_stone_and_steel;
-					province wh3_main_chaos_province_imperial_road;
-					province wh3_main_chaos_province_forests_of_the_moon;
-					province wh3_main_chaos_province_celestial_riverlands;
-					province wh3_main_chaos_province_broken_lands_of_tian_li;
-					province wh3_main_chaos_province_wastelands_of_jinshen;
-					province wh3_main_chaos_province_warpstone_desert;
+					faction wh_main_grn_greenskins;
+					faction wh3_dlc23_chd_astragoth;
+					faction wh3_dlc20_chs_valkia;
+					faction wh3_main_nur_poxmakers_of_nurgle;
+					faction wh3_main_kho_exiles_of_khorne;
+					faction wh3_main_sla_seducers_of_slaanesh;
+
+					confederation_valid;
 				}
 
 				payload
@@ -88,7 +87,6 @@ local missions = {
 
 					faction wh3_dlc20_chs_azazel;
 					faction wh3_main_tze_oracles_of_tzeentch;
-					faction wh2_main_skv_clan_eshin;
 
 					confederation_valid;
 				}
