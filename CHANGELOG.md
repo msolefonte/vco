@@ -5,6 +5,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [5.11.0] - 19.09.2023
+
+- Added new routes for Nakai the Wanderer: Spirit of the Jungle
+
 ## [5.10.0] - 11.09.2023
 
 - Added new routes for Mother Ostankya: Daughters of the Forest

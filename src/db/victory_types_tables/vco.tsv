@@ -192,6 +192,9 @@ vco_victory_type_long	1	0	long	long	true
 vco_victory_type_lzd_hex_1_solar_city	0	0	long	long	true
 vco_victory_type_lzd_hex_2_begone_thot	1	0	long	long	true
 vco_victory_type_lzd_hex_3_purging_warmbloods	2	0	long	long	true
+vco_victory_type_lzd_nak_1_the_reawakening	0	0	long	long	true
+vco_victory_type_lzd_nak_2_homecoming	1	0	long	long	true
+vco_victory_type_lzd_nak_3_the_wanderer	2	0	long	long	true
 vco_victory_type_military	3	0	long	long	true
 vco_victory_type_nor_wul_1_ragnarok	0	0	long	long	true
 vco_victory_type_nor_wul_2_the_world_walker	1	0	long	long	true
