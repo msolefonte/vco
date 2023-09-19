@@ -2,6 +2,7 @@ local vco = core:get_static_object("vco");
 local vlc = core:get_static_object("vco-lib-commons");
 
 local FACTION_LZD_MAZ_KEY = "wh2_main_lzd_hexoatl";
+local FACTION_LZD_NAK_KEY = "wh2_dlc13_lzd_spirits_of_the_jungle";
 
 local FACTION_LZD_MAZ_UNITY_1 = "wh2_dlc12_lzd_cult_of_sotek";
 local FACTION_LZD_MAZ_UNITY_3 = "wh2_dlc13_lzd_defenders_of_the_great_plan";
@@ -20,12 +21,21 @@ local FACTION_LZD_MAZ_UNITY_16 = "wh2_main_lzd_zlatan";
 local FACTION_LZD_MAZ_UNITY_17 = "wh3_main_lzd_tepoks_spawn";
 
 local KEY_D_UNITY_SPIRIT = "vco_lzd_maz_dilemma_unity_spirit";
+local KEY_D_WU_XING_COMPASS = "vco_lzd_nak_dilemma_wu_xing_compass";
 
 
 
 -- TRIGGERS --
 local function trigger_maz_dilemma()
 	cm:trigger_dilemma(FACTION_LZD_MAZ_KEY, KEY_D_UNITY_SPIRIT);
+end
+
+local function trigger_nak_dilemma()
+	cm:trigger_dilemma(FACTION_LZD_NAK_KEY, KEY_D_WU_XING_COMPASS);
+end
+
+local function trigger_nakai_quest()
+    cm:trigger_mission(FACTION_LZD_NAK_KEY, "wh2_dlc13_qb_lzd_final_battle_nakai", true);
 end
 
 local function lzd_maz_vassalise()
@@ -83,6 +93,32 @@ local function add_listeners()
 				context:mission():mission_issuer_record_key() == "MUFFIN_MAN";
 		end,
 		trigger_maz_dilemma,
+		false
+	);
+
+    core:add_listener(
+    "vco_lzd_nakai_battle_for_itza",
+    "CharacterRankUp",
+    function(context)
+ local character = context:character()
+        return not cm:get_saved_value("vco_lzd_nak_quest_battle_already_happened") and
+         character:faction():name() == FACTION_LZD_NAK_KEY and character:rank() >= 40
+    end,
+    function()
+      cm:set_saved_value("vco_lzd_nak_quest_battle_already_happened", true);
+      trigger_nakai_quest();
+    end,
+    false
+    );
+
+	core:add_listener(
+		"vco_lzd_nak_1_completed",
+		"MissionSucceeded",
+		function(context)
+			return context:faction():name() == FACTION_LZD_NAK_KEY and
+				context:mission():mission_issuer_record_key() == "MUFFIN_MAN";
+		end,
+		trigger_nak_dilemma,
 		false
 	);
 
