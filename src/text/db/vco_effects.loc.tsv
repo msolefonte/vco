@@ -8,22 +8,9 @@ effects_description_vco_brt_alberic_vow_melee_damage	Weapon strength: %+n for Al
 effects_description_vco_brt_alberic_vow_melee_damage_ap	Armour-piercing weapon damage: %+n for Alberic de Bordeleaux	true
 effects_description_vco_brt_alberic_vow_resistance_physical	Physical resistance: %n% for Alberic de Bordeleaux	true
 effects_description_vco_chs_arc_dilemma	A dilemma will offer a choice between powerful rewards!	true
-effects_description_vco_cst_ara_ward_save	Speed: %+n% for Aranessa Saltspite	true
-effects_description_vco_cst_ara_weapon_strength	Weapon strength: %+n% for Aranessa Saltspite	true
-effects_description_vco_cst_deck_gunners_ammo	Ammunition: %+n% for Deck Gunner units	true
-effects_description_vco_cst_deck_gunners_reload	Reload time reduction: %-n% for Deck Gunner units	true
-effects_description_vco_cst_necrofex_colossus_recruitment_time_reduction	Recruitment duration: %-n turn for Necrofex Colossus units (minimum 1)	true
-effects_description_vco_cst_necrofex_colossus_upkeep_reduction	Upkeep: %-n% for Necrofex Colossus	true
-effects_description_vco_cst_rotting_units_upkeep_reduction	Upkeep: %-n% for Rotting Prometheans and Rotting Leviathans	true
 effects_description_vco_cst_zombie_deckhands_missile_strength	Missile strength: %+n% for Zombie Deckhand units	true
 effects_description_vco_cth_miao_dilemma	A dilemma will offer a choice between powerful rewards!	true
 effects_description_vco_cth_zhao_compass_upgraded	Enables [[col:yellow]]Burning Alignment[[/col]] for Wu Xing War Compass units	true
-effects_description_vco_def_gan_hellebron_melee_damage_ap	Armour-piercing weapon damage: %+n for Crone Hellebron	true
-effects_description_vco_def_gan_increase_max_slaves	Maximum Slaves: %+n	true
-effects_description_vco_def_gan_leadership_vs_forces_of_order	Leadership vs Forces of Order: %+n	true
-effects_description_vco_def_gan_ritual_drakira_cost_reduction	Cost reduction for Sacrifice to Drakira: %-n%	true
-effects_description_vco_def_gan_witch_elves_sisters_melee_damage_ap	Armour-piercing weapon damage: %+n for Sisters of Slaughter and Witch Elves	true
-effects_description_vco_def_morathi_miscast_base_chance	[[col:green]]Miscast base chance: %-n% for Morathi[[/col]]	true
 effects_description_vco_def_morathi_missile_resistance	Missile resistance: %+n% for Morathi	true
 effects_description_vco_def_morathi_slaanesh_unlock_dummy	Unlocks new Slaanesh units: Fiends and Keepers of Secrets	true
 effects_description_vco_def_morathi_ward_save	Ward save: %+n% for Morathi	true
@@ -50,7 +37,6 @@ effects_description_vco_ogr_greasus_armour	Armour: %+n for Greasus Goldtooth	tru
 effects_description_vco_ogr_greasus_charge_bonus	Charge Bonus: %+n for Greasus Goldtooth	true
 effects_description_vco_ogr_greasus_speed	Speed: %+n% for Greasus Goldtooth	true
 effects_description_vco_ogr_greasus_ward_save	Ward save: %+n% for Greasus Goldtooth	true
-effects_description_vco_skv_assassins_melee_damage_ap	Armour-piercing weapon damage: %+n for Assassins	true
 effects_description_vco_skv_clan_moulder_strength	Weapon strength: %+n% for all Clan Moulder units	true
 effects_description_vco_skv_clans_impressed	News of the swift Cathayan demise has reached the Clans, and try as they might they cannot hide how impressed they are!	true
 effects_description_vco_skv_food	Food generated: %n	true
@@ -131,6 +117,10 @@ effects_description_vco_malagor_gor_primal_instincts	Attribute: Primal Instincts
 effects_description_vco_lzd_hex_dilemma	A dilemma will offer a choice between powerful rewards!	true
 effects_description_vco_emp_mar_dilemma	A dilemma will offer a choice between powerful rewards!	true
 effects_description_vco_skv_tre_dilemma	A dilemma will offer a choice between powerful rewards!	true
+effects_description_vco_def_hel_dilemma	A dilemma will offer a choice between powerful rewards!	true
 effects_description_vco_ksl_mot_malediction_dummy_1	Mother Ostankya will learn the "Malediction of Ruin" Hex	true
 effects_description_vco_lord_abilities_lustrian_concoction	Ability: "Lustrian Concoction"	true
 effects_description_vco_lord_abilities_cathayan_concoction	Ability: "Cathayan Concoction"	true
+effects_description_vco_skv_sni_dilemma	A dilemma will offer a choice between powerful rewards!	true
+effects_description_vco_dwf_ung_dilemma	A dilemma will offer a choice between powerful rewards!	true
+effects_description_vco_vmp_vla_dilemma	A dilemma will offer a choice between powerful rewards!	true

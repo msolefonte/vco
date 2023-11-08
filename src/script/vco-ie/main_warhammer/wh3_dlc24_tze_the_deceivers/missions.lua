@@ -16,9 +16,8 @@ local missions = {
 
 				objective
 				{
-					override_text mission_text_text_wh3_dlc24_objective_the_changeling_long;
-					type SCRIPTED;
-					script_key schemes;
+					type FIGHT_SET_PIECE_BATTLE;
+					set_piece_battle wh3_dlc24_tze_changeling_theatre_scheme_ultimate_ie;
 				}
 
 				payload

@@ -29,20 +29,19 @@ local missions = {
 
 				objective
 				{
-					type CONTROL_N_PROVINCES_INCLUDING;
-					total 11;
+					type CONTROL_N_REGIONS_FROM;
+					total 4;
 
-					province wh3_main_combi_province_caledor;
-					province wh3_main_combi_province_tiranoc;
-					province wh3_main_combi_province_nagarythe;
-					province wh3_main_combi_province_chrace;
-					province wh3_main_combi_province_cothique;
-					province wh3_main_combi_province_northern_yvresse;
-					province wh3_main_combi_province_southern_yvresse;
-					province wh3_main_combi_province_eataine;
-					province wh3_main_combi_province_ellyrion;
-					province wh3_main_combi_province_avelorn;
-					province wh3_main_combi_province_saphery;
+					region wh3_main_combi_region_griffon_gate;
+					region wh3_main_combi_region_unicorn_gate;
+					region wh3_main_combi_region_phoenix_gate;
+					region wh3_main_combi_region_eagle_gate;
+				}
+
+				objective
+				{
+					type DEFEAT_N_ARMIES_OF_FACTION;
+					total 25;
 				}
 
 				payload

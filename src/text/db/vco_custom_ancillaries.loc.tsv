@@ -122,6 +122,10 @@ ancillaries_onscreen_name_vco_anc_talisman_cracked_rune_azamar	Cracked Rune of A
 ancillaries_colour_text_vco_anc_talisman_cracked_rune_azamar	Though the Rune of Azamar's once flawless perfection is now marred by a single crack running down its centre, it still resonates with latent power. The rune was prised from the High King’s Throne of Power and now serves as an indisputable symbol of the Grand Chieftain's conquest.	false
 ancillaries_onscreen_name_vco_anc_follower_fozzrik_summoner	Grey Seer Summoner	false
 ancillaries_colour_text_vco_anc_follower_fozzrik_summoner	With a series of whispered words and intricate gestures, this Grey Seer can summon Fozzrik's Flying Fortress to the battlefield.	false
+ancillaries_onscreen_name_vco_anc_follower_kemmler_black_grail_knight	Knight of the False Grail	false
+ancillaries_colour_text_vco_anc_follower_kemmler_black_grail_knight	The Corpse King's damned knights ensure the Bretonnians remain complacent and productive.	false
+ancillaries_onscreen_name_vco_anc_follower_dark_convent_defector	Dark Convent Defector	false
+ancillaries_colour_text_vco_anc_follower_dark_convent_defector	Morathi's defeat bears treacherous fruit. This Sorceress has pledged herself to the Blood Queen's cause.	false
 ancillaries_onscreen_name_vco_anc_weapon_kratchs_doomclaw	Kratch's Doomclaw	false
 ancillaries_colour_text_vco_anc_weapon_kratchs_doomclaw	This crude, oversized warpstone-powered claw can easily slice through flesh and bone. It was taken from the corpse of Kratch Doomclaw, the previous ruler of Clan Rictus.	false
 ancillaries_onscreen_name_vco_anc_armour_rictus_plate_armour	Rictus Plate Armour	false
@@ -130,3 +134,17 @@ ancillaries_onscreen_name_vco_anc_talisman_lustrian_concoction	Lustrian Concocti
 ancillaries_colour_text_vco_anc_talisman_lustrian_concoction	A potent mixture of extracted Itxi grub humours, crushed Jungle Lotus leaves and Coatl feathers grants the imbiber renewed vitality and an unparalleled mastery of the Winds of Magic... at least until the effects wear off.	false
 ancillaries_onscreen_name_vco_anc_talisman_cathayan_concoction	Cathayan Concoction	false
 ancillaries_colour_text_vco_anc_talisman_cathayan_concoction	A potent mixture of powdered Ki-rin horn, crushed Jade Lion teeth and Onyx Crowmen feathers grants the imbiber renewed vitality and an unparalleled mastery of the Winds of Magic... at least until the effects wear off.	false
+ancillaries_onscreen_name_vco_anc_talisman_kemmler_black_arc	The Black Arc	false
+ancillaries_colour_text_vco_anc_talisman_kemmler_black_arc	The Black Arc is a chunk of pure warpstone suspended in magical energy. To open the Arc is to unleash death upon the foe.	false
+ancillaries_onscreen_name_vco_anc_enchanted_item_warpstone_stars	Warpstone Stars	false
+ancillaries_colour_text_vco_anc_enchanted_item_warpstone_stars	These throwing weapons are coated with deadly poison that eats through armour and flesh.	false
+ancillaries_onscreen_name_vco_anc_follower_war_mourner	War-Mourner of Karak Kadrin	false
+ancillaries_colour_text_vco_anc_follower_war_mourner	Since Garagrim's death, Thrain Bloodbeard has taken his place as War-Mourner. It is the duty of the War-Mourner to act in the King's stead in battle, upholding his honour no matter the foe.	false
+ancillaries_onscreen_name_vco_anc_weapon_axes_of_kadrin	Axes of Kadrin	false
+ancillaries_colour_text_vco_anc_weapon_axes_of_kadrin	These runic axes once belonged to Garagrim Ironfist, gifted to him by his father upon his coming-of-age. Heavy chains bind them to the wielder's wrists, so they are never lost in the heat of battle.	false
+ancillaries_onscreen_name_vco_anc_weapon_spear_of_daith	Spear of Daith	false
+ancillaries_colour_text_vco_anc_weapon_spear_of_daith	Thalandor Doomstar, hopelessly corrupted by Drycha's fell influence, fought with this spear until he was slain by the Slayer King in single combat. Its hardwood shaft is carved with mystical spirals that give the weapon a will of its own.	false
+ancillaries_onscreen_name_vco_anc_talisman_talisman_of_qwarr	Talisman of Qwarr	false
+ancillaries_colour_text_vco_anc_talisman_talisman_of_qwarr	This ancient talon was given to the Slayer King by Thalandor Doomstar as a gesture of peace and thanks. It came from the mighty eagle, Qwarr, after its mortal battle with the ravenous dragon, Grathgol the Egg-Thief.	false
+ancillaries_onscreen_name_vco_anc_follower_ice_vampire	Kattarin the Bloody	false
+ancillaries_colour_text_vco_anc_follower_ice_vampire	Freed from her frozen prison and returned to unlife by the von Carsteins, Kattarin the Bloody now serves her dearest Isabella with undying loyalty, brutally massacring those Kislevites who still resist the new regime.	false

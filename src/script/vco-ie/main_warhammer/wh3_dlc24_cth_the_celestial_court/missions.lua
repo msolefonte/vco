@@ -16,37 +16,17 @@ local missions = {
 
 				objective
 				{
-					override_text mission_text_text_wh3_dlc24_victory_complete_astromantic_relays_north_ie;
-					type SCRIPTED;
-					script_key empower_compass_north;
+					type CONSTRUCT_N_OF_A_BUILDING;
+					faction wh3_dlc24_cth_the_celestial_court;
+					total 4;
+				
+					building_level wh3_dlc24_cth_special_jade_dragon_astromantic_relay;
 				}
 
 				objective
 				{
-					override_text mission_text_text_wh3_dlc24_victory_complete_astromantic_relays_east_ie;
-					type SCRIPTED;
-					script_key empower_compass_east;
-				}
-
-				objective
-				{
-					override_text mission_text_text_wh3_dlc24_victory_complete_astromantic_relays_south_ie;
-					type SCRIPTED;
-					script_key empower_compass_south;
-				}
-
-				objective
-				{
-					override_text mission_text_text_wh3_dlc24_victory_complete_astromantic_relays_west_ie;
-					type SCRIPTED;
-					script_key empower_compass_west;
-				}
-
-				objective
-				{
-					override_text mission_text_text_wh3_dlc24_victory_yuan_bo_final_battle;
-					type SCRIPTED;
-					script_key final_battle;
+					type FIGHT_SET_PIECE_BATTLE;
+					set_piece_battle wh3_dlc24_cth_yuan_bo_compass;
 				}
 
 				payload

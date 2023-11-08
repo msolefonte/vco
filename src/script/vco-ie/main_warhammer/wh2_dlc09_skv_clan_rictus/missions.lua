@@ -43,9 +43,8 @@ local missions = {
 
 				objective
 				{
-					override_text mission_text_text_vco_skv_tretch_custom_battle_moonfall;
-					type SCRIPTED;
-					script_key vco_skv_tretch_custom_battle_moonfall;
+					type FIGHT_SET_PIECE_BATTLE;
+					set_piece_battle vco_tretch_battle_warpstone_meteor;
 				}
 
 				payload

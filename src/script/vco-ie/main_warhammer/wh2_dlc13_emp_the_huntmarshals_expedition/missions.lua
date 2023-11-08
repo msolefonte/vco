@@ -23,9 +23,8 @@ local missions = {
 
 				objective
 				{
-					override_text mission_text_text_vco_emp_mar_1_battle_itza_set_piece;
-					type SCRIPTED;
-					script_key vco_emp_markus_battle_for_itza;
+					type FIGHT_SET_PIECE_BATTLE;
+					set_piece_battle wh2_dlc13_qb_emp_final_battle_wulfhart;
 				}
 
 				payload

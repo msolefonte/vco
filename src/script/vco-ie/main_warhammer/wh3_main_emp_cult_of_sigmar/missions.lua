@@ -149,9 +149,9 @@ local missions = {
 
 				objective
 				{
-					override_text mission_text_text_vco_common_nagash_books_collected_0;
+					override_text mission_text_text_vco_common_nagash_books_collected_volkmar;
 					type SCRIPTED;
-					script_key vco_wh3_main_emp_cult_of_sigmar_nagash_books;
+					script_key vco_script_key_book_of_nagash_volkmar;
 				}
 
 				payload

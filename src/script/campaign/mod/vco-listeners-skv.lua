@@ -6,11 +6,10 @@ local FACTION_MDR_KEY = "wh2_main_skv_clan_moulder";
 local FACTION_RICTUS_KEY = "wh2_dlc09_skv_clan_rictus";
 local KEY_D_HARVEST = "vco_skv_mdr_dilemma_ultimate_harvest";
 local KEY_D_AMBUSH_EVERPEAK = "vco_skv_tre_dilemma_ambush_everpeak";
+local KEY_D_SHADOW_BLADE = "vco_skv_sni_dilemma_shadow_meets_blade";
 local REQUIRED_EFFECT_TAILS = { "inf_aug_13", "inf_aug_14", "mon_aug_13", "mon_aug_14" };
 local REQUIRED_ESHIN_TARGETS = { "wh_main_dwf_karak_izor", "wh2_main_def_hag_graef", "wh3_main_nur_poxmakers_of_nurgle" };
 local REQUIRED_ESHIN_ACTIONS = 13;
-local BATTLE_KEY_TRETCH = "vco_custom_quest_tretch";
-local BATTLE_SCRIPT_KEY_TRETCH = "vco_skv_tretch_custom_battle_moonfall";
 
 -- TRIGGERS --
 
@@ -22,15 +21,15 @@ local function trigger_tretch_dilemma()
 	cm:trigger_dilemma(FACTION_RICTUS_KEY, KEY_D_AMBUSH_EVERPEAK);
 end
 
+local function trigger_snikch_dilemma()
+	cm:trigger_dilemma(FACTION_ESH_KEY, KEY_D_SHADOW_BLADE);
+end
+
 local function trigger_tretch_quest()
     cm:trigger_mission(FACTION_RICTUS_KEY, "vco_custom_quest_tretch", true);
 end
 
-local function complete_skv_tretch_set_piece_battle()
-	vco:complete_mission(FACTION_RICTUS_KEY, BATTLE_SCRIPT_KEY_TRETCH);
-end
-
-
+-- CHECKS --
 local function add_mdr_augment_unlocked(effect)
 	for _, effect_tail in ipairs(REQUIRED_EFFECT_TAILS) do
 		if effect:record_key() == "wh2_dlc16_throt_flesh_lab_" .. effect_tail then
@@ -38,8 +37,6 @@ local function add_mdr_augment_unlocked(effect)
 		end
 	end
 end
-
--- CHECKS --
 
 local function check_mdr_all_augments_unlocked(effect)
 	for _, effect_tail in ipairs(REQUIRED_EFFECT_TAILS) do
@@ -51,62 +48,7 @@ local function check_mdr_all_augments_unlocked(effect)
 	vco:complete_mission(FACTION_MDR_KEY, "vco_skv_mld_augments");
 end
 
-local function check_snikch_battle(defender)
-	vco:log("CharacterCompletedBattle: Check Function Entry");
-
-	local defender_faction = defender:faction():name();
-	if not (
-		defender_faction == "wh_main_dwf_karak_izor" or
-			defender_faction == "wh2_main_def_hag_graef" or
-			defender_faction == "wh3_main_nur_poxmakers_of_nurgle"
-	) then
-		vco:log("Defender Faction not of interest: " .. defender_faction);
-		return;
-	end
-
-	local defender_is_faction_leader = defender:is_faction_leader();
-	if not defender_is_faction_leader then
-		vco:log("Defender Faction of interest: " .. defender_faction .. ", but general is not faction leader.");
-		return;
-	end
-
-	vco:log("Marking mission complete for script key 'vco_skv_esh_" .. defender_faction .. "_leader_defeated'.");
-	vco:complete_mission(FACTION_ESH_KEY, "vco_skv_esh_" .. defender_faction .. "_leader_defeated");
-end
-
-local function check_snikch_targets()
-	for _, faction_name in ipairs(REQUIRED_ESHIN_TARGETS) do
-		vco:log("check_snikch_targets: Checking if Target Faction (" .. faction_name .. ") is dead.");
-		local faction_data = cm:get_faction(faction_name, false);
-		local faction_is_dead = faction_data:is_dead();
-		if faction_is_dead then
-			vco:log("check_snikch_targets: Target Faction (" .. faction_name .. ") dead: true");
-			vco:complete_mission(FACTION_ESH_KEY, "vco_skv_esh_" .. faction_name .. "_leader_defeated");
-		end
-	end
-end
-
-local function check_snikch_eshin_actions()
-	local eshin_actions_count = cm:get_saved_value("vco_snikch_eshin_actions_count") or 0;
-	eshin_actions_count = eshin_actions_count +1;
-	cm:set_saved_value("vco_snikch_eshin_actions_count", eshin_actions_count);
-
-	if eshin_actions_count < REQUIRED_ESHIN_ACTIONS then
-		vco:set_mission_text(
-			"vco_skv_esh_eshin_actions",
-			"vco_skv_esh_1_service_of_the_grand_nightlord_2_" .. eshin_actions_count
-		);
-	else
-		vco:set_mission_text(
-			"vco_skv_esh_eshin_actions",
-			"vco_skv_esh_1_service_of_the_grand_nightlord_2_13"
-		);
-		vco:complete_mission(FACTION_ESH_KEY, "vco_skv_esh_eshin_actions");
-	end
-end
-
 -- LISTENERS --
-
 local function add_listeners()
 	core:add_listener(
 		"vco_skv_moulder_effect_purchased",
@@ -146,30 +88,14 @@ local function add_listeners()
 	);
 
 	core:add_listener(
-		"vco_skv_esh_snikch_battle_completed",
-		"CharacterCompletedBattle",
+		"vco_skv_sni_1_completed",
+		"MissionSucceeded",
 		function(context)
-			local character = context:character();
-			local faction = context:character():faction();
-			return faction:is_human() and
-				faction:name() == FACTION_ESH_KEY and
-				character:is_faction_leader();
+			return context:faction():name() == FACTION_ESH_KEY and
+				context:mission():mission_issuer_record_key() == "MUFFIN_MAN";
 		end,
-		function(context)
-			check_snikch_battle(context:pending_battle():defender());
-		end,
-		true
-	);
-
-	core:add_listener(
-		"vco_skv_esh_snikch_target_faction_wiped_out",
-		"FactionTurnStart",
-		function(context)
-			return context:faction():is_human() and
-				context:faction():name() == FACTION_ESH_KEY;
-		end,
-		check_snikch_targets,
-		true
+		trigger_snikch_dilemma,
+		false
 	);
 
     core:add_listener(
@@ -187,27 +113,18 @@ local function add_listeners()
     );
 
 	core:add_listener(
-		"vco_skv_tre_moonfall",
-		"MissionSucceeded",
-		function(context)
-			return not context:faction():is_null_interface() and
-				context:faction():is_human() and
-				context:faction():name() == FACTION_RICTUS_KEY and
-				context:mission():mission_record_key() == BATTLE_KEY_TRETCH;
-		end,
-		complete_skv_tretch_set_piece_battle,
-		true
-	);
-
-	core:add_listener(
-		"vco_skv_esh_snikch_eshin_actions",
+		"vco_def_snikch_final_battle",
 		"RitualCompletedEvent",
 		function(context)
-			return context:performing_faction():name() == FACTION_ESH_KEY and
-				context:ritual():ritual_key():starts_with("wh2_dlc14_eshin_actions_");
+			return not cm:get_saved_value("vco_def_snikch_final_battle_already_happened")
+			and context:performing_faction():name() == FACTION_ESH_KEY 
+			and context:ritual():ritual_key():starts_with("wh2_dlc14_eshin_actions_mortal_empires_mission_4");
 		end,
-		check_snikch_eshin_actions,
-		true
+    function()
+      cm:set_saved_value("vco_def_snikch_final_battle_already_happened", true);
+    cm:trigger_mission(FACTION_ESH_KEY, "vco_wh2_dlc14_qb_skv_final_battle_snikch", true);
+    end,
+		false
 	);
 end
 

@@ -99,43 +99,7 @@ function vlc.items:add_item_to_faction_inventory(item_key, faction_key)
 	cm:add_ancillary_to_faction(faction, item_key, false);
 end
 
--- NAGASH BOOKS --
 
-function vlc.nagash_books:add(faction_key, book_number)
-	vco:log("Book of Nagash collected (" .. faction_key .. "): " .. book_number);
-	cm:set_saved_value("vco_" .. faction_key .. "_book_" .. book_number .. "_collected", true);
-end
-
-function vlc.nagash_books:count(faction_key)
-	vco:log("Counting Books of Nagash (" .. faction_key .. ")");
-	local count_collected_books = 0;
-
-	for book_number=1, 9 do
-		if cm:get_saved_value("vco_" .. faction_key .. "_book_" .. book_number .. "_collected") then
-			vco:log("- Book " .. book_number .. " OK");
-			count_collected_books = count_collected_books + 1;
-		end
-	end
-
-	vco:log("Total Books of Nagash: " .. count_collected_books);
-	return count_collected_books;
-end
-
-function vlc.nagash_books:check_generic_all_books_collected(faction_key, mission, max_books)
-	vco:log("Checking Books of Nagash (" .. faction_key .. ") | Triggered by " .. mission:mission_record_key());
-	local book_number = string.sub(mission:mission_record_key(), -1);
-	self:add(faction_key, book_number);
-
-	local count_books = self:count(faction_key);
-	if count_books < max_books then
-		vco:log("Checking Books of Nagash | Count updated");
-		vco:set_mission_text("vco_" .. faction_key .. "_nagash_books", "vco_common_nagash_books_collected_" .. count_books);
-	else
-		vco:log("Checking Books of Nagash | Mission completed");
-		vco:set_mission_text("vco_" .. faction_key .. "_nagash_books", "vco_common_nagash_books_collected");
-		vco:complete_mission(faction_key, "vco_" .. faction_key .. "_nagash_books");
-	end
-end
 
 -- POOLED RESOURCES --
 
