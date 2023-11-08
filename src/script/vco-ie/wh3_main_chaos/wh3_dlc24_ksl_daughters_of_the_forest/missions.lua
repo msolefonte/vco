@@ -16,44 +16,8 @@ local missions = {
 
 				objective
 				{
-					override_text mission_text_text_mis_activity_ostankya_roc_collect_hex_fifth;
-					type SCRIPTED;
-					script_key hexes_victory_5;
-				}
-
-				objective
-				{
-					override_text mission_text_text_mis_activity_ostankya_roc_collect_hex_first;
-					type SCRIPTED;
-					script_key hexes_victory_1;
-				}
-
-				objective
-				{
-					override_text mission_text_text_mis_activity_ostankya_roc_collect_hex_second;
-					type SCRIPTED;
-					script_key hexes_victory_2;
-				}
-
-				objective
-				{
-					override_text mission_text_text_mis_activity_ostankya_roc_collect_hex_fourth;
-					type SCRIPTED;
-					script_key hexes_victory_3;
-				}
-
-				objective
-				{
-					override_text mission_text_text_mis_activity_ostankya_roc_collect_hex_third;
-					type SCRIPTED;
-					script_key hexes_victory_4;
-				}
-
-				objective
-				{
-					override_text mission_text_text_mis_activity_ostankya_collect_all_hexes;
-					type SCRIPTED;
-					script_key hexes_long_all;
+					type FIGHT_SET_PIECE_BATTLE;
+					set_piece_battle wh3_dlc24_ksl_mother_ostankya_hex_malediction_of_ruin;
 				}
 
 				payload
@@ -61,7 +25,7 @@ local missions = {
 					effect_bundle
 					{
 						bundle_key vco_victory_payload_ksl_mot_1_malediction_of_ruin;
-						turns 1;
+						turns 0;
 					}
 
 					effect_bundle

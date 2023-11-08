@@ -122,17 +122,16 @@ local missions = {
 
 				objective
 				{
-					override_text mission_text_text_vco_bst_tau_3_heart_dark_set_piece;
-					type SCRIPTED;
-					script_key vco_bst_taurox_heart_of_the_dark;
-				}
-
-				objective
-				{
 					type HAVE_AT_LEAST_X_OF_A_POOLED_RESOURCE;
 
 					pooled_resource bst_ruination;
 					total 500;
+				}
+
+				objective
+				{
+					type FIGHT_SET_PIECE_BATTLE;
+					set_piece_battle wh_dlc03_qb_bst_the_final_battle;
 				}
 
 				payload

@@ -40,7 +40,7 @@ local missions = {
 
 				objective
 				{
-					type CONSTRUCT_N_BUILDINGS_FROM;
+					type CONSTRUCT_N_OF_A_BUILDING;
 					faction wh2_main_lzd_hexoatl;
 					total 5;
 				

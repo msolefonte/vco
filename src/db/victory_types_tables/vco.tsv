@@ -141,6 +141,9 @@ vco_victory_type_def_gan_3_eternity_awaits	2	0	long	long	true
 vco_victory_type_dwf_gro_1_malekith_grudge	0	0	long	long	true
 vco_victory_type_dwf_gro_2_high_elf_decision	1	0	long	long	true
 vco_victory_type_dwf_gro_3_age_reckoning	2	0	long	long	true
+vco_victory_type_dwf_ung_1_last_slayer_king	0	0	long	long	true
+vco_victory_type_dwf_ung_2_wayward_sons	1	0	long	long	true
+vco_victory_type_dwf_ung_3_reunification	2	0	long	long	true
 vco_victory_type_economic	4	0	long	long	true
 vco_victory_type_emp_kar_1_protector_empire	0	0	long	long	true
 vco_victory_type_emp_kar_2_defier_dark	1	0	long	long	true
@@ -218,9 +221,9 @@ vco_victory_type_ogr_skr_2_age_of_ogres_roc	2	0	long	long	true
 vco_victory_type_ogr_skr_3_hunger_power	2	0	long	long	true
 vco_victory_type_ogr_skr_3_hunger_power_roc	3	0	long	long	true
 vco_victory_type_short	0	0	short	short	true
-vco_victory_type_skv_esh_1_service_of_the_grand_nightlord	0	0	long	long	true
-vco_victory_type_skv_esh_2_assassin	1	0	long	long	true
-vco_victory_type_skv_esh_3_keep_your_enemies_close	2	0	long	long	true
+vco_victory_type_skv_esh_1_shadow_and_blade	0	0	long	long	true
+vco_victory_type_skv_esh_2_knives_in_the_dark	1	0	long	long	true
+vco_victory_type_skv_esh_3_year_of_the_rat	2	0	long	long	true
 vco_victory_type_skv_mdr_1_yes_yes_prepare_the_lab	0	0	long	long	true
 vco_victory_type_skv_mdr_2_the_vermintide_comes	1	0	long	long	true
 vco_victory_type_skv_mdr_3_the_frozen_dead	2	0	long	long	true
@@ -254,6 +257,9 @@ vco_victory_type_vmp_kem_3_lichemaster	2	0	long	long	true
 vco_victory_type_vmp_man_1_restless_dunes	0	0	long	long	true
 vco_victory_type_vmp_man_2_reclaim_throne	1	0	long	long	true
 vco_victory_type_vmp_man_3_death_comes_for_all	2	0	long	long	true
+vco_victory_type_vmp_vla_1_fourth_vampire_war	0	0	long	long	true
+vco_victory_type_vmp_vla_2_slaughter_slopes	1	0	long	long	true
+vco_victory_type_vmp_vla_3_hearts_of_ice	2	0	long	long	true
 vco_victory_type_wef_twi_1_dreaming_wood	0	0	long	long	true
 vco_victory_type_wef_twi_2_vauls_anvils	1	0	long	long	true
 vco_victory_type_wef_twi_3_sacred_pools	2	0	long	long	true

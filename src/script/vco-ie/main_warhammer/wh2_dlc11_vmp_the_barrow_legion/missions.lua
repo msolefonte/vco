@@ -16,23 +16,36 @@ local missions = {
 
 				objective
 				{
+					type CONTROL_N_PROVINCES_INCLUDING;
+					total 8;
+
+					province wh3_main_combi_province_marches_of_couronne;
+					province wh3_main_combi_province_coast_of_lyonesse;
+					province wh3_main_combi_province_forest_of_arden;
+					province wh3_main_combi_province_bastonne;
+					province wh3_main_combi_province_river_brienne;
+					province wh3_main_combi_province_forest_of_chalons;
+					province wh3_main_combi_province_barrows_of_cuileux;
+					province wh3_main_combi_province_carcassonne;
+				}
+
+				objective
+				{
 					type DESTROY_FACTION;
 
-					faction wh_main_brt_bastonne;
-					faction wh_main_brt_artois;
-					faction wh3_main_brt_aquitaine;
+					faction wh_main_brt_bretonnia;
+					faction wh_main_brt_carcassonne;
 
 					confederation_valid;
 				}
 
-			
 				objective
 				{
-					type CONTROL_N_PROVINCES_INCLUDING;
-					total 2;
+					type CONSTRUCT_BUILDING_IN_PROVINCES;
+					faction wh2_dlc11_vmp_the_barrow_legion;
 
-					province wh3_main_combi_province_northern_grey_mountains;
-					province wh3_main_combi_province_bastonne;
+                    province wh3_main_combi_province_marches_of_couronne;
+					building_level vco_landmark_kemmler_couronne_corpse_king;
 				}
 
 				payload
@@ -43,20 +56,11 @@ local missions = {
 						turns 0;
 					}
 
-					effect_bundle
+					add_ancillary_to_faction_pool
 					{
-						bundle_key vco_victory_payload_vmp_kem_1_locus_of_power;
-						turns 0;
+						ancillary_key vco_anc_follower_kemmler_black_grail_knight;
 					}
-				
-					faction_pooled_resource_transaction
-					{
-						resource vmp_blood_kiss;
-						factor vco;
-						amount 3;
-						context absolute;
-					}
-				
+
 					effect_bundle
 					{
 						bundle_key vco_victory_payload_all_campaign_victory_dummy;
@@ -85,34 +89,30 @@ local missions = {
 			
 				objective
 				{
-					type DESTROY_FACTION;
+					override_text mission_text_text_vco_vmp_kem_2_old_world_calls_me_1;
+					type CONTROL_N_REGIONS_FROM;
+					total 10;
 
-					faction wh_main_emp_empire;
-
-					confederation_valid;
-				}
-
-
-				objective
-				{
-					type RAZE_OR_OWN_SETTLEMENTS;
-
-					region wh3_main_combi_region_nuln;
+					region wh3_main_combi_region_marienburg;
 					region wh3_main_combi_region_altdorf;
+					region wh3_main_combi_region_nuln;
+					region wh3_main_combi_region_pfeildorf;
 					region wh3_main_combi_region_averheim;
+					region wh3_main_combi_region_the_moot;
+					region wh3_main_combi_region_castle_drakenhof;
+					region wh3_main_combi_region_castle_templehof;
 					region wh3_main_combi_region_wurtbad;
+					region wh3_main_combi_region_talabheim;
+					region wh3_main_combi_region_hergig;
+					region wh3_main_combi_region_brass_keep;
 					region wh3_main_combi_region_middenheim;
+					region wh3_main_combi_region_laurelorn_forest;
+					region wh3_main_combi_region_the_black_pit;
+					region wh3_main_combi_region_salzenmund;
+					region wh3_main_combi_region_wolfenburg;
+					region wh3_main_combi_region_bechafen;
+					region wh3_main_combi_region_gryphon_wood;
 				}
-			
-				objective
-				{
-					type DESTROY_FACTION;
-
-					faction wh_dlc05_wef_argwylon;
-
-					confederation_valid;
-				}
-
 
 				payload
 				{
@@ -121,15 +121,12 @@ local missions = {
 						bundle_key vco_victory_payload_vmp_kem_2_age_of_the_living_is_ending;
 						turns 0;
 					}
-				
-					faction_pooled_resource_transaction
+
+					add_ancillary_to_faction_pool
 					{
-						resource vmp_blood_kiss;
-						factor vco;
-						amount 3;
-						context absolute;
+						ancillary_key vco_anc_talisman_kemmler_black_arc;
 					}
-				
+
 					effect_bundle
 					{
 						bundle_key vco_victory_payload_all_campaign_victory_dummy;
@@ -155,27 +152,76 @@ local missions = {
 					type SCRIPTED;
 					script_key vco_dummy;
 				}
-			
+
 				objective
 				{
-					type ACHIEVE_CHARACTER_RANK;
-					total 1;
-					total2 40;
-					start_pos_character 1487310411;
+					type RAZE_OR_OWN_SETTLEMENTS;
+
+					region wh3_main_combi_region_karak_kadrin;
 				}
-			
+
 				objective
 				{
-					type HAVE_N_AGENTS_OF_TYPE;
-					total 8;
-					agent_subtype wh_main_vmp_necromancer;
+                    type HAVE_CHARACTER_WOUNDED;
+                    start_pos_character 724031729;
 				}
-			
+
 				objective
 				{
-					override_text mission_text_text_vco_vmp_kem_3_bloodline_awoken;
+					override_text mission_text_text_vco_vmp_kem_3_lichemaster_1;
 					type SCRIPTED;
-					script_key vco_wh2_dlc11_vmp_the_barrow_legion_bloodline_completed;
+					script_key vco_dummy;
+				}
+
+				objective
+				{
+					type DESTROY_FACTION;
+
+					faction wh_main_emp_empire;
+
+					confederation_valid;
+				}
+
+				objective
+				{
+					type OCCUPY_LOOT_RAZE_OR_SACK_X_SETTLEMENTS;
+					total 20;
+				}
+
+				objective
+				{
+					override_text mission_text_text_vco_vmp_kem_3_lichemaster_2;
+					type SCRIPTED;
+					script_key vco_dummy;
+				}
+
+				objective
+				{
+					type DESTROY_FACTION;
+
+					faction wh_dlc05_wef_argwylon;
+
+					confederation_valid;
+				}
+
+				objective
+				{
+					type CONSTRUCT_BUILDING_IN_PROVINCES;
+					faction wh2_dlc11_vmp_the_barrow_legion;
+
+                    province wh3_main_combi_province_argwylon;
+					building_level vco_landmark_kemmler_treeman_graveyard;
+				}
+
+				objective
+				{
+					type RAZE_OR_OWN_SETTLEMENTS;
+
+					region wh3_main_combi_region_the_oak_of_ages;
+					region wh3_main_combi_region_waterfall_palace;
+					region wh3_main_combi_region_crag_halls_of_findol;
+					region wh3_main_combi_region_vauls_anvil_loren;
+					region wh3_main_combi_region_kings_glade;
 				}
 
 				payload
@@ -184,20 +230,6 @@ local missions = {
 					{
 						bundle_key vco_victory_payload_vmp_kem_3_immortal_lich;
 						turns 0;
-					}
-				
-					effect_bundle
-					{
-						bundle_key vco_victory_payload_vmp_kem_3_unhallowed_necromancers;
-						turns 0;
-					}
-				
-					faction_pooled_resource_transaction
-					{
-						resource vmp_blood_kiss;
-						factor vco;
-						amount 3;
-						context absolute;
 					}
 
 					effect_bundle

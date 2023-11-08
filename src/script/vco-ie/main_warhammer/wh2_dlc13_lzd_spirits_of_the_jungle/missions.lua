@@ -96,7 +96,6 @@ local missions = {
 					type FIGHT_SET_PIECE_BATTLE;
 					set_piece_battle wh2_dlc13_qb_lzd_final_battle_nakai;
 				}
-				
 
 				payload
 				{

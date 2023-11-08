@@ -101,12 +101,49 @@ local missions = {
 					building_level wh3_main_special_drakenhof_malevolent_museum;
 				}
 
+				objective
+				{
+					override_text mission_text_text_vco_vmp_man_2_reclaim_throne_1;
+					type SCRIPTED;
+					script_key vco_dummy;
+				}
+
+				objective
+				{
+					type DESTROY_FACTION;
+
+					faction wh_main_emp_empire;
+
+					confederation_valid;
+				}
+
+				objective
+				{
+					type CONSTRUCT_BUILDING_IN_PROVINCES;
+					faction wh_main_vmp_vampire_counts;
+
+
+                    province wh3_main_combi_province_reikland;
+					building_level wh2_main_special_altdorf_imperial_palace_vmp;
+				}
+
 				payload
 				{
 					effect_bundle
 					{
 						bundle_key vco_victory_payload_vmp_man_2_reclaim_throne;
 						turns 0;
+					}
+
+					effect_bundle
+					{
+						bundle_key vco_victory_payload_vmp_man_3_death_comes_for_all_2;
+						turns 0;
+					}
+
+					add_ancillary_to_faction_pool
+					{
+						ancillary_key vco_anc_weapon_ghal_maraz;
 					}
 
 					effect_bundle
@@ -142,23 +179,13 @@ local missions = {
 
 					region wh3_main_combi_region_black_pyramid_of_nagash;
 					region wh3_main_combi_region_nagashizzar;
-					region wh3_main_combi_region_altdorf;
 				}
 
 				objective
 				{
-					type DESTROY_FACTION;
-
-					faction wh_main_emp_empire;
-
-					confederation_valid;
-				}
-
-				objective
-				{
-					override_text mission_text_text_vco_common_nagash_books_collected_0;
+					override_text mission_text_text_vco_common_nagash_books_collected;
 					type SCRIPTED;
-					script_key vco_wh_main_vmp_vampire_counts_nagash_books;
+					script_key vco_script_key_book_of_nagash_mannfred;
 				}
 
 				payload
@@ -167,17 +194,6 @@ local missions = {
 					{
 						bundle_key vco_victory_payload_vmp_man_3_death_comes_for_all_1;
 						turns 0;
-					}
-
-					effect_bundle
-					{
-						bundle_key vco_victory_payload_vmp_man_3_death_comes_for_all_2;
-						turns 0;
-					}
-
-					add_ancillary_to_faction_pool
-					{
-						ancillary_key vco_anc_weapon_ghal_maraz;
 					}
 
 					effect_bundle

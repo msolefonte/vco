@@ -28,20 +28,27 @@ local missions = {
 					script_key defeat_chaos_gods_challengers;
 				}
 
+				objective
+				{
+					override_text mission_text_text_vco_nor_wul_3_monster_hunt_0;
+					type SCRIPTED;
+					script_key vco_nor_wul_monster_hunts;
+				}
+
 				payload
 				{
-					effect_bundle
-					{
-						bundle_key vco_victory_payload_nor_wul_1_ragnarok_1;
-						turns 0;
-					}
-				
 					effect_bundle
 					{
 						bundle_key vco_victory_payload_nor_wul_1_ragnarok_2;
 						turns 0;
 					}
-				
+
+					effect_bundle
+					{
+						bundle_key vco_victory_payload_nor_wul_3_monster_hunt;
+						turns 0;
+					}
+
 					effect_bundle
 					{
 						bundle_key vco_victory_payload_all_campaign_victory_dummy;
@@ -72,7 +79,7 @@ local missions = {
 				{
 					override_text mission_text_text_vco_nor_wul_2_the_world_walker_override;
 					type CONTROL_N_REGIONS_FROM;
-					total 5;
+					total 10;
 
 					region wh3_main_combi_region_couronne;
 					region wh3_main_combi_region_miragliano;
@@ -101,6 +108,12 @@ local missions = {
 
 					effect_bundle
 					{
+						bundle_key vco_victory_payload_nor_wul_1_ragnarok_1;
+						turns 0;
+					}
+
+					effect_bundle
+					{
 						bundle_key vco_victory_payload_all_campaign_victory_dummy;
 						turns 0;
 					}
@@ -118,12 +131,6 @@ local missions = {
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
-				objective
-				{
-					override_text mission_text_text_vco_nor_wul_3_monster_hunt_0;
-					type SCRIPTED;
-					script_key vco_nor_wul_monster_hunts;
-				}
 
 				objective
 				{
@@ -136,12 +143,6 @@ local missions = {
 
 				payload
 				{
-					effect_bundle
-					{
-						bundle_key vco_victory_payload_nor_wul_3_monster_hunt;
-						turns 0;
-					}
-
 					effect_bundle
 					{
 						bundle_key vco_victory_payload_nor_wul_3_wheres_my_palico;

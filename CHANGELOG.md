@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [5.12.0] - 07.11.2023
+
+- Added new routes for Vlad/Isabella von Carstein: Sylvania
+- Added new routes for Ungrim Ironfist: Karak Kadrin
+- Added a quest battle for Snikch (against Malus Darkblade)
+- Fixed a bug where Shadows of Change Route 1 objectives were not registering as complete
+- Fixed a bug where Book of Nagash collection was not detected properly, bricking routes
+- Fixed a bug that caused Mazdamundi and Kostaltyn not counting their building objectives towards completion
+- Fixed a bug where Aranessa's objectives gave debuffs instead of buffs
+- Fixed multiple minor bugs affects bugs with Hellebron, Kemmler, Snikch and Mannfred
+
 ## [5.11.0] - 19.09.2023
 
 - Added new routes for Nakai the Wanderer: Spirit of the Jungle
