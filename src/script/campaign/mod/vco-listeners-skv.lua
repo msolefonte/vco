@@ -112,6 +112,21 @@ local function add_listeners()
     true
     );
 
+    core:add_listener(
+    "vco_skv_throt_final_battle",
+    "CharacterRankUp",
+    function(context)
+ local character = context:character()
+        return not cm:get_saved_value("vco_skv_throt_quest_battle_already_happened") and
+         character:faction():name() == FACTION_MDR_KEY and character:rank() >= 20
+    end,
+    function()
+      cm:set_saved_value("vco_skv_throt_quest_battle_already_happened", true);
+      cm:trigger_mission(FACTION_MDR_KEY, "vco_wh2_dlc16_qb_skv_final_battle_throt", true);
+    end,
+    false
+    );
+
 	core:add_listener(
 		"vco_def_snikch_final_battle",
 		"RitualCompletedEvent",

@@ -35,7 +35,7 @@ local function trigger_nak_dilemma()
 end
 
 local function trigger_nakai_quest()
-    cm:trigger_mission(FACTION_LZD_NAK_KEY, "wh2_dlc13_qb_lzd_final_battle_nakai", true);
+    cm:trigger_mission(FACTION_LZD_NAK_KEY, "vco_wh2_dlc13_qb_lzd_final_battle_nakai", true);
 end
 
 local function lzd_maz_vassalise()

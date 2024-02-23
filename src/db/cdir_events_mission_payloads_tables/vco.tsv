@@ -5,3 +5,10 @@ id	mission_key	payload_key	status_key	value	target_key
 11226102	vco_custom_quest_tretch	TREASURY	SUCCESS	AMOUNT[8000]	default
 11226103	vco_custom_quest_tretch	FACTION_POOLED_RESOURCE_TRANSACTION	SUCCESS	RESOURCE[skaven_food];FACTOR[skaven_food_missions];AMOUNT[50];CONTEXT[absolute]	default
 11226104	vco_custom_quest_tretch	ADD_ANCILLARY	SUCCESS	ANCILLARY_KEY[vco_anc_armour_rictus_plate_armour];SHOULD_REPLACE	default
+1054427071	vco_wh2_dlc09_qb_tmb_final_battle_arkhan	TREASURY	SUCCESS	AMOUNT[12500]	default
+1686028318	vco_wh2_dlc13_qb_emp_final_battle_wulfhart	TREASURY	SUCCESS	AMOUNT[15000]	default
+2070978938	vco_wh2_dlc13_qb_lzd_final_battle_nakai	TREASURY	SUCCESS	AMOUNT[10000]	default
+1460249134	vco_wh2_dlc16_qb_wef_final_battle_sisters	TREASURY	SUCCESS	AMOUNT[10000]	default
+1053644983	vco_wh2_dlc16_qb_skv_final_battle_throt	TREASURY	SUCCESS	AMOUNT[10000]	default
+1797639984	vco_wh2_dlc16_qb_skv_final_battle_throt	FACTION_POOLED_RESOURCE_TRANSACTION	SUCCESS	RESOURCE[skv_mutagen];FACTOR[wh2_dlc16_throt_flesh_lab_mutagen_gain_mission];AMOUNT[500]	default
+11226105	vco_custom_quest_alarielle_hellebron	TREASURY	SUCCESS	AMOUNT[10000]	default

@@ -167,6 +167,20 @@ local missions = {
 					confederation_valid;
 				}
 
+				objective
+				{
+					type ACHIEVE_CHARACTER_RANK;
+					total 1;
+					total2 20;
+					start_pos_character 1806854659;
+					include_generals;
+				}
+
+				objective
+				{
+					type FIGHT_SET_PIECE_BATTLE;
+					set_piece_battle wh2_dlc16_qb_skv_final_battle_throt;
+				}
 
 				payload
 				{

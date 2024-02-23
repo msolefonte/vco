@@ -8,6 +8,7 @@ local FACTION_LAU_KEY = "wh3_main_wef_laurelorn";
 local FACTION_ORE_KEY = "wh2_main_wef_bowmen_of_oreon";
 local FACTION_TOR_KEY = "wh_dlc05_wef_torgovann";
 local FACTION_WYD_KEY = "wh_dlc05_wef_wydrioth";
+local FACTION_ALARIELLE_KEY = "wh2_main_hef_avelorn";
 
 
 -- TRIGGERS --
@@ -20,6 +21,7 @@ local function trigger_tyr_vassals()
     cm:force_make_vassal(FACTION_TYR_KEY, FACTION_TOR_KEY);
     cm:force_make_vassal(FACTION_TYR_KEY, FACTION_WYD_KEY);
 end
+
 
 -- LISTENERS --
 
@@ -34,6 +36,21 @@ local function add_listeners()
 		trigger_tyr_vassals,
 		false
 	);
+
+    core:add_listener(
+    "vco_hef_alarielle_battle_crones_folly",
+    "BuildingCompleted",
+    function(context)
+        return not cm:get_saved_value("vco_hef_alarielle_battle_crones_folly_already_happened") and
+        context:building():name() == "wh2_main_special_everqueen_court_hef";
+    end,
+    function()
+      cm:set_saved_value("vco_hef_alarielle_battle_crones_folly_already_happened", true);
+      cm:trigger_mission(FACTION_ALARIELLE_KEY, "vco_custom_quest_alarielle_hellebron", true);
+    end,
+    true
+    );
+    
 end
 
 -- MAIN --

@@ -4,14 +4,14 @@ ancillaries_colour_text_vco_anc_arcane_item_cube_of_darkness	Found in the metal 
 ancillaries_colour_text_vco_anc_enchanted_item_the_crown_of_sorcery	The Crown's whispered advice lured Azhag into an ambush whereupon he was slain by Arkhan the Black, greatest of Nagash's servants. With the Crown now in his possession, the Great Necromancer's return is imminent.	true
 ancillaries_colour_text_vco_anc_magic_standard_shroud_of_gilles	This holy relic still bears the image of the Bretonnian hero's body, imprinted with his blood when he was mortally wounded. The Cultists of Tzeentch now use this sacred blood of the slain hero in their profane rituals.	true
 ancillaries_colour_text_vco_anc_weapon_ghal_maraz	Ghal Maraz is the legendary hammer of Sigmar and one of the most potent magical artefacts in the entire world. This rune-encrusted weapon has been the symbol of the Emperor's office ever since the founding of the Empire.	true
-ancillaries_colour_text_vco_anc_weapon_stolen_hand_of_gods	This ancient artifact of the Old Ones was once wielded by the legendary Saurus Kroq-Gar, before his defeat at the hands of Kairos Fateweaver. It has been repurposed into a weapon of dread power.	true
+ancillaries_colour_text_vco_anc_enchanted_item_hand_of_gods	This ancient artifact of the Old Ones was once wielded by the legendary Saurus Kroq-Gar, before his defeat at the hands of Kairos Fateweaver. It has been repurposed into a weapon of dread power.	true
 ancillaries_colour_text_vco_anc_weapon_the_blade_of_realities	Brought to the world by the Old Ones, this weapon shimmers with unnatural power. Legends carved on ancient stone claim the blade exists on every plane of reality simultaneously, and that its edge can sever a creature's soul. No earthly force can stop this deadly blade - it penetrates granite and steel as easily as it slices through flesh and bone.	true
 ancillaries_colour_text_vco_anc_weapon_the_heartwood_lance	This lance was crafted from the heart of the Major Oak, the largest tree in Bretonnia, which was shattered by lightning the moment Gilles was struck down. Its blackened wood is covered with tiny carvings depicting the twelve battles of Gilles and, despite being harder than stone and diamond sharp, it is lightweight and beautiful to behold.	true
 ancillaries_onscreen_name_vco_anc_arcane_item_cube_of_darkness	Cube of Darkness	true
 ancillaries_onscreen_name_vco_anc_enchanted_item_the_crown_of_sorcery	The Crown of Sorcery	true
 ancillaries_onscreen_name_vco_anc_magic_standard_shroud_of_gilles	The Shroud of Gilles le Breton	true
 ancillaries_onscreen_name_vco_anc_weapon_ghal_maraz	Ghal Maraz	true
-ancillaries_onscreen_name_vco_anc_weapon_stolen_hand_of_gods	Repurposed Hand of Gods	true
+ancillaries_onscreen_name_vco_anc_enchanted_item_hand_of_gods	Repurposed Hand of Gods	true
 ancillaries_onscreen_name_vco_anc_weapon_the_blade_of_realities	The Blade of Realities	true
 ancillaries_onscreen_name_vco_anc_weapon_the_heartwood_lance	The Heartwood Lance	true
 ancillaries_onscreen_name_vco_anc_weapon_scourge	Scourge	true
@@ -148,3 +148,5 @@ ancillaries_onscreen_name_vco_anc_talisman_talisman_of_qwarr	Talisman of Qwarr	f
 ancillaries_colour_text_vco_anc_talisman_talisman_of_qwarr	This ancient talon was given to the Slayer King by Thalandor Doomstar as a gesture of peace and thanks. It came from the mighty eagle, Qwarr, after its mortal battle with the ravenous dragon, Grathgol the Egg-Thief.	false
 ancillaries_onscreen_name_vco_anc_follower_ice_vampire	Kattarin the Bloody	false
 ancillaries_colour_text_vco_anc_follower_ice_vampire	Freed from her frozen prison and returned to unlife by the von Carsteins, Kattarin the Bloody now serves her dearest Isabella with undying loyalty, brutally massacring those Kislevites who still resist the new regime.	false
+ancillaries_onscreen_name_vco_anc_weapon_wand_of_wych_elm	Wand of Wych Elm	false
+ancillaries_colour_text_vco_anc_weapon_wand_of_wych_elm	This twisted and gnarled staff is cut from the rare and magical Wych Elm tree that draws magic from the ground beneath.	false

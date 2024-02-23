@@ -142,9 +142,15 @@ local missions = {
 
 				objective
 				{
-					override_text mission_text_text_vco_common_nagash_books_collected;
+					override_text mission_text_text_vco_common_nagash_books_collected_1;
 					type SCRIPTED;
-					script_key vco_script_key_book_of_nagash_arkhan;
+					script_key vco_wh2_dlc09_tmb_followers_of_nagash_nagash_books;
+				}
+
+				objective
+				{
+					type FIGHT_SET_PIECE_BATTLE;
+					set_piece_battle wh2_dlc09_qb_tmb_final_battle_arkhan;
 				}
 
 				payload

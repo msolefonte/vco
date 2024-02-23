@@ -98,6 +98,15 @@ local missions = {
 					region wh3_main_combi_region_zharr_naggrund;
 				}
 
+				objective
+				{
+					override_text mission_text_text_vco_nor_wul_3_wheres_my_palico;
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 1;
+
+					region wh3_main_combi_region_skeggi;
+				}
+
 				payload
 				{
 					effect_bundle
@@ -108,7 +117,7 @@ local missions = {
 
 					effect_bundle
 					{
-						bundle_key vco_victory_payload_nor_wul_1_ragnarok_1;
+						bundle_key vco_victory_payload_nor_wul_3_wheres_my_palico;
 						turns 0;
 					}
 
@@ -134,18 +143,31 @@ local missions = {
 
 				objective
 				{
-					override_text mission_text_text_vco_nor_wul_3_wheres_my_palico;
-					type CONTROL_N_REGIONS_INCLUDING;
-					total 1;
+					override_text mission_text_text_vco_nor_wul_3_wheres_my_palico_1;
+					type SCRIPTED;
+					script_key vco_dummy;
+				}
 
-					region wh3_main_combi_region_skeggi;
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;
+					total 8;
+
+					province wh3_main_combi_province_helspire_mountains;
+					province wh3_main_combi_province_vanaheim_mountains;
+					province wh3_main_combi_province_ice_tooth_mountains;
+					province wh3_main_combi_province_mountains_of_naglfari;
+					province wh3_main_combi_province_trollheim_mountains;
+					province wh3_main_combi_province_mountains_of_hel;
+					province wh3_main_combi_province_gianthome_mountains;
+					province wh3_main_combi_province_goromadny_mountains;
 				}
 
 				payload
 				{
 					effect_bundle
 					{
-						bundle_key vco_victory_payload_nor_wul_3_wheres_my_palico;
+						bundle_key vco_victory_payload_nor_wul_1_ragnarok_1;
 						turns 0;
 					}
 

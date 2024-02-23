@@ -2,3 +2,5 @@ army_name	ai_army_tactic	approach_angle	army_emblem	army_model	deployment_zone_i
 #battle_set_piece_armies_tables;1;db/battle_set_piece_armies_tables/vco																							
 vco_custom_quest_tretch_enemy_army_chd_chaos_dwarfs		270	test_emblem_army_01	1148579704	0	wh3_dlc23_chd_zhatan	false	true	false	true	true	false	false	false	000000	000000	000000	false	000000	000000	000000		false
 vco_custom_quest_tretch_enemy_army_vmp_lahmians		0	test_emblem_army_01	561432497	0	wh3_main_vmp_lahmian_sisterhood	false	false	false	true	false	false	false	false	000000	000000	000000	false	000000	000000	000000		false
+vco_custom_quest_alarielle_hellebron_enemy_army_def_crones		0	test_emblem_army_01	959439574	0	wh2_main_def_har_ganeth	false	false	false	true	false	false	false	false	000000	000000	000000	false	000000	000000	000000		false
+vco_custom_quest_alarielle_hellebron_enemy_army_kho_valkia		30	test_emblem_army_01	2142344717	0	wh3_dlc20_chs_valkia	false	true	false	true	true	false	false	false	000000	000000	000000	false	000000	000000	000000		false

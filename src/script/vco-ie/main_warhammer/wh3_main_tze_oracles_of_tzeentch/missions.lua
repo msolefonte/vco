@@ -153,7 +153,7 @@ local missions = {
 
 					add_ancillary_to_faction_pool
 					{
-						ancillary_key vco_anc_weapon_stolen_hand_of_gods;
+						ancillary_key vco_anc_enchanted_item_hand_of_gods;
 					}
 
 					effect_bundle

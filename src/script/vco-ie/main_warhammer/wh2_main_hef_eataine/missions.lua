@@ -89,6 +89,18 @@ local missions = {
 
 				objective
 				{
+					type RAZE_OR_OWN_SETTLEMENTS;
+
+					region wh3_main_combi_region_naggarond;
+					region wh3_main_combi_region_hag_graef;
+					region wh3_main_combi_region_clar_karond;
+					region wh3_main_combi_region_ghrond;
+					region wh3_main_combi_region_har_ganeth;
+					region wh3_main_combi_region_karond_kar;
+				}
+
+				objective
+				{
 					override_text mission_text_text_vco_hef_tyr_2_love_and_war_1;
 					type SCRIPTED;
 					script_key vco_dummy;
