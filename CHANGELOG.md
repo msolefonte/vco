@@ -8,7 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [5.13.0] - 22.11.2023
 
 - Fixed crash caused by the 4.1 update
-- New routes for Alarielle
+- Added new routes for Alarielle the Radiant: Avelorn
 - Vortex quest battles restored as objectives for Arkhan the Black, Sisters of Twilight, Throt the Unclean
 - New custom quest battle objective for Alarielle themed around her rivalry with Hellebron from the Queen & the Crone
   DLC (triggers by building the Court of the Everqueen landmark in her starting settlement)
