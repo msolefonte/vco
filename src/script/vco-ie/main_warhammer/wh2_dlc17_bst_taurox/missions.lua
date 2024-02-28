@@ -131,7 +131,7 @@ local missions = {
 				objective
 				{
 					type FIGHT_SET_PIECE_BATTLE;
-					set_piece_battle wh_dlc03_qb_bst_the_final_battle;
+					set_piece_battle vco_wh2_dlc17_qb_bst_final_battle_taurox;
 				}
 
 				payload

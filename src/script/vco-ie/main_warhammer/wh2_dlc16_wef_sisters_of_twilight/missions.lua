@@ -31,7 +31,7 @@ local missions = {
 				objective
 				{
 					type FIGHT_SET_PIECE_BATTLE;
-					set_piece_battle wh2_dlc16_qb_wef_final_battle_sisters;
+					set_piece_battle vco_wh2_dlc16_qb_wef_final_battle_sisters;
 				}
 
 				objective

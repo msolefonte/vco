@@ -12,3 +12,4 @@ id	mission_key	payload_key	status_key	value	target_key
 1053644983	vco_wh2_dlc16_qb_skv_final_battle_throt	TREASURY	SUCCESS	AMOUNT[10000]	default
 1797639984	vco_wh2_dlc16_qb_skv_final_battle_throt	FACTION_POOLED_RESOURCE_TRANSACTION	SUCCESS	RESOURCE[skv_mutagen];FACTOR[wh2_dlc16_throt_flesh_lab_mutagen_gain_mission];AMOUNT[500]	default
 11226105	vco_custom_quest_alarielle_hellebron	TREASURY	SUCCESS	AMOUNT[10000]	default
+11226106	vco_wh3_main_ie_qb_bst_final_battle_taurox	TREASURY	SUCCESS	AMOUNT[10000]	default

@@ -102,8 +102,12 @@ local function add_listeners()
     "vco_skv_tre_warpstone_meteor",
     "BuildingCompleted",
     function(context)
+        local building = context:building();
         return not cm:get_saved_value("vco_skv_tre_warpstone_meteor_already_happened") and
-        context:building():name() == "vco_landmark_tretch_tower_gorgoth";
+        building:name() == "vco_landmark_tretch_tower_gorgoth" and
+        building:faction():name() == FACTION_RICTUS_KEY and
+        building:faction():is_human() and
+        not building:faction():is_null_interface();
     end,
     function()
       cm:set_saved_value("vco_skv_tre_warpstone_meteor_already_happened", true);
@@ -118,6 +122,8 @@ local function add_listeners()
     function(context)
  local character = context:character()
         return not cm:get_saved_value("vco_skv_throt_quest_battle_already_happened") and
+        not character:faction():is_null_interface() and
+        character:faction():is_human() and
          character:faction():name() == FACTION_MDR_KEY and character:rank() >= 20
     end,
     function()
@@ -133,6 +139,7 @@ local function add_listeners()
 		function(context)
 			return not cm:get_saved_value("vco_def_snikch_final_battle_already_happened")
 			and context:performing_faction():name() == FACTION_ESH_KEY 
+			and context:performing_faction():is_human()
 			and context:ritual():ritual_key():starts_with("wh2_dlc14_eshin_actions_mortal_empires_mission_4");
 		end,
     function()

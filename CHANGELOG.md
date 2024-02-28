@@ -5,10 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [5.13.1] - 02.12.2023
+
+- Added Vortex quest battle for Taurox the Brass Bull: Slaughterhorn Tribe
+- Disabled logging which generates text files on your data folder
+- Fixed intermittent crashes caused by AI being able to acquire quest battles when they shouldn't be allowed to
+- Fixed Sisters of Twilight final quest battle causing a crash/game freeze
+
 ## [5.13.0] - 22.11.2023
 
 - Added new routes for Alarielle the Radiant: Avelorn
-- Added new custom battle objective Alarielle the Radiant: Avelorn themed around her rivalry with Hellebron from the Queen & the Crone DLC
+- Added new custom battle objective Alarielle the Radiant: Avelorn themed around her rivalry with Hellebron from the
+  Queen & the Crone DLC
 - Added Vortex quest battle objective for Arkhan the Black: Followers of Nagash
 - Added Vortex quest battle objective for Sisters of Twilight: Heralds of Ariel
 - Added Vortex quest battle objective for Throt the Unclean: Clan Moulder

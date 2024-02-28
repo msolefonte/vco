@@ -41,8 +41,12 @@ local function add_listeners()
     "vco_hef_alarielle_battle_crones_folly",
     "BuildingCompleted",
     function(context)
+        local building = context:building();
         return not cm:get_saved_value("vco_hef_alarielle_battle_crones_folly_already_happened") and
-        context:building():name() == "wh2_main_special_everqueen_court_hef";
+        building:name() == "wh2_main_special_everqueen_court_hef" and
+        building:faction():name() == FACTION_ALARIELLE_KEY and
+        building:faction():is_human() and
+        not building:faction():is_null_interface();
     end,
     function()
       cm:set_saved_value("vco_hef_alarielle_battle_crones_folly_already_happened", true);
