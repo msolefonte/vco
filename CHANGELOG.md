@@ -7,11 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [5.13.0] - 22.11.2023
 
-- Fixed crash caused by the 4.1 update
 - Added new routes for Alarielle the Radiant: Avelorn
-- Vortex quest battles restored as objectives for Arkhan the Black, Sisters of Twilight, Throt the Unclean
-- New custom quest battle objective for Alarielle themed around her rivalry with Hellebron from the Queen & the Crone
-  DLC (triggers by building the Court of the Everqueen landmark in her starting settlement)
+- Added new custom battle objective Alarielle the Radiant: Avelorn themed around her rivalry with Hellebron from the Queen & the Crone DLC
+- Added Vortex quest battle objective for Arkhan the Black: Followers of Nagash
+- Added Vortex quest battle objective for Sisters of Twilight: Heralds of Ariel
+- Added Vortex quest battle objective for Throt the Unclean: Clan Moulder
+- Fixed crash caused by the 4.1 update
 
 ## [5.12.0] - 07.11.2023
 
