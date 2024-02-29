@@ -2,7 +2,7 @@ local vco = core:get_static_object("vco");
 
 -- UI --
 
-local function fix_objectives_panel_bug()
+local function fix_objectives_panel_displaying_vanilla_victory_conditions_bug()
 	local objectives_vc_uic = find_uicomponent(core:get_ui_root(), "objectives_screen", "subpanel_victory_conditions");
 	local victory_tree_uic = find_uicomponent(objectives_vc_uic, "tree_holder", "victory_type_tree", "slot_parent");
 	if victory_tree_uic ~= false then
@@ -16,14 +16,14 @@ local function fix_objectives_panel_bug()
 	end
 end
 
-local function add_fix_objectives_panel_bug_listener()
+local function add_fix_objectives_panel_displaying_vanilla_victory_conditions_bug_listener()
 	core:add_listener(
 		"vco_objectives_panel_victory_conditions_clicked",
 		"ComponentLClickUp",
 		function(context)
 			return context.string == "tab_victory_conditions";
 		end,
-		fix_objectives_panel_bug,
+		fix_objectives_panel_displaying_vanilla_victory_conditions_bug,
 		true
 	);
 end
@@ -118,7 +118,7 @@ end
 
 local function main()
 	cm:add_first_tick_callback(load_campaigns);
-	add_fix_objectives_panel_bug_listener();
+	add_fix_objectives_panel_displaying_vanilla_victory_conditions_bug_listener();
 	recolor_and_resize_dummy_missions_listeners();
 end
 

@@ -97,8 +97,11 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			vco_wh_main_grn_mon_trolls	wh2_dlc17_throgg_focus_units	false
 			vco_wh_main_grn_mon_trolls	wh2_dlc17_throgg_focus_units_excluding_fimir	false
 			wh2_dlc10_hef_cha_shadow_walker	vco_hef_shadows	false
+			wh2_dlc10_hef_inf_dryads_0	vco_alarielle_forest_spirits	false
 			wh2_dlc10_hef_inf_shadow_walkers_0	vco_hef_shadows	false
 			wh2_dlc10_hef_inf_shadow_warriors_0	vco_hef_shadows	false
+			wh2_dlc10_hef_mon_treekin_0	vco_alarielle_forest_spirits	false
+			wh2_dlc10_hef_mon_treeman_0	vco_alarielle_forest_spirits	false
 			wh2_dlc11_cst_cha_aranessa_0	vco_cst_ara	false
 			wh2_dlc11_cst_cha_aranessa_1	vco_cst_ara	false
 			wh2_dlc11_cst_inf_deck_gunners_0	vco_cst_deck_gunners	false

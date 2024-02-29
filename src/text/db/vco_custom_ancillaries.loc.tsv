@@ -191,7 +191,7 @@ ancillaries_colour_text_vco_anc_follower_crowfathers_wings	Though they were seve
 ancillaries_onscreen_name_vco_anc_follower_jade_griffon	Jade Griffon	false
 ancillaries_colour_text_vco_anc_follower_jade_griffon	Queek's excitement quickly turned to rage when he discovered the man-thing's glowing green trinket was not, in fact, warpstone.	false
 ancillaries_onscreen_name_vco_anc_follower_damsels_ashes	The Damsel’s Ashes	false
-ancillaries_colour_text_vco_anc_follower_damsels_ashes	In hindsight, a valiant cavalry charge directly towards a rank of Warpfire Throwers was not the best idea. These ashes were all that remained for Queek to harvest as a trophy.	false
+ancillaries_colour_text_vco_anc_follower_damsels_ashes	In hindsight, a valiant cavalry charge directly towards a rank of Warpfire Throwers was not the best idea. These irradiated ashes were all that remained for Queek to harvest as a trophy.	false
 ancillaries_onscreen_name_vco_anc_follower_belegars_head	Belegar’s Head	false
 ancillaries_colour_text_vco_anc_follower_belegars_head	The Exile King takes pride of place upon Queek's trophy rack, though his monotonous grumbling is a source of constant irritation for the Skaven Warlord.	false
 ancillaries_onscreen_name_vco_anc_follower_skarsniks_head	Skarsnik’s Head	false
@@ -201,4 +201,14 @@ ancillaries_colour_text_vco_anc_enchanted_item_withering_orb	With the proper app
 ancillaries_onscreen_name_vco_anc_follower_ska_bloodtail	Ska Bloodtail	false
 ancillaries_colour_text_vco_anc_follower_ska_bloodtail	Right paw to Queek Headtaker and Fangleader of the Red Guard, what Ska Bloodtail lacks in intelligence he makes up for in unwavering loyalty and a near-suicidal fearlessness.\\n	false
 ancillaries_onscreen_name_vco_anc_weapon_carmine_axe_eight_peaks	The Carmine Axe of Vala-Azril-Ungol	false
-ancillaries_colour_text_vco_anc_weapon_carmine_axe_eight_peaks	This axe was forged in Karak Eight Peaks by the mad Runesmith Orrey Singebeard. Struck with unique runes of vengeance and cooled in the cleansed wells of the Cavern of Stars, the axe shines with a crimson sheen. Skaven recognise the fabled axe blade - calling it the Red Death and squealing in their scurrying panic to flee. The Night Goblins also loathe the axe, typically losing control of their bowels in their haste to run away from its bearer.	false
+ancillaries_colour_text_vco_anc_weapon_carmine_axe_eight_peaks	This axe was forged in Karak Eight Peaks by the mad Runesmith Orrey Singebeard. The Skaven know it as the Red Death, and Night Goblins typically lose control of their bowels at the mere sight of it.	false
+ancillaries_onscreen_name_vco_anc_follower_graven_idol	Graven Idol	false
+ancillaries_colour_text_vco_anc_follower_graven_idol	Astragoth’s petrified remains still glow like the dying embers of a forge. The aged priest's waning magics were no match for Tz'arkan's might.	false
+ancillaries_onscreen_name_vco_anc_follower_ruby_lahmia	Ruby of Lahmia	false
+ancillaries_colour_text_vco_anc_follower_ruby_lahmia	Neferata’s golden diadem is all that remains of the Queen of the Silver Pinnacle. It is inset with a blood-red ruby that pulses with the power of eternal life.	false
+ancillaries_onscreen_name_vco_anc_follower_dammaz_kron	The Dammaz Kron	false
+ancillaries_colour_text_vco_anc_follower_dammaz_kron	This tedious tome was prised from the High King's cold, dead hands. It lists every grievance ever inflicted on their stunted kind. The last page is incomplete and spattered with blood.	false
+ancillaries_onscreen_name_vco_anc_follower_minaithnirs_skull	Minaithnir's Skull	false
+ancillaries_colour_text_vco_anc_follower_minaithnirs_skull	The great dragon’s skull is an impressive sight, effortlessly dominating any chamber where it is displayed. The ancient beast was brought low by a battery of Reaper Bolt Throwers.	false
+ancillaries_onscreen_name_vco_anc_follower_golden_mawtooth	Golden Mawtooth	false
+ancillaries_colour_text_vco_anc_follower_golden_mawtooth	One of an Ogre tribe’s most valued items is its Mawtooth, typically a stone that bears the tribe’s scrawled marks and sigils. Ever given to ostentatious displays, the Goldtooth tribe’s Mawtooth was made of solid gold. It is a gleaming symbol of Malus’ conquests in the Ogre Kingdoms.	false

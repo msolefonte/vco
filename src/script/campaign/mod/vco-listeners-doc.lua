@@ -50,6 +50,7 @@ local function add_listeners()
 		true
 	);
 
+
 	core:add_listener(
 		"vco_dae_daemon_prince_ascend_ritual_completed",
 		"RitualCompletedEvent",

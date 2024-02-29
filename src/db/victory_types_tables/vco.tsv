@@ -138,6 +138,9 @@ vco_victory_type_def_cop_3_return_of_the_queen	2	0	long	long	true
 vco_victory_type_def_gan_1_sacrifice_slaughter	0	0	long	long	true
 vco_victory_type_def_gan_2_suffer_not_another_queen	1	0	long	long	true
 vco_victory_type_def_gan_3_eternity_awaits	2	0	long	long	true
+vco_victory_type_def_hag_1_shadow_blade	0	0	long	long	true
+vco_victory_type_def_hag_2_norscan_nightmare	1	0	long	long	true
+vco_victory_type_def_hag_3_tyrant_hag_graef	2	0	long	long	true
 vco_victory_type_dwf_bel_1_the_reckoning	0	0	long	long	true
 vco_victory_type_dwf_bel_2_friend_or_foe	1	0	long	long	true
 vco_victory_type_dwf_bel_3_karak_eight_peaks	2	0	long	long	true

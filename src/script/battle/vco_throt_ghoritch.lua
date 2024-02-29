@@ -24,20 +24,21 @@ gb:set_cutscene_during_deployment(true);
 ----HARD SCRIPT VERSION----
 ---------------------------
 gb:set_objective_on_message("battle_started", "wh_main_qb_objective_attack_defeat_army");
---gb:queue_help_on_message("spawn_reinforcements", "vco_throt_custom_quest_archaon_message_champions_come");
+gb:queue_help_on_message("spawn_reinforcements", "vco_throt_custom_quest_archaon_message_champions_come");
 
 
 -------ARMY SETUP-------
 ga_ai_archaons_warhost = gb:get_army(gb:get_non_player_alliance_num(), "lzd_maz");
 ga_ai_godslayers_legions = gb:get_army(gb:get_non_player_alliance_num(), "lzd_teh");
---ga_ai_champions_of_chaos_1 = gb:get_army(gb:get_non_player_alliance_num(), "enemy_reinforcements");
---ga_ai_champions_of_chaos_2 = gb:get_army(gb:get_non_player_alliance_num(), "enemy_reinforcements_2");
+
+ga_ai_friendly_skaven = gb:get_army(gb:get_player_alliance_num(), "cth_start");
+
+ga_ai_champions_of_chaos_1 = gb:get_army(gb:get_non_player_alliance_num(), "enemy_reinforcements");
+
 
 
 
 -------REINFORCEMENTS-------
---ga_ai_archaons_warhost:message_on_casualties("spawn_reinforcements", 0.2);
---ga_ai_champions_of_chaos_1:reinforce_on_message("spawn_reinforcements");
---ga_ai_champions_of_chaos_1:rush_on_message("spawn_reinforcements",5000);
---ga_ai_champions_of_chaos_2:reinforce_on_message("spawn_reinforcements");
---ga_ai_champions_of_chaos_2:rush_on_message("spawn_reinforcements",5000);
+ga_ai_archaons_warhost:message_on_casualties("spawn_reinforcements", 0.2);
+ga_ai_champions_of_chaos_1:reinforce_on_message("spawn_reinforcements");
+ga_ai_champions_of_chaos_1:rush_on_message("spawn_reinforcements",5000);

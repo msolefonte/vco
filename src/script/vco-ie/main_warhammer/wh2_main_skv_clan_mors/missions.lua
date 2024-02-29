@@ -138,7 +138,7 @@ local missions = {
 					faction wh2_main_skv_clan_mors;
 
                     province wh3_main_combi_province_eight_peaks;
-					building_level wh2_main_special_eight_peaks_skv_3;
+					building_level wh2_main_special_eight_peaks_skv_1;
 				}
 
 				objective

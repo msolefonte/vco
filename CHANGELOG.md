@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [5.16.0] - 22.02.2024
+
+- Added new routes for Malus Darkblade: Hag Graef
+- Updated Karl Franz: Reikland Storm of Chaos quest battle rebalancing
+- Updates Karak Eight Peak quest battles for Belegar, Skarsnik and Queek, they are activate upon completion of the tier
+  1 landmark at Karak Eight Peaks, instead of tier 3
+- Updates Heinrich Kemmler: The Barrow Legion routes 2 reward now gives a reduction and cooldown to the Lore of
+  Vampires, instead of the Lore of Death
+- Fixed the Great Game bug
+
 ## [5.15.0] - 17.01.2024
 
 - Added new routes for Belegar Ironhammer: Clan Angrund

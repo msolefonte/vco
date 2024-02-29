@@ -1,6 +1,7 @@
 key	tech_category_tab	tech_category_position	chain_category	in_encyclopedia	building_superchain	optional_tier_icon	optional_sort_order	optional_required_horde_commander	can_be_dismantled
 #building_chains_tables;9;db/building_chains_tables/vco									
 vco_landmark_changeling_tricksters_throne			money	false	vco_landmark_changeling_tricksters_throne		0		true
+vco_landmark_darkblade_soul_engine			happiness	false	vco_landmark_darkblade_soul_engine		0		true
 vco_landmark_fozzriks_flying_fastness			money	false	vco_landmark_fozzriks_flying_fastness		0		true
 vco_landmark_grombrindal_repurposed_docks			money	false	vco_landmark_grombrindal_repurposed_docks		0		true
 vco_landmark_grombrindal_shattered_malekith_tower			military	false	vco_landmark_grombrindal_shattered_malekith_tower		0		true

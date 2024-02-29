@@ -142,7 +142,7 @@ effects_description_vco_nor_thr_troll_recruitment_cost	Recruitment cost: %+n% fo
 effects_description_vco_nor_thr_troll_charge_bonus	Charge bonus: %+n% for Troll units	true
 effects_description_vco_nor_thr_troll_vigour_loss_reduction	Vigour loss reduction: %+n% for Troll units	true
 effects_description_vco_throgg_thorns_aura	Ability: "Thorn's Aura"	true
-effects_description_vco_dwf_bel_siege_skavenblight_dummy	The The Day of Reckoning quest battle will begin!	true
+effects_description_vco_dwf_bel_siege_skavenblight_dummy	The Day of Reckoning quest battle will begin!	true
 effects_description_vco_grn_ska_dilemma	A dilemma will offer a choice between powerful rewards!	true
 effects_description_vco_grn_ska_squig_weapon_strength	Weapon strength: %+n% for Squig units	true
 effects_description_vco_grn_ska_squig_recruit_rank	Recruit rank: %+n for Squig units	true
@@ -152,3 +152,9 @@ effects_description_vco_lord_passive_withering_idol	Passive ability: "Withering 
 effects_description_vco_skv_mor_dilemma	A dilemma will offer a choice between powerful rewards!	true
 effects_description_vco_emp_karl_storm_chaos_dummy	The Storm of Chaos quest battle will begin!	true
 effects_description_vco_belegar_corruption_skaven_events	Skaven corruption: %+n	true
+effects_description_vco_hef_ala_forest_spirits_replenishment	Casualty replenishment rate: %+n% for Forest Spirit units	true
+effects_description_vco_hef_ala_forest_spirits_recruit_rank	Recruit rank: %+n for Forest Spirit units	true
+effects_description_vco_hef_ala_forest_spirits_weapon_strength	Weapon strength: %+n% for Forest Spirit units	true
+effects_description_vco_throt_against_wood_elves_weapon_strength	Weapon strength: %+n% when fighting against Wood Elves	true
+effects_description_vco_effect_force_stat_ward_save_vs_daemons	Ward save: %n% when fighting against Daemons of Chaos	true
+effects_description_vco_def_malus_dilemma	A dilemma will offer a choice between powerful rewards!	true

@@ -102,6 +102,7 @@ local missions = {
 
 					faction wh_main_vmp_schwartzhafen;
 					faction wh2_dlc16_wef_drycha;
+					faction wh3_dlc24_tze_the_deceivers;
 
 					confederation_valid;
 					vassalization_valid;
