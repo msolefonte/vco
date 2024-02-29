@@ -28,7 +28,7 @@ effects_description_vco_ksl_kat_dilemma_call_for_aid_unlock_artillery	Unlocks ne
 effects_description_vco_ksl_kat_dilemma_call_for_aid_unlock_slayers	Unlocks new Dwarf units: Slayers and Giant Slayers	true
 effects_description_vco_ksl_tgo_luminark_unlock_dummy	Unlocks new unit: Orthodoxy Flagellants	true
 effects_description_vco_nor_wul_enable_rampage_ability	Ability: "Hunter of Champions" for Wulfrik the Wanderer	true
-effects_description_vco_nor_wul_marauder_melee_poison	Enables poison attacks for all Marauders, Marauder Berserkers, and Marauder Champions	true
+effects_description_vco_nor_wul_marauder_melee_poison	Enables poison attacks for all Marauder infantry units	true
 effects_description_vco_nor_wul_marauder_spear_hunter_bonus_large	Bonus vs Large: %+n for Marauder Spearmen and Hunters	true
 effects_description_vco_nor_wul_marauder_spear_hunter_primal_instincts	Passive ability: "Primal Instincts" for Marauder Spearmen and Hunters	true
 effects_description_vco_nor_wul_movement_range_post_raze_port	Campaign movement range: %+n% after razing a port settlement	true
@@ -59,7 +59,7 @@ effects_description_vco_chs_fes_dilemma	A dilemma will offer a choice between po
 effects_description_vco_chs_vil_dilemma	A dilemma will offer a choice between powerful rewards!	true
 effects_description_vco_chs_val_dilemma	A dilemma will offer a choice between powerful rewards!	true
 effects_description_vco_vmp_hel_dilemma	A dilemma will offer a choice between powerful rewards!	true
-effects_description_vco_lzd_nak_dilemma	A dilemma will offer a choice between powerful rewards!	false
+effects_description_vco_lzd_nak_dilemma	A dilemma will offer a choice between powerful rewards!	true
 effects_description_vco_archaon_vilitch_dummy_mind	Archaon the Everslave will become available for recruitment.	true
 effects_description_vco_archaon_vilitch_dummy_body	Archaon the Everslave will become available for recruitment.	true
 effects_description_vco_vil_arch_rampage	Passive ability: "Berserker" for Archaon the Everslave	true
@@ -124,4 +124,21 @@ effects_description_vco_lord_abilities_cathayan_concoction	Ability: "Cathayan Co
 effects_description_vco_skv_sni_dilemma	A dilemma will offer a choice between powerful rewards!	true
 effects_description_vco_dwf_ung_dilemma	A dilemma will offer a choice between powerful rewards!	true
 effects_description_vco_vmp_vla_dilemma	A dilemma will offer a choice between powerful rewards!	true
-effects_description_vco_unit_passive_everqueens_touch	Passive ability: "Touch of the Everqueen"	true
+effects_description_vco_unit_passive_everqueens_touch	Passive ability: "Touch of the Everqueen" for Alarielle	true
+effects_description_vco_hef_alarialle_ariel_dummy	The Tears of Isha quest battle will begin!	true
+effects_description_vco_mdr_throt_ghoritch_dummy	The Siege of Hell Pit quest battle will begin!	true
+effects_description_vco_skv_mdr_ghoritch_weapon_strength	Weapon strength: %+n% for Ghoritch	true
+effects_description_vco_skv_mdr_ghoritch_missile_resistance	Missile resistance: %n% for Ghoritch	true
+effects_description_vco_skv_ghoritch_paragon_carnage	Passive ability: "Paragon of Carnage" for Ghoritch	true
+effects_description_vco_hef_nag_shadows_missile_strength	Missile strength: %+n% for Shadow Warriors and Shadow-walkers units	true
+effects_description_vco_nor_thr_marauder_melee_frostbite	Enables frostbite attacks for all Marauder infantry units	true
+effects_description_vco_nor_thr_dilemma	A dilemma will offer a choice between powerful rewards!	true
+effects_description_vco_nor_thr_troll_weapon_strength	Weapon strength: %+n% for Troll units	true
+effects_description_vco_nor_thr_troll_recruit_rank	Recruit rank: %+n for Troll units	true
+effects_description_vco_nor_thr_troll_speed	Speed: %+n% for Troll units	true
+effects_description_vco_nor_thr_troll_leadership	Leadership: %+n for Troll units	true
+effects_description_vco_nor_thr_troll_physical_resistance	Physical resistance: %+n% for Troll units	true
+effects_description_vco_nor_thr_troll_recruitment_cost	Recruitment cost: %+n% for Troll units	true
+effects_description_vco_nor_thr_troll_charge_bonus	Charge bonus: %+n% for Troll units	true
+effects_description_vco_nor_thr_troll_vigour_loss_reduction	Vigour loss reduction: %+n% for Troll units	true
+effects_description_vco_throgg_thorns_aura	Ability: "Thorn's Aura"	true

@@ -156,12 +156,7 @@ local missions = {
 					effect_bundle
 					{
 						bundle_key vco_victory_payload_hef_ala_3_oakhearts_plea;
-						turns 0;
-					}
-
-					add_ancillary_to_faction_pool
-					{
-						ancillary_key vco_anc_weapon_wand_of_wych_elm;
+						turns 1;
 					}
 
 					effect_bundle

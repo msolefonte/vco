@@ -2,6 +2,8 @@ local vco = core:get_static_object("vco");
 local vlc = core:get_static_object("vco-lib-commons");
 
 local FACTION_WUL_KEY = "wh_dlc08_nor_norsca";
+local FACTION_THROGG_KEY = "wh_dlc08_nor_wintertooth";
+local KEY_D_FINAL_BREATH = "vco_nor_thr_dilemma_final_breath";
 local MONSTER_HUNT_MISSION_KEYS = {
 	"wh_dlc08_qb_nor_monster_hunt_0",
 	"wh_dlc08_qb_nor_monster_hunt_1",
@@ -22,6 +24,10 @@ local UNLOCKABLE_KHORNE_UNITS = { "wh3_main_kho_inf_bloodletters_0", "wh3_main_k
 local UNLOCKABLE_NURGLE_UNITS = {	"wh3_main_nur_inf_plaguebearers_0", "wh3_main_nur_inf_plaguebearers_1" };
 local UNLOCKABLE_TZEENTCH_UNITS = {	"wh3_main_tze_inf_pink_horrors_0", "wh3_main_tze_inf_pink_horrors_1" };
 local UNLOCKABLE_SLAANESH_UNITS = { "wh3_main_sla_inf_daemonette_0", "wh3_main_sla_inf_daemonette_1" };
+
+local function trigger_throgg_dilemma()
+	cm:trigger_dilemma(FACTION_THROGG_KEY, KEY_D_FINAL_BREATH);
+end
 
 local function nor_lock_units()
 	vlc.unit_locks:lock_units_by_subculture(UNLOCKABLE_KHORNE_UNITS, SUBCULTURE_KEY);
@@ -115,6 +121,17 @@ local function add_listeners()
 			wul_replenish_movement(context:character());
 		end,
 		true
+	);
+
+	core:add_listener(
+		"vco_nor_thr_2_completed",
+		"MissionSucceeded",
+		function(context)
+			return context:faction():name() == FACTION_THROGG_KEY and
+				context:mission():mission_issuer_record_key() == "MUFFIN_MAN";
+		end,
+		trigger_throgg_dilemma,
+		false
 	);
 
 	core:add_listener(

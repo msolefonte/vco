@@ -27,6 +27,11 @@ vco_landmark_skeggi_asur_embassy			happiness	false	vco_landmark_skeggi_asur_emba
 vco_landmark_skrag_couronne_cook_pot			happiness	false	vco_landmark_skrag_couronne_cook_pot		0		true
 vco_landmark_snikch_repurposed_forges			military	false	vco_landmark_snikch_repurposed_forges		0		true
 vco_landmark_snikch_warpstone_hoard			money	false	vco_landmark_snikch_warpstone_hoard		0		true
+vco_landmark_throgg_caves_of_couronne			military	false	vco_landmark_throgg_caves_of_couronne		0		true
+vco_landmark_throgg_chaos_troll_colony			military	false	vco_landmark_throgg_chaos_troll_colony		0		true
+vco_landmark_throgg_ducal_throne			happiness	false	vco_landmark_throgg_ducal_throne		0		true
+vco_landmark_throgg_halls_winter_king			military	false	vco_landmark_throgg_halls_winter_king		0		true
+vco_landmark_throgg_river_reik_trolls			military	false	vco_landmark_throgg_river_reik_trolls		0		true
 vco_landmark_tower_of_llenog			happiness	false	vco_landmark_tower_of_llenog		0		true
 vco_landmark_tretch_tower_gorgoth			money	false	vco_landmark_tretch_tower_gorgoth		0		true
 vco_landmark_vlad_balefire_beacon			happiness	false	vco_landmark_vlad_balefire_beacon		0		true
@@ -37,3 +42,7 @@ vco_landmark_wulfhart_imperial_dockyard			money	false	vco_landmark_wulfhart_impe
 vco_landmark_wulfhart_lumber_yard			money	false	vco_landmark_wulfhart_lumber_yard		0		true
 vco_landmark_zhao_sigmars_rock			money	false	vco_landmark_zhao_sigmars_rock		0		true
 vco_landmark_zhao_warpforges			military	false	vco_landmark_zhao_warpforges		0		true
+vco_moulder_dukhyls_forest_brood_warren			military	false	vco_moulder_dukhyls_forest_brood_warren		0		true
+vco_moulder_forest_flesh_pits			military	false	vco_moulder_forest_flesh_pits		0		true
+vco_moulder_laurelorn_broken_heart			money	false	vco_moulder_laurelorn_broken_heart		0		true
+vco_moulder_warpstone_pillar			happiness	false	vco_moulder_warpstone_pillar		0		true

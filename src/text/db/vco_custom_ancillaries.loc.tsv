@@ -39,7 +39,7 @@ ancillaries_colour_text_vco_anc_weapon_warpsword_of_khaine	"The Time of Blood is
 ancillaries_onscreen_name_vco_anc_talisman_superior_collar_of_khorne	Superior Collar of Khorne	true
 ancillaries_colour_text_vco_anc_talisman_superior_collar_of_khorne	Valkia's hellsmiths have used the blood of the slain Ice Witches to create a uniquely superior Collar of Khorne. This rune-etched brass collar will protect the wearer from all but the most grevious of magical attacks.	true
 ancillaries_onscreen_name_vco_anc_weapon_the_slayer_of_kings	The Slayer of Kings	true
-ancillaries_colour_text_vco_anc_weapon_the_slayer_of_kings	The Second Everchosen, Vangel, trapped the Greater Daemon U'zuhl inside this regicidal blade. Aeons of imprisonment inside the blade have driven the Daemon insane with rage. In battle, the blade moans with barely contained fury.	true
+ancillaries_colour_text_vco_anc_weapon_the_slayer_of_kings	The Second Everchosen, Vangel, trapped the Greater Daemon U'zuhl inside this regicidal blade. Aeons of imprisonment inside the blade has driven the Daemon insane with rage. In battle, the blade moans with barely contained fury.	true
 ancillaries_onscreen_name_vco_anc_armour_the_armour_of_morkar	The Armour of Morkar	true
 ancillaries_colour_text_vco_anc_armour_the_armour_of_morkar	Once belonging to the First Everchosen of Chaos, this ancient suit of Chaos Armour is as powerful as those who have dared to wear it.	true
 ancillaries_onscreen_name_vco_anc_talisman_the_eye_of_sheerian	The Eye of Sheerian	true
@@ -150,3 +150,25 @@ ancillaries_onscreen_name_vco_anc_follower_ice_vampire	Kattarin the Bloody	false
 ancillaries_colour_text_vco_anc_follower_ice_vampire	Freed from her frozen prison and returned to unlife by the von Carsteins, Kattarin the Bloody now serves her dearest Isabella with undying loyalty, brutally massacring those Kislevites who still resist the new regime.	false
 ancillaries_onscreen_name_vco_anc_weapon_wand_of_wych_elm	Wand of Wych Elm	false
 ancillaries_colour_text_vco_anc_weapon_wand_of_wych_elm	This twisted and gnarled staff is cut from the rare and magical Wych Elm tree that draws magic from the ground beneath.	false
+ancillaries_onscreen_name_vco_anc_weapon_warpsword_of_khaine_snikch	Warpsword of Khaine	false
+ancillaries_colour_text_vco_anc_weapon_warpsword_of_khaine_snikch	This ancient blade glows with a heat hotter than any Dwarf furnace. It was looted from the ruined corpse of Malus Darkblade after his assassination.	false
+ancillaries_onscreen_name_vco_anc_talisman_chameleon_cloak	Chameleon Cloak	false
+ancillaries_colour_text_vco_anc_talisman_chameleon_cloak	The flayed hide of the Chameleon Skink Oxyotl constantly changes colour to match its surroundings.	false
+ancillaries_onscreen_name_vco_anc_talisman_twilight_mask	Twilight Mask	false
+ancillaries_colour_text_vco_anc_talisman_twilight_mask	Taken from the bodies of the Sisters of Twilight and fused together, the Mask of Twilight grants the wearer the ability to cheat death.	false
+ancillaries_onscreen_name_vco_anc_follower_naieth_the_prophetess	Naieth the Prophetess	false
+ancillaries_colour_text_vco_anc_follower_naieth_the_prophetess	Since the Heralds' victory over the vermin threat, Naieth the Prophetess has pledged herself to their cause. As a Spellweaver skilled in the art of divination, she is a valuable asset to any Asrai host.	false
+ancillaries_onscreen_name_vco_anc_follower_lobotomised_warmbloods	Lobotomised Warmbloods	false
+ancillaries_colour_text_vco_anc_follower_lobotomised_warmbloods	Under the guidance of Lord Chuqa-xi, the interlopers were lobotomised in an esoteric ritual at the City of the Moon, turning them into mindless, yet unflinchingly obedient, slave labourers.	false
+ancillaries_onscreen_name_vco_anc_follower_priestess_of_isha	Priestess of Isha	false
+ancillaries_colour_text_vco_anc_follower_priestess_of_isha	This representative of the Everqueen has committed herself to the daunting task of reintegrating Dark Elf defectors back into Ulthuani society.	false
+ancillaries_onscreen_name_vco_anc_follower_shadowblade	Shadowblade	false
+ancillaries_colour_text_vco_anc_follower_shadowblade	Only after Hellebron had claimed victory at Avelorn did Shadowblade emerge from the forests, his blades dripping with Asur blood. He stands ready to serve the Blood Queen once more.	false
+ancillaries_onscreen_name_vco_anc_weapon_sacred_mace_of_quetzl	Sacred Mace of Quetzl	false
+ancillaries_colour_text_vco_anc_weapon_sacred_mace_of_quetzl	After Nakai's victory over the interlopers at Itza, Lord Mazdamundi imbued Nakai's weapon with mystic power. It has attained an almost sentient awareness, often drawing Nakai's hands to his targets or blocking blows the ancient beast was unaware of.	false
+ancillaries_onscreen_name_vco_anc_talisman_amulet_of_sunfire	Amulet of Sunfire	false
+ancillaries_colour_text_vco_anc_talisman_amulet_of_sunfire	The radiant aura of this amulet provides hope to those in despair and wards against evil creatures.	false
+ancillaries_onscreen_name_vco_anc_weapon_alith_destroyer	Destroyer	false
+ancillaries_colour_text_vco_anc_weapon_alith_destroyer	This dread blade once belonged to the Witch King before his assassination. Its merest touch can unmake enchantments and wither minds.	false
+ancillaries_onscreen_name_vco_anc_follower_haurg_frostmaw	Haurg Frostmaw	false
+ancillaries_colour_text_vco_anc_follower_haurg_frostmaw	This Yhette has wandered down from the highest slopes of the Mountains of Mourn to join Throgg's Monstrous Horde.	false

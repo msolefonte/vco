@@ -30,13 +30,20 @@ vco_anc_enchanted_item_warpstone_stars	wh_main_anc_enchanted_item	.	true	false	f
 vco_anc_enchanted_item_writ_of_iron	wh_main_anc_enchanted_item	.	true	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			200	0		false	false	false	all
 vco_anc_follower_dark_convent_defector	vco_anc_follower_dark_convent_defector	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			200	0	follower	false	false	false	all
 vco_anc_follower_fozzrik_summoner	vco_anc_follower_fozzrik_summoner	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			200	0	follower	false	false	false	all
+vco_anc_follower_haurg_frostmaw	vco_anc_follower_haurg_frostmaw	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			200	0	follower	false	false	false	all
 vco_anc_follower_ice_vampire	vco_anc_follower_ice_vampire	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			200	0	follower	false	false	false	all
 vco_anc_follower_kemmler_black_grail_knight	vco_anc_follower_kemmler_black_grail_knight	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			200	0	follower	false	false	false	all
+vco_anc_follower_lobotomised_warmbloods	vco_anc_follower_lobotomised_warmbloods	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			200	0	follower	false	false	false	all
+vco_anc_follower_naieth_the_prophetess	vco_anc_follower_naieth_the_prophetess	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			200	0	follower	false	false	false	all
+vco_anc_follower_priestess_of_isha	vco_anc_follower_priestess_of_isha	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			200	0	follower	false	false	false	all
+vco_anc_follower_shadowblade	vco_anc_follower_shadowblade	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			200	0	follower	false	false	false	all
 vco_anc_follower_war_mourner	vco_anc_follower_war_mourner	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			200	0	follower	false	false	false	all
 vco_anc_magic_standard_shroud_of_gilles	wh_main_anc_enchanted_item	.	true	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			200	0		false	false	false	all
 vco_anc_magic_standard_volkmar_banner	vco_anc_magic_standard_volkmar_banner	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true		vco_anc_magic_standard_volkmar_banner	200	0	banner	false	false	false	all
+vco_anc_talisman_amulet_of_sunfire	wh_main_anc_talisman	.	true	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false	all
 vco_anc_talisman_bloodstained_pendant	wh_main_anc_talisman	.	true	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false	all
 vco_anc_talisman_cathayan_concoction	wh_main_anc_talisman	.	true	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false	all
+vco_anc_talisman_chameleon_cloak	wh_main_anc_talisman	.	true	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false	all
 vco_anc_talisman_cracked_rune_azamar	wh_main_anc_talisman	.	true	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false	all
 vco_anc_talisman_eight_pointed_star	wh_main_anc_talisman	.	true	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false	all
 vco_anc_talisman_hellshard_amulet_grimgor	wh_main_anc_talisman	.	true	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false	all
@@ -48,7 +55,9 @@ vco_anc_talisman_storm_dragons_heart	wh_main_anc_talisman	.	true	false	false	1	0
 vco_anc_talisman_superior_collar_of_khorne	wh_main_anc_talisman	.	true	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false	all
 vco_anc_talisman_talisman_of_qwarr	wh_main_anc_talisman	.	true	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false	all
 vco_anc_talisman_the_eye_of_sheerian	wh_main_anc_talisman	.	true	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false	all
+vco_anc_talisman_twilight_mask	wh_main_anc_talisman	.	true	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false	all
 vco_anc_weapon_abyssal_whip	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false	all
+vco_anc_weapon_alith_destroyer	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false	all
 vco_anc_weapon_axes_of_kadrin	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false	all
 vco_anc_weapon_blade_of_corruption	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false	all
 vco_anc_weapon_blade_of_shadow	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false	all
@@ -60,6 +69,7 @@ vco_anc_weapon_gitsnik	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	fa
 vco_anc_weapon_kratchs_doomclaw	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false	all
 vco_anc_weapon_profaned_sword_of_lyonesse	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false	all
 vco_anc_weapon_red_fang	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false	all
+vco_anc_weapon_sacred_mace_of_quetzl	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false	all
 vco_anc_weapon_scourge	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false	all
 vco_anc_weapon_shard_blade	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false	all
 vco_anc_weapon_sliverslash	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false	all
@@ -73,5 +83,6 @@ vco_anc_weapon_the_sword_of_couronne	wh_main_anc_weapon	.	true	false	false	1	0	9
 vco_anc_weapon_volcanic_morningstar	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false	all
 vco_anc_weapon_wand_of_wych_elm	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false	all
 vco_anc_weapon_warpsword_of_khaine	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false	all
+vco_anc_weapon_warpsword_of_khaine_snikch	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false	all
 vco_anc_weapon_witstealer_sword	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false	all
 vco_wh_main_anc_weapon_axe_of_dargo	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false	all

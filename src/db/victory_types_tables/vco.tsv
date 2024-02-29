@@ -163,6 +163,9 @@ vco_victory_type_hef_ala_3_oakhearts_plea	2	0	long	long	true
 vco_victory_type_hef_imr_1_eastern_ambitions	0	0	long	long	true
 vco_victory_type_hef_imr_2_vengeance_dark_lands	1	0	long	long	true
 vco_victory_type_hef_imr_3_gold_glory	2	0	long	long	true
+vco_victory_type_hef_nag_1_shadows_over_naggaroth	0	0	long	long	true
+vco_victory_type_hef_nag_2_amulet_of_sunfire	1	0	long	long	true
+vco_victory_type_hef_nag_3_the_eternal_war	2	0	long	long	true
 vco_victory_type_hef_tyr_1_defender_ulthuan	0	0	long	long	true
 vco_victory_type_hef_tyr_2_love_and_war	1	0	long	long	true
 vco_victory_type_hef_tyr_3_fate_of_the_soul	2	0	long	long	true
@@ -202,6 +205,9 @@ vco_victory_type_lzd_nak_1_the_reawakening	0	0	long	long	true
 vco_victory_type_lzd_nak_2_homecoming	1	0	long	long	true
 vco_victory_type_lzd_nak_3_the_wanderer	2	0	long	long	true
 vco_victory_type_military	3	0	long	long	true
+vco_victory_type_nor_thr_1_ice_age_cometh	0	0	long	long	true
+vco_victory_type_nor_thr_2_age_of_the_beast	1	0	long	long	true
+vco_victory_type_nor_thr_3_troll_king	2	0	long	long	true
 vco_victory_type_nor_wul_1_ragnarok	0	0	long	long	true
 vco_victory_type_nor_wul_2_the_world_walker	1	0	long	long	true
 vco_victory_type_nor_wul_3_wheres_my_palico	2	0	long	long	true

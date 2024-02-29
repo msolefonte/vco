@@ -54,6 +54,25 @@ local function add_listeners()
 		trigger_hellebron_dilemma,
 		false
 	);
+
+    core:add_listener(
+    "vco_def_hellebron_battle_desecration_isha",
+    "BuildingCompleted",
+    function(context)
+        local building = context:building();
+        return not cm:get_saved_value("vco_def_hellebron_battle_desecration_isha_already_happened") and
+        building:name() == "wh2_main_special_shrine_of_khaine_def_1" and
+        building:faction():name() == FACTION_HELLEBRON_KEY and
+        building:faction():is_human() and
+        not building:faction():is_null_interface();
+    end,
+    function()
+      cm:set_saved_value("vco_def_hellebron_battle_desecration_isha_already_happened", true);
+      cm:trigger_mission(FACTION_HELLEBRON_KEY, "vco_custom_quest_hellebron_alarielle", true);
+    end,
+    true
+    );
+
 end
 
 -- MAIN --

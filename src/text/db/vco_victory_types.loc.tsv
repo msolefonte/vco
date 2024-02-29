@@ -148,8 +148,8 @@ victory_types_display_name_vco_victory_type_ogr_skr_2_age_of_ogres_roc	Route II 
 victory_types_display_name_vco_victory_type_ogr_skr_3_hunger_power	Route III - Hunger for Power	true
 victory_types_display_name_vco_victory_type_ogr_skr_3_hunger_power_roc	Route III - Hunger for Power	true
 victory_types_display_name_vco_victory_type_short	Short Campaign Victory	true
-victory_types_display_name_vco_victory_type_skv_mdr_1_yes_yes_prepare_the_lab	Route I - The Nine Circles of Hell	true
-victory_types_display_name_vco_victory_type_skv_mdr_2_the_vermintide_comes	Route II - The Vermintide Comes	true
+victory_types_display_name_vco_victory_type_skv_mdr_1_yes_yes_prepare_the_lab	Route I - The Conquest of Norsca	true
+victory_types_display_name_vco_victory_type_skv_mdr_2_the_vermintide_comes	Route II - For Whom The Bell Tolls	true
 victory_types_display_name_vco_victory_type_skv_mdr_3_the_frozen_dead	Route III - The Ultimate Harvest	true
 victory_types_display_name_vco_victory_type_sla_nka_1_the_great_game	Route I - The Great Game	true
 victory_types_display_name_vco_victory_type_sla_nka_1_the_great_game_roc	Route I - The Great Game	true
@@ -267,3 +267,9 @@ victory_types_display_name_vco_victory_type_vmp_vla_3_hearts_of_ice	Route III - 
 victory_types_display_name_vco_victory_type_hef_ala_1_hope_springs_eternal	Route I - Hope Springs Eternal	true
 victory_types_display_name_vco_victory_type_hef_ala_2_mortal_worlds_torment	Route II - Mortal World's Torment	true
 victory_types_display_name_vco_victory_type_hef_ala_3_oakhearts_plea	Route III - Oakheart's Plea	true
+victory_types_display_name_vco_victory_type_nor_thr_1_ice_age_cometh	Route I - Ice Age Cometh	true
+victory_types_display_name_vco_victory_type_nor_thr_2_age_of_the_beast	Route II - Age of the Beast	true
+victory_types_display_name_vco_victory_type_nor_thr_3_troll_king	Route III - King of the Trolls	true
+victory_types_display_name_vco_victory_type_hef_nag_1_shadows_over_naggaroth	Route I - Shadows Over Naggaroth	true
+victory_types_display_name_vco_victory_type_hef_nag_2_amulet_of_sunfire	Route II - In The Pale Moonlight	true
+victory_types_display_name_vco_victory_type_hef_nag_3_the_eternal_war	Route III - The Eternal War	true

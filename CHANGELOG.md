@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [5.14.0] - 24.12.2023
+
+- Added new routes for Throgg: Wintertooth
+- Added new routes for Alith Anar: Nagarythe
+- Added Vortex quest battle objective for Throt the Unclean: Clan Moulder
+- Added Vortex quest battle objective for Alarielle the Radiant: Avelorn
+- Added Vortex quest battle objective for Crone Hellebron: Har Ganeth
+- Fixed a bug where Sisters of Twilight route 1 wasn't appearing
+- Fixed bug where Kemmler's route 1 reward wasn't applying upkeep reduction
+
 ## [5.13.1] - 02.12.2023
 
 - Added Vortex quest battle for Taurox the Brass Bull: Slaughterhorn Tribe

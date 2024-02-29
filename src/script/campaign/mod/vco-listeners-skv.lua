@@ -29,7 +29,22 @@ local function trigger_tretch_quest()
     cm:trigger_mission(FACTION_RICTUS_KEY, "vco_custom_quest_tretch", true);
 end
 
+local function trigger_tretch_throt_ghoritch_quest()
+    cm:trigger_mission(FACTION_MDR_KEY, "vco_custom_quest_throt_ghoritch", true);
+end
+
 -- CHECKS --
+function trigger_throt_twilight_quest()
+    local landmark_one_completed = cm:get_saved_value("vco_skv_mdr_landmark_one_completed");
+    local landmark_two_completed = cm:get_saved_value("vco_skv_mdr_landmark_two_completed");
+    local landmark_three_completed = cm:get_saved_value("vco_skv_mdr_landmark_three_completed");
+    local landmark_four_completed = cm:get_saved_value("vco_skv_mdr_landmark_four_completed");
+
+    if landmark_one_completed and landmark_two_completed and landmark_three_completed and landmark_four_completed then
+    cm:trigger_mission(FACTION_MDR_KEY, "vco_wh2_dlc16_qb_skv_final_battle_throt", true);
+    end
+end
+
 local function add_mdr_augment_unlocked(effect)
 	for _, effect_tail in ipairs(REQUIRED_EFFECT_TAILS) do
 		if effect:record_key() == "wh2_dlc16_throt_flesh_lab_" .. effect_tail then
@@ -117,21 +132,87 @@ local function add_listeners()
     );
 
     core:add_listener(
-    "vco_skv_throt_final_battle",
-    "CharacterRankUp",
+    "vco_skv_mdr_landmark_one",
+    "BuildingCompleted",
     function(context)
- local character = context:character()
-        return not cm:get_saved_value("vco_skv_throt_quest_battle_already_happened") and
-        not character:faction():is_null_interface() and
-        character:faction():is_human() and
-         character:faction():name() == FACTION_MDR_KEY and character:rank() >= 20
+        local building = context:building();
+        return not cm:get_saved_value("vco_skv_mdr_landmark_one_completed") and
+        building:name() == "vco_moulder_dukhyls_forest_brood_warren" and
+        building:faction():name() == FACTION_MDR_KEY and
+        building:faction():is_human() and
+        not building:faction():is_null_interface();
     end,
     function()
-      cm:set_saved_value("vco_skv_throt_quest_battle_already_happened", true);
-      cm:trigger_mission(FACTION_MDR_KEY, "vco_wh2_dlc16_qb_skv_final_battle_throt", true);
+      cm:set_saved_value("vco_skv_mdr_landmark_one_completed", true);
+      trigger_throt_twilight_quest();
     end,
     false
     );
+
+    core:add_listener(
+    "vco_skv_mdr_landmark_two",
+    "BuildingCompleted",
+    function(context)
+        local building = context:building();
+        return not cm:get_saved_value("vco_skv_mdr_landmark_two_completed") and
+        building:name() == "vco_moulder_warpstone_pillar" and
+        building:faction():name() == FACTION_MDR_KEY and
+        building:faction():is_human() and
+        not building:faction():is_null_interface();
+    end,
+    function()
+      cm:set_saved_value("vco_skv_mdr_landmark_two_completed", true);
+      trigger_throt_twilight_quest();
+    end,
+    false
+    );
+
+    core:add_listener(
+    "vco_skv_mdr_landmark_three",
+    "BuildingCompleted",
+    function(context)
+        local building = context:building();
+        return not cm:get_saved_value("vco_skv_mdr_landmark_three_completed") and
+        building:name() == "vco_moulder_forest_flesh_pits" and
+        building:faction():name() == FACTION_MDR_KEY and
+        building:faction():is_human() and
+        not building:faction():is_null_interface();
+    end,
+    function()
+      cm:set_saved_value("vco_skv_mdr_landmark_three_completed", true);
+      trigger_throt_twilight_quest();
+    end,
+    false
+    );
+
+    core:add_listener(
+    "vco_skv_mdr_landmark_four",
+    "BuildingCompleted",
+    function(context)
+        local building = context:building();
+        return not cm:get_saved_value("vco_skv_mdr_landmark_four_completed") and
+        building:name() == "vco_moulder_laurelorn_broken_heart" and
+        building:faction():name() == FACTION_MDR_KEY and
+        building:faction():is_human() and
+        not building:faction():is_null_interface();
+    end,
+    function()
+      cm:set_saved_value("vco_skv_mdr_landmark_four_completed", true);
+      trigger_throt_twilight_quest();
+    end,
+    false
+    );
+
+	core:add_listener(
+		"vco_skv_mdr_ghoritch_3_completed",
+		"MissionSucceeded",
+		function(context)
+			return context:faction():name() == FACTION_MDR_KEY and
+				context:mission():mission_issuer_record_key() == "MUFFIN_MAN";
+		end,
+		trigger_tretch_throt_ghoritch_quest,
+		false
+	);
 
 	core:add_listener(
 		"vco_def_snikch_final_battle",

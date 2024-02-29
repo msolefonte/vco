@@ -10,6 +10,36 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			vco_wh2_dlc11_cst_cav_knights_errant_2	wh2_dlc11_cst_all_large_units	false
 			vco_wh2_dlc11_cst_cav_knights_of_the_realm	wh2_dlc11_cst_all_large_units	false
 			vco_wh2_dlc11_cst_cav_questing_knights_0	wh2_dlc11_cst_all_large_units	false
+			vco_wh2_dlc15_grn_mon_river_trolls_0	all_non_chs	false
+			vco_wh2_dlc15_grn_mon_river_trolls_0	dlc08_nor_trolls	false
+			vco_wh2_dlc15_grn_mon_river_trolls_0	dlc08_nor_trolls_fimirs	false
+			vco_wh2_dlc15_grn_mon_river_trolls_0	mp_cap_unit_nor_mon_ice_trolls	false
+			vco_wh2_dlc15_grn_mon_river_trolls_0	nor_all	false
+			vco_wh2_dlc15_grn_mon_river_trolls_0	vco_wintertooth_trolls	false
+			vco_wh2_dlc15_grn_mon_river_trolls_0	wh2_dlc11_nor_skin_wolves_trolls	false
+			vco_wh2_dlc15_grn_mon_river_trolls_0	wh2_dlc11_nor_vets_trolls_frost_wyrm_giant_mammoth_fimir	false
+			vco_wh2_dlc15_grn_mon_river_trolls_0	wh2_dlc17_throgg_focus_units	false
+			vco_wh2_dlc15_grn_mon_river_trolls_0	wh2_dlc17_throgg_focus_units_excluding_fimir	false
+			vco_wh2_dlc15_grn_mon_stone_trolls_0	all_non_chs	false
+			vco_wh2_dlc15_grn_mon_stone_trolls_0	dlc08_nor_trolls	false
+			vco_wh2_dlc15_grn_mon_stone_trolls_0	dlc08_nor_trolls_fimirs	false
+			vco_wh2_dlc15_grn_mon_stone_trolls_0	mp_cap_unit_nor_mon_ice_trolls	false
+			vco_wh2_dlc15_grn_mon_stone_trolls_0	nor_all	false
+			vco_wh2_dlc15_grn_mon_stone_trolls_0	vco_wintertooth_trolls	false
+			vco_wh2_dlc15_grn_mon_stone_trolls_0	wh2_dlc11_nor_skin_wolves_trolls	false
+			vco_wh2_dlc15_grn_mon_stone_trolls_0	wh2_dlc11_nor_vets_trolls_frost_wyrm_giant_mammoth_fimir	false
+			vco_wh2_dlc15_grn_mon_stone_trolls_0	wh2_dlc17_throgg_focus_units	false
+			vco_wh2_dlc15_grn_mon_stone_trolls_0	wh2_dlc17_throgg_focus_units_excluding_fimir	false
+			vco_wh_dlc01_chs_mon_trolls_1	all_non_chs	false
+			vco_wh_dlc01_chs_mon_trolls_1	dlc08_nor_trolls	false
+			vco_wh_dlc01_chs_mon_trolls_1	dlc08_nor_trolls_fimirs	false
+			vco_wh_dlc01_chs_mon_trolls_1	mp_cap_unit_nor_mon_ice_trolls	false
+			vco_wh_dlc01_chs_mon_trolls_1	nor_all	false
+			vco_wh_dlc01_chs_mon_trolls_1	vco_wintertooth_trolls	false
+			vco_wh_dlc01_chs_mon_trolls_1	wh2_dlc11_nor_skin_wolves_trolls	false
+			vco_wh_dlc01_chs_mon_trolls_1	wh2_dlc11_nor_vets_trolls_frost_wyrm_giant_mammoth_fimir	false
+			vco_wh_dlc01_chs_mon_trolls_1	wh2_dlc17_throgg_focus_units	false
+			vco_wh_dlc01_chs_mon_trolls_1	wh2_dlc17_throgg_focus_units_excluding_fimir	false
 			vco_wh_dlc04_emp_inf_flagellants_0	emp_flagellants	false
 			vco_wh_dlc04_emp_inf_flagellants_0	ksl_all	false
 			vco_wh_dlc04_emp_inf_flagellants_0	ksl_armoured_kossars_streltsi	false
@@ -57,6 +87,19 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			vco_wh_main_grn_inf_black_orcs	vco_grimgor_ironbound_orc_labourers	false
 			vco_wh_main_grn_inf_black_orcs	vco_zhatan_black_orcs	false
 			vco_wh_main_grn_inf_black_orcs	wh3_dlc23_chd_labourer_ork	false
+			vco_wh_main_grn_mon_trolls	all_non_chs	false
+			vco_wh_main_grn_mon_trolls	dlc08_nor_trolls	false
+			vco_wh_main_grn_mon_trolls	dlc08_nor_trolls_fimirs	false
+			vco_wh_main_grn_mon_trolls	mp_cap_unit_nor_mon_ice_trolls	false
+			vco_wh_main_grn_mon_trolls	nor_all	false
+			vco_wh_main_grn_mon_trolls	vco_wintertooth_trolls	false
+			vco_wh_main_grn_mon_trolls	wh2_dlc11_nor_skin_wolves_trolls	false
+			vco_wh_main_grn_mon_trolls	wh2_dlc11_nor_vets_trolls_frost_wyrm_giant_mammoth_fimir	false
+			vco_wh_main_grn_mon_trolls	wh2_dlc17_throgg_focus_units	false
+			vco_wh_main_grn_mon_trolls	wh2_dlc17_throgg_focus_units_excluding_fimir	false
+			wh2_dlc10_hef_cha_shadow_walker	vco_hef_shadows	false
+			wh2_dlc10_hef_inf_shadow_walkers_0	vco_hef_shadows	false
+			wh2_dlc10_hef_inf_shadow_warriors_0	vco_hef_shadows	false
 			wh2_dlc11_cst_cha_aranessa_0	vco_cst_ara	false
 			wh2_dlc11_cst_cha_aranessa_1	vco_cst_ara	false
 			wh2_dlc11_cst_inf_deck_gunners_0	vco_cst_deck_gunners	false
@@ -86,6 +129,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			wh2_dlc15_hef_mon_moon_dragon_imrik	vco_hef_dragons	false
 			wh2_dlc15_hef_mon_star_dragon_imrik	vco_hef_dragons	false
 			wh2_dlc15_hef_mon_sun_dragon_imrik	vco_hef_dragons	false
+			wh2_dlc16_skv_cha_ghoritch_0	vco_skv_ghoritch	false
 			wh2_dlc17_bst_cha_wargor_0	vco_malagor_gors	false
 			wh2_dlc17_bst_cha_wargor_1	vco_malagor_gors	false
 			wh2_dlc17_bst_cha_wargor_2	vco_malagor_gors	false
@@ -138,12 +182,17 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			wh_dlc08_nor_inf_marauder_champions_0	vco_nor_melee_marauders	false
 			wh_dlc08_nor_inf_marauder_champions_1	vco_nor_melee_marauders	false
 			wh_dlc08_nor_inf_marauder_hunters_0	vco_nor_marauder_hunters_spears	false
+			wh_dlc08_nor_inf_marauder_hunters_0	vco_nor_melee_marauders	false
 			wh_dlc08_nor_inf_marauder_hunters_1	vco_nor_marauder_hunters_spears	false
+			wh_dlc08_nor_inf_marauder_hunters_1	vco_nor_melee_marauders	false
 			wh_dlc08_nor_inf_marauder_spearman_0	vco_nor_marauder_hunters_spears	false
+			wh_dlc08_nor_inf_marauder_spearman_0	vco_nor_melee_marauders	false
+			wh_dlc08_nor_mon_norscan_ice_trolls_0	vco_wintertooth_trolls	false
 			wh_main_brt_inf_men_at_arms	vco_repanse_peasants	false
 			wh_main_brt_inf_spearmen_at_arms	vco_repanse_peasants	false
 			wh_main_nor_inf_chaos_marauders_0	vco_nor_melee_marauders	false
 			wh_main_nor_inf_chaos_marauders_1	vco_nor_melee_marauders	false
+			wh_main_nor_mon_chaos_trolls	vco_wintertooth_trolls	false
 			wh_main_vmp_cha_heinrich_kemmler	vco_vmp_kem	false
 			wh_main_vmp_cha_mannfred_von_carstein_0	vco_vmp_man	false
 			wh_main_vmp_cha_mannfred_von_carstein_2	vco_vmp_man	false
