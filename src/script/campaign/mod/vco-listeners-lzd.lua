@@ -102,7 +102,9 @@ local function add_listeners()
     function(context)
  local character = context:character()
         return not cm:get_saved_value("vco_lzd_nak_quest_battle_already_happened") and
-         character:faction():name() == FACTION_LZD_NAK_KEY and character:rank() >= 40
+        not character:faction():is_null_interface() and
+        character:faction():is_human() and
+        character:faction():name() == FACTION_LZD_NAK_KEY and character:rank() >= 40
     end,
     function()
       cm:set_saved_value("vco_lzd_nak_quest_battle_already_happened", true);

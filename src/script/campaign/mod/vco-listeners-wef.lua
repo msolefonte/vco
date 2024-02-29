@@ -19,6 +19,7 @@ local function add_listeners()
 		function(context)
 			return not cm:get_saved_value("vco_wef_twilight_final_battle_already_happened")
 			and context:performing_faction():name() == FACTION_TWILIGHT_KEY 
+			and context:performing_faction():is_human()
 			and context:ritual():ritual_key():starts_with("wh2_dlc16_ritual_rebirth_naggarond_glade");
 		end,
     function()
@@ -27,6 +28,23 @@ local function add_listeners()
     end,
 		false
 	);
+
+    core:add_listener(
+    "fffffffff",
+    "CharacterRankUp",
+    function(context)
+ local character = context:character()
+        return not cm:get_saved_value("ffffffffffff") and
+        not character:faction():is_null_interface() and
+        character:faction():is_human() and
+         character:faction():name() == FACTION_TWILIGHT_KEY and character:rank() >= 2
+    end,
+    function()
+      cm:set_saved_value("ffffffffffff", true);
+      trigger_twilight_quest();
+    end,
+    false
+    );
 
 end
 
