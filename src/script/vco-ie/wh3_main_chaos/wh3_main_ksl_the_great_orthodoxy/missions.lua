@@ -3,7 +3,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_ksl_tgo_1_there_can_only_be_one_roc;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -49,7 +49,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_ksl_tgo_2_the_last_bastion_roc;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -95,7 +95,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_ksl_tgo_3_wololo_roc;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer MUFFIN_MAN;
 			primary_objectives_and_payload
 			{

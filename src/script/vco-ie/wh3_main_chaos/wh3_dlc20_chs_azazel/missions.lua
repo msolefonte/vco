@@ -3,7 +3,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_chs_aza_1_sycophants_gather_roc;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -71,7 +71,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_chs_aza_2_cathay_roc;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -131,7 +131,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_chs_aza_3_legions_march_roc;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer MUFFIN_MAN;
 			primary_objectives_and_payload
 			{

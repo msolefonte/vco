@@ -3,7 +3,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_sla_nka_1_the_great_game;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer MUFFIN_MAN;
 			primary_objectives_and_payload
 			{
@@ -16,7 +16,7 @@ local missions = {
 
 				objective
 				{
-					override_text mission_text_text_vco_the_great_game_completed_0;
+					override_text mission_text_text_vcogg_the_great_game_completed_0;
 					type SCRIPTED;
 					script_key vco_wh3_main_sla_seducers_of_slaanesh_the_great_game;
 				}
@@ -68,7 +68,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_sla_nka_2_paradise_lost;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -116,7 +116,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_sla_nka_3_bloodline_aenarion;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{

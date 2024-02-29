@@ -3,10 +3,12 @@ local vlc = core:get_static_object("vco-lib-commons");
 
 local FACTION_ESH_KEY = "wh2_main_skv_clan_eshin";
 local FACTION_MDR_KEY = "wh2_main_skv_clan_moulder";
+local FACTION_MORS_KEY = "wh2_main_skv_clan_mors";
 local FACTION_RICTUS_KEY = "wh2_dlc09_skv_clan_rictus";
 local KEY_D_HARVEST = "vco_skv_mdr_dilemma_ultimate_harvest";
 local KEY_D_AMBUSH_EVERPEAK = "vco_skv_tre_dilemma_ambush_everpeak";
 local KEY_D_SHADOW_BLADE = "vco_skv_sni_dilemma_shadow_meets_blade";
+local KEY_D_CRIMSON_CONSPIRACIES = "vco_skv_mor_dilemma_crimson_conspiracies";
 local REQUIRED_EFFECT_TAILS = { "inf_aug_13", "inf_aug_14", "mon_aug_13", "mon_aug_14" };
 local REQUIRED_ESHIN_TARGETS = { "wh_main_dwf_karak_izor", "wh2_main_def_hag_graef", "wh3_main_nur_poxmakers_of_nurgle" };
 local REQUIRED_ESHIN_ACTIONS = 13;
@@ -25,6 +27,10 @@ local function trigger_snikch_dilemma()
 	cm:trigger_dilemma(FACTION_ESH_KEY, KEY_D_SHADOW_BLADE);
 end
 
+local function trigger_queek_dilemma()
+	cm:trigger_dilemma(FACTION_MORS_KEY, KEY_D_CRIMSON_CONSPIRACIES);
+end
+
 local function trigger_tretch_quest()
     cm:trigger_mission(FACTION_RICTUS_KEY, "vco_custom_quest_tretch", true);
 end
@@ -33,7 +39,30 @@ local function trigger_tretch_throt_ghoritch_quest()
     cm:trigger_mission(FACTION_MDR_KEY, "vco_custom_quest_throt_ghoritch", true);
 end
 
+local function trigger_queek_eight_peaks_quest()
+    cm:trigger_mission(FACTION_MORS_KEY, "vco_custom_quest_queek_eight_peaks", true);
+end
+
 -- CHECKS --
+local function check_queek_give_ancillary_if_faction_defeated(target_faction_key, ancillary_id)
+    local target_faction = cm:get_faction(target_faction_key);
+    local recipient_faction = cm:get_faction("wh2_main_skv_clan_mors");
+    if (target_faction == nil or target_faction:is_null_interface() or target_faction:is_dead())
+    and not cm:get_saved_value("vco_queek" .. target_faction_key .. "trophy_acquired")
+    then
+      cm:set_saved_value("vco_queek" .. target_faction_key .. "trophy_acquired", true);
+      cm:add_ancillary_to_faction(recipient_faction, ancillary_id, false);
+    end
+end
+
+local function check_queek_defeated_factions()
+    check_queek_give_ancillary_if_faction_defeated("wh3_main_kho_exiles_of_khorne", "vco_anc_follower_eye_of_rage");
+    check_queek_give_ancillary_if_faction_defeated("wh2_dlc09_tmb_khemri", "vco_anc_follower_settras_head");
+    check_queek_give_ancillary_if_faction_defeated("wh2_dlc17_bst_malagor", "vco_anc_follower_crowfathers_wings");
+    check_queek_give_ancillary_if_faction_defeated("wh3_main_emp_cult_of_sigmar", "vco_anc_follower_jade_griffon");
+    check_queek_give_ancillary_if_faction_defeated("wh2_dlc14_brt_chevaliers_de_lyonesse", "vco_anc_follower_damsels_ashes");
+end
+
 function trigger_throt_twilight_quest()
     local landmark_one_completed = cm:get_saved_value("vco_skv_mdr_landmark_one_completed");
     local landmark_two_completed = cm:get_saved_value("vco_skv_mdr_landmark_two_completed");
@@ -110,6 +139,17 @@ local function add_listeners()
 				context:mission():mission_issuer_record_key() == "MUFFIN_MAN";
 		end,
 		trigger_snikch_dilemma,
+		false
+	);
+
+	core:add_listener(
+		"vco_skv_mor_2_completed",
+		"MissionSucceeded",
+		function(context)
+			return context:faction():name() == FACTION_MORS_KEY and
+				context:mission():mission_issuer_record_key() == "MUFFIN_MAN";
+		end,
+		trigger_queek_dilemma,
 		false
 	);
 
@@ -213,6 +253,35 @@ local function add_listeners()
 		trigger_tretch_throt_ghoritch_quest,
 		false
 	);
+
+	core:add_listener(
+		"vco_skv_mor_queek_trophy_kill",
+		"FactionTurnEnd",
+		function(context)
+			return context:faction():name() == FACTION_MORS_KEY
+			and context:faction():is_human();
+		end,
+		check_queek_defeated_factions,
+		true
+	);
+
+    core:add_listener(
+    "vco_skv_queek_karak_eight_peaks_qb",
+    "BuildingCompleted",
+    function(context)
+        local building = context:building();
+        return not cm:get_saved_value("vco_skv_mors_karak_eight_peaks_already_happened") and
+        building:name() == "wh2_main_special_eight_peaks_skv_3" and
+        building:faction():name() == FACTION_MORS_KEY and
+        building:faction():is_human() and
+        not building:faction():is_null_interface();
+    end,
+    function()
+      cm:set_saved_value("vco_skv_mors_karak_eight_peaks_already_happened", true);
+      trigger_queek_eight_peaks_quest();
+    end,
+    true
+    );
 
 	core:add_listener(
 		"vco_def_snikch_final_battle",

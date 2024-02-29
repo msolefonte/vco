@@ -3,7 +3,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_chs_bel_1_shadows_albion;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -61,7 +61,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_chs_bel_2_no_strings_on_me;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer KING_KAZADOR;
 			primary_objectives_and_payload
 			{
@@ -113,7 +113,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_chs_bel_3_aetherophasic_engine;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer MUFFIN_MAN;
 			primary_objectives_and_payload
 			{

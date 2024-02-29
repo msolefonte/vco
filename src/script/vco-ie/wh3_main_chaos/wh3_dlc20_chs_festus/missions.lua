@@ -3,7 +3,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_chs_fes_1_infector_counts_roc;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -64,7 +64,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_chs_fes_2_strange_bedfellows_roc;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer MUFFIN_MAN;
 			primary_objectives_and_payload
 			{
@@ -123,7 +123,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_chs_fes_3_down_sickness_roc;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{

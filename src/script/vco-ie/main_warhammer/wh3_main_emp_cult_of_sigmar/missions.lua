@@ -3,7 +3,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_emp_vol_1_restless_dunes;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -58,7 +58,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_emp_vol_2_face_your_daemons;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -136,7 +136,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_emp_vol_3_bibliophobe;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer MUFFIN_MAN;
 			primary_objectives_and_payload
 			{

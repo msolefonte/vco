@@ -3,7 +3,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_tze_kai_1_great_game;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -16,7 +16,7 @@ local missions = {
 
 				objective
 				{
-					override_text mission_text_text_vco_the_great_game_completed_0;
+					override_text mission_text_text_vcogg_the_great_game_completed_0;
 					type SCRIPTED;
 					script_key vco_wh3_main_tze_oracles_of_tzeentch_the_great_game;
 				}
@@ -52,7 +52,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_tze_kai_2_visions_past;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer MUFFIN_MAN;
 			primary_objectives_and_payload
 			{
@@ -115,7 +115,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_tze_kai_3_visions_future;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{

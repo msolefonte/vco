@@ -3,7 +3,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_kho_ska_1_great_game_roc;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -16,7 +16,7 @@ local missions = {
 
 				objective
 				{
-					override_text mission_text_text_vco_the_great_game_completed_0;
+					override_text mission_text_text_vcogg_the_great_game_completed_0;
 					type SCRIPTED;
 					script_key vco_wh3_main_kho_exiles_of_khorne_the_great_game;
 				}
@@ -53,7 +53,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_kho_ska_2_blood_god_roc;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -110,7 +110,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_kho_ska_3_skull_throne_roc;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{

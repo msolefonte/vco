@@ -142,3 +142,13 @@ effects_description_vco_nor_thr_troll_recruitment_cost	Recruitment cost: %+n% fo
 effects_description_vco_nor_thr_troll_charge_bonus	Charge bonus: %+n% for Troll units	true
 effects_description_vco_nor_thr_troll_vigour_loss_reduction	Vigour loss reduction: %+n% for Troll units	true
 effects_description_vco_throgg_thorns_aura	Ability: "Thorn's Aura"	true
+effects_description_vco_dwf_bel_siege_skavenblight_dummy	The The Day of Reckoning quest battle will begin!	true
+effects_description_vco_grn_ska_dilemma	A dilemma will offer a choice between powerful rewards!	true
+effects_description_vco_grn_ska_squig_weapon_strength	Weapon strength: %+n% for Squig units	true
+effects_description_vco_grn_ska_squig_recruit_rank	Recruit rank: %+n for Squig units	true
+effects_description_vco_grn_ska_squig_speed	Speed: %+n% for Squig units	true
+effects_description_vco_skv_mor_stormvermin_weapon_strength	Weapon strength: %+n% for Stormvermin units	true
+effects_description_vco_lord_passive_withering_idol	Passive ability: "Withering Pulse"	true
+effects_description_vco_skv_mor_dilemma	A dilemma will offer a choice between powerful rewards!	true
+effects_description_vco_emp_karl_storm_chaos_dummy	The Storm of Chaos quest battle will begin!	true
+effects_description_vco_belegar_corruption_skaven_events	Skaven corruption: %+n	true

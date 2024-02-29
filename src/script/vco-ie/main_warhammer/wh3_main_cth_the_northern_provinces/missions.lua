@@ -3,7 +3,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_cth_tnp_1_in_harmony;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -55,7 +55,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_cth_tnp_2_cool_and_aloof;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -121,7 +121,7 @@ local missions = {
 		mission
  		{
 			victory_type vco_victory_type_cth_tnp_3_the_northern_expedition;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer KING_KAZADOR;
 			primary_objectives_and_payload
 			{

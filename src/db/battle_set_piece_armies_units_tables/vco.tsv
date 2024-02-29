@@ -2,5 +2,7 @@ unit_name	unit_level	unit_type	percentage_num_men	percentage_num_health	reduce_m
 #battle_set_piece_armies_units_tables;4;db/battle_set_piece_armies_units_tables/vco					
 vco_alarielle_custom_battle_gwindalor	1	wh2_dlc16_wef_mon_gwindalor_summoned	100	100	false
 vco_hellebron_custom_battle_hef_treeman	1	wh2_dlc10_hef_mon_treeman_0	100	100	false
+vco_karl_franz_swords_of_ulric	9	wh2_dlc13_emp_inf_swordsmen_ror_0	100	100	false
+vco_skarsnik_durkits_squiggs	9	wh_dlc06_grn_cav_durkits_squigs_0	100	100	false
 vco_throt_custom_battle_mirror_guard	1	wh_pro04_chs_cav_chaos_knights_ror_0	100	100	false
 vco_throt_custom_battle_swords_of_chaos	1	wh_pro04_chs_inf_chaos_warriors_ror_0	100	100	false

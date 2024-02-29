@@ -3,7 +3,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_cth_yua_1_the_jade_compass;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -52,7 +52,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_cth_yua_2_harmony_through_unity;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -108,7 +108,7 @@ local missions = {
 		mission
  		{
 			victory_type vco_victory_type_cth_yua_3_the_spymaster;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer KING_KAZADOR;
 			primary_objectives_and_payload
 			{

@@ -3,7 +3,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_grn_gri_1_boss_east;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -63,7 +63,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_grn_gri_2_burn_badlands;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -131,7 +131,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_grn_gri_3_unfinished_business;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{

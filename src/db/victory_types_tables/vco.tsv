@@ -138,6 +138,9 @@ vco_victory_type_def_cop_3_return_of_the_queen	2	0	long	long	true
 vco_victory_type_def_gan_1_sacrifice_slaughter	0	0	long	long	true
 vco_victory_type_def_gan_2_suffer_not_another_queen	1	0	long	long	true
 vco_victory_type_def_gan_3_eternity_awaits	2	0	long	long	true
+vco_victory_type_dwf_bel_1_the_reckoning	0	0	long	long	true
+vco_victory_type_dwf_bel_2_friend_or_foe	1	0	long	long	true
+vco_victory_type_dwf_bel_3_karak_eight_peaks	2	0	long	long	true
 vco_victory_type_dwf_gro_1_malekith_grudge	0	0	long	long	true
 vco_victory_type_dwf_gro_2_high_elf_decision	1	0	long	long	true
 vco_victory_type_dwf_gro_3_age_reckoning	2	0	long	long	true
@@ -157,6 +160,9 @@ vco_victory_type_emp_vol_3_bibliophobe	2	0	long	long	true
 vco_victory_type_grn_gri_1_boss_east	0	0	long	long	true
 vco_victory_type_grn_gri_2_burn_badlands	1	0	long	long	true
 vco_victory_type_grn_gri_3_unfinished_business	2	0	long	long	true
+vco_victory_type_grn_ska_1_worlds_edge_warlord	0	0	long	long	true
+vco_victory_type_grn_ska_2_squig_feast	1	0	long	long	true
+vco_victory_type_grn_ska_3_karak_eight_peaks	2	0	long	long	true
 vco_victory_type_hef_ala_1_hope_springs_eternal	0	0	long	long	true
 vco_victory_type_hef_ala_2_mortal_worlds_torment	1	0	long	long	true
 vco_victory_type_hef_ala_3_oakhearts_plea	2	0	long	long	true
@@ -236,6 +242,9 @@ vco_victory_type_skv_esh_3_year_of_the_rat	2	0	long	long	true
 vco_victory_type_skv_mdr_1_yes_yes_prepare_the_lab	0	0	long	long	true
 vco_victory_type_skv_mdr_2_the_vermintide_comes	1	0	long	long	true
 vco_victory_type_skv_mdr_3_the_frozen_dead	2	0	long	long	true
+vco_victory_type_skv_mor_1_the_chorus_grows	0	0	long	long	true
+vco_victory_type_skv_mor_2_withering_idol	1	0	long	long	true
+vco_victory_type_skv_mor_3_karak_eight_peaks	2	0	long	long	true
 vco_victory_type_skv_ric_1_nightmare_drakenmoor	0	0	long	long	true
 vco_victory_type_skv_ric_2_ascension	1	0	long	long	true
 vco_victory_type_skv_ric_3_fozzriks_flying_fastness	2	0	long	long	true

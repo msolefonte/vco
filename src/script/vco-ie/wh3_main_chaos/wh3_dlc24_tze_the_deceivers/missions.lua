@@ -3,7 +3,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_tze_cha_1_shadows_of_change;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -43,7 +43,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_tze_cha_2_puppet_state;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -133,7 +133,7 @@ local missions = {
 		mission
  		{
 			victory_type vco_victory_type_tze_cha_3_faceless_war;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer MUFFIN_MAN;
 			primary_objectives_and_payload
 			{

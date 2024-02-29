@@ -3,7 +3,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_tmb_ark_1_thy_kingdom_come;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -61,7 +61,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_tmb_ark_2_born_to_serve;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -110,7 +110,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_tmb_ark_3_faithful_servant;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{

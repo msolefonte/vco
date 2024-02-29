@@ -25,6 +25,11 @@ local UNLOCKABLE_NURGLE_UNITS = {	"wh3_main_nur_inf_plaguebearers_0", "wh3_main_
 local UNLOCKABLE_TZEENTCH_UNITS = {	"wh3_main_tze_inf_pink_horrors_0", "wh3_main_tze_inf_pink_horrors_1" };
 local UNLOCKABLE_SLAANESH_UNITS = { "wh3_main_sla_inf_daemonette_0", "wh3_main_sla_inf_daemonette_1" };
 
+local KEY_PR_NOR_CROW = "nor_progress_crow";
+local KEY_PR_NOR_EAGLE = "nor_progress_eagle";
+local KEY_PR_NOR_HOUND = "nor_progress_hound";
+local KEY_PR_NOR_SERPENT = "nor_progress_serpent";
+
 local function trigger_throgg_dilemma()
 	cm:trigger_dilemma(FACTION_THROGG_KEY, KEY_D_FINAL_BREATH);
 end
@@ -109,6 +114,21 @@ local function add_listeners()
 	);
 
 	core:add_listener(
+		"vco_nor_wul_max_allegiance_with_god_reached",
+		"PooledResourceChanged",
+		function(context)
+			return not context:faction():is_null_interface() and
+				context:faction():is_human() and
+				context:faction():name() == FACTION_THROGG_KEY and
+				context:resource():value() == 100;
+		end,
+		function()
+            vco:complete_mission(FACTION_THROGG_KEY, "vco_nor_throgg_chaos_allegiance");
+		end,
+		true
+	);
+
+	core:add_listener(
 		"vco_nor_wul_razed_port",
 		"CharacterRazedSettlement",
 		function(context)
@@ -145,6 +165,34 @@ local function add_listeners()
 			check_wul_monster_hunts_completed(context:mission():mission_record_key());
 		end,
 		true
+	);
+
+	core:add_listener(
+		"vco_norsca_defeated_challengers_wulfrik",
+		"MissionSucceeded",
+		function(context)
+			return context:faction():name() == FACTION_WUL_KEY and
+                context:faction():is_human() and
+				context:mission():mission_record_key():starts_with("wh_dlc08_qb_chs_final_battle");
+		end,
+		function()
+			vco:complete_mission(FACTION_WUL_KEY, "vco_defeat_chaos_gods_challengers_worl");
+		end,
+		false
+	);
+
+	core:add_listener(
+		"vco_norsca_defeated_challengers_throgg",
+		"MissionSucceeded",
+		function(context)
+			return context:faction():name() == FACTION_THROGG_KEY and
+                context:faction():is_human() and
+				context:mission():mission_record_key():starts_with("wh_dlc08_qb_chs_final_battle");
+		end,
+		function()
+			vco:complete_mission(FACTION_THROGG_KEY, "vco_defeat_chaos_gods_challengers_wint");
+		end,
+		false
 	);
 end
 

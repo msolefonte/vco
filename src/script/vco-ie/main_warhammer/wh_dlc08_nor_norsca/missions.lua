@@ -3,7 +3,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_nor_wul_1_ragnarok;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -25,7 +25,7 @@ local missions = {
 				{
 					override_text mission_text_text_mis_activity_defeat_chaos_gods_challengers;
 					type SCRIPTED;
-					script_key defeat_chaos_gods_challengers;
+					script_key vco_defeat_chaos_gods_challengers_worl;
 				}
 
 				objective
@@ -64,7 +64,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_nor_wul_2_the_world_walker;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer MUFFIN_MAN;
 			primary_objectives_and_payload
 			{
@@ -109,15 +109,6 @@ local missions = {
 					region wh3_main_combi_region_skeggi;
 				}
 
-				objective
-				{
-					override_text mission_text_text_vco_nor_wul_3_wheres_my_palico;
-					type CONTROL_N_REGIONS_INCLUDING;
-					total 1;
-
-					region wh3_main_combi_region_skeggi;
-				}
-
 				payload
 				{
 					effect_bundle
@@ -147,7 +138,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_nor_wul_3_wheres_my_palico;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{

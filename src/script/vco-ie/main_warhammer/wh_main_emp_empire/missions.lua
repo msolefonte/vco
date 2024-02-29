@@ -3,7 +3,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_emp_kar_1_protector_empire;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -67,7 +67,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_emp_kar_2_defier_dark;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer MUFFIN_MAN;
 			primary_objectives_and_payload
 			{
@@ -130,8 +130,8 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_emp_kar_3_karl_uniter;
-			key wh_main_short_victory;
-			issuer CLAN_ELDERS;
+			key vco_route_victory;
+			issuer KING_KAZADOR;
 			primary_objectives_and_payload
 			{
 				objective
@@ -143,25 +143,53 @@ local missions = {
 
 				objective
 				{
-					override_text mission_text_text_vco_emp_kar_3_karl_uniter_1;
-					type CONTROL_N_REGIONS_FROM;
-					total 3;
-				
+					type MOVE_TO_REGION;
+
 					region wh3_main_combi_region_couronne;
-					region wh3_main_combi_region_the_oak_of_ages;
-					region wh3_main_combi_region_kislev;
+				}
+
+				objective
+				{
+					type MOVE_TO_REGION;
+
 					region wh3_main_combi_region_karaz_a_karak;
+				}
+
+				objective
+				{
+					type MOVE_TO_REGION;
+
+					region wh3_main_combi_region_kislev;
+				}
+
+				objective
+				{
+					type MOVE_TO_REGION;
+
 					region wh3_main_combi_region_lothern;
 				}
 
 				objective
 				{
-					type CONSTRUCT_N_BUILDINGS_INCLUDING;
-					faction wh_main_emp_empire;
-					total 2;
+					type MOVE_TO_REGION;
 
-					building_level wh2_main_special_altdorf_imperial_palace;
-					building_level wh_main_special_college_of_magic;
+					region wh3_main_combi_region_wei_jin;
+				}
+
+				objective
+				{
+					type MAINTAIN_N_ALLIANCES;
+
+					total 5;
+				}
+
+				objective
+				{
+					type DESTROY_FACTION;
+
+					faction wh_main_chs_chaos;
+
+					confederation_valid;
 				}
 
 				payload
@@ -169,7 +197,7 @@ local missions = {
 					effect_bundle
 					{
 						bundle_key vco_victory_payload_emp_kar_3_karl_uniter;
-						turns 0;
+						turns 1;
 					}
 
 					effect_bundle

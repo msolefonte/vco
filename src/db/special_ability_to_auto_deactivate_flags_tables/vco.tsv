@@ -1,3 +1,4 @@
 deactivate_flag	special_ability
 #special_ability_to_auto_deactivate_flags_tables;0;db/special_ability_to_auto_deactivate_flags_tables/vco	
+out_of_melee	vco_lord_passive_withering_idol
 out_of_melee	vco_unit_passive_everqueens_touch

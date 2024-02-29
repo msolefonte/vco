@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [5.15.0] - 17.01.2024
+
+- Added new routes for Belegar Ironhammer: Clan Angrund
+- Added new routes for Skarsnik: Crooked Moon
+- Added new routes for Queek Headtaker: Clan Mors
+- Added quest battles for Belegar, Skarsnik and Queek triggered by upgrading the Karak Eight Peaks landmark to maximum
+- Updated Default Short Victory rewards no longer are rewarded in addition to VCO's custom rewards
+- Updated Karl Franz Reiklan: Reworked route 3, added Storm of Chaos quest battle upon completion
+- Updated VCO quest battles, so they are playable from the main menu
+- Fixed a bug, where Zhatan's route 1 victory condition triggered prematurely
+- Fixed a bug, where Throgg's route 1 was impossible to complete
+
 ## [5.14.0] - 24.12.2023
 
 - Added new routes for Throgg: Wintertooth

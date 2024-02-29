@@ -3,7 +3,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_nur_kug_1_great_game;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -16,7 +16,7 @@ local missions = {
 
 				objective
 				{
-					override_text mission_text_text_vco_the_great_game_completed_0;
+					override_text mission_text_text_vcogg_the_great_game_completed_0;
 					type SCRIPTED;
 					script_key vco_wh3_main_nur_poxmakers_of_nurgle_the_great_game;
 				}
@@ -52,7 +52,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_nur_kug_2_eastern_poxes;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer MUFFIN_MAN;
 			primary_objectives_and_payload
 			{
@@ -111,7 +111,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_nur_kug_3_death_dwarfs;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{

@@ -3,7 +3,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_lzd_nak_1_the_reawakening;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer MUFFIN_MAN;
 			primary_objectives_and_payload
 			{
@@ -59,7 +59,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_lzd_nak_2_homecoming;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -120,7 +120,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_lzd_nak_3_the_wanderer;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{

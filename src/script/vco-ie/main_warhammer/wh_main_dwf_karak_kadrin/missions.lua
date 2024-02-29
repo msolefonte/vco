@@ -3,7 +3,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_dwf_ung_1_last_slayer_king;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -98,7 +98,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_dwf_ung_2_wayward_sons;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -156,7 +156,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_dwf_ung_3_reunification;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer MUFFIN_MAN;
 			primary_objectives_and_payload
 			{

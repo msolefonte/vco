@@ -3,7 +3,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_chd_ast_1_steel_sky;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -56,7 +56,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_chd_ast_2_the_culling;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer MUFFIN_MAN;
 			primary_objectives_and_payload
 			{
@@ -101,7 +101,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_chd_ast_3_hashut_wakes;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{

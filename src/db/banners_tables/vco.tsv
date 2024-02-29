@@ -1,3 +1,4 @@
 banner	effect_bundle
 #banners_tables;1;db/banners_tables/vco	
+vco_anc_magic_standard_belegar_banner	vco_belegar_banner_effect_bundle
 vco_anc_magic_standard_volkmar_banner	vco_volkmar_banner_effect_bundle

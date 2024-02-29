@@ -3,7 +3,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_dae_god_1_ascension;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -24,7 +24,7 @@ local missions = {
 				{
 					override_text mission_text_text_wh3_main_narrative_mission_description_ascend;
 					type SCRIPTED;
-					script_key daemon_prince_ascend_ritual;
+					script_key vco_dae_daemon_prince_ascend_ritual;
 				}
 
 				payload
@@ -51,7 +51,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_dae_god_2_succeeding_you;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -143,7 +143,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_dae_god_3_frozen_heart;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{

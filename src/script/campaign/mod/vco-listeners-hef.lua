@@ -80,7 +80,8 @@ core:add_listener(
     "MissionSucceeded",
     function(context)
         return context:faction():name() == FACTION_ALARIELLE_KEY and
-            context:mission():mission_record_key() == "vco_custom_quest_alarielle_ariel";
+            context:faction():is_human() and
+            context:mission():mission_record_key():starts_with("vco_custom_quest_alarielle_ariel");
     end,
     function()
         local character = nil;
@@ -96,11 +97,6 @@ core:add_listener(
     end,
     false
 );
-
-
-
-
-
 
 end
 

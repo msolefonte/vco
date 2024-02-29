@@ -3,7 +3,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_cst_sar_1_captain_of_the_swordfysh;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -56,7 +56,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_cst_sar_2_daughter_of_manann;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer MUFFIN_MAN;
 			primary_objectives_and_payload
 			{
@@ -130,7 +130,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_cst_sar_3_dead_man_s_vengeance;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{

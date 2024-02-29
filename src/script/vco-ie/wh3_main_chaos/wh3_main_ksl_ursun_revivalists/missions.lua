@@ -3,7 +3,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_ksl_bor_1_doomslayer_roc;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -64,7 +64,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_ksl_bor_2_old_frontier_roc;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -128,7 +128,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_ksl_bor_3_blood_snow_roc;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{

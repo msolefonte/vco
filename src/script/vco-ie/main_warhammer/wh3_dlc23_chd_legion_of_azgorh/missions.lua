@@ -3,7 +3,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_chd_dra_1_show_of_strength;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer MUFFIN_MAN;
 			primary_objectives_and_payload
 			{
@@ -17,7 +17,7 @@ local missions = {
 				objective
 				{
 					type CONTROL_N_REGIONS_FROM;
-					total 7;
+					total 8;
 
 					region wh3_main_combi_region_ruins_end;
 					region wh3_main_combi_region_pigbarter;
@@ -52,7 +52,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_chd_dra_2_trial_by_fire;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -133,7 +133,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_chd_dra_3_the_last_days;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{

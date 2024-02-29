@@ -3,7 +3,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_dae_god_1_ascension_roc;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -50,7 +50,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_dae_god_2_succeeding_you_roc;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -110,7 +110,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_dae_god_3_frozen_heart_roc;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{

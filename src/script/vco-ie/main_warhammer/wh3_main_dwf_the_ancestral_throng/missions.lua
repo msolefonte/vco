@@ -3,7 +3,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_dwf_gro_1_malekith_grudge;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer MUFFIN_MAN;
 			primary_objectives_and_payload
 			{
@@ -59,7 +59,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_dwf_gro_2_high_elf_decision;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -122,7 +122,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_dwf_gro_3_age_reckoning;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{

@@ -3,7 +3,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_lzd_hex_1_solar_city;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer MUFFIN_MAN;
 			primary_objectives_and_payload
 			{
@@ -76,7 +76,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_lzd_hex_2_begone_thot;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -123,7 +123,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_lzd_hex_3_purging_warmbloods;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{

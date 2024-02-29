@@ -168,9 +168,9 @@ mission_text_text_vco_dwf_gro_2_high_elf_decision	<dummy>Fell forces now gather 
 mission_text_text_vco_dwf_gro_2_high_elf_decision_1	Control at least 5 of the following regions either by [[img:sword_of_khaine]][[/img]]conquest or through [[img:icon_vassal]][[/img]]vassals and [[img:icon_military_alliance]][[/img]]military allies:	true
 mission_text_text_vco_dwf_gro_2_high_elf_decision_2	Control at least 2 of the following regions either by [[img:sword_of_khaine]][[/img]]conquest or through [[img:icon_vassal]][[/img]]vassals and [[img:icon_military_alliance]][[/img]]military allies:	true
 mission_text_text_vco_dwf_gro_3_age_reckoning	<dummy>The White Dwarf led his Ancestral Throng across the Boiling Sea and onto the shores of Naggaroth. Those who answered his call know they march with a Living Ancestor and stand ready with hammer and shield to bring ruin to their foes in these bleak lands.	true
-mission_text_text_vco_emp_kar_1_protector_empire	<dummy>A mysterious plague spreads from the north. Beastmen prey upon the Emperor's loyal subjects within the Drakwald forest. Marienburg's secession drains the imperial coffers on a daily basis. Barely recovered from his most recent skirmish with the Greenskins at Black Fire Pass, Karl Franz readies the men for a new campaign to unite the western provinces of his Empire.	true
-mission_text_text_vco_emp_kar_2_defier_dark	<dummy>Grim tidings make their way from the east. Despite his apparent death beneath the ramparts of Altdorf many years ago, the vampire Vlad von Carstein has returned. While he musters his legion of the dead, malicious tree spirits gather in the Gryphon Wood, slaughtering good citizens of the Empire without rhyme or reason. This cannot stand. Karl Franz orders his men east to put down these new threats to his reign once and for all.	true
-mission_text_text_vco_emp_kar_3_karl_uniter	<dummy>The Empire has close ties with the nations of men, elves and dwarfs that share its borders, though relations have been erratic at best over the years. Now is the time for the Emperor to decide whether to strengthen these ties or to annex their lands for his ever-growing Empire.	true
+mission_text_text_vco_emp_kar_1_protector_empire	<dummy>A mysterious plague spreads from the north. [[col:subtitle_greasus]]Beastmen[[/col]] prey upon the Emperor's loyal subjects within the Drakwald forest. [[col:subtitle_kairos_future]]Marienburg[[/col]]'s secession drains the imperial coffers on a daily basis. Barely recovered from his most recent skirmish with the Greenskins at Black Fire Pass, [[col:red]]Karl Franz[[/col]] readies the men for a new campaign to unite the western provinces of his Empire.	true
+mission_text_text_vco_emp_kar_2_defier_dark	<dummy>Grim tidings make their way from the east. Despite his apparent death beneath the ramparts of Altdorf many years ago, the vampire [[col:subtitle_miao_ying]]Vlad von Carstein[[/col]] has returned. While he musters his legion of the dead, malicious tree spirits gather in the [[col:subtitle_skrag]]Gryphon Wood[[/col]], slaughtering good citizens of the Empire without rhyme or reason. This cannot stand. [[col:red]]Karl Franz[[/col]] orders his men east to put down these new threats to his reign once and for all.	true
+mission_text_text_vco_emp_kar_3_karl_uniter	<dummy>[[col:subtitle_miao_ying]]Archaon the Everchosen[[/col]] has united the warring tribes of the north and now marches south with the largest host ever seen in living memory. In response, [[col:red]]Karl Franz[[/col]] sends his emissaries across the Known World. He will assemble a grand council of war, a [[col:fe_white]]Conclave of Light[[/col]], to stand against the coming darkness.	true
 mission_text_text_vco_emp_kar_3_karl_uniter_1	Control at least 3 of the following regions either by [[img:sword_of_khaine]][[/img]]conquest or through [[img:icon_vassal]][[/img]]vassals and [[img:icon_military_alliance]][[/img]]military allies:	true
 mission_text_text_vco_emp_the_1_champions_of_the_empire	<dummy>After a spate of recent attacks against the colonists in the New World, Karl Franz has called upon his Captain of Scouts, Markus Wulfhart, to defend the Empire's holdings and reaffirm their foothold on this beast-infested continent. From his newly established base camp on the Scorpion Coast, the Huntsmarshal readies his expedition for their imminent incursion into the jungle.	true
 mission_text_text_vco_emp_the_2_the_huntsmarshals_expedition	<dummy>After making common cause with the [[col:ancillary_uncommon]]Amazonian Sisterhood[[/col]] at the [[col:yellow]]Temple of Kara[[/col]], one of their number spoke of an ancient Saurian weapon of dread power: [[col:yellow]]The No'Tidoq Artifact[[/col]]. The Lizardmen, for reasons known only to them, have split the artifact into three pieces and sealed them within heavily-warded vaults across Lustria.	true
@@ -447,7 +447,7 @@ mission_text_text_vco_ogr_the_maw_that_walks_98	Meat for the Cauldron! Offer a t
 mission_text_text_vco_ogr_the_maw_that_walks_99	Meat for the Cauldron! Offer a total of 200 [[img:icon_ogr_meat]][[/img]]Meat to the [[url:#]]Great Maw[[/url]].\\n(Current: 99%)	true
 mission_text_text_vco_skv_mdr_1_yes_yes_prepare_the_lab_1	<dummy>Clan Moulder swarms westward, journeying to the frozen lands of [[col:subtitle_ursun]]Norsca[[/col]]. The savages that eke out a living here will serve well as livestock and fodder for the [[col:subtitle_kislev_crowd]]Flesh Labs[[/col]], though Throt has his sights set on larger prey. All manner of ferocious, tainted beasts stalk these lands, and the Packmasters stand ready to drag them all back to [[col:dark_r]]Hell Pit[[/col]] for Throt's twisted experiments. Let the hunt begin!	false
 mission_text_text_vco_skv_mdr_1_yes_yes_prepare_the_lab	Unlock all [[url:#]]Infantry Augments[[/url]] and [[url:#]]Monster Augments[[/url]].	true
-mission_text_text_vco_skv_mdr_2_the_vermintide_comes	<dummy>Throt leads his vermintide south, into the realm of the man-things. [[col:dark_r]]Hell Pit's[[/col]] fleshy depths bulge with an overabundance of Throt's offspring. The time has come to unleash this vermintide upon the realms of men. The bells of war toll thirteen times, and the chittering hordes spill forth...	true
+mission_text_text_vco_skv_mdr_2_the_vermintide_comes	<dummy>Throt leads his vermintide south, into the realm of the man-things. [[col:dark_r]]Hell Pit[[/col]]'s fleshy depths bulge with an overabundance of Throt's offspring. The time has come to unleash this vermintide upon the realms of men. The bells of war toll thirteen times, and the chittering hordes spill forth...	true
 mission_text_text_vco_skv_mdr_3_ultimate_harvest	<dummy>Throt journeys south, seeking to destroy precious [[col:green]]Asrai Waystones[[/col]] hidden in forests throughout the Old World. Their destruction will draw the Elf Queen, [[col:green]]Ariel[[/col]], out of hiding, and render her vulnerable for the first time in aeons. By Throt's reckoning, acquiring the demigoddess' life essence will make Clan Moulder the most powerful clan in all of Skavendom!	true
 mission_text_text_vco_sla_cults_established_1	Establish at least 20 [[url:script_link_campaign_chaos_cults]]Chaos Cults[[/url]]. (Current: 1)	true
 mission_text_text_vco_sla_cults_established_2	Establish at least 20 [[url:script_link_campaign_chaos_cults]]Chaos Cults[[/url]]. (Current: 2)	true
@@ -518,107 +518,107 @@ mission_text_text_vco_sla_nka_3_bloodline_aenarion	<dummy>The Arch-Temptor has b
 mission_text_text_vco_sla_nka_3_wrath_desire_roc_1	<dummy>The Dark Prince visited exquisite agony upon N'Kari for his failure to defeat the Exiled One. His wounded pride can only be salved with the sweet nectar of revenge...	true
 mission_text_text_vco_sla_nka_3_wrath_desire_roc_2	<dummy>Though Ulthuan is presently shrouded from N'Kari's gaze, the amoral beings of the Old World beg for release. Let us indulge them.	true
 mission_text_text_vco_sla_nka_3_wrath_desire_roc_3	Control at least [[url:#]]6[[/url]] of the following [[url:#]]9[[/url]] regions either by [[img:sword_of_khaine]][[/img]]conquest or through [[img:icon_vassal]][[/img]]vassals and [[img:icon_military_alliance]][[/img]]military allies:	true
-mission_text_text_vco_the_great_game_completed	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.	true
-mission_text_text_vco_the_great_game_completed_0	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 0)	true
-mission_text_text_vco_the_great_game_completed_1	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 1)	true
-mission_text_text_vco_the_great_game_completed_2	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 2)	true
-mission_text_text_vco_the_great_game_completed_3	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 3)	true
-mission_text_text_vco_the_great_game_completed_4	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 4)	true
-mission_text_text_vco_the_great_game_completed_5	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 5)	true
-mission_text_text_vco_the_great_game_completed_6	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 6)	true
-mission_text_text_vco_the_great_game_completed_7	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 7)	true
-mission_text_text_vco_the_great_game_completed_8	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 8)	true
-mission_text_text_vco_the_great_game_completed_9	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 9)	true
-mission_text_text_vco_the_great_game_completed_10	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 10)	true
-mission_text_text_vco_the_great_game_completed_11	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 11)	true
-mission_text_text_vco_the_great_game_completed_12	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 12)	true
-mission_text_text_vco_the_great_game_completed_13	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 13)	true
-mission_text_text_vco_the_great_game_completed_14	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 14)	true
-mission_text_text_vco_the_great_game_completed_15	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 15)	true
-mission_text_text_vco_the_great_game_completed_16	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 16)	true
-mission_text_text_vco_the_great_game_completed_17	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 17)	true
-mission_text_text_vco_the_great_game_completed_18	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 18)	true
-mission_text_text_vco_the_great_game_completed_19	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 19)	true
-mission_text_text_vco_the_great_game_completed_20	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 20)	true
-mission_text_text_vco_the_great_game_completed_21	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 21)	true
-mission_text_text_vco_the_great_game_completed_22	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 22)	true
-mission_text_text_vco_the_great_game_completed_23	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 23)	true
-mission_text_text_vco_the_great_game_completed_24	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 24)	true
-mission_text_text_vco_the_great_game_completed_25	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 25)	true
-mission_text_text_vco_the_great_game_completed_26	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 26)	true
-mission_text_text_vco_the_great_game_completed_27	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 27)	true
-mission_text_text_vco_the_great_game_completed_28	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 28)	true
-mission_text_text_vco_the_great_game_completed_29	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 29)	true
-mission_text_text_vco_the_great_game_completed_30	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 30)	true
-mission_text_text_vco_the_great_game_completed_31	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 31)	true
-mission_text_text_vco_the_great_game_completed_32	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 32)	true
-mission_text_text_vco_the_great_game_completed_33	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 33)	true
-mission_text_text_vco_the_great_game_completed_34	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 34)	true
-mission_text_text_vco_the_great_game_completed_35	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 35)	true
-mission_text_text_vco_the_great_game_completed_36	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 36)	true
-mission_text_text_vco_the_great_game_completed_37	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 37)	true
-mission_text_text_vco_the_great_game_completed_38	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 38)	true
-mission_text_text_vco_the_great_game_completed_39	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 39)	true
-mission_text_text_vco_the_great_game_completed_40	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 40)	true
-mission_text_text_vco_the_great_game_completed_41	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 41)	true
-mission_text_text_vco_the_great_game_completed_42	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 42)	true
-mission_text_text_vco_the_great_game_completed_43	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 43)	true
-mission_text_text_vco_the_great_game_completed_44	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 44)	true
-mission_text_text_vco_the_great_game_completed_45	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 45)	true
-mission_text_text_vco_the_great_game_completed_46	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 46)	true
-mission_text_text_vco_the_great_game_completed_47	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 47)	true
-mission_text_text_vco_the_great_game_completed_48	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 48)	true
-mission_text_text_vco_the_great_game_completed_49	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 49)	true
-mission_text_text_vco_the_great_game_completed_50	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 50)	true
-mission_text_text_vco_the_great_game_completed_51	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 51)	true
-mission_text_text_vco_the_great_game_completed_52	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 52)	true
-mission_text_text_vco_the_great_game_completed_53	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 53)	true
-mission_text_text_vco_the_great_game_completed_54	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 54)	true
-mission_text_text_vco_the_great_game_completed_55	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 55)	true
-mission_text_text_vco_the_great_game_completed_56	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 56)	true
-mission_text_text_vco_the_great_game_completed_57	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 57)	true
-mission_text_text_vco_the_great_game_completed_58	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 58)	true
-mission_text_text_vco_the_great_game_completed_59	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 59)	true
-mission_text_text_vco_the_great_game_completed_60	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 60)	true
-mission_text_text_vco_the_great_game_completed_61	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 61)	true
-mission_text_text_vco_the_great_game_completed_62	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 62)	true
-mission_text_text_vco_the_great_game_completed_63	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 63)	true
-mission_text_text_vco_the_great_game_completed_64	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 64)	true
-mission_text_text_vco_the_great_game_completed_65	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 65)	true
-mission_text_text_vco_the_great_game_completed_66	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 66)	true
-mission_text_text_vco_the_great_game_completed_67	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 67)	true
-mission_text_text_vco_the_great_game_completed_68	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 68)	true
-mission_text_text_vco_the_great_game_completed_69	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 69)	true
-mission_text_text_vco_the_great_game_completed_70	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 70)	true
-mission_text_text_vco_the_great_game_completed_71	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 71)	true
-mission_text_text_vco_the_great_game_completed_72	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 72)	true
-mission_text_text_vco_the_great_game_completed_73	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 73)	true
-mission_text_text_vco_the_great_game_completed_74	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 74)	true
-mission_text_text_vco_the_great_game_completed_75	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 75)	true
-mission_text_text_vco_the_great_game_completed_76	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 76)	true
-mission_text_text_vco_the_great_game_completed_77	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 77)	true
-mission_text_text_vco_the_great_game_completed_78	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 78)	true
-mission_text_text_vco_the_great_game_completed_79	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 79)	true
-mission_text_text_vco_the_great_game_completed_80	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 80)	true
-mission_text_text_vco_the_great_game_completed_81	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 81)	true
-mission_text_text_vco_the_great_game_completed_82	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 82)	true
-mission_text_text_vco_the_great_game_completed_83	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 83)	true
-mission_text_text_vco_the_great_game_completed_84	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 84)	true
-mission_text_text_vco_the_great_game_completed_85	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 85)	true
-mission_text_text_vco_the_great_game_completed_86	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 86)	true
-mission_text_text_vco_the_great_game_completed_87	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 87)	true
-mission_text_text_vco_the_great_game_completed_88	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 88)	true
-mission_text_text_vco_the_great_game_completed_89	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 89)	true
-mission_text_text_vco_the_great_game_completed_90	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 90)	true
-mission_text_text_vco_the_great_game_completed_91	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 91)	true
-mission_text_text_vco_the_great_game_completed_92	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 92)	true
-mission_text_text_vco_the_great_game_completed_93	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 93)	true
-mission_text_text_vco_the_great_game_completed_94	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 94)	true
-mission_text_text_vco_the_great_game_completed_95	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 95)	true
-mission_text_text_vco_the_great_game_completed_96	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 96)	true
-mission_text_text_vco_the_great_game_completed_97	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 97)	true
-mission_text_text_vco_the_great_game_completed_98	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 98)	true
-mission_text_text_vco_the_great_game_completed_99	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 99)	true
+mission_text_text_vcogg_the_great_game_completed	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.	true
+mission_text_text_vcogg_the_great_game_completed_0	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 0)	true
+mission_text_text_vcogg_the_great_game_completed_1	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 1)	true
+mission_text_text_vcogg_the_great_game_completed_2	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 2)	true
+mission_text_text_vcogg_the_great_game_completed_3	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 3)	true
+mission_text_text_vcogg_the_great_game_completed_4	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 4)	true
+mission_text_text_vcogg_the_great_game_completed_5	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 5)	true
+mission_text_text_vcogg_the_great_game_completed_6	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 6)	true
+mission_text_text_vcogg_the_great_game_completed_7	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 7)	true
+mission_text_text_vcogg_the_great_game_completed_8	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 8)	true
+mission_text_text_vcogg_the_great_game_completed_9	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 9)	true
+mission_text_text_vcogg_the_great_game_completed_10	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 10)	true
+mission_text_text_vcogg_the_great_game_completed_11	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 11)	true
+mission_text_text_vcogg_the_great_game_completed_12	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 12)	true
+mission_text_text_vcogg_the_great_game_completed_13	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 13)	true
+mission_text_text_vcogg_the_great_game_completed_14	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 14)	true
+mission_text_text_vcogg_the_great_game_completed_15	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 15)	true
+mission_text_text_vcogg_the_great_game_completed_16	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 16)	true
+mission_text_text_vcogg_the_great_game_completed_17	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 17)	true
+mission_text_text_vcogg_the_great_game_completed_18	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 18)	true
+mission_text_text_vcogg_the_great_game_completed_19	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 19)	true
+mission_text_text_vcogg_the_great_game_completed_20	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 20)	true
+mission_text_text_vcogg_the_great_game_completed_21	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 21)	true
+mission_text_text_vcogg_the_great_game_completed_22	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 22)	true
+mission_text_text_vcogg_the_great_game_completed_23	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 23)	true
+mission_text_text_vcogg_the_great_game_completed_24	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 24)	true
+mission_text_text_vcogg_the_great_game_completed_25	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 25)	true
+mission_text_text_vcogg_the_great_game_completed_26	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 26)	true
+mission_text_text_vcogg_the_great_game_completed_27	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 27)	true
+mission_text_text_vcogg_the_great_game_completed_28	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 28)	true
+mission_text_text_vcogg_the_great_game_completed_29	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 29)	true
+mission_text_text_vcogg_the_great_game_completed_30	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 30)	true
+mission_text_text_vcogg_the_great_game_completed_31	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 31)	true
+mission_text_text_vcogg_the_great_game_completed_32	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 32)	true
+mission_text_text_vcogg_the_great_game_completed_33	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 33)	true
+mission_text_text_vcogg_the_great_game_completed_34	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 34)	true
+mission_text_text_vcogg_the_great_game_completed_35	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 35)	true
+mission_text_text_vcogg_the_great_game_completed_36	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 36)	true
+mission_text_text_vcogg_the_great_game_completed_37	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 37)	true
+mission_text_text_vcogg_the_great_game_completed_38	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 38)	true
+mission_text_text_vcogg_the_great_game_completed_39	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 39)	true
+mission_text_text_vcogg_the_great_game_completed_40	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 40)	true
+mission_text_text_vcogg_the_great_game_completed_41	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 41)	true
+mission_text_text_vcogg_the_great_game_completed_42	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 42)	true
+mission_text_text_vcogg_the_great_game_completed_43	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 43)	true
+mission_text_text_vcogg_the_great_game_completed_44	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 44)	true
+mission_text_text_vcogg_the_great_game_completed_45	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 45)	true
+mission_text_text_vcogg_the_great_game_completed_46	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 46)	true
+mission_text_text_vcogg_the_great_game_completed_47	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 47)	true
+mission_text_text_vcogg_the_great_game_completed_48	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 48)	true
+mission_text_text_vcogg_the_great_game_completed_49	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 49)	true
+mission_text_text_vcogg_the_great_game_completed_50	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 50)	true
+mission_text_text_vcogg_the_great_game_completed_51	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 51)	true
+mission_text_text_vcogg_the_great_game_completed_52	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 52)	true
+mission_text_text_vcogg_the_great_game_completed_53	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 53)	true
+mission_text_text_vcogg_the_great_game_completed_54	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 54)	true
+mission_text_text_vcogg_the_great_game_completed_55	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 55)	true
+mission_text_text_vcogg_the_great_game_completed_56	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 56)	true
+mission_text_text_vcogg_the_great_game_completed_57	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 57)	true
+mission_text_text_vcogg_the_great_game_completed_58	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 58)	true
+mission_text_text_vcogg_the_great_game_completed_59	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 59)	true
+mission_text_text_vcogg_the_great_game_completed_60	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 60)	true
+mission_text_text_vcogg_the_great_game_completed_61	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 61)	true
+mission_text_text_vcogg_the_great_game_completed_62	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 62)	true
+mission_text_text_vcogg_the_great_game_completed_63	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 63)	true
+mission_text_text_vcogg_the_great_game_completed_64	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 64)	true
+mission_text_text_vcogg_the_great_game_completed_65	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 65)	true
+mission_text_text_vcogg_the_great_game_completed_66	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 66)	true
+mission_text_text_vcogg_the_great_game_completed_67	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 67)	true
+mission_text_text_vcogg_the_great_game_completed_68	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 68)	true
+mission_text_text_vcogg_the_great_game_completed_69	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 69)	true
+mission_text_text_vcogg_the_great_game_completed_70	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 70)	true
+mission_text_text_vcogg_the_great_game_completed_71	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 71)	true
+mission_text_text_vcogg_the_great_game_completed_72	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 72)	true
+mission_text_text_vcogg_the_great_game_completed_73	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 73)	true
+mission_text_text_vcogg_the_great_game_completed_74	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 74)	true
+mission_text_text_vcogg_the_great_game_completed_75	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 75)	true
+mission_text_text_vcogg_the_great_game_completed_76	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 76)	true
+mission_text_text_vcogg_the_great_game_completed_77	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 77)	true
+mission_text_text_vcogg_the_great_game_completed_78	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 78)	true
+mission_text_text_vcogg_the_great_game_completed_79	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 79)	true
+mission_text_text_vcogg_the_great_game_completed_80	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 80)	true
+mission_text_text_vcogg_the_great_game_completed_81	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 81)	true
+mission_text_text_vcogg_the_great_game_completed_82	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 82)	true
+mission_text_text_vcogg_the_great_game_completed_83	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 83)	true
+mission_text_text_vcogg_the_great_game_completed_84	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 84)	true
+mission_text_text_vcogg_the_great_game_completed_85	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 85)	true
+mission_text_text_vcogg_the_great_game_completed_86	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 86)	true
+mission_text_text_vcogg_the_great_game_completed_87	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 87)	true
+mission_text_text_vcogg_the_great_game_completed_88	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 88)	true
+mission_text_text_vcogg_the_great_game_completed_89	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 89)	true
+mission_text_text_vcogg_the_great_game_completed_90	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 90)	true
+mission_text_text_vcogg_the_great_game_completed_91	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 91)	true
+mission_text_text_vcogg_the_great_game_completed_92	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 92)	true
+mission_text_text_vcogg_the_great_game_completed_93	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 93)	true
+mission_text_text_vcogg_the_great_game_completed_94	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 94)	true
+mission_text_text_vcogg_the_great_game_completed_95	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 95)	true
+mission_text_text_vcogg_the_great_game_completed_96	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 96)	true
+mission_text_text_vcogg_the_great_game_completed_97	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 97)	true
+mission_text_text_vcogg_the_great_game_completed_98	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 98)	true
+mission_text_text_vcogg_the_great_game_completed_99	Ascend in [[url:#]]The Great Game[[/url]] by spreading your corruption over 50 regions.\\n(Current: 99)	true
 mission_text_text_vco_tmb_ark_1_thy_kingdom_come	<dummy>Arkhan has feigned obedience to Settra for long enough. The time has come to march out and retake the ancient lands of his master, the Great Necromancer Nagash.	true
 mission_text_text_vco_tmb_ark_2_born_to_serve	<dummy>The vampires did not drink from the Elixir of Life as Arkhan did, but from a lesser, corrupted version that cursed them with unlife. They are forever bound to the will of Nagash, and as his foremost servant, Arkhan can command them just as easily.	true
 mission_text_text_vco_tmb_ark_2_born_to_serve_region_overwrite	Control at least 4 of the following regions either by direct ownership or through [[img:icon_vassal]][[/img]]vassals and [[img:icon_military_alliance]][[/img]]military allies:	true
@@ -706,7 +706,7 @@ mission_text_text_vco_chd_zha_1_storms_end_roc	<dummy>Zhatan orders his [[col:su
 mission_text_text_vco_chd_dra_3_the_last_days_roc	<dummy>Drazhoath means to achieve his greatest conquest yet. A feat of such significance that all his rivals in [[col:dark_r]]Zharr-Naggrund[[/col]] will have no choice but to recognise his supremacy. He leads the Legion of Azgorh on a long march west, to [[col:ancillary_rare]]Karak Kadrin[[/col]], birthplace of the famed Slayers and seat of the Slayer King, [[col:ancillary_rare]]Ungrim Ironfist[[/col]].	false
 mission_text_text_vco_emp_vol_1_restless_dunes	<dummy>From the Imperial colony of Sudenburg, the Grand Theogonist leads his devout followers on a holy war against the forces of corruption, heresy and death in these arid lands.	false
 mission_text_text_vco_emp_vol_2_face_your_daemons	<dummy>“The Daemons of Chaos can be likened to hungry and rabid wolves. The shepherd should not waste time hating the wolf that attacks his flock. He should simply kill it.”	false
-mission_text_text_vco_emp_vol_3_bibliophobe	<dummy>Under the Grand Theogonist's guidance, the Cult of Sigmar journeys across the world to seek out the [[col:ancillary_unique]]Books of Nagash[[/col]]. These accursed tomes must be sealed away for all time, lest they fall into the hands of the Empire's enemies.	false
+mission_text_text_vco_emp_vol_3_bibliophobe	<dummy>Under the Grand Theogonist's guidance, the Cult of Sigmar journeys across the world to seek out the [[[col:subtitle_daemon_prince]]Books of Nagash[[/col]]. These accursed tomes must be sealed away for all time, lest they fall into the hands of the Empire's enemies.	false
 mission_text_text_vco_chs_bel_1_shadows_albion	<dummy>After his failure to steal Ursun's godly strength, Be'lakor flew on wings of shadow to the far-flung isle of Albion. There, he harvested the energies of that mystic isle to weave himself a new body. Now, with the [[col:ancillary_unique]]Shadow Rifts[[/col]] at his disposal, he stands ready to besiege the mortal world once more.	false
 mission_text_text_vco_chs_bel_2_no_strings_on_me	<dummy>As the hour of the thirteenth coronation draws near, Be'lakor is driven as never before to throw off his shackles. He will lay low the Chaos Gods' greatest champions. This time, the daemonic legions will march not at the whims of the thirteenth Everchosen, Archaon, but in accordance with his own plans, whether the Chaos Gods wish it or no.	false
 mission_text_text_vco_chs_bel_3_aetherophasic_engine	<dummy>Be'lakor leads his legions through the [[col:ancillary_unique]]Shadow Rifts[[/col]], searching for cursed souls and fell arcana to power a mysterious new creation within the Forge of Souls.	false
@@ -768,3 +768,16 @@ mission_text_text_vco_hef_nag_1_shadows_over_naggaroth	<dummy>The Shadow King le
 mission_text_text_vco_hef_nag_2_amulet_of_sunfire	<dummy>While resting in a moonlit glade, the Shadow King is approached by an apparition of Lileath, the goddess of dreams and fortune. She reveals that the [[col:subtitle_kairos_future]]Amulet of Sunfire[[/col]], once lost beneath the waves, has been found by a Black Ark Corsair who has now gone into hiding somewhere in [[col:ancillary_unique]]Naggaroth[[/col]].	false
 mission_text_text_vco_hef_nag_3_the_eternal_war	<dummy>“Do not long for peace, for there can be none while any Druchii still draw breath. Embrace war as the crucible of your valediction, the means to purge this stain upon our people. Swear oaths of vengeance, not to me or your companions or to the uncaring gods, but to fallen mothers and fathers, dead sisters and brothers, slain sons and daughters. Take the darkness that the Druchii have created and rob them of its power.”	false
 mission_text_text_vco_hef_nag_2_amulet_of_sunfire_1	Search for the [[col:subtitle_kairos_future]]Amulet of Sunfire[[/col]] by securing settlements via [[img:sword_of_khaine]][[/img]]conquest or through [[img:icon_vassal]][[/img]]vassals and [[img:icon_military_alliance]][[/img]]military allies:	false
+mission_text_text_vco_dwf_bel_1_the_reckoning	<dummy>[[col:yellow]]Zarakzil[[/col]] is beset by foes on all sides. The Exile King knows that the modest hold cannot withstand these threats alone. Standing atop his Oathstone, he declares to all his kin that he would rather die in exile than see another hold suffer the fate of his ancestral hold.	false
+mission_text_text_vco_dwf_bel_2_friend_or_foe	<dummy>The [[col:subtitle_miao_ying]]Grey Dwarfs[[/col]] are primarily the descendants of refugees from the broken holds of the Worlds Edge Mountains who now spend their days harvesting the meagre resources of the [[col:subtitle_miao_ying]]Grey Mountains[[/col]]. Belegar means to reignite their warrior spirit and unite them under the banner of Clan Angrund.	false
+mission_text_text_vco_dwf_bel_2_friend_or_foe_1	<dummy>To the west, foul grobi and uzkular raid and pillage the manlings of [[col:ancillary_rare]]Bretonnia[[/col]]. Though the stone from their shoddy castles could be put to far better use, perhaps it would be wiser to cut down their foes and win Clan Angrund a powerful, wealthy ally?	false
+mission_text_text_vco_dwf_bel_2_friend_or_foe_2	<dummy>The [[col:ancillary_uncommon]]Elves of Athel Loren[[/col]] have traded blows with the Dwarfs on numerous occasions. Many think such grievances can only be avenged with blood and fire, but others argue it is time to make peace with the wutelgi and fight shoulder-to-shoulder against the common foe.	false
+mission_text_text_vco_dwf_bel_3_karak_eight_peaks	<dummy>The time is nigh for Clan Angrund to reclaim [[col:yellow]]Karak Eight Peaks[[/col]] from the Grobi and Thaggoraki despoilers! Belegar Ironhammer, clan leader and direct descendant of King Lunn, the last Dwarf to rule the ancestral hold, has inherited a bitter legacy of hatred and resentment. Even now he marshals his throng, making ready to strike out from Zarakzil. With the spirits of his fabled ancestors returned to fight by his side, Belegar will see his oaths fulfilled, and pass into legend himself.	false
+mission_text_text_vco_grn_ska_1_worlds_edge_warlord	<dummy>By the light of flickering candles made of Dwarf-fat, Skarsnik sits on his iron throne and plots yet more wicked schemes of conquest. [[col:yellow]]Mount Gunbad[[/col]] is his. [[col:yellow]]Karak Eight Peaks[[/col]] is his (those treasonous gits just didn't know it yet). Why stop there? Why shouldn't all the mountains be his to rule? Why indeed?	false
+mission_text_text_vco_grn_ska_2_squig_feast	<dummy>Skarsnik is concerned. His ever-present pet, the Giant Cave Squig named [[col:subtitle_valkia]]Gobbla[[/col]], looks a bit pale of late. Perhaps he grows tired of stunties and ratties and needs more variety in his diet! Wasting no time, Skarsnik gathers a great host of Squigs into a mighty stampede and, with a blast of his Prodder, sends them bounding off into the east. Let the feasting begin!	false
+mission_text_text_vco_grn_ska_2_squig_feast_1	Continue [[col:subtitle_valkia]]Gobbla[[/col]]'s culinary crusade by securing settlements via [[img:sword_of_khaine]][[/img]]conquest or through [[img:icon_vassal]][[/img]]vassals and [[img:icon_military_alliance]][[/img]]military allies:	false
+mission_text_text_vco_grn_ska_3_karak_eight_peaks	<dummy>Skarsnik, the self-proclaimed Night Goblin Warlord of [[col:yellow]]Karak Eight Peaks[[/col]], has taken leave of the hold to lead a squig-hunting excursion in the Worlds Edge Mountains. Unfortunately, in his absence, his treacherous subordinates have claimed the [[col:yellow]]Eight Peaks[[/col]] as their own. Worse still, rumour has it that stinking stunties and ratties have their sights set on the hold too! This won't do. These gits need to learn the hard way who is the one and only Warlord of the [[col:yellow]]Eight Peaks[[/col]]!	false
+mission_text_text_vco_skv_mor_1_the_chorus_grows	<dummy>The rack upon Queek's back is adorned with grisly [[col:dark_r]]trophies[[/col]], each taken from the ruined corpses of his mightiest foes. Their trapped souls gibber to Queek endlessly, driving him to the edge of madness. Yet each soul has its own wisdom, and many a battle has been won thanks to their sage advice. More voices must join the chorus, so Queek's victories will never cease!	false
+mission_text_text_vco_skv_mor_2_withering_idol	<dummy>Under the orders of Warlord Gnawdwell, Queek leads his clawpack across the [[col:green]]Southlands[[/col]]. They have been tasked with finding the [[col:ancillary_unique]]Withering Idol[[/col]], an ancient artefact rumoured to hold great power.	false
+mission_text_text_vco_skv_mor_2_withering_idol_1	Search for the [[col:ancillary_unique]]Withering Idol[[/col]] by securing settlements via [[img:sword_of_khaine]][[/img]]conquest or through [[img:icon_vassal]][[/img]]vassals and [[img:icon_military_alliance]][[/img]]military allies:	false
+mission_text_text_vco_skv_mor_3_karak_eight_peaks	<dummy>Within his powerbase underneath the once majestic stronghold of [[col:yellow]]Karak Eight Peaks[[/col]], now called the City of Pillars by the Skaven, Queek has been fighting a never-ending war of attrition against the battle-hardened Dwarf armies of King Belegar Ironhammer and the Greenskin hordes of Warlord Skarsnik. A powerful warrior in his own right, Queek's deeds have since garnered the respect of the Orcs, the fears of the Goblins and the eternal hatred of the Dwarfs.	false

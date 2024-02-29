@@ -3,7 +3,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_hef_tyr_1_defender_ulthuan;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer MUFFIN_MAN;
 			primary_objectives_and_payload
 			{
@@ -67,7 +67,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_hef_tyr_2_love_and_war;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -153,7 +153,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_hef_tyr_3_fate_of_the_soul;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer KING_KAZADOR;
 			primary_objectives_and_payload
 			{
