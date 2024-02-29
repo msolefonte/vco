@@ -15,11 +15,11 @@ local function check_mono_gods_the_great_game(faction_key, corruption_key)
 	local corrupted_regions = vlc.corruption:count_regions_where_corruption_is_highest(corruption_key);
 
 	if corrupted_regions < REQUIRED_CORRUPTED_REGIONS_VICTORY then
-		vco:set_mission_text("vco_" .. faction_key .. "_the_great_game",
-			"vco_the_great_game_completed_" .. corrupted_regions);
+		vco:set_mission_text("vcogg_" .. faction_key .. "_the_great_game",
+			"vcogg_the_great_game_completed_" .. corrupted_regions);
 	else
-		vco:set_mission_text("vco_" .. faction_key .. "_the_great_game", "vco_the_great_game_completed");
-		vco:complete_mission(faction_key, "vco_" .. faction_key .. "_the_great_game");
+		vco:set_mission_text("vcogg_" .. faction_key .. "_the_great_game", "vcogg_the_great_game_completed");
+		vco:complete_mission(faction_key, "vcogg_" .. faction_key .. "_the_great_game");
 	end
 end
 
@@ -30,7 +30,8 @@ local function add_listeners()
 		"vco_mono_gods_faction_turn_start",
 		"FactionTurnStart",
 		function(context)
-			return context:faction():is_human();
+			return context:faction():is_human() and
+			       context:faction():name() == FACTION_NKARI_KEY or FACTION_KUGATH_KEY or FACTION_SKARBRAND_KEY or FACTION_KAIROS_KEY;
 		end,
 		function(context)
 			local corruption_key = "";

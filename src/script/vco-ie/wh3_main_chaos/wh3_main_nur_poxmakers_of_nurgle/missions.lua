@@ -16,7 +16,7 @@ local missions = {
 
 				objective
 				{
-					override_text mission_text_text_vco_the_great_game_completed_0;
+					override_text mission_text_text_vcogg_the_great_game_completed_0;
 					type SCRIPTED;
 					script_key vco_wh3_main_nur_poxmakers_of_nurgle_the_great_game;
 				}
