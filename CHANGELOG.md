@@ -10,22 +10,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added new routes for Belegar Ironhammer: Clan Angrund
 - Added new routes for Skarsnik: Crooked Moon
 - Added new routes for Queek Headtaker: Clan Mors
-- Added quest battles for Belegar, Skarsnik and Queek triggered by upgrading the Karak Eight Peaks landmark to maximum.
-- Updated Default Short Victory rewards no longer are rewarded in addition to VCO's custom rewards.
+- Added quest battles for Belegar, Skarsnik and Queek triggered by upgrading the Karak Eight Peaks landmark to maximum
+- Updated Default Short Victory rewards no longer are rewarded in addition to VCO's custom rewards
 - Updated Karl Franz Reiklan: Reworked route 3, added Storm of Chaos quest battle upon completion
-- Updated VCO quest battles, so they are playable from the main menu.
-- Fixed a bug, where Zhatan's route 1 victory condition triggered prematurely.
-- Fixed a bug, where Throgg's route 1 was impossible to complete.
+- Updated VCO quest battles, so they are playable from the main menu
+- Fixed a bug, where Zhatan's route 1 victory condition triggered prematurely
+- Fixed a bug, where Throgg's route 1 was impossible to complete
 
 ## [5.14.0] - 24.12.2023
 
 - Added new routes for Throgg: Wintertooth
 - Added new routes for Alith Anar: Nagarythe
-- Added Vortex quest battle objective for Throt the Unclean: Clan Moulder, where Ghoritch can fight against Archaon and get his revenge (triggers by completing route 1).
-- Added Vortex quest battle objective for Alarielle the Radiant: Avelorn, where she fights a corrupted Ariel and absorbs her powers (triggers by completing route 3).
-- Added Vortex quest battle objective for Crone Hellebron: Har Ganeth,  where Hellebron fights Alarielle at Avelorn (triggers by building the Shrine of Khaine).
-- Fixed a bug where Sisters of Twilight route 1 wasn't appearing.
-- Fixed bug where Kemmler's route 1 reward wasn't applying upkeep reduction.
+- Added Vortex quest battle objective for Throt the Unclean: Clan Moulder
+- Added Vortex quest battle objective for Alarielle the Radiant: Avelorn
+- Added Vortex quest battle objective for Crone Hellebron: Har Ganeth
+- Fixed a bug where Sisters of Twilight route 1 wasn't appearing
+- Fixed bug where Kemmler's route 1 reward wasn't applying upkeep reduction
 
 ## [5.13.1] - 02.12.2023
 
