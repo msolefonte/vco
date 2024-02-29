@@ -31,18 +31,23 @@ vco_anc_enchanted_item_withering_orb	wh_main_anc_enchanted_item	.	true	false	fal
 vco_anc_enchanted_item_writ_of_iron	wh_main_anc_enchanted_item	.	true	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			200	0		false	false	false	all
 vco_anc_follower_belegars_head	vco_anc_follower_belegars_head	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			200	0	follower	false	false	false	all
 vco_anc_follower_crowfathers_wings	vco_anc_follower_crowfathers_wings	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			200	0	follower	false	false	false	all
+vco_anc_follower_dammaz_kron	vco_anc_follower_dammaz_kron	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			200	0	follower	false	false	false	all
 vco_anc_follower_damsels_ashes	vco_anc_follower_damsels_ashes	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			200	0	follower	false	false	false	all
 vco_anc_follower_dark_convent_defector	vco_anc_follower_dark_convent_defector	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			200	0	follower	false	false	false	all
 vco_anc_follower_eye_of_rage	vco_anc_follower_eye_of_rage	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			200	0	follower	false	false	false	all
 vco_anc_follower_fozzrik_summoner	vco_anc_follower_fozzrik_summoner	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			200	0	follower	false	false	false	all
+vco_anc_follower_golden_mawtooth	vco_anc_follower_golden_mawtooth	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			200	0	follower	false	false	false	all
+vco_anc_follower_graven_idol	vco_anc_follower_graven_idol	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			200	0	follower	false	false	false	all
 vco_anc_follower_grey_dwarf	vco_anc_follower_grey_dwarf	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			200	0	follower	false	false	false	all
 vco_anc_follower_haurg_frostmaw	vco_anc_follower_haurg_frostmaw	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			200	0	follower	false	false	false	all
 vco_anc_follower_ice_vampire	vco_anc_follower_ice_vampire	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			200	0	follower	false	false	false	all
 vco_anc_follower_jade_griffon	vco_anc_follower_jade_griffon	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			200	0	follower	false	false	false	all
 vco_anc_follower_kemmler_black_grail_knight	vco_anc_follower_kemmler_black_grail_knight	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			200	0	follower	false	false	false	all
 vco_anc_follower_lobotomised_warmbloods	vco_anc_follower_lobotomised_warmbloods	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			200	0	follower	false	false	false	all
+vco_anc_follower_minaithnirs_skull	vco_anc_follower_minaithnirs_skull	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			200	0	follower	false	false	false	all
 vco_anc_follower_naieth_the_prophetess	vco_anc_follower_naieth_the_prophetess	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			200	0	follower	false	false	false	all
 vco_anc_follower_priestess_of_isha	vco_anc_follower_priestess_of_isha	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			200	0	follower	false	false	false	all
+vco_anc_follower_ruby_lahmia	vco_anc_follower_ruby_lahmia	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			200	0	follower	false	false	false	all
 vco_anc_follower_settras_head	vco_anc_follower_settras_head	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			200	0	follower	false	false	false	all
 vco_anc_follower_shadowblade	vco_anc_follower_shadowblade	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			200	0	follower	false	false	false	all
 vco_anc_follower_ska_bloodtail	vco_anc_follower_ska_bloodtail	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			200	0	follower	false	false	false	all

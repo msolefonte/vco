@@ -56,7 +56,6 @@ scripted_subtitles_localised_text_vco_throt_archaon_speech_04	My vengeance is ga
 scripted_objectives_localised_text_vco_throt_custom_quest_archaon_message_champions_come	The Everchosen sends his champions! Good-good! More meat-flesh for the war-beasts!	false
 battle_set_piece_armies_army_onscreen_name_vco_custom_quest_throt_ghoritch_enemy_army_godslayer	The Legion of Chaos	false
 battle_set_piece_armies_army_onscreen_name_vco_custom_quest_throt_ghoritch_enemy_army_champions_sla_tze	The Champions of Chaos	false
-battle_set_piece_armies_army_onscreen_name_vco_custom_quest_throt_ghoritch_enemy_army_champions_kho_nur	The Champions of Chaos	false
 battle_set_piece_armies_army_onscreen_name_vco_custom_quest_throt_ghoritch_ally_army_hell_pit_garrison	Clan Moulder's Monstrous Menagerie	false
 missions_localised_title_vco_route_victory	Route	false
 scripted_objectives_localised_text_vco_belegar_custom_quest_ungrim_arrival_message	The Slayers from Karak Kadrin come to our aid! Die well, brothers!	false
@@ -112,5 +111,9 @@ scripted_subtitles_localised_text_vco_conclave_light_speech_03	Only a fool under
 scripted_subtitles_localised_text_vco_conclave_light_speech_04	It would be unwise to waste- Ready axes!	false
 scripted_subtitles_localised_text_vco_conclave_light_speech_05	I will brook no meagerness. Our common cause shall benefit the world.	false
 scripted_subtitles_localised_text_vco_conclave_light_speech_06	Agreed. Refusing union weakens us all.	false
-scripted_subtitles_localised_text_vco_conclave_light_speech_07	As Sigmar fought, so shall we;. We have marched many miles, but there is no distance so great that I would not gladly march it to face this - our ultimate foe!	false
+scripted_subtitles_localised_text_vco_conclave_light_speech_07	As Sigmar fought, so shall we. We have marched many miles, but there is no distance so great that I would not gladly march it to face this - our ultimate foe!	false
 scripted_subtitles_localised_text_vco_conclave_light_speech_08	For Sigmar, for the Empire, for the WARHAMMER!	false
+missions_localised_title_vco_wh2_dlc14_qb_def_final_battle_malus	Southlands Sacrifice	false
+missions_localised_description_vco_wh2_dlc14_qb_def_final_battle_malus	With his mission in the Chaos Wastes complete, Malus begins the journey back to Naggarond. While at sea, he is visited by the Witch King himself, who alights upon Malus' Black Ark atop his draconic mount, Seraphon. He orders Malus to divert to the Skaven-infested jungles of the Southlands and seek out the Temple of Skulls. It is here where the daemons' souls must be sacrificed in order to open an ancient chamber containing the long lost Scrolls of Herkarti.	false
+battle_set_pieces_localised_name_vco_wh2_dlc14_qb_def_final_battle_malus	Rise of Darkness	false
+battle_set_pieces_localised_description_vco_wh2_dlc14_qb_def_final_battle_malus	After obtaining the Scrolls of Herkarti from the Temple of Skulls, Malus prepares to return to Naggaroth aboard his Black Ark. Having already repelled multiple assaults from the ratmen that infest these jungles, he is hardly surprised when yet another horde approaches. It is the Daemon they want, but they must know as well as Malus does that they are going to have to kill him to get it. Malus had heard of the ratman assassin Deathmaster Snikch, but now has the feeling that he may be about to get much more closely acquainted with him...	false

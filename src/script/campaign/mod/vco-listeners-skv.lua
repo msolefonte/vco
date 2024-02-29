@@ -271,7 +271,7 @@ local function add_listeners()
     function(context)
         local building = context:building();
         return not cm:get_saved_value("vco_skv_mors_karak_eight_peaks_already_happened") and
-        building:name() == "wh2_main_special_eight_peaks_skv_3" and
+        building:name() == "wh2_main_special_eight_peaks_skv_1" and
         building:faction():name() == FACTION_MORS_KEY and
         building:faction():is_human() and
         not building:faction():is_null_interface();

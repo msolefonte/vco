@@ -329,7 +329,7 @@ effect_bundles_localised_description_vco_victory_payload_chs_vil_3_yueyins_diamo
 effect_bundles_localised_title_vco_victory_payload_chs_vil_dilemma_the_reckoning_mind	Fractured Psyche	true
 effect_bundles_localised_description_vco_victory_payload_chs_vil_dilemma_the_reckoning_mind	In the light of the baleful moon, the Everwatcher and the Curseling shattered Archaon's psyche, transforming him into a slavering brute, obedient to Vilitch's every command.	true
 effect_bundles_localised_title_vco_victory_payload_chs_vil_dilemma_the_reckoning_body	Runes of Binding	true
-effect_bundles_localised_description_vco_victory_payload_chs_vil_dilemma_the_reckoning_body	Archaon's flesh was carved with Tzeentchian runes of binding, forcing Archaon to obey Vilitch's every command. Though the Everchosen still rallies the Forces of Chaos towards the End Times, none know the truth about his newfound allegiance...	true
+effect_bundles_localised_description_vco_victory_payload_chs_vil_dilemma_the_reckoning_body	Archaon's flesh was carved with Tzeentchian runes of binding, forcing him to obey Vilitch's every command. Though the Everchosen still rallies the Forces of Chaos towards the End Times, none know the truth about his newfound allegiance...	true
 effect_bundles_localised_title_vco_victory_payload_chs_vil_1_the_reckoning_roc	The Three-Eyed King Approaches	true
 effect_bundles_localised_description_vco_victory_payload_chs_vil_1_the_reckoning_roc	Archaon emerges from the Chaos Wastes, evidently infuriated by the Curseling's brazen conquest of the northmen. Biding his time, he moves to confront Vilitch at his weakest moment: when Mannslieb shines brightly in the sky. So predictable...	true
 effect_bundles_localised_title_vco_victory_payload_chs_vil_2_master_puppets_roc	The Long Night of Chaos	true
@@ -423,7 +423,7 @@ effect_bundles_localised_description_vco_victory_payload_chd_dra_witch_kings_gif
 effect_bundles_localised_title_vco_victory_payload_chd_dra_witch_kings_gift_sacrifice	Hashut’s Favour	false
 effect_bundles_localised_description_vco_victory_payload_chd_dra_witch_kings_gift_sacrifice	As the Black Ark burned, the earth rumbled, and the sea began to boil. The ship slipped beneath the waves, and the Infernal Guard whispered praises to Hashut as their weapons took up their Dark Father’s flame.	false
 effect_bundles_localised_title_vco_victory_payload_chd_zha_1_storms_end	Corrupted Wei-Jin Compass	false
-effect_bundles_localised_description_vco_victory_payload_chd_zha_1_storms_end	Ghorth the Cruel was most pleased to receive news of the conquest of [[col:fe_white]]Wei-Jin[[/col]]. A convoy of Daemonsmiths was sent to the [[col:fe_white]]Celestial Palace[[/col]] with great haste, where they wrought their fell magics upon the much coveted [[col:fe_white]]Wei-Jin Compass[[/col]].	false
+effect_bundles_localised_description_vco_victory_payload_chd_zha_1_storms_end	Ghorth the Cruel was well pleased to receive news of the conquest of [[col:fe_white]]Wei-Jin[[/col]]. A convoy of Daemonsmiths was sent to the [[col:fe_white]]Celestial Palace[[/col]] with great haste, where they wrought their fell magics upon the coveted [[col:fe_white]]Wei-Jin Compass[[/col]].	false
 effect_bundles_localised_title_vco_victory_payload_chd_zha_2_the_harrowing	A Daring Raid	false
 effect_bundles_localised_description_vco_victory_payload_chd_zha_2_the_harrowing	The Warhost of Zhar lays siege to the [[col:subtitle_azazel]]Marcher Fortress[[/col]], intent on plundering its vast arsenal of hell-forged weapons. Such an action will surely draw the ire of the Dark Prince, but Zhatan is not concerned. He raises his axe and gives the order to attack, laughing all the while.	false
 effect_bundles_localised_title_vco_victory_payload_chd_zha_3_hashuts_ascent	The Fire Mouth Forge	false
@@ -500,7 +500,7 @@ effect_bundles_localised_title_vco_victory_payload_ksl_mot_1_malediction_of_ruin
 effect_bundles_localised_description_vco_victory_payload_ksl_mot_1_malediction_of_ruin	The armies of Kislev's enemies crumble, burdened by the darkest of magics. Somewhere, deep in the forests, a cackling laugh echoes through the wind...	false
 effect_bundles_localised_title_vco_victory_payload_ksl_mot_2_toil_and_trouble	Lustrian Concoction	false
 effect_bundles_localised_description_vco_victory_payload_ksl_mot_2_toil_and_trouble	A single drop delivered to the eye engorges the creatures of the forest with newfound power. But to drink the substance is another matter entirely...	false
-effect_bundles_localised_title_vco_victory_payload_ksl_mot_3_the_new_frontier	Manifest Destiny	false
+effect_bundles_localised_title_vco_victory_payload_ksl_mot_3_the_new_frontier	The Fatherland	false
 effect_bundles_localised_description_vco_victory_payload_ksl_mot_3_the_new_frontier	The once meagre colony at Bleak Hold Fortress has swelled into a mighty nation that rivals the Motherland in strength and prosperity, though even the most prideful Kislevite knows to never, ever venture too deeply into the forests.	false
 effect_bundles_localised_title_vco_victory_payload_ksl_mot_2_toil_and_trouble_roc	Cathayan Concoction	false
 effect_bundles_localised_description_vco_victory_payload_ksl_mot_2_toil_and_trouble_roc	A single drop delivered to the eye engorges the creatures of the forest with newfound power. But to drink the substance is another matter entirely...	false
@@ -564,6 +564,8 @@ effect_bundles_localised_title_vco_victory_payload_hef_ala_3_oakhearts_plea	The 
 effect_bundles_localised_description_vco_victory_payload_hef_ala_3_oakhearts_plea	The Everqueen has journeyed across the world, gathering many Tree Spirits and Wood Elves to her cause. With the Treeman Oakheart’s help, she now stands ready to confront the Queen of the Woods and cleanse her tainted soul.	false
 effect_bundles_localised_title_vco_victory_payload_hef_ala_3_oakhearts_plea_1	Avatar of Isha	false
 effect_bundles_localised_description_vco_victory_payload_hef_ala_3_oakhearts_plea_1	None know for certain what occurred at the heart of the Oak of Ages, only that Alarielle emerged alone, radiant with newfound power, wielding both the Stave of Avelorn and the Wand of the Wych Elm.	false
+effect_bundles_localised_title_vco_victory_payload_hef_ala_3_oakhearts_plea_2	Saviour of Athel Loren	false
+effect_bundles_localised_description_vco_victory_payload_hef_ala_3_oakhearts_plea_2	With Ariel's corruption cleansed from the world, the forests bloom once more. None can deny that a new Queen in the Woods safeguards Athel Loren now.	false
 effect_bundles_localised_title_vco_victory_payload_nor_thr_1_ice_age_cometh	The Everwinter	false
 effect_bundles_localised_description_vco_victory_payload_nor_thr_1_ice_age_cometh	A supernatural blizzard has descended upon Throgg's kingdom and shows no signs of abating. Under cover of darkness, his subjects lay waste to entire nations, leaving desolate fields of cracked ice and frozen bones in their wake.	false
 effect_bundles_localised_title_vco_victory_payload_nor_thr_2_age_of_the_beast	The Conqueror Comes	false
@@ -620,3 +622,15 @@ effect_bundles_localised_title_vco_victory_payload_emp_kar_3_karl_uniter_post_ba
 effect_bundles_localised_description_vco_victory_payload_emp_kar_3_karl_uniter_post_battle	Together, the grand alliance forged at the Conclave of Light drove back the Forces of Darkness. All bore witness to the legendary duel between the Emperor and the Everchosen. With a mighty blow from Ghal Maraz, the world’s salvation was assured, and Archaon was cast screaming into the void.	false
 effect_bundles_localised_title_vco_victory_payload_dwf_bel_1_the_reckoning_post_battle	The Cleansing Tide	false
 effect_bundles_localised_description_vco_victory_payload_dwf_bel_1_the_reckoning_post_battle	The sappers from the Engineering Guild successfully diverted the Tilean Sea into the Blighted Marshes. Now, Skavenblight is nothing but a labyrinth of flooded tunnels and collapsed caves, the resting place for countless drowned ratmen.	false
+effect_bundles_localised_title_vco_victory_payload_def_hag_1_shadow_blade	Master or Slave?	false
+effect_bundles_localised_description_vco_victory_payload_def_hag_1_shadow_blade	Malus has thwarted his foes and is ready to journey back to Naggaroth. Yet Tz'arkan whispers in his mind, laying before him a different path to tread...	false
+effect_bundles_localised_title_vco_victory_payload_def_hag_2_norscan_nightmare	The Terror	false
+effect_bundles_localised_description_vco_victory_payload_def_hag_2_norscan_nightmare	“From out of the howling snows he came, pale as a frost-bitten corpse. Our mightiest warriors strove to cut him down, but none could stand against him.”\\n- Svendal the Coward, last survivor of the Skornling Tribe	false
+effect_bundles_localised_title_vco_victory_payload_def_hag_2_norscan_nightmare_1	Old World Feeding Grounds	false
+effect_bundles_localised_description_vco_victory_payload_def_hag_2_norscan_nightmare_1	Astride his mount, Spite, Malus Darkblade led packs of ravenous Cold Ones across the Old World. Their population has since exploded out of control, as they have few predators in these lands, and now they can be found as far south as the outskirts of Athel Loren.	false
+effect_bundles_localised_title_vco_victory_payload_def_hag_3_tyrant_hag_graef	Drachau Supreme	false
+effect_bundles_localised_description_vco_victory_payload_def_hag_3_tyrant_hag_graef	The trophies Malus harvested from beyond the Worlds Edge Mountains left few to doubt his strength and cruelty. The Eight Families have been tolerably docile ever since.	false
+effect_bundles_localised_title_vco_victory_payload_def_malus_dilemma_mirror_mirror_defy	Secrets of the Hydra Queen	false
+effect_bundles_localised_description_vco_victory_payload_def_malus_dilemma_mirror_mirror_defy	Claiming the Scrolls of Hekarti for himself, Malus now stands in direct opposition of the Witch King.	false
+effect_bundles_localised_title_vco_victory_payload_def_malus_dilemma_mirror_mirror_serve	Favoured Servant	false
+effect_bundles_localised_description_vco_victory_payload_def_malus_dilemma_mirror_mirror_serve	Malekith is now one step closer to his ultimate goal of conquering Ulthuan. As promised, he has granted Malus access to a new elixir that can silence the daemon for days at a time.	false

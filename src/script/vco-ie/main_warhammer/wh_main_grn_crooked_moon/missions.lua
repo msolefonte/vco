@@ -135,7 +135,7 @@ local missions = {
 					faction wh_main_grn_crooked_moon;
 
                     province wh3_main_combi_province_eight_peaks;
-					building_level wh_dlc06_grn_eight_peaks_3;
+					building_level wh_dlc06_grn_eight_peaks_1;
 				}
 
 				objective

@@ -60,7 +60,7 @@ local function add_listeners()
     function(context)
         local building = context:building();
         return not cm:get_saved_value("vco_grn_ska_karak_eight_peaks_already_happened") and
-        building:name() == "wh_dlc06_grn_eight_peaks_3" and
+        building:name() == "wh_dlc06_grn_eight_peaks_1" and
         building:faction():name() == FACTION_SKARSNIK_KEY and
         building:faction():is_human() and
         not building:faction():is_null_interface();
