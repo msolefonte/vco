@@ -109,6 +109,15 @@ local missions = {
 					region wh3_main_combi_region_skeggi;
 				}
 
+				objective
+				{
+					override_text mission_text_text_vco_nor_wul_3_wheres_my_palico;
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 1;
+
+					region wh3_main_combi_region_skeggi;
+				}
+
 				payload
 				{
 					effect_bundle
