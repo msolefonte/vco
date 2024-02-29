@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [5.16.0] - 22.02.2024
+
+- Added new routes for Malus Darkblade: Hag Graef
+- Updated Karl Franz: Reikland Storm of Chaos quest battle rebalancing
+- Updates Karak Eight Peak quest battles for Belegar, Skarsnik and Queek, they are activate upon completion of the tier
+  1 landmark at Karak Eight Peaks, instead of tier 3
+- Updates Heinrich Kemmler: The Barrow Legion routes 2 reward now gives a reduction and cooldown to the Lore of
+  Vampires, instead of the Lore of Death
+- Fixed the Great Game bug
+
 ## [5.15.0] - 17.01.2024
 
 - Added new routes for Belegar Ironhammer: Clan Angrund
@@ -12,7 +22,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added new routes for Queek Headtaker: Clan Mors
 - Added quest battles for Belegar, Skarsnik and Queek triggered by upgrading the Karak Eight Peaks landmark to maximum.
 - Updated Default Short Victory rewards no longer are rewarded in addition to VCO's custom rewards.
-- Updated Karl Franz Reiklan: Reworked route 3, completion now triggers the Storm of Chaos quest battle inspired by the Immortal Empires trailer.
+- Updated Karl Franz: Reikland reworked route 3, completion now triggers the Storm of Chaos quest battle inspired by the
+  Immortal Empires trailer.
 - Updated VCO quest battles, so they are playable from the main menu.
 - Fixed a bug, where Zhatan's route 1 victory condition triggered prematurely.
 - Fixed a bug, where Throgg's route 1 was impossible to complete.
@@ -21,9 +32,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Added new routes for Throgg: Wintertooth
 - Added new routes for Alith Anar: Nagarythe
-- Added Vortex quest battle objective for Throt the Unclean: Clan Moulder, where Ghoritch can fight against Archaon and get his revenge (triggers by completing route 1).
-- Added Vortex quest battle objective for Alarielle the Radiant: Avelorn, where she fights a corrupted Ariel and absorbs her powers (triggers by completing route 3).
-- Added Vortex quest battle objective for Crone Hellebron: Har Ganeth,  where Hellebron fights Alarielle at Avelorn (triggers by building the Shrine of Khaine).
+- Added Vortex quest battle objective for Throt the Unclean: Clan Moulder, where Ghoritch can fight against Archaon and
+  get his revenge (triggers by completing route 1).
+- Added Vortex quest battle objective for Alarielle the Radiant: Avelorn, where she fights a corrupted Ariel and absorbs
+  her powers (triggers by completing route 3).
+- Added Vortex quest battle objective for Crone Hellebron: Har Ganeth, where Hellebron fights Alarielle at Avelorn (
+  triggers by building the Shrine of Khaine).
 - Fixed a bug where Sisters of Twilight route 1 wasn't appearing.
 - Fixed bug where Kemmler's route 1 reward wasn't applying upkeep reduction.
 
