@@ -110,11 +110,11 @@ effect_bundles_localised_description_vco_victory_payload_ogr_skr_1_pilgrim_maw_r
 effect_bundles_localised_description_vco_victory_payload_ogr_skr_2_age_of_ogres	The Great Maw's greatest prophet has founded a new Ogre Kingdom in the very heartland of Bretonnia. The Land of Chivalry is now anything but, and the Lady of the Lake has seemingly deserted her people, though some claim that she was dragged screaming into Skrag's maw-cauldron...	true
 effect_bundles_localised_description_vco_victory_payload_ogr_skr_2_age_of_ogres_roc	The Great Maw's greatest prophet has founded a new Ogre Kingdom in the centre of the Empire. This once mighty nation of men is now naught but livestock for the Ogre tribes who now call these lands their own.	true
 effect_bundles_localised_description_vco_victory_payload_ogr_skr_3_hunger_power	The Gorgers have feasted well. Their mutated forms now ripple with power, a clear sign of the Great Maw's blessing.	true
-effect_bundles_localised_description_vco_victory_payload_skv_mdr_1_yes_yes_prepare_the_lab	Cross-breeding all manner of creatures and utilising the mutating effects of warpstone, Throt is ever seeking to create more destructive creatures to set on his enemies and trade with other clans.	true
-effect_bundles_localised_description_vco_victory_payload_skv_mdr_2_the_vermintide_comes	Winding lines of corpse-wagons journey towards Hell Pit, ensuring Throt's gluttonous creations have a constant supply of flesh to sate their ravenous appetites.	true
+effect_bundles_localised_description_vco_victory_payload_skv_mdr_1_yes_yes_prepare_the_lab	Following in his predecessor's footsteps, Archaon the Everchosen leads a great host into Hell Pit, hoping to stall Clan Moulder's relentless attacks across Norsca. Yet the Castellan stands ready to repel the invaders, and he means to claim his vengeance in blood.	true
+effect_bundles_localised_description_vco_victory_payload_skv_mdr_2_the_vermintide_comes	Winding lines of meat wagons journey towards Hell Pit, ensuring the ravenous appetites of Throt's monstrous creations are always sated.	true
 effect_bundles_localised_description_vco_victory_payload_skv_mdr_3_dilemma_devour_godflesh	Like a squished moth, Ariel is now nothing but a pulp consumed by Throt to abate his hunger, with the remains used to augment his twisted hench-rats!	true
 effect_bundles_localised_description_vco_victory_payload_skv_mdr_3_dilemma_trade_godflesh	The Mage-Queen's pulped remains have been bottled into hundreds of vials, each one worth a small fortune in warpstone. Envoys from every clan in Skavendom journey to Hell Pit in the hopes of acquiring the precious substance.	true
-effect_bundles_localised_description_vco_victory_payload_skv_mdr_3_the_frozen_dead	These frozen corpses will make for excellent sources of mutagen with which to bolster the ferocity of the Master Mutator's creations.	true
+effect_bundles_localised_description_vco_victory_payload_skv_mdr_3_the_frozen_dead	With the Everchosen's host smashed to a bloody pulp, none can stop Clan Moulder's merciless harvest of the Norscan population.	true
 effect_bundles_localised_description_vco_victory_payload_skv_mdr_3_ultimate_harvest	With the Mage-Queen's demise, Throt prepares to harvest her divine flesh...	true
 effect_bundles_localised_description_vco_victory_payload_sla_nka_1_the_great_game	The Dark Prince's power waxes so strongly that it can no longer be contained within the Realms of Chaos. Storms howl outwards from the polar gates, driving his servants onwards to commit countless unspeakable acts in his name.	true
 effect_bundles_localised_description_vco_victory_payload_sla_nka_1_the_great_game_1	And all the men and women merely playthings for the Daemonettes.	true
@@ -133,7 +133,7 @@ effect_bundles_localised_description_vco_victory_payload_tze_kai_2_visions_past	
 effect_bundles_localised_description_vco_victory_payload_tze_kai_3_visions_future	Fate has been rewritten. Those who were once destined to defeat Kairos now lie dead beneath his claws, their arcane baubles serving only for his entertainment. All is as was foreseen...	true
 effect_bundles_localised_description_vco_victory_payload_tze_kai_3_wu_xing_compass_roc	Tzeentch's forces now control the Wu Xing Compass. This powerful artefact was once used to protect the people of Cathay. Now, it is utilised as a weapon of war, unleashing fearsome magics upon those it once safeguarded.	true
 effect_bundles_localised_description_vco_victory_payload_vmp_kem_1_sea_of_bones	A thick fog blankets all of Bretonnia. Crops wither and die, entire hamlets are found empty and desolate. Tortured groans and unholy bestial roars echo through the still air. The Dark Gods are pleased.	true
-effect_bundles_localised_description_vco_victory_payload_vmp_kem_2_age_of_the_living_is_ending	With the Black Arc now in his possession, the Lichemaster uses the cursed warpstone to enhance his already dangerously powerful necromantic abilities.	true
+effect_bundles_localised_description_vco_victory_payload_vmp_kem_2_age_of_the_living_is_ending	With the Black Arc now in his possession, the Lichemaster can use the cursed warpstone to enhance his already dangerously powerful necromantic abilities.	true
 effect_bundles_localised_description_vco_victory_payload_vmp_kem_3_immortal_lich	Kemmler believes Krell is an obedient thrall who serves his own interests, but perhaps these recent victories are but one small part of a much grander scheme...	true
 effect_bundles_localised_description_vco_victory_payload_vmp_man_1_restless_dunes	Built from the fused remains of a dozen conquered Tomb Kings, this monolith throbs with unholy power.	true
 effect_bundles_localised_description_vco_victory_payload_vmp_man_1_restless_dunes_portal	A portal to Sylvania will become available to Mannfred's army.	true
@@ -238,7 +238,7 @@ effect_bundles_localised_description_vco_victory_payload_lzd_hex_1_unity_of_spir
 effect_bundles_localised_title_vco_victory_payload_lzd_hex_2_begone_thot	Deviation Corrected	true
 effect_bundles_localised_title_vco_victory_payload_lzd_hex_3_purging_warmbloods	Sins of a Solar Empire	true
 effect_bundles_localised_title_vco_victory_payload_nor_wul_1_ragnarok_1	The Winds Roar	true
-effect_bundles_localised_title_vco_victory_payload_nor_wul_1_ragnarok_2	Faithful Vassal	true
+effect_bundles_localised_title_vco_victory_payload_nor_wul_1_ragnarok_2	The Daemons Come	true
 effect_bundles_localised_title_vco_victory_payload_nor_wul_2_the_world_walker	The Eternal Challenger	true
 effect_bundles_localised_title_vco_victory_payload_nor_wul_3_monster_hunt	Monster Hunter	true
 effect_bundles_localised_title_vco_victory_payload_nor_wul_3_wheres_my_palico	Lustrian Tactics	true
@@ -257,11 +257,11 @@ effect_bundles_localised_title_vco_victory_payload_ogr_skr_1_pilgrim_maw_roc	Jou
 effect_bundles_localised_title_vco_victory_payload_ogr_skr_2_age_of_ogres	A New Ogre Kingdom	true
 effect_bundles_localised_title_vco_victory_payload_ogr_skr_2_age_of_ogres_roc	The Ogre Empire	true
 effect_bundles_localised_title_vco_victory_payload_ogr_skr_3_hunger_power	Well-Fed	true
-effect_bundles_localised_title_vco_victory_payload_skv_mdr_1_yes_yes_prepare_the_lab	Stitched Up!	true
-effect_bundles_localised_title_vco_victory_payload_skv_mdr_2_the_vermintide_comes	A Cornucopia of Flesh	true
+effect_bundles_localised_title_vco_victory_payload_skv_mdr_1_yes_yes_prepare_the_lab	Hell Pit Besieged	true
+effect_bundles_localised_title_vco_victory_payload_skv_mdr_2_the_vermintide_comes	Highway to Hell	true
 effect_bundles_localised_title_vco_victory_payload_skv_mdr_3_dilemma_devour_godflesh	Deific Feast	true
 effect_bundles_localised_title_vco_victory_payload_skv_mdr_3_dilemma_trade_godflesh	Supply and Demand	true
-effect_bundles_localised_title_vco_victory_payload_skv_mdr_3_the_frozen_dead	The Frozen Dead	true
+effect_bundles_localised_title_vco_victory_payload_skv_mdr_3_the_frozen_dead	Conqueror of Norsca	true
 effect_bundles_localised_title_vco_victory_payload_skv_mdr_3_ultimate_harvest	Godflesh	true
 effect_bundles_localised_title_vco_victory_payload_sla_nka_1_the_great_game	Slaanesh Ascendant	true
 effect_bundles_localised_title_vco_victory_payload_sla_nka_1_the_great_game_1	All The World's A Stage	true
@@ -292,6 +292,8 @@ effect_bundles_localised_title_vco_victory_payload_wef_twi_1_dreaming_wood_2	Ven
 effect_bundles_localised_title_vco_victory_payload_wef_twi_2_vauls_anvils	Godlike Craftsmanship	true
 effect_bundles_localised_title_vco_victory_payload_wef_twi_3_sacred_pools_1	Guardians of the Pools	true
 effect_bundles_localised_title_vco_victory_payload_wef_twi_3_sacred_pools_2	Isha's Embrace	true
+effect_bundles_localised_title_vco_victory_payload_skv_mdr_3_the_frozen_dead_ghoritch	Castellan of Carnage	false
+effect_bundles_localised_description_vco_victory_payload_skv_mdr_3_the_frozen_dead_ghoritch	Ghoritch's victory over the Everchosen has only deepened his lust for slaughter and carnage. A day spent without spilling blood and crushing bone for Khorne is a day wasted.	false
 effect_bundles_localised_description_vco_victory_payload_chs_aza_1_sycophants_gather	Azazel is always searching for souls who show great promise in the eyes of the Dark Gods. More often than not, however, he finds only those who are destined to become mewling Chaos Spawn.	true
 effect_bundles_localised_title_vco_victory_payload_chs_aza_1_sycophants_gather	Headhunter	true
 effect_bundles_localised_description_vco_victory_payload_chs_aza_2_legions_march	Leaders of great nations come to grovel at your feet, swearing oaths of devotion and offering up tributes to the Dark Prince. Indulge one of them, and let the others wallow in despair.	true
@@ -521,7 +523,7 @@ effect_bundles_localised_description_vco_victory_payload_lzd_nak_dilemma_wu_xing
 effect_bundles_localised_title_vco_victory_payload_lzd_nak_dilemma_wu_xing_compass_persuade	Pacified Compass	false
 effect_bundles_localised_description_vco_victory_payload_lzd_nak_dilemma_wu_xing_compass_persuade	The Cathayans and the Lizardmen have come to an accord. With the guidance of the Slann Mage Priests, the Wu Xing Compass was safely integrated into the Geomantic Web.	false
 effect_bundles_localised_title_vco_victory_payload_def_hel_dilemma_scouring_cut_throat	Blood Runes of Warding	false
-effect_bundles_localised_description_vco_victory_payload_def_hel_dilemma_scouring_cut_throat	With the blood of Avelorn's slain, Khorne's followers daub their bare flesh with runes of warding that cheat a foe's blade and blunt even the most vicious attacks.	false
+effect_bundles_localised_description_vco_victory_payload_def_hel_dilemma_scouring_cut_throat	With the blood of Avelorn's slain, Khaine's followers daub their bare flesh with runes of warding that cheat a foe's blade and blunt even the most vicious attacks.	false
 effect_bundles_localised_title_vco_victory_payload_def_hel_dilemma_scouring_eat_heart	The Dark Feast	false
 effect_bundles_localised_description_vco_victory_payload_def_hel_dilemma_scouring_eat_heart	The Druchii feast upon the savaged corpses of their foes, drawing strength from Avelorn's mightiest warriors and renewing their bloodlust for the battles to come.	false
 effect_bundles_localised_title_vco_victory_payload_skv_esh_1_shadow_and_blade	The Dark Power	false
@@ -558,5 +560,23 @@ effect_bundles_localised_title_vco_victory_payload_hef_ala_1_hope_springs_eterna
 effect_bundles_localised_description_vco_victory_payload_hef_ala_1_hope_springs_eternal	As word spreads of Alarielle's victories, despair vanishes like shadows in daylight and a newfound resolve arises to take its place.	false
 effect_bundles_localised_title_vco_victory_payload_hef_ala_2_mortal_worlds_torment	Anathema to the Tainted	false
 effect_bundles_localised_description_vco_victory_payload_hef_ala_2_mortal_worlds_torment	Even the blackest shadow could not withstand the Everqueen's holy light. With a single touch, Be'lakor was banished from the world. With a simple gesture, the dark bindings of Mousillon's undead were unravelled. With a soothing word, Hellebron's tainted soul was cleansed by Isha's holy light, leaving naught but a glowing mound of ash where once the Blood Queen stood.	false
-effect_bundles_localised_title_vco_victory_payload_hef_ala_3_oakhearts_plea	Avatar of Isha	false
-effect_bundles_localised_description_vco_victory_payload_hef_ala_3_oakhearts_plea	None know for certain what occurred at the heart of the Oak of Ages, only that Alarielle emerged alone, radiant with newfound power, and wielding both the Stave of Avelorn and the Wand of the Wych Elm.	false
+effect_bundles_localised_title_vco_victory_payload_hef_ala_3_oakhearts_plea	The Tears of Isha	false
+effect_bundles_localised_description_vco_victory_payload_hef_ala_3_oakhearts_plea	The Everqueen has journeyed across the world, gathering many Tree Spirits and Wood Elves to her cause. With the Treeman Oakheart’s help, she now stands ready to confront the Queen of the Woods and cleanse her tainted soul.	false
+effect_bundles_localised_title_vco_victory_payload_hef_ala_3_oakhearts_plea_1	Avatar of Isha	false
+effect_bundles_localised_description_vco_victory_payload_hef_ala_3_oakhearts_plea_1	None know for certain what occurred at the heart of the Oak of Ages, only that Alarielle emerged alone, radiant with newfound power, wielding both the Stave of Avelorn and the Wand of the Wych Elm.	false
+effect_bundles_localised_title_vco_victory_payload_nor_thr_1_ice_age_cometh	Everwinter	false
+effect_bundles_localised_description_vco_victory_payload_nor_thr_1_ice_age_cometh	A supernatural blizzard has descended upon Throgg's kingdom and shows no signs of abating. Under cover of darkness, his subjects lay waste to entire nations, leaving desolate fields of cracked ice and frozen bones in their wake.	false
+effect_bundles_localised_title_vco_victory_payload_nor_thr_2_age_of_the_beast	The Conqueror Comes	false
+effect_bundles_localised_description_vco_victory_payload_nor_thr_2_age_of_the_beast	While butchering a Kislevite settlement, the Troll King comes face-to-face with one of the Eagle God's servants: Aekold Helbrass.	false
+effect_bundles_localised_title_vco_victory_payload_nor_thr_3_troll_king	Throgg the Liberator	false
+effect_bundles_localised_description_vco_victory_payload_nor_thr_3_troll_king	Throgg's retinue now boasts the largest assortment of Trolls ever witnessed in living memory. Under their king's wise rule, they have fed well on the flesh of their enemies.	false
+effect_bundles_localised_title_vco_victory_payload_hef_nag_1_shadows_over_naggaroth	Knives in the Dark	false
+effect_bundles_localised_description_vco_victory_payload_hef_nag_1_shadows_over_naggaroth	With none left to oppose them, Alith's Shadows run rampant over Naggaroth, sowing fear and discord amongst even the most black-hearted Druchii.	false
+effect_bundles_localised_title_vco_victory_payload_hef_nag_2_amulet_of_sunfire	Lileath's Blessing	false
+effect_bundles_localised_description_vco_victory_payload_hef_nag_2_amulet_of_sunfire	The Shadow King is clearly high in the Maiden's favour. Fortune follows him and his followers, and many now whisper that his fate must be divinely guided.	false
+effect_bundles_localised_title_vco_victory_payload_hef_nag_3_the_eternal_war	Nagarythe Eternal	false
+effect_bundles_localised_description_vco_victory_payload_hef_nag_3_the_eternal_war	From his ancestral seat of Tor Anlec, the Shadow King brought justice to the wicked. With the Druchii threat dealt with, can House Anar finally know peace?	false
+effect_bundles_localised_title_vco_victory_payload_nor_thr_dilemma_final_breath_devour	Food for Thought	false
+effect_bundles_localised_description_vco_victory_payload_nor_thr_dilemma_final_breath_devour	 Since consuming the would-be Conqueror of Kislev, Throgg’s regenerative capabilities have blossomed to new heights.	false
+effect_bundles_localised_title_vco_victory_payload_nor_thr_dilemma_final_breath_liquefy	Life Finds A Way	false
+effect_bundles_localised_description_vco_victory_payload_nor_thr_dilemma_final_breath_liquefy	The radiant flesh of Aekold’s corpse brings bountiful life to the bleak lands of Throgg’s kingdom.	false

@@ -81,6 +81,7 @@ local missions = {
 					type CONTROL_N_REGIONS_FROM;
 					total 10;
 
+					region wh3_main_combi_region_the_oak_of_ages;
 					region wh3_main_combi_region_couronne;
 					region wh3_main_combi_region_miragliano;
 					region wh3_main_combi_region_karaz_a_karak;
@@ -94,8 +95,9 @@ local missions = {
 					region wh3_main_combi_region_skavenblight;
 					region wh3_main_combi_region_khemri;
 					region wh3_main_combi_region_the_awakening;
-					region wh3_main_combi_region_wei_jin;
 					region wh3_main_combi_region_zharr_naggrund;
+					region wh3_main_combi_region_wei_jin;
+					region wh3_main_combi_region_great_hall_of_greasus;
 				}
 
 				objective

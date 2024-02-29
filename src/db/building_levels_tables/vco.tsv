@@ -27,6 +27,11 @@ vco_landmark_skeggi_asur_embassy	vco_landmark_skeggi_asur_embassy	0	4	5000	0		fa
 vco_landmark_skrag_couronne_cook_pot	vco_landmark_skrag_couronne_cook_pot	0	6	8000	0		false	false			true	vco_landmark_skrag_couronne_cook_pot	false	0.0000	0	true	3	wh3_cam_settlement_major_ogres	true	0	0		0
 vco_landmark_snikch_repurposed_forges	vco_landmark_snikch_repurposed_forges	0	3	6000	0		false	false			true	vco_landmark_snikch_repurposed_forges	false	0.0000	0	true	4	wh2_cam_settlement_capital_skaven	true	0	0		0
 vco_landmark_snikch_warpstone_hoard	vco_landmark_snikch_warpstone_hoard	0	4	8000	0		false	false			true	vco_landmark_snikch_warpstone_hoard	false	0.0000	0	true	3	wh2_cam_settlement_capital_skaven	true	0	0		0
+vco_landmark_throgg_caves_of_couronne	vco_landmark_throgg_caves_of_couronne	0	4	8000	0		false	false			true	vco_landmark_throgg_caves_of_couronne	false	0.0000	0	true	3	wh_cam_settlement_capital_nordic	true	0	0		0
+vco_landmark_throgg_chaos_troll_colony	vco_landmark_throgg_chaos_troll_colony	0	4	8000	0		false	false			true	vco_landmark_throgg_chaos_troll_colony	false	0.0000	0	true	3	wh_cam_settlement_capital_nordic	true	0	0		0
+vco_landmark_throgg_ducal_throne	vco_landmark_throgg_ducal_throne	0	5	6500	0		false	false			true	vco_landmark_throgg_ducal_throne	false	0.0000	0	true	3	wh_cam_settlement_capital_nordic	true	0	0		0
+vco_landmark_throgg_halls_winter_king	vco_landmark_throgg_halls_winter_king	0	4	8000	0		false	false			true	vco_landmark_throgg_halls_winter_king	false	0.0000	0	true	3	wh_cam_settlement_capital_nordic	true	0	0		0
+vco_landmark_throgg_river_reik_trolls	vco_landmark_throgg_river_reik_trolls	0	4	8000	0		false	false			true	vco_landmark_throgg_river_reik_trolls	false	0.0000	0	true	3	wh_cam_settlement_capital_nordic	true	0	0		0
 vco_landmark_tower_of_llenog	vco_landmark_tower_of_llenog	0	4	5000	0		false	false			true	vco_landmark_tower_of_llenog	false	0.0000	0	true	3	wh_cam_settlement_major_highelves	true	0	0		0
 vco_landmark_tretch_tower_gorgoth	vco_landmark_tretch_tower_gorgoth	0	4	8000	0		false	false			true	vco_landmark_tretch_tower_gorgoth	false	0.0000	0	true	4	wh2_cam_settlement_capital_skaven	true	0	0		0
 vco_landmark_vlad_balefire_beacon	vco_landmark_vlad_balefire_beacon	0	4	10000	0		false	false			true	vco_landmark_vlad_balefire_beacon	false	0.0000	0	true	4	wh_cam_settlement_capital_vampire	true	0	0		0
@@ -37,3 +42,7 @@ vco_landmark_wulfhart_imperial_dockyard	vco_landmark_wulfhart_imperial_dockyard	
 vco_landmark_wulfhart_lumber_yard	vco_landmark_wulfhart_lumber_yard	0	4	6000	0		false	false			true	vco_landmark_wulfhart_lumber_yard	false	0.0000	0	true	3	wh_cam_settlement_capital_empire	true	0	0		0
 vco_landmark_zhao_sigmars_rock	vco_landmark_zhao_sigmars_rock	0	6	8000	0		false	false			true	vco_landmark_zhao_sigmars_rock	false	0.0000	0	true	3	wh3_cam_settlement_minor_cathay	true	0	0		0
 vco_landmark_zhao_warpforges	vco_landmark_zhao_warpforges	0	4	6000	0		false	false			true	vco_landmark_zhao_warpforges	false	0.0000	0	true	3	wh3_cam_settlement_major_cathay	true	0	0		0
+vco_moulder_dukhyls_forest_brood_warren	vco_moulder_dukhyls_forest_brood_warren	0	4	8000	0		false	false			true	vco_moulder_dukhyls_forest_brood_warren	false	0.0000	0	true	3	wh2_cam_settlement_capital_skaven	true	0	0		0
+vco_moulder_forest_flesh_pits	vco_moulder_forest_flesh_pits	0	2	4000	0		false	false			true	vco_moulder_forest_flesh_pits	false	0.0000	0	true	3	wh2_cam_settlement_capital_skaven	true	0	0		0
+vco_moulder_laurelorn_broken_heart	vco_moulder_laurelorn_broken_heart	0	2	4000	0		false	false			true	vco_moulder_laurelorn_broken_heart	false	0.0000	0	true	3	wh2_cam_settlement_capital_skaven	true	0	0		0
+vco_moulder_warpstone_pillar	vco_moulder_warpstone_pillar	0	2	4000	0		false	false			true	vco_moulder_warpstone_pillar	false	0.0000	0	true	3	wh2_cam_settlement_capital_skaven	true	0	0		0

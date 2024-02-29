@@ -169,6 +169,12 @@ local missions = {
 					building_level wh2_main_special_shrine_of_khaine_def_1;
 				}
 
+				objective
+				{
+					type FIGHT_SET_PIECE_BATTLE;
+					set_piece_battle vco_custom_quest_hellebron_alarielle;
+				}
+
 				payload
 				{
 					effect_bundle

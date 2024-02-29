@@ -165,6 +165,11 @@ local missions = {
 						turns 0;
 					}
 
+					add_ancillary_to_faction_pool
+					{
+						ancillary_key vco_anc_follower_lobotomised_warmbloods;
+					}
+
 					effect_bundle
 					{
 						bundle_key vco_victory_payload_all_campaign_victory_dummy;
