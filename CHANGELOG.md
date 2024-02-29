@@ -12,7 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added new routes for Queek Headtaker: Clan Mors
 - Added quest battles for Belegar, Skarsnik and Queek triggered by upgrading the Karak Eight Peaks landmark to maximum.
 - Updated Default Short Victory rewards no longer are rewarded in addition to VCO's custom rewards.
-- Updated Karl Franz Reiklan: Reworked route 3, completion now triggers the Storm of Chaos quest battle inspired by the Immortal Empires trailer.
+- Updated Karl Franz Reiklan: Reworked route 3, added Storm of Chaos quest battle upon completion
 - Updated VCO quest battles, so they are playable from the main menu.
 - Fixed a bug, where Zhatan's route 1 victory condition triggered prematurely.
 - Fixed a bug, where Throgg's route 1 was impossible to complete.
