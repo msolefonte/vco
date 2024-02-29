@@ -58,3 +58,59 @@ battle_set_piece_armies_army_onscreen_name_vco_custom_quest_throt_ghoritch_enemy
 battle_set_piece_armies_army_onscreen_name_vco_custom_quest_throt_ghoritch_enemy_army_champions_sla_tze	The Champions of Chaos	false
 battle_set_piece_armies_army_onscreen_name_vco_custom_quest_throt_ghoritch_enemy_army_champions_kho_nur	The Champions of Chaos	false
 battle_set_piece_armies_army_onscreen_name_vco_custom_quest_throt_ghoritch_ally_army_hell_pit_garrison	Clan Moulder's Monstrous Menagerie	false
+missions_localised_title_vco_route_victory	Route	false
+scripted_objectives_localised_text_vco_belegar_custom_quest_ungrim_arrival_message	The Slayers from Karak Kadrin come to our aid! Die well, brothers!	false
+scripted_objectives_localised_text_vco_karl_franz_custom_quest_message_chaos_dwarfs_attack	Archaon sends his lackeys from the Dark Lands against us. Brace yourselves!	false
+scripted_objectives_localised_text_vco_karl_franz_custom_quest_message_cathayans_come	The Supreme Patriarch's overtures to the Cathayans bore fruit, I see. We are honoured to fight by your side, brothers from the east!	false
+scripted_objectives_localised_text_vco_karl_franz_custom_quest_message_archaon_attacks	The Everchosen takes to the field. Let Ghal Maraz taste that traitor's blood!	false
+scripted_objectives_localised_text_vco_karl_franz_custom_quest_message_cavalary_arrives	King Louen! Tzar Boris! Take heart, men; we do not fight alone!	false
+missions_localised_title_vco_custom_quest_belegar_skavenblight	The Day of Reckoning	false
+missions_localised_description_vco_custom_quest_belegar_skavenblight	Beneath the Blighted Marshes, the source of the Skaven infestation was discovered: a massive labyrinthine undercity; the largest ever seen by any Dwarf in living memory. Could this be the fabled heart of the Skaven empire? Belegar sends word to the High King, who calls for all able-bodied dawi to march on the city. Many grudges will be avenged this day!	false
+battle_set_pieces_localised_name_vco_custom_quest_belegar_skavenblight	The Day of Reckoning	false
+battle_set_pieces_localised_description_vco_custom_quest_belegar_skavenblight	Skavenblight, heart of the wretched Skaven empire, lies exposed for the first time. Belegar and Thorgrim lead their warriors on a death march to the city, drawing the vermins' gaze from the Dawi's true plan. While they fight a hopeless battle against overwhelming odds, sappers from the Engineers Guild work to divert the Tilean Sea. They must hold the line until the filth of the sewers can be washed away, once and for all.\\n	false
+missions_localised_title_vco_custom_quest_belegar_eight_peaks	Eight Peaks Eternal	false
+missions_localised_description_vco_custom_quest_belegar_eight_peaks	Since recapturing the hold, Belegar and his kinsmen have withstood plots, alliances, ambushes, super-weapons, and untold deathtraps. Three times they have been rescued by relief forces that broke through the cordon of foes to bring much-needed reinforcements, the last army led by Thorgrim himself. Belegar has sworn a mighty oath to retake Karak Eight Peaks and, inch by bloody inch, Clan Angrund has expanded its foothold. Now, their foes make one final assault with the last reserves of their strength.\\n	false
+battle_set_pieces_localised_name_vco_custom_quest_belegar_eight_peaks	Eight Peaks Eternal	false
+battle_set_pieces_localised_description_vco_custom_quest_belegar_eight_peaks	Clan Angrund's conquest of the Eight Peaks is nearly complete. Skarsnik and Queek have joined forces in a desperate, last-ditch attempt to wrest the hold from Belegar's grasp. Break them here and now, and they will never again threaten the Eight Peaks!\\n	false
+missions_localised_title_vco_custom_quest_skarsnik_eight_peaks	Eight Peaks Eternal	false
+missions_localised_description_vco_custom_quest_skarsnik_eight_peaks	Since recapturing the Eight Peaks from his mutinous subordinates, Skarsnik has repelled repeated assaults from both the Dwarfs and the Skaven. Now, his foes make one final assault with the last reserves of their strength. Break them here and now, and they will never again threaten the Eight Peaks!\\n	false
+battle_set_pieces_localised_name_vco_custom_quest_skarsnik_eight_peaks	Eight Peaks Eternal	false
+battle_set_pieces_localised_description_vco_custom_quest_skarsnik_eight_peaks	Belegar Ironhammer has emerged from behind his walls, enraged at Skarsnik’s most recent atrocities. All according to plan. From the depths, the Headtaker comes, a great vermintide at his back. The fate of the Eight Peaks hangs in the balance. Will Skarsnik emerge as its One True King, or will he become just another footnote in the pages of its bloody history?\\n	false
+missions_localised_title_vco_custom_quest_queek_eight_peaks	Eight Peaks Eternal	false
+missions_localised_description_vco_custom_quest_queek_eight_peaks	Since Clan Mors swarmed up from the depths to claim Karak Eight Peaks, Queek has been fighting a constant war of attrition against the last holdouts of the Dwarfs and the Greenskins. Now, the time has come to be rid of them once and for all.\\n	false
+battle_set_pieces_localised_name_vco_custom_quest_queek_eight_peaks	Eight Peaks Eternal	false
+battle_set_pieces_localised_description_vco_custom_quest_queek_eight_peaks	Queek's brazen assault into Skarsnik's lair met with failure. Instead, the Night Goblin Warlord now has his clawpack completely encircled. To make matters worse, the Exile King, Belegar Ironhammer, has chosen this moment to launch his own assault. Disaster looms, but so too does opportunity… an opportunity for Queek to be rid of his two greatest foes once and for all!\\n	false
+missions_localised_title_vco_custom_quest_karl_franz_conclave_light	The Storm of Chaos	false
+missions_localised_description_vco_custom_quest_karl_franz_conclave_light	From the Chaos Wastes, Archaon, Lord of the End Times, marches south into the lands of Kislev, a vast horde of daemons, beastmen and northmen following in his wake. The Ice Queen calls for aid, and Karl Franz answers. After assembling a grand alliance of dwarfs, elves and men, he marches north with all haste to meet the Everchosen's forces head-on.\\n	false
+battle_set_pieces_localised_name_vco_custom_quest_karl_franz_conclave_light	The Storm of Chaos	false
+battle_set_pieces_localised_description_vco_custom_quest_karl_franz_conclave_light	“It is here, on the outskirts of the cursed city of Praag, where the world's fate will be decided. For too long have the servants of the Ruinous Powers brought misery and death to our lands. The line must be drawn here! By Sigmar, we will take not one step backwards! By Sigmar, the Everchosen falls this day! Let us be rid of their foul taint - now and forever!”	false
+scripted_subtitles_localised_text_vco_thorgrim_skavenblight_speech_01	Loyal Dwarfs, the clans of the Karaz Ankor unite!	false
+scripted_subtitles_localised_text_vco_thorgrim_skavenblight_speech_02	To the Slayers, I say, chant your battle-hymns of doom, fulfil your oaths and seek glory in death! 	false
+scripted_subtitles_localised_text_vco_thorgrim_skavenblight_speech_03	To the rest of the throng: destroy these vile creatures. Bring them down like rotten elgi trees.	false
+scripted_subtitles_localised_text_vco_thorgrim_skavenblight_speech_04	This is my edict as High King! Khazukan Kazakit-ha!	false
+scripted_subtitles_localised_text_vco_eight_peaks_belegar_speech_01	Yes, my kin, today is a great day! Today we kill urks! Today is vengeance!	false
+scripted_subtitles_localised_text_vco_eight_peaks_belegar_speech_02	For Karak Eight Peaks!	false
+scripted_subtitles_localised_text_vco_eight_peaks_skarsnik_speech_01	Patience, Gobbla, soon you'll eat, and itz yer favourite - stunty-meat!	false
+scripted_subtitles_localised_text_vco_eight_peaks_skarsnik_speech_02	Well 'ere dey come now, and dey are all tool'd up ready to fight.	false
+scripted_subtitles_localised_text_vco_eight_peaks_skarsnik_speech_03	Get ready boyz! I 'ope yer 'ungry, Gobbla!	false
+scripted_subtitles_localised_text_vco_eight_peaks_queek_speech_01	Dwarf-things! Look how they scurry to us on such little legs!	false
+scripted_subtitles_localised_text_vco_eight_peaks_queek_speech_02	I'll take head-spine for my trophy rack. More heads, more glory for Queek!	false
+scripted_subtitles_localised_text_vco_eight_peaks_queek_speech_03	Let us begin...	false
+scripted_objectives_localised_text_vco_karak_eight_peaks_custom_quest_skarsnik_message_queek_arrives	Da Headtaker finks he can get da jump on us? Gobbla, 'e's yours!	false
+scripted_objectives_localised_text_vco_karak_eight_peaks_custom_quest_queek_message_skarsnik_arrives	Skarsnik comes to take-steal what is mine-mine! I'll have his head!	false
+battle_set_piece_armies_army_onscreen_name_vco_custom_quest_karl_franz_final_ally_grand_alliance	The Grand Alliance	false
+battle_set_piece_armies_army_onscreen_name_vco_custom_quest_karl_franz_final_ally_snow_and_steel	The Knights of Snow and Steel	false
+battle_set_piece_armies_army_onscreen_name_vco_custom_quest_karl_franz_final_ally_gold_and_iron	The Lords of Gold and Iron	false
+battle_set_piece_armies_army_onscreen_name_vco_custom_quest_karl_franz_final_enemy_gibbering_tide	The Daemonic Legion	false
+battle_set_piece_armies_army_onscreen_name_vco_custom_quest_karl_franz_final_enemy_beasts_of_chaos	The Monstrous Horde	false
+battle_set_piece_armies_army_onscreen_name_vco_custom_quest_karl_franz_final_enemy_chaos_dwarfs	Dark Lands Destroyers	false
+battle_set_piece_armies_army_onscreen_name_vco_custom_quest_karl_franz_final_enemy_archaons_warhost	Warhost of the Apocalypse	false
+battle_set_piece_armies_army_onscreen_name_vco_custom_quest_belegar_skavenblight_ally_thorgrim	The Grudgemongers	false
+scripted_subtitles_localised_text_vco_conclave_light_speech_01	Once more we will ally with the Manlings, just as Grimnir did ten-score centuries ago!	false
+scripted_subtitles_localised_text_vco_conclave_light_speech_02	We will repulse these vile creatures with our dying breath and renew the oldest and greatest alliance this world has ever seen!	false
+scripted_subtitles_localised_text_vco_conclave_light_speech_03	Only a fool underestimates his adversary. I will see to it that- We mark another grudge!	false
+scripted_subtitles_localised_text_vco_conclave_light_speech_04	It would be unwise to waste- Ready axes!	false
+scripted_subtitles_localised_text_vco_conclave_light_speech_05	I will brook no meagerness. Our common cause shall benefit the world.	false
+scripted_subtitles_localised_text_vco_conclave_light_speech_06	Agreed. Refusing union weakens us all.	false
+scripted_subtitles_localised_text_vco_conclave_light_speech_07	As Sigmar fought, so shall we;. We have marched many miles, but there is no distance so great that I would not gladly march it to face this - our ultimate foe!	false
+scripted_subtitles_localised_text_vco_conclave_light_speech_08	For Sigmar, for the Empire, for the WARHAMMER!	false

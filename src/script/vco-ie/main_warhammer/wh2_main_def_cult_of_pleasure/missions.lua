@@ -3,7 +3,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_def_cop_1_stellar_pyramids_of_khaine;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -57,7 +57,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_def_cop_2_hell_hath_no_fury;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer MUFFIN_MAN;
 			primary_objectives_and_payload
 			{
@@ -122,7 +122,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_def_cop_3_return_of_the_queen;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{

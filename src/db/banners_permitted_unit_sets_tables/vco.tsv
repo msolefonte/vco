@@ -1,3 +1,4 @@
 banner	unit_set
 #banners_permitted_unit_sets_tables;0;db/banners_permitted_unit_sets_tables/vco	
+vco_anc_magic_standard_belegar_banner	all_units
 vco_anc_magic_standard_volkmar_banner	all_units

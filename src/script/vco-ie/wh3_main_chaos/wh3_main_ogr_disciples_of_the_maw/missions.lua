@@ -3,7 +3,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_ogr_skr_1_pilgrim_maw_roc;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -61,7 +61,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_ogr_skr_2_age_of_ogres_roc;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -112,7 +112,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_ogr_skr_3_hunger_power_roc;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{

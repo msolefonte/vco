@@ -3,7 +3,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_vmp_man_1_restless_dunes;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer MUFFIN_MAN;
 			primary_objectives_and_payload
 			{
@@ -63,7 +63,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_vmp_man_2_reclaim_throne;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -161,7 +161,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_vmp_man_3_death_comes_for_all;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{

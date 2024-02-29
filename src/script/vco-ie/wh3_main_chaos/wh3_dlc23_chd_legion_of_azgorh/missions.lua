@@ -3,7 +3,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_chd_dra_1_show_of_strength_roc;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer MUFFIN_MAN;
 			primary_objectives_and_payload
 			{
@@ -51,7 +51,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_chd_dra_2_trial_by_fire_roc;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -132,7 +132,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_chd_dra_3_the_last_days_roc;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{

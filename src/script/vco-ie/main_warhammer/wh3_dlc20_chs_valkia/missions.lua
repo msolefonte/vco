@@ -3,7 +3,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_chs_val_1_blood_snow;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -74,7 +74,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_chs_val_2_bringer_glory;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -129,7 +129,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_chs_val_3_shup_up_daemon;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer MUFFIN_MAN;
 			primary_objectives_and_payload
 			{

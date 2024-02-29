@@ -3,7 +3,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_nor_thr_1_ice_age_cometh;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -18,14 +18,14 @@ local missions = {
 				{
 					override_text mission_text_text_mis_activity_attain_chaos_god_favour;
 					type SCRIPTED;
-					script_key attain_chaos_god_favour;
+					script_key vco_nor_throgg_chaos_allegiance;
 				}
 
 				objective
 				{
 					override_text mission_text_text_mis_activity_defeat_chaos_gods_challengers;
 					type SCRIPTED;
-					script_key defeat_chaos_gods_challengers;
+					script_key vco_defeat_chaos_gods_challengers_wint;
 				}
 
 				objective
@@ -66,7 +66,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_nor_thr_2_age_of_the_beast;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer MUFFIN_MAN;
 			primary_objectives_and_payload
 			{
@@ -129,7 +129,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_nor_thr_3_troll_king;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{

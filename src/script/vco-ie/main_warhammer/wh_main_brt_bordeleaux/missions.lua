@@ -3,7 +3,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_brt_bdx_1_alberic_grail_quest;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -64,7 +64,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_brt_bdx_2_no_ocean_for_dead_men;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer MUFFIN_MAN;
 			primary_objectives_and_payload
 			{
@@ -109,7 +109,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_brt_bdx_3_home_sweet_home;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{

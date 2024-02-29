@@ -3,7 +3,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_ogr_gre_1_rich_walk;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -55,7 +55,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_ogr_gre_2_overtyrants_reign;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -125,7 +125,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_ogr_gre_3_drakecrush;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{

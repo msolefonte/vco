@@ -3,7 +3,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_ogr_skr_1_pilgrim_maw;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -21,11 +21,10 @@ local missions = {
 					script_key vco_ogr_the_maw_that_walks;
 				}
 
-				objective
+				objective
 				{
-					override_text mission_text_text_mis_activity_cauldron_of_maw;
-					type SCRIPTED;
-					script_key cauldron_of_maw_obtained;
+					type FIGHT_SET_PIECE_BATTLE;
+					set_piece_battle wh3_main_qb_ogr_skrag_cauldron_of_the_great_maw_caverns_of_mourn;
 				}
 
 				objective
@@ -60,7 +59,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_ogr_skr_2_age_of_ogres;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -120,7 +119,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_ogr_skr_3_hunger_power;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{

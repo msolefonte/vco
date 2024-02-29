@@ -3,7 +3,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_wef_twi_1_dreaming_wood;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -86,7 +86,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_wef_twi_2_vauls_anvils;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -130,7 +130,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_wef_twi_3_sacred_pools;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{

@@ -3,7 +3,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_skv_mdr_1_yes_yes_prepare_the_lab;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer MUFFIN_MAN;
 			primary_objectives_and_payload
 			{
@@ -59,7 +59,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_skv_mdr_2_the_vermintide_comes;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -114,7 +114,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_skv_mdr_3_the_frozen_dead;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer KING_KAZADOR;
 			primary_objectives_and_payload
 			{

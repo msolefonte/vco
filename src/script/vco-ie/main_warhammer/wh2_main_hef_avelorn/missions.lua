@@ -3,7 +3,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_hef_ala_1_hope_springs_eternal;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer MUFFIN_MAN;
 			primary_objectives_and_payload
 			{
@@ -70,7 +70,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_hef_ala_2_mortal_worlds_torment;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -125,7 +125,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_hef_ala_3_oakhearts_plea;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer KING_KAZADOR;
 			primary_objectives_and_payload
 			{

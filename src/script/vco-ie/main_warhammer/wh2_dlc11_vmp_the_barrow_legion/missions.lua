@@ -3,7 +3,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_vmp_kem_1_cold_mountains_quiet_fields;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -76,7 +76,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_vmp_kem_2_old_world_calls_me;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -142,7 +142,7 @@ local missions = {
 		mission
  		{
 			victory_type vco_victory_type_vmp_kem_3_lichemaster;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer MUFFIN_MAN;
 			primary_objectives_and_payload
 			{

@@ -3,7 +3,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_chd_zha_1_storms_end;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -83,7 +83,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_chd_zha_2_the_harrowing;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer MUFFIN_MAN;
 			primary_objectives_and_payload
 			{
@@ -133,7 +133,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_chd_zha_3_hashuts_ascent;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer KING_KAZADOR;
 			primary_objectives_and_payload
 			{

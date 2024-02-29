@@ -3,7 +3,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_emp_the_1_champions_of_the_empire;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -50,7 +50,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_emp_the_2_the_huntsmarshals_expedition;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -139,7 +139,7 @@ local missions = {
 		mission
  		{
 			victory_type vco_victory_type_emp_the_3_it_is_round;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer MUFFIN_MAN;
 			primary_objectives_and_payload
 			{

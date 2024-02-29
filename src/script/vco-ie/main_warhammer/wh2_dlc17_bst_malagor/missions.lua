@@ -3,7 +3,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_bst_mal_1_badlands_bloodground;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -63,7 +63,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_bst_mal_2_seed_of_hate;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer KING_KAZADOR;
 			primary_objectives_and_payload
 			{
@@ -117,7 +117,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_bst_mal_3_bane_of_death;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{

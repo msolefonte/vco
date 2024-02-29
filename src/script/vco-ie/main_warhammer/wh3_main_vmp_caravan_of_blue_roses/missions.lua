@@ -3,7 +3,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_vmp_hel_1_necrotic_harvest;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -62,7 +62,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_vmp_hel_2_killing_fields_cathay;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -133,7 +133,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_vmp_hel_3_the_summoning;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer MUFFIN_MAN;
 			primary_objectives_and_payload
 			{

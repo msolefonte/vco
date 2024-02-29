@@ -3,7 +3,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_hef_imr_1_eastern_ambitions;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -91,7 +91,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_hef_imr_2_vengeance_dark_lands;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer MUFFIN_MAN;
 			primary_objectives_and_payload
 			{
@@ -202,7 +202,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_hef_imr_3_gold_glory;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer MUFFIN_MAN;
 			primary_objectives_and_payload
 			{

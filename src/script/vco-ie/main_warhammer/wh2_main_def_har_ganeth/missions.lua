@@ -3,7 +3,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_def_gan_1_sacrifice_slaughter;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -52,7 +52,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_def_gan_2_suffer_not_another_queen;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -120,7 +120,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_def_gan_3_eternity_awaits;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer MUFFIN_MAN;
 			primary_objectives_and_payload
 			{

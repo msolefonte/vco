@@ -3,7 +3,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_hef_nag_1_shadows_over_naggaroth;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer MUFFIN_MAN;
 			primary_objectives_and_payload
 			{
@@ -65,7 +65,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_hef_nag_2_amulet_of_sunfire;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -120,7 +120,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_hef_nag_3_the_eternal_war;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer KING_KAZADOR;
 			primary_objectives_and_payload
 			{

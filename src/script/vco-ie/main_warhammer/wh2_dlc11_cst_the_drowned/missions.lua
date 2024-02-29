@@ -3,7 +3,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_cst_cyl_1_ghost_seashell;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -58,7 +58,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_cst_cyl_2_what_lurks_below;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -68,7 +68,7 @@ local missions = {
 					type SCRIPTED;
 					script_key vco_dummy;
 				}
-			
+
 				objective
 				{
 					override_text mission_text_text_vco_cst_cyl_2_what_lurks_below_1;
@@ -124,7 +124,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_cst_cyl_3_rising_tide;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer MUFFIN_MAN;
 			primary_objectives_and_payload
 			{

@@ -87,7 +87,7 @@ victory_types_display_name_vco_victory_type_dwf_gro_3_age_reckoning	Route III - 
 victory_types_display_name_vco_victory_type_economic	Economic Victory	true
 victory_types_display_name_vco_victory_type_emp_kar_1_protector_empire	Route I - Protector of the Empire	true
 victory_types_display_name_vco_victory_type_emp_kar_2_defier_dark	Route II - Defier of the Dark	true
-victory_types_display_name_vco_victory_type_emp_kar_3_karl_uniter	Route III - Karl the Uniter	true
+victory_types_display_name_vco_victory_type_emp_kar_3_karl_uniter	Route III - Darkness Rising	true
 victory_types_display_name_vco_victory_type_emp_the_1_champions_of_the_empire	Route I - The Emperor's Mandate	true
 victory_types_display_name_vco_victory_type_emp_the_2_the_huntsmarshals_expedition	Route II - That Belongs in a Museum!	true
 victory_types_display_name_vco_victory_type_emp_the_3_it_is_round	Route III - On Safari	true
@@ -267,9 +267,18 @@ victory_types_display_name_vco_victory_type_vmp_vla_3_hearts_of_ice	Route III - 
 victory_types_display_name_vco_victory_type_hef_ala_1_hope_springs_eternal	Route I - Hope Springs Eternal	true
 victory_types_display_name_vco_victory_type_hef_ala_2_mortal_worlds_torment	Route II - Mortal World's Torment	true
 victory_types_display_name_vco_victory_type_hef_ala_3_oakhearts_plea	Route III - Oakheart's Plea	true
-victory_types_display_name_vco_victory_type_nor_thr_1_ice_age_cometh	Route I - Ice Age Cometh	true
+victory_types_display_name_vco_victory_type_nor_thr_1_ice_age_cometh	Route I - The Ice Age Cometh	true
 victory_types_display_name_vco_victory_type_nor_thr_2_age_of_the_beast	Route II - Age of the Beast	true
 victory_types_display_name_vco_victory_type_nor_thr_3_troll_king	Route III - King of the Trolls	true
 victory_types_display_name_vco_victory_type_hef_nag_1_shadows_over_naggaroth	Route I - Shadows Over Naggaroth	true
 victory_types_display_name_vco_victory_type_hef_nag_2_amulet_of_sunfire	Route II - In The Pale Moonlight	true
 victory_types_display_name_vco_victory_type_hef_nag_3_the_eternal_war	Route III - The Eternal War	true
+victory_types_display_name_vco_victory_type_dwf_bel_1_the_reckoning	Route I - The Iron Oath	true
+victory_types_display_name_vco_victory_type_dwf_bel_2_friend_or_foe	Route II - Into The West	true
+victory_types_display_name_vco_victory_type_dwf_bel_3_karak_eight_peaks	Route III - The War for the Eight Peaks	true
+victory_types_display_name_vco_victory_type_grn_ska_1_worlds_edge_warlord	Route I - Worlds Edge Warlord	true
+victory_types_display_name_vco_victory_type_grn_ska_2_squig_feast	Route II - A Culinary Crusade	true
+victory_types_display_name_vco_victory_type_grn_ska_3_karak_eight_peaks	Route III - The War for the Eight Peaks	true
+victory_types_display_name_vco_victory_type_skv_mor_1_the_chorus_grows	Route I - Headtaker	true
+victory_types_display_name_vco_victory_type_skv_mor_2_withering_idol	Route II - The Withering Idol	true
+victory_types_display_name_vco_victory_type_skv_mor_3_karak_eight_peaks	Route III - The War for the Eight Peaks	true

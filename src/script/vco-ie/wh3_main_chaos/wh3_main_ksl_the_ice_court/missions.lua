@@ -3,7 +3,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_ksl_kat_1_there_can_only_be_one_roc;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -61,7 +61,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_ksl_kat_2_kislev_love_roc;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -107,7 +107,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_ksl_kat_3_defenders_world_roc;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer KING_KAZADOR;
 			primary_objectives_and_payload
 			{

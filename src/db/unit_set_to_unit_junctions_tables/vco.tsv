@@ -84,7 +84,6 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			vco_wh_main_grn_cha_grimgor_ironbound	all_units_excluding_immune_to_psychology	true
 			vco_wh_main_grn_cha_grimgor_ironbound	chd_characters	false
 			vco_wh_main_grn_inf_black_orcs	all_units_excluding_immune_to_psychology	true
-			vco_wh_main_grn_inf_black_orcs	vco_grimgor_ironbound_orc_labourers	false
 			vco_wh_main_grn_inf_black_orcs	vco_zhatan_black_orcs	false
 			vco_wh_main_grn_inf_black_orcs	wh3_dlc23_chd_labourer_ork	false
 			vco_wh_main_grn_mon_trolls	all_non_chs	false
@@ -123,6 +122,8 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			wh2_dlc11_cst_mon_rotting_prometheans_gunnery_mob_ror	vco_cst_rotting	false
 			wh2_dlc11_cst_mon_rotting_prometheans_summoned_0	vco_cst_rotting	false
 			wh2_dlc11_vmp_cha_heinrich_kemmler_1	vco_vmp_kem	false
+			wh2_dlc12_skv_inf_stormvermin_ror_0	vco_queek_stormvermin	false
+			wh2_dlc15_grn_cav_squig_hoppers_waaagh_0	vco_skarsnik_squigs	false
 			wh2_dlc15_hef_mon_black_dragon_imrik	vco_hef_dragons	false
 			wh2_dlc15_hef_mon_forest_dragon_0	vco_hef_dragons	false
 			wh2_dlc15_hef_mon_forest_dragon_imrik	vco_hef_dragons	false
@@ -141,6 +142,9 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			wh2_main_hef_mon_star_dragon	vco_hef_dragons	false
 			wh2_main_hef_mon_sun_dragon	vco_hef_dragons	false
 			wh2_main_skv_cha_assassin	vco_skv_assassins	false
+			wh2_main_skv_cha_queek_headtaker	vco_queek_stormvermin	false
+			wh2_main_skv_inf_stormvermin_0	vco_queek_stormvermin	false
+			wh2_main_skv_inf_stormvermin_1	vco_queek_stormvermin	false
 			wh3_dlc20_chs_cha_chaos_sorcerer_lord_metal_mtze_warshrine	vco_cth_chaos_altar_tze	false
 			wh3_dlc20_chs_cha_chaos_sorcerer_lord_tzeentch_mtze_warshrine	vco_cth_chaos_altar_tze	false
 			wh3_dlc20_chs_cha_chaos_sorcerer_metal_mtze_warshrine	vco_cth_chaos_altar_tze	false
@@ -166,6 +170,11 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			wh_dlc03_bst_inf_ungor_spearmen_0	vco_malagor_gors	false
 			wh_dlc03_bst_inf_ungor_spearmen_1	vco_malagor_gors	false
 			wh_dlc05_bst_mon_harpies_0	vco_malagor_harpies	false
+			wh_dlc06_grn_cav_durkits_squigs_0	vco_skarsnik_squigs	false
+			wh_dlc06_grn_cav_squig_hoppers_0	vco_skarsnik_squigs	false
+			wh_dlc06_grn_cha_skarsnik_0	vco_skarsnik_squigs	false
+			wh_dlc06_grn_inf_squig_explosive_0	vco_skarsnik_squigs	false
+			wh_dlc06_grn_inf_squig_herd_0	vco_skarsnik_squigs	false
 			wh_dlc07_brt_cha_alberic_bordeleaux_0	vco_brt_alberic	false
 			wh_dlc07_brt_cha_alberic_bordeleaux_1	vco_brt_alberic	false
 			wh_dlc07_brt_cha_alberic_bordeleaux_2	vco_brt_alberic	false

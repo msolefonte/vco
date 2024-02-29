@@ -3,7 +3,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_skv_ric_1_nightmare_drakenmoor;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -76,7 +76,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_skv_ric_2_ascension;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer MUFFIN_MAN;
 			primary_objectives_and_payload
 			{
@@ -133,7 +133,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_skv_ric_3_fozzriks_flying_fastness;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer KING_KAZADOR;
 			primary_objectives_and_payload
 			{

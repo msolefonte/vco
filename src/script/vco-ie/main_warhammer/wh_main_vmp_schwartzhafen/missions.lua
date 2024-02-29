@@ -3,7 +3,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_vmp_vla_1_fourth_vampire_war;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -90,7 +90,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_vmp_vla_2_slaughter_slopes;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer MUFFIN_MAN;
 			primary_objectives_and_payload
 			{
@@ -142,7 +142,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_vmp_vla_3_hearts_of_ice;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{

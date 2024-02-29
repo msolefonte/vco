@@ -3,7 +3,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_skv_esh_1_shadow_and_blade;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer MUFFIN_MAN;
 			primary_objectives_and_payload
 			{
@@ -51,7 +51,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_skv_esh_2_knives_in_the_dark;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -195,7 +195,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_skv_esh_3_year_of_the_rat;
-			key wh_main_short_victory;
+			key vco_route_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{

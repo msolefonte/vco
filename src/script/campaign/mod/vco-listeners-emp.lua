@@ -1,6 +1,7 @@
 local vco = core:get_static_object("vco");
 local vlc = core:get_static_object("vco-lib-commons");
 
+local FACTION_KARL_FRANZ_KEY = "wh_main_emp_empire";
 local FACTION_VOLKMAR_KEY = "wh3_main_emp_cult_of_sigmar";
 local FACTION_MARKUS_KEY = "wh2_dlc13_emp_the_huntmarshals_expedition";
 local KEY_D_FINAL_SEAL = "vco_emp_vol_dilemma_final_seal";
@@ -19,6 +20,10 @@ end
 
 local function trigger_mar_quest()
     cm:trigger_mission(FACTION_MARKUS_KEY, "vco_wh2_dlc13_qb_emp_final_battle_wulfhart", true);
+end
+
+local function trigger_emp_karl_franz_storm_of_chaos_qb()
+      cm:trigger_mission(FACTION_KARL_FRANZ_KEY, "vco_custom_quest_karl_franz_conclave_light", true);
 end
 
 -- LISTENERS --
@@ -59,6 +64,17 @@ core:add_listener(
 				context:mission():mission_issuer_record_key() == "MUFFIN_MAN";
 		end,
 		trigger_markus_dilemma,
+		false
+	);
+
+	core:add_listener(
+		"vco_emp_karl_franz_3_completed",
+		"MissionSucceeded",
+		function(context)
+			return context:faction():name() == FACTION_KARL_FRANZ_KEY and
+				context:mission():mission_issuer_record_key() == "KING_KAZADOR";
+		end,
+		trigger_emp_karl_franz_storm_of_chaos_qb,
 		false
 	);
 
