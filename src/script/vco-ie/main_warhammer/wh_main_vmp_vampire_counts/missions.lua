@@ -97,11 +97,13 @@ local missions = {
 					type CONSTRUCT_BUILDING_IN_PROVINCES;
 					faction wh_main_vmp_vampire_counts;
 
-                    province wh3_main_combi_province_southern_sylvania;
+
+                    province wh3_main_combi_province_southern_sylvania;
 					building_level wh3_main_special_drakenhof_malevolent_museum;
 				}
 
-				objective
+
+				objective
 				{
 					override_text mission_text_text_vco_vmp_man_2_reclaim_throne_1;
 					type SCRIPTED;
@@ -135,7 +137,8 @@ local missions = {
 						turns 0;
 					}
 
-					effect_bundle
+
+					effect_bundle
 					{
 						bundle_key vco_victory_payload_vmp_man_3_death_comes_for_all_2;
 						turns 0;
@@ -183,9 +186,9 @@ local missions = {
 
 				objective
 				{
-					override_text mission_text_text_vco_common_nagash_books_collected;
+					override_text mission_text_text_vco_common_nagash_books_collected_0;
 					type SCRIPTED;
-					script_key vco_script_key_book_of_nagash_mannfred;
+					script_key vco_wh_main_vmp_vampire_counts_nagash_books;
 				}
 
 				payload

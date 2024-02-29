@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [5.13.0] - 22.11.2023
+
+- Added new routes for Alarielle the Radiant: Avelorn
+- Added new custom battle objective Alarielle the Radiant: Avelorn themed around her rivalry with Hellebron from the Queen & the Crone DLC
+- Added Vortex quest battle objective for Arkhan the Black: Followers of Nagash
+- Added Vortex quest battle objective for Sisters of Twilight: Heralds of Ariel
+- Added Vortex quest battle objective for Throt the Unclean: Clan Moulder
+- Fixed crash caused by the 4.1 update
+
 ## [5.12.0] - 07.11.2023
 
 - Added new routes for Vlad/Isabella von Carstein: Sylvania
@@ -108,7 +117,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [5.2.1] - 13/01/2023
 
-- Added missing Clan Eshin check for target factions being destroyed, preventing Snikch from defeating their leader in battle (Thanks @Thrakerzod & @Cheato1!)
+- Added missing Clan Eshin check for target factions being destroyed, preventing Snikch from defeating their leader in
+  battle (Thanks @Thrakerzod & @Cheato1!)
 - Fixed locking units to subcultures which was causing a crash during the first AI turns
 - Fixed race-specific unit locking applying on faction-specific first turn for Norsca + Kislev
 - Fixed missing Ancillary item key table which was preventing Victory Conditions Overhaul ancillary additions
@@ -158,7 +168,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updated The Drakenhof Conclave third route reward: Now Mannfred also gets the Ghal Maraz ability
 - Improved flavour and replaced icons
 
-## [5.0.0-beta-8] The Corruptor and the Incorruptible  - 30/11/2022
+## [5.0.0-beta-8] The Corruptor and the Incorruptible - 30/11/2022
 
 - Added new routes for Tyrion: Eataine
 - Added new routes for N'Kari: Seducers of Slaanesh
@@ -203,7 +213,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [5.0.0-beta.5.HOTFIX-1] - 03/10/2022
 
 - Fixed a bug that caused The Great Orthodoxy's Route III to be unachievable
-  
+
 ## [5.0.0-beta.5] War in the North - 26/09/2022
 
 - Added new routes for Throt the Unclean: Clan Moulder
@@ -215,7 +225,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Added new routes for Grimgor Ironhide: Grimgor's 'Ardboyz
 - Added new routes for Greasus Goldtooth: Goldtooth Tribe
-- _(Technical)_ Added new common functions for VCO listeners: `is_faction_military_ally_or_destroyed()`, 
+- _(Technical)_ Added new common functions for VCO listeners: `is_faction_military_ally_or_destroyed()`,
   `is_faction_vassal_or_destroyed()` and `is_faction_under_your_control()`
 
 ## [5.0.0-beta.3] Plunder in the Jungle - 12/09/2022
@@ -252,7 +262,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [4.1.0] - 11/08/2022
 
 - The Great Game (Nurgle, Slaanesh, Tzeentch) and Blood for the Blood God (Khorne) routes modified
-  - Now it is required to achieve the highest corruption in 100 regions instead of 50
+    - Now it is required to achieve the highest corruption in 100 regions instead of 50
 - Treasure increase after completing a route reduced from 50000 to 15000
 - Updated CHANGELOG.md format
 
@@ -293,7 +303,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [3.1.0] - 21/12/2021
 
 - Added in-game tags for all routes (i.e. Unification/Conquest/Naval Supremacy)
-- Commercial Victories (Lothern/Exiles of Nehek/Bordeleaux) now also required a minimum trading income of 5000 and at 
+- Commercial Victories (Lothern/Exiles of Nehek/Bordeleaux) now also required a minimum trading income of 5000 and at
   least 6 trading partners
 - Now the Karak-Eight-Peaks conquest (Clan Angrund/Crooked Moon/Clan Mors) has to be done in less than 75 turns
 - Added a Magic Supremacy route for Bonerattlaz
@@ -304,11 +314,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [3.0.0] The Routes Rework - 14/12/2021
 
 - Introduced new feature _Routes_. Now, instead of having evolving campaigns with _Short_, _Long_ and _Ultimate_
-checkpoints, you can choose completely different ways to approach your campaign. For example, as Dwarfs, you can now win
-by destroying the close threats, unifying all the old world dwarfholds or clearing the book of grudges. You can complete
-all of them, two or just one. Up to you to decide what is funnier.
+  checkpoints, you can choose completely different ways to approach your campaign. For example, as Dwarfs, you can now
+  win
+  by destroying the close threats, unifying all the old world dwarfholds or clearing the book of grudges. You can
+  complete
+  all of them, two or just one. Up to you to decide what is funnier.
 - New introduced _Routes_ have been developed with the intent of offering different ways to enjoy the game: In a lot of
-occasions, now it will be viable to play tall/defensively, without any requisite related to paint the map.
+  occasions, now it will be viable to play tall/defensively, without any requisite related to paint the map.
 - Complete rework for all old-word factions:
     - Empire:
         - Reikland: Two new routes (Unification (Empire)/Threat Elimination)
@@ -411,8 +423,10 @@ occasions, now it will be viable to play tall/defensively, without any requisite
 ## [2.5.0] Population & Corruption Update - 15/05/2021
 
 - Updated Knights of Caledor victory conditions
-    - Required buildings to achieve a Short Victory have been reduced to Purified Graves of the Dragons and a Dragon Keep
-    - Required buildings to achieve a Long Victory have been reduced to Purified Graves of the Dragons, a Dragon Keep, and the Hall of Dragons
+    - Required buildings to achieve a Short Victory have been reduced to Purified Graves of the Dragons and a Dragon
+      Keep
+    - Required buildings to achieve a Long Victory have been reduced to Purified Graves of the Dragons, a Dragon Keep,
+      and the Hall of Dragons
     - All required units have been changed to dragons
 - Most of the skaven factions corruption requirements have been modified
     - Affects al factions except Clan Pestilens
@@ -462,12 +476,15 @@ occasions, now it will be viable to play tall/defensively, without any requisite
     - Performing 3 Rituals of Rebirth is required to achieve a Short Victory
     - Performing 5 Rituals of Rebirth is required to achieve a Long Victory
     - Destroying Laurelorn Forest, Heralds of Ariel, Bowmen of Oreon and Avelorn is required to achieve a Long Victory
-- All Bretonnian factions have had modified the to require 800 Chivalry to obtain a Short Victory and 1600 to achieve a Long/Ultimate victory
+- All Bretonnian factions have had modified the to require 800 Chivalry to obtain a Short Victory and 1600 to achieve a
+  Long/Ultimate victory
     - Repanse de Lyonesse is the only faction with no Short Victory
 - Fixed a bug where Court of Lybaras had to control/maintain untainted the Doom Glades
-    - The province was placed in some requirements in the place of Doom Glade, a region in the Crater of the Walking Dead
+    - The province was placed in some requirements in the place of Doom Glade, a region in the Crater of the Walking
+      Dead
 - Fixed some grammatical mistakes in the docs
-- Building Plague Abbeys and Plague Cauldrons requirements have been removed from Clan Pestilens because, due to a motor bug, they were never triggered
+- Building Plague Abbeys and Plague Cauldrons requirements have been removed from Clan Pestilens because, due to a motor
+  bug, they were never triggered
 - Wounding Archaon has been removed from all factions, as it can never be achieved if Chaos Invasion is no
 - Known bugs:
     - In some cases, the new conditions do not appear till triggered with the "Victory Objectives" button
@@ -478,11 +495,11 @@ occasions, now it will be viable to play tall/defensively, without any requisite
     - Constructing a Pyramid has been removed from the Short Victory
     - Controlling Broken Teeth, Crater of the Walking Dead, Doom Glades and Devil's Backbone is now a requirement
     - Maintaining 80% untainted in Broken Teeth, Crater of the Walking Dead, Doom Glades, Devil's Backbone,
-    Southlands Jungle, Kingdom of Beasts is now a requirement
+      Southlands Jungle, Kingdom of Beasts is now a requirement
     - Destroying Followers of Nagash is now required to achieve a Long Victory
     - Destroying The Awakened, The Dradfleet and The Drowned is no longer required
     - The aim is to keep it more focused in corruption/skavens an less on pyramids/empires to not overlap with other
-    Tomb Kings factions. Lustria has been removed completely
+      Tomb Kings factions. Lustria has been removed completely
 - Redone introduced to the Karaz-a-Karak faction
     - Controlling Northern Great Mountains and Southern Great Mountains is no longer required to achieve a short victory
     - Building the Throne Hall of the High King is now required to achieve both types of victory
@@ -506,18 +523,21 @@ occasions, now it will be viable to play tall/defensively, without any requisite
     - Fall of Man Beastmen quest battle popped randomly and multiple times
 - Sad reports
     - It is not possible to turn instances of Sack/Raze specific locations into Occupy/Loot/Raze/Sack for non horde
-    factions in order to prevent weird situations where you had to attack your own settlements. The key
-    OCCUPY_LOOT_RAZE_OR_SACK_X_SETTLEMENTS_INCLUDING does not exist
+      factions in order to prevent weird situations where you had to attack your own settlements. The key
+      OCCUPY_LOOT_RAZE_OR_SACK_X_SETTLEMENTS_INCLUDING does not exist
 
 ## [2.1.0] Major Update - 25/07/2020
 
 - The number of special buildings required by The Blessed Dread to achieve a Short Victory has been reduced to 1
 - The number of special buildings required by The Blessed Dread to achieve a Long Victory has been reduced to 3
 - Controlling Western Badlands is not longer required by Knights of Caledor
-- Building the White Tower of Hoeth landmark is no longer required by the Order of Loremasters to achieve a Short Victory
+- Building the White Tower of Hoeth landmark is no longer required by the Order of Loremasters to achieve a Short
+  Victory
 - Building the Black Citadel of Anlec is no longer required by Nagarythe to achieve a Short Victory
-- Razing or looting Tor Yvresse, White Tower of Hoeth and Lothern is now required by Broken Axe to achieve a Short Victory
-- Destroying Crooked Moon, Broken Nose and Skullsmasherz is no longer required by Grimgor's 'Ardboyz to achieve a Short Victory
+- Razing or looting Tor Yvresse, White Tower of Hoeth and Lothern is now required by Broken Axe to achieve a Short
+  Victory
+- Destroying Crooked Moon, Broken Nose and Skullsmasherz is no longer required by Grimgor's 'Ardboyz to achieve a Short
+  Victory
 - Destroying Naggarond and Cult of Please is no longer required by Eataine to achieve a Short Victory
 - Razing or sacking Naggarond is now required by Eataine to achieve a Short Victory
 - Getting Slann mages to level 20 is no longer required by Hexoatl
@@ -533,7 +553,8 @@ occasions, now it will be viable to play tall/defensively, without any requisite
     - Razing or looting Sartosa is now required to achieve a victory
     - Razing or looting Copher, Fyrus and Al Haikk is no longer required to achieve a Short Victory
     - Having at least 80% Untainted in Southern Badlands and Western Badlands is now required to achieve a Short Victory
-    - Having at least 80% Untainted in Easter Badlands, Southern Badlands and Western Badlands is now required to achieve a Long Victory
+    - Having at least 80% Untainted in Easter Badlands, Southern Badlands and Western Badlands is now required to
+      achieve a Long Victory
 - Redone of Vor Carstein's Long Victory conditions
     - Destroying World Walkers and Wintertooth is no longer required
     - Destroying Clan Moulder and Couronne is now required
@@ -541,7 +562,8 @@ occasions, now it will be viable to play tall/defensively, without any requisite
 - Redone of The Golden Order
     - Destroying Clan Spittel is now required to achieve a victory
     - Destroying The Bloody Handz is no longer required to achieve a Short Victory
-    - Controlling Fort Soll, Black Mountains, Eastern Border Princes and Western Border Princes is now required to achieve a Long Victory
+    - Controlling Fort Soll, Black Mountains, Eastern Border Princes and Western Border Princes is now required to
+      achieve a Long Victory
 - Fixed bugs / Minor changes
     - Renamed some Naggarond objective descriptions as they where wrong
     - Now Bretonnia and Wood Elves are going to have Short/Ultimate victories instead of Short/Long

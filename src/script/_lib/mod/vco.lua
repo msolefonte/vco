@@ -1,9 +1,9 @@
 local vco = {};
 local config = {
-	campaign_immortal_empires_enabled = true,
-	campaign_realms_of_chaos_enabled = true,
-	vco_main_mod_routes_enabled = true,
-	logging_enabled = false
+    campaign_immortal_empires_enabled = true,
+    campaign_realms_of_chaos_enabled = true,
+    vco_main_mod_routes_enabled = true,
+    logging_enabled = true
 };
 
 -- GENERIC --

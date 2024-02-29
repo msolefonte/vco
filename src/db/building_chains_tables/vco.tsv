@@ -20,11 +20,14 @@ vco_landmark_kostaltyn_halls_of_atonement			money	false	vco_landmark_kostaltyn_h
 vco_landmark_kostaltyn_sacred_flame_ulric			happiness	false	vco_landmark_kostaltyn_sacred_flame_ulric		0		true
 vco_landmark_markus_trophy_hall			military	false	vco_landmark_markus_trophy_hall		0		true
 vco_landmark_mazdamundi_geomantic_nexus			happiness	false	vco_landmark_mazdamundi_geomantic_nexus		0		true
+vco_landmark_merovech_cleansed			happiness	false	vco_landmark_merovech_cleansed		0		true
 vco_landmark_sisters_twilight_vauls_anvil_caledor			military	false	vco_landmark_sisters_twilight_vauls_anvil_caledor		0		true
 vco_landmark_sisters_twilight_vauls_anvil_naggaroth			military	false	vco_landmark_sisters_twilight_vauls_anvil_naggaroth		0		true
+vco_landmark_skeggi_asur_embassy			happiness	false	vco_landmark_skeggi_asur_embassy		0		true
 vco_landmark_skrag_couronne_cook_pot			happiness	false	vco_landmark_skrag_couronne_cook_pot		0		true
 vco_landmark_snikch_repurposed_forges			military	false	vco_landmark_snikch_repurposed_forges		0		true
 vco_landmark_snikch_warpstone_hoard			money	false	vco_landmark_snikch_warpstone_hoard		0		true
+vco_landmark_tower_of_llenog			happiness	false	vco_landmark_tower_of_llenog		0		true
 vco_landmark_tretch_tower_gorgoth			money	false	vco_landmark_tretch_tower_gorgoth		0		true
 vco_landmark_vlad_balefire_beacon			happiness	false	vco_landmark_vlad_balefire_beacon		0		true
 vco_landmark_vlad_copper_mountain			money	false	vco_landmark_vlad_copper_mountain		0		true

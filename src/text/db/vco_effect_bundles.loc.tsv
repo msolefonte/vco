@@ -58,7 +58,7 @@ effect_bundles_localised_description_vco_victory_payload_grn_gri_2_burn_badlands
 effect_bundles_localised_description_vco_victory_payload_grn_gri_3_unfinished_business_1	“Dis way, ladz! I 'eard Ironhide's 'aving anuver big stunty bake!”	true
 effect_bundles_localised_description_vco_victory_payload_grn_gri_3_unfinished_business_2	“Dat's right 'umie, get ma choppa nice 'n frosty.”	true
 effect_bundles_localised_description_vco_victory_payload_grn_gri_3_unfinished_business_3	Wot's dis do?	true
-effect_bundles_localised_description_vco_victory_payload_hef_tyr_1_defender_ulthuan	Not since the Age of Colonisation have the Elves known such prosperity.	true
+effect_bundles_localised_description_vco_victory_payload_hef_tyr_1_defender_ulthuan	Against all odds, the Glittering Host stood defiant and emerged victorious. Not since the Age of Colonisation have the Elves known such prosperity.	true
 effect_bundles_localised_description_vco_victory_payload_hef_tyr_2_love_and_war_1	With the Witch King's demise, revolts have broken out across Naggaroth. Thousands of slaves and druchii defectors flee the Black Cities, and some even flock to your banner.	true
 effect_bundles_localised_description_vco_victory_payload_hef_tyr_2_love_and_war_2	Ostensibly the progeny of the Everqueen and the Phoenix King, some whisper that Aliathra's pedigree is... less than certain.	true
 effect_bundles_localised_description_vco_victory_payload_hef_tyr_3_fate_of_the_soul_1	After centuries of isolation, the Asrai now answer to the Phoenix King and the Elves of Ulthuan once more.	true
@@ -554,3 +554,9 @@ effect_bundles_localised_title_vco_victory_payload_vmp_vla_dilemma_last_stand_fi
 effect_bundles_localised_description_vco_victory_payload_vmp_vla_dilemma_last_stand_first	Vlad's Necromancers work tirelessly to dismantle the many protective wards safeguarding the ancient dwarfen warriors, so they can be raised to fight once more.	false
 effect_bundles_localised_title_vco_victory_payload_vmp_vla_dilemma_last_stand_second	The Treasure Vaults of Karaz-a-Karak	false
 effect_bundles_localised_description_vco_victory_payload_vmp_vla_dilemma_last_stand_second	Long winding columns of baggage trains wend their way from the Everpeak to Castle Drakenhof, gradually emptying the mountain of its vast stores of gold and runic armaments.	false
+effect_bundles_localised_title_vco_victory_payload_hef_ala_1_hope_springs_eternal	Saviour of Ulthuan	false
+effect_bundles_localised_description_vco_victory_payload_hef_ala_1_hope_springs_eternal	As word spreads of Alarielle's victories, despair vanishes like shadows in daylight and a newfound resolve arises to take its place.	false
+effect_bundles_localised_title_vco_victory_payload_hef_ala_2_mortal_worlds_torment	Anathema to the Tainted	false
+effect_bundles_localised_description_vco_victory_payload_hef_ala_2_mortal_worlds_torment	Even the blackest shadow could not withstand the Everqueen's holy light. With a single touch, Be'lakor was banished from the world. With a simple gesture, the dark bindings of Mousillon's undead were unravelled. With a soothing word, Hellebron's tainted soul was cleansed by Isha's holy light, leaving naught but a glowing mound of ash where once the Blood Queen stood.	false
+effect_bundles_localised_title_vco_victory_payload_hef_ala_3_oakhearts_plea	Avatar of Isha	false
+effect_bundles_localised_description_vco_victory_payload_hef_ala_3_oakhearts_plea	None know for certain what occurred at the heart of the Oak of Ages, only that Alarielle emerged alone, radiant with newfound power, and wielding both the Stave of Avelorn and the Wand of the Wych Elm.	false

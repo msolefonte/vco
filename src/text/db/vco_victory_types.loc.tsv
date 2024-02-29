@@ -128,7 +128,7 @@ victory_types_display_name_vco_victory_type_lzd_hex_3_purging_warmbloods	Route I
 victory_types_display_name_vco_victory_type_military	Military Victory	true
 victory_types_display_name_vco_victory_type_nor_wul_1_ragnarok	Route I - Ragnarok	true
 victory_types_display_name_vco_victory_type_nor_wul_2_the_world_walker	Route II - The World Walker	true
-victory_types_display_name_vco_victory_type_nor_wul_3_wheres_my_palico	Route III - Where's My Palico?	true
+victory_types_display_name_vco_victory_type_nor_wul_3_wheres_my_palico	Route III - Everchieftan	true
 victory_types_display_name_vco_victory_type_nur_kug_1_great_game	Route I - The Great Game	true
 victory_types_display_name_vco_victory_type_nur_kug_1_great_game_roc	Route I - The Great Game	true
 victory_types_display_name_vco_victory_type_nur_kug_2_eastern_poxes	Route II - Eastern Poxes	true
@@ -264,3 +264,6 @@ victory_types_display_name_vco_victory_type_dwf_ung_3_reunification	Route III - 
 victory_types_display_name_vco_victory_type_vmp_vla_1_fourth_vampire_war	Route I - The Fourth Vampire War	true
 victory_types_display_name_vco_victory_type_vmp_vla_2_slaughter_slopes	Route II - Slaughter on the Slopes	true
 victory_types_display_name_vco_victory_type_vmp_vla_3_hearts_of_ice	Route III - The Frozen Throne	true
+victory_types_display_name_vco_victory_type_hef_ala_1_hope_springs_eternal	Route I - Hope Springs Eternal	true
+victory_types_display_name_vco_victory_type_hef_ala_2_mortal_worlds_torment	Route II - Mortal World's Torment	true
+victory_types_display_name_vco_victory_type_hef_ala_3_oakhearts_plea	Route III - Oakheart's Plea	true

@@ -23,7 +23,7 @@ gb:set_cutscene_during_deployment(true);
 ---------------------------
 ----HARD SCRIPT VERSION----
 ---------------------------
-gb:set_objective_on_message("deployment_started", "wh_main_qb_objective_attack_defeat_army");
+gb:set_objective_on_message("battle_started", "wh_main_qb_objective_attack_defeat_army");
 gb:queue_help_on_message("spawn_reinforcements", "vco_tretch_custom_quest_message_chaos_dwarf_reinforcements");
 
 
@@ -38,7 +38,7 @@ ga_ai_chaos_dwarfs = gb:get_army(gb:get_non_player_alliance_num(), 2);
 
 
 -------INITIAL ATTACK-------
-ga_ai_lahmians:attack_on_message("deployment_started",2000);
+ga_ai_lahmians:attack_on_message("battle_started",2000);
 
 
 -------CHAOS DWARF SURPRISE-------

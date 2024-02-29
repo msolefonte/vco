@@ -1,0 +1,4 @@
+character_name	character_level	forename	magic_lore	num_men	surname	unit_type	agent_type	agent_subtype	portrait	character_model	skillset	male
+#battle_set_piece_armies_characters_tables;8;db/battle_set_piece_armies_characters_tables/vco												
+vco_alarielle_custom_battle_chaos_lord_on_dragon	35	1608359251		100	21473573650	wh_dlc01_chs_cha_chaos_lord_2	general	wh_main_chs_lord	ui/portraits/portholes/wh_main_chs_chaos/dae_kho_exalted_hero_campaign_01_0.png	140621047		true
+vco_alarielle_custom_battle_daemon_prince_of_khorne	40	21473573648		100	21473573649	wh3_dlc20_chs_cha_daemon_prince_mkho	general	wh3_dlc20_chs_daemon_prince_khorne	ui/portraits/portholes/wh3_main_dae_daemons/dae_prince_0.png	2076232679		true

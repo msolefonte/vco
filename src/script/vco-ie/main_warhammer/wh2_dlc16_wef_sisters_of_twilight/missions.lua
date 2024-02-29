@@ -30,6 +30,12 @@ local missions = {
 
 				objective
 				{
+					type FIGHT_SET_PIECE_BATTLE;
+					set_piece_battle wh2_dlc16_qb_wef_final_battle_sisters;
+				}
+
+				objective
+				{
 					override_text mission_text_text_vco_wef_twi_1_dreaming_wood_2;
 					type SCRIPTED;
 					script_key vco_dummy;

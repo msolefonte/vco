@@ -49,6 +49,22 @@ end
 -- LISTENERS --
 
 local function add_listeners()
+    core:add_listener(
+        "vco_emp_vol_book_collected",
+        "MissionSucceeded",
+        function(context)
+            return context:faction():is_human() and
+                context:faction():name() == FACTION_MAN_KEY and
+                context:mission():mission_record_key():sub(1,26) == "wh2_dlc09_books_of_nagash_";
+        end,
+        function(context)
+            local book_number = string.sub(context:mission():mission_record_key(), -1);
+            vlc.nagash_books:add(FACTION_MAN_KEY, book_number);
+            vlc.nagash_books:check_all_books_collected(FACTION_MAN_KEY, 0);
+        end,
+        true
+    );
+
 	core:add_listener(
 		"vco_vmp_man_3_completed",
 		"MissionSucceeded",

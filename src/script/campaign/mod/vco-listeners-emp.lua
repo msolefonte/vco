@@ -18,13 +18,29 @@ local function trigger_markus_dilemma()
 end
 
 local function trigger_mar_quest()
-    cm:trigger_mission(FACTION_MARKUS_KEY, "wh2_dlc13_qb_emp_final_battle_wulfhart", true);
+    cm:trigger_mission(FACTION_MARKUS_KEY, "vco_wh2_dlc13_qb_emp_final_battle_wulfhart", true);
 end
 
 -- LISTENERS --
 
 local function add_listeners()
-	core:add_listener(
+    core:add_listener(
+        "vco_emp_vol_book_collected",
+        "MissionSucceeded",
+        function(context)
+            return context:faction():is_human() and
+                context:faction():name() == FACTION_VOLKMAR_KEY and
+                context:mission():mission_record_key():sub(1,26) == "wh2_dlc09_books_of_nagash_";
+        end,
+        function(context)
+            local book_number = string.sub(context:mission():mission_record_key(), -1);
+            vlc.nagash_books:add(FACTION_VOLKMAR_KEY, book_number);
+            vlc.nagash_books:check_all_books_collected(FACTION_VOLKMAR_KEY, 0);
+        end,
+        true
+    );
+
+core:add_listener(
 		"vco_emp_vol_3_completed",
 		"MissionSucceeded",
 		function(context)
