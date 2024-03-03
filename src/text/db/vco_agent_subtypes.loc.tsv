@@ -1,0 +1,6 @@
+key	text	tooltip
+#Loc;1;text/db/vco_agent_subtypes.loc		
+agent_subtypes_description_text_override_vco_wh_main_chs_archaon		false
+agent_subtypes_onscreen_name_override_vco_wh_main_chs_archaon	Legendary Lord	false
+agent_subtypes_description_text_override_vco_wh_main_grn_grimgor_ironbound		false
+agent_subtypes_onscreen_name_override_vco_wh_main_grn_grimgor_ironbound	Legendary Hero	false
